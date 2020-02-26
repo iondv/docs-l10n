@@ -1,0 +1,350 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, IONDV LLC
+# This file is distributed under the same license as the IONDV docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-24 04:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../7_develop/app-utils/button.rst:6
+msgid "Утилиты для кнопок действия"
+msgstr ""
+
+#: ../../7_develop/app-utils/button.rst:8
+#: ../../7_develop/app-utils/job.rst:8
+#: ../../7_develop/app-utils/print-form.rst:8
+#: ../../7_develop/app-utils/rest.rst:8
+#: ../../7_develop/app-utils/workflow.rst:8
+msgid "Назад: `Функциональные утилиты приложения <./readme.md>`_"
+msgstr ""
+
+#: ../../7_develop/app-utils/button.rst:10
+msgid "Утилиты для кнопок действия предназначены для автоматизации выполнения некоторых действий при нажатии кнопки в веб-форме. Кнопка подключается для веб-формы создания и редактирования объекта через массив ``commands`` основого объекта формы:"
+msgstr ""
+
+#: ../../7_develop/app-utils/button.rst:49
+msgid "На этой форме доступно три кнопки: ``SAVE``\\ , ``SAVEANDCLOSE`` и ``CREATE_INDICATOR_VALUE``.\\ :raw-html-m2r:`<br>` Пользовательские кнопки перед подключением к форме необходимо задать в ``deploy.json`` в объекте ``modules.registry.globals.di.actions.options.actions``\\ :"
+msgstr ""
+
+#: ../../7_develop/app-utils/button.rst:76
+msgid "А также указать параметры используемого кнопкой модуля-обработчика:"
+msgstr ""
+
+#: ../../7_develop/app-utils/button.rst:98
+msgid "В этом примере нажатие на кнопку ``CREATE_INDICATOR_VALUE`` запускает скрипт ``./applications/sakh-pm/lib/actions/createIndicatorValueHandler.js``."
+msgstr ""
+
+#: ../../7_develop/app-utils/button.rst:100
+msgid "Содержание скрипта:"
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:3
+msgid "Разработка функциональных утилит в приложении"
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:5
+msgid "Функциональные утилиты приложения предназначены для решения специфичных задач приложения, без реализации отдельной логики в виде модуля."
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:7
+msgid "Например - утилиты вызываемой задачей по расписанию или утилиты вызываемой при переходе в бизнес-процессе."
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:10
+msgid "Содержание"
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:21
+msgid "утилиты для `задач по расписанию <./job.md>`_"
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:22
+msgid "утилиты для `бизнес-процесса <./workflow.md>`_"
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:23
+msgid "утилиты для `кнопки действия <./button.md>`_"
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:24
+msgid "утилиты для `веб-сервиса (модуль REST) <./rest.md>`_"
+msgstr ""
+
+#: ../../7_develop/app-utils/index.rst:25
+msgid "утилиты для `печатных форм <./print-form.md>`_"
+msgstr ""
+
+#: ../../7_develop/app-utils/job.rst:6
+msgid "Утилиты для задач по расписанию"
+msgstr ""
+
+#: ../../7_develop/app-utils/job.rst:10
+msgid "Утилиты для задач по расписанию (jobs) предназначены для автоматизации регулярного выполнения некоторых действий через определенные промежутки времени.\\ :raw-html-m2r:`<br>` Для этого каждая утилита должна быть определена в deploy.json приложения в объекте globals.jobs, например:"
+msgstr ""
+
+#: ../../7_develop/app-utils/job.rst:34
+msgid "В ``di`` должно содержаться поле с именем, равном значению ``worker`` - это задача, которая будет запускаться."
+msgstr ""
+
+#: ../../7_develop/app-utils/job.rst:36
+msgid "Здесь по расписанию выполняется скрипт applications/khv-ticket-discount/lib/overnightTicketClose.js. ``launch`` может быть объектом, содержащим следующие поля:\\ :raw-html-m2r:`<br>` ``month``\\ , ``week``\\ , ``day``\\ , ``dayOfYear``\\ , ``weekday``\\ , ``hour``\\ , ``min``\\ , ``minute``\\ , ``sec``\\ , ``second`` - задают интервал между выполнениями задачи;\\ :raw-html-m2r:`<br>` ``check`` - интервал проверки условия выполнения, в милисекундах, по умолчанию - 1000.\\ :raw-html-m2r:`<br>` Например если ``check`` равен 5000, а ``sec`` - 2, задание будет выполняться лишь каждые 10 секунд, когда интервал между проверками совпадет с интервалом выполнения\\ :raw-html-m2r:`<br>` Если интервал выполнения задачи не задан, то она будет выполнена при запуске приложения и через каждый интервал проверки.\\ :raw-html-m2r:`<br>` ``timeout`` - время в милисекундах, после которого запущенная задача прерывается по таймауту;"
+msgstr ""
+
+#: ../../7_develop/app-utils/job.rst:44
+msgid "``launch`` также может равняться целому числу - интервалу выполнения задания в милисекундах, при этом задача также будет выполнена сразу при запуске приложения. Таймаут будет установлен равным интервалу выполнения."
+msgstr ""
+
+#: ../../7_develop/app-utils/job.rst:46
+msgid "В поле ``options`` могут быть указаны любые переменные и их значения, которые станут доступны в скрипте через поля объекта, передаваемого как аргумент основной функции модуля."
+msgstr ""
+
+#: ../../7_develop/app-utils/job.rst:48
+#: ../../7_develop/app-utils/rest.rst:31
+msgid "Скрипт составляется в формате модуля, например так:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:6
+msgid "Утилиты для печатных форм"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:10
+msgid "Утилиты для печатных форм (инжекторы) предназначены для обработки выводимых в шаблон данных, в том числе проведения промежуточных расчетов и форматирования.\\ :raw-html-m2r:`<br>` Печатную форму для которой будет использоваться инжектор необходимо определить в deploy.json, например:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:35
+msgid "В данном случае используется модуль listToDocx, следовательно в печатную форму будет выгружен список всех объектов определенного класса.\\ :raw-html-m2r:`<br>` Для каждого такого класса в tplDir нужно создать папку с названием пространства имен, в которую затем поместить файл с названием нужного для выгрузки класса из этого пространства имен, например:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:42
+msgid "Таким образом в документ будет выгружен список всех объектов класса ticketYear@khv-ticket-discount."
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:44
+msgid "Сама утилита представляет собой .js скрипт, подключаемый к приложению в формате модуля в deploy.json, например так:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:65
+msgid ".js файл здесь находится по пути \"module\"."
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:67
+msgid "После подключения утилиту необходимо включить в опции печатной формы:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:94
+msgid "Скрипт инжектора составляется в формате модуля, с тем условием, что он должен содержать функцию this.inject, в параметр которой будет передан объект с вложенным в него списком объектов заданного ранее класса, для примера из этой справки:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:100
+msgid "Пример файла monthTicketStats.js:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:125
+msgid "Пример конфигурации экспорта для данной формы в deploy.js:"
+msgstr ""
+
+#: ../../7_develop/app-utils/print-form.rst:177
+msgid "Здесь следует обратить внимание на поле params - в нем можно указать параметры, доступные в форме экспорта в веб сервисе приложения, по состоянию на 24.12.2019 возможны следующие типы параметров:\\ :raw-html-m2r:`<br>` \"string\" - строка для ввода текста,\\ :raw-html-m2r:`<br>` \"date\" - интерактивный календарь, в котором можно выбрать интересующую дату\\ :raw-html-m2r:`<br>` \"reference\" - ссылка на класс, в данном случае в окне экспорта будет отображен выпадающий список всех объектов класса.\\ :raw-html-m2r:`<br>` Переданные параметры будут доступны в скрипте через параметр функции this.inject."
+msgstr ""
+
+#: ../../7_develop/app-utils/rest.rst:6
+msgid "Утилиты для веб-сервиса (rest)"
+msgstr ""
+
+#: ../../7_develop/app-utils/rest.rst:10
+msgid "Утилиты веб-сервиса предназначены для реализации обработки различных видов запросов к серверу.\\ :raw-html-m2r:`<br>` Cервис подключается к приложению в deploy.json в объекте modules.rest.globals.di, например так:"
+msgstr ""
+
+#: ../../7_develop/app-utils/rest.rst:27
+msgid "В этом случае подключается сервис ``acceptor``\\ , он станет доступен для запросов по url ``https://dnt.iondv.com/rest/acceptor``.\\ :raw-html-m2r:`<br>` Функциональное описание взаимодействия с запросами должно содержаться в скрипте ``modules/rest/lib/impl/acceptor.js``.\\ :raw-html-m2r:`<br>` В поле ``options`` могут быть указаны любые переменные и их значения, которые станут доступны в скрипте через поля объекта, передаваемого как аргумент основной функции модуля."
+msgstr ""
+
+#: ../../7_develop/app-utils/rest.rst:58
+msgid "Подробное описание принципов создания сервиса можно найти в https://github.com/iondv/rest/blob/master/README_RU.md ``#### Разработка обработчика сервиса в приложении``"
+msgstr ""
+
+#: ../../7_develop/app-utils/workflow.rst:6
+msgid "Утилиты для бизнес-процесса"
+msgstr ""
+
+#: ../../7_develop/app-utils/workflow.rst:10
+msgid "Утилиты для бизнес-процесса предназначены для автоматизации выполнения некоторых действий при изменении статуса бизнес процесса. Утилита подключается к приложению в deploy.json в объекте globals.plugins, например так:"
+msgstr ""
+
+#: ../../7_develop/app-utils/workflow.rst:29
+msgid "Здесь подключается утилита ``wfEvents``. Скрипт, содержащий описание действий при изменении статуса бизнес-процесса находится по пути ``applications/sakh-pm/lib/wfEvents.js``.\\ :raw-html-m2r:`<br>` В поле ``options`` могут быть указаны любые переменные и их значения, которые станут доступны в скрипте через поля объекта, передаваемого как аргумент основной функции модуля."
+msgstr ""
+
+#: ../../7_develop/app-utils/workflow.rst:32
+msgid "Скрипт составляется в формате модуля, при условии, что он должен включать метод init, например так:"
+msgstr ""
+
+#: ../../7_develop/app-utils/workflow.rst:80
+msgid "В этом скрипте описаны действия, которые нужно выполнить при изменении статуса у бизнес-процесса ``assignmentBasic@sakh-pm`` на ``fin``\\ , и у бизнес-процесса ``proposal@sakh-pm`` на ``cancel``."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:3
+msgid "Ключевые функции ядра: dataRepo"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:5
+msgid "//dataRepo info from"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:9
+msgid "core\\impl\\datarepository\\ionDataRepository.js"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:10
+msgid "core\\interfaces\\DataRepository\\DataRepository.js"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:11
+msgid "core\\interfaces\\MetaRepository\\MetaRepository.js"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:12
+msgid "core\\impl\\meta\\DsMetaRepository.js"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:13
+msgid "#. core\\iterfaces\\DataSource.js #."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:15
+msgid "core\\impl\\datasource\\mongodb.js // supported calls:"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:20
+msgid "wrap(className, data, [version], [options]) supported options: user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:26
+msgid "setValidators(validators[]) ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:30
+msgid "getCount(obj, [options]) supported options: filter"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:34
+msgid "Возвращает количество объектов класса obj в базе данных. ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:38
+msgid "getList(obj, [options]) supported options: filter offset count sort countTotal nestingDepth env user"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:49
+msgid "Возвращает список объектов класса obj в базе данных. ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:53
+msgid "getIterator(obj, [options]) supported options: filter offset count sort countTotal nestingDepth env user"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:64
+msgid "предположительно https://docs.mongodb.com/manual/tutorial/iterate-a-cursor/ ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:68
+msgid "aggregate(className, [options]) supported options: user expressions filter groupBy"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:75
+msgid "предположительно https://docs.mongodb.com/manual/aggregation/"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:77
+msgid "..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:81
+msgid "rawData(className, [options]) supported options: user filter attributes distinct"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:88
+msgid "https://docs.mongodb.com/manual/reference/method/db.collection.find/ ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:93
+msgid "getItem(obj, [id], [options]) supported options: filter nestingDepth user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:101
+msgid "createItem(className, data, [version], [changeLogger], [options]) supported options: nestingDepth skipResult adjustAutoInc user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:110
+msgid "editItem(className, id, data, [changeLogger], [options]) supported options: nestingDepth skipResult adjustAutoInc user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:119
+msgid "saveItem(className, id, data, [version], [changeLogger], [options]) supported options: nestingDepth autoAssign skipResult adjustAutoInc user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:129
+msgid "deleteItem(className, id, [changeLogger], [options]) supported options: user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:135
+msgid "put(master, collection, details, [changeLogger], [options]) supported options: user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:141
+msgid "eject(master, collection, details, [changeLogger], [options]) supported options: user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:147
+msgid "getAssociationsList(master, collection, [options]) supported options: filter offset count sort countTotal nestingDepth user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:159
+msgid "getAssociationsCount(master, collection, [options]) supported options: filter offset count sort countTotal nestingDepth user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:171
+msgid "bulkEdit(classname, data, [options]) supported options: filter nestingDepth forceEnrichment user ..."
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:180
+msgid "bulkDelete(classname, [options]) supported options: filter user"
+msgstr ""
+
+#: ../../7_develop/core/dataRepo.rst:186
+msgid "recache(item, [options]) ..."
+msgstr ""
+
+#: ../../7_develop/fieldTemplate.rst:6
+msgid "Использование шаблонов для полей ввода данных в веб-форме"
+msgstr ""
+
+#: ../../7_develop/fieldTemplate.rst:8
+msgid "Шаблоны предназначены для задания пользовательских параметров построения полей ввода данных в веб-форме.\\ :raw-html-m2r:`<br>` Для подключения шаблона к полю веб-формы, необходимо указать его в опциях соответствующего поля json формы:"
+msgstr ""
+
+#: ../../7_develop/fieldTemplate.rst:28
+msgid "Шаблоны в формате ``.ejs`` загружаются по пути, указанном в ``modules.registry.globals.templates`` из ``deploy.json``.\\ :raw-html-m2r:`<br>` Например, если указан путь ``applications/khv-ticket-discount/templates/registry``\\ , то в прошлом примере для поля ``property`` будет загружен скрипт ``applications/khv-ticket-discount/templates/registry/capitalize.ejs``."
+msgstr ""
+
+#: ../../7_develop/fieldTemplate.rst:31
+msgid "Скрипт будет выполнен при загрузке поля в веб-форме. Синтаксис стандартный для ejs.\\ :raw-html-m2r:`<br>` Внутри скрипта доступны некоторые элементы веб-формы, подробнее: `Опции <docs/ru/2_system_description/metadata_structure/meta_view/options.md>`_."
+msgstr ""
+
+#: ../../7_develop/fieldTemplate.rst:34
+msgid "Пример скрипта для автоматической замены в текстовом поле ввода нижнего регистра букв на верхний и буквы \"ö\" на \"o\":"
+msgstr ""
+
+#: ../../7_develop/index.rst:2
+msgid "7. Расширение стандартной функциональности и разработка"
+msgstr ""
