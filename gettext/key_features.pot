@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, IONDV LLC
-# This file is distributed under the same license as the IONDV docs package.
+# Copyright (C) 2016-2020, IONDV LLC and the IONDV community (Apache 2.0)
+# This file is distributed under the same license as the IONDV Framework docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: IONDV docs \n"
+"Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-24 04:41+0000\n"
+"POT-Creation-Date: 2020-02-26 07:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,318 +16,318 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../key_features.rst:6
+#: ../docs-ru/key_features.rst:6
 msgid "Функциональность IONDV. Framework и его модулей"
 msgstr ""
 
-#: ../../key_features.rst:9
+#: ../docs-ru/key_features.rst:9
 msgid "IONDV. Framework"
 msgstr ""
 
-#: ../../key_features.rst:11
+#: ../docs-ru/key_features.rst:11
 msgid "**IONDV. Framework** обеспечивает реализацию следующей функциональности:"
 msgstr ""
 
-#: ../../key_features.rst:14
+#: ../docs-ru/key_features.rst:14
 msgid "обеспечение трансляции описательных метаданных в структуру хранения данных в СУБД;"
 msgstr ""
 
-#: ../../key_features.rst:15
+#: ../docs-ru/key_features.rst:15
 msgid "обеспечение функциональности работы с различными СУБД (ORM технологию);"
 msgstr ""
 
-#: ../../key_features.rst:16
+#: ../docs-ru/key_features.rst:16
 msgid "обеспечение авторизации в системе с различными политиками, по умолчанию oath2, с открытым конфигурируемым API для подключения авторизационных модулей библиотеки passport обеспечивает до 500 различных политик авторизации;"
 msgstr ""
 
-#: ../../key_features.rst:17
+#: ../docs-ru/key_features.rst:17
 msgid "обеспечение безопасности доступа к данным – статической к типам данных, к навигации, к этапам бизнес-процессов, к действиям на форме; динамической – через условия в данных, которым должен соответствовать профиль текущего пользователя (принадлежность к подразделению или организации указанной в объекте, группе или другим условиям); через url; обеспечение исключения в авторизации и безопасности по url или для специального пользователя;"
 msgstr ""
 
-#: ../../key_features.rst:18
+#: ../docs-ru/key_features.rst:18
 msgid "подключение модулей, обеспечивающих дополнительную функциональность и реализуемую через доступ к интерфейсам (API) ядра;"
 msgstr ""
 
-#: ../../key_features.rst:19
+#: ../docs-ru/key_features.rst:19
 msgid "обеспечение импорта, экспорта данных в системе, метаданных, безопасности из файлов;"
 msgstr ""
 
-#: ../../key_features.rst:20
+#: ../docs-ru/key_features.rst:20
 msgid "обеспечение взаимодействия с файловой системой для хранения данных, в том числе с внешними файловыми хранилищами, такими как nextcloud;"
 msgstr ""
 
-#: ../../key_features.rst:21
+#: ../docs-ru/key_features.rst:21
 msgid "расчет значения с формулами и кэширование этих данных;"
 msgstr ""
 
-#: ../../key_features.rst:22
+#: ../docs-ru/key_features.rst:22
 msgid "обеспечение жадной загрузки данных и их фильтрации в связанных коллекциях;"
 msgstr ""
 
-#: ../../key_features.rst:23
+#: ../docs-ru/key_features.rst:23
 msgid "кэширование запросов и сессий в memcached, redis;"
 msgstr ""
 
-#: ../../key_features.rst:24
+#: ../docs-ru/key_features.rst:24
 msgid "выполнение задач по расписанию;"
 msgstr ""
 
-#: ../../key_features.rst:25
+#: ../docs-ru/key_features.rst:25
 msgid "уведомление пользователей по событиям."
 msgstr ""
 
-#: ../../key_features.rst:28
+#: ../docs-ru/key_features.rst:28
 msgid "Модули"
 msgstr ""
 
-#: ../../key_features.rst:30
+#: ../docs-ru/key_features.rst:30
 msgid "Дополнительная функциональность, реализуется стандартными подключаемыми модулями."
 msgstr ""
 
-#: ../../key_features.rst:33
+#: ../docs-ru/key_features.rst:33
 msgid "Модуль учета данных registry:"
 msgstr ""
 
-#: ../../key_features.rst:36
+#: ../docs-ru/key_features.rst:36
 msgid "отображение навигации в иерархическом виде;"
 msgstr ""
 
-#: ../../key_features.rst:37
+#: ../docs-ru/key_features.rst:37
 msgid "отображение списков объектов данных по условиям навигации, фильтров, результатов поиска;"
 msgstr ""
 
-#: ../../key_features.rst:38
+#: ../docs-ru/key_features.rst:38
 msgid "возможность создания объектов;"
 msgstr ""
 
-#: ../../key_features.rst:39
+#: ../docs-ru/key_features.rst:39
 msgid "отображение унифицированных форм объектов с возможностью редактирования, удаления, изменения бизнес-процессов, реализации условия отображения и перегрузки представления формы по бизнес-процессу;"
 msgstr ""
 
-#: ../../key_features.rst:40
+#: ../docs-ru/key_features.rst:40
 msgid "отображение различных типов атрибутов, включая связанные в виде таблиц или ссылок, геообъектов (включая поиск координат по адресу);"
 msgstr ""
 
-#: ../../key_features.rst:41
+#: ../docs-ru/key_features.rst:41
 msgid "отображение данных по их семантике (условиям изменениям);"
 msgstr ""
 
-#: ../../key_features.rst:42
+#: ../docs-ru/key_features.rst:42
 msgid "возможность изменения отображения и взаимодействия с атрибутами объектов через кастомизированные HTML шаблоны, получающие данные по REST-API;"
 msgstr ""
 
-#: ../../key_features.rst:43
+#: ../docs-ru/key_features.rst:43
 msgid "подготовка печатных форм в формате docx и xlsx на основе списков или данных объектов;"
 msgstr ""
 
-#: ../../key_features.rst:44
+#: ../docs-ru/key_features.rst:44
 msgid "отображение уведомлений пользователей;"
 msgstr ""
 
-#: ../../key_features.rst:45
+#: ../docs-ru/key_features.rst:45
 msgid "возможность реализации собственных кнопок действий с серверной обработкой данных."
 msgstr ""
 
-#: ../../key_features.rst:48
+#: ../docs-ru/key_features.rst:48
 msgid "Модуль отчетности и аналитики - report:"
 msgstr ""
 
-#: ../../key_features.rst:51
+#: ../docs-ru/key_features.rst:51
 msgid "формирование выходных рассчитываемых форм, с возможностью фильтрации по значениям;"
 msgstr ""
 
-#: ../../key_features.rst:52
+#: ../docs-ru/key_features.rst:52
 msgid "фильтрация данных;"
 msgstr ""
 
-#: ../../key_features.rst:53
+#: ../docs-ru/key_features.rst:53
 msgid "математические операции над данными;"
 msgstr ""
 
-#: ../../key_features.rst:54
+#: ../docs-ru/key_features.rst:54
 msgid "pivot таблицы;"
 msgstr ""
 
-#: ../../key_features.rst:55
+#: ../docs-ru/key_features.rst:55
 msgid "REST API к данным отчетов."
 msgstr ""
 
-#: ../../key_features.rst:58
+#: ../docs-ru/key_features.rst:58
 msgid "Модуль представления данных с геокоординатами – geomap:"
 msgstr ""
 
-#: ../../key_features.rst:61
+#: ../docs-ru/key_features.rst:61
 msgid "реализация слоев данных с фильтрацией по условиям;"
 msgstr ""
 
-#: ../../key_features.rst:62
+#: ../docs-ru/key_features.rst:62
 msgid "возможность задавать иконки представления данных по типам данных;"
 msgstr ""
 
-#: ../../key_features.rst:63
+#: ../docs-ru/key_features.rst:63
 msgid "отображение всплывающего окошка с краткой информацией по объекту;"
 msgstr ""
 
-#: ../../key_features.rst:64
+#: ../docs-ru/key_features.rst:64
 msgid "отображение шаблона подробной информации по объекту;"
 msgstr ""
 
-#: ../../key_features.rst:65
+#: ../docs-ru/key_features.rst:65
 msgid "поиск объектов;"
 msgstr ""
 
-#: ../../key_features.rst:66
+#: ../docs-ru/key_features.rst:66
 msgid "фильтрация по произвольно указанной границе;"
 msgstr ""
 
-#: ../../key_features.rst:67
+#: ../docs-ru/key_features.rst:67
 msgid "районирование и фильтрация по границам районов;"
 msgstr ""
 
-#: ../../key_features.rst:68
+#: ../docs-ru/key_features.rst:68
 msgid "подключение данных модуля report, в том числе с расчетными данными по району."
 msgstr ""
 
-#: ../../key_features.rst:71
+#: ../docs-ru/key_features.rst:71
 msgid "Модули интеграции по REST и SOAP со стандартными API с учетом безопасности пользователя:"
 msgstr ""
 
-#: ../../key_features.rst:74
+#: ../docs-ru/key_features.rst:74
 msgid "различные настраиваемые типы авторизации: в заголовке, токен (включение сервис получение токена после авторизации в заголовке), без авторизации;"
 msgstr ""
 
-#: ../../key_features.rst:75
+#: ../docs-ru/key_features.rst:75
 msgid "получения списков объектов каждого типа с различными условиями фильтрации;"
 msgstr ""
 
-#: ../../key_features.rst:76
+#: ../docs-ru/key_features.rst:76
 msgid "сервис CRUD для любых типов данных;"
 msgstr ""
 
-#: ../../key_features.rst:77
+#: ../docs-ru/key_features.rst:77
 msgid "сервис переходов по этапам бизнес-процессов;"
 msgstr ""
 
-#: ../../key_features.rst:78
+#: ../docs-ru/key_features.rst:78
 msgid "сервис получения метаданных;"
 msgstr ""
 
-#: ../../key_features.rst:79
+#: ../docs-ru/key_features.rst:79
 msgid "возможность подключения произвольных собственных сервисов обработки."
 msgstr ""
 
-#: ../../key_features.rst:82
+#: ../docs-ru/key_features.rst:82
 msgid "Модуль дашбордов - dashboard:"
 msgstr ""
 
-#: ../../key_features.rst:85
+#: ../docs-ru/key_features.rst:85
 msgid "обеспечение формирования информационных блоков с цифровыми и графическими данными;"
 msgstr ""
 
-#: ../../key_features.rst:86
+#: ../docs-ru/key_features.rst:86
 msgid "позволяет настраивать несколько групп представлений и кастомизировать для каждого пользователя."
 msgstr ""
 
-#: ../../key_features.rst:89
+#: ../docs-ru/key_features.rst:89
 msgid "Модуль администрирования - ionadmin:"
 msgstr ""
 
-#: ../../key_features.rst:92
+#: ../docs-ru/key_features.rst:92
 msgid "обеспечивает ведение пользователей, прав и ролей, блокировку пользователей;"
 msgstr ""
 
-#: ../../key_features.rst:93
+#: ../docs-ru/key_features.rst:93
 msgid "формирование ключей безопасности (токенов) для интеграционных сервисов;"
 msgstr ""
 
-#: ../../key_features.rst:94
+#: ../docs-ru/key_features.rst:94
 msgid "мониторинг ключевых серверных ресурсов (с использованием модуля дашборд);"
 msgstr ""
 
-#: ../../key_features.rst:95
+#: ../docs-ru/key_features.rst:95
 msgid "анализ выполнения медленных запросов СУБД;"
 msgstr ""
 
-#: ../../key_features.rst:96
+#: ../docs-ru/key_features.rst:96
 msgid "настройку задач по расписанию;"
 msgstr ""
 
-#: ../../key_features.rst:97
+#: ../docs-ru/key_features.rst:97
 msgid "отслеживание изменений объектов системы;"
 msgstr ""
 
-#: ../../key_features.rst:98
+#: ../docs-ru/key_features.rst:98
 msgid "осуществление резервирования данных и метаданных;"
 msgstr ""
 
-#: ../../key_features.rst:99
+#: ../docs-ru/key_features.rst:99
 msgid "пересчет кешей семантики и формул;"
 msgstr ""
 
-#: ../../key_features.rst:100
+#: ../docs-ru/key_features.rst:100
 msgid "управление уведомлениями."
 msgstr ""
 
-#: ../../key_features.rst:103
+#: ../docs-ru/key_features.rst:103
 msgid "Модуль создания произвольных веб-страниц - portal:"
 msgstr ""
 
-#: ../../key_features.rst:106
+#: ../docs-ru/key_features.rst:106
 msgid "регистрацию произвольных страниц по адресу обработки (маршруту);"
 msgstr ""
 
-#: ../../key_features.rst:107
+#: ../docs-ru/key_features.rst:107
 msgid "регистрацию статического контента;"
 msgstr ""
 
-#: ../../key_features.rst:108
+#: ../docs-ru/key_features.rst:108
 msgid "управление безопасностью доступа;"
 msgstr ""
 
-#: ../../key_features.rst:109
+#: ../docs-ru/key_features.rst:109
 msgid "поддержку рендеринга страниц из шаблонов EJS."
 msgstr ""
 
-#: ../../key_features.rst:112
+#: ../docs-ru/key_features.rst:112
 msgid "Приложение IONDV. Studio для создания метаданных:"
 msgstr ""
 
-#: ../../key_features.rst:115
+#: ../docs-ru/key_features.rst:115
 msgid "создание навигации;"
 msgstr ""
 
-#: ../../key_features.rst:116
+#: ../docs-ru/key_features.rst:116
 msgid "создание структуры классов;"
 msgstr ""
 
-#: ../../key_features.rst:117
+#: ../docs-ru/key_features.rst:117
 msgid "создание представлений для классов;"
 msgstr ""
 
-#: ../../key_features.rst:118
+#: ../docs-ru/key_features.rst:118
 msgid "создание бизнес-процессов;"
 msgstr ""
 
-#: ../../key_features.rst:119
+#: ../docs-ru/key_features.rst:119
 msgid "базовая настройка приложения;"
 msgstr ""
 
-#: ../../key_features.rst:120
+#: ../docs-ru/key_features.rst:120
 msgid "экспорт и импорт метаданных;"
 msgstr ""
 
-#: ../../key_features.rst:121
+#: ../docs-ru/key_features.rst:121
 msgid "работа в стендалоне режиме с файлами проекта;"
 msgstr ""
 
-#: ../../key_features.rst:122
+#: ../docs-ru/key_features.rst:122
 msgid "работа онлайн с несколькими проектами, размещаемыми в хранилище браузера."
 msgstr ""
 
-#: ../../key_features.rst:127
+#: ../docs-ru/key_features.rst:127
 msgid "`License <https://github.com/iondv/framework/blob/master/LICENSE>`_                      `Contact us <https://iondv.com/portal/contacts>`_                      `English <https://iondv.readthedocs.io/en/latest/index.html>`_"
 msgstr ""
 
-#: ../../key_features.rst:137
+#: ../docs-ru/key_features.rst:137
 msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
 msgstr ""

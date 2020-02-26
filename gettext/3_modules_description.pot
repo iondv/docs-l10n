@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, IONDV LLC
-# This file is distributed under the same license as the IONDV docs package.
+# Copyright (C) 2016-2020, IONDV LLC and the IONDV community (Apache 2.0)
+# This file is distributed under the same license as the IONDV Framework docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: IONDV docs \n"
+"Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-24 04:41+0000\n"
+"POT-Creation-Date: 2020-02-26 07:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,2011 +16,2011 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../3_modules_description/account.rst:5
+#: ../docs-ru/3_modules_description/account.rst:5
 msgid "Личный кабинет"
 msgstr ""
 
-#: ../../3_modules_description/account.rst:7
-#: ../../3_modules_description/admin.rst:7
-#: ../../3_modules_description/admin_security.rst:6
-#: ../../3_modules_description/dashboards.rst:7
-#: ../../3_modules_description/gantt_chart.rst:7
-#: ../../3_modules_description/modules.rst:6
-#: ../../3_modules_description/portal.rst:7
-#: ../../3_modules_description/registry.rst:7
-#: ../../3_modules_description/registry_code.rst:6
-#: ../../3_modules_description/registry_treegrid.rst:6
-#: ../../3_modules_description/report.rst:7
-#: ../../3_modules_description/soap.rst:7
+#: ../docs-ru/3_modules_description/account.rst:7
+#: ../docs-ru/3_modules_description/admin.rst:7
+#: ../docs-ru/3_modules_description/admin_security.rst:6
+#: ../docs-ru/3_modules_description/dashboards.rst:7
+#: ../docs-ru/3_modules_description/gantt_chart.rst:7
+#: ../docs-ru/3_modules_description/modules.rst:6
+#: ../docs-ru/3_modules_description/portal.rst:7
+#: ../docs-ru/3_modules_description/registry.rst:7
+#: ../docs-ru/3_modules_description/registry_code.rst:6
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:6
+#: ../docs-ru/3_modules_description/report.rst:7
+#: ../docs-ru/3_modules_description/soap.rst:7
 msgid "`Оглавление </docs/ru/index.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/account.rst:9
-#: ../../3_modules_description/admin.rst:9
-#: ../../3_modules_description/dashboards.rst:9
-#: ../../3_modules_description/gantt_chart.rst:9
-#: ../../3_modules_description/portal.rst:9
-#: ../../3_modules_description/registry.rst:9
-#: ../../3_modules_description/report.rst:9
-#: ../../3_modules_description/soap.rst:9
+#: ../docs-ru/3_modules_description/account.rst:9
+#: ../docs-ru/3_modules_description/admin.rst:9
+#: ../docs-ru/3_modules_description/dashboards.rst:9
+#: ../docs-ru/3_modules_description/gantt_chart.rst:9
+#: ../docs-ru/3_modules_description/portal.rst:9
+#: ../docs-ru/3_modules_description/registry.rst:9
+#: ../docs-ru/3_modules_description/report.rst:9
+#: ../docs-ru/3_modules_description/soap.rst:9
 msgid "Назад: `Модули <modules.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/account.rst:11
+#: ../docs-ru/3_modules_description/account.rst:11
 msgid "**Личный кабинет**\\ - нужен для отображения различных \"инструментальных\" форм, т.е. в приложениях мы заводим навигацию (или сами формы-страницы), модуль считывает их, формирует на основании них навигацию, и логику отображения этих страниц."
 msgstr ""
 
-#: ../../3_modules_description/account.rst:14
+#: ../docs-ru/3_modules_description/account.rst:14
 msgid "Настройка модуля"
 msgstr ""
 
-#: ../../3_modules_description/account.rst:17
+#: ../docs-ru/3_modules_description/account.rst:17
 msgid "В приложении в некую директорию кладем html-страницы."
 msgstr ""
 
-#: ../../3_modules_description/account.rst:18
+#: ../docs-ru/3_modules_description/account.rst:18
 msgid "В deploy.json в настройках модуля ЛК прописываем эту директорию, а также опционально хеш-массив соответствия между именем файла и отображаемым названием."
 msgstr ""
 
-#: ../../3_modules_description/account.rst:19
+#: ../docs-ru/3_modules_description/account.rst:19
 msgid "ЛК считывает эти настройки и в мастер-шаблоне отображает меню навигации ЛК."
 msgstr ""
 
-#: ../../3_modules_description/account.rst:20
+#: ../docs-ru/3_modules_description/account.rst:20
 msgid "По клику на пункте меню в рабочей области окна ЛК отображается соответствующая разметка из html-файла."
 msgstr ""
 
-#: ../../3_modules_description/account.rst:21
+#: ../docs-ru/3_modules_description/account.rst:21
 msgid "Также в deploy.json в настройках модуля ЛК указывается страница-инструмент по умолчанию, если не указан берется первый считанный по порядку."
 msgstr ""
 
-#: ../../3_modules_description/account.rst:23
+#: ../docs-ru/3_modules_description/account.rst:23
 msgid "Также есть возможность структурирования меню посредством вложенности директорий."
 msgstr ""
 
-#: ../../3_modules_description/account.rst:28
+#: ../docs-ru/3_modules_description/account.rst:28
 msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/3_modules_description/account.md>`_ &ensp;"
 msgstr ""
 
-#: ../../3_modules_description/account.rst:38
-#: ../../3_modules_description/admin.rst:112
-#: ../../3_modules_description/admin_security.rst:204
-#: ../../3_modules_description/dashboards.rst:123
-#: ../../3_modules_description/gantt_chart.rst:159
-#: ../../3_modules_description/image-storage.rst:63
-#: ../../3_modules_description/modules.rst:52
-#: ../../3_modules_description/portal.rst:242
-#: ../../3_modules_description/registry.rst:74
-#: ../../3_modules_description/registry_code.rst:95
-#: ../../3_modules_description/registry_treegrid.rst:139
-#: ../../3_modules_description/report.rst:59
-#: ../../3_modules_description/report_warning.rst:80
-#: ../../3_modules_description/soap.rst:103
+#: ../docs-ru/3_modules_description/account.rst:38
+#: ../docs-ru/3_modules_description/admin.rst:112
+#: ../docs-ru/3_modules_description/admin_security.rst:204
+#: ../docs-ru/3_modules_description/dashboards.rst:123
+#: ../docs-ru/3_modules_description/gantt_chart.rst:159
+#: ../docs-ru/3_modules_description/image-storage.rst:63
+#: ../docs-ru/3_modules_description/modules.rst:52
+#: ../docs-ru/3_modules_description/portal.rst:242
+#: ../docs-ru/3_modules_description/registry.rst:74
+#: ../docs-ru/3_modules_description/registry_code.rst:95
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:139
+#: ../docs-ru/3_modules_description/report.rst:59
+#: ../docs-ru/3_modules_description/report_warning.rst:80
+#: ../docs-ru/3_modules_description/soap.rst:103
 msgid "Copyright (c) 2018 **LLC \"ION DV\".**\\ :raw-html-m2r:`<br>` All rights reserved."
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:5
+#: ../docs-ru/3_modules_description/admin.rst:5
 msgid "Модуль ionadmin"
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:11
+#: ../docs-ru/3_modules_description/admin.rst:11
 msgid "**Модуль администрирования (ionadmin)** – используется для назначения прав, управления задачами по расписанию и другими административными задачами."
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:14
+#: ../docs-ru/3_modules_description/admin.rst:14
 msgid "Настройка модуля Ionadmin в файле config.json"
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:17
+#: ../docs-ru/3_modules_description/admin.rst:17
 msgid "Настройка записи в БД интервалов"
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:19
+#: ../docs-ru/3_modules_description/admin.rst:19
 msgid "Настройка в виде модального окна на списке медленных запросов. В в файле config.json модуля ionadmin указывать источник:"
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:34
+#: ../docs-ru/3_modules_description/admin.rst:34
 msgid "Если свойство ``\"sources\"`` не задано или null, то будет браться из таблицы:"
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:46
+#: ../docs-ru/3_modules_description/admin.rst:46
 msgid "Если задан пустой массив, то источников нет."
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:49
+#: ../docs-ru/3_modules_description/admin.rst:49
 msgid "Настройка источников логов"
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:51
+#: ../docs-ru/3_modules_description/admin.rst:51
 msgid "Источники логов (может быть несколько) указываются в конфиге модуля:"
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:68
+#: ../docs-ru/3_modules_description/admin.rst:68
 msgid "Сделанные выборки хранятся в отдельной таблице и не зависят от текущего состояния источников логов. Их можно дополнить редактированием. Например, комментариями или пометками решена проблема или нет."
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:71
+#: ../docs-ru/3_modules_description/admin.rst:71
 msgid "Настройка резервирования БД"
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:73
+#: ../docs-ru/3_modules_description/admin.rst:73
 msgid "Настройка в *ionmodule/config*\\ :"
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:86
+#: ../docs-ru/3_modules_description/admin.rst:86
 msgid "``dir`` содержит путь папки, в которой было запущено приложение ноды. По умолчанию *\"../ion-backups\"*"
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:89
+#: ../docs-ru/3_modules_description/admin.rst:89
 msgid "``zlib.level`` - уровень сжатия, также влияет на скорость создания архива. По умолчанию - значение 3"
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:92
+#: ../docs-ru/3_modules_description/admin.rst:92
 msgid "К тому же необходимо что бы утилита ``export.js`` с заданными параметрами корректно отрабатывала сама по себе."
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:95
+#: ../docs-ru/3_modules_description/admin.rst:95
 msgid "Руководство пользователя по безопасности"
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:97
+#: ../docs-ru/3_modules_description/admin.rst:97
 msgid "Руководство пользователя по безопасности находится `здесь <admin_security.md>`_."
 msgstr ""
 
-#: ../../3_modules_description/admin.rst:102
+#: ../docs-ru/3_modules_description/admin.rst:102
 msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/3_modules_description/admin.md>`_ &ensp;"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:9
+#: ../docs-ru/3_modules_description/admin_security.rst:9
 msgid "Назад: `Модуль ionadmin <admin.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:12
+#: ../docs-ru/3_modules_description/admin_security.rst:12
 msgid "Безопасность"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:15
+#: ../docs-ru/3_modules_description/admin_security.rst:15
 msgid "Инициализация"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:17
+#: ../docs-ru/3_modules_description/admin_security.rst:17
 msgid "При первичной настройке безопасности надо выполнить следующее:"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:19
+#: ../docs-ru/3_modules_description/admin_security.rst:19
 msgid "Синхронизировать права, чтобы права, заведенные через утилиту acl, появились в админке. Для этого на странице ``/ionadmin/security/sync`` жмем кнопку ``\"Синхронизация прав доступа\"``."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:21
+#: ../docs-ru/3_modules_description/admin_security.rst:21
 msgid "По завершении будет сообщение ``\"Синхронизация прав доступа успешно проведена!\"``."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:23
+#: ../docs-ru/3_modules_description/admin_security.rst:23
 msgid "Сделать импорт ресурсов. Если на странице ``/ionadmin/security/resource`` нет объектов или их действительно мало, тогда надо выполнить импорт ресурсов."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:25
+#: ../docs-ru/3_modules_description/admin_security.rst:25
 msgid "Выполняется на странице ``/ionadmin/security/sync`` по кнопке ``\"Импорт ресурсов\"``."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:27
+#: ../docs-ru/3_modules_description/admin_security.rst:27
 msgid "По завершении будет сообщение ``\"Импорт успешно завершен!\"``."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:30
+#: ../docs-ru/3_modules_description/admin_security.rst:30
 msgid "Управление ролями"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:32
+#: ../docs-ru/3_modules_description/admin_security.rst:32
 msgid "На странице ``/ionadmin/security/role`` можно создавать, редактировать или удалять роли:"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:34
+#: ../docs-ru/3_modules_description/admin_security.rst:34
 msgid "Создание роли. Для создания роли на странице ``/ionadmin/security/role`` нажимаем кнопку \"Создать\""
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:36
+#: ../docs-ru/3_modules_description/admin_security.rst:36
 msgid "Происходит переход на новую страницу, где надо указать идентификатор роли на английском языке. Нажимаем на кнопку \"Сохранить\" для подтверждения создания указанной роли"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:38
+#: ../docs-ru/3_modules_description/admin_security.rst:38
 msgid "Редактирование роли. Для редактирования роли на странице ``/ionadmin/security/role`` выбираем необходимую роль и нажимаем кнопку \"Править\""
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:40
-#: ../../3_modules_description/admin_security.rst:97
+#: ../docs-ru/3_modules_description/admin_security.rst:40
+#: ../docs-ru/3_modules_description/admin_security.rst:97
 msgid "Происходит переход на новую страницу, где на форме отображаются следующие поля:"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:42
+#: ../docs-ru/3_modules_description/admin_security.rst:42
 msgid "``Идентификатор`` - выражение на английском языке для присваивания уникального имени роли. При ее изменении могут слететь права у пользователей, которые ранее привязали данную роль со старым идентификатором. Надо тогда каждому пользователю привязать роль заново."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:44
+#: ../docs-ru/3_modules_description/admin_security.rst:44
 msgid "``Название`` - осмысленное название роли, может содержать выражения на русском языке."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:46
+#: ../docs-ru/3_modules_description/admin_security.rst:46
 msgid "``Права доступа`` - вкладки для раздачи прав:"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:50
+#: ../docs-ru/3_modules_description/admin_security.rst:50
 msgid "Общие - пока используется для раздачи роли доступа ко всем ресурсам (* - все ресурсы)"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:53
+#: ../docs-ru/3_modules_description/admin_security.rst:53
 msgid "Навигация - используется для раздачи роли доступа к меню модуля регистра. Сначала отображается системное наименование проекта, у которого есть знак плюса для отображения внутренних и импортированных ресурсов. Раздаются в данном пункте пока только права на чтение меню."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:56
+#: ../docs-ru/3_modules_description/admin_security.rst:56
 msgid "Классы - используется для раздачи роли доступа к классам метаданных. Сначала отображается системное наименование проекта, у которого есть знак плюса для отображения внутренних и импортированных ресурсов. У этих ресурсов можно задать отдельные права по каждому ресурсу."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:58
+#: ../docs-ru/3_modules_description/admin_security.rst:58
 msgid "Удаление роли. Для удаления роли на странице ``/ionadmin/security/role`` выбираем необходимую роль и нажимаем кнопку \"Удалить\""
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:60
+#: ../docs-ru/3_modules_description/admin_security.rst:60
 msgid "Подтверждаем удаление роли:"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:63
+#: ../docs-ru/3_modules_description/admin_security.rst:63
 msgid "Доступ к ресурсу"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:65
+#: ../docs-ru/3_modules_description/admin_security.rst:65
 msgid "При управлении ролями в правах доступа предоставляются следующие доступы к каждому ресурсу:"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:70
+#: ../docs-ru/3_modules_description/admin_security.rst:70
 msgid "Доступ"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:71
+#: ../docs-ru/3_modules_description/admin_security.rst:71
 msgid "Описание доступа"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:72
+#: ../docs-ru/3_modules_description/admin_security.rst:72
 msgid "Полный доступ"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:73
+#: ../docs-ru/3_modules_description/admin_security.rst:73
 msgid "Включает в себя все остальные  доступы. Нельзя выбрать полный доступ и еще дополнительный доступ на чтение, запись, удаление или использование. Для навигации предоставляется доступ только на чтение ресурса."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:74
+#: ../docs-ru/3_modules_description/admin_security.rst:74
 msgid "Чтение"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:75
+#: ../docs-ru/3_modules_description/admin_security.rst:75
 msgid "Возможность чтение объектов ресурса"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:76
+#: ../docs-ru/3_modules_description/admin_security.rst:76
 msgid "Запись"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:77
+#: ../docs-ru/3_modules_description/admin_security.rst:77
 msgid "Возможность редактирования объектов ресурса, не применяется для навигации"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:78
+#: ../docs-ru/3_modules_description/admin_security.rst:78
 msgid "Удаление"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:79
+#: ../docs-ru/3_modules_description/admin_security.rst:79
 msgid "Возможность удаления объектов ресурса, не применяется для навигации"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:80
+#: ../docs-ru/3_modules_description/admin_security.rst:80
 msgid "Использование"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:81
+#: ../docs-ru/3_modules_description/admin_security.rst:81
 msgid "Возможность создания объектов ресурса, не применяется для навигации"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:84
+#: ../docs-ru/3_modules_description/admin_security.rst:84
 msgid "Доступ может назначаться всей группе ресурсов или отдельно каждому ресурсу и доступу в нем."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:89
+#: ../docs-ru/3_modules_description/admin_security.rst:89
 msgid "На странице ``/ionadmin/security/user`` можно создавать, редактировать или удалять пользователей:"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:91
+#: ../docs-ru/3_modules_description/admin_security.rst:91
 msgid "Создание пользователя. Для создания пользователя на странице ``/ionadmin/security/user`` нажимаем кнопку \"Создать\""
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:93
+#: ../docs-ru/3_modules_description/admin_security.rst:93
 msgid "Происходит переход на новую страницу, где надо указать логин пользователя на английском языке, пароль, описание в имени. Нажимаем на кнопку \"Сохранить\" для подтверждения создания указанного пользователя"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:95
+#: ../docs-ru/3_modules_description/admin_security.rst:95
 msgid "Редактирование пользователя. Для редактирования пользователя на странице ``/ionadmin/security/user`` выбираем необходимого пользователя и нажимаем кнопку \"Править\""
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:99
+#: ../docs-ru/3_modules_description/admin_security.rst:99
 msgid "``Тип`` - тип учетной записи пользователя, пока доступны в админке локальные пользователи."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:101
+#: ../docs-ru/3_modules_description/admin_security.rst:101
 msgid "``Логин`` - идентификатор пользователя на английском языке."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:103
+#: ../docs-ru/3_modules_description/admin_security.rst:103
 msgid "``Пароль`` - пароль пользователя."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:105
+#: ../docs-ru/3_modules_description/admin_security.rst:105
 msgid "``Имя`` - осмысленное название пользователя, может содержать выражения на русском языке, например, Фамилия И.О."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:107
+#: ../docs-ru/3_modules_description/admin_security.rst:107
 msgid "``Роли`` - список ролей пользователя. Если проставлена галка у роли, то роль привязана к пользователю."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:109
+#: ../docs-ru/3_modules_description/admin_security.rst:109
 msgid "Удаление пользователя. Для удаления пользователя на странице ``/ionadmin/security/user`` выбираем необходимого пользователя и нажимаем кнопку \"Удалить\""
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:111
+#: ../docs-ru/3_modules_description/admin_security.rst:111
 msgid "Подтверждаем удаление пользователя."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:116
+#: ../docs-ru/3_modules_description/admin_security.rst:116
 msgid "Настройка требований к паролю задается в *ini-файле* приложения, после чего переменные необходимо объявить в файле настройки конфигурации приложения *deploy.json*."
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:132
+#: ../docs-ru/3_modules_description/admin_security.rst:132
 msgid "Длительность везде задается в формате: ``[длительность][ед. изм]``"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:137
+#: ../docs-ru/3_modules_description/admin_security.rst:137
 msgid "Ед. измерения"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:138
+#: ../docs-ru/3_modules_description/admin_security.rst:138
 msgid "Значение"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:139
+#: ../docs-ru/3_modules_description/admin_security.rst:139
 msgid "``y``"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:140
+#: ../docs-ru/3_modules_description/admin_security.rst:140
 msgid "Год"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:141
+#: ../docs-ru/3_modules_description/admin_security.rst:141
 msgid "``d``"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:142
+#: ../docs-ru/3_modules_description/admin_security.rst:142
 msgid "День"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:143
+#: ../docs-ru/3_modules_description/admin_security.rst:143
 msgid "``h``"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:144
+#: ../docs-ru/3_modules_description/admin_security.rst:144
 msgid "Час"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:145
+#: ../docs-ru/3_modules_description/admin_security.rst:145
 msgid "``m``"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:146
+#: ../docs-ru/3_modules_description/admin_security.rst:146
 msgid "Минута"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:147
+#: ../docs-ru/3_modules_description/admin_security.rst:147
 msgid "``s``"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:148
+#: ../docs-ru/3_modules_description/admin_security.rst:148
 msgid "Секунда"
 msgstr ""
 
-#: ../../3_modules_description/admin_security.rst:194
+#: ../docs-ru/3_modules_description/admin_security.rst:194
 msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/3_modules_description/admin_security.md>`_ &ensp;"
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:5
+#: ../docs-ru/3_modules_description/dashboards.rst:5
 msgid "Модуль Панель управления (dashboard)"
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:11
+#: ../docs-ru/3_modules_description/dashboards.rst:11
 msgid "**Модуль дашбоарда (dashboard)** – модуль предназначенный для выведения краткой информации в виде блоков. При этом дашбоард основывается на модели виджетов."
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:14
+#: ../docs-ru/3_modules_description/dashboards.rst:14
 msgid "Структура модуля"
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:16
+#: ../docs-ru/3_modules_description/dashboards.rst:16
 msgid "Панель управления состоит из трех базовых сущностей - менеджер, макет и виджет."
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:19
+#: ../docs-ru/3_modules_description/dashboards.rst:19
 msgid "Менеджер (manager)"
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:21
+#: ../docs-ru/3_modules_description/dashboards.rst:21
 msgid "Менеджер - это основной компонент модуля, отвечающий за создание и инициализаци виджетов, макетов, подключение панели к другим модулям."
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:28
+#: ../docs-ru/3_modules_description/dashboards.rst:28
 msgid "Макет (layout)"
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:30
+#: ../docs-ru/3_modules_description/dashboards.rst:30
 msgid "Макет - это EJS шаблон, в котором определяются схема размешения виджетов, параметры ддя шаблонов виджетов, плагин для управления сеткой макета на клиенте (например gridster), подключаются общие ресурсы.\\ :raw-html-m2r:`<br>` Базовые макеты модуля находятся в папке /dashboard/layouts. Опубликованные из мета-данных в папке /applications/${meta-namespace}/layouts.\\ :raw-html-m2r:`<br>` Каждый макет имеет уникальный ID. При публикации макета из меты к ID добавляется префикс."
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:40
+#: ../docs-ru/3_modules_description/dashboards.rst:40
 msgid "При рендере макета необходимо передать объект manager."
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:47
+#: ../docs-ru/3_modules_description/dashboards.rst:47
 msgid "Виджет (widget)"
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:49
+#: ../docs-ru/3_modules_description/dashboards.rst:49
 msgid "Виджет - это объект, который размещается на макете и взаимодействует с сервером через ajax-запросы."
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:51
+#: ../docs-ru/3_modules_description/dashboards.rst:51
 msgid "Базовые виджеты модуля находятся в папке /dashboard/widgets. Опубликованные из мета-данных в папке /applications/${meta-namespace}/widgets."
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:53
+#: ../docs-ru/3_modules_description/dashboards.rst:53
 msgid "Виджет состоит из файла класса **index.js** и шаблона представления **view.ejs**. Класс должен наследоваться от базового класса /dashboard/base-widget или его потомков."
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:57
+#: ../docs-ru/3_modules_description/dashboards.rst:57
 msgid "Метод **init()** отвечает за начальную инициализацию виджета при старте сервера."
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:58
+#: ../docs-ru/3_modules_description/dashboards.rst:58
 msgid "Метод **refresh()** вызывается при получении ajax-запроса от клиента."
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:59
+#: ../docs-ru/3_modules_description/dashboards.rst:59
 msgid "Метод **job()** получает данные для виджета."
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:61
+#: ../docs-ru/3_modules_description/dashboards.rst:61
 msgid "Каждый виджет имеет уникальный ID. При публикации виджета из меты к ID добавляется префикс."
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:68
+#: ../docs-ru/3_modules_description/dashboards.rst:68
 msgid "При рендере представления виджета необходимо передать объект widget."
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:76
+#: ../docs-ru/3_modules_description/dashboards.rst:76
 msgid "Публикация из меты"
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:78
+#: ../docs-ru/3_modules_description/dashboards.rst:78
 msgid "Пример структуры в applications/develop-and-test"
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:94
+#: ../docs-ru/3_modules_description/dashboards.rst:94
 msgid "Для того что бы данные из меты подгружались в модуль дашборда, необходимо в файле конфигурации приложения ``deploy.json`` добавить следующую секцию, в раздел ``\"modules\"``\\ :"
 msgstr ""
 
-#: ../../3_modules_description/dashboards.rst:113
+#: ../docs-ru/3_modules_description/dashboards.rst:113
 msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/3_modules_description/dashboard.md>`_ &ensp;"
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:5
+#: ../docs-ru/3_modules_description/gantt_chart.rst:5
 msgid "Модуль \"gantt-chart\""
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:11
+#: ../docs-ru/3_modules_description/gantt_chart.rst:11
 msgid "**Модуль диаграм ганта (gantt-chart)** – модуль, предназначенный для вывода специфичных типов иерархических данных имеющих даты."
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:14
+#: ../docs-ru/3_modules_description/gantt_chart.rst:14
 msgid "Конфигурация в deploy"
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:17
+#: ../docs-ru/3_modules_description/gantt_chart.rst:17
 msgid "Указание длины поисковой выдачи"
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:24
+#: ../docs-ru/3_modules_description/gantt_chart.rst:24
 msgid "Добавление фильтров на колонки"
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:50
+#: ../docs-ru/3_modules_description/gantt_chart.rst:50
 msgid "Указание для разных классов разные createUrl"
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:66
+#: ../docs-ru/3_modules_description/gantt_chart.rst:66
 msgid "Настройки видов представлений"
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:112
+#: ../docs-ru/3_modules_description/gantt_chart.rst:112
 msgid "В поле ``filters`` - задаем свойство и значения для фильтра"
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:115
+#: ../docs-ru/3_modules_description/gantt_chart.rst:115
 msgid "Настраиваемый фильтр при выборке подузлов"
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:117
+#: ../docs-ru/3_modules_description/gantt_chart.rst:117
 msgid "В формулах в общем синтаксисе выражений теперь можно обращаться к данным контекста. Пока реализовано только для списков в регистри и ганте. По мере перехода на общий синтаксис реализуем поддержку повсеместно в ядре."
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:119
+#: ../docs-ru/3_modules_description/gantt_chart.rst:119
 msgid "Настраиваемый фильтр не применяется к корневому обьекту явно указанному через параметр урла, или выбранный в выпадающем списке. Фильтр применяется только при ВЫБОРКЕ ПОДУЗЛОВ."
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:122
+#: ../docs-ru/3_modules_description/gantt_chart.rst:122
 msgid "Сортировка выдачи"
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:124
+#: ../docs-ru/3_modules_description/gantt_chart.rst:124
 msgid "При выводе проекта, в них мероприятия сортируются по атрибуту numEvent - на всех уровнях иерархии."
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:134
+#: ../docs-ru/3_modules_description/gantt_chart.rst:134
 msgid "Настройка списка выбора объекта для вывода информации"
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:136
+#: ../docs-ru/3_modules_description/gantt_chart.rst:136
 msgid "Применяется при условии настроенного фильтра для колонки и позволяет не отображать все объекты сразу, а выбирать из списка. Если значение ``\"rootParamNeeded:true\"`` - выводится пустой экран и окно для выбора проекта"
 msgstr ""
 
-#: ../../3_modules_description/gantt_chart.rst:149
+#: ../docs-ru/3_modules_description/gantt_chart.rst:149
 msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/3_modules_description/gantt_chart.md>`_ &ensp;"
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:5
+#: ../docs-ru/3_modules_description/image-storage.rst:5
 msgid "IONDV. Image-storage"
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:7
+#: ../docs-ru/3_modules_description/image-storage.rst:7
 msgid "`Оглавление </index.rst>`_"
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:9
+#: ../docs-ru/3_modules_description/image-storage.rst:9
 msgid "Назад: `Модули <modules.rst>`_"
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:11
+#: ../docs-ru/3_modules_description/image-storage.rst:11
 msgid "**Image-storage** - модуль IONDV.Framework. Используется для предварительного просмотра картинок."
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:14
-#: ../../3_modules_description/rest/rest.rst:15
+#: ../docs-ru/3_modules_description/image-storage.rst:14
+#: ../docs-ru/3_modules_description/rest/rest.rst:15
 msgid "Кратко об IONDV. Framework"
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:16
+#: ../docs-ru/3_modules_description/image-storage.rst:16
 msgid "IONDV. Framework - это опенсорный фреймворк на node.js для разработки учетных приложений или микросервисов на основе метаданных и отдельных модулей. Он является частью инструментальной цифровой платформы для создания enterprise (ERP) приложений состоящей из опенсорсных компонентов: самого `фреймворка <https://github.com/iondv/framework>`_ , `модулей <https://github.com/topics/iondv-module>`_ и готовых приложений расширяющих его функциональность, визуальной среды `Studio <https://github.com/iondv/studio>`_ для разработки метаданных приложений."
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:23
+#: ../docs-ru/3_modules_description/image-storage.rst:23
 msgid "Подробнее об `IONDV. Framework на сайте <https://iondv.com>`_ , документация доступна в `репозитории на github <https://github.com/iondv/framework/blob/master/docs/en/index.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:26
-#: ../../3_modules_description/rest/rest.rst:28
+#: ../docs-ru/3_modules_description/image-storage.rst:26
+#: ../docs-ru/3_modules_description/rest/rest.rst:28
 msgid "Описание и назначение модуля"
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:28
+#: ../docs-ru/3_modules_description/image-storage.rst:28
 msgid "Модуль представляет собой дополнительный компонент системы и используется при наличии в приложения атрибутов, позволяющих содержать в себе изображения."
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:30
+#: ../docs-ru/3_modules_description/image-storage.rst:30
 msgid "Для подключения модуля необходимо обознгачить его в зависимостях приложения. Для этого указываем модуль в файле package.json приложения, в разделе ``\"dependencies\"``:"
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:38
+#: ../docs-ru/3_modules_description/image-storage.rst:38
 msgid "с указанием ссылки на репозиторий модуля в github.com."
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:40
+#: ../docs-ru/3_modules_description/image-storage.rst:40
 msgid "Далее нужно добавить на форму списка атрибут, изображение которого будет использовано в режиме предпросмотра. После чего, изображения, загруженные для объектов можно просматривать сразу на форме списка."
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:43
+#: ../docs-ru/3_modules_description/image-storage.rst:43
 msgid "Возможности модуля image-storage"
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:45
+#: ../docs-ru/3_modules_description/image-storage.rst:45
 msgid "Отображение превью картинок не переходя на форму объекта"
 msgstr ""
 
-#: ../../3_modules_description/image-storage.rst:52
+#: ../docs-ru/3_modules_description/image-storage.rst:52
 msgid "`Licence </LICENSE>`_\\   `Contact us <https://iondv.com/portal/contacts>`_"
 msgstr ""
 
-#: ../../3_modules_description/index.rst:4
+#: ../docs-ru/3_modules_description/index.rst:4
 msgid "Админ"
 msgstr ""
 
-#: ../../3_modules_description/index.rst:4
+#: ../docs-ru/3_modules_description/index.rst:4
 msgid "Регистри"
 msgstr ""
 
-#: ../../3_modules_description/index.rst:4
+#: ../docs-ru/3_modules_description/index.rst:4
 msgid "Отчёты"
 msgstr ""
 
-#: ../../3_modules_description/index.rst:4
+#: ../docs-ru/3_modules_description/index.rst:4
 msgid "Рест"
 msgstr ""
 
-#: ../../3_modules_description/index.rst:4
+#: ../docs-ru/3_modules_description/index.rst:4
 msgid "Гантт"
 msgstr ""
 
-#: ../../3_modules_description/index.rst:4
+#: ../docs-ru/3_modules_description/index.rst:4
 msgid "Соап"
 msgstr ""
 
-#: ../../3_modules_description/index.rst:4
+#: ../docs-ru/3_modules_description/index.rst:4
 msgid "ЛК"
 msgstr ""
 
-#: ../../3_modules_description/index.rst:4
+#: ../docs-ru/3_modules_description/index.rst:4
 msgid "Портал"
 msgstr ""
 
-#: ../../3_modules_description/index.rst:4
+#: ../docs-ru/3_modules_description/index.rst:4
 msgid "Дашборд"
 msgstr ""
 
-#: ../../3_modules_description/index.rst:2
+#: ../docs-ru/3_modules_description/index.rst:2
 msgid "3. Описание модулей"
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:9
+#: ../docs-ru/3_modules_description/modules.rst:9
 msgid "Предыдущая страница: `Функциональность приложения </docs/ru/2_system_description/functionality/functionality.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:12
+#: ../docs-ru/3_modules_description/modules.rst:12
 msgid "Модули"
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:14
+#: ../docs-ru/3_modules_description/modules.rst:14
 msgid "**Модули** - это независимые блоки с обязательной или дополнительной функциональностью, чья структура подчиняется определенным правилам."
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:19
+#: ../docs-ru/3_modules_description/modules.rst:19
 msgid "Наименование"
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:20
-#: ../../3_modules_description/registry_treegrid.rst:31
+#: ../docs-ru/3_modules_description/modules.rst:20
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:31
 msgid "Описание"
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:21
+#: ../docs-ru/3_modules_description/modules.rst:21
 msgid "`\\ **Registry** <registry.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:22
+#: ../docs-ru/3_modules_description/modules.rst:22
 msgid "Ключевой модуль предназначенный непосредственно для работы с данными на основе структур метаданных."
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:23
+#: ../docs-ru/3_modules_description/modules.rst:23
 msgid "`\\ **Report** <report.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:24
+#: ../docs-ru/3_modules_description/modules.rst:24
 msgid "Модуль предназначенный для формирования аналитических отчетов."
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:25
+#: ../docs-ru/3_modules_description/modules.rst:25
 msgid "`\\ **Gantt-chart** <gantt_chart.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:26
+#: ../docs-ru/3_modules_description/modules.rst:26
 msgid "Модуль для вывода данных с датами."
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:27
+#: ../docs-ru/3_modules_description/modules.rst:27
 msgid "`\\ **Portal** <portal.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:28
+#: ../docs-ru/3_modules_description/modules.rst:28
 msgid "Модуль для вывода произвольных шаблонов данных."
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:29
+#: ../docs-ru/3_modules_description/modules.rst:29
 msgid "`\\ **Dashboard** <dashboards.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:30
+#: ../docs-ru/3_modules_description/modules.rst:30
 msgid "Модуль предназначенный для выведения краткой информации в виде блоков."
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:31
+#: ../docs-ru/3_modules_description/modules.rst:31
 msgid "`\\ **Ionadmin** <admin.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:32
+#: ../docs-ru/3_modules_description/modules.rst:32
 msgid "Модуль администрирования для назначения прав."
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:33
+#: ../docs-ru/3_modules_description/modules.rst:33
 msgid "`\\ **Account** <account.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:34
+#: ../docs-ru/3_modules_description/modules.rst:34
 msgid "Модуль личного кабинета который формирует логику отображения."
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:35
+#: ../docs-ru/3_modules_description/modules.rst:35
 msgid "`\\ **Soap** <soap.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:36
+#: ../docs-ru/3_modules_description/modules.rst:36
 msgid "Модуль запросов к сервисам."
 msgstr ""
 
-#: ../../3_modules_description/modules.rst:42
+#: ../docs-ru/3_modules_description/modules.rst:42
 msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/3_modules_description/modules.md>`_ &ensp;"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:5
+#: ../docs-ru/3_modules_description/portal.rst:5
 msgid "Структура модуля портала"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:11
+#: ../docs-ru/3_modules_description/portal.rst:11
 msgid "**Модуль портала (portal)** – модуль, предназначенный для отображения произвольных шаблонов данных. Модуль портала выполняет функцию отображения дизайна различной информации с помощью языка разметки *Markdown* и *HTML*."
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:14
+#: ../docs-ru/3_modules_description/portal.rst:14
 msgid "Состав"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:16
+#: ../docs-ru/3_modules_description/portal.rst:16
 msgid "Слой представления - отвечает за отображение данных:"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:19
+#: ../docs-ru/3_modules_description/portal.rst:19
 msgid "``Adapter Provider`` - выполняет функцию связи между данными и отображением их на портале (настройка через файл 'deploy.json')"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:20
+#: ../docs-ru/3_modules_description/portal.rst:20
 msgid "``File Adapter`` - возвращает ресурсы типа \"Файл\" (остается в памяти приложения)"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:21
+#: ../docs-ru/3_modules_description/portal.rst:21
 msgid "``Class Adapter`` - предназначен для отображения данных из базы через репозиторий данных (каждый раз обновляются)"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:24
+#: ../docs-ru/3_modules_description/portal.rst:24
 msgid "Логика отображения данных на портале"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:27
+#: ../docs-ru/3_modules_description/portal.rst:27
 msgid "Стили портала"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:29
+#: ../docs-ru/3_modules_description/portal.rst:29
 msgid "Для описания/оформления внешнего вида страниц портала применяются CSS (каскадные таблицы стилей) Пример оформления страницы портала в Dnt - /develop-and-test/portal/view/static/css/style.css"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:32
+#: ../docs-ru/3_modules_description/portal.rst:32
 msgid "Возможные варианты для применения стилей задаются в папке *portal/view/static/style.css*."
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:47
+#: ../docs-ru/3_modules_description/portal.rst:47
 msgid "Страницы портала"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:49
+#: ../docs-ru/3_modules_description/portal.rst:49
 msgid "Шаблоны страниц портала настраиваются в папке *portal/view/templates*."
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:51
+#: ../docs-ru/3_modules_description/portal.rst:51
 msgid "Расположение объектов на странице описывается в формате языка разметки HTML:"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:72
+#: ../docs-ru/3_modules_description/portal.rst:72
 msgid "Содержание тега ``<head>`` включает в себя отображение стилей оформления внешнего вида портала."
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:75
+#: ../docs-ru/3_modules_description/portal.rst:75
 msgid "В тег ``<body>`` включается информация об объектах, отображаемых на странице портала."
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:78
+#: ../docs-ru/3_modules_description/portal.rst:78
 msgid "Тег ``<script>`` содержит в себе информацию в виде ссылки на программу или ее текст на определенном языке. Скрипты могут располагаться во внешнем файле и связываться с любым HTML-документом, что позволяет использовать одни и те же функции на нескольких веб-страницах, тем самым ускоряя их загрузку. В данном случае тег ``<script>`` применяется с атрибутом ``src``\\ , который указывает на адрес скрипта из внешнего файла для импорта в текущий документ."
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:81
+#: ../docs-ru/3_modules_description/portal.rst:81
 msgid "Навигация портала"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:83
+#: ../docs-ru/3_modules_description/portal.rst:83
 msgid "Мета навигации портала представляет собой набор узлов навигации, у каждого из которых указан тип ресурса."
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:85
+#: ../docs-ru/3_modules_description/portal.rst:85
 msgid "Пример создания секции навигации:"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:97
+#: ../docs-ru/3_modules_description/portal.rst:97
 msgid "code - системной имя объекта"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:98
-#: ../../3_modules_description/portal.rst:116
+#: ../docs-ru/3_modules_description/portal.rst:98
+#: ../docs-ru/3_modules_description/portal.rst:116
 msgid "caption - логическое имя объекта"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:99
+#: ../docs-ru/3_modules_description/portal.rst:99
 msgid "itemType - тип отображения объекта"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:100
+#: ../docs-ru/3_modules_description/portal.rst:100
 msgid "subNodes - массив узлов навигации, содержащихся в данной секции"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:102
+#: ../docs-ru/3_modules_description/portal.rst:102
 msgid "Пример создания узла навигации:"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:115
+#: ../docs-ru/3_modules_description/portal.rst:115
 msgid "code - системное имя объекта"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:117
+#: ../docs-ru/3_modules_description/portal.rst:117
 msgid "resources - превращение данных в контент портала"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:118
+#: ../docs-ru/3_modules_description/portal.rst:118
 msgid "PageSize - размер страницы"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:119
+#: ../docs-ru/3_modules_description/portal.rst:119
 msgid "itemType -  тип отображения объекта"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:122
+#: ../docs-ru/3_modules_description/portal.rst:122
 msgid "Оформление данных"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:126
+#: ../docs-ru/3_modules_description/portal.rst:126
 msgid "Формат разбиения информации на страницы"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:158
+#: ../docs-ru/3_modules_description/portal.rst:158
 msgid "Формат корректного отображения текста ошибок"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:169
+#: ../docs-ru/3_modules_description/portal.rst:169
 msgid "Формат преобразования данных в контент портала"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:201
+#: ../docs-ru/3_modules_description/portal.rst:201
 msgid "Формат отображения текста"
 msgstr ""
 
-#: ../../3_modules_description/portal.rst:232
+#: ../docs-ru/3_modules_description/portal.rst:232
 msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/3_modules_description/portal.md>`_ &ensp;"
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:5
+#: ../docs-ru/3_modules_description/registry.rst:5
 msgid "Модуль \"Registry\""
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:11
+#: ../docs-ru/3_modules_description/registry.rst:11
 msgid "**Модуль регистра (registry)** – ключевой модуль предназначенный непосредственно для работы с данными на основе структур метаданных – в том числе по ведению проектов, программ, мероприятий и др."
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:14
+#: ../docs-ru/3_modules_description/registry.rst:14
 msgid "Настройка"
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:17
+#: ../docs-ru/3_modules_description/registry.rst:17
 msgid "`DI (treegridController) <registry_treegrid.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:20
+#: ../docs-ru/3_modules_description/registry.rst:20
 msgid "Deploy"
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:23
+#: ../docs-ru/3_modules_description/registry.rst:23
 msgid "Настройка частоты опроса в deploy.json"
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:25
+#: ../docs-ru/3_modules_description/registry.rst:25
 msgid "Настройка частоты опроса сервера, что объект не заблокирован в deploy.json:"
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:36
+#: ../docs-ru/3_modules_description/registry.rst:36
 msgid "Настройка createByCopy"
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:38
+#: ../docs-ru/3_modules_description/registry.rst:38
 msgid "Настройка отображения кнопки \"Создать еще\" в deploy.json:"
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:47
-#: ../../3_modules_description/report_warning.rst:50
+#: ../docs-ru/3_modules_description/registry.rst:47
+#: ../docs-ru/3_modules_description/report_warning.rst:50
 msgid "Фильтры"
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:49
+#: ../docs-ru/3_modules_description/registry.rst:49
 msgid "Подробнее о фильтрах `здесь </docs/ru/2_system_description/functionality/filter.md>`_."
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:52
+#: ../docs-ru/3_modules_description/registry.rst:52
 msgid "Настройка помощь по фильтрам"
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:54
+#: ../docs-ru/3_modules_description/registry.rst:54
 msgid "Справка размещается в файле шаблона ``modules/registry/view/default/templates/view/list-filter-helper.ejs``"
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:57
+#: ../docs-ru/3_modules_description/registry.rst:57
 msgid "Требования к коду"
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:59
+#: ../docs-ru/3_modules_description/registry.rst:59
 msgid "Cтиль написания компонентов фронт-енда `здесь <registry_code.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/registry.rst:64
+#: ../docs-ru/3_modules_description/registry.rst:64
 msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/3_modules_description/registry.md>`_ &ensp;"
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:9
-#: ../../3_modules_description/registry_treegrid.rst:9
+#: ../docs-ru/3_modules_description/registry_code.rst:9
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:9
 msgid "Назад: `Модуль регистра <registry.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:12
+#: ../docs-ru/3_modules_description/registry_code.rst:12
 msgid "Логика формирования id элементов связанных с объектами по типам"
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:15
+#: ../docs-ru/3_modules_description/registry_code.rst:15
 msgid "Реализовано"
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:18
+#: ../docs-ru/3_modules_description/registry_code.rst:18
 msgid "INPUT, SELECT, TEXTAREA"
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:20
+#: ../docs-ru/3_modules_description/registry_code.rst:20
 msgid "**1.** Для редактирования атрибута объекта ``a_{неймспейс, класс, атрибут}``"
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:27
+#: ../docs-ru/3_modules_description/registry_code.rst:27
 msgid "BUTTON"
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:29
+#: ../docs-ru/3_modules_description/registry_code.rst:29
 msgid "**1.** действие списка ``la_{неймспейс, класс, имя команды}``"
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:35
+#: ../docs-ru/3_modules_description/registry_code.rst:35
 msgid "**2.** действие формы ``fa_{неймспейс, класс, имя команды}``"
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:43
+#: ../docs-ru/3_modules_description/registry_code.rst:43
 msgid "**3.** действие ссылочного поля ``ra_{неймспейс, класс, атрибут, имя команды}``"
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:51
+#: ../docs-ru/3_modules_description/registry_code.rst:51
 msgid "**4.** действие поля коллекции ``ca_{неймспейс, класс, атрибут, имя команды}`` *нет возможности проверить, коллекции в процессе*"
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:53
+#: ../docs-ru/3_modules_description/registry_code.rst:53
 msgid "**5.** плавающие кнопки формы ``ffa_{неймспейс, класс, атрибут, имя команды}``"
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:62
+#: ../docs-ru/3_modules_description/registry_code.rst:62
 msgid "FORM, DIV, TR, LI (для представления объектов)"
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:64
+#: ../docs-ru/3_modules_description/registry_code.rst:64
 msgid "**1.** секции и узлы навигации ``n_{имя секции навигации}``"
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:74
+#: ../docs-ru/3_modules_description/registry_code.rst:74
 msgid "Узел навигации ``n_{код узла навигации}``."
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:80
+#: ../docs-ru/3_modules_description/registry_code.rst:80
 msgid "Узел навигации открытого класса."
 msgstr ""
 
-#: ../../3_modules_description/registry_code.rst:85
+#: ../docs-ru/3_modules_description/registry_code.rst:85
 msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/3_modules_description/registry_code.md>`_ &ensp;"
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:12
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:12
 msgid "Настройки DI"
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:15
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:15
 msgid "Подключение в глобальных настройках модуля регистра"
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:18
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:18
 msgid "Пример в deploy.json"
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:33
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:33
 msgid "Предназначен для создания иерархичных списков объектов в атрибуте-коллекции класса или в навигации класса.\\ :raw-html-m2r:`<br>` Работает с использование компонента dhtmlxSuite_v51_pro (https://dhtmlx.com/docs/products/dhtmlxTreeGrid/)."
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:37
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:37
 msgid "Подключение в DI"
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:64
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:64
 msgid "Виды шаблонов"
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:67
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:67
 msgid "\"template\": \"treegrid/collection\"\\ :raw-html-m2r:`<br>` Для атрибута-коллекции. Подключается в представлении формы объекта:"
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:87
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:87
 msgid "\"template\": \"treegrid/list\"\\ :raw-html-m2r:`<br>` Для навигации класса. Подключение:"
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:97
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:97
 msgid "Настройка ``skin``"
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:99
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:99
 msgid "https://docs.dhtmlx.com/grid__skins.html"
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:114
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:114
 msgid "Дополнительные источники информации по treegridController"
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:118
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:118
 msgid "`Иерархическое представление для коллекций <https://git.iondv.ru/ION/platform/blob/v1.24/docs/ru/2_system_description/platform_configuration/deploy_modules.md#настройка-иерархического-представления-для-коллекций>`_."
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:120
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:120
 msgid "DHTMLX (dhtmlxSuite_v51_pro)"
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:123
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:123
 msgid "https://docs.dhtmlx.com/"
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:124
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:124
 msgid "https://dhtmlx.com/docs/products/dhtmlxTreeGrid/"
 msgstr ""
 
-#: ../../3_modules_description/registry_treegrid.rst:129
+#: ../docs-ru/3_modules_description/registry_treegrid.rst:129
 msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/3_modules_description/registry_treegrid.md>`_ &ensp;"
 msgstr ""
 
-#: ../../3_modules_description/report.rst:5
+#: ../docs-ru/3_modules_description/report.rst:5
 msgid "Модуль \"report\""
 msgstr ""
 
-#: ../../3_modules_description/report.rst:11
+#: ../docs-ru/3_modules_description/report.rst:11
 msgid "**Модуль отчетов (report)** – модуль предназначенный для формирования, на основе специальных метаданных – аналитических отчетов и справочной информации в виде графиков. Расчеты могут выполняться по расписанию или быть инициированы оператором."
 msgstr ""
 
-#: ../../3_modules_description/report.rst:14
+#: ../docs-ru/3_modules_description/report.rst:14
 msgid "Библиотека для построения отчетов вида Pivot"
 msgstr ""
 
-#: ../../3_modules_description/report.rst:16
+#: ../docs-ru/3_modules_description/report.rst:16
 msgid "Библиотекой для построения отчетов вида Pivot служит PivotTable.js (Примеры и описание: https://pivottable.js.org ) Функционал богатый, в то же время сложный для построения отчетов как в экселе или ворде. Пока не надо от него требовать функционала ворда при проектировании отчета - лучше посоветоваться с разработчиками и поставить таск на реализацию отчета вида Pivot."
 msgstr ""
 
-#: ../../3_modules_description/report.rst:21
+#: ../docs-ru/3_modules_description/report.rst:21
 msgid "Метаданные"
 msgstr ""
 
-#: ../../3_modules_description/report.rst:23
+#: ../docs-ru/3_modules_description/report.rst:23
 msgid "`Метаданные модуля отчетов (шахта, навигация) </docs/ru/2_system_description/metadata_structure/meta_report/meta_report.md>`_\\ :raw-html-m2r:`<br>` `Замечания при проектировании шахты <report_warning.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/report.rst:27
+#: ../docs-ru/3_modules_description/report.rst:27
 msgid "Настройка автоматической сборки шахты данных"
 msgstr ""
 
-#: ../../3_modules_description/report.rst:29
+#: ../docs-ru/3_modules_description/report.rst:29
 msgid "Добавьте настройку ``jobs.enabled=true`` в файл config.ini чтобы настроить автоматическую сборку шахты данных."
 msgstr ""
 
-#: ../../3_modules_description/report.rst:32
-#: ../../3_modules_description/rest/performance_workflow.rst:69
-#: ../../3_modules_description/rest/rest.rst:483
-#: ../../3_modules_description/rest/rest.rst:672
-#: ../../3_modules_description/soap.rst:38
-#: ../../3_modules_description/soap.rst:74
+#: ../docs-ru/3_modules_description/report.rst:32
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:69
+#: ../docs-ru/3_modules_description/rest/rest.rst:483
+#: ../docs-ru/3_modules_description/rest/rest.rst:672
+#: ../docs-ru/3_modules_description/soap.rst:38
+#: ../docs-ru/3_modules_description/soap.rst:74
 msgid "Пример"
 msgstr ""
 
-#: ../../3_modules_description/report.rst:34
+#: ../docs-ru/3_modules_description/report.rst:34
 msgid "Чтобы запускать задание при старте приложения и далее каждые 6 часов, нужно настроить джоб следующим образом:"
 msgstr ""
 
-#: ../../3_modules_description/report.rst:49
+#: ../docs-ru/3_modules_description/report.rst:49
 msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/3_modules_description/report.md>`_ &ensp;"
 msgstr ""
 
-#: ../../3_modules_description/report_warning.rst:6
+#: ../docs-ru/3_modules_description/report_warning.rst:6
 msgid "Назад: `Модуль отчетов <report.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/report_warning.rst:9
+#: ../docs-ru/3_modules_description/report_warning.rst:9
 msgid "Замечания при проектировании шахты"
 msgstr ""
 
-#: ../../3_modules_description/report_warning.rst:12
+#: ../docs-ru/3_modules_description/report_warning.rst:12
 msgid "Операции \"NOT CONTAINS\""
 msgstr ""
 
-#: ../../3_modules_description/report_warning.rst:14
+#: ../docs-ru/3_modules_description/report_warning.rst:14
 msgid "Пока пользуемся монгой операции ``NOT CONTAINS`` работать корректно не будут, так как NOT применяется не к CONTAINS а к условиям вхождения."
 msgstr ""
 
-#: ../../3_modules_description/report_warning.rst:16
+#: ../docs-ru/3_modules_description/report_warning.rst:16
 msgid "Переделать это сейчас не представляется возможным."
 msgstr ""
 
-#: ../../3_modules_description/report_warning.rst:19
+#: ../docs-ru/3_modules_description/report_warning.rst:19
 msgid "Не настроен сборщик для источника данных"
 msgstr ""
 
-#: ../../3_modules_description/report_warning.rst:21
+#: ../docs-ru/3_modules_description/report_warning.rst:21
 msgid "Не настроен сборщик для источника данных \"summaryArea.serviceGrid\". Кроме самой меты надо в ``deploy.json`` в ``modules.report.globals`` прописать:"
 msgstr ""
 
-#: ../../3_modules_description/report_warning.rst:37
+#: ../docs-ru/3_modules_description/report_warning.rst:37
 msgid "Это привязка сборщиков к источникам данных, чтобы иметь возможность агрегировать из разных БД (и вообще источников). Сейчас пока используется стандартный mineBuilder, использующий локальный датасорс Db."
 msgstr ""
 
-#: ../../3_modules_description/report_warning.rst:40
+#: ../docs-ru/3_modules_description/report_warning.rst:40
 msgid "Нельзя сравнить два поля"
 msgstr ""
 
-#: ../../3_modules_description/report_warning.rst:42
+#: ../docs-ru/3_modules_description/report_warning.rst:42
 msgid "Если сравниваем два поля между собой с использованием поисковых выражений, то работать не будет. Монга БД не умеет сравнивать два поля между собой. Например подобные выражения работать не будут:"
 msgstr ""
 
-#: ../../3_modules_description/report_warning.rst:52
+#: ../docs-ru/3_modules_description/report_warning.rst:52
 msgid "Для сорсов на основе классов фильтры указываются через кондишнсы."
 msgstr ""
 
-#: ../../3_modules_description/report_warning.rst:68
+#: ../docs-ru/3_modules_description/report_warning.rst:68
 msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;"
 msgstr ""
 
-#: ../../3_modules_description/report_warning.rst:70
+#: ../docs-ru/3_modules_description/report_warning.rst:70
 msgid "`English </docs/en/3_modules_description/report_warning.md>`_ &ensp;"
 msgstr ""
 
-#: ../../3_modules_description/rest/info.rst:3
+#: ../docs-ru/3_modules_description/rest/info.rst:3
 msgid "Текст для обработки"
 msgstr ""
 
-#: ../../3_modules_description/rest/method_search.rst:3
+#: ../docs-ru/3_modules_description/rest/method_search.rst:3
 msgid "Метод SEARCH"
 msgstr ""
 
-#: ../../3_modules_description/rest/method_search.rst:5
+#: ../docs-ru/3_modules_description/rest/method_search.rst:5
 msgid "Обращение к HTTP-методу ``SEARCH`` в сервисе CRUD осуществляется аналогично методу ``GET``. Исключением является то, что в теле сообщения можно в формате .json задать условия *фильтрации*\\ , *сортировки* и *жадной загрузки* в нотации метода ``GetList`` репозитория данных:"
 msgstr ""
 
-#: ../../3_modules_description/rest/methods_crud.rst:3
+#: ../docs-ru/3_modules_description/rest/methods_crud.rst:3
 msgid "Отправка запросов с файлами в CRUD сервисе"
 msgstr ""
 
-#: ../../3_modules_description/rest/methods_crud.rst:5
+#: ../docs-ru/3_modules_description/rest/methods_crud.rst:5
 msgid "Отправка и прием файлов осуществляется двумя способами:"
 msgstr ""
 
-#: ../../3_modules_description/rest/methods_crud.rst:8
+#: ../docs-ru/3_modules_description/rest/methods_crud.rst:8
 msgid "данные принимаются в формате ``json``\\ , тогда контент файла передается как строка в формате *Base64*"
 msgstr ""
 
-#: ../../3_modules_description/rest/methods_crud.rst:9
+#: ../docs-ru/3_modules_description/rest/methods_crud.rst:9
 msgid "данные принимаются как ``FormData`` (application/x-www-form-urlencoded), тогда файлы передаются как *multipart*"
 msgstr ""
 
-#: ../../3_modules_description/rest/methods_crud.rst:11
+#: ../docs-ru/3_modules_description/rest/methods_crud.rst:11
 msgid "Корректный прием файловых атрибутов в случае отправки таких запросов осуществляется методами ``POST``\\ , ``PUT`` и ``PATCH`` в CRUD сервисе."
 msgstr ""
 
-#: ../../3_modules_description/rest/methods_crud.rst:13
+#: ../docs-ru/3_modules_description/rest/methods_crud.rst:13
 msgid "Так же возможна передача ссылок и коллекций по примеру, описанному для `soap модуля <https://github.com/iondv/soap>`_."
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:3
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:3
 msgid "Сервис исполнения бизнес-процесса"
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:6
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:6
 msgid "Принцип сервиса"
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:8
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:8
 msgid "Сервис маппится для всех методов на один путь вида ``/:class/:id`` для идентификации обьекта данных."
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:10
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:10
 msgid "Сервис содержит три метода:"
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:13
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:13
 msgid "``GET`` - без параметров, возвращает информацию о текущем статусе в БП (возможные переходы)"
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:14
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:14
 msgid "``PUT`` - выполняет перевод обьекта в указанные **следующие** этапы разных БП."
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:15
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:15
 msgid "``PATCH`` - выполняет принудительный перевод обьекта в указанные этапы разных БП."
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:18
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:18
 msgid "Спецификация методов:"
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:21
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:21
 msgid "Метод GET"
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:23
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:23
 msgid "Получение текущего положения обьекта в БП:"
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:30
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:30
 msgid "Метод PUT"
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:32
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:32
 msgid "Выполнение переходов объекта по БП (в том числе последовательных):"
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:48
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:48
 msgid "Для метода **PUT** передаем в теле запроса один из вариантов:"
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:51
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:51
 msgid "массив переходов;"
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:52
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:52
 msgid "объект у которого атрибутами являются имена БП, а значениями атрибутов - массивы переходов."
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:54
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:54
 msgid "В методе **PUT** последовательно проводим объект по указанным переходам бизнес процесса. В случае возникновения ошибки при переходе фиксируем ее, чтобы вернуть в ответе, и выполняем следующий переход."
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:57
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:57
 msgid "Метод PATCH"
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:59
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:59
 msgid "Принудительное перемещение объекта в указанные состояния БП:"
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:66
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:66
 msgid "Для метода **PATCH** передаем в теле запроса массив состояний разных БП. Последовательно помещаем обьект в каждое из переданных состояний."
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:71
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:71
 msgid "Запрос (метод GET):"
 msgstr ""
 
-#: ../../3_modules_description/rest/performance_workflow.rst:77
+#: ../docs-ru/3_modules_description/rest/performance_workflow.rst:77
 msgid "Ответ:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:6
+#: ../docs-ru/3_modules_description/rest/rest.rst:6
 msgid "IONDV. REST"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:8
+#: ../docs-ru/3_modules_description/rest/rest.rst:8
 msgid "REST - модуль IONDV. Framework применяется для быстрого создания веб-сервисов на основе метаданных для реализации микросервисной архитектуры. Модуль позволяет также интегрировать приложения созданные на фреймворке с другими системами по REST API и обеспечивает обмен данными для реализации произвольных пользовательских веб-интерфейсов (в том числе SPA созданные на фреймворках Angular, Redux, Vue и т.д.) или для бакенд части мобильных приложений."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:17
+#: ../docs-ru/3_modules_description/rest/rest.rst:17
 msgid "IONDV. Framework - это опенсорный фреймворк на node.js для разработки учетных приложений или микросервисов на основе метаданных и отдельных модулей. Он является частью инструментальной цифровой платформы для создания enterprise (ERP) приложений состоящей из опенсорсных компонентов: самого `фреймворка <https://github.com/iondv/framework>`_\\ , `модулей <https://github.com/topics/iondv-module>`_ и готовых приложений расширяющих его функциональность, визуальной среды `Studio <https://github.com/iondv/studio>`_ для разработки метаданных приложений."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:25
+#: ../docs-ru/3_modules_description/rest/rest.rst:25
 msgid "Подробнее об `IONDV. Framework на сайте <https://iondv.com>`_\\ , документация доступна в `репозитории на github <https://github.com/iondv/framework/blob/master/docs/en/index.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:30
+#: ../docs-ru/3_modules_description/rest/rest.rst:30
 msgid "**IONDV. REST** - модуль обеспечивающий работу с данными приложения IONDV через ``REST API``. Является оберткой для работы с данными через стандартные функции CRUD или подключает собственные сервисы приложения, в том числе использующие API ядра."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:34
+#: ../docs-ru/3_modules_description/rest/rest.rst:34
 msgid "Дополнительно:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:37
+#: ../docs-ru/3_modules_description/rest/rest.rst:37
 msgid "`Регистрация сервиса в конфигруации приложения <#регистрация-сервиса-в-конфигурации-приложения>`_"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:38
+#: ../docs-ru/3_modules_description/rest/rest.rst:38
 msgid "`Авторизация при запросах к сервисам <#авторизация-при-запросах-к-сервисам>`_"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:39
+#: ../docs-ru/3_modules_description/rest/rest.rst:39
 msgid "`Встроенные сервисы модуля <#встроенные-сервисы-модуля>`_"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:40
+#: ../docs-ru/3_modules_description/rest/rest.rst:40
 msgid "`Реализация обработчика сервиса в приложении <#реализация-обработчика-сервиса-в-приложении>`_"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:41
+#: ../docs-ru/3_modules_description/rest/rest.rst:41
 msgid "`Дополнительные сервисы модуля <#дополнительные-сервисы>`_"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:44
+#: ../docs-ru/3_modules_description/rest/rest.rst:44
 msgid "Регистрация сервиса в конфигурации приложения"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:46
+#: ../docs-ru/3_modules_description/rest/rest.rst:46
 msgid "Для подключения сервисов в приложении их необходимо сконфигурировать в глобальных настройках модуля rest в файле deploy.json приложения. Пример приведен ниже."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:74
+#: ../docs-ru/3_modules_description/rest/rest.rst:74
 msgid "Путь к регистрациям сервиса в файле ``deploy.json`` - ``modules.rest.globals.di``\\ , далее указывается название сервиса, которое будет доступно по адресу ``https://domain.com/rest/serviceName``\\ , где serviceName - имя сервиса, указываемого в di, например в примере выше ``simple`` или ``string-list``. В атрибуте ``module`` указывается путь к js-файлу с обработчиком сервиса с путем относительно корня фреймворка. Обработчик может быть как в приложении, так и в любом модуле или фреймворке, в т.ч. типовые обработчики модуля rest."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:79
+#: ../docs-ru/3_modules_description/rest/rest.rst:79
 msgid "В параметре ``options`` указываются специфические настройки сервиса. Например, для сервиса **crud** указаны:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:83
+#: ../docs-ru/3_modules_description/rest/rest.rst:83
 msgid "в поле ``dataRepo`` - репозиторий данных с контролем доступа, используемый для операций над обьектами"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:84
+#: ../docs-ru/3_modules_description/rest/rest.rst:84
 msgid "в поле ``auth``\\ - компонент аутентификации, используемый для получения текущей учетной записи пользователя. А для сервиса **string-list** указаны:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:86
+#: ../docs-ru/3_modules_description/rest/rest.rst:86
 msgid "в поле ``dataRepo`` - репозиторий данных, используемый для выборки данных"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:87
+#: ../docs-ru/3_modules_description/rest/rest.rst:87
 msgid "в поле ``stringClassName`` - имя класса получаемых обьектов в данном случае класс ``class_string@develop-and-test`` будет передан в метод ``getList`` репозитория данных .. code-block:: javascript"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:91
+#: ../docs-ru/3_modules_description/rest/rest.rst:91
 msgid "options.dataRepo.getList(options.stringClassName, {})"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:94
+#: ../docs-ru/3_modules_description/rest/rest.rst:94
 msgid "Аунтентификация при запросах к сервисам"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:96
+#: ../docs-ru/3_modules_description/rest/rest.rst:96
 msgid "Авторизация может осуществляться следующими способами."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:101
+#: ../docs-ru/3_modules_description/rest/rest.rst:101
 msgid "Все сервисы по умолчанию используют стандартный механизм авторизации, подразумевающий передачу учетных данных в заголовке:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:104
+#: ../docs-ru/3_modules_description/rest/rest.rst:104
 msgid "путем авторизации через basicAuth, пример .. code-block:: bash"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:107
+#: ../docs-ru/3_modules_description/rest/rest.rst:107
 msgid "curl -u demo@local:ion-demo https://dnt.iondv.com/rest/simple"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:108
+#: ../docs-ru/3_modules_description/rest/rest.rst:108
 msgid "также в develop-and-test (dnt): `test/modules/rest/echopwd.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/echopwd.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking echo-pwd service/# Requesting echo-pwd GET/check if the request can be made using the basicAuth``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:110
+#: ../docs-ru/3_modules_description/rest/rest.rst:110
 msgid "путем передачи учетных данных в заголовках запроса .. code-block:: bash"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:113
+#: ../docs-ru/3_modules_description/rest/rest.rst:113
 msgid "curl -H \"auth-user: demo\" -H \"auth-pwd: ion-demo\" -H \"auth-user-type: local\" https://dnt.iondv.com/rest/simple"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:115
+#: ../docs-ru/3_modules_description/rest/rest.rst:115
 msgid "или"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:121
+#: ../docs-ru/3_modules_description/rest/rest.rst:121
 msgid "dnt: `test/modules/rest/echopwd.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/echopwd.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking echo-pwd service/# Requesting echo-pwd GET/check if the request can be made using the headers auth``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:127
+#: ../docs-ru/3_modules_description/rest/rest.rst:127
 msgid "Для реализации работы сервиса без аутентификации, необходимо задать для него значение ``none`` в настройке ``authMode`` в ``deploy.json``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:138
+#: ../docs-ru/3_modules_description/rest/rest.rst:138
 msgid "Запрос к сервису не будет требовать аутентификации, пример запроса ``curl https://dnt.iondv.com/rest/echoo``\\ :raw-html-m2r:`<br>` dnt: `test/modules/rest/echo.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/echo.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking echo-pwd service/# Requesting echo-pwd GET/check if the request can be made using the headers auth``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:145
+#: ../docs-ru/3_modules_description/rest/rest.rst:145
 msgid "Для реализации работы сервиса с аутентификацией oauth2, необходимо предварительно подключить в deploy.json плагин вида"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:157
+#: ../docs-ru/3_modules_description/rest/rest.rst:157
 msgid "затем можно задать для сервиса значение ``oauth`` в настройке ``auth_mode``\\ :"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:168
+#: ../docs-ru/3_modules_description/rest/rest.rst:168
 msgid "спецификация oauth2 доступна по ссылке: https://oauth2-server.readthedocs.io/en/latest/index.html"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:170
+#: ../docs-ru/3_modules_description/rest/rest.rst:170
 msgid "Этот тип авторизации используется для предоставления третьей стороне ограниченного доступа к ресурсам пользователя без необходимости предоставлять логин и пароль. Запросы для получения доступа производятся в следующем порядке:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:175
+#: ../docs-ru/3_modules_description/rest/rest.rst:175
 msgid "Со стороны пользователя получаем cookie с id сессии:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:182
+#: ../docs-ru/3_modules_description/rest/rest.rst:182
 msgid "Используя авторизованную сессию разрешаем клиенту ext@system запросы от нашего имени:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:188
+#: ../docs-ru/3_modules_description/rest/rest.rst:188
 msgid "В ответе будет содержаться параметр code."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:191
+#: ../docs-ru/3_modules_description/rest/rest.rst:191
 msgid "Теперь используя code можно получить токен:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:197
+#: ../docs-ru/3_modules_description/rest/rest.rst:197
 msgid "в заголовке Authorization нужно ввести Basic :raw-html-m2r:`<client_secret>` код клиента. В ответе будет получен access_token."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:201
+#: ../docs-ru/3_modules_description/rest/rest.rst:201
 msgid "Для запросов от лица пользователя в сервисах с авторизацией oauth2 теперь можно авторизоваться используя access_token:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:207
+#: ../docs-ru/3_modules_description/rest/rest.rst:207
 msgid "dnt: `test/modules/rest/echooauth.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/echooauth.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking echo-oauth service``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:213
+#: ../docs-ru/3_modules_description/rest/rest.rst:213
 msgid "Аутентификация по токену используется для исключения постоянной передачи учетной записи в запросах. Токены ограничены по времени жизни."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:216
+#: ../docs-ru/3_modules_description/rest/rest.rst:216
 msgid "Для реализации работы сервиса с аутентификацией через токен, необходимо задать для него значение ``token`` в настройке ``authMode`` в ``deploy.json``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:227
+#: ../docs-ru/3_modules_description/rest/rest.rst:227
 msgid "Аутентификация через токен осуществляется путем отправки значения токена в заголовке запроса ``auth-token``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:233
+#: ../docs-ru/3_modules_description/rest/rest.rst:233
 msgid "dnt: `test/modules/rest/token.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/token.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking token service/# basicAuth authorization with admin rights/# check if the generated token is valid (basicAuth) (using echo-token)``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:236
+#: ../docs-ru/3_modules_description/rest/rest.rst:236
 msgid "Получение токена возможно двумя способами: в консоли модуля ionadmin или через сервис ``token`` модуля rest."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:238
+#: ../docs-ru/3_modules_description/rest/rest.rst:238
 msgid "Все сгенерированные токены хранятся в коллекции ``ion_user_tokens`` в базе данных приложения"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:243
+#: ../docs-ru/3_modules_description/rest/rest.rst:243
 msgid "Для получения токена через консоль администратора перейдите в пункт навигации \"Ключи безопасности веб-сервисов\" модуля ionadmin, например перейдя по адресу ``locahost:8888/ionadmin/token``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:246
+#: ../docs-ru/3_modules_description/rest/rest.rst:246
 msgid "На странице \"Генератор токенов безопасности\":"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:249
+#: ../docs-ru/3_modules_description/rest/rest.rst:249
 msgid "Введите имя пользоватля в поле \"Имя пользователя\""
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:250
+#: ../docs-ru/3_modules_description/rest/rest.rst:250
 msgid "Укажите в поле \"Тип учетной записи\" значение \"local\""
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:251
+#: ../docs-ru/3_modules_description/rest/rest.rst:251
 msgid "Нажмите кнопку \"Сгенерировать токен\""
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:252
+#: ../docs-ru/3_modules_description/rest/rest.rst:252
 msgid "В поле \"Токен\" появится значение токена подобное ``3a546090355317c287886c0e81dfd304fa5bda99``\\ , его и нужно использовать как значение заголовка ``auth-token``."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:255
+#: ../docs-ru/3_modules_description/rest/rest.rst:255
 msgid "Время жизни токена созданного по умолчанию 100 лет."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:260
+#: ../docs-ru/3_modules_description/rest/rest.rst:260
 msgid "Вторым способом получения токена является использование веб-сервиса модуля rest - ``token``. Получить токен можно через аутентифицированный запрос на адрес ``rest/token``. Например через авторизацию типа basicAuth:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:267
+#: ../docs-ru/3_modules_description/rest/rest.rst:267
 msgid "или запрос с авторизацией через параметры в заголовке:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:273
-#: ../../3_modules_description/rest/rest.rst:452
+#: ../docs-ru/3_modules_description/rest/rest.rst:273
+#: ../docs-ru/3_modules_description/rest/rest.rst:452
 msgid "dnt: `test/modules/rest/token.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/token.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking token service/# basicAuth authorization with admin rights``\\ :raw-html-m2r:`<br>` ``/Checking token service/# authorization with admin rights using header parameters``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:277
+#: ../docs-ru/3_modules_description/rest/rest.rst:277
 msgid "В ответе сервиса будет токен вида ``e444c69894d2087696e0a6c6914788f67ebcf6ee``. Время жизни токена по умолчанию 100 лет."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:279
+#: ../docs-ru/3_modules_description/rest/rest.rst:279
 msgid "Для выполнения запроса нужно или обладать администраторскими правами в системе или иметь права ``use`` для ресурса ``ws:::gen-ws-token``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:281
+#: ../docs-ru/3_modules_description/rest/rest.rst:281
 msgid "Добавить ресурс возможности генерации токенов для роли, можно из комадной строки ``node bin/acl.js --role restGrp --p USE --res ws:::gen-ws-token`` (где restGrp название существующей группы)"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:286
+#: ../docs-ru/3_modules_description/rest/rest.rst:286
 msgid "Вторым способом добавления прав на ресурс - использование консоли администратора модуля ionadmin, например, перейдя по"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:285
+#: ../docs-ru/3_modules_description/rest/rest.rst:285
 msgid "адресу ``locahost:8888/ionadmin/``\\ :"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:288
+#: ../docs-ru/3_modules_description/rest/rest.rst:288
 msgid "Выберите пункт навигации \"Безопасность\","
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:289
+#: ../docs-ru/3_modules_description/rest/rest.rst:289
 msgid "Выберите подпункт навигации \"Роли\""
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:290
+#: ../docs-ru/3_modules_description/rest/rest.rst:290
 msgid "Выберите существующую роль и нажмите кнопку редактировать или создать новую роль."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:291
+#: ../docs-ru/3_modules_description/rest/rest.rst:291
 msgid "В поле \"Права доступа\" роли выберите вкладку \"Services\""
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:292
+#: ../docs-ru/3_modules_description/rest/rest.rst:292
 msgid "Раскройте список прав для ресурса \"Генерация токенов безопасности посредством веб-сервисов (ws:::gen-ws-token)\""
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:293
+#: ../docs-ru/3_modules_description/rest/rest.rst:293
 msgid "Выбрать пункт \"Использование\" и нажмите кнопку \"Сохранить\""
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:296
+#: ../docs-ru/3_modules_description/rest/rest.rst:296
 msgid "Прокси-клиент для доступа к функциям модуля без получения нового токена"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:298
+#: ../docs-ru/3_modules_description/rest/rest.rst:298
 msgid "Подключение клиента осуществляется в ``modules.registry.globals.di`` ``deploy.json``\\ :"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:327
+#: ../docs-ru/3_modules_description/rest/rest.rst:327
 msgid "Пример запроса к rest/echo-token через прокси-клиент:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:334
+#: ../docs-ru/3_modules_description/rest/rest.rst:334
 msgid "dnt: `test/modules/rest/gateway.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/gateway.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking rest-api proxy``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:338
+#: ../docs-ru/3_modules_description/rest/rest.rst:338
 msgid "Встроенные сервисы модуля"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:340
+#: ../docs-ru/3_modules_description/rest/rest.rst:340
 msgid "Модуль REST имеет несколько встроенных сервисов предназначенных для реализации типовых операций с модулем:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:343
+#: ../docs-ru/3_modules_description/rest/rest.rst:343
 msgid "``acceptor`` - сервис обеспечивает массовое создание объектов"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:344
+#: ../docs-ru/3_modules_description/rest/rest.rst:344
 msgid "``token`` - сервис обеспечивает выдачу токена для авторизованного пользователя"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:345
+#: ../docs-ru/3_modules_description/rest/rest.rst:345
 msgid "``crud`` - сервис CRUD для объектов системы"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:350
+#: ../docs-ru/3_modules_description/rest/rest.rst:350
 msgid "Сервис ``acceptor`` предназначен для массового сохранения объектов разных классов."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:352
+#: ../docs-ru/3_modules_description/rest/rest.rst:352
 msgid "Для работы с сервисом требуется его регистрация в файле конфигураций приложений deploy.json. При этом для сервиса обязательно должны быть указаны в ``options`` репозитории ``dataRepo`` и ``metaRepo``. Например"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:370
+#: ../docs-ru/3_modules_description/rest/rest.rst:370
 msgid "Авторизация осуществляется через все основные типы доступа, а по умолчанию через учетную запись пользователя."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:372
+#: ../docs-ru/3_modules_description/rest/rest.rst:372
 msgid "Сервис работает по методу ``POST``\\ , объекты передаются в виде массива объектов в формате JSON в теле запроса с обязательным указанием в заголовке содержания json ``Content-Type:application/json``. Автосоздаваемые поля указывать не обязательно."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:375
+#: ../docs-ru/3_modules_description/rest/rest.rst:375
 msgid "В заголовке (header) в свойстве ``ion-converter`` может быть передано имя конвертора, который нужно использовать при обработке данных, как запроса, так и ответа. При этом сам конвертор данных должен быть зарегистрирован в ``options`` сервиса. Если обработчик не указан, используется обработчик по умолчанию."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:379
+#: ../docs-ru/3_modules_description/rest/rest.rst:379
 msgid "В данных объекта обязательно указываются:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:382
+#: ../docs-ru/3_modules_description/rest/rest.rst:382
 msgid "``_id`` - идентификатор объекта по ключевому полю"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:383
+#: ../docs-ru/3_modules_description/rest/rest.rst:383
 msgid "``_class`` - класс объекта с неймспейсом"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:384
+#: ../docs-ru/3_modules_description/rest/rest.rst:384
 msgid "``_classVer`` - версия класса"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:386
+#: ../docs-ru/3_modules_description/rest/rest.rst:386
 msgid "Остальные значения должны соответствовать свойствам класса, включая соответствие типов данных. Пример."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:396
+#: ../docs-ru/3_modules_description/rest/rest.rst:396
 msgid "dnt: `test/modules/rest/acceptor.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/acceptor.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking acceptor service/# basicAuth authorization with admin rights, POSTing strings/# result of creation of objects``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:399
+#: ../docs-ru/3_modules_description/rest/rest.rst:399
 msgid "Метод возвращает код ``200`` и массив сохраненных объектов."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:415
-#: ../../3_modules_description/rest/rest.rst:650
+#: ../docs-ru/3_modules_description/rest/rest.rst:415
+#: ../docs-ru/3_modules_description/rest/rest.rst:650
 msgid "В случае ошибки код ответа будет ``400``\\ , а текст ответа содержать"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:433
+#: ../docs-ru/3_modules_description/rest/rest.rst:433
 msgid "Сервис ``token`` предназначен для выдачи токена пользователю, прошедшему аутентификацию, для его дальнейшего использования в сервисах осуществляющих аутентификацию по токену."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:436
+#: ../docs-ru/3_modules_description/rest/rest.rst:436
 msgid "Сервис не требует регистрации в deploy.json. Сервис обеспечивает выдачу токена для авторизованного пользователя, если он имеет права ``use`` для ресурса ``ws:::gen-ws-token``  или имеет права администратора. В ответ на запрос, возвращается токен вида ``e444c69894d2087696e0a6c6914788f67ebcf6ee``. Время жизни токена по умолчанию 100 лет."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:440
+#: ../docs-ru/3_modules_description/rest/rest.rst:440
 msgid "Пример запроса через аутентификацию типа basicAuth"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:446
+#: ../docs-ru/3_modules_description/rest/rest.rst:446
 msgid "Пример запроса  с аутентификацией через параметры в заголовке"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:459
+#: ../docs-ru/3_modules_description/rest/rest.rst:459
 msgid "Сервис ``crud`` реализует REST API по модели основных операций CRUD (create, read, update, delete)."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:461
+#: ../docs-ru/3_modules_description/rest/rest.rst:461
 msgid "Сервис требует регистрации в deploy.json приложения и требует обязательного указания источника данных ``dataRepo`` в ``options`` сервиса, а также источника авторизации ``auth`` для доступа к данным пользователя. Целесооразно указывать в качестве репозитория данных - репозиторий с полной обработкой безопасности, чтобы отрабатывать доступ к объектам с учетом динамической безопаности. Например"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:481
+#: ../docs-ru/3_modules_description/rest/rest.rst:481
 msgid "Аутентификация осуществляется через все основные типы доступа, а по умолчанию через учетную запись пользователя."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:489
+#: ../docs-ru/3_modules_description/rest/rest.rst:489
 msgid "dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking crud service/# check if the response for null parameters is valid``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:492
+#: ../docs-ru/3_modules_description/rest/rest.rst:492
 msgid "По умолчанию, без правильных параметров - код ответа сервера ``404`` об ошибке"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:510
+#: ../docs-ru/3_modules_description/rest/rest.rst:510
 msgid "Запрос списка объектов осуществляется методом ``GET``\\ , при этом указывается код класса и нейспейс, например ``rest/crud/class_string@develop-and-test/``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:516
+#: ../docs-ru/3_modules_description/rest/rest.rst:516
 msgid "dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking crud service/GET/# getting a list of text objects``\\ :raw-html-m2r:`<br>` В ответ сервис выдает JSON Объект со смещением 0 и кол-вом 5ть записей и статусом ``200``\\ , если такого класса нет возвращает код ``404``."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:540
+#: ../docs-ru/3_modules_description/rest/rest.rst:540
 msgid "Запрос может быть осуществлен со следущими query параметрами:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:543
+#: ../docs-ru/3_modules_description/rest/rest.rst:543
 msgid "``_offset`` - смещение выборки, по умолчанию 0"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:544
+#: ../docs-ru/3_modules_description/rest/rest.rst:544
 msgid "``_count`` - кол-во значение в выборке, по умолчанию 5"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:545
+#: ../docs-ru/3_modules_description/rest/rest.rst:545
 msgid "``_eager`` - список свойств класса, разделенных символом ``|`` для которых необходимо осуществить жадную загрузку данных."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:546
+#: ../docs-ru/3_modules_description/rest/rest.rst:546
 msgid "``[name of property]`` - все параметры воспринимаютсяимя запроса, кроме начинающихся на ``_`` считаются именами атрибутов класса, а их значения задаются в качестве фильтров."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:549
+#: ../docs-ru/3_modules_description/rest/rest.rst:549
 msgid "Примеры:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:560
+#: ../docs-ru/3_modules_description/rest/rest.rst:560
 msgid "dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking crud service/GET/# getting a list of text objects, with an offset of 1 and a count of 2``\\ :raw-html-m2r:`<br>` ``/Checking crud service/GET/# getting a list of text objects containing a specific string``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:567
+#: ../docs-ru/3_modules_description/rest/rest.rst:567
 msgid "Проверка наличия объекта осуществляется методом ``HEAD``\\ , при этом указывается код класса с нейспейсом и значение ключа объекта, например ``rest/crud/class_string@develop-and-test/66dbb3d0-5583-11e6-aef7-cf50314f026b``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:574
+#: ../docs-ru/3_modules_description/rest/rest.rst:574
 msgid "dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking crud service/HEAD/# checking if an object is present (HEAD)``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:577
+#: ../docs-ru/3_modules_description/rest/rest.rst:577
 msgid "Если объект существует - возвращает код ответа ``200``\\ , если объект не найден ``404``\\ , если нет прав ``403``."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:582
+#: ../docs-ru/3_modules_description/rest/rest.rst:582
 msgid "Получение объекта осуществляется методом ``GET``\\ , при этом указывается код класса с нейспейсом и значение ключа объекта, например ``rest/crud/class_string@develop-and-test/66dbb3d0-5583-11e6-aef7-cf50314f026b``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:589
+#: ../docs-ru/3_modules_description/rest/rest.rst:589
 msgid "dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking crud service/GET/# getting an object (GET)``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:592
+#: ../docs-ru/3_modules_description/rest/rest.rst:592
 msgid "При этом дополнительно в query может быть задан параметр ``_eager`` содержащий список свойств класса, разделенных символом ``|`` для которых необходимо осуществить жадную загрузку данных (ссылки или коллекции). Например"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:599
+#: ../docs-ru/3_modules_description/rest/rest.rst:599
 msgid "dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking crud service/GET/# getting an object with eager loading of the \"table\" property (GET)``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:602
+#: ../docs-ru/3_modules_description/rest/rest.rst:602
 msgid "Если объект существует - возвращает код ответа ``200`` и сам объект в формате json, если объект не найден ``404``\\ , если нет прав ``403``."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:620
+#: ../docs-ru/3_modules_description/rest/rest.rst:620
 msgid "Создание объекта осуществляется методом ``POST``\\ , при этом указывается код класса с нейспейсом, например ``rest/crud/class_string@develop-and-test``. Сам объект передается в теле запроса в формате json с обязательным указанием в заголовке типа содержания json ``Content-Type:application/json``. Автосоздаваемые поля указывать не обязательно. Пример"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:631
+#: ../docs-ru/3_modules_description/rest/rest.rst:631
 msgid "dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking crud service/POST/# creating an object (POST)``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:634
+#: ../docs-ru/3_modules_description/rest/rest.rst:634
 msgid "В ответ будет возвращён созданный объект, в котором будут заполнены все автосозданные поля и указан код ответа ``200``."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:668
+#: ../docs-ru/3_modules_description/rest/rest.rst:668
 msgid "Обновления объекта осуществляется методом ``PATCH`` или ``PUT``\\ , при этом указывается код класса с нейспейсом и значение ключа объекта, например ``rest/crud/class_string@develop-and-test/66dbb3d0-5583-11e6-aef7-cf50314f026b``. Сам объект передается в теле"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:670
+#: ../docs-ru/3_modules_description/rest/rest.rst:670
 msgid "запроса в формате json с обязательным указанием в заголовке типа содержания json ``Content-Type:application/json``."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:680
+#: ../docs-ru/3_modules_description/rest/rest.rst:680
 msgid "dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking crud service/PATCH/# updating an object (PATCH)``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:683
+#: ../docs-ru/3_modules_description/rest/rest.rst:683
 msgid "Если объект существует - возвращает код ответа ``200`` и сам объект в формате json, если объект не найден код ``404``\\ , при ошибке обработки код ``500``\\ , если нет прав ``403``."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:685
+#: ../docs-ru/3_modules_description/rest/rest.rst:685
 msgid "Пример объекта."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:704
+#: ../docs-ru/3_modules_description/rest/rest.rst:704
 msgid "Удаление объекта осуществляется методом ``DELETE``\\ , при этом указывается код класса с нейспейсом и значение ключа объекта, например ``rest/crud/class_string@develop-and-test/66dbb3d0-5583-11e6-aef7-cf50314f026b``."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:711
+#: ../docs-ru/3_modules_description/rest/rest.rst:711
 msgid "dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking crud service/DELETE/# deleting an object (DELETE)``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:714
+#: ../docs-ru/3_modules_description/rest/rest.rst:714
 msgid "В случае успеха - сервис возвращает код ответа ``200``\\ , в случае если объект не найден ``404``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:717
+#: ../docs-ru/3_modules_description/rest/rest.rst:717
 msgid "Создание сервиса"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:719
+#: ../docs-ru/3_modules_description/rest/rest.rst:719
 msgid "Создание собственного сервиса состоит из следующих действий:"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:722
+#: ../docs-ru/3_modules_description/rest/rest.rst:722
 msgid "регистрация сервиса в deploy.json"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:723
+#: ../docs-ru/3_modules_description/rest/rest.rst:723
 msgid "создание обработчика сервисв а приложении"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:724
+#: ../docs-ru/3_modules_description/rest/rest.rst:724
 msgid "реализация логики обработки запросов"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:729
+#: ../docs-ru/3_modules_description/rest/rest.rst:729
 msgid "Пример регистрации тестового сервиса, подробнее см. `Регистрация сервиса в конфигурации приложения <#регистрация-сервиса-в-конфигурации-приложения>`_"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:749
+#: ../docs-ru/3_modules_description/rest/rest.rst:749
 msgid "Все сервисы реализуются как наследники от Service - функции модуля rest."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:756
+#: ../docs-ru/3_modules_description/rest/rest.rst:756
 msgid "Какждый сервис должен экспортировать функцию обработчика, в которой реализован асинхронный метод ``this._route``\\ , в котором"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:752
+#: ../docs-ru/3_modules_description/rest/rest.rst:752
 msgid "необходимо зарегистрировать обрабатываемые методы и пути, через функции ``this.addHandler`` возвращающее Promise . Функция обработки будет иметь доступ к ``options``\\ , через который доступ к репозиториям данных, авторизации, метаданным и классам (если они указаны в конфигурации приложения в файле deploy.json), а также получит объект с типовым названием ``req`` - являющимся объектом ``request`` библиотеки `express <https://expressjs.com/en/4x/api.html#req>`_. Уже распарсенные в объект данные будет находится в ``req.body``."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:762
+#: ../docs-ru/3_modules_description/rest/rest.rst:762
 msgid "Функция обработчик должна вернуть Promise разрешающееся в результат выполнения обработчика (для обработки в Service ``modules/rest/lib/interfaces/Service.js``\\ ),"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:759
+#: ../docs-ru/3_modules_description/rest/rest.rst:759
 msgid "обработчик выдаст его с кодом 200 и типом содержания ``Content-Type:application/json``. Если в ходе обработки будет ошибка перехваченная catch то для"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:761
+#: ../docs-ru/3_modules_description/rest/rest.rst:761
 msgid "ошибок связанных с контролем доступа будет возвращен ответ с тектом ошибки и с кодом ``403``\\ , а для всех остальных код ответа ``500`` и сообщением об ошибке ``Internal server error``."
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:764
+#: ../docs-ru/3_modules_description/rest/rest.rst:764
 msgid "Заголовок можно переопределить, для этого в ответе нужно отдать тип заголовка ``headers``\\ , а объект в атрибуте ``data``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:778
+#: ../docs-ru/3_modules_description/rest/rest.rst:778
 msgid "Пример реализации сервиса выдающего списки объектов с фильтрами для класса ``class_string`` в приложении [develop-and-test]. Также для изучения удобно смотреть сам метод crud, находящийся по адресу ``modules/rest/lib/impl/crud.js``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:836
+#: ../docs-ru/3_modules_description/rest/rest.rst:836
 msgid "Запрос без атрибутов в теле запроса"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:842
+#: ../docs-ru/3_modules_description/rest/rest.rst:842
 msgid "Вернет весь список"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:865
+#: ../docs-ru/3_modules_description/rest/rest.rst:865
 msgid "А запрос с параметром атрибута равного значению в атрибуте string_text ``Example of the \\\"String [0]\\\" type in the \\\"Text [1]\\\" view``"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:873
+#: ../docs-ru/3_modules_description/rest/rest.rst:873
 msgid "Вернет объекты удовлетворяющие условию"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:885
+#: ../docs-ru/3_modules_description/rest/rest.rst:885
 msgid "Дополнительные сервисы"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:888
+#: ../docs-ru/3_modules_description/rest/rest.rst:888
 msgid "`Метод SEARCH </docs/ru/method_search.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:889
+#: ../docs-ru/3_modules_description/rest/rest.rst:889
 msgid "`Отправка запросов с файлами в CRUD сервисе </docs/ru/methods_crud.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:890
+#: ../docs-ru/3_modules_description/rest/rest.rst:890
 msgid "`Сервис исполнения бизнес-процесса </docs/ru/performance_workflow.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:891
+#: ../docs-ru/3_modules_description/rest/rest.rst:891
 msgid "`Cервис публикации метаданных </docs/ru/service_metadata.md>`_"
 msgstr ""
 
-#: ../../3_modules_description/rest/rest.rst:900
+#: ../docs-ru/3_modules_description/rest/rest.rst:900
 msgid "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights reserved."
 msgstr ""
 
-#: ../../3_modules_description/rest/service_metadata.rst:3
+#: ../docs-ru/3_modules_description/rest/service_metadata.rst:3
 msgid "Cервис публикации метаданных"
 msgstr ""
 
-#: ../../3_modules_description/rest/service_metadata.rst:5
+#: ../docs-ru/3_modules_description/rest/service_metadata.rst:5
 msgid "Представляет собой встроенный сервис в rest модуле, который по сути отражает интерфейс метарепозитория."
 msgstr ""
 
-#: ../../3_modules_description/rest/service_metadata.rst:8
+#: ../docs-ru/3_modules_description/rest/service_metadata.rst:8
 msgid "**Запросы** осуществляются через GET-методы."
 msgstr ""
 
-#: ../../3_modules_description/rest/service_metadata.rst:9
+#: ../docs-ru/3_modules_description/rest/service_metadata.rst:9
 msgid "**Имена методов** метарепозитория задаются через путь."
 msgstr ""
 
-#: ../../3_modules_description/rest/service_metadata.rst:10
+#: ../docs-ru/3_modules_description/rest/service_metadata.rst:10
 msgid "**Идентификаторы мета-объектов** также через путь, вторым уровнем."
 msgstr ""
 
-#: ../../3_modules_description/rest/service_metadata.rst:11
+#: ../docs-ru/3_modules_description/rest/service_metadata.rst:11
 msgid "**Дополнительные аргументы** - как query параметры."
 msgstr ""
 
-#: ../../3_modules_description/rest/service_metadata.rst:13
+#: ../docs-ru/3_modules_description/rest/service_metadata.rst:13
 msgid "Список GET-методов:"
 msgstr ""
 
-#: ../../3_modules_description/soap.rst:5
+#: ../docs-ru/3_modules_description/soap.rst:5
 msgid "Soap модуль"
 msgstr ""
 
-#: ../../3_modules_description/soap.rst:11
+#: ../docs-ru/3_modules_description/soap.rst:11
 msgid "NB. Soap модуль не поддерживает GET запросы к сервисам. Отчасти оттого, что в теле запроса передаётся SOAP-запрос, а у GET-запроса тела нет (если можно так выразиться). По этой причине нужно отправлять POST запрос."
 msgstr ""
 
-#: ../../3_modules_description/soap.rst:14
+#: ../docs-ru/3_modules_description/soap.rst:14
 msgid "Это можно сделать с помощью утилиты SOAP-UI (можно и в браузере, но в теле запроса нужно писать SOAP-запрос, который на основе WSDL и достаточно громоздкий)."
 msgstr ""
 
-#: ../../3_modules_description/soap.rst:17
+#: ../docs-ru/3_modules_description/soap.rst:17
 msgid "Настройки структуры данных crud-сервиса"
 msgstr ""
 
-#: ../../3_modules_description/soap.rst:19
+#: ../docs-ru/3_modules_description/soap.rst:19
 msgid "Опция ``types`` содержит в себе задаваемое в виде мапинга соответствие между классом (полным именем) и мапой публикуемых атрибутов этого класса. В мапе ключем является имя атрибута, а значением - либо строковый псевдоним, либо булево значение указывающее включается атрибут в схему или нет. т.е. если указан псевдоним, то атрибут появляется в схеме под этим псевдонимом, во всех других случаях кроме указания ``false`` атрибут появляется под своим именем."
 msgstr ""
 
-#: ../../3_modules_description/soap.rst:21
+#: ../docs-ru/3_modules_description/soap.rst:21
 msgid "Настройка применяется при парсинге классов при формировании схемы данных сервиса, а также при парсинге входящих сообщение и генерации ответов. Путем замены normalize на функцию корректно приводящую данные к схеме."
 msgstr ""
 
-#: ../../3_modules_description/soap.rst:24
+#: ../docs-ru/3_modules_description/soap.rst:24
 msgid "Для работы с коллекциями и ссылками"
 msgstr ""
 
-#: ../../3_modules_description/soap.rst:26
+#: ../docs-ru/3_modules_description/soap.rst:26
 msgid "Если значения коллекций и ссылок тоже надо распарсить как то иначе, объекты которые находятся в этих свойствах можно тоже описать мапой в ``deploy.json`` вот по такому принципу:"
 msgstr ""
 
-#: ../../3_modules_description/soap.rst:60
+#: ../docs-ru/3_modules_description/soap.rst:60
 msgid "Настройка, убирающая из запроса системные атрибуты"
 msgstr ""
 
-#: ../../3_modules_description/soap.rst:67
+#: ../docs-ru/3_modules_description/soap.rst:67
 msgid "Авторизация по токену oauth2 в модуле SOAP"
 msgstr ""
 
-#: ../../3_modules_description/soap.rst:69
+#: ../docs-ru/3_modules_description/soap.rst:69
 msgid "Аутентификация по парам логин-пароль и логин-токен по умолчанию применяется для всех сервисов. Для аутентификации soap-запросов добавляем в сообщение заголовок безопасности ``WSSecurity``. Для аутентфиикации REST-сервисов добавляем стандартные заголовки ``HTTP-аутентифкации``."
 msgstr ""
 
-#: ../../3_modules_description/soap.rst:71
+#: ../docs-ru/3_modules_description/soap.rst:71
 msgid "Настройка типа проверки - по паролю или токену (pwd/token) выполняется в deploy.json настройкой ``authMode`` в соответствующем модуле:"
 msgstr ""
 
-#: ../../3_modules_description/soap.rst:88
+#: ../docs-ru/3_modules_description/soap.rst:88
 msgid "По умолчанию все сервисы аутентифицируются по паролю. Для генерации токена пользователя в админке реализована специальная форма. Настраиваем ``authMode`` для сервиса в token, переходим в админку, генерируем токен, используем его вместо пароля в заголовках."
 msgstr ""
 
-#: ../../3_modules_description/soap.rst:93
+#: ../docs-ru/3_modules_description/soap.rst:93
 msgid "`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/contacts>`_ &ensp;  `English </docs/en/3_modules_description/soap.md>`_ &ensp;"
 msgstr ""

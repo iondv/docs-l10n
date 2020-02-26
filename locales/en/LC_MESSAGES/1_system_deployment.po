@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-02-24 09:12+0000\n"
+"PO-Revision-Date: 2020-02-26 08:34+0000\n"
 "Last-Translator: IONDV Weblate Admin <weblate@iondv.com>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "1_system_deployment/en/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11\n"
+"X-Generator: Weblate 3.11.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:3
@@ -32,23 +32,23 @@ msgstr ""
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:8
 msgid "`acl.js`_"
-msgstr ""
+msgstr "`acl.js`_"
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:9
 msgid "`export.js`_"
-msgstr ""
+msgstr "`export.js`_"
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:10
 msgid "`import.js и import-data.js`_"
-msgstr ""
+msgstr "`import.js and import-data.js`_"
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:11
 msgid "`setup.js`_"
-msgstr ""
+msgstr "`setup.js`_"
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:18
 msgid "acl.js"
-msgstr ""
+msgstr "acl.js"
 
 #: ../../1_system_deployment/files_in_folder_bin.rst:20
 msgid ""
