@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-03-17 04:27+0000\n"
+"PO-Revision-Date: 2020-03-17 04:40+0000\n"
 "Last-Translator: Софья Григорьева <madygirl26@hotmail.com>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "3_modules_description/en/>\n"
@@ -48,7 +48,7 @@ msgstr "`Index</docs/ru/index.md>`_"
 #: ../../3_modules_description/report.rst:9
 #: ../../3_modules_description/soap.rst:9
 msgid "Назад: `Модули <modules.md>`_"
-msgstr ""
+msgstr "Back to: `modules <modules.md>`_"
 
 #: ../../3_modules_description/account.rst:11
 msgid ""
@@ -56,11 +56,11 @@ msgid ""
 "\"инструментальных\" форм, т.е. в приложениях мы заводим навигацию (или "
 "сами формы-страницы), модуль считывает их, формирует на основании них "
 "навигацию, и логику отображения этих страниц."
-msgstr ""
+msgstr "**My account**\\ - is necessary to display various"
 
 #: ../../3_modules_description/account.rst:14
 msgid "Настройка модуля"
-msgstr ""
+msgstr "Module settings"
 
 #: ../../3_modules_description/account.rst:17
 msgid "В приложении в некую директорию кладем html-страницы."
