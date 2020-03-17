@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-02-24 09:12+0000\n"
-"Last-Translator: IONDV Weblate Admin <weblate@iondv.com>\n"
+"PO-Revision-Date: 2020-03-17 04:27+0000\n"
+"Last-Translator: Софья Григорьева <madygirl26@hotmail.com>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "3_modules_description/en/>\n"
 "Language: en\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11\n"
+"X-Generator: Weblate 3.11.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../3_modules_description/account.rst:5
 msgid "Личный кабинет"
-msgstr ""
+msgstr "My account"
 
 #: ../../3_modules_description/account.rst:7
 #: ../../3_modules_description/admin.rst:7
@@ -37,7 +37,7 @@ msgstr ""
 #: ../../3_modules_description/report.rst:7
 #: ../../3_modules_description/soap.rst:7
 msgid "`Оглавление </docs/ru/index.md>`_"
-msgstr ""
+msgstr "`Index</docs/ru/index.md>`_"
 
 #: ../../3_modules_description/account.rst:9
 #: ../../3_modules_description/admin.rst:9
