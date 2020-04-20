@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
 "PO-Revision-Date: 2020-04-20 08:30+0000\n"
-"Last-Translator: IONDV Weblate Admin <weblate@iondv.com>\n"
+"Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/key_features/"
 "en/>\n"
 "Language: en\n"
@@ -238,25 +238,26 @@ msgstr "display a pop-up window with brief information on an object;"
 
 #: ../../key_features.rst:64
 msgid "отображение шаблона подробной информации по объекту;"
-msgstr ""
+msgstr "display of a template of detailed information on an object;"
 
 #: ../../key_features.rst:65
 msgid "поиск объектов;"
-msgstr ""
+msgstr "search for objects;"
 
 #: ../../key_features.rst:66
 msgid "фильтрация по произвольно указанной границе;"
-msgstr ""
+msgstr "arbitrary boundary filtering;"
 
 #: ../../key_features.rst:67
 msgid "районирование и фильтрация по границам районов;"
-msgstr ""
+msgstr "zoning and filtering by district boundaries;"
 
 #: ../../key_features.rst:68
 msgid ""
 "подключение данных модуля report, в том числе с расчетными данными по "
 "району."
 msgstr ""
+"report module data connection, including the calculated data for the region."
 
 #: ../../key_features.rst:71
 msgid ""
