@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-02-24 09:12+0000\n"
+"PO-Revision-Date: 2020-04-20 06:24+0000\n"
 "Last-Translator: IONDV Weblate Admin <weblate@iondv.com>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/key_features/"
 "en/>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11\n"
+"X-Generator: Weblate 3.11.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../key_features.rst:6
 msgid "Функциональность IONDV. Framework и его модулей"
-msgstr ""
+msgstr "Functionality of IONDV. Framework and its modules"
 
 #: ../../key_features.rst:9
 msgid "IONDV. Framework"
