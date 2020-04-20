@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-04-20 06:24+0000\n"
-"Last-Translator: IONDV Weblate Admin <weblate@iondv.com>\n"
+"PO-Revision-Date: 2020-04-20 07:59+0000\n"
+"Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/key_features/"
 "en/>\n"
 "Language: en\n"
@@ -26,7 +26,7 @@ msgstr "Functionality of IONDV. Framework and its modules"
 
 #: ../../key_features.rst:9
 msgid "IONDV. Framework"
-msgstr ""
+msgstr "IONDV. Framework"
 
 #: ../../key_features.rst:11
 msgid "**IONDV. Framework** обеспечивает реализацию следующей функциональности:"
@@ -116,31 +116,33 @@ msgstr "notification of users by events."
 
 #: ../../key_features.rst:28
 msgid "Модули"
-msgstr ""
+msgstr "Modules"
 
 #: ../../key_features.rst:30
 msgid ""
 "Дополнительная функциональность, реализуется стандартными подключаемыми "
 "модулями."
-msgstr ""
+msgstr "Additional functionality is implemented by standard modules."
 
 #: ../../key_features.rst:33
 msgid "Модуль учета данных registry:"
-msgstr ""
+msgstr "Data accounting module - registry:"
 
 #: ../../key_features.rst:36
 msgid "отображение навигации в иерархическом виде;"
-msgstr ""
+msgstr "hierarchical display of navigation;"
 
 #: ../../key_features.rst:37
 msgid ""
 "отображение списков объектов данных по условиям навигации, фильтров, "
 "результатов поиска;"
 msgstr ""
+"displaying lists of data objects according to navigation conditions, "
+"filters, search results;"
 
 #: ../../key_features.rst:38
 msgid "возможность создания объектов;"
-msgstr ""
+msgstr "the ability to create objects;"
 
 #: ../../key_features.rst:39
 msgid ""
@@ -148,80 +150,90 @@ msgid ""
 "удаления, изменения бизнес-процессов, реализации условия отображения и "
 "перегрузки представления формы по бизнес-процессу;"
 msgstr ""
+"display of unified forms of objects with the ability to edit, delete, modify "
+"work-flows, implement the conditions for displaying and overloading the "
+"presentation of a form in a business process;"
 
 #: ../../key_features.rst:40
 msgid ""
 "отображение различных типов атрибутов, включая связанные в виде таблиц "
 "или ссылок, геообъектов (включая поиск координат по адресу);"
 msgstr ""
+"display of various types of attributes, including related in the form of "
+"tables or links, geo objects (including search for coordinates by address);"
 
 #: ../../key_features.rst:41
 msgid "отображение данных по их семантике (условиям изменениям);"
-msgstr ""
+msgstr "displaying data according to their semantics (the terms of changes);"
 
 #: ../../key_features.rst:42
 msgid ""
 "возможность изменения отображения и взаимодействия с атрибутами объектов "
 "через кастомизированные HTML шаблоны, получающие данные по REST-API;"
 msgstr ""
+"the ability to change the display and interaction with the attributes of "
+"objects through custom HTML templates that receive data by REST-API;"
 
 #: ../../key_features.rst:43
 msgid ""
 "подготовка печатных форм в формате docx и xlsx на основе списков или "
 "данных объектов;"
 msgstr ""
+"preparation of printed forms in docx and xlsx format based on lists or "
+"object data;"
 
 #: ../../key_features.rst:44
 msgid "отображение уведомлений пользователей;"
-msgstr ""
+msgstr "display of user notifications;"
 
 #: ../../key_features.rst:45
 msgid ""
 "возможность реализации собственных кнопок действий с серверной обработкой"
 " данных."
 msgstr ""
+"the ability to implement your own action buttons with server data processing."
 
 #: ../../key_features.rst:48
 msgid "Модуль отчетности и аналитики - report:"
-msgstr ""
+msgstr "Reporting and Analytics Module - report:"
 
 #: ../../key_features.rst:51
 msgid ""
 "формирование выходных рассчитываемых форм, с возможностью фильтрации по "
 "значениям;"
-msgstr ""
+msgstr "formation of calculated forms, with the ability to filter by values;"
 
 #: ../../key_features.rst:52
 msgid "фильтрация данных;"
-msgstr ""
+msgstr "data filtering;"
 
 #: ../../key_features.rst:53
 msgid "математические операции над данными;"
-msgstr ""
+msgstr "mathematical operations on data;"
 
 #: ../../key_features.rst:54
 msgid "pivot таблицы;"
-msgstr ""
+msgstr "pivot tables;"
 
 #: ../../key_features.rst:55
 msgid "REST API к данным отчетов."
-msgstr ""
+msgstr "REST API to report data."
 
 #: ../../key_features.rst:58
 msgid "Модуль представления данных с геокоординатами – geomap:"
-msgstr ""
+msgstr "Display of data with geo-coordinates – geomap:"
 
 #: ../../key_features.rst:61
 msgid "реализация слоев данных с фильтрацией по условиям;"
-msgstr ""
+msgstr "data layers implementation with filtering by conditions;"
 
 #: ../../key_features.rst:62
 msgid "возможность задавать иконки представления данных по типам данных;"
-msgstr ""
+msgstr "ability to set data view icons according to data type;"
 
 #: ../../key_features.rst:63
 msgid "отображение всплывающего окошка с краткой информацией по объекту;"
-msgstr ""
+msgstr "display a pop-up window with brief information on an object;"
 
 #: ../../key_features.rst:64
 msgid "отображение шаблона подробной информации по объекту;"
