@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-04-20 08:30+0000\n"
+"PO-Revision-Date: 2020-04-21 09:54+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/key_features/"
 "en/>\n"
@@ -212,7 +212,6 @@ msgid "математические операции над данными;"
 msgstr "mathematical operations on data;"
 
 #: ../../key_features.rst:54
-#, fuzzy
 msgid "pivot таблицы;"
 msgstr "pivot tables;"
 
@@ -263,147 +262,154 @@ msgstr ""
 msgid ""
 "Модули интеграции по REST и SOAP со стандартными API с учетом "
 "безопасности пользователя:"
-msgstr ""
+msgstr "REST and SOAP integration modules with standard APIs and user security:"
 
 #: ../../key_features.rst:74
 msgid ""
 "различные настраиваемые типы авторизации: в заголовке, токен (включение "
 "сервис получение токена после авторизации в заголовке), без авторизации;"
 msgstr ""
+"various custom types of authorization: in the header, token (inclusion of "
+"the service receiving a token after authorization in the header), without "
+"authorization;"
 
 #: ../../key_features.rst:75
 msgid "получения списков объектов каждого типа с различными условиями фильтрации;"
 msgstr ""
+"receiving lists of objects of each type with different filtering conditions;"
 
 #: ../../key_features.rst:76
 msgid "сервис CRUD для любых типов данных;"
-msgstr ""
+msgstr "CRUD service for any data type;"
 
 #: ../../key_features.rst:77
 msgid "сервис переходов по этапам бизнес-процессов;"
-msgstr ""
+msgstr "work-flow transition service;"
 
 #: ../../key_features.rst:78
 msgid "сервис получения метаданных;"
-msgstr ""
+msgstr "metadata retrieval service;"
 
 #: ../../key_features.rst:79
 msgid "возможность подключения произвольных собственных сервисов обработки."
-msgstr ""
+msgstr "the ability to connect arbitrary custom processing services."
 
 #: ../../key_features.rst:82
 msgid "Модуль дашбордов - dashboard:"
-msgstr ""
+msgstr "Dashboard module - dashboard:"
 
 #: ../../key_features.rst:85
 msgid ""
 "обеспечение формирования информационных блоков с цифровыми и графическими"
 " данными;"
 msgstr ""
+"ensuring of the formation of information blocks with digital and graphic "
+"data;"
 
 #: ../../key_features.rst:86
 msgid ""
 "позволяет настраивать несколько групп представлений и кастомизировать для"
 " каждого пользователя."
 msgstr ""
+"allows to adjust several groups of views and customize them for each user."
 
 #: ../../key_features.rst:89
 msgid "Модуль администрирования - ionadmin:"
-msgstr ""
+msgstr "Administration module - ionadmin:"
 
 #: ../../key_features.rst:92
 msgid ""
 "обеспечивает ведение пользователей, прав и ролей, блокировку "
 "пользователей;"
-msgstr ""
+msgstr "provides user management, rights and roles control, user blocking;"
 
 #: ../../key_features.rst:93
 msgid "формирование ключей безопасности (токенов) для интеграционных сервисов;"
-msgstr ""
+msgstr "generation of security keys (tokens) for integration services;"
 
 #: ../../key_features.rst:94
 msgid "мониторинг ключевых серверных ресурсов (с использованием модуля дашборд);"
-msgstr ""
+msgstr "monitoring of key server resources (using the dashboard module);"
 
 #: ../../key_features.rst:95
 msgid "анализ выполнения медленных запросов СУБД;"
-msgstr ""
+msgstr "analysis of slow DBMS queries;"
 
 #: ../../key_features.rst:96
 msgid "настройку задач по расписанию;"
-msgstr ""
+msgstr "scheduled tasks setting;"
 
 #: ../../key_features.rst:97
 msgid "отслеживание изменений объектов системы;"
-msgstr ""
+msgstr "tracking of system objects changes;"
 
 #: ../../key_features.rst:98
 msgid "осуществление резервирования данных и метаданных;"
-msgstr ""
+msgstr "data and metadata backup;"
 
 #: ../../key_features.rst:99
 msgid "пересчет кешей семантики и формул;"
-msgstr ""
+msgstr "recalculation of semantics and formulas caches;"
 
 #: ../../key_features.rst:100
 msgid "управление уведомлениями."
-msgstr ""
+msgstr "notification management."
 
 #: ../../key_features.rst:103
 msgid "Модуль создания произвольных веб-страниц - portal:"
-msgstr ""
+msgstr "Custom webpage creation module - portal:"
 
 #: ../../key_features.rst:106
 msgid "регистрацию произвольных страниц по адресу обработки (маршруту);"
-msgstr ""
+msgstr "registration of arbitrary pages at the processing address (route);"
 
 #: ../../key_features.rst:107
 msgid "регистрацию статического контента;"
-msgstr ""
+msgstr "registration of static content;"
 
 #: ../../key_features.rst:108
 msgid "управление безопасностью доступа;"
-msgstr ""
+msgstr "security access management;"
 
 #: ../../key_features.rst:109
 msgid "поддержку рендеринга страниц из шаблонов EJS."
-msgstr ""
+msgstr "support for rendering pages from EJS templates."
 
 #: ../../key_features.rst:112
 msgid "Приложение IONDV. Studio для создания метаданных:"
-msgstr ""
+msgstr "The IONDV. Studio application for metadata creation:"
 
 #: ../../key_features.rst:115
 msgid "создание навигации;"
-msgstr ""
+msgstr "creation of navigation;"
 
 #: ../../key_features.rst:116
 msgid "создание структуры классов;"
-msgstr ""
+msgstr "creation of class structures;"
 
 #: ../../key_features.rst:117
 msgid "создание представлений для классов;"
-msgstr ""
+msgstr "creation of views for classes;"
 
 #: ../../key_features.rst:118
 msgid "создание бизнес-процессов;"
-msgstr ""
+msgstr "creation of work-flows;"
 
 #: ../../key_features.rst:119
 msgid "базовая настройка приложения;"
-msgstr ""
+msgstr "basic application setup;"
 
 #: ../../key_features.rst:120
 msgid "экспорт и импорт метаданных;"
-msgstr ""
+msgstr "export and import of metadata;"
 
 #: ../../key_features.rst:121
 msgid "работа в стендалоне режиме с файлами проекта;"
-msgstr ""
+msgstr "work with project files in standalone mode;"
 
 #: ../../key_features.rst:122
 msgid "работа онлайн с несколькими проектами, размещаемыми в хранилище браузера."
-msgstr ""
+msgstr "online work with several projects hosted in the browser repository."
 
 #: ../../key_features.rst:127
 msgid ""
@@ -412,6 +418,10 @@ msgid ""
 "                      `English "
 "<https://iondv.readthedocs.io/en/latest/index.html>`_"
 msgstr ""
+"`License <https://github.com/iondv/framework/blob/master/LICENSE>`"
+"_                      `Contact us <https://iondv.com/portal/contacts>`"
+"_                      `English <https://iondv.readthedocs.io/en/latest/"
+"index.html>`_"
 
 #: ../../key_features.rst:137
 msgid ""
