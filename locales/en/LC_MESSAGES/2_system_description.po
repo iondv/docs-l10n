@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-26 07:49+0000\n"
-"PO-Revision-Date: 2020-03-17 04:27+0000\n"
-"Last-Translator: Софья Григорьева <madygirl26@hotmail.com>\n"
+"PO-Revision-Date: 2020-04-24 05:52+0000\n"
+"Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
 "Language: en\n"
@@ -8192,7 +8192,7 @@ msgstr ""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:100
 msgid "Использование"
-msgstr ""
+msgstr "Create"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:102
 msgid ""
