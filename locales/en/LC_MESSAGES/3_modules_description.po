@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-04-23 15:08+0000\n"
+"PO-Revision-Date: 2020-04-24 05:52+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "3_modules_description/en/>\n"
@@ -430,25 +430,27 @@ msgstr "Confirm the deletion of the role."
 
 #: ../../3_modules_description/admin_security.rst:63
 msgid "Доступ к ресурсу"
-msgstr ""
+msgstr "Resource access"
 
 #: ../../3_modules_description/admin_security.rst:65
 msgid ""
 "При управлении ролями в правах доступа предоставляются следующие доступы "
 "к каждому ресурсу:"
 msgstr ""
+"When managing roles in access rights, the following access is provided to "
+"each resource:"
 
 #: ../../3_modules_description/admin_security.rst:70
 msgid "Доступ"
-msgstr ""
+msgstr "Access"
 
 #: ../../3_modules_description/admin_security.rst:71
 msgid "Описание доступа"
-msgstr ""
+msgstr "Description"
 
 #: ../../3_modules_description/admin_security.rst:72
 msgid "Полный доступ"
-msgstr ""
+msgstr "Full access"
 
 #: ../../3_modules_description/admin_security.rst:73
 msgid ""
@@ -456,56 +458,65 @@ msgid ""
 "еще дополнительный доступ на чтение, запись, удаление или использование. "
 "Для навигации предоставляется доступ только на чтение ресурса."
 msgstr ""
+"Includes all other accesses. You cannot select full access and additional "
+"access to read, edit, delete or use. For navigation, read-only access is "
+"granted."
 
 #: ../../3_modules_description/admin_security.rst:74
 msgid "Чтение"
-msgstr ""
+msgstr "Read only"
 
 #: ../../3_modules_description/admin_security.rst:75
 msgid "Возможность чтение объектов ресурса"
-msgstr ""
+msgstr "The ability to read resource objects"
 
 #: ../../3_modules_description/admin_security.rst:76
 msgid "Запись"
-msgstr ""
+msgstr "Edit"
 
 #: ../../3_modules_description/admin_security.rst:77
 msgid "Возможность редактирования объектов ресурса, не применяется для навигации"
-msgstr ""
+msgstr "The ability to edit resource objects, not used for navigation"
 
 #: ../../3_modules_description/admin_security.rst:78
 msgid "Удаление"
-msgstr ""
+msgstr "Delete"
 
 #: ../../3_modules_description/admin_security.rst:79
 msgid "Возможность удаления объектов ресурса, не применяется для навигации"
-msgstr ""
+msgstr "Ability to delete resource objects, not used for navigation"
 
 #: ../../3_modules_description/admin_security.rst:80
 msgid "Использование"
-msgstr ""
+msgstr "Create"
 
 #: ../../3_modules_description/admin_security.rst:81
 msgid "Возможность создания объектов ресурса, не применяется для навигации"
-msgstr ""
+msgstr "Ability to create resource objects, not used for navigation"
 
 #: ../../3_modules_description/admin_security.rst:84
 msgid ""
 "Доступ может назначаться всей группе ресурсов или отдельно каждому "
 "ресурсу и доступу в нем."
 msgstr ""
+"Access can be assigned to the entire resource group or separately to each "
+"resource and access in it."
 
 #: ../../3_modules_description/admin_security.rst:89
 msgid ""
 "На странице ``/ionadmin/security/user`` можно создавать, редактировать "
 "или удалять пользователей:"
 msgstr ""
+"On the ``/ ionadmin / security / user`` page you can create, edit or delete "
+"users:"
 
 #: ../../3_modules_description/admin_security.rst:91
 msgid ""
 "Создание пользователя. Для создания пользователя на странице "
 "``/ionadmin/security/user`` нажимаем кнопку \"Создать\""
 msgstr ""
+"Create a user. Press the \"Create\" button on the ``/ionadmin/security/user``"
+" page to create a user."
 
 #: ../../3_modules_description/admin_security.rst:93
 msgid ""
@@ -513,6 +524,9 @@ msgid ""
 " на английском языке, пароль, описание в имени. Нажимаем на кнопку "
 "\"Сохранить\" для подтверждения создания указанного пользователя"
 msgstr ""
+"You are redirected to a new page, where you need to specify the username in "
+"English, password, description in the name. Click on the \"Save\" button to "
+"confirm the creation of the specified user."
 
 #: ../../3_modules_description/admin_security.rst:95
 msgid ""
@@ -520,32 +534,40 @@ msgid ""
 "``/ionadmin/security/user`` выбираем необходимого пользователя и нажимаем"
 " кнопку \"Править\""
 msgstr ""
+"Editing of the user. Select the required user and press the \"Edit\" button "
+"on the page ``/ ionadmin / security / user`` to edit the user."
 
 #: ../../3_modules_description/admin_security.rst:99
 msgid ""
 "``Тип`` - тип учетной записи пользователя, пока доступны в админке "
 "локальные пользователи."
 msgstr ""
+"``Тип`` - type of user account, only local users are available in the admin "
+"panel."
 
 #: ../../3_modules_description/admin_security.rst:101
 msgid "``Логин`` - идентификатор пользователя на английском языке."
-msgstr ""
+msgstr "``Логин`` - user ID in English."
 
 #: ../../3_modules_description/admin_security.rst:103
 msgid "``Пароль`` - пароль пользователя."
-msgstr ""
+msgstr "``Пароль`` - user password."
 
 #: ../../3_modules_description/admin_security.rst:105
 msgid ""
 "``Имя`` - осмысленное название пользователя, может содержать выражения на"
 " русском языке, например, Фамилия И.О."
 msgstr ""
+"``Имя`` - name of the user which may contain expressions in Russian, for "
+"example, full name."
 
 #: ../../3_modules_description/admin_security.rst:107
 msgid ""
 "``Роли`` - список ролей пользователя. Если проставлена галка у роли, то "
 "роль привязана к пользователю."
 msgstr ""
+"``Роли`` - list of user roles. If the role is ticked, the role is tied to "
+"the user."
 
 #: ../../3_modules_description/admin_security.rst:109
 msgid ""
@@ -553,10 +575,12 @@ msgid ""
 "``/ionadmin/security/user`` выбираем необходимого пользователя и нажимаем"
 " кнопку \"Удалить\""
 msgstr ""
+"Deleting the user. Choose the user and press the \"Delete\" button on the ``/"
+"ionadmin/security/user`` page to delete the user."
 
 #: ../../3_modules_description/admin_security.rst:111
 msgid "Подтверждаем удаление пользователя."
-msgstr ""
+msgstr "Confirm the deletion of the user."
 
 #: ../../3_modules_description/admin_security.rst:116
 msgid ""
@@ -564,58 +588,61 @@ msgid ""
 "чего переменные необходимо объявить в файле настройки конфигурации "
 "приложения *deploy.json*."
 msgstr ""
+"The password requirements are set in the *ini-file* of the application, "
+"after which the variables must be declared in the application configuration "
+"file *deploy.json *."
 
 #: ../../3_modules_description/admin_security.rst:132
 msgid "Длительность везде задается в формате: ``[длительность][ед. изм]``"
-msgstr ""
+msgstr "The duration is set in the format: ``[duration][unit]``"
 
 #: ../../3_modules_description/admin_security.rst:137
 msgid "Ед. измерения"
-msgstr ""
+msgstr "Unit"
 
 #: ../../3_modules_description/admin_security.rst:138
 msgid "Значение"
-msgstr ""
+msgstr "Value"
 
 #: ../../3_modules_description/admin_security.rst:139
 msgid "``y``"
-msgstr ""
+msgstr "``y``"
 
 #: ../../3_modules_description/admin_security.rst:140
 msgid "Год"
-msgstr ""
+msgstr "Year"
 
 #: ../../3_modules_description/admin_security.rst:141
 msgid "``d``"
-msgstr ""
+msgstr "``d``"
 
 #: ../../3_modules_description/admin_security.rst:142
 msgid "День"
-msgstr ""
+msgstr "Day"
 
 #: ../../3_modules_description/admin_security.rst:143
 msgid "``h``"
-msgstr ""
+msgstr "``h``"
 
 #: ../../3_modules_description/admin_security.rst:144
 msgid "Час"
-msgstr ""
+msgstr "Hour"
 
 #: ../../3_modules_description/admin_security.rst:145
 msgid "``m``"
-msgstr ""
+msgstr "``m``"
 
 #: ../../3_modules_description/admin_security.rst:146
 msgid "Минута"
-msgstr ""
+msgstr "Minute"
 
 #: ../../3_modules_description/admin_security.rst:147
 msgid "``s``"
-msgstr ""
+msgstr "``s``"
 
 #: ../../3_modules_description/admin_security.rst:148
 msgid "Секунда"
-msgstr ""
+msgstr "Second"
 
 #: ../../3_modules_description/admin_security.rst:194
 msgid ""
@@ -623,6 +650,9 @@ msgid ""
 "<https://iondv.com/portal/contacts>`_ &ensp;  `English "
 "</docs/en/3_modules_description/admin_security.md>`_ &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/3_modules_description/"
+"admin_security.md>`_ &ensp;"
 
 #: ../../3_modules_description/dashboards.rst:5
 msgid "Модуль Панель управления (dashboard)"
