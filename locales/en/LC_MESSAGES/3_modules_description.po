@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-04-24 05:52+0000\n"
+"PO-Revision-Date: 2020-04-24 06:01+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "3_modules_description/en/>\n"
@@ -162,7 +162,7 @@ msgstr "Ionadmin module configuration in the config.json file"
 
 #: ../../3_modules_description/admin.rst:17
 msgid "Настройка записи в БД интервалов"
-msgstr ""
+msgstr "Data base"
 
 #: ../../3_modules_description/admin.rst:19
 msgid ""
