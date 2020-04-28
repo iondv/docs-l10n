@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-04-28 02:49+0000\n"
+"PO-Revision-Date: 2020-04-29 05:49+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "3_modules_description/en/>\n"
@@ -797,7 +797,6 @@ msgstr ""
 "configuration file to load the data from the meta to the dashboard module:"
 
 #: ../../3_modules_description/dashboards.rst:113
-#, fuzzy
 msgid ""
 "`Licence </LICENSE>`_\\ &ensp;  `Contact us "
 "<https://iondv.com/portal/contacts>`_ &ensp;  `English "
@@ -896,7 +895,6 @@ msgstr ""
 "project are displayed."
 
 #: ../../3_modules_description/gantt_chart.rst:149
-#, fuzzy
 msgid ""
 "`Licence </LICENSE>`_\\ &ensp;  `Contact us "
 "<https://iondv.com/portal/contacts>`_ &ensp;  `English "
@@ -908,26 +906,27 @@ msgstr ""
 
 #: ../../3_modules_description/image-storage.rst:5
 msgid "IONDV. Image-storage"
-msgstr ""
+msgstr "IONDV. Image-storage"
 
 #: ../../3_modules_description/image-storage.rst:7
 msgid "`Оглавление </index.rst>`_"
-msgstr ""
+msgstr "`Table of contents </index.rst>`_"
 
 #: ../../3_modules_description/image-storage.rst:9
 msgid "Назад: `Модули <modules.rst>`_"
-msgstr ""
+msgstr "Back to: `Modules <modules.rst>`_"
 
 #: ../../3_modules_description/image-storage.rst:11
 msgid ""
 "**Image-storage** - модуль IONDV.Framework. Используется для "
 "предварительного просмотра картинок."
 msgstr ""
+"**Image-storage** - IONDV.Framework module. Is used to preview pictures."
 
 #: ../../3_modules_description/image-storage.rst:14
 #: ../../3_modules_description/rest/rest.rst:15
 msgid "Кратко об IONDV. Framework"
-msgstr ""
+msgstr "Briefly about IONDV. Framework"
 
 #: ../../3_modules_description/image-storage.rst:16
 msgid ""
@@ -940,6 +939,14 @@ msgid ""
 "расширяющих его функциональность, визуальной среды `Studio "
 "<https://github.com/iondv/studio>`_ для разработки метаданных приложений."
 msgstr ""
+"IONDV. Framework is a node.js open source framework for developing "
+"accounting applications or microservices based on metadata and individual "
+"modules. It is a part of a digital tool platform for creating enterprise "
+"(ERP) applications consisting of opensource components: `framework "
+"<https://github.com/iondv/framework>`_ ,`modules <https://github.com/topics/"
+"iondv-module>`_ and ready-made applications expanding its functionality, "
+"visual environment `Studio <https://github.com/iondv/studio>`_ for "
+"developing application metadata."
 
 #: ../../3_modules_description/image-storage.rst:23
 msgid ""
@@ -947,11 +954,14 @@ msgid ""
 "документация доступна в `репозитории на github "
 "<https://github.com/iondv/framework/blob/master/docs/en/index.md>`_"
 msgstr ""
+"Learn more about `IONDV. Framework on the site <https://iondv.com>`_ , "
+"documentation is available in `github repository <https://github.com/iondv/"
+"framework/blob/master/docs/en/index.md>`_"
 
 #: ../../3_modules_description/image-storage.rst:26
 #: ../../3_modules_description/rest/rest.rst:28
 msgid "Описание и назначение модуля"
-msgstr ""
+msgstr "Description and purpose of the module"
 
 #: ../../3_modules_description/image-storage.rst:28
 msgid ""
@@ -959,6 +969,8 @@ msgid ""
 " при наличии в приложения атрибутов, позволяющих содержать в себе "
 "изображения."
 msgstr ""
+"The module is an additional component of the system and is used if the "
+"application has attributes that allow it to contain images."
 
 #: ../../3_modules_description/image-storage.rst:30
 msgid ""
@@ -966,10 +978,13 @@ msgid ""
 "приложения. Для этого указываем модуль в файле package.json приложения, в"
 " разделе ``\"dependencies\"``:"
 msgstr ""
+"To connect a module, you must specify it in the application dependencies. To "
+"do this, specify the module in the package.json file of the application, in "
+"the section ``\"dependencies\"``:"
 
 #: ../../3_modules_description/image-storage.rst:38
 msgid "с указанием ссылки на репозиторий модуля в github.com."
-msgstr ""
+msgstr "with a link to the module's repository in github.com."
 
 #: ../../3_modules_description/image-storage.rst:40
 msgid ""
@@ -977,66 +992,72 @@ msgid ""
 "использовано в режиме предпросмотра. После чего, изображения, загруженные"
 " для объектов можно просматривать сразу на форме списка."
 msgstr ""
+"Next, you need to add an attribute to the list form, the image of which will "
+"be used in preview mode. After that, images uploaded for objects can be "
+"viewed immediately on the list form."
 
 #: ../../3_modules_description/image-storage.rst:43
 msgid "Возможности модуля image-storage"
-msgstr ""
+msgstr "Features of the image-storage module"
 
 #: ../../3_modules_description/image-storage.rst:45
 msgid "Отображение превью картинок не переходя на форму объекта"
-msgstr ""
+msgstr "Displaying preview images without switching to the object form"
 
 #: ../../3_modules_description/image-storage.rst:52
 msgid ""
 "`Licence </LICENSE>`_\\   `Contact us "
 "<https://iondv.com/portal/contacts>`_"
 msgstr ""
+"`Licence </LICENSE>`_\\   `Contact us <https://iondv.com/portal/contacts>`_"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Админ"
-msgstr ""
+msgstr "Admin"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Регистри"
-msgstr ""
+msgstr "Registry"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Отчёты"
-msgstr ""
+msgstr "Reports"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Рест"
-msgstr ""
+msgstr "Rest"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Гантт"
-msgstr ""
+msgstr "Gantt-chart"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Соап"
-msgstr ""
+msgstr "Soap"
 
 #: ../../3_modules_description/index.rst:4
 msgid "ЛК"
-msgstr ""
+msgstr "Personal account"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Портал"
-msgstr ""
+msgstr "Portal"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Дашборд"
-msgstr ""
+msgstr "Dashboard"
 
 #: ../../3_modules_description/index.rst:2
 msgid "3. Описание модулей"
-msgstr ""
+msgstr "3. Description of the modules"
 
 #: ../../3_modules_description/modules.rst:9
 msgid ""
 "Предыдущая страница: `Функциональность приложения "
 "</docs/ru/2_system_description/functionality/functionality.md>`_"
 msgstr ""
+"The previous page: `Functionality </docs/ru/2_system_description/"
+"functionality/functionality.md>`_"
 
 #: ../../3_modules_description/modules.rst:12
 msgid "Модули"
@@ -1047,10 +1068,12 @@ msgid ""
 "**Модули** - это независимые блоки с обязательной или дополнительной "
 "функциональностью, чья структура подчиняется определенным правилам."
 msgstr ""
+"**Modules** - are independent blocks with mandatory or additional "
+"functionality, whose structure follows certain rules."
 
 #: ../../3_modules_description/modules.rst:19
 msgid "Наименование"
-msgstr ""
+msgstr "Name"
 
 #: ../../3_modules_description/modules.rst:20
 #: ../../3_modules_description/registry_treegrid.rst:31
@@ -1059,69 +1082,71 @@ msgstr "Description"
 
 #: ../../3_modules_description/modules.rst:21
 msgid "`\\ **Registry** <registry.md>`_"
-msgstr ""
+msgstr "`\\ **Registry** <registry.md>`_"
 
 #: ../../3_modules_description/modules.rst:22
 msgid ""
 "Ключевой модуль предназначенный непосредственно для работы с данными на "
 "основе структур метаданных."
 msgstr ""
+"A central module designed specifically for working with data based on "
+"metadata structures."
 
 #: ../../3_modules_description/modules.rst:23
 msgid "`\\ **Report** <report.md>`_"
-msgstr ""
+msgstr "`\\ **Report** <report.md>`_"
 
 #: ../../3_modules_description/modules.rst:24
 msgid "Модуль предназначенный для формирования аналитических отчетов."
-msgstr ""
+msgstr "A module designed for the formation of analytical reports."
 
 #: ../../3_modules_description/modules.rst:25
 msgid "`\\ **Gantt-chart** <gantt_chart.md>`_"
-msgstr ""
+msgstr "`\\ **Gantt-chart** <gantt_chart.md>`_"
 
 #: ../../3_modules_description/modules.rst:26
 msgid "Модуль для вывода данных с датами."
-msgstr ""
+msgstr "A module designed to display hierarchical data with dates."
 
 #: ../../3_modules_description/modules.rst:27
 msgid "`\\ **Portal** <portal.md>`_"
-msgstr ""
+msgstr "`\\ **Portal** <portal.md>`_"
 
 #: ../../3_modules_description/modules.rst:28
 msgid "Модуль для вывода произвольных шаблонов данных."
-msgstr ""
+msgstr "A module for displaying arbitrary data templates."
 
 #: ../../3_modules_description/modules.rst:29
 msgid "`\\ **Dashboard** <dashboards.md>`_"
-msgstr ""
+msgstr "`\\ **Dashboard** <dashboards.md>`_"
 
 #: ../../3_modules_description/modules.rst:30
 msgid "Модуль предназначенный для выведения краткой информации в виде блоков."
-msgstr ""
+msgstr "A module designed to display brief information in the form of blocks."
 
 #: ../../3_modules_description/modules.rst:31
 msgid "`\\ **Ionadmin** <admin.md>`_"
-msgstr ""
+msgstr "`\\ **Ionadmin** <admin.md>`_"
 
 #: ../../3_modules_description/modules.rst:32
 msgid "Модуль администрирования для назначения прав."
-msgstr ""
+msgstr "A module for assigning rights."
 
 #: ../../3_modules_description/modules.rst:33
 msgid "`\\ **Account** <account.md>`_"
-msgstr ""
+msgstr "`\\ **Account** <account.md>`_"
 
 #: ../../3_modules_description/modules.rst:34
 msgid "Модуль личного кабинета который формирует логику отображения."
-msgstr ""
+msgstr "A personal account module that forms the display logic."
 
 #: ../../3_modules_description/modules.rst:35
 msgid "`\\ **Soap** <soap.md>`_"
-msgstr ""
+msgstr "`\\ **Soap** <soap.md>`_"
 
 #: ../../3_modules_description/modules.rst:36
 msgid "Модуль запросов к сервисам."
-msgstr ""
+msgstr "A module of requests to services."
 
 #: ../../3_modules_description/modules.rst:42
 msgid ""
@@ -1129,10 +1154,13 @@ msgid ""
 "<https://iondv.com/portal/contacts>`_ &ensp;  `English "
 "</docs/en/3_modules_description/modules.md>`_ &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/3_modules_description/modules.md>`_ "
+"&ensp;"
 
 #: ../../3_modules_description/portal.rst:5
 msgid "Структура модуля портала"
-msgstr ""
+msgstr "Portal module structure"
 
 #: ../../3_modules_description/portal.rst:11
 msgid ""
@@ -1141,10 +1169,13 @@ msgid ""
 "отображения дизайна различной информации с помощью языка разметки "
 "*Markdown* и *HTML*."
 msgstr ""
+"**The portal module** – is a module for displaying arbitrary data templates. "
+"The portal module performs the function of displaying the design of various "
+"information using markup language *Markdown* and *HTML*."
 
 #: ../../3_modules_description/portal.rst:14
 msgid "Состав"
-msgstr ""
+msgstr "Structure"
 
 #: ../../3_modules_description/portal.rst:16
 msgid "Слой представления - отвечает за отображение данных:"
