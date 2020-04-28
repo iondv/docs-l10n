@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-26 07:49+0000\n"
-"PO-Revision-Date: 2020-04-28 02:49+0000\n"
+"PO-Revision-Date: 2020-04-29 05:49+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
@@ -632,7 +632,7 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/meta_workflows.rst:38
 #: ../docs-ru/2_system_description/platform_configuration/package.rst:68
 msgid "Наименование"
-msgstr ""
+msgstr "Name"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:18
 msgid ":doc:`Шаблоны модулей <module_templates>`"
