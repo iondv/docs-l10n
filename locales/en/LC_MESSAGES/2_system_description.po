@@ -13,6 +13,9 @@ msgstr ""
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
 "Language: en\n"
+"Language-Team: English "
+"<http://weblate.iondv.com/projects/docs/2_system_description/en/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +25,7 @@ msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:6
 msgid "Кеширование данных"
-msgstr "Data caching"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:8
 #: ../docs-ru/2_system_description/functionality/filter.rst:6
@@ -35,7 +38,7 @@ msgstr "Data caching"
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:7
 #: ../docs-ru/2_system_description/platform_configuration/deploy_pulling.rst:8
 msgid ":doc:`Оглавление <../../index>`"
-msgstr ":doc:`Table of contents <../../index>`"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:10
 #: ../docs-ru/2_system_description/functionality/eds.rst:9
@@ -48,12 +51,12 @@ msgstr ":doc:`Table of contents <../../index>`"
 #: ../docs-ru/2_system_description/functionality/utilities.rst:9
 #: ../docs-ru/2_system_description/functionality/virtual_attr.rst:10
 msgid "Назад: :doc:`Функциональность <functionality>`"
-msgstr "Back: :doc:`Functionality <functionality>`"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:13
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:17
 msgid "Логика работы"
-msgstr "Principle of work"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:15
 msgid ""
@@ -62,10 +65,6 @@ msgid ""
 "поддержкой кеширования ``cachedDataRepo``. Данные загружаются по цепочке:"
 " *БД -> dataRepo -> cachedDataRepo -> securedDataRepo*."
 msgstr ""
-"Between the basic data repository ``dataRepo`` and the data repository with "
-"security checks ``securedDataRepo``, a data repository with support for "
-"caching ``cachedDataRepo`` has been implemented. The data is loaded by chain:"
-" *BD -> dataRepo -> cachedDataRepo -> securedDataRepo*."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:18
 msgid ""
@@ -74,14 +73,10 @@ msgid ""
 "запрашивает их у ``dataRepo``\\ , после чего помещает в кеш и отдает "
 "``securedDataRepo``."
 msgstr ""
-"However, when running a query, the ``cachedDataRepo``\\ first checks for the "
-"availability of data in the cache (if the cache is enabled), and if there is "
-"no data in the cache, it requests it from ``dataRepo``\\, then it places it "
-"in the cache and returns it to ``securedDataRepo``."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:21
 msgid "Настройка кеширования объектов отдельных классов"
-msgstr "Setting caching objects of individual classes"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:23
 msgid ""
@@ -89,9 +84,6 @@ msgid ""
 "(deploy.json), в опциях ``cachedDataRepo`` указать список классов, данные"
 " которых нужно хранить в кеше."
 msgstr ""
-"In the configuration file (deploy.json), in the options ``cachedDataRepo`` "
-"you can individually specify the list of classes whose data should be stored "
-"in the cache."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:26
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:49
@@ -119,19 +111,19 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/tags.rst:31
 #: ../docs-ru/2_system_description/platform_configuration/deploy_modules.rst:427
 msgid "Пример:"
-msgstr "Example:"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:36
 msgid "Если **cachedClasses** не указан, то кешируются все данные."
-msgstr "If **cachedClasses** is not specified, then all data are cached."
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:39
 msgid "Кеширование списка объектов"
-msgstr "Caching a list of objects"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:41
 msgid "Кешируются как индивидуальные обьекты, так и списки."
-msgstr "Both individual objects and lists are cached."
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:43
 msgid ""
@@ -141,22 +133,14 @@ msgid ""
 " обьектов. При выборке списка из кеша на основании этого массива из кеша "
 "выбираются соответствующие обьекты и формируется результирующий список."
 msgstr ""
-"When a list is cached based on its selection conditions (including "
-"pagination), a key is generated, then a selection is performed and all "
-"received objects are cached individually, and the list is cached as an array "
-"of object identifiers. When selecting a list from the cache, on the basis of "
-"this array, the corresponding objects are selected from the cache and the "
-"resulting list is formed."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:46
 msgid "Аналогично кешируются все объекты по ссылке и коллекции загружаемые жадно."
 msgstr ""
-"Similarly, all objects by reference and eagerly loaded collections are "
-"cached."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:49
 msgid "Настройка гибкого кеширования"
-msgstr "Setting the adaptive cache"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:51
 msgid ""
@@ -167,12 +151,6 @@ msgid ""
 "``memcached`` и ``redis`` в опции ``connectOptions``. Все нужные "
 "плейсхолдеры прописаны в файле config.json репозитория платформы."
 msgstr ""
-"For advanced configuration of cache (such as, query storage time, depth of "
-"storage of objects in the cache, etc.) the setting of *adaptive object "
-"caching* is applied. Adaptive cache settings are specified in the "
-"deploy.json file in the ``\"di\"``\\ property, in the ``memcached`` and "
-"``redis`` components in the ``connectOptions`` option. All the necessary "
-"placeholders are listed in the config.json file of the platform repository."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:55
 msgid ""
@@ -180,22 +158,18 @@ msgid ""
 "обьектов из БД, то есть в обьекте хранится информация о его ссылках, а "
 "дальше в кеше получается граф обьектов, а не дерево."
 msgstr ""
-"**NB:** The storage depth of objects in the cache corresponds to the depth "
-"of the query for objects from the database. So, the object stores "
-"information about its references, and then in the cache the object graph is "
-"obtained, and not the tree."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:59
 msgid "Настройка кеширования через ini файл приложения"
-msgstr "Setting the cache by use of the ini-file"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:61
 msgid "Параметры ini файла:"
-msgstr "The ini-file parameters:"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:78
 msgid "По умолчанию кеширование не используется."
-msgstr "Cache is not used by default."
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:83
 #: ../docs-ru/2_system_description/functionality/eds.rst:106
@@ -221,10 +195,6 @@ msgid ""
 "                                         `English "
 "<https://iondv.readthedocs.io/en/latest/index.html>`_"
 msgstr ""
-"`License <https://github.com/iondv/framework/blob/master/LICENSE>`"
-"_                                        `Contact us <https://iondv.com/"
-"portal/contacts>`_                                         `English "
-"<https://iondv.readthedocs.io/en/latest/index.html>`_"
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:93
 #: ../docs-ru/2_system_description/functionality/eds.rst:116
@@ -311,13 +281,13 @@ msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:5
 msgid "Электронно-цифровая подпись"
-msgstr "Electronic digital signature"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:7
 #: ../docs-ru/2_system_description/functionality/utilities.rst:7
 #: ../docs-ru/2_system_description/functionality/virtual_attr.rst:8
 msgid ":doc:`Содержание <../../index>`"
-msgstr ":doc:`Table of contents <../../index>`"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:12
 #: ../docs-ru/2_system_description/functionality/functionality.rst:17
@@ -371,69 +341,61 @@ msgid ""
 " Он позволяет идентифицировать владельца сертификата ключа подписи и "
 "установить отсутствие искажения информации в электронном документе."
 msgstr ""
-"**Electronic digital signature (EDS)** - refers to data in electronic form, "
-"which is logically associated with other data in electronic form and which "
-"is used by the signatory to sign. It is designed to protect this electronic "
-"document from forgery, obtained as a result of cryptographic transformation "
-"of information using the private key of an electronic digital signature. It "
-"allows you to identify the owner of the certificate key signature and "
-"establish that there is no distortion of information in the electronic "
-"document."
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:17
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/binding.rst:17
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:20
 msgid "Цель использования"
-msgstr "Purpose of use"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:19
 msgid "В приложении ЭЦП может быть нужна для:"
-msgstr "In the application the EDS is used for:"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:22
 msgid "Проверки целостности данных"
-msgstr "Data integrity checking"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:23
 msgid "Определения авторства данных"
-msgstr "Data authorship establishment"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:25
 msgid ""
 "Существует три вида электронной цифровой подписи, которые отличаются по "
 "своему применению:"
-msgstr "There are three types of digital signatures that differ in their use:"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:28
 msgid "Простая электронно-цифровая подпись"
-msgstr "Simple electronic digital signature"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:30
 #: ../docs-ru/2_system_description/functionality/eds.rst:36
 #: ../docs-ru/2_system_description/functionality/eds.rst:42
 msgid "для определения авторства данных"
-msgstr "to establish the authorship of the data"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:31
 msgid "создается с использованием кодов, паролей или иных средств"
-msgstr "created with the use of codes, passwords or other instruments"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:33
 msgid "Усиленная неквалифицированная электронно-цифровая подпись"
-msgstr "Reinforced unqualified electronic digital signature"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:35
 #: ../docs-ru/2_system_description/functionality/eds.rst:41
 msgid "для проверки целостности данных"
-msgstr "to check data integrity"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:37
 msgid "создается с использованием средств электронной подписи"
-msgstr "created using electronic signature tools"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:39
 msgid "Усиленная квалифицированная электронно-цифровая подпись"
-msgstr "Reinforced qualified electronic digital signature"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:43
 msgid ""
@@ -527,7 +489,7 @@ msgstr ""
 #: ../docs-ru/2_system_description/platform_configuration/deploy_modules.rst:375
 #: ../docs-ru/2_system_description/platform_configuration/deploy_modules.rst:458
 msgid "Пример"
-msgstr "Example"
+msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:79
 msgid ""
@@ -11086,7 +11048,7 @@ msgstr ""
 
 #: ../docs-ru/2_system_description/platform_configuration/deploy_modules.rst:492
 msgid "Модуль \"report\""
-msgstr "The \"report\" module"
+msgstr ""
 
 #: ../docs-ru/2_system_description/platform_configuration/deploy_modules.rst:494
 msgid ""
