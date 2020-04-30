@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-04-24 06:01+0000\n"
+"PO-Revision-Date: 2020-04-30 05:59+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "3_modules_description/en/>\n"
@@ -162,7 +162,7 @@ msgstr "Ionadmin module configuration in the config.json file"
 
 #: ../../3_modules_description/admin.rst:17
 msgid "Настройка записи в БД интервалов"
-msgstr "Data base"
+msgstr "Slow queries record configuration"
 
 #: ../../3_modules_description/admin.rst:19
 msgid ""
@@ -656,7 +656,7 @@ msgstr ""
 
 #: ../../3_modules_description/dashboards.rst:5
 msgid "Модуль Панель управления (dashboard)"
-msgstr ""
+msgstr "The dashboard module"
 
 #: ../../3_modules_description/dashboards.rst:11
 msgid ""
@@ -664,30 +664,37 @@ msgid ""
 "краткой информации в виде блоков. При этом дашбоард основывается на "
 "модели виджетов."
 msgstr ""
+"**The dashboard module** – is a module designed to display brief information "
+"in the form of blocks. The dashboard is based on the widget model."
 
 #: ../../3_modules_description/dashboards.rst:14
 msgid "Структура модуля"
-msgstr ""
+msgstr "Module structure"
 
 #: ../../3_modules_description/dashboards.rst:16
 msgid ""
 "Панель управления состоит из трех базовых сущностей - менеджер, макет и "
 "виджет."
 msgstr ""
+"The control panel consists of three basic entities - the manager, the layout "
+"and the widget."
 
 #: ../../3_modules_description/dashboards.rst:19
 msgid "Менеджер (manager)"
-msgstr ""
+msgstr "Manager"
 
 #: ../../3_modules_description/dashboards.rst:21
 msgid ""
 "Менеджер - это основной компонент модуля, отвечающий за создание и "
 "инициализаци виджетов, макетов, подключение панели к другим модулям."
 msgstr ""
+"The manager - is the main component of the module which is responsible for "
+"creating and initializing widgets, layouts, connecting the panel to other "
+"modules."
 
 #: ../../3_modules_description/dashboards.rst:28
 msgid "Макет (layout)"
-msgstr ""
+msgstr "Layout"
 
 #: ../../3_modules_description/dashboards.rst:30
 msgid ""
@@ -699,20 +706,29 @@ msgid ""
 "namespace}/layouts.\\ :raw-html-m2r:`<br>` Каждый макет имеет уникальный "
 "ID. При публикации макета из меты к ID добавляется префикс."
 msgstr ""
+"Layout - is an EJS template, which defines the layout of the widgets, the "
+"parameters for the widget templates, a plugin for managing the layout grid "
+"on the client (for example, gridster), shared resources are connected.\\ "
+":raw-html-m2r:`<br>` Basic layouts of the module are located in the /"
+"dashboard/layouts. Published from metadata in the /applications/${meta-"
+"namespace}/layouts folder.\\ :raw-html-m2r:`<br>` Each layout has a unique "
+"ID. When publishing a layout from a meta, a prefix is added to the ID."
 
 #: ../../3_modules_description/dashboards.rst:40
 msgid "При рендере макета необходимо передать объект manager."
-msgstr ""
+msgstr "When rendering a layout, you must pass an object to the manager."
 
 #: ../../3_modules_description/dashboards.rst:47
 msgid "Виджет (widget)"
-msgstr ""
+msgstr "Widget"
 
 #: ../../3_modules_description/dashboards.rst:49
 msgid ""
 "Виджет - это объект, который размещается на макете и взаимодействует с "
 "сервером через ajax-запросы."
 msgstr ""
+"Widget - is an object that is located on the layout and interacts with the "
+"server via ajax requests."
 
 #: ../../3_modules_description/dashboards.rst:51
 msgid ""
@@ -720,6 +736,8 @@ msgid ""
 "Опубликованные из мета-данных в папке /applications/${meta-"
 "namespace}/widgets."
 msgstr ""
+"Basic widgets are located in the /dashboard/widgets. Published from the "
+"metadata are located in the folder /applications/${meta-namespace}/widgets."
 
 #: ../../3_modules_description/dashboards.rst:53
 msgid ""
@@ -727,38 +745,47 @@ msgid ""
 "**view.ejs**. Класс должен наследоваться от базового класса /dashboard"
 "/base-widget или его потомков."
 msgstr ""
+"A widget consists of the **the index.js** file class and the **view.ejs** "
+"view template. The class must be inherited from the base class /dashboard/"
+"base-widget or its descendants."
 
 #: ../../3_modules_description/dashboards.rst:57
 msgid ""
 "Метод **init()** отвечает за начальную инициализацию виджета при старте "
 "сервера."
 msgstr ""
+"The **init()** method is responsible for the initial initialization of the "
+"widget when the server starts."
 
 #: ../../3_modules_description/dashboards.rst:58
 msgid "Метод **refresh()** вызывается при получении ajax-запроса от клиента."
 msgstr ""
+"The **refresh()** method is called when receiving an ajax request from a "
+"client."
 
 #: ../../3_modules_description/dashboards.rst:59
 msgid "Метод **job()** получает данные для виджета."
-msgstr ""
+msgstr "The **job()** method gets the data for the widget."
 
 #: ../../3_modules_description/dashboards.rst:61
 msgid ""
 "Каждый виджет имеет уникальный ID. При публикации виджета из меты к ID "
 "добавляется префикс."
 msgstr ""
+"Each widget has a unique ID. When you publish a widget from meta, a prefix "
+"is added to the ID."
 
 #: ../../3_modules_description/dashboards.rst:68
 msgid "При рендере представления виджета необходимо передать объект widget."
-msgstr ""
+msgstr "When rendering a widget view, you must pass an object to the widget."
 
 #: ../../3_modules_description/dashboards.rst:76
 msgid "Публикация из меты"
-msgstr ""
+msgstr "Publishing from the meta"
 
 #: ../../3_modules_description/dashboards.rst:78
 msgid "Пример структуры в applications/develop-and-test"
-msgstr ""
+msgstr "Example of the structure in applications/develop-and-test:"
 
 #: ../../3_modules_description/dashboards.rst:94
 msgid ""
@@ -766,6 +793,8 @@ msgid ""
 " в файле конфигурации приложения ``deploy.json`` добавить следующую "
 "секцию, в раздел ``\"modules\"``\\ :"
 msgstr ""
+"Add the following section in the ``\"modules\"``\\ of the ``deploy.json`` "
+"configuration file to load the data from the meta to the dashboard module:"
 
 #: ../../3_modules_description/dashboards.rst:113
 msgid ""
@@ -773,44 +802,49 @@ msgid ""
 "<https://iondv.com/portal/contacts>`_ &ensp;  `English "
 "</docs/en/3_modules_description/dashboard.md>`_ &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/3_modules_description/dashboard.md>`_ "
+"&ensp;"
 
 #: ../../3_modules_description/gantt_chart.rst:5
 msgid "Модуль \"gantt-chart\""
-msgstr ""
+msgstr "The gantt-chart module"
 
 #: ../../3_modules_description/gantt_chart.rst:11
 msgid ""
 "**Модуль диаграм ганта (gantt-chart)** – модуль, предназначенный для "
 "вывода специфичных типов иерархических данных имеющих даты."
 msgstr ""
+"**The gantt-chart module** – is a module designed to display specific types "
+"of hierarchical data with dates."
 
 #: ../../3_modules_description/gantt_chart.rst:14
 msgid "Конфигурация в deploy"
-msgstr ""
+msgstr "Configuration in deploy.json"
 
 #: ../../3_modules_description/gantt_chart.rst:17
 msgid "Указание длины поисковой выдачи"
-msgstr ""
+msgstr "Setting the length of the search results"
 
 #: ../../3_modules_description/gantt_chart.rst:24
 msgid "Добавление фильтров на колонки"
-msgstr ""
+msgstr "Adding filters to the columns"
 
 #: ../../3_modules_description/gantt_chart.rst:50
 msgid "Указание для разных классов разные createUrl"
-msgstr ""
+msgstr "Specifying of diffrent \"createUrl\" for different classes"
 
 #: ../../3_modules_description/gantt_chart.rst:66
 msgid "Настройки видов представлений"
-msgstr ""
+msgstr "Configuration of view types"
 
 #: ../../3_modules_description/gantt_chart.rst:112
 msgid "В поле ``filters`` - задаем свойство и значения для фильтра"
-msgstr ""
+msgstr "Set the property and values for the filter in the ``filters`` field."
 
 #: ../../3_modules_description/gantt_chart.rst:115
 msgid "Настраиваемый фильтр при выборке подузлов"
-msgstr ""
+msgstr "Adjustable filter when selecting subnodes"
 
 #: ../../3_modules_description/gantt_chart.rst:117
 msgid ""
@@ -818,6 +852,9 @@ msgid ""
 "контекста. Пока реализовано только для списков в регистри и ганте. По "
 "мере перехода на общий синтаксис реализуем поддержку повсеместно в ядре."
 msgstr ""
+"In formulas in the general syntax of expressions, you can now access the "
+"context data. Currently it works only for lists in register and gant. As we "
+"move to a common syntax, we implement support throughout the core."
 
 #: ../../3_modules_description/gantt_chart.rst:119
 msgid ""
@@ -825,20 +862,25 @@ msgid ""
 "через параметр урла, или выбранный в выпадающем списке. Фильтр "
 "применяется только при ВЫБОРКЕ ПОДУЗЛОВ."
 msgstr ""
+"The adjustable filter is not applied to the root object explicitly specified "
+"via the URL parameter, or selected in the drop-down list. The filter is "
+"applied only at the SELECTION of the subnodes."
 
 #: ../../3_modules_description/gantt_chart.rst:122
 msgid "Сортировка выдачи"
-msgstr ""
+msgstr "Sorting when displaying"
 
 #: ../../3_modules_description/gantt_chart.rst:124
 msgid ""
 "При выводе проекта, в них мероприятия сортируются по атрибуту numEvent - "
 "на всех уровнях иерархии."
 msgstr ""
+"When displaying the project, the events are sorting by the numEvent "
+"attribute at all levels of the hierarchy."
 
 #: ../../3_modules_description/gantt_chart.rst:134
 msgid "Настройка списка выбора объекта для вывода информации"
-msgstr ""
+msgstr "Setting an object selection list to display information"
 
 #: ../../3_modules_description/gantt_chart.rst:136
 msgid ""
@@ -847,6 +889,10 @@ msgid ""
 "``\"rootParamNeeded:true\"`` - выводится пустой экран и окно для выбора "
 "проекта"
 msgstr ""
+"It is used if the filter is configured for a column and allows you not to "
+"display all objects at once, but choose from the list. If the value is ``\""
+"rootParamNeeded:true\"``, then a blank screen and a window for selecting a "
+"project are displayed."
 
 #: ../../3_modules_description/gantt_chart.rst:149
 msgid ""
@@ -854,29 +900,33 @@ msgid ""
 "<https://iondv.com/portal/contacts>`_ &ensp;  `English "
 "</docs/en/3_modules_description/gantt_chart.md>`_ &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/3_modules_description/gantt_chart.md>`"
+"_ &ensp;"
 
 #: ../../3_modules_description/image-storage.rst:5
 msgid "IONDV. Image-storage"
-msgstr ""
+msgstr "IONDV. Image-storage"
 
 #: ../../3_modules_description/image-storage.rst:7
 msgid "`Оглавление </index.rst>`_"
-msgstr ""
+msgstr "`Table of contents </index.rst>`_"
 
 #: ../../3_modules_description/image-storage.rst:9
 msgid "Назад: `Модули <modules.rst>`_"
-msgstr ""
+msgstr "Back to: `Modules <modules.rst>`_"
 
 #: ../../3_modules_description/image-storage.rst:11
 msgid ""
 "**Image-storage** - модуль IONDV.Framework. Используется для "
 "предварительного просмотра картинок."
 msgstr ""
+"**Image-storage** - IONDV.Framework module. Is used to preview pictures."
 
 #: ../../3_modules_description/image-storage.rst:14
 #: ../../3_modules_description/rest/rest.rst:15
 msgid "Кратко об IONDV. Framework"
-msgstr ""
+msgstr "Briefly about IONDV. Framework"
 
 #: ../../3_modules_description/image-storage.rst:16
 msgid ""
@@ -889,6 +939,14 @@ msgid ""
 "расширяющих его функциональность, визуальной среды `Studio "
 "<https://github.com/iondv/studio>`_ для разработки метаданных приложений."
 msgstr ""
+"IONDV. Framework is a node.js open source framework for developing "
+"accounting applications or microservices based on metadata and individual "
+"modules. It is a part of a digital tool platform for creating enterprise "
+"(ERP) applications consisting of opensource components: `framework "
+"<https://github.com/iondv/framework>`_ ,`modules <https://github.com/topics/"
+"iondv-module>`_ and ready-made applications expanding its functionality, "
+"visual environment `Studio <https://github.com/iondv/studio>`_ for "
+"developing application metadata."
 
 #: ../../3_modules_description/image-storage.rst:23
 msgid ""
@@ -896,11 +954,14 @@ msgid ""
 "документация доступна в `репозитории на github "
 "<https://github.com/iondv/framework/blob/master/docs/en/index.md>`_"
 msgstr ""
+"Learn more about `IONDV. Framework on the site <https://iondv.com>`_ , "
+"documentation is available in `github repository <https://github.com/iondv/"
+"framework/blob/master/docs/en/index.md>`_"
 
 #: ../../3_modules_description/image-storage.rst:26
 #: ../../3_modules_description/rest/rest.rst:28
 msgid "Описание и назначение модуля"
-msgstr ""
+msgstr "Description and purpose of the module"
 
 #: ../../3_modules_description/image-storage.rst:28
 msgid ""
@@ -908,6 +969,8 @@ msgid ""
 " при наличии в приложения атрибутов, позволяющих содержать в себе "
 "изображения."
 msgstr ""
+"The module is an additional component of the system and is used if the "
+"application has attributes that allow it to contain images."
 
 #: ../../3_modules_description/image-storage.rst:30
 msgid ""
@@ -915,10 +978,13 @@ msgid ""
 "приложения. Для этого указываем модуль в файле package.json приложения, в"
 " разделе ``\"dependencies\"``:"
 msgstr ""
+"To connect a module, you must specify it in the application dependencies. To "
+"do this, specify the module in the package.json file of the application, in "
+"the section ``\"dependencies\"``:"
 
 #: ../../3_modules_description/image-storage.rst:38
 msgid "с указанием ссылки на репозиторий модуля в github.com."
-msgstr ""
+msgstr "with a link to the module's repository in github.com."
 
 #: ../../3_modules_description/image-storage.rst:40
 msgid ""
@@ -926,66 +992,72 @@ msgid ""
 "использовано в режиме предпросмотра. После чего, изображения, загруженные"
 " для объектов можно просматривать сразу на форме списка."
 msgstr ""
+"Next, you need to add an attribute to the list form, the image of which will "
+"be used in preview mode. After that, images uploaded for objects can be "
+"viewed immediately on the list form."
 
 #: ../../3_modules_description/image-storage.rst:43
 msgid "Возможности модуля image-storage"
-msgstr ""
+msgstr "Features of the image-storage module"
 
 #: ../../3_modules_description/image-storage.rst:45
 msgid "Отображение превью картинок не переходя на форму объекта"
-msgstr ""
+msgstr "Displaying preview images without switching to the object form"
 
 #: ../../3_modules_description/image-storage.rst:52
 msgid ""
 "`Licence </LICENSE>`_\\   `Contact us "
 "<https://iondv.com/portal/contacts>`_"
 msgstr ""
+"`Licence </LICENSE>`_\\   `Contact us <https://iondv.com/portal/contacts>`_"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Админ"
-msgstr ""
+msgstr "Admin"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Регистри"
-msgstr ""
+msgstr "Registry"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Отчёты"
-msgstr ""
+msgstr "Reports"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Рест"
-msgstr ""
+msgstr "Rest"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Гантт"
-msgstr ""
+msgstr "Gantt-chart"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Соап"
-msgstr ""
+msgstr "Soap"
 
 #: ../../3_modules_description/index.rst:4
 msgid "ЛК"
-msgstr ""
+msgstr "Personal account"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Портал"
-msgstr ""
+msgstr "Portal"
 
 #: ../../3_modules_description/index.rst:4
 msgid "Дашборд"
-msgstr ""
+msgstr "Dashboard"
 
 #: ../../3_modules_description/index.rst:2
 msgid "3. Описание модулей"
-msgstr ""
+msgstr "3. Description of the modules"
 
 #: ../../3_modules_description/modules.rst:9
 msgid ""
 "Предыдущая страница: `Функциональность приложения "
 "</docs/ru/2_system_description/functionality/functionality.md>`_"
 msgstr ""
+"The previous page: `Functionality </docs/ru/2_system_description/"
+"functionality/functionality.md>`_"
 
 #: ../../3_modules_description/modules.rst:12
 msgid "Модули"
@@ -996,10 +1068,12 @@ msgid ""
 "**Модули** - это независимые блоки с обязательной или дополнительной "
 "функциональностью, чья структура подчиняется определенным правилам."
 msgstr ""
+"**Modules** - are independent blocks with mandatory or additional "
+"functionality, whose structure follows certain rules."
 
 #: ../../3_modules_description/modules.rst:19
 msgid "Наименование"
-msgstr ""
+msgstr "Name"
 
 #: ../../3_modules_description/modules.rst:20
 #: ../../3_modules_description/registry_treegrid.rst:31
@@ -1008,69 +1082,71 @@ msgstr "Description"
 
 #: ../../3_modules_description/modules.rst:21
 msgid "`\\ **Registry** <registry.md>`_"
-msgstr ""
+msgstr "`\\ **Registry** <registry.md>`_"
 
 #: ../../3_modules_description/modules.rst:22
 msgid ""
 "Ключевой модуль предназначенный непосредственно для работы с данными на "
 "основе структур метаданных."
 msgstr ""
+"A central module designed specifically for working with data based on "
+"metadata structures."
 
 #: ../../3_modules_description/modules.rst:23
 msgid "`\\ **Report** <report.md>`_"
-msgstr ""
+msgstr "`\\ **Report** <report.md>`_"
 
 #: ../../3_modules_description/modules.rst:24
 msgid "Модуль предназначенный для формирования аналитических отчетов."
-msgstr ""
+msgstr "A module designed for the formation of analytical reports."
 
 #: ../../3_modules_description/modules.rst:25
 msgid "`\\ **Gantt-chart** <gantt_chart.md>`_"
-msgstr ""
+msgstr "`\\ **Gantt-chart** <gantt_chart.md>`_"
 
 #: ../../3_modules_description/modules.rst:26
 msgid "Модуль для вывода данных с датами."
-msgstr ""
+msgstr "A module designed to display hierarchical data with dates."
 
 #: ../../3_modules_description/modules.rst:27
 msgid "`\\ **Portal** <portal.md>`_"
-msgstr ""
+msgstr "`\\ **Portal** <portal.md>`_"
 
 #: ../../3_modules_description/modules.rst:28
 msgid "Модуль для вывода произвольных шаблонов данных."
-msgstr ""
+msgstr "A module for displaying arbitrary data templates."
 
 #: ../../3_modules_description/modules.rst:29
 msgid "`\\ **Dashboard** <dashboards.md>`_"
-msgstr ""
+msgstr "`\\ **Dashboard** <dashboards.md>`_"
 
 #: ../../3_modules_description/modules.rst:30
 msgid "Модуль предназначенный для выведения краткой информации в виде блоков."
-msgstr ""
+msgstr "A module designed to display brief information in the form of blocks."
 
 #: ../../3_modules_description/modules.rst:31
 msgid "`\\ **Ionadmin** <admin.md>`_"
-msgstr ""
+msgstr "`\\ **Ionadmin** <admin.md>`_"
 
 #: ../../3_modules_description/modules.rst:32
 msgid "Модуль администрирования для назначения прав."
-msgstr ""
+msgstr "A module for assigning rights."
 
 #: ../../3_modules_description/modules.rst:33
 msgid "`\\ **Account** <account.md>`_"
-msgstr ""
+msgstr "`\\ **Account** <account.md>`_"
 
 #: ../../3_modules_description/modules.rst:34
 msgid "Модуль личного кабинета который формирует логику отображения."
-msgstr ""
+msgstr "A personal account module that forms the display logic."
 
 #: ../../3_modules_description/modules.rst:35
 msgid "`\\ **Soap** <soap.md>`_"
-msgstr ""
+msgstr "`\\ **Soap** <soap.md>`_"
 
 #: ../../3_modules_description/modules.rst:36
 msgid "Модуль запросов к сервисам."
-msgstr ""
+msgstr "A module of requests to services."
 
 #: ../../3_modules_description/modules.rst:42
 msgid ""
@@ -1078,10 +1154,13 @@ msgid ""
 "<https://iondv.com/portal/contacts>`_ &ensp;  `English "
 "</docs/en/3_modules_description/modules.md>`_ &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/3_modules_description/modules.md>`_ "
+"&ensp;"
 
 #: ../../3_modules_description/portal.rst:5
 msgid "Структура модуля портала"
-msgstr ""
+msgstr "Portal module structure"
 
 #: ../../3_modules_description/portal.rst:11
 msgid ""
@@ -1090,10 +1169,13 @@ msgid ""
 "отображения дизайна различной информации с помощью языка разметки "
 "*Markdown* и *HTML*."
 msgstr ""
+"**The portal module** – is a module for displaying arbitrary data templates. "
+"The portal module performs the function of displaying the design of various "
+"information using markup language *Markdown* and *HTML*."
 
 #: ../../3_modules_description/portal.rst:14
 msgid "Состав"
-msgstr ""
+msgstr "Structure"
 
 #: ../../3_modules_description/portal.rst:16
 msgid "Слой представления - отвечает за отображение данных:"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-26 07:49+0000\n"
+"POT-Creation-Date: 2020-04-30 05:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -135,11 +135,11 @@ msgstr ""
 msgid "Параметры ini файла:"
 msgstr ""
 
-#: ../docs-ru/2_system_description/functionality/cached.rst:78
+#: ../docs-ru/2_system_description/functionality/cached.rst:80
 msgid "По умолчанию кеширование не используется."
 msgstr ""
 
-#: ../docs-ru/2_system_description/functionality/cached.rst:83
+#: ../docs-ru/2_system_description/functionality/cached.rst:85
 #: ../docs-ru/2_system_description/functionality/eds.rst:106
 #: ../docs-ru/2_system_description/functionality/functionality.rst:46
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:66
@@ -159,7 +159,7 @@ msgstr ""
 msgid "`License <https://github.com/iondv/framework/blob/master/LICENSE>`_                                        `Contact us <https://iondv.com/portal/contacts>`_                                         `English <https://iondv.readthedocs.io/en/latest/index.html>`_"
 msgstr ""
 
-#: ../docs-ru/2_system_description/functionality/cached.rst:93
+#: ../docs-ru/2_system_description/functionality/cached.rst:95
 #: ../docs-ru/2_system_description/functionality/eds.rst:116
 #: ../docs-ru/2_system_description/functionality/filter.rst:89
 #: ../docs-ru/2_system_description/functionality/functionality.rst:56
@@ -8221,30 +8221,34 @@ msgid "Длина сессии задается в config/config.json в ``sessi
 msgstr ""
 
 #: ../docs-ru/2_system_description/platform_configuration/auth.rst:163
-msgid "Добавляем настройку в ini-файл проекта. Формат задания аналогичен настройкам периодов в ``auth``\\ :"
+msgid "Добавляем настройку в deploy.ini-файл проекта. Формат задания аналогичен настройкам периодов в ``auth``\\ :"
 msgstr ""
 
 #: ../docs-ru/2_system_description/platform_configuration/auth.rst:172
 msgid "Также можно задавать просто числом, тогда это будет задание в миллисекундах."
 msgstr ""
 
-#: ../docs-ru/2_system_description/platform_configuration/auth.rst:175
+#: ../docs-ru/2_system_description/platform_configuration/auth.rst:174
+msgid "Для хранения сессии не в базе данных, а в сервере кеширования redis, добавляем настройку и параметры кеширования в deploy.ini-файл проекта .. code-block::"
+msgstr ""
+
+#: ../docs-ru/2_system_description/platform_configuration/auth.rst:184
 msgid "Настройка отключения формы авторизации для перехода на страницу модуля"
 msgstr ""
 
-#: ../docs-ru/2_system_description/platform_configuration/auth.rst:177
+#: ../docs-ru/2_system_description/platform_configuration/auth.rst:186
 msgid "В конфиге ядра у поля *\"auth\"* есть настройка ``exclude``\\ :"
 msgstr ""
 
-#: ../docs-ru/2_system_description/platform_configuration/auth.rst:196
+#: ../docs-ru/2_system_description/platform_configuration/auth.rst:205
 msgid "То есть прописываем в ini-файле проекта:"
 msgstr ""
 
-#: ../docs-ru/2_system_description/platform_configuration/auth.rst:206
+#: ../docs-ru/2_system_description/platform_configuration/auth.rst:215
 msgid "При переходе на страницу указанного в настройке модуля - данные отображаются без необходимости авторизации."
 msgstr ""
 
-#: ../docs-ru/2_system_description/platform_configuration/auth.rst:209
+#: ../docs-ru/2_system_description/platform_configuration/auth.rst:218
 msgid "Отключение авторизации для статичных путей на примере проекта develop-and-test:"
 msgstr ""
 
@@ -8378,7 +8382,7 @@ msgid "[x] Путь к шаблонам ``\"theme\"``"
 msgstr ""
 
 #: ../docs-ru/2_system_description/platform_configuration/deploy_globals.rst:20
-msgid "[x] Максимальный размер ``\"staticOptions\"``"
+msgid "[x] Время кеширования и другие параметры для статичных файлов https://expressjs.com/en/4x/api.html#express.static ``\"staticOptions\"`` (работает при NODE_ENV=production)"
 msgstr ""
 
 #: ../docs-ru/2_system_description/platform_configuration/deploy_globals.rst:21
