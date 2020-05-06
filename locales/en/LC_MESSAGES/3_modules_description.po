@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-04-30 05:59+0000\n"
+"PO-Revision-Date: 2020-05-06 02:42+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "3_modules_description/en/>\n"
@@ -1179,33 +1179,39 @@ msgstr "Structure"
 
 #: ../../3_modules_description/portal.rst:16
 msgid "Слой представления - отвечает за отображение данных:"
-msgstr ""
+msgstr "View layer - is responsible for displaying data:"
 
 #: ../../3_modules_description/portal.rst:19
 msgid ""
 "``Adapter Provider`` - выполняет функцию связи между данными и "
 "отображением их на портале (настройка через файл 'deploy.json')"
 msgstr ""
+"``Adapter Provider`` - performs the function of connection between the data "
+"and their display on the portal (sets in the 'deploy.json' file)."
 
 #: ../../3_modules_description/portal.rst:20
 msgid ""
 "``File Adapter`` - возвращает ресурсы типа \"Файл\" (остается в памяти "
 "приложения)"
 msgstr ""
+"``File Adapter`` - returns the resources of \"File\" type (remains in the "
+"memory of the application)."
 
 #: ../../3_modules_description/portal.rst:21
 msgid ""
 "``Class Adapter`` - предназначен для отображения данных из базы через "
 "репозиторий данных (каждый раз обновляются)"
 msgstr ""
+"``Class Adapter`` - designed to display data from the database through the "
+"data repository (updated each time)."
 
 #: ../../3_modules_description/portal.rst:24
 msgid "Логика отображения данных на портале"
-msgstr ""
+msgstr "The logic of displaying data on the portal"
 
 #: ../../3_modules_description/portal.rst:27
 msgid "Стили портала"
-msgstr ""
+msgstr "Portal styles"
 
 #: ../../3_modules_description/portal.rst:29
 msgid ""
@@ -1213,38 +1219,49 @@ msgid ""
 "(каскадные таблицы стилей) Пример оформления страницы портала в Dnt - "
 "/develop-and-test/portal/view/static/css/style.css"
 msgstr ""
+"CSS (cascading style sheets) are used to describe/design the portal pages. "
+"An example of the portal page design in Dnt - /develop-and-test/portal/view/"
+"static/css/style.css"
 
 #: ../../3_modules_description/portal.rst:32
 msgid ""
 "Возможные варианты для применения стилей задаются в папке "
 "*portal/view/static/style.css*."
 msgstr ""
+"Possible options for applying styles are set in this folder - *portal/view/"
+"static/style.css*."
 
 #: ../../3_modules_description/portal.rst:47
 msgid "Страницы портала"
-msgstr ""
+msgstr "Portal pages"
 
 #: ../../3_modules_description/portal.rst:49
 msgid "Шаблоны страниц портала настраиваются в папке *portal/view/templates*."
 msgstr ""
+"Portal page templates are configured in the *portal/view/templates* folder."
 
 #: ../../3_modules_description/portal.rst:51
 msgid ""
 "Расположение объектов на странице описывается в формате языка разметки "
 "HTML:"
 msgstr ""
+"The location of objects on the page is described in a HTML markup language:"
 
 #: ../../3_modules_description/portal.rst:72
 msgid ""
 "Содержание тега ``<head>`` включает в себя отображение стилей оформления "
 "внешнего вида портала."
 msgstr ""
+"The ``<head>`` tag contains displaying styles for the appearance of the "
+"portal."
 
 #: ../../3_modules_description/portal.rst:75
 msgid ""
 "В тег ``<body>`` включается информация об объектах, отображаемых на "
 "странице портала."
 msgstr ""
+"The ``<body>`` tag contains information about the objects displayed on the "
+"portal page."
 
 #: ../../3_modules_description/portal.rst:78
 msgid ""
@@ -1256,77 +1273,86 @@ msgid ""
 "атрибутом ``src``\\ , который указывает на адрес скрипта из внешнего "
 "файла для импорта в текущий документ."
 msgstr ""
+"The ``<script>`` tag contains information in the form of a link to a program "
+"or its text in a specific language. Scripts can be placed in an external "
+"file and linked to any HTML document, which allows you to use the same "
+"functions on several web pages, thereby speeding up their loading. In this "
+"case, the ``<script>`` tag is used with the ``src``\\ attribute, which "
+"points to the address of the script from an external file to import into the "
+"current document."
 
 #: ../../3_modules_description/portal.rst:81
 msgid "Навигация портала"
-msgstr ""
+msgstr "Portal navigation"
 
 #: ../../3_modules_description/portal.rst:83
 msgid ""
 "Мета навигации портала представляет собой набор узлов навигации, у "
 "каждого из которых указан тип ресурса."
 msgstr ""
+"A portal navigation meta is a set of navigation nodes, each of which has a "
+"specified resource type."
 
 #: ../../3_modules_description/portal.rst:85
 msgid "Пример создания секции навигации:"
-msgstr ""
+msgstr "Example of the navigation section:"
 
 #: ../../3_modules_description/portal.rst:97
 msgid "code - системной имя объекта"
-msgstr ""
+msgstr "code - system object name"
 
 #: ../../3_modules_description/portal.rst:98
 #: ../../3_modules_description/portal.rst:116
 msgid "caption - логическое имя объекта"
-msgstr ""
+msgstr "caption - logical object name"
 
 #: ../../3_modules_description/portal.rst:99
 msgid "itemType - тип отображения объекта"
-msgstr ""
+msgstr "itemType - object display type"
 
 #: ../../3_modules_description/portal.rst:100
 msgid "subNodes - массив узлов навигации, содержащихся в данной секции"
-msgstr ""
+msgstr "subNodes - array of navigation nodes of this section"
 
 #: ../../3_modules_description/portal.rst:102
 msgid "Пример создания узла навигации:"
-msgstr ""
+msgstr "An example of creating a navigation node:"
 
 #: ../../3_modules_description/portal.rst:115
 msgid "code - системное имя объекта"
-msgstr ""
+msgstr "code - system object name"
 
 #: ../../3_modules_description/portal.rst:117
 msgid "resources - превращение данных в контент портала"
-msgstr ""
+msgstr "resources - turning data into a portal content"
 
 #: ../../3_modules_description/portal.rst:118
 msgid "PageSize - размер страницы"
-msgstr ""
+msgstr "PageSize - page size"
 
 #: ../../3_modules_description/portal.rst:119
 msgid "itemType -  тип отображения объекта"
-msgstr ""
+msgstr "itemType - object display type"
 
 #: ../../3_modules_description/portal.rst:122
 msgid "Оформление данных"
-msgstr ""
+msgstr "Data styling"
 
 #: ../../3_modules_description/portal.rst:126
 msgid "Формат разбиения информации на страницы"
-msgstr ""
+msgstr "The format of paging information"
 
 #: ../../3_modules_description/portal.rst:158
 msgid "Формат корректного отображения текста ошибок"
-msgstr ""
+msgstr "The format of the correct display of the text of errors"
 
 #: ../../3_modules_description/portal.rst:169
 msgid "Формат преобразования данных в контент портала"
-msgstr ""
+msgstr "The format for converting data to portal content"
 
 #: ../../3_modules_description/portal.rst:201
 msgid "Формат отображения текста"
-msgstr ""
+msgstr "The format of the text display"
 
 #: ../../3_modules_description/portal.rst:232
 msgid ""
@@ -1334,10 +1360,13 @@ msgid ""
 "<https://iondv.com/portal/contacts>`_ &ensp;  `English "
 "</docs/en/3_modules_description/portal.md>`_ &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/3_modules_description/portal.md>`_ "
+"&ensp;"
 
 #: ../../3_modules_description/registry.rst:5
 msgid "Модуль \"Registry\""
-msgstr ""
+msgstr "The \"Registry\" module"
 
 #: ../../3_modules_description/registry.rst:11
 msgid ""
@@ -1345,65 +1374,74 @@ msgid ""
 "непосредственно для работы с данными на основе структур метаданных – в "
 "том числе по ведению проектов, программ, мероприятий и др."
 msgstr ""
+"**The registry module** – is a central module designed specifically for "
+"working with data based on metadata structures - including project "
+"management, programs, events, etc."
 
 #: ../../3_modules_description/registry.rst:14
 msgid "Настройка"
-msgstr ""
+msgstr "Setting"
 
 #: ../../3_modules_description/registry.rst:17
 msgid "`DI (treegridController) <registry_treegrid.md>`_"
-msgstr ""
+msgstr "`DI (treegridController) <registry_treegrid.md>`_"
 
 #: ../../3_modules_description/registry.rst:20
 msgid "Deploy"
-msgstr ""
+msgstr "Deploy"
 
 #: ../../3_modules_description/registry.rst:23
 msgid "Настройка частоты опроса в deploy.json"
-msgstr ""
+msgstr "Setting polling frequency in deploy.json"
 
 #: ../../3_modules_description/registry.rst:25
 msgid ""
 "Настройка частоты опроса сервера, что объект не заблокирован в "
 "deploy.json:"
 msgstr ""
+"Setting the frequency of server polling to ensure that the object is not "
+"blocked in deploy.json:"
 
 #: ../../3_modules_description/registry.rst:36
 msgid "Настройка createByCopy"
-msgstr ""
+msgstr "Setting \"createByCopy\""
 
 #: ../../3_modules_description/registry.rst:38
 msgid "Настройка отображения кнопки \"Создать еще\" в deploy.json:"
-msgstr ""
+msgstr "Configuring the display of the \"Create more\" button\" in deploy.json:"
 
 #: ../../3_modules_description/registry.rst:47
 #: ../../3_modules_description/report_warning.rst:50
 msgid "Фильтры"
-msgstr ""
+msgstr "Filters"
 
 #: ../../3_modules_description/registry.rst:49
 msgid ""
 "Подробнее о фильтрах `здесь "
 "</docs/ru/2_system_description/functionality/filter.md>`_."
 msgstr ""
+"Learn more about filters `here </docs/ru/2_system_description/functionality/"
+"filter.md>`_."
 
 #: ../../3_modules_description/registry.rst:52
 msgid "Настройка помощь по фильтрам"
-msgstr ""
+msgstr "Setting filters \"help\""
 
 #: ../../3_modules_description/registry.rst:54
 msgid ""
 "Справка размещается в файле шаблона "
 "``modules/registry/view/default/templates/view/list-filter-helper.ejs``"
 msgstr ""
+"\"Help\" is placed in the template file - ``modules/registry/view/default/"
+"templates/view/list-filter-helper.ejs``"
 
 #: ../../3_modules_description/registry.rst:57
 msgid "Требования к коду"
-msgstr ""
+msgstr "Code requirements"
 
 #: ../../3_modules_description/registry.rst:59
 msgid "Cтиль написания компонентов фронт-енда `здесь <registry_code.md>`_"
-msgstr ""
+msgstr "Frontend component writing style is `here <registry_code.md>`_"
 
 #: ../../3_modules_description/registry.rst:64
 msgid ""
@@ -1411,75 +1449,85 @@ msgid ""
 "<https://iondv.com/portal/contacts>`_ &ensp;  `English "
 "</docs/en/3_modules_description/registry.md>`_ &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/3_modules_description/registry.md>`_ "
+"&ensp;"
 
 #: ../../3_modules_description/registry_code.rst:9
 #: ../../3_modules_description/registry_treegrid.rst:9
 msgid "Назад: `Модуль регистра <registry.md>`_"
-msgstr ""
+msgstr "Back: `The registry module <registry.md>`_"
 
 #: ../../3_modules_description/registry_code.rst:12
 msgid "Логика формирования id элементов связанных с объектами по типам"
-msgstr ""
+msgstr "The logic of forming the id elements associated with objects by type"
 
 #: ../../3_modules_description/registry_code.rst:15
 msgid "Реализовано"
-msgstr ""
+msgstr "Implemented features"
 
 #: ../../3_modules_description/registry_code.rst:18
 msgid "INPUT, SELECT, TEXTAREA"
-msgstr ""
+msgstr "INPUT, SELECT, TEXTAREA"
 
 #: ../../3_modules_description/registry_code.rst:20
 msgid ""
 "**1.** Для редактирования атрибута объекта ``a_{неймспейс, класс, "
 "атрибут}``"
 msgstr ""
+"**1.** To edit an attribute of an object ``a_{namespace, class, attribute}``"
 
 #: ../../3_modules_description/registry_code.rst:27
 msgid "BUTTON"
-msgstr ""
+msgstr "BUTTON"
 
 #: ../../3_modules_description/registry_code.rst:29
 msgid "**1.** действие списка ``la_{неймспейс, класс, имя команды}``"
-msgstr ""
+msgstr "**1.** list action ``la_{namespace, class, command name}``"
 
 #: ../../3_modules_description/registry_code.rst:35
 msgid "**2.** действие формы ``fa_{неймспейс, класс, имя команды}``"
-msgstr ""
+msgstr "**2.** form action ``fa_{namespace, class, command name}``"
 
 #: ../../3_modules_description/registry_code.rst:43
 msgid ""
 "**3.** действие ссылочного поля ``ra_{неймспейс, класс, атрибут, имя "
 "команды}``"
 msgstr ""
+"**3.** reference field action ``ra_{namespace, class, attribute, command "
+"name}``"
 
 #: ../../3_modules_description/registry_code.rst:51
 msgid ""
 "**4.** действие поля коллекции ``ca_{неймспейс, класс, атрибут, имя "
 "команды}`` *нет возможности проверить, коллекции в процессе*"
 msgstr ""
+"**4.** collection field action ``ca_{namespace, class, attribute, command "
+"name}`` *no opportunity to check collections in progress*"
 
 #: ../../3_modules_description/registry_code.rst:53
 msgid ""
 "**5.** плавающие кнопки формы ``ffa_{неймспейс, класс, атрибут, имя "
 "команды}``"
 msgstr ""
+"**5.** floating form buttons ``ffa_{namespace, class, attribute, command "
+"name}``"
 
 #: ../../3_modules_description/registry_code.rst:62
 msgid "FORM, DIV, TR, LI (для представления объектов)"
-msgstr ""
+msgstr "FORM, DIV, TR, LI (for representing objects)"
 
 #: ../../3_modules_description/registry_code.rst:64
 msgid "**1.** секции и узлы навигации ``n_{имя секции навигации}``"
-msgstr ""
+msgstr "**1.** navigation sections and nodes ``n_{navigation section name}``"
 
 #: ../../3_modules_description/registry_code.rst:74
 msgid "Узел навигации ``n_{код узла навигации}``."
-msgstr ""
+msgstr "Navigation node ``n_{navigation node code}``."
 
 #: ../../3_modules_description/registry_code.rst:80
 msgid "Узел навигации открытого класса."
-msgstr ""
+msgstr "Open class navigation node."
 
 #: ../../3_modules_description/registry_code.rst:85
 msgid ""
@@ -1487,18 +1535,21 @@ msgid ""
 "<https://iondv.com/portal/contacts>`_ &ensp;  `English "
 "</docs/en/3_modules_description/registry_code.md>`_ &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/3_modules_description/"
+"registry_code.md>`_ &ensp;"
 
 #: ../../3_modules_description/registry_treegrid.rst:12
 msgid "Настройки DI"
-msgstr ""
+msgstr "DI setting"
 
 #: ../../3_modules_description/registry_treegrid.rst:15
 msgid "Подключение в глобальных настройках модуля регистра"
-msgstr ""
+msgstr "Connection of the register module in the global settings"
 
 #: ../../3_modules_description/registry_treegrid.rst:18
 msgid "Пример в deploy.json"
-msgstr ""
+msgstr "Example in deploy.json"
 
 #: ../../3_modules_description/registry_treegrid.rst:33
 msgid ""
@@ -1507,56 +1558,67 @@ msgid ""
 "Работает с использование компонента dhtmlxSuite_v51_pro "
 "(https://dhtmlx.com/docs/products/dhtmlxTreeGrid/)."
 msgstr ""
+"\"treegridController\" is designed to create hierarchical lists of objects "
+"in a class collection attribute or in class navigation.\\ :raw-html-"
+"m2r:`<br>` Works with the use of the dhtmlxSuite_v51_pro (https://dhtmlx.com/"
+"docs/products/dhtmlxTreeGrid/) component."
 
 #: ../../3_modules_description/registry_treegrid.rst:37
 msgid "Подключение в DI"
-msgstr ""
+msgstr "Connection in DI"
 
 #: ../../3_modules_description/registry_treegrid.rst:64
 msgid "Виды шаблонов"
-msgstr ""
+msgstr "Template types"
 
 #: ../../3_modules_description/registry_treegrid.rst:67
 msgid ""
 "\"template\": \"treegrid/collection\"\\ :raw-html-m2r:`<br>` Для "
 "атрибута-коллекции. Подключается в представлении формы объекта:"
 msgstr ""
+"\"template\": \"treegrid/collection\"\\ :raw-html-m2r:`<br>`For a collection "
+"attribute. Connected in the object form view:"
 
 #: ../../3_modules_description/registry_treegrid.rst:87
 msgid ""
 "\"template\": \"treegrid/list\"\\ :raw-html-m2r:`<br>` Для навигации "
 "класса. Подключение:"
 msgstr ""
+"\"template\": \"treegrid/list\"\\ :raw-html-m2r:`<br>` For navigation class. "
+"Connection:"
 
 #: ../../3_modules_description/registry_treegrid.rst:97
 msgid "Настройка ``skin``"
-msgstr ""
+msgstr "Setting ``skin``"
 
 #: ../../3_modules_description/registry_treegrid.rst:99
 msgid "https://docs.dhtmlx.com/grid__skins.html"
-msgstr ""
+msgstr "https://docs.dhtmlx.com/grid__skins.html"
 
 #: ../../3_modules_description/registry_treegrid.rst:114
 msgid "Дополнительные источники информации по treegridController"
-msgstr ""
+msgstr "Additional sources of information on treegridController"
 
 #: ../../3_modules_description/registry_treegrid.rst:118
 msgid ""
 "`Иерархическое представление для коллекций "
 "<https://git.iondv.ru/ION/platform/blob/v1.24/docs/ru/2_system_description/platform_configuration/deploy_modules.md#настройка-иерархического-представления-для-коллекций>`_."
 msgstr ""
+"`Hierarchical view for collections <https://git.iondv.ru/ION/platform/blob/"
+"v1.24/docs/ru/2_system_description/platform_configuration/"
+"deploy_modules.md#настройка-иерархического-представления-для-коллекций>`_."
 
 #: ../../3_modules_description/registry_treegrid.rst:120
 msgid "DHTMLX (dhtmlxSuite_v51_pro)"
-msgstr ""
+msgstr "DHTMLX (dhtmlxSuite_v51_pro)"
 
 #: ../../3_modules_description/registry_treegrid.rst:123
 msgid "https://docs.dhtmlx.com/"
-msgstr ""
+msgstr "https://docs.dhtmlx.com/"
 
 #: ../../3_modules_description/registry_treegrid.rst:124
 msgid "https://dhtmlx.com/docs/products/dhtmlxTreeGrid/"
-msgstr ""
+msgstr "https://dhtmlx.com/docs/products/dhtmlxTreeGrid/"
 
 #: ../../3_modules_description/registry_treegrid.rst:129
 msgid ""
@@ -1564,10 +1626,13 @@ msgid ""
 "<https://iondv.com/portal/contacts>`_ &ensp;  `English "
 "</docs/en/3_modules_description/registry_treegrid.md>`_ &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/3_modules_description/"
+"registry_treegrid.md>`_ &ensp;"
 
 #: ../../3_modules_description/report.rst:5
 msgid "Модуль \"report\""
-msgstr ""
+msgstr "The \"report\" module"
 
 #: ../../3_modules_description/report.rst:11
 msgid ""
@@ -1576,10 +1641,14 @@ msgid ""
 "информации в виде графиков. Расчеты могут выполняться по расписанию или "
 "быть инициированы оператором."
 msgstr ""
+"**The report module** – is designed for the formation of analytical reports "
+"and reference information (on the basis of special metadata) in the form of "
+"graphs. Calculations can be performed on a schedule or be initiated by the "
+"operator."
 
 #: ../../3_modules_description/report.rst:14
 msgid "Библиотека для построения отчетов вида Pivot"
-msgstr ""
+msgstr "Library to build the Pivot type report"
 
 #: ../../3_modules_description/report.rst:16
 msgid ""
@@ -1590,10 +1659,16 @@ msgid ""
 "лучше посоветоваться с разработчиками и поставить таск на реализацию "
 "отчета вида Pivot."
 msgstr ""
+"The library for building reports of the Pivot type is PivotTable.js ("
+"Examples and description: https://pivottable.js.org) The functionality is "
+"rich, but at the same time difficult to build reports like in Excel or Word. "
+"For now it's better not to require the functionality of the Word from it "
+"when designing a report - it is better to consult with the developers and "
+"put a task on the implementation of a Pivot type report."
 
 #: ../../3_modules_description/report.rst:21
 msgid "Метаданные"
-msgstr ""
+msgstr "Metadata"
 
 #: ../../3_modules_description/report.rst:23
 msgid ""
@@ -1602,16 +1677,21 @@ msgid ""
 " :raw-html-m2r:`<br>` `Замечания при проектировании шахты "
 "<report_warning.md>`_"
 msgstr ""
+"`Metadata of the report module (data mine) </docs/ru/2_system_description/"
+"metadata_structure/meta_report/meta_report.md>`_\\ :raw-html-m2r:`<br>` `"
+"Comments on the mine design <report_warning.md>`_"
 
 #: ../../3_modules_description/report.rst:27
 msgid "Настройка автоматической сборки шахты данных"
-msgstr ""
+msgstr "Automatic data mine building"
 
 #: ../../3_modules_description/report.rst:29
 msgid ""
 "Добавьте настройку ``jobs.enabled=true`` в файл config.ini чтобы "
 "настроить автоматическую сборку шахты данных."
 msgstr ""
+"Add the ``jobs.enabled = true`` setting to the config.ini file to set up "
+"automatic data mine building."
 
 #: ../../3_modules_description/report.rst:32
 #: ../../3_modules_description/rest/performance_workflow.rst:69
@@ -1620,13 +1700,15 @@ msgstr ""
 #: ../../3_modules_description/soap.rst:38
 #: ../../3_modules_description/soap.rst:74
 msgid "Пример"
-msgstr ""
+msgstr "Example"
 
 #: ../../3_modules_description/report.rst:34
 msgid ""
 "Чтобы запускать задание при старте приложения и далее каждые 6 часов, "
 "нужно настроить джоб следующим образом:"
 msgstr ""
+"To run a task at the start of the application and then every 6 hours, you "
+"need to configure the job as follows:"
 
 #: ../../3_modules_description/report.rst:49
 msgid ""
@@ -1634,32 +1716,38 @@ msgid ""
 "<https://iondv.com/portal/contacts>`_ &ensp;  `English "
 "</docs/en/3_modules_description/report.md>`_ &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/3_modules_description/report.md>`_ "
+"&ensp;"
 
 #: ../../3_modules_description/report_warning.rst:6
 msgid "Назад: `Модуль отчетов <report.md>`_"
-msgstr ""
+msgstr "Back: `The report module <report.md>`_"
 
 #: ../../3_modules_description/report_warning.rst:9
 msgid "Замечания при проектировании шахты"
-msgstr ""
+msgstr "Comments on the mine design"
 
 #: ../../3_modules_description/report_warning.rst:12
 msgid "Операции \"NOT CONTAINS\""
-msgstr ""
+msgstr "\"NOT CONTAINS\" operations"
 
 #: ../../3_modules_description/report_warning.rst:14
 msgid ""
 "Пока пользуемся монгой операции ``NOT CONTAINS`` работать корректно не "
 "будут, так как NOT применяется не к CONTAINS а к условиям вхождения."
 msgstr ""
+"While we are using Monga, the operations ``NOT CONTAINS`` will not work "
+"correctly, since NOT does not apply to CONTAINS, but to the conditions of "
+"entry."
 
 #: ../../3_modules_description/report_warning.rst:16
 msgid "Переделать это сейчас не представляется возможным."
-msgstr ""
+msgstr "It is now impossible to change it."
 
 #: ../../3_modules_description/report_warning.rst:19
 msgid "Не настроен сборщик для источника данных"
-msgstr ""
+msgstr "The data source collector is not configured"
 
 #: ../../3_modules_description/report_warning.rst:21
 msgid ""
@@ -1667,6 +1755,9 @@ msgid ""
 "Кроме самой меты надо в ``deploy.json`` в ``modules.report.globals`` "
 "прописать:"
 msgstr ""
+"\"summaryArea.serviceGrid\" data source collector is not configured. In "
+"addition to the meta itself, in ``deploy.JSON`` in ``modules.report.global`` "
+"it is necessary to write the following:"
 
 #: ../../3_modules_description/report_warning.rst:37
 msgid ""
@@ -1674,10 +1765,13 @@ msgid ""
 "агрегировать из разных БД (и вообще источников). Сейчас пока используется"
 " стандартный mineBuilder, использующий локальный датасорс Db."
 msgstr ""
+"This is the linking of collectors to data sources in order to be able to "
+"aggregate from different databases (and sources). For now, the standard "
+"mineBuilder is used, using a local Db source."
 
 #: ../../3_modules_description/report_warning.rst:40
 msgid "Нельзя сравнить два поля"
-msgstr ""
+msgstr "Cannot compare two fields"
 
 #: ../../3_modules_description/report_warning.rst:42
 msgid ""
@@ -1685,20 +1779,25 @@ msgid ""
 "выражений, то работать не будет. Монга БД не умеет сравнивать два поля "
 "между собой. Например подобные выражения работать не будут:"
 msgstr ""
+"Comparing two fields with each other using search expressions will not work. "
+"Monga DB does not know how to compare two fields among themselves. For "
+"example, such expressions will not work:"
 
 #: ../../3_modules_description/report_warning.rst:52
 msgid "Для сорсов на основе классов фильтры указываются через кондишнсы."
-msgstr ""
+msgstr "For sources based on classes, filters are specified by conditions."
 
 #: ../../3_modules_description/report_warning.rst:68
 msgid ""
 "`Licence </LICENSE>`_\\ &ensp;  `Contact us "
 "<https://iondv.com/portal/contacts>`_ &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;"
 
 #: ../../3_modules_description/report_warning.rst:70
 msgid "`English </docs/en/3_modules_description/report_warning.md>`_ &ensp;"
-msgstr ""
+msgstr "`English </docs/en/3_modules_description/report_warning.md>`_ &ensp;"
 
 #: ../../3_modules_description/rest/info.rst:3
 msgid "Текст для обработки"
@@ -2803,7 +2902,7 @@ msgstr ""
 
 #: ../../3_modules_description/soap.rst:5
 msgid "Soap модуль"
-msgstr ""
+msgstr "The Soap module"
 
 #: ../../3_modules_description/soap.rst:11
 msgid ""
@@ -2811,6 +2910,10 @@ msgid ""
 "что в теле запроса передаётся SOAP-запрос, а у GET-запроса тела нет (если"
 " можно так выразиться). По этой причине нужно отправлять POST запрос."
 msgstr ""
+"NB. Soap module does not support GET requests for services. Partly because a "
+"SOAP request is transmitted in the request body, and the GET request does "
+"not have a body (if you can put it that way). For this reason, you need to "
+"send a POST request."
 
 #: ../../3_modules_description/soap.rst:14
 msgid ""
@@ -2818,10 +2921,13 @@ msgid ""
 "теле запроса нужно писать SOAP-запрос, который на основе WSDL и "
 "достаточно громоздкий)."
 msgstr ""
+"This can be done using the SOAP-UI utility (you can do it also in the "
+"browser, but in the request body you need to write a SOAP request that is "
+"WSDL-based and quite heavy)."
 
 #: ../../3_modules_description/soap.rst:17
 msgid "Настройки структуры данных crud-сервиса"
-msgstr ""
+msgstr "Crud service data structure settings"
 
 #: ../../3_modules_description/soap.rst:19
 msgid ""
@@ -2833,6 +2939,13 @@ msgid ""
 "этим псевдонимом, во всех других случаях кроме указания ``false`` атрибут"
 " появляется под своим именем."
 msgstr ""
+"The ``types`` option contains a mapping between a class (full name) and a "
+"map of published attributes of this class. In the map, the attribute name is "
+"the key, and the value is either a string alias or a Boolean value "
+"indicating whether the attribute is included in the schema or not. That "
+"means if an alias is specified, then the attribute appears in the schema "
+"under this alias, in all other cases except for specifying the ``false`` "
+"attribute appears under its name."
 
 #: ../../3_modules_description/soap.rst:21
 msgid ""
@@ -2840,10 +2953,14 @@ msgid ""
 "сервиса, а также при парсинге входящих сообщение и генерации ответов. "
 "Путем замены normalize на функцию корректно приводящую данные к схеме."
 msgstr ""
+"This setting is used for parsing classes when creating the service data "
+"schema, as well as for parsing incoming messages and generating responses. "
+"By replacing \"normalize\" with a function that correctly leads data to the "
+"schema."
 
 #: ../../3_modules_description/soap.rst:24
 msgid "Для работы с коллекциями и ссылками"
-msgstr ""
+msgstr "For collections and references"
 
 #: ../../3_modules_description/soap.rst:26
 msgid ""
@@ -2851,14 +2968,17 @@ msgid ""
 "объекты которые находятся в этих свойствах можно тоже описать мапой в "
 "``deploy.json`` вот по такому принципу:"
 msgstr ""
+"If the values of collections and links also need to be parsed in another "
+"way, the objects that are in these properties can also be described by the "
+"map in ``deploy.json`` as follows:"
 
 #: ../../3_modules_description/soap.rst:60
 msgid "Настройка, убирающая из запроса системные атрибуты"
-msgstr ""
+msgstr "The setting for removing system attributes from a request"
 
 #: ../../3_modules_description/soap.rst:67
 msgid "Авторизация по токену oauth2 в модуле SOAP"
-msgstr ""
+msgstr "Oauth2 token authentication in the SOAP module"
 
 #: ../../3_modules_description/soap.rst:69
 msgid ""
@@ -2867,12 +2987,18 @@ msgid ""
 " в сообщение заголовок безопасности ``WSSecurity``. Для аутентфиикации "
 "REST-сервисов добавляем стандартные заголовки ``HTTP-аутентифкации``."
 msgstr ""
+"Login-password and login-token authentication is applied by default for all "
+"services. Add the ``WSSecurity`` security header to the message to "
+"authenticate soap requests. To authenticate REST services, add standard "
+"``HTTP`` authentication headers."
 
 #: ../../3_modules_description/soap.rst:71
 msgid ""
 "Настройка типа проверки - по паролю или токену (pwd/token) выполняется в "
 "deploy.json настройкой ``authMode`` в соответствующем модуле:"
 msgstr ""
+"Set the type of verification - by password or token (pwd/token) in "
+"deploy.json file by setting the ``authMode`` in the corresponding module:"
 
 #: ../../3_modules_description/soap.rst:88
 msgid ""
@@ -2881,6 +3007,10 @@ msgid ""
 "``authMode`` для сервиса в token, переходим в админку, генерируем токен, "
 "используем его вместо пароля в заголовках."
 msgstr ""
+"By default, all services are authenticated by passwords. The admin panel has "
+"a special form to generate a user token. Configure the ``authMode`` for the "
+"service in token, go to the admin panel, generate a token and use it instead "
+"of the password in the headers."
 
 #: ../../3_modules_description/soap.rst:93
 msgid ""
@@ -2888,3 +3018,6 @@ msgid ""
 "<https://iondv.com/portal/contacts>`_ &ensp;  `English "
 "</docs/en/3_modules_description/soap.md>`_ &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/3_modules_description/soap.md>`_ "
+"&ensp;"

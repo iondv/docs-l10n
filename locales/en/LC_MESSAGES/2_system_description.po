@@ -8,11 +8,14 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-26 07:49+0000\n"
-"PO-Revision-Date: 2020-04-30 05:59+0000\n"
+"PO-Revision-Date: 2020-05-06 02:42+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
 "Language: en\n"
+"Language-Team: English "
+"<http://weblate.iondv.com/projects/docs/2_system_description/en/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +25,7 @@ msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:6
 msgid "Кеширование данных"
-msgstr ""
+msgstr "Data caching"
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:8
 #: ../docs-ru/2_system_description/functionality/filter.rst:6
@@ -35,7 +38,7 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:7
 #: ../docs-ru/2_system_description/platform_configuration/deploy_pulling.rst:8
 msgid ":doc:`Оглавление <../../index>`"
-msgstr ""
+msgstr ":doc:`Table of contents <../../index>`"
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:10
 #: ../docs-ru/2_system_description/functionality/eds.rst:9
@@ -48,12 +51,12 @@ msgstr ""
 #: ../docs-ru/2_system_description/functionality/utilities.rst:9
 #: ../docs-ru/2_system_description/functionality/virtual_attr.rst:10
 msgid "Назад: :doc:`Функциональность <functionality>`"
-msgstr ""
+msgstr "Back: :doc:`Functionality <functionality>`"
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:13
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:17
 msgid "Логика работы"
-msgstr ""
+msgstr "Principle of work"
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:15
 msgid ""
@@ -62,6 +65,10 @@ msgid ""
 "поддержкой кеширования ``cachedDataRepo``. Данные загружаются по цепочке:"
 " *БД -> dataRepo -> cachedDataRepo -> securedDataRepo*."
 msgstr ""
+"Between the basic data repository ``dataRepo`` and the data repository with "
+"security checks ``securedDataRepo``, a data repository with support for "
+"caching ``cachedDataRepo`` has been implemented. The data is loaded by chain:"
+" *BD -> dataRepo -> cachedDataRepo -> securedDataRepo*."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:18
 msgid ""
@@ -70,10 +77,14 @@ msgid ""
 "запрашивает их у ``dataRepo``\\ , после чего помещает в кеш и отдает "
 "``securedDataRepo``."
 msgstr ""
+"However, when running a query, the ``cachedDataRepo``\\ first checks for the "
+"availability of data in the cache (if the cache is enabled), and if there is "
+"no data in the cache, it requests it from ``dataRepo``\\, then it places it "
+"in the cache and returns it to ``securedDataRepo``."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:21
 msgid "Настройка кеширования объектов отдельных классов"
-msgstr ""
+msgstr "Setting caching objects of individual classes"
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:23
 msgid ""
@@ -81,6 +92,9 @@ msgid ""
 "(deploy.json), в опциях ``cachedDataRepo`` указать список классов, данные"
 " которых нужно хранить в кеше."
 msgstr ""
+"In the configuration file (deploy.json), in the options ``cachedDataRepo`` "
+"you can individually specify the list of classes whose data should be stored "
+"in the cache."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:26
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:49
@@ -108,19 +122,19 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/tags.rst:31
 #: ../docs-ru/2_system_description/platform_configuration/deploy_modules.rst:427
 msgid "Пример:"
-msgstr ""
+msgstr "Example:"
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:36
 msgid "Если **cachedClasses** не указан, то кешируются все данные."
-msgstr ""
+msgstr "If **cachedClasses** is not specified, then all data are cached."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:39
 msgid "Кеширование списка объектов"
-msgstr ""
+msgstr "Caching a list of objects"
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:41
 msgid "Кешируются как индивидуальные обьекты, так и списки."
-msgstr ""
+msgstr "Both individual objects and lists are cached."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:43
 msgid ""
@@ -130,14 +144,22 @@ msgid ""
 " обьектов. При выборке списка из кеша на основании этого массива из кеша "
 "выбираются соответствующие обьекты и формируется результирующий список."
 msgstr ""
+"When a list is cached based on its selection conditions (including "
+"pagination), a key is generated, then a selection is performed and all "
+"received objects are cached individually, and the list is cached as an array "
+"of object identifiers. When selecting a list from the cache, on the basis of "
+"this array, the corresponding objects are selected from the cache and the "
+"resulting list is formed."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:46
 msgid "Аналогично кешируются все объекты по ссылке и коллекции загружаемые жадно."
 msgstr ""
+"Similarly, all objects by reference and eagerly loaded collections are "
+"cached."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:49
 msgid "Настройка гибкого кеширования"
-msgstr ""
+msgstr "Setting the adaptive cache"
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:51
 msgid ""
@@ -148,6 +170,12 @@ msgid ""
 "``memcached`` и ``redis`` в опции ``connectOptions``. Все нужные "
 "плейсхолдеры прописаны в файле config.json репозитория платформы."
 msgstr ""
+"For advanced configuration of cache (such as, query storage time, depth of "
+"storage of objects in the cache, etc.) the setting of *adaptive object "
+"caching* is applied. Adaptive cache settings are specified in the "
+"deploy.json file in the ``\"di\"``\\ property, in the ``memcached`` and "
+"``redis`` components in the ``connectOptions`` option. All the necessary "
+"placeholders are listed in the config.json file of the platform repository."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:55
 msgid ""
@@ -155,18 +183,22 @@ msgid ""
 "обьектов из БД, то есть в обьекте хранится информация о его ссылках, а "
 "дальше в кеше получается граф обьектов, а не дерево."
 msgstr ""
+"**NB:** The storage depth of objects in the cache corresponds to the depth "
+"of the query for objects from the database. So, the object stores "
+"information about its references, and then in the cache the object graph is "
+"obtained, and not the tree."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:59
 msgid "Настройка кеширования через ini файл приложения"
-msgstr ""
+msgstr "Setting the cache by use of the ini-file"
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:61
 msgid "Параметры ini файла:"
-msgstr ""
+msgstr "The ini-file parameters:"
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:78
 msgid "По умолчанию кеширование не используется."
-msgstr ""
+msgstr "Cache is not used by default."
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:83
 #: ../docs-ru/2_system_description/functionality/eds.rst:106
@@ -192,6 +224,10 @@ msgid ""
 "                                         `English "
 "<https://iondv.readthedocs.io/en/latest/index.html>`_"
 msgstr ""
+"`License <https://github.com/iondv/framework/blob/master/LICENSE>`"
+"_                                        `Contact us <https://iondv.com/"
+"portal/contacts>`_                                         `English "
+"<https://iondv.readthedocs.io/en/latest/index.html>`_"
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:93
 #: ../docs-ru/2_system_description/functionality/eds.rst:116
@@ -278,13 +314,13 @@ msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:5
 msgid "Электронно-цифровая подпись"
-msgstr ""
+msgstr "Electronic digital signature"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:7
 #: ../docs-ru/2_system_description/functionality/utilities.rst:7
 #: ../docs-ru/2_system_description/functionality/virtual_attr.rst:8
 msgid ":doc:`Содержание <../../index>`"
-msgstr ""
+msgstr ":doc:`Table of contents <../../index>`"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:12
 #: ../docs-ru/2_system_description/functionality/functionality.rst:17
@@ -338,61 +374,69 @@ msgid ""
 " Он позволяет идентифицировать владельца сертификата ключа подписи и "
 "установить отсутствие искажения информации в электронном документе."
 msgstr ""
+"**Electronic digital signature (EDS)** - refers to data in electronic form, "
+"which is logically associated with other data in electronic form and which "
+"is used by the signatory to sign. It is designed to protect this electronic "
+"document from forgery, obtained as a result of cryptographic transformation "
+"of information using the private key of an electronic digital signature. It "
+"allows you to identify the owner of the certificate key signature and "
+"establish that there is no distortion of information in the electronic "
+"document."
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:17
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/binding.rst:17
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:20
 msgid "Цель использования"
-msgstr ""
+msgstr "Purpose of use"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:19
 msgid "В приложении ЭЦП может быть нужна для:"
-msgstr ""
+msgstr "In the application the EDS is used for:"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:22
 msgid "Проверки целостности данных"
-msgstr ""
+msgstr "Data integrity checking"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:23
 msgid "Определения авторства данных"
-msgstr ""
+msgstr "Data authorship establishment"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:25
 msgid ""
 "Существует три вида электронной цифровой подписи, которые отличаются по "
 "своему применению:"
-msgstr ""
+msgstr "There are three types of digital signatures that differ in their use:"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:28
 msgid "Простая электронно-цифровая подпись"
-msgstr ""
+msgstr "Simple electronic digital signature"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:30
 #: ../docs-ru/2_system_description/functionality/eds.rst:36
 #: ../docs-ru/2_system_description/functionality/eds.rst:42
 msgid "для определения авторства данных"
-msgstr ""
+msgstr "to establish the authorship of the data"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:31
 msgid "создается с использованием кодов, паролей или иных средств"
-msgstr ""
+msgstr "created with the use of codes, passwords or other instruments"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:33
 msgid "Усиленная неквалифицированная электронно-цифровая подпись"
-msgstr ""
+msgstr "Reinforced unqualified electronic digital signature"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:35
 #: ../docs-ru/2_system_description/functionality/eds.rst:41
 msgid "для проверки целостности данных"
-msgstr ""
+msgstr "to check data integrity"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:37
 msgid "создается с использованием средств электронной подписи"
-msgstr ""
+msgstr "created using electronic signature tools"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:39
 msgid "Усиленная квалифицированная электронно-цифровая подпись"
-msgstr ""
+msgstr "Reinforced qualified electronic digital signature"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:43
 msgid ""
@@ -403,33 +447,38 @@ msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:46
 msgid "Специфика работы"
-msgstr ""
+msgstr "Work specifics"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:48
 msgid ""
 "Работает утилита ЭЦП на основе КриптоПро, поэтому он должен быть "
 "установлен на одном компьютере:"
 msgstr ""
+"The EDS utility works on the cryptoPro basis, so it should be installed on "
+"the same computer:"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:51
 msgid "ставим `крипто про <https://www.cryptopro.ru/products/csp/downloads>`_"
-msgstr ""
+msgstr "install `cryptopro <https://www.cryptopro.ru/products/csp/downloads>`_"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:52
 msgid "ставим `плагин <https://www.cryptopro.ru/products/cades/plugin>`_"
 msgstr ""
+"install `cryptopro plugin <https://www.cryptopro.ru/products/cades/plugin>`_"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:53
 msgid ""
 "для тестирования, выпускаем `сертификат "
 "<https://www.cryptopro.ru/certsrv/certrqma.asp>`_"
 msgstr ""
+"issue a `certificate <https://www.cryptopro.ru/certsrv/certrqma.asp>`_ for "
+"testing"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:56
 #: ../docs-ru/2_system_description/functionality/utilities.rst:99
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/security_wf.rst:20
 msgid "Реализация"
-msgstr ""
+msgstr "Implementation"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:58
 msgid ""
@@ -438,6 +487,10 @@ msgid ""
 "папке приложения ``lib/digest`` (на примере приложения project-"
 "management):"
 msgstr ""
+"EDS can be attributed to the application utilities, since its main "
+"implementation is in the application. Usually the implementation of EDS is "
+"located in the ``lib/digest`` application folder (the project-management app "
+"example):"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:61
 msgid ""
@@ -445,16 +498,21 @@ msgid ""
 "необходимость в электронной подписи (_applicable) и процесс подписи при "
 "выполнении перехода БП (_process)"
 msgstr ""
+"``lib/digest/digestData.js`` - check the loading object form to the need for "
+"an electronic signature (_applicable) and check the signature process when "
+"performing a BP transition (_process)"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:62
 msgid "``lib/digest/signSaver.js`` - прикрепление подписи к объекту"
-msgstr ""
+msgstr "``lib/digest/signSaver.js`` - attachment of the signature to the object"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:64
 msgid ""
 "Для того, чтобы статус ЭП запрашивался/отображался, для registry "
 "добавляем в ``deploy`` настройку signedClasses."
 msgstr ""
+"Add the ``signedClasses`` setting in the ``deploy`` file for the registry "
+"module, so that EDS status can be displayed."
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:67
 #: ../docs-ru/2_system_description/functionality/eds.rst:82
@@ -486,53 +544,55 @@ msgstr ""
 #: ../docs-ru/2_system_description/platform_configuration/deploy_modules.rst:375
 #: ../docs-ru/2_system_description/platform_configuration/deploy_modules.rst:458
 msgid "Пример"
-msgstr ""
+msgstr "Example"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:79
 msgid ""
 "В БП ``workflows/indicatorValueBasic.wf.json`` добавляем переход со "
 "свойством ``\"signBefore\": true``."
 msgstr ""
+"In the ``workflows/indicatorValueBasic.wf.json`` workflow add a transition "
+"with the ``\"signBefore\": true`` property."
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:12
 msgid "Фильтры на форме представления списка"
-msgstr ""
+msgstr "Filter on the list view form"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:18
 msgid "Запрос для фильтра задается выражением (поисковым запросом)."
-msgstr ""
+msgstr "The query for the filter is specified by an expression (search query)."
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:20
 msgid "Поддерживает следующие операции:"
-msgstr ""
+msgstr "The available operations:"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:23
 msgid "группировки скобками"
-msgstr ""
+msgstr "using brackets for grouping"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:24
 msgid "логических: AND, OR, NOT"
-msgstr ""
+msgstr "logical: AND, OR, NOT"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:25
 msgid "сравнения: =, <, >, <=, >=, <>"
-msgstr ""
+msgstr "comparison: =, <, >, <=, >=, <>"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:26
 msgid "арифметических: +, -, *, /"
-msgstr ""
+msgstr "arithmetic: +, -, *, /"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:27
 msgid "строковых: like"
-msgstr ""
+msgstr "string: like"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:28
 msgid "над коллекциями: size"
-msgstr ""
+msgstr "over collections: size"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:31
 msgid "Создание запроса"
-msgstr ""
+msgstr "Create a query"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:33
 msgid ""
@@ -540,36 +600,41 @@ msgid ""
 "``>_``\\ , расположенной у основания поля запроса для фильтра. "
 "Наименование атрибута оборочивается в *\"backticks\"* т.е.:"
 msgstr ""
+"**Choose attribute** from the drop-down list using the ``> _``\\ button "
+"located at the bottom of the filter request field. The name of the attribute "
+"is shortened in *\"backticks\"* i.e.:"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:39
 msgid "**Параметры комбинации** значений атрибутов для запроса:"
-msgstr ""
+msgstr "**Combination options** of attribute values for a query:"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:42
 msgid "and - И - т.е. обязательно оба (или больше) значаний,"
-msgstr ""
+msgstr "and - necessarily both (or more) values,"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:43
 msgid "or - ИЛИ - т.е. любое из значений оба (или больше) значаний."
-msgstr ""
+msgstr "or - any of the values of both (or more) values."
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:45
 msgid "пример комбинации:"
-msgstr ""
+msgstr "Example of a combination:"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:51
 msgid ""
 "**Строковые значения** атрибутов при формировании запроса оборачиваются в"
 " *двойные кавычки*\\ :"
 msgstr ""
+"**String values** of attributes when forming the query, are wrapped in *"
+"double quotes*\\:"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:57
 msgid "**Обращение к атрибутам по ссылке**\\ :"
-msgstr ""
+msgstr "**Accessing attributes by reference**\\:"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:63
 msgid "**Подсказки**\\ :"
-msgstr ""
+msgstr "**Hints**\\ :"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:65
 msgid ""
@@ -577,16 +642,20 @@ msgid ""
 "который откроется модельное окно с описанием принципа работы фильтра и "
 "синтаксиса запроса к нему."
 msgstr ""
+"At the end of the filter query field, there is a ``?``\\ sign, when clicked, "
+"a model window opens describing how the filter and the query syntax for it "
+"work."
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:67
 msgid ""
 "Для парсинга поисковых выражений используется библиотека "
 "https://nearley.js.org/"
 msgstr ""
+"This library (https://nearley.js.org/) is used to parse search expressions."
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:70
 msgid "Варианты использования"
-msgstr ""
+msgstr "Options for using"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:72
 msgid ""
@@ -594,6 +663,9 @@ msgid ""
 "можно вызывать кликом на аналогичного вида значек, расположенный в каждом"
 " столбце таблицы."
 msgstr ""
+"In addition to the button next to the search bar at the top of the page, you "
+"can call the filter by clicking on the similar icon located in each column "
+"of the table."
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:74
 msgid ""
@@ -602,6 +674,10 @@ msgid ""
 "выбрано необходимо нажать клавишу ``Enter`` - в столбце со значениями "
 "отобразится результат запроса."
 msgstr ""
+"To create a query for the filter, select a value from the drop-down list, or "
+"start typing a value in a row. As soon as the value is selected, you need to "
+"press the ``Enter`` key - the result of the query is displayed in the value "
+"column."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:5
 #: ../docs-ru/2_system_description/indexfunctionality.rst:2
