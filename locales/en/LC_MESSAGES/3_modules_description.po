@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-04-30 05:59+0000\n"
+"PO-Revision-Date: 2020-05-06 02:42+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "3_modules_description/en/>\n"
@@ -1620,7 +1620,7 @@ msgstr ""
 #: ../../3_modules_description/soap.rst:38
 #: ../../3_modules_description/soap.rst:74
 msgid "Пример"
-msgstr ""
+msgstr "Example"
 
 #: ../../3_modules_description/report.rst:34
 msgid ""
