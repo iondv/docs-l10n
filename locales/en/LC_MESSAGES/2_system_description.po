@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-26 07:49+0000\n"
-"PO-Revision-Date: 2020-04-30 05:59+0000\n"
+"PO-Revision-Date: 2020-05-06 02:42+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
@@ -406,33 +406,38 @@ msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:46
 msgid "Специфика работы"
-msgstr ""
+msgstr "Work specifics"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:48
 msgid ""
 "Работает утилита ЭЦП на основе КриптоПро, поэтому он должен быть "
 "установлен на одном компьютере:"
 msgstr ""
+"The EDS utility works on the cryptoPro basis, so it should be installed on "
+"the same computer:"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:51
 msgid "ставим `крипто про <https://www.cryptopro.ru/products/csp/downloads>`_"
-msgstr ""
+msgstr "install `cryptopro <https://www.cryptopro.ru/products/csp/downloads>`_"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:52
 msgid "ставим `плагин <https://www.cryptopro.ru/products/cades/plugin>`_"
 msgstr ""
+"install `cryptopro plugin <https://www.cryptopro.ru/products/cades/plugin>`_"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:53
 msgid ""
 "для тестирования, выпускаем `сертификат "
 "<https://www.cryptopro.ru/certsrv/certrqma.asp>`_"
 msgstr ""
+"issue a `certificate <https://www.cryptopro.ru/certsrv/certrqma.asp>`_ for "
+"testing"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:56
 #: ../docs-ru/2_system_description/functionality/utilities.rst:99
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/security_wf.rst:20
 msgid "Реализация"
-msgstr ""
+msgstr "Implementation"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:58
 msgid ""
@@ -441,6 +446,10 @@ msgid ""
 "папке приложения ``lib/digest`` (на примере приложения project-"
 "management):"
 msgstr ""
+"EDS can be attributed to the application utilities, since its main "
+"implementation is in the application. Usually the implementation of EDS is "
+"located in the ``lib/digest`` application folder (the project-management app "
+"example):"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:61
 msgid ""
@@ -448,16 +457,21 @@ msgid ""
 "необходимость в электронной подписи (_applicable) и процесс подписи при "
 "выполнении перехода БП (_process)"
 msgstr ""
+"``lib/digest/digestData.js`` - check the loading object form to the need for "
+"an electronic signature (_applicable) and check the signature process when "
+"performing a BP transition (_process)"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:62
 msgid "``lib/digest/signSaver.js`` - прикрепление подписи к объекту"
-msgstr ""
+msgstr "``lib/digest/signSaver.js`` - attachment of the signature to the object"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:64
 msgid ""
 "Для того, чтобы статус ЭП запрашивался/отображался, для registry "
 "добавляем в ``deploy`` настройку signedClasses."
 msgstr ""
+"Add the ``signedClasses`` setting in the ``deploy`` file for the registry "
+"module, so that EDS status can be displayed."
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:67
 #: ../docs-ru/2_system_description/functionality/eds.rst:82
@@ -489,53 +503,55 @@ msgstr ""
 #: ../docs-ru/2_system_description/platform_configuration/deploy_modules.rst:375
 #: ../docs-ru/2_system_description/platform_configuration/deploy_modules.rst:458
 msgid "Пример"
-msgstr ""
+msgstr "Example"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:79
 msgid ""
 "В БП ``workflows/indicatorValueBasic.wf.json`` добавляем переход со "
 "свойством ``\"signBefore\": true``."
 msgstr ""
+"In the ``workflows/indicatorValueBasic.wf.json`` workflow add a transition "
+"with the ``\"signBefore\": true`` property."
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:12
 msgid "Фильтры на форме представления списка"
-msgstr ""
+msgstr "Filter on the list view form"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:18
 msgid "Запрос для фильтра задается выражением (поисковым запросом)."
-msgstr ""
+msgstr "The query for the filter is specified by an expression (search query)."
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:20
 msgid "Поддерживает следующие операции:"
-msgstr ""
+msgstr "The available operations:"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:23
 msgid "группировки скобками"
-msgstr ""
+msgstr "using brackets for grouping"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:24
 msgid "логических: AND, OR, NOT"
-msgstr ""
+msgstr "logical: AND, OR, NOT"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:25
 msgid "сравнения: =, <, >, <=, >=, <>"
-msgstr ""
+msgstr "comparison: =, <, >, <=, >=, <>"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:26
 msgid "арифметических: +, -, *, /"
-msgstr ""
+msgstr "arithmetic: +, -, *, /"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:27
 msgid "строковых: like"
-msgstr ""
+msgstr "string: like"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:28
 msgid "над коллекциями: size"
-msgstr ""
+msgstr "over collections: size"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:31
 msgid "Создание запроса"
-msgstr ""
+msgstr "Create a query"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:33
 msgid ""
@@ -543,36 +559,41 @@ msgid ""
 "``>_``\\ , расположенной у основания поля запроса для фильтра. "
 "Наименование атрибута оборочивается в *\"backticks\"* т.е.:"
 msgstr ""
+"**Choose attribute** from the drop-down list using the ``> _``\\ button "
+"located at the bottom of the filter request field. The name of the attribute "
+"is shortened in *\"backticks\"* i.e.:"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:39
 msgid "**Параметры комбинации** значений атрибутов для запроса:"
-msgstr ""
+msgstr "**Combination options** of attribute values for a query:"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:42
 msgid "and - И - т.е. обязательно оба (или больше) значаний,"
-msgstr ""
+msgstr "and - necessarily both (or more) values,"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:43
 msgid "or - ИЛИ - т.е. любое из значений оба (или больше) значаний."
-msgstr ""
+msgstr "or - any of the values of both (or more) values."
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:45
 msgid "пример комбинации:"
-msgstr ""
+msgstr "Example of a combination:"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:51
 msgid ""
 "**Строковые значения** атрибутов при формировании запроса оборачиваются в"
 " *двойные кавычки*\\ :"
 msgstr ""
+"**String values** of attributes when forming the query, are wrapped in *"
+"double quotes*\\:"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:57
 msgid "**Обращение к атрибутам по ссылке**\\ :"
-msgstr ""
+msgstr "**Accessing attributes by reference**\\:"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:63
 msgid "**Подсказки**\\ :"
-msgstr ""
+msgstr "**Hints**\\ :"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:65
 msgid ""
@@ -580,16 +601,20 @@ msgid ""
 "который откроется модельное окно с описанием принципа работы фильтра и "
 "синтаксиса запроса к нему."
 msgstr ""
+"At the end of the filter query field, there is a ``?``\\ sign, when clicked, "
+"a model window opens describing how the filter and the query syntax for it "
+"work."
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:67
 msgid ""
 "Для парсинга поисковых выражений используется библиотека "
 "https://nearley.js.org/"
 msgstr ""
+"This library (https://nearley.js.org/) is used to parse search expressions."
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:70
 msgid "Варианты использования"
-msgstr ""
+msgstr "Options for using"
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:72
 msgid ""
@@ -597,6 +622,9 @@ msgid ""
 "можно вызывать кликом на аналогичного вида значек, расположенный в каждом"
 " столбце таблицы."
 msgstr ""
+"In addition to the button next to the search bar at the top of the page, you "
+"can call the filter by clicking on the similar icon located in each column "
+"of the table."
 
 #: ../docs-ru/2_system_description/functionality/filter.rst:74
 msgid ""
@@ -605,6 +633,10 @@ msgid ""
 "выбрано необходимо нажать клавишу ``Enter`` - в столбце со значениями "
 "отобразится результат запроса."
 msgstr ""
+"To create a query for the filter, select a value from the drop-down list, or "
+"start typing a value in a row. As soon as the value is selected, you need to "
+"press the ``Enter`` key - the result of the query is displayed in the value "
+"column."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:5
 #: ../docs-ru/2_system_description/indexfunctionality.rst:2
