@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-26 07:49+0000\n"
-"PO-Revision-Date: 2020-05-06 02:42+0000\n"
+"PO-Revision-Date: 2020-05-06 05:50+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
@@ -682,13 +682,13 @@ msgstr ""
 #: ../docs-ru/2_system_description/functionality/functionality.rst:5
 #: ../docs-ru/2_system_description/indexfunctionality.rst:2
 msgid "Функциональность"
-msgstr ""
+msgstr "Functionality"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:9
 msgid ""
 "Предыдущая страница: :doc:`ini-файлы "
 "<../platform_configuration/ini_files>`"
-msgstr ""
+msgstr "The previous page: `ini-files <../platform_configuration/ini_files>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:11
 msgid ""
@@ -696,6 +696,9 @@ msgid ""
 "которые реализуются отдельно и независимо от метаданных, но в рамках "
 "приложения."
 msgstr ""
+"**Application functionality** - is a set of features (functions) that are "
+"implemented separately and independently of metadata but within an "
+"application."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:16
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:42
@@ -712,197 +715,210 @@ msgstr "Name"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:18
 msgid ":doc:`Шаблоны модулей <module_templates>`"
-msgstr ""
+msgstr "`Module templates <module_templates>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:19
 msgid "Разделяются на системные и проектные шаблоны."
-msgstr ""
+msgstr "Divided into system and project templates."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:20
 msgid ":doc:`Печатные формы <printed_forms>`"
-msgstr ""
+msgstr "`Printed forms <printed_forms>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:21
 msgid "Передача форматирования в прописном виде."
-msgstr ""
+msgstr "Display formatting in printed form."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:22
 msgid ":doc:`Задания по расписанию <schedule>`"
-msgstr ""
+msgstr "`Scheduled tasks <schedule>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:23
 msgid "Подсистемы запуска заданий по расписанию."
-msgstr ""
+msgstr "Subsystems for running scheduled tasks."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:24
 msgid ":doc:`Уведомления <notifications>`"
-msgstr ""
+msgstr "`Notifications <notifications>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:25
 msgid "Лента новых уведомлений."
-msgstr ""
+msgstr "New notification feed."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:26
 msgid ":doc:`Кеширование данных <cached>`"
-msgstr ""
+msgstr "`Data caching <cached>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:27
 msgid "Кеширование данных обеспечивает быстрый доступ к запрашиваемой информации."
-msgstr ""
+msgstr "Data caching provides quick access to the requested information."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:28
 msgid ":doc:`Фильтры на форме <filter>`"
-msgstr ""
+msgstr "`Filters <filter>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:29
 msgid "Запрос для фильтра на форме представления списка."
-msgstr ""
+msgstr "Query for filter on the list view form."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:30
 msgid ":doc:`Связь двух неймспейсов <namespace>`"
-msgstr ""
+msgstr "`Connection of two namespaces <namespace>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:31
 msgid "Для связывания двух проектов."
-msgstr ""
+msgstr "Connection of two projects using \"namespace\"."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:32
 msgid ":doc:`ЭЦП <eds>`"
-msgstr ""
+msgstr "`EDS <eds>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:33
 msgid "Электронно-цифровая подпись."
 msgstr ""
+"Type of electronic signature that encrypts documents with digital codes."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:34
 msgid ":doc:`Виртуальные атрибуты <virtual_attr>`"
-msgstr ""
+msgstr "`Virtual attributes <virtual_attr>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:35
 msgid ""
 "Специальный тип атрибутов, который позволяет выводить полный код и "
 "наименование класса."
 msgstr ""
+"Special type of attributes that allows you to display the full code and name "
+"of the class."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:36
 msgid ":doc:`Утилиты <utilities>`"
-msgstr ""
+msgstr "`Utilities <utilities>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:37
 msgid "Дополнительные программы для более специализированного применения"
-msgstr ""
+msgstr "Additional programs for more specialized applications."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:41
 msgid ""
 "Следующая страница: :doc:`Описание модулей "
 "<../../3_modules_description/modules>`"
 msgstr ""
+"The next page: `Module description <../../3_modules_description/modules>`"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:5
 msgid "Шаблоны модулей"
-msgstr ""
+msgstr "Module templates"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:12
 msgid "Тема оформления"
-msgstr ""
+msgstr "Themes"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:14
 msgid "Тема оформления - директория следующей структуры:"
-msgstr ""
+msgstr "Themes - is a directory of the following structure:"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:22
 msgid "Темы оформления могут располагаться:"
-msgstr ""
+msgstr "Themes can be located:"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:25
 msgid ""
 "В директории ``view`` модуля и платформы - тогда это системные темы "
 "оформления"
-msgstr ""
+msgstr "In the ``view`` directory of modules and platform - the system themes"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:26
 msgid ""
 "В директории ``applications`` платформы как приложения - тогда это "
 "проектные темы оформления"
 msgstr ""
+"In the ``applications`` directory of application as a platform - the "
+"projects themes"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:27
 msgid "В директории ``themes`` приложения - тогда это проектные темы офрмления"
-msgstr ""
+msgstr "In the ``themes`` directory application - the project themes"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:29
 msgid "Настройка текущей темы оформления:"
-msgstr ""
+msgstr "Setting the current theme:"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:32
 msgid "Для платформы"
-msgstr ""
+msgstr "For a platform"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:34
 msgid "Настройка *theme* в config.json платформы"
-msgstr ""
+msgstr "Setting *theme* in the config.json of the platform"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:35
 msgid "Настройка *globals.theme* в deploy.json приложения"
-msgstr ""
+msgstr "Setting *globals.theme* in the deploy.json of the application"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:37
 msgid "Для модуля"
-msgstr ""
+msgstr "For a module"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:39
 msgid "Настройка *theme* в config.json модуля"
-msgstr ""
+msgstr "Setting *theme* in the config.json of the module"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:40
 msgid "Настройка **Имя модуля**.\\ *globals.theme* в deploy.json приложения"
 msgstr ""
+"Setting **Module name**.\\ *globals.theme* in the deploy.json of the "
+"application"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:42
 msgid ""
 "По умолчанию используется системная тема ``default`` (в платформе и "
 "модулях registry, geomap, report, offline-sync)."
 msgstr ""
+"The default system theme is ``default`` (in the platform and modules \""
+"registry\", \"geomap\", \"report\")."
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:44
 msgid ""
 "В настроке ``theme`` указывается путь до директории темы, он разрешается "
 "в соответствии с правилами:"
 msgstr ""
+"Set the path to the theme directory in the ``theme`` field according to the "
+"following rules:"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:47
 msgid "Абсолютный путь берется как есть"
-msgstr ""
+msgstr "The absolute path is taken as it is."
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:48
 msgid ""
 "Относительный путь разрешается относительно системных путей в следующем "
 "порядке:"
 msgstr ""
+"A relative path is taken relative to the system paths in the following order:"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:50
 msgid "Относительно директории ``view`` модуля или платформы"
-msgstr ""
+msgstr "Relative to the ``view`` directory of module and platform"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:51
 msgid "Относительно директории ``applications`` платформы"
-msgstr ""
+msgstr "Relative to the ``applications`` directory of the platform"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:52
 msgid "Относительно директории платформы"
-msgstr ""
+msgstr "Relative to the platform directory"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:55
 msgid "Пример в dnt"
-msgstr ""
+msgstr "Example in dnt"
 
 #: ../docs-ru/2_system_description/functionality/namespace.rst:5
 msgid "Связь двух неймспейсов"
-msgstr ""
+msgstr "Connection of two namespaces"
 
 #: ../docs-ru/2_system_description/functionality/namespace.rst:12
 msgid "Связь нескольких проектов с использованием пространства имен \"namespace\""
-msgstr ""
+msgstr "Connection of two projects using \"namespace\""
 
 #: ../docs-ru/2_system_description/functionality/namespace.rst:14
 msgid ""
@@ -913,6 +929,12 @@ msgid ""
 "понятно к какому проекту относятся классы по ссылке. Так, например, "
 "связываем тестовый проект ``develop-and-test`` с проектом ``fias``\\ :"
 msgstr ""
+"It is used if you need to link two projects together and deploy them on the "
+"same platform, with references and collections not only within the project "
+"but also to others deployed in the same context. Implemented using the "
+"project namespace, so it would be clear to which project the classes refer "
+"by reference. For example, we associate the test project ``develop-and-test``"
+" with the project ``fias``\\:"
 
 #: ../docs-ru/2_system_description/functionality/namespace.rst:39
 msgid ""
@@ -921,16 +943,22 @@ msgid ""
 " пункту меню одного проекта - получаем данные из другого проекта, при "
 "указании необходимого пространства имен."
 msgstr ""
+"In the ``develop-and-test`` project menu, there is a navigation node, which "
+"is a class representation from the ``fias`` project. Thus, when navigating "
+"through the menu item of one project, we obtain data from another project, "
+"if the required namespace is specified."
 
 #: ../docs-ru/2_system_description/functionality/namespace.rst:45
 msgid "Для меты:"
-msgstr ""
+msgstr "For meta:"
 
 #: ../docs-ru/2_system_description/functionality/namespace.rst:47
 msgid ""
 "При импорте неймспейс берется не из параметра, а из меты класса. Убираем "
 "неймспейс как параметр навигации и т.д."
 msgstr ""
+"When importing, the namespace is taken not from the parameter, but from the "
+"meta class. We remove namespace as a navigation parameter, etc."
 
 #: ../docs-ru/2_system_description/functionality/namespace.rst:49
 msgid ""
@@ -938,10 +966,13 @@ msgid ""
 " мета накатываемая последней, но с учетом заполненности атрибутов. т.е. "
 "пустое значение атрибута не переопределяет непустое."
 msgstr ""
+"When importing navigation meta, if the system names match, then the last "
+"meta is top-priority. But take into account that the empty value of the "
+"attribute does not override a non-empty one."
 
 #: ../docs-ru/2_system_description/functionality/namespace.rst:52
 msgid "Для студии:"
-msgstr ""
+msgstr "For Studio:"
 
 #: ../docs-ru/2_system_description/functionality/namespace.rst:54
 msgid ""
@@ -950,6 +981,10 @@ msgid ""
 "имен по умолчанию проставляется в соответствующее поле на форме создания "
 "класса."
 msgstr ""
+"In meta class there is the ``namespace`` property. In the Studio, the "
+"parameter \"namespace\" has been added in the ION project settings. By "
+"default, this namespace is inserted into the corresponding field on the "
+"class creation form."
 
 #: ../docs-ru/2_system_description/functionality/namespace.rst:56
 msgid ""
@@ -958,6 +993,10 @@ msgid ""
 "везде отображается с неймспейсом через знак ``@``\\ , если класс объявлен"
 " в неймспейсе отличном от неймспейса текущего проекта."
 msgstr ""
+"The \"namespace\" attribute is also set to separate fields on the forms for "
+"creating and editing a class. In the studio, the system class name is now "
+"displayed everywhere with a namespace through a ``@``\\ sign if the class is "
+"declared in a namespace other than the namespace of the current project."
 
 #: ../docs-ru/2_system_description/functionality/namespace.rst:58
 msgid ""
@@ -965,6 +1004,9 @@ msgid ""
 "неймспейс проекта, либо неймспейсы связанных проектов (Project "
 "references). При этом есть возможность и вбить его руками."
 msgstr ""
+"Namespace field is in the form of a drop-down list, from where you can "
+"choose either a project's namespace or project-related namespaces (Project "
+"references). At the same time there is an opportunity to set it manually."
 
 #: ../docs-ru/2_system_description/functionality/namespace.rst:60
 msgid ""
@@ -973,6 +1015,10 @@ msgid ""
 "Это значит, что в списках выбора классов должно быть полное имя класса с "
 "неймспейсом."
 msgstr ""
+"The rest of the meta objects has no namespaces, but links to classes "
+"everywhere must be affixed with the account of namespaces (in the reference "
+"attributes too). This means that the class selection list must contain the "
+"full name of the class with a namespace."
 
 #: ../docs-ru/2_system_description/functionality/namespace.rst:62
 msgid ""
@@ -981,10 +1027,14 @@ msgid ""
 "класса (и директорий если они участвуют в формировании логики привязки к "
 "классу, например, у меты представления)."
 msgstr ""
+"Also, the class selection list should also include classes from all Project "
+"References. At the physical level, the namespace is included in the file "
+"name of the class meta file (and directories if they participate in the "
+"formation of the class binding logic, for example, the meta view)."
 
 #: ../docs-ru/2_system_description/functionality/notifications.rst:5
 msgid "Уведомления"
-msgstr ""
+msgstr "Notifications"
 
 #: ../docs-ru/2_system_description/functionality/notifications.rst:11
 msgid ""
@@ -994,16 +1044,22 @@ msgid ""
 "Лента обновляется раз в 15 секунд. Если колокольчик отсутсвует это значит"
 " что уведомлений нет."
 msgstr ""
+"**Notifications** - is displayed on the form as a red bell, when clicked, "
+"the notification feed (the last 10 unread) is displayed, when clicked on the "
+"notification, it disappears as read. The feed is updated every 15 seconds. "
+"If the bell is missing, then there are no new notifications."
 
 #: ../docs-ru/2_system_description/functionality/notifications.rst:14
 msgid "Настройка уведомлений"
-msgstr ""
+msgstr "Setting up notifications"
 
 #: ../docs-ru/2_system_description/functionality/notifications.rst:16
 msgid ""
 "Реализована отправка уведомлений на почту. Настраивается в проекте - "
 "**TODO**."
 msgstr ""
+"The sending notifications to mail feature is implemented. Configure it in "
+"the project - **TODO**."
 
 #: ../docs-ru/2_system_description/functionality/notifications.rst:18
 msgid ""
@@ -1012,60 +1068,70 @@ msgid ""
 "уведомлений в поле \"Получатели\" указывается список полных имен "
 "пользователей (user@local) разделенных пробелом."
 msgstr ""
+"The API for sending notifications programmatically is implemented. That "
+"means that you can send a notification in the event handler. In the admin "
+"panel when sending notifications the list of full user names (user @ local) "
+"separated by a space is indicated in the \"Recipients\" field."
 
 #: ../docs-ru/2_system_description/functionality/notifications.rst:21
 msgid ""
 "Хранение уведомлений происходит в коллекциях: ion_notification, "
 "ion_notification_recievers."
 msgstr ""
+"Notifications are stored in the following collections - ion_notification, "
+"ion_notification_recievers."
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:5
 msgid "Печатные формы"
-msgstr ""
+msgstr "Printed forms"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:12
 msgid "Печатные формы Word"
-msgstr ""
+msgstr "Printed forms - Word"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:15
 msgid "Используется библиотека docxtemplater"
-msgstr ""
+msgstr "The docxtemplater library is used"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:16
 msgid ""
 "Примеры подключения и использования docxtemplater `здесь <http"
 "://javascript-ninja.fr/docxtemplater/v1/examples/demo.html>`_."
 msgstr ""
+"See the `examples <http://javascript-ninja.fr/docxtemplater/v1/examples/"
+"demo.html>`_ of the connecting and using docxtemplater library."
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:19
 msgid "Параметры передачи форматирования"
-msgstr ""
+msgstr "Format transfer options"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:21
 msgid ""
 "Для ``table_col`` параметр для передачи форматирования см. "
 "правила/примеры `здесь <https://momentjs.com/docs/#/displaying/>`_."
 msgstr ""
+"The ``table_col`` parameter is to transfer the formatting. See the rulles "
+"and examples `here <https://momentjs.com/docs/#/displaying/>`_."
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:23
 msgid "вид:"
-msgstr ""
+msgstr "format:"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:29
 msgid "пример:"
-msgstr ""
+msgstr "example:"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:35
 msgid "результат:"
-msgstr ""
+msgstr "result:"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:41
 msgid "В формате допускается использование символа ``:``."
-msgstr ""
+msgstr "The format allows the use of the ``:`` symbol."
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:44
 msgid "Вывод значения суммы в прописном варианте"
-msgstr ""
+msgstr "Displays the value of the sum in the upper case"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:46
 msgid ""
@@ -1073,6 +1139,9 @@ msgid ""
 "преобразует просто в текст, если добавить вторым параметром true, то "
 "будет добавляться рублевый формат (рубли - копейки)."
 msgstr ""
+"There is a *toWords*\\ filter for docx templates, which converts to text by "
+"default. If you add \"true\" as the second parameter , then a ruble format "
+"will be added (rubles - kopecks)."
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:55
 msgid ""
@@ -1080,96 +1149,106 @@ msgid ""
 "печатной форме будет = **Триста сорок пять рублей пятьдесят две "
 "копейки**."
 msgstr ""
+"As a result, the value of the \"costExp\" attribute equals **345.52**. The "
+"result in written form is = **Three hundred and forty five rubles fifty two "
+"kopecks**."
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:58
 msgid "Преобразования между датой и строкой"
-msgstr ""
+msgstr "Conversion between date and string"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:60
 msgid "Доступны к применению следующие функции:"
-msgstr ""
+msgstr "The following functions are available:"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:63
 msgid "date - преобразование строки в дату"
-msgstr ""
+msgstr "date - convert string to date"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:64
 msgid "upper - строку к верхнему регистру"
-msgstr ""
+msgstr "upper - string to upper case"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:65
 msgid "lower - строку к нижнему регистру"
-msgstr ""
+msgstr "lower - string to lower case"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:67
 msgid "В экспорте в docx в выражениях доступны фильтры:"
 msgstr ""
+"In the export to docx, the following filters are available in expressions:"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:70
 msgid "lower - к нижнему регистру"
-msgstr ""
+msgstr "lower - to lower case"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:71
 msgid "upper - к верхнему регистру"
-msgstr ""
+msgstr "upper - to upper case"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:72
 msgid "dateFormat - дата к строке, примеры применения:"
-msgstr ""
+msgstr "dateFormat - convert date to string, examples of use:"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:74
 msgid "{now | dateFormat:\\ ``ru``\\ }"
-msgstr ""
+msgstr "{now | dateFormat:\\ ``en``\\ }"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:75
 msgid "{since | dateFormat:\\ ``ru``\\ }"
-msgstr ""
+msgstr "{since | dateFormat:\\ ``en``\\ }"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:76
 msgid "{date | dateFormat:`ru`:`YYYYMMDD`}"
-msgstr ""
+msgstr "{date | dateFormat:`en`:`YYYYMMDD`}"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:78
 msgid "toDate - строка к дате"
-msgstr ""
+msgstr "toDate - string to date"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:81
 msgid "Значение текущей даты ``_now``"
-msgstr ""
+msgstr "Current date value - ``_now``"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:88
 msgid "Настройка для отображения значения полей из массива объектов"
-msgstr ""
+msgstr "Setting to display field values from an array of objects"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:90
 msgid ""
 "Если необходимо отобразить поля из массива объектов (коллекция например) "
 "используется тэг:"
 msgstr ""
+"If you need to display fields from an array of objects (collection for "
+"example), use the tag:"
 
 #: ../docs-ru/2_system_description/functionality/printed_forms.rst:96
 msgid ""
 "По умолчанию значения будут объеденины через точку с запятой. Чтобы "
 "указать другой разделитель, укажите его после второго двоеточия:"
 msgstr ""
+"By default, the values will be connected by a semicolon. To indicate another "
+"separator, specify it after the second colon:"
 
 #: ../docs-ru/2_system_description/functionality/schedule.rst:6
 msgid "Подсистема задания по расписанию"
-msgstr ""
+msgstr "Scheduled tasks"
 
 #: ../docs-ru/2_system_description/functionality/schedule.rst:12
 msgid "Запуск подсистемы заданий по расписанию выполняется двумя способами:"
-msgstr ""
+msgstr "The launch of the scheduled tasks is performed in two ways:"
 
 #: ../docs-ru/2_system_description/functionality/schedule.rst:15
 msgid "в отдельном процессе посредством скрипта ``bin/schedule.js``"
-msgstr ""
+msgstr "in a separate process using the ``bin/schedule.js`` script"
 
 #: ../docs-ru/2_system_description/functionality/schedule.rst:16
 msgid ""
 "внутри процесса веб-приложения ION (bin/www) путем указания в ini-файле "
 "опции ``jobs.enabled=true``"
 msgstr ""
+"within the ION web application process (bin / www) by specifying in the ini-"
+"file the option ``jobs.enabled=true``"
 
 #: ../docs-ru/2_system_description/functionality/schedule.rst:18
 msgid ""
@@ -1177,6 +1256,9 @@ msgid ""
 "веб-приложении. Задания по расписанию настраиваются в deploy.json "
 "приложений в разделе глобальных настроек как параметр jobs."
 msgstr ""
+"In the second case, task management is possible to implement in a web "
+"application. Tasks are configured in the deploy.json file of the "
+"applications in the global settings section as a jobs parameter."
 
 #: ../docs-ru/2_system_description/functionality/schedule.rst:49
 msgid ""
@@ -1185,24 +1267,28 @@ msgid ""
 "может быть указана и функция. Тогда в **di** она описывается аналогично "
 "компоненту, но с использованием настройки ``executable``\\ :"
 msgstr ""
+"A component can be specified as a starting task, in this case it should have "
+"the ``run`` method. A function can also be specified as a starting task. "
+"Then in **di** it is described similarly to the component, but using the "
+"``executable``\\ setting:"
 
 #: ../docs-ru/2_system_description/functionality/schedule.rst:63
 msgid "*Раздел jobs в глобальных настройках.*"
-msgstr ""
+msgstr "*The jobs field in the global settings.*"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:5
 msgid "Утилиты"
-msgstr ""
+msgstr "Utilities"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:14
 msgid ""
 "Утилиты - дополнительные программы для более специализированного "
 "применения."
-msgstr ""
+msgstr "Utilities - are additional programs for more specialized applications."
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:17
 msgid "Утилиты ядра"
-msgstr ""
+msgstr "Core utilities"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:19
 msgid ""
@@ -1212,6 +1298,11 @@ msgid ""
 "задана заранее (с указанием на папку ядра).\\ :raw-html-m2r:`<br>` В "
 "состав ядра входят утилиты:"
 msgstr ""
+"Core utilities are the most necessary utilities from installation to "
+"operating the application. They are stored in the ``bin`` folder. Before "
+"start the utilities, you must set the environment variable ``NODE_PATH``\\ "
+"if it was not set in advance (indicating the core folder).\\ :raw-html-"
+"m2r:`<br>` The core contains the following utilities:"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:24
 msgid ""
@@ -1219,44 +1310,48 @@ msgid ""
 "приложения (ресурсы, роли, пользователи, права доступа). Параметры "
 "запуска:"
 msgstr ""
+"``bin/acl.js`` - to import and edit application security settings ("
+"resources, roles, users, access rights). Launch parameters:"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:27
 msgid "``--u`` - указывается пользователь"
-msgstr ""
+msgstr "``--u`` - user"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:28
 msgid "``--res`` - указывается ресурс"
-msgstr ""
+msgstr "``--res`` - resource"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:29
 msgid "``--role`` - указывается роль"
-msgstr ""
+msgstr "``--role`` - role"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:30
 msgid "``--p`` - указывается доступ"
-msgstr ""
+msgstr "``--p`` - access right"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:31
 msgid "``--m`` - указывается метод применения доступа"
-msgstr ""
+msgstr "``--m`` - access application method"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:32
 msgid "``--d`` - указывается для импорта директория с настройками безопасности"
-msgstr ""
+msgstr "``--d`` - directory with the security settings for import"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:35
 msgid ""
 "``bin/adduser.js`` - для добавления новых пользователей в настройки "
 "безопасности приложения. Параметры запуска:"
 msgstr ""
+"``bin/adduser.js`` - to add new users to the application’s security "
+"settings. Launch parameters:"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:38
 msgid "``--name`` - указывается логин пользователя (по умолчанию admin)"
-msgstr ""
+msgstr "``--name`` - user login (admin - by default)"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:39
 msgid "``--pwd`` - указывается пароль пользователя (по умолчанию admin)"
-msgstr ""
+msgstr "``--pwd`` - user password (admin - by default)"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:42
 msgid ""
@@ -1264,44 +1359,52 @@ msgid ""
 "требующих больших мощностей от процессора или выполняющихся относительно "
 "длительно по времени"
 msgstr ""
+"``bin/bg.js`` - to run low priority background procedures that require high "
+"power from the processor or run relatively long time"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:45
 msgid ""
 "``bin/export.js`` - для экспорта приложения в локальную директорию. "
 "Параметры запуска:"
 msgstr ""
+"``bin/export.js`` - to export the application to a local directory. Launch "
+"parameters:"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:48
 msgid ""
 "``--dst`` - путь к директории, в которую будет записан результат экспорта"
 " (по умолчанию ../out)"
 msgstr ""
+"``--dst`` - path to the directory where the export result will be written ("
+"by default ../out)"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:49
 msgid "``--ns`` - указывается неймспейс приложения"
-msgstr ""
+msgstr "``--ns`` - application namespace"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:50
 msgid ""
 "``--file-dir`` - путь к директории, в которую будут экспортированы файлы "
 "из файловых атрибутов"
 msgstr ""
+"``--file-dir`` - path to the directory to which files from file attributes "
+"will be exported"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:51
 msgid "``--acl`` - дополнительно экспортировать настройки безопасности"
-msgstr ""
+msgstr "``--acl`` - optional export of security settings"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:52
 msgid "``--nodata`` - пропустить экспорт для всех созданных объектов в приложении"
-msgstr ""
+msgstr "``--nodata`` - skip export for all created objects in the application"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:53
 msgid "``--nofiles`` - пропустить экспорт файловых атрибутов"
-msgstr ""
+msgstr "``--nofiles`` - skip file attribute export"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:54
 msgid "``--ver`` - версия (последняя версия -last)"
-msgstr ""
+msgstr "``--ver`` - version (last version - last)"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:57
 msgid "``bin/import.js`` - для импорта метаданных приложения. Параметры запуска:"
