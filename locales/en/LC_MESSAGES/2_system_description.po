@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-26 07:49+0000\n"
-"PO-Revision-Date: 2020-05-07 06:14+0000\n"
+"PO-Revision-Date: 2020-05-07 06:40+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
@@ -35,7 +35,7 @@ msgstr "Data caching"
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:7
 #: ../docs-ru/2_system_description/platform_configuration/deploy_pulling.rst:8
 msgid ":doc:`Оглавление <../../index>`"
-msgstr "`Index <../../index>`"
+msgstr ":doc:`Index <../../index>`"
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:10
 #: ../docs-ru/2_system_description/functionality/eds.rst:9
@@ -317,7 +317,7 @@ msgstr "Electronic digital signature"
 #: ../docs-ru/2_system_description/functionality/utilities.rst:7
 #: ../docs-ru/2_system_description/functionality/virtual_attr.rst:8
 msgid ":doc:`Содержание <../../index>`"
-msgstr "`Index <../../index>`"
+msgstr ":doc:`Index <../../index>`"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:12
 #: ../docs-ru/2_system_description/functionality/functionality.rst:17
@@ -687,7 +687,8 @@ msgstr "Functionality"
 msgid ""
 "Предыдущая страница: :doc:`ini-файлы "
 "<../platform_configuration/ini_files>`"
-msgstr "The previous page: `ini-files <../platform_configuration/ini_files>`"
+msgstr ""
+"The previous page: :doc:`ini-files <../platform_configuration/ini_files>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:11
 msgid ""
@@ -714,7 +715,7 @@ msgstr "Name"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:18
 msgid ":doc:`Шаблоны модулей <module_templates>`"
-msgstr "`Module templates <module_templates>`"
+msgstr ":doc:`Module templates <module_templates>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:19
 msgid "Разделяются на системные и проектные шаблоны."
@@ -722,7 +723,7 @@ msgstr "Divided into system and project templates."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:20
 msgid ":doc:`Печатные формы <printed_forms>`"
-msgstr "`Printed forms <printed_forms>`"
+msgstr ":doc:`Printed forms <printed_forms>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:21
 msgid "Передача форматирования в прописном виде."
@@ -730,7 +731,7 @@ msgstr "Display formatting in printed form."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:22
 msgid ":doc:`Задания по расписанию <schedule>`"
-msgstr "`Scheduled tasks <schedule>`"
+msgstr ":doc:`Scheduled tasks <schedule>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:23
 msgid "Подсистемы запуска заданий по расписанию."
@@ -738,7 +739,7 @@ msgstr "Subsystems for running scheduled tasks."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:24
 msgid ":doc:`Уведомления <notifications>`"
-msgstr "`Notifications <notifications>`"
+msgstr ":doc:`Notifications <notifications>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:25
 msgid "Лента новых уведомлений."
@@ -746,7 +747,7 @@ msgstr "New notification feed."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:26
 msgid ":doc:`Кеширование данных <cached>`"
-msgstr "`Data caching <cached>`"
+msgstr ":doc:`Data caching <cached>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:27
 msgid "Кеширование данных обеспечивает быстрый доступ к запрашиваемой информации."
@@ -754,7 +755,7 @@ msgstr "Data caching provides quick access to the requested information."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:28
 msgid ":doc:`Фильтры на форме <filter>`"
-msgstr "`Filters <filter>`"
+msgstr ":doc:`Filters <filter>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:29
 msgid "Запрос для фильтра на форме представления списка."
@@ -762,7 +763,7 @@ msgstr "Query for filter on the list view form."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:30
 msgid ":doc:`Связь двух неймспейсов <namespace>`"
-msgstr "`Connection of two namespaces <namespace>`"
+msgstr ":doc:`Connection of two namespaces <namespace>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:31
 msgid "Для связывания двух проектов."
@@ -770,7 +771,7 @@ msgstr "Connection of two projects using \"namespace\"."
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:32
 msgid ":doc:`ЭЦП <eds>`"
-msgstr "`EDS <eds>`"
+msgstr ":doc:`EDS <eds>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:33
 msgid "Электронно-цифровая подпись."
@@ -791,7 +792,7 @@ msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:36
 msgid ":doc:`Утилиты <utilities>`"
-msgstr "`Utilities <utilities>`"
+msgstr ":doc:`Utilities <utilities>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:37
 msgid "Дополнительные программы для более специализированного применения"
@@ -802,7 +803,8 @@ msgid ""
 "Следующая страница: :doc:`Описание модулей "
 "<../../3_modules_description/modules>`"
 msgstr ""
-"The next page: `Module description <../../3_modules_description/modules>`"
+"The next page: :doc:`Module description <../../3_modules_description/"
+"modules>`"
 
 #: ../docs-ru/2_system_description/functionality/module_templates.rst:5
 msgid "Шаблоны модулей"
@@ -1602,14 +1604,14 @@ msgid ""
 ":doc:`Настройки модулей в deploy.json "
 "<../platform_configuration/deploy_modules>`"
 msgstr ""
-"`Module configuration in deploy.json <../platform_configuration/"
+":doc:`Module configuration in deploy.json <../platform_configuration/"
 "deploy_modules>`"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:170
 msgid ""
 ":doc:`Мета представлений - Действия "
 "<../metadata_structure/meta_view/commands>`"
-msgstr "`Meta view - Commands <../metadata_structure/meta_view/commands>`"
+msgstr ":doc:`Meta view - Commands <../metadata_structure/meta_view/commands>`"
 
 #: ../docs-ru/2_system_description/functionality/virtual_attr.rst:6
 msgid "Виртуальные атрибуты"
@@ -1640,7 +1642,7 @@ msgstr ""
 
 #: ../docs-ru/2_system_description/index.rst:2
 msgid "2. Описание системы"
-msgstr "System description"
+msgstr "2. System description"
 
 #: ../docs-ru/2_system_description/indexconf.rst:2
 msgid "Конфигурация платформы"
@@ -2141,7 +2143,7 @@ msgstr "Criteria of abstraction"
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_default_value.rst:8
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:8
 msgid ":doc:`Оглавление <../../../index>`"
-msgstr "`Index <../../../index>`"
+msgstr ":doc:`Index <../../../index>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/abstract.rst:10
 msgid "Предыдущая страница: :doc:`Семантика <semantic>`"
@@ -2471,15 +2473,15 @@ msgstr "The next page: :doc:`Default values <atr_default_value>`"
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:6
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:31
 msgid "Кеширование значения вычисляемого атрибута"
-msgstr ""
+msgstr "Caching the value of computable attribute"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:10
 msgid "Предыдущая страница: :doc:`Вычислимые поля <atr_formula>`"
-msgstr ""
+msgstr "The previous page: :doc:`Computable fields <atr_formula>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:13
 msgid "Описание функционала"
-msgstr ""
+msgstr "Description"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:15
 msgid ""
@@ -2487,6 +2489,9 @@ msgid ""
 " при создании и изменении объекта. При выборках берутся ранее "
 "рассчитанные значения."
 msgstr ""
+"When applying the cached values, the attribute values are calculated during "
+"creating and editing an object. Previously calculated values are used for "
+"the samples."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:17
 msgid ""
@@ -2498,6 +2503,14 @@ msgid ""
 "из БД в данном случае кеш атрибута A просто не имеет смысла, так как "
 "коллекция в любом случае будет выбираться для атрибута B."
 msgstr ""
+"If there are two computable attributes A and B referring to the collection C "
+"and the A has the cached value and B hasn't, then when editing the object, "
+"the collection C will be pulled twice. First time for the attribute B at the "
+"``securedDataRepo`` level to verify the access. Second time for the "
+"attribute A when calculated into the ``dataRepo``. In this case, when "
+"reading an object from the database, the cache of the attribute A simply "
+"does not make sense, since in any case the collection will be selected for "
+"the attribute B."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:20
 msgid "Кеширование семантик"
