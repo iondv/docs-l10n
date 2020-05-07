@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-26 07:49+0000\n"
-"PO-Revision-Date: 2020-05-06 06:09+0000\n"
+"PO-Revision-Date: 2020-05-07 06:14+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
@@ -35,7 +35,7 @@ msgstr "Data caching"
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:7
 #: ../docs-ru/2_system_description/platform_configuration/deploy_pulling.rst:8
 msgid ":doc:`Оглавление <../../index>`"
-msgstr ":doc:`Table of contents <../../index>`"
+msgstr "`Index <../../index>`"
 
 #: ../docs-ru/2_system_description/functionality/cached.rst:10
 #: ../docs-ru/2_system_description/functionality/eds.rst:9
@@ -317,7 +317,7 @@ msgstr "Electronic digital signature"
 #: ../docs-ru/2_system_description/functionality/utilities.rst:7
 #: ../docs-ru/2_system_description/functionality/virtual_attr.rst:8
 msgid ":doc:`Содержание <../../index>`"
-msgstr ":doc:`Table of contents <../../index>`"
+msgstr "`Index <../../index>`"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:12
 #: ../docs-ru/2_system_description/functionality/functionality.rst:17
@@ -1482,7 +1482,7 @@ msgstr "``--rwa`` - to override, not add to arrays in ``deploy`` settings"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:84
 msgid "Утилиты приложения"
-msgstr ""
+msgstr "Application utilities"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:86
 msgid ""
@@ -1491,32 +1491,42 @@ msgid ""
 "для различных приложений. Как правило, данные утилиты находятся в "
 "директории ``lib`` и подключаются к приложению через ``deploy``."
 msgstr ""
+"Application utilities implement specific application functionality during "
+"the operation phase, which has not yet been implemented in the kernel in a "
+"unified form for various applications. Usually, these utilities are stored "
+"in the ``lib`` directory and connect to the app via ``deploy``."
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:88
 msgid "Примеры реализованных утилит для приложения ``sakh-pm``\\ :"
-msgstr ""
+msgstr "Examples of implemented utilities for the ``sakh-pm``\\ application:"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:91
 msgid ""
 "``lib/actions/createIndicatorValueHandler.js`` - утилита создания "
 "показателей в коллекции за выбранный период"
 msgstr ""
+"``lib/actions/createIndicatorValueHandler.js`` - utility that creates values "
+"in the collection for the selected period"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:92
 msgid ""
 "``lib/actions/createProjectReportsHandler.js`` - утилита автоматического "
 "создания печатных форм по проекту с сохранением файлов в облако"
 msgstr ""
+"``lib/actions/createProjectReportsHandler.js`` - the utility that "
+"automatically creates printed forms for the project saving files in the cloud"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:93
 msgid ""
 "``lib/actions/assignmentToEventOnly.js`` - утилита, формирующая из "
 "поручения контрольную точку"
 msgstr ""
+"``lib/actions/assignmentToEventOnly.js`` - utility that forms a checkpoint "
+"from an instruction"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:96
 msgid "Создание утилиты для приложения на примере createIndicatorValueHandler"
-msgstr ""
+msgstr "App utility creation using an example of createIndicatorValueHandler"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:101
 msgid ""
@@ -1525,6 +1535,11 @@ msgid ""
 "m2r:`<br>` При реализации утилит в приложении с относительно большим "
 "функционалом сами файлы могут быть разбиты на несколько зависимых файлов."
 msgstr ""
+"For implementation, the JavaScript language is used with the available "
+"functionality of the modules included in the application. \\ :raw-html-"
+"m2r:`<br>`When implementing utilities in an application with relatively "
+"large functionality, the files themselves can be split into several "
+"dependent files."
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:104
 msgid ""
@@ -1532,16 +1547,20 @@ msgid ""
 "``lib/actions/createPlanIndicatorsHandler.js`` должен быть экспорт "
 "последней строкой:"
 msgstr ""
+"In this example in the utility main file ``lib/actions/"
+"createPlanIndicatorsHandler.js`` the export command should be the last line:"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:111
 msgid "Подключение к приложению"
-msgstr ""
+msgstr "Connection to the application"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:113
 msgid ""
 "Для запуска утилиты при эксплуатации приложения нужно настроить параметры"
 " подключения в ``deploy``."
 msgstr ""
+"Set the connection parameters in the ``deploy`` to start the utility when "
+"using the application."
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:115
 msgid ""
@@ -1550,6 +1569,9 @@ msgid ""
 "``views/indicatorFinancial/item.json`` нужно добавить кнопку "
 "``CREATE_INDICATOR_VALUE``\\ :"
 msgstr ""
+"For example, you first need to add in the meta view an interface element for "
+"the utility that will launch the utility. Add the ``CREATE_INDICATOR_VALUE``"
+"\\ button in the ``views/indicatorFinancial/item.json`` file:"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:130
 msgid ""
@@ -1557,6 +1579,9 @@ msgid ""
 "интерфейсе ``CREATE_INDICATOR_VALUE`` и утилиту "
 "``createIndicatorValueHandler``\\ :"
 msgstr ""
+"Add the settings in the ``deploy``\\ file to connect the "
+"``CREATE_INDICATOR_VALUE`` button in the UI with the "
+"``createIndicatorValueHandler``\\utility:"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:161
 msgid ""
@@ -1564,26 +1589,31 @@ msgid ""
 "будет вызвана утилита при нажатии на кнопку ``CREATE_INDICATOR_VALUE`` в "
 "форме объекта класса ``indicatorFinancial``."
 msgstr ""
+"In this example all settings are held for the registry module, since the "
+"utility will be called out of it in the form of the ``indicatorFinancial`` "
+"object by clicking the ``CREATE_INDICATOR_VALUE`` button ."
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:164
 msgid "Дополнительная информация"
-msgstr ""
+msgstr "Additional info"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:167
 msgid ""
 ":doc:`Настройки модулей в deploy.json "
 "<../platform_configuration/deploy_modules>`"
 msgstr ""
+"`Module configuration in deploy.json <../platform_configuration/"
+"deploy_modules>`"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:170
 msgid ""
 ":doc:`Мета представлений - Действия "
 "<../metadata_structure/meta_view/commands>`"
-msgstr ""
+msgstr "`Meta view - Commands <../metadata_structure/meta_view/commands>`"
 
 #: ../docs-ru/2_system_description/functionality/virtual_attr.rst:6
 msgid "Виртуальные атрибуты"
-msgstr ""
+msgstr "Virtual attributes"
 
 #: ../docs-ru/2_system_description/functionality/virtual_attr.rst:15
 msgid ""
@@ -1592,26 +1622,33 @@ msgid ""
 "каждого виртуального атрибута различен, существуют следующие виртуальные "
 "атрибуты:"
 msgstr ""
+"Virtual attributes - a particular type of attributes, specified in the "
+"``property`` attribute name, starting with ``__``. The functional of each "
+"virtual attribute is different. There are the following virtual attributes:"
 
 #: ../docs-ru/2_system_description/functionality/virtual_attr.rst:18
 msgid "``__class`` - выводит полный код класса, в котором заведен атрибут"
 msgstr ""
+"``__class`` - displays the full code of the class in which the attribute was "
+"set."
 
 #: ../docs-ru/2_system_description/functionality/virtual_attr.rst:19
 msgid "``__classTitle`` - выводит наименование класса, в котором заведен атрибут"
 msgstr ""
+"``__classTitle`` - displays the name of the class in which the attribute was "
+"set."
 
 #: ../docs-ru/2_system_description/index.rst:2
 msgid "2. Описание системы"
-msgstr ""
+msgstr "System description"
 
 #: ../docs-ru/2_system_description/indexconf.rst:2
 msgid "Конфигурация платформы"
-msgstr ""
+msgstr "Platform configuration"
 
 #: ../docs-ru/2_system_description/indexmeta.rst:2
 msgid "Структура метаданных"
-msgstr ""
+msgstr "Metadata structure"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:6
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_indexed.rst:6
@@ -1681,38 +1718,38 @@ msgstr "`Index</docs/ru/index.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:9
 msgid "Таблица соответствия типов атрибутов типам представлений"
-msgstr ""
+msgstr "Correspondence table: attribute types to view types"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:14
 msgid "Код типа атрибута"
-msgstr ""
+msgstr "Code of attribute type"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:15
 msgid "Наименование типа атрибута"
-msgstr ""
+msgstr "Name of attribute type"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:16
 msgid "Код основного типа представления"
-msgstr ""
+msgstr "Code of the main view type"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:17
 msgid "Наименование основного типа представления"
-msgstr ""
+msgstr "Name of the main view type"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:18
 msgid "Предпочитаемый тип отображения для основного типа представления"
-msgstr ""
+msgstr "Desired display mode type for main view type"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:19
 msgid "Допустимые типы представлений (выборочно)"
-msgstr ""
+msgstr "Acceptable view type (selectively)"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:20
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:118
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:23
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:73
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:21
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:72
@@ -1739,7 +1776,7 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:146
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_main.rst:88
 msgid "Строка"
-msgstr ""
+msgstr "String"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:22
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:26
@@ -1748,192 +1785,192 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:27
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:77
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:23
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:95
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:131
 msgid "Текстовое"
-msgstr ""
+msgstr "Textual"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:25
 msgid "7 - Многострочный текст, 8 - Форматированный текст"
-msgstr ""
+msgstr "7 - Multiline text, 8 - Formatted text"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:27
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:28
 msgid "Текст"
-msgstr ""
+msgstr "Text"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:28
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:62
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:51
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:29
 msgid "Многострочный текст"
-msgstr ""
+msgstr "Multiline text"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:31
 msgid "1 - Текстовое, 8 - Форматированный текст"
-msgstr ""
+msgstr "1 - Textual, 8 - Formatted text"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:32
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:100
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:31
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:81
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:33
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:32
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:34
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:68
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:59
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:35
 msgid "Форматированный текст"
-msgstr ""
+msgstr "Formatted text"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:37
 msgid "1 - Текстовое, 7 -Многострочный текст"
-msgstr ""
+msgstr "1 - Textual, 7 - Multiline text"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:38
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:106
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:35
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:85
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:39
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:41
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:36
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:40
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:122
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:91
 msgid "17"
-msgstr ""
+msgstr "17"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:44
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:82
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:39
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:45
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:40
 msgid "Изображение"
-msgstr ""
+msgstr "Image"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:46
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:98
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:75
 msgid "13"
-msgstr ""
+msgstr "13"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:47
 msgid "Выбор изображения"
-msgstr ""
+msgstr "Image choice"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:50
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:43
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:51
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:44
 msgid "Файл"
-msgstr ""
+msgstr "File"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:52
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:86
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:67
 msgid "11"
-msgstr ""
+msgstr "11"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:53
 msgid "Выбор файла"
-msgstr ""
+msgstr "File choice"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:56
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:47
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:57
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:48
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:150
 msgid "Целое"
-msgstr ""
+msgstr "Integer"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:58
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:104
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:79
 msgid "14"
-msgstr ""
+msgstr "14"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:59
 msgid "Редактор целых чисел"
-msgstr ""
+msgstr "Integer editor"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:63
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:52
 msgid "Действительное"
-msgstr ""
+msgstr "Real"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:64
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:70
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:110
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:83
 msgid "15"
-msgstr ""
+msgstr "15"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:65
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:71
 msgid "Редактор вещественных чисел"
-msgstr ""
+msgstr "Real Number Editor"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:69
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:60
 msgid "Десятичное"
-msgstr ""
+msgstr "Decimal"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:74
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:112
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:55
 msgid "9"
-msgstr ""
+msgstr "9"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:75
 msgid "Дата/Время"
-msgstr ""
+msgstr "Date/Time"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:76
 msgid "120"
-msgstr ""
+msgstr "120"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:77
 msgid "Выбор даты"
-msgstr ""
+msgstr "Date choice"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:79
 msgid "6 - Выбор даты-времени"
-msgstr ""
+msgstr "6 - Date-time choice"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:80
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:63
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:81
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:96
@@ -1947,140 +1984,140 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:64
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:113
 msgid "Логический"
-msgstr ""
+msgstr "Logical"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:83
 msgid "Флаг"
-msgstr ""
+msgstr "Flag"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:87
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:89
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:68
 msgid "Пароль"
-msgstr ""
+msgstr "Password"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:88
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:92
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:71
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:93
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:72
 msgid "Глобальный идентификатор"
-msgstr ""
+msgstr "Global identifier"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:99
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:101
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:12
 msgid "Ссылка"
-msgstr ""
+msgstr "Reference"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:102
 msgid "1 - Ссылка"
-msgstr ""
+msgstr "1 - Reference"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:105
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:107
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:12
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_collection14.rst:12
 msgid "Коллекция"
-msgstr ""
+msgstr "Collection"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:108
 msgid "3 - Таблица"
-msgstr ""
+msgstr "3 - Table"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:111
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:84
 msgid "Множество"
-msgstr ""
+msgstr "Multiplicity"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:113
 msgid "Альтернативный выбор"
-msgstr ""
+msgstr "Alternative choice"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:115
 msgid "10 - Множественный выбор"
-msgstr ""
+msgstr "10 - Multiple choice"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:116
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:87
 msgid "16"
-msgstr ""
+msgstr "16"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:117
 msgid "Структура"
-msgstr ""
+msgstr "Structure"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:119
 msgid "Группа"
-msgstr ""
+msgstr "Group"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:123
 msgid "Пользовательский тип"
-msgstr ""
+msgstr "User type"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:125
 msgid "*не определено, зависит от базового типа*"
-msgstr ""
+msgstr "*not fully determined, depends on the main type*"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:128
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:95
 msgid "18"
-msgstr ""
+msgstr "18"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:129
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:96
 msgid "Пользователь"
-msgstr ""
+msgstr "User"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:134
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:136
 msgid "60"
-msgstr ""
+msgstr "60"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:135
 msgid "Период"
-msgstr ""
+msgstr "Period"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:137
 msgid "Выбор периода"
-msgstr ""
+msgstr "Period choice"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:140
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:142
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:99
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:141
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:9
 msgid "Геоданные"
-msgstr ""
+msgstr "Geodata"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:143
 msgid "Геообъект"
-msgstr ""
+msgstr "Geo object"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:144
 msgid "0 - Карта"
-msgstr ""
+msgstr "0 - Map"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:146
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:148
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:103
 msgid "110"
-msgstr ""
+msgstr "110"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:147
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:104
 msgid "Коллекция файлов"
-msgstr ""
+msgstr "File collection"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:149
 msgid "Набор файлов"
-msgstr ""
+msgstr "File set"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:157
 msgid ""
@@ -2089,10 +2126,13 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/correspondance_table.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/correspondance_table.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/abstract.rst:6
 msgid "Признак абстрактности класса"
-msgstr ""
+msgstr "Criteria of abstraction"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/abstract.rst:8
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:8
@@ -2101,11 +2141,11 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_default_value.rst:8
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:8
 msgid ":doc:`Оглавление <../../../index>`"
-msgstr ""
+msgstr "`Index <../../../index>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/abstract.rst:10
 msgid "Предыдущая страница: :doc:`Семантика <semantic>`"
-msgstr ""
+msgstr "The previous page: `Semantics <semantic>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/abstract.rst:12
 msgid ""
@@ -2114,22 +2154,27 @@ msgid ""
 "наследников. При формировании списка выбора классов для создания обьекта "
 "абстрактные классы не включены. Выставите ``true`` в поле \"abstract\"."
 msgstr ""
+"**Criteria of abstraction for a class** - is required when you need to "
+"display a list of the selection of its heirs based on the attribute "
+"reference to the base class. When forming the selection list of classes for "
+"creating an object, do not include abstract classes in the list. Set the "
+"``true`` value in the \"abstract\" field."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/abstract.rst:24
 msgid "Класс становится недоступным для инициализации на уровне UI."
-msgstr ""
+msgstr "The class becomes unavailable for initialization at the UI level."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/abstract.rst:61
 msgid "Следующая страница: :doc:`Версионирование <metaversion>`"
-msgstr ""
+msgstr "The next page: `Versioning <metaversion>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:6
 msgid "Наследование"
-msgstr ""
+msgstr "Inheritance"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:10
 msgid "Предыдущая страница: :doc:`Версионирование <metaversion>`"
-msgstr ""
+msgstr "The previous page: `Versioning <metaversion>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:12
 msgid ""
@@ -2140,10 +2185,14 @@ msgid ""
 "включать в себя свой индивидуальный состав атрибутов + атрибуты "
 "родительского класса."
 msgstr ""
+"**Inheritance** - allows you to create a new meta class based on a parent "
+"one with all its attributes. A parent class may have several heirs with "
+"different attribute structures. Each heir can have its own individual set of "
+"attributes, plus attributes of the parent class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:15
 msgid "Атрибутивный состав"
-msgstr ""
+msgstr "Attributive structure"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:17
 msgid ""
@@ -2153,20 +2202,26 @@ msgid ""
 " состав для каждого свой и применяется только на класс, в котором "
 "находится."
 msgstr ""
+"In the meta of the parent class the attributive structure is formed in such "
+"a way that each attribute can be used in any heir classes. Whereas the "
+"attributive structure in a heir class is individual for each heir class and "
+"has no influence on other classes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:22
 msgid "*Родительский класс* :"
-msgstr ""
+msgstr "*Parent class* :"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:44
 msgid "*Класс наследник* :"
-msgstr ""
+msgstr "*Heir class* :"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:66
 msgid ""
 "``\"id\"`` - является уникальным идентификатором для всех его "
 "наследников. Хранится в родительском классе."
 msgstr ""
+"``\"id\"`` - is a unique identifier for all heirs. It is stored in the "
+"parent class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:68
 msgid ""
@@ -2177,16 +2232,23 @@ msgid ""
 "классе наследнике, то отображается только в том классе, в котором он был "
 "задан."
 msgstr ""
+"``\"name\"`` - the class has the \"Name\" attribute, which can be displayed "
+"in all the heirs, or in one of them. If the ``\"name\"`` attribute is set in "
+"the parent class, then it can be displayed in any of the heirs. But if ``\""
+"name\"`` is set in the class of the heir, it is displayed only in the class "
+"in which it was set."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:71
 msgid "Представление класса:"
-msgstr ""
+msgstr "Сlass view:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:73
 msgid ""
 "Если для родительского класса задан :doc:`признак абстрактности "
 "<abstract>`\\ , то представление для него задавать не обязательно."
 msgstr ""
+"If the `criteria of abstraction <abstract>`\\ is set in the parent class, "
+"then there is no need to set the view for this class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:75
 msgid ""
@@ -2194,20 +2256,26 @@ msgid ""
 "указанием необходимого атрибутивного состава (из класса, для которого "
 "создается + необходимые из родительского класса)."
 msgstr ""
+"The class view is set for each heir separately specifying the desired "
+"attribute structure (attributes of the new class plus attributes of the "
+"parent class, if needed)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:78
 msgid "Настройка списка классов наследников для создания объектов по ссылке"
-msgstr ""
+msgstr "Setting the list of the heirs"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:80
 msgid ""
 "Задается в мете класса для атрибута типа ``\"Ссылка\"``\\ /\\ "
 "``\"Коллекция\"`` после указания ссылочного класса/класса коллекции:"
 msgstr ""
+"Set the list of the heir classes to create objects by reference in the meta "
+"class for the attribute of the reference/collection types after specifying "
+"the ``\"reference\"``\\/``\\\"collection\"`` class:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:90
 msgid "``itemsClass`` - коллекция на базовый класс ``[event]``"
-msgstr ""
+msgstr "``itemsClass`` - collection for the parent class - ``[event]``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:92
 msgid ""
@@ -2215,20 +2283,26 @@ msgid ""
 "будет отображаться в списке, при создании объекта по ссылке (далее "
 "перечисляем все дочерние классы, которые нужно отображать в списке)."
 msgstr ""
+"``Subclasses1`` - is a heir class of the parent class - ``[event]``\\ , "
+"which will be displayed in the list when creating an object by reference ("
+"hereinafter you can list all the heir classes that need to be displayed in "
+"the list)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:96
 msgid ""
 "NB. Если данная настройка не задана - при создании, в списке отображаются"
 " все дочерние классы."
 msgstr ""
+"NB: If this setting is not specified, all heir classes will be listed when "
+"created."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:100
 msgid "Условия для применения настройки:"
-msgstr ""
+msgstr "Conditions of this setting:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:103
 msgid "Тип атрибута \"Коллекция\" или \"Ссылка\"."
-msgstr ""
+msgstr "Attribute types - Reference or Collection."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:104
 msgid ""
@@ -2236,6 +2310,9 @@ msgid ""
 " на родительский (базовый) класс (при создании объекта ссылочного класса "
 "выводиться окно выбора нескольких классов)."
 msgstr ""
+"For the \"Collection\" or \"Reference\" attribute, the reference/collection "
+"class to the parent (base) class is specified (when creating an object of "
+"the reference class, a window for selecting multiple classes is displayed)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:105
 msgid ""
@@ -2243,6 +2320,9 @@ msgid ""
 " не нужно отображать все дочерние классы в списке выбора классов для "
 "создания объекта по ссылке."
 msgstr ""
+"In addition to `hiding the parent class<abstract>`\\, when creating an "
+"object, you do not need to display all the heir classes in the class "
+"selection list for creating an object by reference."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:110
 msgid ""
@@ -2251,6 +2331,9 @@ msgid ""
 "атрибут типа \"Коллекция\", который ссылается на родительский класс "
 "[Мероприятие] :"
 msgstr ""
+"The parent class [Events] has several classes of heirs ([Event1], [Event3], "
+"[Event2]). In the [Project] class, there is an attribute of the \""
+"Collection\" type that refers to the parent class [Event]:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:167
 msgid ""
@@ -2261,10 +2344,15 @@ msgid ""
 " в коллекцию \"Мероприятия\" можно создать только объекты класса "
 "\"Мероприятие1\" и \"Мероприятие2\"."
 msgstr ""
+"If the `criteria of abstraction <abstract>`\\ is set in the class, then when "
+"creating an object of the [Event] class in the collection, only the heirs "
+"are specified in the ``\"allowedSubclasses\"`` property will be displayed. "
+"Based on the example, only the objects of the \"Event 1\" and \"Event 2\" "
+"classes can be created in the \"Events\" collection."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:170
 msgid "Многоуровневая иерархия"
-msgstr ""
+msgstr "Multilevel hierarchy"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:172
 msgid ""
@@ -2272,6 +2360,9 @@ msgid ""
 " прямых родительских классов, но и от тех, которые находятся выше по "
 "иерархии наследования."
 msgstr ""
+"The heir classes can inherit the set of the attributes not only from their "
+"direct parent classes but also from those that are higher in the inheritance "
+"hierarchy."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:178
 msgid ""
@@ -2279,24 +2370,29 @@ msgid ""
 "класса [basicObj] ->> ``[eventBlock]`` - наследник класса "
 "``[eventBasic]``."
 msgstr ""
+"``[basicObj]`` - parent class ->> ``[eventBasic]`` - heir class of the "
+"[basicObj] class ->> ``[eventBlock]`` - heir class of the ``[eventBasic]`` "
+"class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:244
 msgid ""
 "Наследник ``[eventBlock]`` будет так же наследовать атрибутивный состав "
 "родительского класса ``[basicObj]``\\ , как и наследник ``[eventBasic]``."
 msgstr ""
+"The ``[eventBlock]`` heir will inherit the set of the attributes of the "
+"``[basicObj]``\\ parent class, as well as the ``[eventBasic]`` heir class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:247
 msgid "Следующая страница: :doc:`Метка времени создания <time_user_tracker>`"
-msgstr ""
+msgstr "The next page: :doc:`Time tag of created objects <time_user_tracker>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:6
 msgid "Автозаполняемые атрибуты"
-msgstr ""
+msgstr "Autocomplete attributes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:10
 msgid "Предыдущая страница: :doc:`Индексация <atr_indexed>`"
-msgstr ""
+msgstr "The previous page: :doc:`Indexation <atr_indexed>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:15
 msgid ""
@@ -2306,16 +2402,24 @@ msgid ""
 "«Уникальный идентификатор» ``\"unique\": true`` для целосчисленных и "
 "строковых атрибутов, а также для атрибутов типа «Дата-время»."
 msgstr ""
+"**Autocompletion** type - ``\" autoassigned \": true`` - indicates that the "
+"value of this attribute should be filled automatically when creating a "
+"class. It is used mainly for attributes of the “Unique values” type (``\""
+"unique\": true``) for integers and string attributes, as well as for "
+"attributes of the \"Date-time\" type."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:18
 msgid "Принцип формирования:"
-msgstr ""
+msgstr "Principle of formation:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:21
 msgid ""
 "Для атрибутов «Дата-время» атрибуту должно быть присвоено значение "
 "текущего момента времени. Используется для меток создания и изменения."
 msgstr ""
+"For the attributes of the \"Date-time\" type, an attribute should have the "
+"value of the current time. It is used in the time tag of created objects and "
+"committed changes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:22
 msgid ""
@@ -2323,6 +2427,9 @@ msgid ""
 "идентификатор\" (\"unique\": true) при создании формы, заполняется "
 "случайным набором символов."
 msgstr ""
+"For the integer attributes, if the \"Unique value\" is specified (\"unique\":"
+" true) when creating, then the field is filled with a random set of "
+"characters."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:23
 msgid ""
@@ -2330,16 +2437,22 @@ msgid ""
 "(\"unique\": true), то должно быть сгенерировано случайное значение hex -"
 " размером с длину строки - в примере ниже 20 символов. .. code-block:: js"
 msgstr ""
+"For strings, if the \"Unique value\" is specified (\"unique\": true), then a "
+"random hex value should be generated - the size of the string length - 20 "
+"characters in the example below .. code-block:: js"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:26
 msgid ""
 "var crypto = require('crypto'); ID = "
 "crypto.randomBytes(20).toString('hex');"
 msgstr ""
+"var crypto = require('crypto'); ID = crypto.randomBytes(20).toString('hex');"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:29
 msgid "Для типа \"Глобальный идентификатор\" - реализуется аналогично строке."
 msgstr ""
+"For the \"global identifier\" type, the configuration is the same as for the "
+"string."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:31
 msgid ""
@@ -2347,10 +2460,13 @@ msgid ""
 "генерироваться автоматически для пустых значений или даты. Для всех "
 "остальных (целое, строка) должны генерироваться ранее созданные значения."
 msgstr ""
+"NB: Make sure that you made a check when saving. The field should be "
+"generated automatically for empty values or date. For all others (integer, "
+"string), previously created values should be generated."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:53
 msgid "Следующая страница: :doc:`Значение по умолчанию <atr_default_value>`"
-msgstr ""
+msgstr "The next page: :doc:`Default values <atr_default_value>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:6
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:31
@@ -6826,7 +6942,7 @@ msgstr ""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:7
 msgid "`Оглавление <index>`_"
-msgstr ""
+msgstr "`Index <index>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:9
 msgid ""
