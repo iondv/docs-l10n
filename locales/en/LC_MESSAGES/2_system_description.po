@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-26 07:49+0000\n"
-"PO-Revision-Date: 2020-05-06 05:52+0000\n"
+"PO-Revision-Date: 2020-05-06 06:09+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
@@ -441,6 +441,8 @@ msgid ""
 "электронной подписи, получившие подтверждение соответствия требованиям "
 "законодательства"
 msgstr ""
+"to create and verify electronic signatures, you should have confirmation of "
+"compliance with legal requirements"
 
 #: ../docs-ru/2_system_description/functionality/eds.rst:46
 msgid "Специфика работы"
@@ -1406,6 +1408,7 @@ msgstr "``--ver`` - version (last version - last)"
 #: ../docs-ru/2_system_description/functionality/utilities.rst:57
 msgid "``bin/import.js`` - для импорта метаданных приложения. Параметры запуска:"
 msgstr ""
+"``bin/import.js`` - to import the application metadata. Launch parameters:"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:60
 #: ../docs-ru/2_system_description/functionality/utilities.rst:68
@@ -1419,55 +1422,63 @@ msgstr ""
 #: ../docs-ru/2_system_description/functionality/utilities.rst:61
 #: ../docs-ru/2_system_description/functionality/utilities.rst:69
 msgid "``--ns`` - неймспейс приложения"
-msgstr ""
+msgstr "``--ns`` - application namespace"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:62
 msgid "``--ignoreIntegrityCheck`` - при импорте игнорируется целостность данных"
-msgstr ""
+msgstr "``--ignoreIntegrityCheck`` - data integrity ignored during import"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:65
 msgid "``bin/import-data.js`` - для импорта данных приложения. Параметры запуска:"
 msgstr ""
+"``bin/import-data.js`` - to import the application data. Launch parameters:"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:72
 msgid "``bin/job-runner.js`` - для запуска задач по расписанию"
-msgstr ""
+msgstr "``bin/job-runner.js`` - to run scheduled tasks"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:74
 msgid ""
 "``bin/job.js`` - для запуска рабочего компонента задания из утилиты job-"
 "runner"
-msgstr ""
+msgstr "``bin/job.js`` - to run the task component from the job-runner utility"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:75
 msgid ""
 "``bin/meta-update.js`` - для конвертации меты приложения из одной версии "
 "в другую"
 msgstr ""
+"``bin/meta-update.js`` - to convert application meta from one version to "
+"another"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:76
 msgid "``bin/schedule.js`` - для ручного запуска задач по расписанию"
-msgstr ""
+msgstr "``bin/schedule.js`` - for manual start of scheduled tasks"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:77
 msgid ""
 "``bin/setup.js`` - для установки настроек ``deploy`` из приложения. "
 "Параметры запуска:"
 msgstr ""
+"``bin/setup.js`` - to set the ``deploy`` settings from the application. "
+"Launch parameters:"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:79
 msgid "``--reset`` - предварительный сброс всех настроек ``deploy`` в приложении"
 msgstr ""
+"``--reset`` - preliminary reset of all ``deploy`` settings in the application"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:80
 msgid ""
 "``--sms`` - при сбросе настроек, не зачищаются настройки ``deploy`` "
 "помеченные как важные"
 msgstr ""
+"``--sms`` - when resetting the settings, the ``deploy`` settings that are "
+"marked as important are not deleted"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:81
 msgid "``--rwa`` - переопределять, а не дополнять массивы в настройках ``deploy``"
-msgstr ""
+msgstr "``--rwa`` - to override, not add to arrays in ``deploy`` settings"
 
 #: ../docs-ru/2_system_description/functionality/utilities.rst:84
 msgid "Утилиты приложения"
