@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-26 07:49+0000\n"
-"PO-Revision-Date: 2020-05-07 06:40+0000\n"
+"PO-Revision-Date: 2020-05-07 08:07+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
@@ -780,7 +780,7 @@ msgstr ""
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:34
 msgid ":doc:`Виртуальные атрибуты <virtual_attr>`"
-msgstr "`Virtual attributes <virtual_attr>`"
+msgstr ":doc:`Virtual attributes <virtual_attr>`"
 
 #: ../docs-ru/2_system_description/functionality/functionality.rst:35
 msgid ""
@@ -2514,13 +2514,14 @@ msgstr ""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:20
 msgid "Кеширование семантик"
-msgstr ""
+msgstr "Caching semantics"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:22
 msgid ""
 "Для кеширования семантик объектов в мете класса необходимо указать "
 "параметр:"
 msgstr ""
+"Set the following property to cache semantics of the objects in meta class:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:28
 msgid ""
@@ -2530,20 +2531,28 @@ msgid ""
 "часового пояса пользователя, так как кешируются при редактировании "
 "объекта на уровне ``DBAL``."
 msgstr ""
+"We recommend you not to use the eager loading for the attributes used in the "
+"cached semantics. Also, we recommend you not to use the dates, because they "
+"cannot be converted to the user's time zone, since they are cached when "
+"editing an object at the ``DBAL`` level."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:33
 msgid "Для кеширования значения вычисляемого атрибута в его мете указываем:"
 msgstr ""
+"Set the following property in the meta class to cache the value of the "
+"computable attribute:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:39
 msgid ""
 "Кроме того, реализована возможность обновлять кеши у объектов по ссылкам "
 "при редактировании основного объекта."
 msgstr ""
+"Besides, you can update caches of objects by reference when editing the main "
+"object."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:41
 msgid "Для этого в мете класса указываем настройку:"
-msgstr ""
+msgstr "Set the following property in the meta class:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:47
 msgid ""
@@ -2553,10 +2562,15 @@ msgid ""
 "``refAttr1`` настроено обновление кешей, оно будет запущено. Настройка "
 "наследуется в классах наследниках."
 msgstr ""
+"When configuring the meta class, specify the reference and collections, the "
+"caches of the objects in which you need to update when editing an object of "
+"this class. Updates are done recursively. If the ``refAttr1`` attribute is "
+"set to update caches in the class object, then the update will start. This "
+"setting is inherited in the heir classes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:50
 msgid "Пример настройки:"
-msgstr ""
+msgstr "Example:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:85
 msgid ""
@@ -2565,18 +2579,22 @@ msgid ""
 "необходимо обновлять кеши объектов по ссылке: для это в мете класса "
 "каждого объекта по ссылке указываем ``cacheDependencies:``."
 msgstr ""
+"The value of this attribute, derived from the formula, is cached. Plus, to "
+"update the value when editing an object, firstly update caches of the object "
+"by reference: set the ``cacheDependencies:`` in the meta class of each "
+"reference object."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:113
 msgid "Следующая страница: :doc:`Типы атрибутов <property_types>`"
-msgstr ""
+msgstr "The next page: :doc:`Attribute types <property_types>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_default_value.rst:6
 msgid "Значение по умолчанию"
-msgstr ""
+msgstr "Default value"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_default_value.rst:10
 msgid "Предыдущая страница: :doc:`Автозаполнение <atr_autoassigned>`"
-msgstr ""
+msgstr "The previous page: :doc:`Autocompletion <atr_autoassigned>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_default_value.rst:12
 msgid ""
@@ -2586,30 +2604,38 @@ msgid ""
 "``\"defaultValue\"``. Основное применение для списков выбора допустимых "
 "значений."
 msgstr ""
+"**Default value** - is set to display the value in the attribute field "
+"automatically when opening the form for creating an object. The default "
+"value is set by assigning the ``default`` value to the ``\"defaultValue\"`` "
+"property. It is mainly used for selection list of valid values."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_default_value.rst:64
 msgid ""
 "Для реализации **автоматического расчета значения по умолчанию**\\ , "
 "можно использовать функцию ``max``\\ :"
 msgstr ""
+"Use the ``max``\\ operation to implement **automatic calculation of the "
+"default value**\\:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_default_value.rst:70
 msgid ""
 "**Значение по умолчанию для атрибута типа \"Ссылка\"** задается  с "
 "помощью операции ``get`` следующими способами:"
 msgstr ""
+"Use the ``get`` operation to implement **default value for the \"Link\" "
+"attribute type** in the following ways:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_default_value.rst:79
 msgid "Следующая страница: :doc:`Аттрибут \"Ссылка\" <atr_ref_backref>`"
-msgstr ""
+msgstr "The next page: :doc:`Attribute \"Reference\" <atr_ref_backref>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:6
 msgid "Вычисляемые атрибуты (без кеширования)"
-msgstr ""
+msgstr "Computable attribute (without caching)"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:10
 msgid "Предыдущая страница: :doc:`Предварительная выборка <eager_loading>`"
-msgstr ""
+msgstr "The previous page: :doc:`Eager loading <eager_loading>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:15
 msgid ""
@@ -2617,12 +2643,17 @@ msgid ""
 "формирования строкового выражения (результата) по заданному алгоритму при"
 " обращении к объекту класса через API. Например, при открытии объекта."
 msgstr ""
+"**Computable attributes (formula)** - are used to instantly generate a "
+"string expression as a result according to a preset algorithm when accessing "
+"a class object through the API. For example, when you open the object."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:17
 msgid ""
 "На уровне меты класса вычисляемые атрибуты хранят алгоритм формирования "
 "строкового выражения в свойстве ``formula``."
 msgstr ""
+"At the meta class level, the computable attributes store the algorithm for "
+"generating a string expression in the ``formula`` property."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:19
 msgid ""
@@ -2631,6 +2662,9 @@ msgid ""
 "значения с разделителями \",\" между собой объединяются в одно строковое "
 "значение."
 msgstr ""
+"For example you can access all unique values from the ``name``\\ attribute, "
+"which values are stored in the ``ownOrg`` collection. All the unique values, "
+"divided by \",\" are united in one string expression."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:33
 msgid ""
@@ -2640,18 +2674,28 @@ msgid ""
 "пригодится выше описанная формула для вычисляемого атрибута с "
 "использованием функции ``merge``."
 msgstr ""
+"For example, If you have a collection with non-unique values (for example, \""
+"ownOrg1\", \"ownOrg2\" and again \"ownOrg1\") and you need to obtain only "
+"the unique values of the collection \"ownOrg1 and ownOrg2\", then the above "
+"described formula for the computable attribute using the ``merge`` operation "
+"will be useful."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:35
 msgid ""
 "В зависимости от функции можно обращаться к необходимому атрибуту для "
 "получения значения через атрибуты типа \"Ссылка\", \"Коллекция\"."
 msgstr ""
+"Depending on the function, you can refer to the necessary attribute to get "
+"the value through the attributes of the \"Reference\" and \"Collection\" "
+"types."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:37
 msgid ""
 "При сохранении изменений и закрытии формы объекта результат не "
 "сохраняется в атрибуте, если не настроено кеширование."
 msgstr ""
+"When saving changes and closing the form of an object, the result is not "
+"saved in the attribute if caching is not configured."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:39
 msgid ""
@@ -2660,10 +2704,16 @@ msgid ""
 "использовать результаты вычислений по заданному порядку ``orderNumber`` в"
 " последующих вычисляемых атрибутах."
 msgstr ""
+"If the meta class has a few computable attributes, then the order of the "
+"calculation is set in the ``orderNumber`` property. You can use the results "
+"of calculations for a given order - ``orderNumber`` in the subsequent "
+"calculated attributes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:41
 msgid "В семантике класса или атрибута можно указывать вычисляемые атрибуты."
 msgstr ""
+"You can specify computable attributes in the semantics of a class or an "
+"attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:43
 msgid ""
@@ -2671,16 +2721,20 @@ msgid ""
 "являться вычесляемым и кеширование к такому атрибуту не должно "
 "применяться."
 msgstr ""
+"If you set ``Null`` in the ``formula`` property, then the attribute won't be "
+"computable and you cannot apply caching to it."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:46
 msgid "Модель записи формулы"
-msgstr ""
+msgstr "Formula record model"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:48
 msgid ""
 "Каждая формула начинается с описания объекта и функции в формате `JSON "
 "<https://en.wikipedia.org/wiki/JSON>`_."
 msgstr ""
+"Each formula begins with a description of the object and the function in the "
+"`JSON <https://en.wikipedia.org/wiki/JSON>`_ format ."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:64
 msgid ""
@@ -2688,6 +2742,8 @@ msgid ""
 "<поддерживаемые функции>` с необходимым количеством операндов для "
 "получения результата в ``function1``."
 msgstr ""
+"You should specify :ref:`a suitable operation <Available operations>` in the "
+"``function1`` field with the desired number of operands for the result."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:66
 msgid ""
@@ -2695,122 +2751,131 @@ msgid ""
 "происходить вычисления, за исключением тех функций, которые находятся в "
 "зависимых вычисляемых атрибутах."
 msgstr ""
+"The object contains the full description of the algorithm, that controls the "
+"calculations except the functions stored in the depended computable "
+"attributes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:68
 msgid "Массив в функции хранит порядок операндов, которые передаются в функцию."
 msgstr ""
+"An array in a function stores the order of the operands that are passed to "
+"the function."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:70
 msgid "Операндами функции могут быть:"
-msgstr ""
+msgstr "The functions operands could be:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:74
 msgid "Строковые значения, хранящие константу"
-msgstr ""
+msgstr "String values, storing the constant"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:85
 msgid "Строковые значения, хранящие :doc:`переменные <../meta_variables>`"
-msgstr ""
+msgstr "String values, storing :doc:`the variables <../meta_variables>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:96
 msgid "Числовые значения"
-msgstr ""
+msgstr "Numerical values"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:107
 msgid "Пустые значения"
-msgstr ""
+msgstr "Empty values"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:118
 msgid "Объекты"
-msgstr ""
+msgstr "Objects"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:133
 msgid "Пример применения формулы:"
-msgstr ""
+msgstr "Example of formulas:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:264
 msgid ""
 "**Результат:** *вывод адреса с пробелами и запятыми между значениями "
 "атрибутов*"
 msgstr ""
+"**Result:** *the output of the address with spaces and commas between the "
+"values of the attributes*."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:269
 msgid "Поддерживаемые функции:"
-msgstr ""
+msgstr "Available operations:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:271
 msgid "``eq`` - равно"
-msgstr ""
+msgstr "``eq`` - equal"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:273
 msgid "``ne`` - не равно"
-msgstr ""
+msgstr "``ne`` - not equal"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:275
 msgid "``lt`` - меньше"
-msgstr ""
+msgstr "``lt`` - less"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:277
 msgid "``gt`` - больше"
-msgstr ""
+msgstr "``gt`` - greater"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:279
 msgid "``lte`` - меньше либо равно"
-msgstr ""
+msgstr "``lte`` - less or equal"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:281
 msgid "``gte`` - больше, либо равно"
-msgstr ""
+msgstr "``gte`` - greater or equal"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:283
 msgid "``and`` - и"
-msgstr ""
+msgstr "``and`` - and"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:285
 msgid "``or`` - или"
-msgstr ""
+msgstr "``or`` - or"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:287
 msgid "``not`` - не"
-msgstr ""
+msgstr "``not`` - not"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:289
 msgid "``add`` - арифметическое сложение"
-msgstr ""
+msgstr "``add`` - arithmetic addition"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:291
 msgid "``sub`` - арифметическое вычитание"
-msgstr ""
+msgstr "``sub`` - arithmetical subtraction"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:293
 msgid "``mul`` - арифметическое умножение"
-msgstr ""
+msgstr "``mul`` - arithmetical multiplication"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:295
 msgid "``div`` - арифметическое деление"
-msgstr ""
+msgstr "``div`` - arithmetical division"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:297
 msgid "``nempty`` - не пусто"
-msgstr ""
+msgstr "``nempty`` - not empty"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:299
 msgid "``empty`` - пусто"
-msgstr ""
+msgstr "``empty`` - empty"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:301
 msgid "``pad`` - дополнение строки символами до нужной длины"
-msgstr ""
+msgstr "``pad`` - additional symbols to the desired string length"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:303
 msgid ""
 "``next`` - :ref:`извлекает новое значение последовательности "
 "<автоприсвоение и получение значения атрибута>`"
 msgstr ""
+"``next`` - :ref:`derive a new value from a sequence <Auto-assignment in "
+"computable attribute>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:305
 msgid "``merge`` - конкатенация атрибутов в коллекции"
-msgstr ""
+msgstr "``merge`` - concatenation of attributes in the collection"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:307
 msgid ""
@@ -2818,6 +2883,8 @@ msgid ""
 "коллекция. Для строк возвращает длину, для коллекций - количество "
 "элементов"
 msgstr ""
+"``size`` - available attribute values - string and collection. For strings - "
+"returns the length, for collections - the number of elements"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:309
 msgid ""
@@ -2825,6 +2892,9 @@ msgid ""
 " с 0 ([массив значений], [индекс элемента: 0 - первый элемент, last - "
 "последний элемент])"
 msgstr ""
+"``element`` - derive an arbitrary element from an array, indexation is from "
+"0 ([array of values], [element index: 0 is the first element, last is the "
+"last element])"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:311
 msgid ""
@@ -2832,34 +2902,40 @@ msgid ""
 "[добавляемый интервал (число)], [ед.изм (строка [d, m, y, h, min, s, "
 "ms)])"
 msgstr ""
+"``dateAdd`` - an addition to the data (in the notation momentjs - [Date], ["
+"add interval (number)], [unit (line [d, m, y, h, min, s, ms)]"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:313
 msgid ""
 "``dateDiff`` - разница между датами (в нотации momentjs - [ед.изм], "
 "[Дата1], [Дата2])"
 msgstr ""
+"``dateDiff`` - difference between dates (in the notation momentjs - [unitism]"
+", [Date1], [Date2])"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:315
 msgid "``now`` - текущая дата-время"
-msgstr ""
+msgstr "``now`` - current date and time"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:317
 msgid "``concat`` - конкатенация строк"
-msgstr ""
+msgstr "``concat`` - string concatenation"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:323
 msgid ""
 "``obj`` - формирование объекта, нечетные аргументы - имена свойств, "
 "четные - значения"
 msgstr ""
+"``obj`` - forming an object: odd arguments - property names, even arguments -"
+" values"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:325
 msgid "агрегация:"
-msgstr ""
+msgstr "aggregation:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:327
 msgid "``max``\\ , ``min``\\ , ``avg``\\ , ``sum``\\ , ``count``"
-msgstr ""
+msgstr "``max``\\, ``min``\\, ``avg``\\, ``sum``\\, ``count``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:329
 msgid "Все функции агрегации принимают следующие аргументы:"
