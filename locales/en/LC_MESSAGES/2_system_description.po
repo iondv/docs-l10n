@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-26 07:49+0000\n"
-"PO-Revision-Date: 2020-05-07 05:50+0000\n"
+"PO-Revision-Date: 2020-05-07 06:14+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
@@ -2344,10 +2344,15 @@ msgid ""
 " в коллекцию \"Мероприятия\" можно создать только объекты класса "
 "\"Мероприятие1\" и \"Мероприятие2\"."
 msgstr ""
+"If the `criteria of abstraction <abstract>`\\ is set in the class, then when "
+"creating an object of the [Event] class in the collection, only the heirs "
+"are specified in the ``\"allowedSubclasses\"`` property will be displayed. "
+"Based on the example, only the objects of the \"Event 1\" and \"Event 2\" "
+"classes can be created in the \"Events\" collection."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:170
 msgid "Многоуровневая иерархия"
-msgstr ""
+msgstr "Multilevel hierarchy"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:172
 msgid ""
@@ -2355,6 +2360,9 @@ msgid ""
 " прямых родительских классов, но и от тех, которые находятся выше по "
 "иерархии наследования."
 msgstr ""
+"The heir classes can inherit the set of the attributes not only from their "
+"direct parent classes but also from those that are higher in the inheritance "
+"hierarchy."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:178
 msgid ""
@@ -2362,24 +2370,29 @@ msgid ""
 "класса [basicObj] ->> ``[eventBlock]`` - наследник класса "
 "``[eventBasic]``."
 msgstr ""
+"``[basicObj]`` - parent class ->> ``[eventBasic]`` - heir class of the "
+"[basicObj] class ->> ``[eventBlock]`` - heir class of the ``[eventBasic]`` "
+"class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:244
 msgid ""
 "Наследник ``[eventBlock]`` будет так же наследовать атрибутивный состав "
 "родительского класса ``[basicObj]``\\ , как и наследник ``[eventBasic]``."
 msgstr ""
+"The ``[eventBlock]`` heir will inherit the set of the attributes of the "
+"``[basicObj]``\\ parent class, as well as the ``[eventBasic]`` heir class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/ancestor.rst:247
 msgid "Следующая страница: :doc:`Метка времени создания <time_user_tracker>`"
-msgstr ""
+msgstr "The next page: :doc:`Time tag of created objects <time_user_tracker>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:6
 msgid "Автозаполняемые атрибуты"
-msgstr ""
+msgstr "Autocomplete attributes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:10
 msgid "Предыдущая страница: :doc:`Индексация <atr_indexed>`"
-msgstr ""
+msgstr "The previous page: :doc:`Indexation <atr_indexed>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:15
 msgid ""
@@ -2389,16 +2402,24 @@ msgid ""
 "«Уникальный идентификатор» ``\"unique\": true`` для целосчисленных и "
 "строковых атрибутов, а также для атрибутов типа «Дата-время»."
 msgstr ""
+"**Autocompletion** type - ``\" autoassigned \": true`` - indicates that the "
+"value of this attribute should be filled automatically when creating a "
+"class. It is used mainly for attributes of the “Unique values” type (``\""
+"unique\": true``) for integers and string attributes, as well as for "
+"attributes of the \"Date-time\" type."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:18
 msgid "Принцип формирования:"
-msgstr ""
+msgstr "Principle of formation:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:21
 msgid ""
 "Для атрибутов «Дата-время» атрибуту должно быть присвоено значение "
 "текущего момента времени. Используется для меток создания и изменения."
 msgstr ""
+"For the attributes of the \"Date-time\" type, an attribute should have the "
+"value of the current time. It is used in the time tag of created objects and "
+"committed changes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:22
 msgid ""
@@ -2406,6 +2427,9 @@ msgid ""
 "идентификатор\" (\"unique\": true) при создании формы, заполняется "
 "случайным набором символов."
 msgstr ""
+"For the integer attributes, if the \"Unique value\" is specified (\"unique\":"
+" true) when creating, then the field is filled with a random set of "
+"characters."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:23
 msgid ""
@@ -2413,16 +2437,22 @@ msgid ""
 "(\"unique\": true), то должно быть сгенерировано случайное значение hex -"
 " размером с длину строки - в примере ниже 20 символов. .. code-block:: js"
 msgstr ""
+"For strings, if the \"Unique value\" is specified (\"unique\": true), then a "
+"random hex value should be generated - the size of the string length - 20 "
+"characters in the example below .. code-block:: js"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:26
 msgid ""
 "var crypto = require('crypto'); ID = "
 "crypto.randomBytes(20).toString('hex');"
 msgstr ""
+"var crypto = require('crypto'); ID = crypto.randomBytes(20).toString('hex');"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:29
 msgid "Для типа \"Глобальный идентификатор\" - реализуется аналогично строке."
 msgstr ""
+"For the \"global identifier\" type, the configuration is the same as for the "
+"string."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:31
 msgid ""
@@ -2430,10 +2460,13 @@ msgid ""
 "генерироваться автоматически для пустых значений или даты. Для всех "
 "остальных (целое, строка) должны генерироваться ранее созданные значения."
 msgstr ""
+"NB: Make sure that you made a check when saving. The field should be "
+"generated automatically for empty values or date. For all others (integer, "
+"string), previously created values should be generated."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_autoassigned.rst:53
 msgid "Следующая страница: :doc:`Значение по умолчанию <atr_default_value>`"
-msgstr ""
+msgstr "The next page: :doc:`Default values <atr_default_value>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:6
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_cached_true.rst:31
