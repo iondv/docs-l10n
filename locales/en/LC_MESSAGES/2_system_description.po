@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-26 07:49+0000\n"
-"PO-Revision-Date: 2020-05-08 04:24+0000\n"
+"PO-Revision-Date: 2020-05-08 04:33+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
@@ -3518,7 +3518,7 @@ msgstr "Example of back reference in JSON format"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:132
 msgid "``\"type\": 13`` - тип атрибута \"Ссылка\""
-msgstr ""
+msgstr "``\"type\": 13`` - attribute type \"Reference\""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:133
 msgid ""
@@ -3526,6 +3526,9 @@ msgid ""
 "идентификаторы в ссылке и, таким образом, формировать связь к объекту по "
 "идентификатору."
 msgstr ""
+"``\"refClass\"`` - the name of the class whose objects can store their "
+"identifiers in the reference and, thus, form a reference to the object by "
+"its identifier."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:134
 msgid ""
@@ -3533,22 +3536,30 @@ msgid ""
 "заданному в свойстве \"refClass\". Атрибут должен иметь тип \"Ссылка\" и "
 "ссылку на исходный класс."
 msgstr ""
+"``\"backRef\"`` - is the name of the attribute that belongs to the class "
+"specified in the \"refClass\" property. The attribute must be of the \""
+"Reference\" type and the attribute should have the reference to the initial "
+"class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:135
 msgid ""
 "При указании класса-родителя есть возможность создавать объекты "
 "родительского и дочерних классов."
 msgstr ""
+"When specifying a parent class, it is possible to create objects of the "
+"parent and child classes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:136
 msgid ""
 "Ссылки вместе с объектом грузятся по семантике, заданной в мете "
 "класса-ссылки или атрибута-ссылки."
 msgstr ""
+"References with object are loaded according to the semantics specified in "
+"the meta of the reference class or reference attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:166
 msgid "Следующая страница: `Атрибут коллекция <atr_itemclass_backcoll.md>`_"
-msgstr ""
+msgstr "The next page: `Collection attribute <atr_itemclass_backcoll.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:171
 msgid ""
