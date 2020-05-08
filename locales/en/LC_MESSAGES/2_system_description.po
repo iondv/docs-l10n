@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-26 07:49+0000\n"
-"PO-Revision-Date: 2020-05-07 08:07+0000\n"
+"PO-Revision-Date: 2020-05-08 04:24+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
@@ -1716,7 +1716,7 @@ msgstr "Metadata structure"
 #: ../docs-ru/2_system_description/platform_configuration/ini_files.rst:7
 #: ../docs-ru/2_system_description/platform_configuration/package.rst:7
 msgid "`Оглавление </docs/ru/index.md>`_"
-msgstr "`Index</docs/ru/index.md>`_"
+msgstr "`Index </docs/ru/index.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/correspondance_table.rst:9
 msgid "Таблица соответствия типов атрибутов типам представлений"
@@ -2939,26 +2939,30 @@ msgstr "``max``\\, ``min``\\, ``avg``\\, ``sum``\\, ``count``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:329
 msgid "Все функции агрегации принимают следующие аргументы:"
-msgstr ""
+msgstr "All aggregation operations take the following arguments:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:331
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:337
 msgid "либо"
-msgstr ""
+msgstr "either"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:343
 msgid ""
 "``1`` - указывает на уникальность объекта, то есть позволяет для функций "
 "агрегации производить подсчет только по уникальным объектам"
 msgstr ""
+"``1`` - indicates the uniqueness of the object, so it allows to count only "
+"unique objects for aggregation operations"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:345
 msgid "``\\n`` - перенос на другую строку"
 msgstr ""
+"``\\n"
+"`` - line folding"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:365
 msgid "Автоприсвоение и получение значения атрибута в вычисляемом выражении"
-msgstr ""
+msgstr "Auto-assignment in computable attribute"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:369
 msgid ""
@@ -2969,12 +2973,20 @@ msgid ""
 "необходимо извлекать очередное значение последовательности при каждом "
 "открытии формы создания."
 msgstr ""
+"Set the ``autoassigned: true``, so that calculated expression is not "
+"executed when opening the create form. The expressions will be calculated "
+"before saving. This is relevant when using the ``next`` operation in "
+"calculations, since it is not always necessary to derive the next value each "
+"time opening the creation form."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:372
 msgid ""
 "Значения по умолчанию рассчитываются до записи объекта в БД, то есть на "
 "этапе их вычисления в простых автоприсваемых атрибутах еще ничего нет."
 msgstr ""
+"The default values are calculated before the object is written to the DB (so "
+"there is nothing yet in simple auto-assigned attributes at the stage of "
+"their calculation)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:375
 msgid ""
@@ -2982,20 +2994,24 @@ msgid ""
 "возвращать 1, так как для каждого объекта будет создаваться отдельная "
 "последовательность, из которой выбирается только первое значение."
 msgstr ""
+"The ``next($id)`` operation (If the ``$id`` has a value) will always return "
+"1, since for each object a separate sequence will be created, from which "
+"only the first value will be selected."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_formula.rst:378
 msgid ""
 "Следующая страница: :doc:`Кеширование значения вычислимого атрибута "
 "<atr_cached_true>`"
 msgstr ""
+"The next page: :doc:`Cached values of computable attribute <atr_cached_true>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_indexed.rst:9
 msgid "Предыдущая страница: `Типы атрибутов <property_types.md>`_"
-msgstr ""
+msgstr "The previous page: `Attribute types <property_types.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_indexed.rst:12
 msgid "Индексация атрибутов"
-msgstr ""
+msgstr "Attribute indexation"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_indexed.rst:14
 msgid ""
@@ -3003,32 +3019,41 @@ msgid ""
 "задается вручную, присвоением значения ``true`` для свойства "
 "``\"indexed\"``\\ , то есть:"
 msgstr ""
+"**Attribute indexation** is required to accelerate the search. Indexation is "
+"set manually by assigning the ``true`` value for the ``\"indexed\"``\\ "
+"property, that is:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_indexed.rst:20
 msgid "За исключением следующих типов атрибутов:"
-msgstr ""
+msgstr "Except for the following attribute types:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_indexed.rst:23
 msgid ""
 "Индексация задается автоматически (независимо от того, что указано в "
 "индексации для поля):"
 msgstr ""
+"Indexation is set automatically (regardless of what is specified in the "
+"indexation field):"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_indexed.rst:27
 msgid "для ключевого поля"
-msgstr ""
+msgstr "for key field"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_indexed.rst:30
 msgid ""
 "для объектов с полем ``\"compositeIndexes\": true`` в основной части меты"
 " класса"
 msgstr ""
+"for objects with the ``\"compositeIndexes\": True`` field in the general "
+"part of the meta class"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_indexed.rst:34
 msgid ""
 "При импорте меты принудительно индексируются все объекты атрибутов типа "
 "\"Ссылка\"."
 msgstr ""
+"When importing a meta, all attribute objects of the \"Reference\" type are "
+"indexed."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_indexed.rst:37
 msgid ""
@@ -3036,10 +3061,13 @@ msgid ""
 "с обратной ссылкой  не хранятся в объекте, соответственно в индексации "
 "нет необходимости."
 msgstr ""
+"Objects of attributes of the \"Collection\" type are not indexed, because "
+"collections with back reference are not stored in an object, so indexing is "
+"not necessary."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_indexed.rst:46
 msgid "Следующая страница: `Автозаполнение <atr_autoassigned.md>`_"
-msgstr ""
+msgstr "The next page: `Autocompletion <atr_autoassigned.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_indexed.rst:51
 msgid ""
@@ -3048,10 +3076,13 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/atr_indexed.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/atr_indexed.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:9
 msgid "Предыдущая страница: `Атрибут cсылка <atr_ref_backref.md>`_"
-msgstr ""
+msgstr "The previous page: `Reference attribute <atr_ref_backref.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:14
 msgid ""
@@ -3059,19 +3090,24 @@ msgid ""
 "объектов. Данные объекты могут быть объектами любого класса включая "
 "исходный."
 msgstr ""
+"**Collection** - is a data type that allows lists of other objects to be "
+"displayed in one object. The data of the object can be objects of any class "
+"including the initial."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:16
 msgid ""
 "Разделяются ссылки через запятую. Все значения из последовательности "
 "ссылок и запятых хранятся строкой в базе данных."
 msgstr ""
+"All references in the collection are divided with commas. All values of the "
+"consequence of the references and commas are stored in the DB."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:19
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_collection14.rst:20
 msgid ""
 "Способы задания коллекций с точки зрения используемых полей атрибутивной "
 "части меты классов:"
-msgstr ""
+msgstr "Types of connections of the collection type:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:22
 msgid ""
@@ -3081,6 +3117,11 @@ msgid ""
 "ссылочный атрибут вложенного объекта по которому формируется связь. **См."
 " Обратные ссылки**"
 msgstr ""
+"``one-to-many`` - is the classic connection of the heir object to the "
+"ancestor object. Indicates the presence of a container and a nested object "
+"with a reference to the container. In the container, specify the collection "
+"and in the collection specify the reference attribute of the nested object. "
+"**See Back reference**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:23
 msgid ""
@@ -3088,6 +3129,9 @@ msgid ""
 "вложенных элементов - связи создаются при помещении в коллекцию и "
 "хранятся как отдельные сущности в БД. **См. Коллекции.**"
 msgstr ""
+"``many-to-many`` - is determined through a collection without references and "
+"a class of nested elements — connections are created in the collection and "
+"stored as separate entities in the DB. **See Collection**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:24
 msgid ""
@@ -3095,6 +3139,9 @@ msgid ""
 " стороны объекта на который идут ссылки. Задается через *backColl*. **См."
 " Обратные коллекции.**"
 msgstr ""
+"``back collection`` - is similar to the one-to-many connection but in the "
+"opposite direction - connection from the reference object. Set the "
+"connection using the *backColl* property. **See Back collection**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:64
 msgid ""
@@ -3102,20 +3149,24 @@ msgid ""
 "то при заполнении коллекции будет возможность создавать объекты как "
 "родительского, так и дочерних классов."
 msgstr ""
+"**NB**: if a collection refers to a class with many heirs, then when filling "
+"the collection you can create objects of both the parent and child classes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:66
 msgid ""
 "Коллекции вместе с объектом грузятся по семантике, заданной в мете "
 "класса-коллекции или атрибута-коллекции."
 msgstr ""
+"Collections together with the object are loaded according to the semantics "
+"specified in the meta class of a collection or reference attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:71
 msgid "Обратная ссылка в контексте коллекций образуется следующим образом:"
-msgstr ""
+msgstr "The back reference in the context of collection is formed as follows:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:74
 msgid "Создается обычная коллекция с указанием ссылочного класса"
-msgstr ""
+msgstr "create a regular collection specifying the reference attribute"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:75
 msgid ""
@@ -3124,12 +3175,19 @@ msgid ""
 "атрибут-ссылку присваивается сразу при создании связи с коллекцией, без "
 "необходимости сохранения формы"
 msgstr ""
+"in the reference class create the reference attribute, that refers to the "
+"initial class and has the ``\"unique\": false`` property. The values in the "
+"reference attribute is assigned immediately when creating a connection with "
+"the collection, without saving the form"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:76
 msgid ""
 "В исходном классе обычной коллекции заполняем свойство ``\"backRef\"`` - "
 "туда записывается код атрибута-ссылки из ссылочного класса"
 msgstr ""
+"specify the ``\"backRef\"`` property in the initial class of the collection. "
+"In this property, write down the code of the reference attribute from the "
+"reference class"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:119
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:73
@@ -3138,6 +3196,8 @@ msgid ""
 "помощи свойства ``\"mode\"`` либо задаваться шаблоном в свойстве "
 "``\"options\"``."
 msgstr ""
+"You can set the display mode in the meta view. Set the mode using the ``\""
+"mode\"`` property or the ``\"options\"`` property to set it as a template."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:122
 msgid ""
@@ -3145,6 +3205,9 @@ msgid ""
 "объектов по ссылке в виде тегов, наименование которых определяется "
 "семантикой объекта по ссылке."
 msgstr ""
+"**mode: 4** - \"Tag Cloud\" stores the values of one or several objects by "
+"reference in the form of tags, the name of which is determined by the "
+"semantics of the object by reference."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:123
 msgid ""
@@ -3152,6 +3215,8 @@ msgid ""
 "по ссылки в таблице, колонки которой предопределены для формы "
 "представления."
 msgstr ""
+"**mode: 3** - \"Table\" stores the values of one or several objects by "
+"reference in a table, the columns of which are predefined for the view form."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:145
 msgid ""
@@ -3162,16 +3227,22 @@ msgid ""
 "Предназначено, в основном, для обсуждения информации по объекту на "
 "определенном этапе бизнес-процесса."
 msgstr ""
+"**\"Comment\"** - is set in the same way as the “Table” display mode, but "
+"with the template specified in the ``\"options\"`` property. It is a field "
+"that contains data that was predefined in the ``\"columns\"`` property for "
+"an object by reference. It is intended to discuss information on an object "
+"at a certain stage of a workflow."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:222
 msgid "Обратная коллекция"
-msgstr ""
+msgstr "Back collection"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:224
 msgid ""
 "Пример коллекции выше преобразуется для обратной коллекции слудующим "
 "образом:"
 msgstr ""
+"The previous example can be converted into the back collection as follows:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:258
 msgid ""
@@ -3179,6 +3250,9 @@ msgid ""
 "дополнительного значения - имя атрибута из класса в коллекции (из примера"
 " это coll)"
 msgstr ""
+"Pay attention to the ``\"backColl\"``\\ property, which contains an "
+"additional value — the name of an attribute from a class in the collection ("
+"from the example above - coll)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:260
 msgid ""
@@ -3187,21 +3261,28 @@ msgid ""
 "содержать несколько ссылок, но и объекты по ссылкам также могут содержать"
 " в своей коллекции \"coll\" несколько ссылок на объекты исходного класса."
 msgstr ""
+"Thus, a many-to-many connection is implemented without an intermediate "
+"class. Not only the ``\"backcoll\"`` attribute with the \"Collection\" type "
+"can contain several references, but objects by reference can also contain "
+"several references to objects of the original class in their \"coll\" "
+"collection."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:263
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:129
 msgid "*Внимание*"
-msgstr ""
+msgstr "*Attention*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:266
 msgid "``\"type\": 14`` - тип атрибута \"Коллекция\""
-msgstr ""
+msgstr "``\"type\": 14`` - the attribute type \"Collection\""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:267
 msgid ""
 "``\"backColl\"`` - название ссылочного атрибута типа коллеции, "
 "ссылающегося на исходный класс с коллекцией."
 msgstr ""
+"``\"backColl\"`` - the name of the reference attribute of the collection "
+"type, that refers to the initial collection class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:268
 msgid ""
@@ -3209,30 +3290,41 @@ msgid ""
 " идентификаторы в коллекции и, таким образом, формировать связь к объекту"
 " по идентификатору."
 msgstr ""
+"``\"itemsClass\"`` - the name of the class whose objects can store their "
+"identifiers in the collection and, thus, form a reference to the object by "
+"identifier."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:269
 msgid ""
 "``\"backRef\"`` - атрибута-ссылка из ссылочного класса, указанного в "
 "``\"itemsClass\"``"
 msgstr ""
+"``\"backRef\"`` - the attribute reference from the reference class specified "
+"in ``\"itemsClass\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:270
 msgid ""
 "При указании класса-родителя есть возможность создавать объекты "
 "родительского и дочерних классов"
 msgstr ""
+"When specifying a parent class, it is possible to create objects of the "
+"parent and child classes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:271
 msgid ""
 "Коллекции вместе с объектом грузятся по семантике, заданной в мете "
 "класса-коллекции или атрибута-коллекции"
 msgstr ""
+"Collections with objects are loaded according to the semantics specified in "
+"the collection class or the collection attribute"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:276
 msgid ""
 "Для сохранения коллекции, необходимо передать в соответствующем ей "
 "атрибуте объекта массив действий вида:"
 msgstr ""
+"To save the collection, transfer the array of actions (the example below) in "
+"the corresponding attribute of the object:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:287
 msgid ""
@@ -3242,18 +3334,27 @@ msgid ""
 "редактирования одинаков. Действия с коллекциями выполняются после "
 "создания или сохранения контейнера."
 msgstr ""
+"The order of the objects must correspond to the order of relevant actions. "
+"Available operations: ``put`` - add to the collection, ``eject`` - extract "
+"from the collection. The algorithm for creating and editing is the same. "
+"Actions on collections are performed after the container is created or saved."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:289
 msgid ""
 "Принцип работы коллекций на форме создания и редактирования принципиально"
 " разный:"
 msgstr ""
+"The working principle of collections on the form of creation and editing is "
+"fundamentally different:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:292
 msgid ""
 "На форме создания взаимодействие с сервером требуется лишь для получения "
 "и отображения в таблице выбранного/созданного объекта коллекции"
 msgstr ""
+"On the creation form, interconnection with the server is required only to "
+"receive and display in the table the selected/created object of the "
+"collection"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:293
 msgid ""
@@ -3261,12 +3362,17 @@ msgid ""
 "при необходимости, и изменение параметров выборки при запросе, в "
 "зависимости от выполненных действий над коллекцией."
 msgstr ""
+"On the editing form, it is possible to get a server response if necessary, "
+"and to change the select parameters upon request, depending on the actions "
+"performed in the collection."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:296
 msgid ""
 "Следующая страница: `Условия отбора допустимых значений "
 "<atr_selconditions.md>`_"
 msgstr ""
+"The next page: `Conditions of sorting the valid values "
+"<atr_selconditions.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.rst:301
 msgid ""
@@ -3275,10 +3381,13 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/atr_itemclass_backcoll.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/atr_itemclass_backcoll.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:9
 msgid "Предыдущая страница: `Значение по умолчанию <atr_default_value.md>`_"
-msgstr ""
+msgstr "The previous page: `Default value <atr_default_value.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:17
 msgid ""
@@ -3289,12 +3398,21 @@ msgid ""
 "родительского и дочерних классов. Ссылки вместе с объектом грузятся по "
 "семантике, заданной в мете класса-ссылки или атрибута-ссылки."
 msgstr ""
+"**Reference** - is a data type that stores a simple value and that system "
+"interprets as a reference to the key attribute of an object of another "
+"class. This object can be an object of any class including the initial one. "
+"When specifying the parent class, it is possible to create objects of the "
+"parent and child classes. References are loaded together with the object "
+"according to the semantics specified in the meta of the reference class or "
+"reference attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:19
 msgid ""
 "Отображаемые значения в атрибуте ссылочного типа выводятся в соответствии"
 " с семантикой, указанной в ссылочном классе этого атрибута."
 msgstr ""
+"Values in the attribute of the reference type are displayed in accordance "
+"with the semantics, specified in the reference class of this attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:21
 msgid ""
@@ -3303,16 +3421,20 @@ msgid ""
 "будет потеряна и объект по ссылке будет удален при попытке изменить связь"
 " из коллекции с обратной ссылкой."
 msgstr ""
+"The ability to replace an object by a back reference is determined by the "
+"``nullable`` property of the reference attribute. When replacing an object, "
+"you lose the reference and the object by reference will be deleted when you "
+"try to change the reference from the collection with a back reference."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:24
 msgid "Типы связей реализуемые типом \"Ссылка\":"
-msgstr ""
+msgstr "Types of connections of the \"Reference\" type:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:26
 msgid ""
 "Ссылочный тип с точки зрения используемых полей атрибутивной части меты "
 "классов:"
-msgstr ""
+msgstr "Reference type in context of the attribute part of the meta class:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:29
 msgid ""
@@ -3321,6 +3443,10 @@ msgid ""
 " - связи создаются при помещении в ссылку и хранятся как отдельная "
 "сущность в БД."
 msgstr ""
+"``one-to-many ``- the classic connection of the heir object to the ancestor "
+"object. It is necessary to define the reference and indicate the class of "
+"the nested element - the connections are created when placed in the "
+"reference and stored as a separate entity in the database."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:30
 msgid ""
@@ -3330,34 +3456,43 @@ msgid ""
 "атрибут вложенного объекта по которому формируется связь. Обязательно в "
 "атрибуте-ссылке указать свойство ``\"unique\": true``."
 msgstr ""
+"``one-to-one`` - similar to the one-to-many connection, means the presence "
+"of a reference and a nested object with a bonded reference to the source "
+"object. In the reference, you must specify a bonded reference, and in the "
+"bonded reference you must indicate the reference attribute of the nested "
+"object by which the connection is formed. Be sure to specify the ``\"unique "
+"\": true`` property in the reference attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:33
 msgid "Ссылка в формате JSON"
-msgstr ""
+msgstr "Reference in JSON format"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:76
 msgid "**\"mode\": 0** - отображение только семантики объекта по ссылке"
 msgstr ""
+"**\"mode\": 0** - displaying only the semantics of an object by reference"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:77
 msgid "**\"mode\": 1** - отображение ссылки на форму объекта по ссылке"
 msgstr ""
+"**\"mode\": 1** - displaying the reference to the form of the object by "
+"reference"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:78
 msgid "**\"mode\": 3** - иерархический поиск объекта"
-msgstr ""
+msgstr "**\"mode\": 3** - hierarchical object search"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:79
 msgid "**\"mode\": 4** - уточняющий поиск объекта"
-msgstr ""
+msgstr "**\"mode\": 4** - refining object search"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:82
 msgid "Обратные ссылки"
-msgstr ""
+msgstr "Back reference"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:84
 msgid "Обратная ссылка в контексте ссылок получается следующим образом:"
-msgstr ""
+msgstr "Configure the back reference in the context of reference as follows:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:87
 msgid ""
@@ -3365,16 +3500,21 @@ msgid ""
 "указанием свойства \"backRef\" - куда записывается код атрибута из "
 "ссылочного класса."
 msgstr ""
+"create the attribute with the 13 type, specifying the “refClass” reference "
+"class and specifying the “backRef” property - where you should write the "
+"attribute from the reference class;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:88
 msgid ""
 "В ссылочном классе должен быть атрибут-ссылка, ссылающийся на исходный "
 "класс и имеющий свойство ``\"unique\": true``."
 msgstr ""
+"the reference class should contain the reference attribute, which refers to "
+"the initial class and has the ``\"unique\": true`` property."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:91
 msgid "Обратная ссылка в формате JSON"
-msgstr ""
+msgstr "Example of back reference in JSON format"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_ref_backref.rst:132
 msgid "``\"type\": 13`` - тип атрибута \"Ссылка\""
