@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-26 07:49+0000\n"
-"PO-Revision-Date: 2020-05-09 06:49+0000\n"
+"PO-Revision-Date: 2020-05-12 05:58+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
@@ -3997,134 +3997,142 @@ msgstr "**Simple type**"
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:51
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:59
 msgid "Массив объектов типа \"ключ-значение\"."
-msgstr ""
+msgstr "An array of objects of the \"key-value\" type"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:52
 msgid "Список выбора просто типа (\"SIMPLE\") хранится здесь."
-msgstr ""
+msgstr "Selection list of the \"SIMPLE\" type is stored here"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:53
 msgid "``\"matrix\"``"
-msgstr ""
+msgstr "``\"matrix\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:54
 msgid "**Матрица**"
-msgstr ""
+msgstr "**Matrix**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:55
 msgid ""
 "Массив векторов, каждый из которых состоит из именования, комплекта "
 "условий выбора и комплекта пар \"ключ-значение\"."
 msgstr ""
+"An array of vectors. Each of vectors consists of: name, selection conditions "
+"and key-values"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:56
 msgid "Список выбора матричного типа (\"MATRIX\")."
-msgstr ""
+msgstr "Selection list of the \"MATRIX\" type"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:57
 msgid "``\"parameters\"``"
-msgstr ""
+msgstr "``\"parameters\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:58
 msgid "**Параметры запроса**"
-msgstr ""
+msgstr "**Parameters of request**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:60
 msgid "Параметры запроса, **не реализовано**"
-msgstr ""
+msgstr "Parameters of request, **to be realized**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:61
 msgid "``\"hq\"``"
-msgstr ""
+msgstr "``\"hq\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:62
 msgid "**Запрос**"
-msgstr ""
+msgstr "**Request**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:63
 msgid ""
 "Строка запроса в соответствии с форматом обработчика *не используется в "
 "текущей версии*"
 msgstr ""
+"String of request in accordance with the handler format *not used in the "
+"current version*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:64
 msgid "Строка запроса, **не реализовано**"
-msgstr ""
+msgstr "String of request, **to be realized**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:68
 msgid "Поле ``\"list\"`` - массив объектов следующей структуры"
 msgstr ""
+"The ``\"list\"`` field - an array of objects of the following structure:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:94
 msgid "``\"key\"``"
-msgstr ""
+msgstr "``\"key\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:95
 msgid "**Ключ**"
-msgstr ""
+msgstr "**Key**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:96
 msgid ""
 "Любое значение, соответствующее типу атрибута для которого заведен данный"
 " список выбора"
-msgstr ""
+msgstr "Any value corresponding to the attribute type of the selection list"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:97
 msgid "При сохранении объекта именно значение ключа записывается в базу"
-msgstr ""
+msgstr "When saving an object the key value is written in the DB"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:98
 msgid "``\"value\"``"
-msgstr ""
+msgstr "``\"value\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:99
 msgid "**Значение**"
-msgstr ""
+msgstr "**Value**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:100
 msgid ""
 "Любая строка, могут быть проблемы при наличии управляющих "
 "последовательностей"
-msgstr ""
+msgstr "Any string, but there may be problems if there are control sequences"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:101
 msgid "Значение этого поля выводится в пользовательском интерфейсе"
-msgstr ""
+msgstr "The value of this field is displayed in the user interface"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:105
 msgid "Поле ``\"matrix\"`` - массив объектов следующей структуры"
 msgstr ""
+"The ``\"matrix\"`` field - is an array of objects of the following structure:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:207
 msgid "Каждый объект массива ``\"MATRIX\"`` содержит следующие обязательные поля:"
 msgstr ""
+"Each object of the ``\"MATRIX\"`` array contains the following mandatory "
+"fields:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:216
 msgid "``\"comment\"``"
-msgstr ""
+msgstr "``\"comment\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:217
 msgid "**Комментарий**"
-msgstr ""
+msgstr "**Comment**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:218
 msgid "Любая строка"
-msgstr ""
+msgstr "Any string"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:219
 msgid "Комментарий к вектору"
-msgstr ""
+msgstr "Comment to the vector"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:220
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:119
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/status_wf.rst:45
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:57
 msgid "``\"conditions\"``"
-msgstr ""
+msgstr "``\"conditions\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:221
 msgid "**Условия**"
-msgstr ""
+msgstr "**Conditions**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:222
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:121
@@ -4136,35 +4144,39 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_main.rst:60
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_main.rst:72
 msgid "Массив объектов"
-msgstr ""
+msgstr "Array of objects"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:223
 msgid ""
 "Определяет условия при которых выводится список элементов описанный в  "
 "``\"result\"`` данного вектора"
 msgstr ""
+"Defines the conditions under which the list of objects described in ``\""
+"result\"`` of this vector is displayed"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:224
 msgid "``\"result\"``"
-msgstr ""
+msgstr "``\"result\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:225
 msgid "**Результаты**"
-msgstr ""
+msgstr "**Results**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:226
 msgid "Массив объектов, аналогичен структуре поля ``\"list\"``"
-msgstr ""
+msgstr "Array of objects, similar to the structure of the ``\"list\"`` field"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:227
 msgid ""
 "Задает список выбора, который выводится при соблюдении условий, "
 "перечисленных в ``\"conditions\"`` данного вектора"
 msgstr ""
+"Sets the selection list that is displayed when the conditions are set "
+"correctly in the ``\"conditions\"`` field"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:231
 msgid "Поле ``\"conditions\"`` массива ``\"MATRIX\"``"
-msgstr ""
+msgstr "The ``\"conditions\"`` field of the ``\"MATRIX\"`` array"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:301
 msgid ""
@@ -4174,10 +4186,15 @@ msgid ""
 "объединяются вложенные условия отбора. (Указаны в скобках в таблице "
 "выше)_"
 msgstr ""
+"***NB**\\ : the operation code corresponds to the different values of "
+"operations, depending on whether the attribute is selected or not. If the ``"
+"\"property\"`` field is equal to ``null``\\ , then a logical condition (by "
+"which the nested selection conditions are combined) is coded. (Indicated in "
+"brackets in the table above)_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:307
 msgid "Список выбора типа \"SIMPLE\""
-msgstr ""
+msgstr "Selection list of the \"SIMPLE\" type"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:309
 msgid ""
@@ -4192,6 +4209,15 @@ msgid ""
 "предоставим пользвателю возможность выбрать событие, но внутри приложения"
 " работать с данными типа ISODate."
 msgstr ""
+"This selection list allows to create the hard-coded preset value fields, "
+"limiting the choice of the user in the application.\\ :raw-html-m2r:`<br>` "
+"Be sure to set the “Drop-down list [5]” view type, it's mandatory.\\ :raw-"
+"html-m2r:`<br>` It saves the data in the DB in a type other than the type of "
+"data displayed to the user.\\ :raw-html-m2r:`<br>` *Example*\\: if in the "
+"key field you set the elements of the selection list of the data-time type "
+"in the ISODate, and in the ``value`` field - the event description, the "
+"result is: the user can choose the event, but will have to work with ISODate "
+"data inside the app."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:314
 msgid ""
@@ -4199,20 +4225,23 @@ msgid ""
 "``\"nullable\": true`` - в списке выбора добавляется пустое значение по "
 "умолчанию!_"
 msgstr ""
+"***NB**\\: if the attribute with a selection list has an empty value as ``\""
+"nullable\": true`` - the empty value is added automatically in the selection "
+"list!_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:368
 msgid "Принцип создания:"
-msgstr ""
+msgstr "How to configure?"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:370
 msgid "Необходимо:"
-msgstr ""
+msgstr "You need to:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:373
 msgid ""
 "выбрать исходя из требований предметной области наиболее удобный тип "
 "атрибута,"
-msgstr ""
+msgstr "choose the most appropriate attribute type,"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:374
 msgid ""
@@ -4220,22 +4249,27 @@ msgid ""
 "бы при необходимости автоматизированной обработки оперировать значениями "
 "в базе максимально эффективно,"
 msgstr ""
+"choose the identifiers of the type (\\ ``\"key\"``\\) in order to operate "
+"with values in the DB as efficiently as possible if automated processing is "
+"required,"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:375
 msgid ""
 "задать к каждому идентификатору подпись, которая будет отображаться в "
 "интерфейсе ``\"value\"``\\ ,"
 msgstr ""
+"set the phrase to each key, that will be displayed in the ``\"value\"``\\ "
+"field,"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:376
 msgid ""
 "задать в представлениях тип представления - \"Выпадающий список [5]\" в "
 "обязательном порядке."
-msgstr ""
+msgstr "set the “Drop-down list [5]” view type without fail."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:379
 msgid "Список выбора типа \"MATRIX\""
-msgstr ""
+msgstr "Selection list of the \"MATRIX\" type"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:381
 msgid ""
@@ -4244,10 +4278,14 @@ msgid ""
 "применяется всегда. Для предсказуемости работы приложения, необходимо "
 "чтобы были соблюдены два условия:"
 msgstr ""
+"All that falls under the conditions is the resulting selection list in "
+"matrix. If there is no conditions - the system will always apply the "
+"selection list. For the predictability of the application, respect two "
+"conditions:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:385
 msgid "#. Вектора не должны перекрывать друг друга. #."
-msgstr ""
+msgstr "#. Vectors should not overlap each other. #."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:387
 msgid ""
@@ -4255,6 +4293,9 @@ msgid ""
 "сочетаний значений опорных атрибутов) должен полностью закрываться "
 "описанными векторами."
 msgstr ""
+"Array of values of the initial attribute, as the matrix base (an array of "
+"combinations of the initial (reference) attributes values) must be "
+"completely closed by the described vectors."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:389
 msgid ""
@@ -4266,18 +4307,24 @@ msgid ""
 "Подразумевается, что на любое значение опорного поля система найдет "
 "соответствующий вектор."
 msgstr ""
+"The system takes the value of the reference field (s) and consistently "
+"applies the conditions of the vectors to this field. Each vector is the set "
+"of conditions and its own selection list. As soon as the system reaches the "
+"vector with satisfied conditions, it takes its selection list and defines "
+"the output in the UI. It is assumed that the system will find the "
+"corresponding vector for any value of the reference field."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:392
 msgid "Пример 1: Матрица от двух целочисленных значений"
-msgstr ""
+msgstr "Example 1: Matrix of two integer values"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:394
 msgid "**JSON класса**\\ :"
-msgstr ""
+msgstr "**JSON of the class**\\ :"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:634
 msgid "Порядок разработки"
-msgstr ""
+msgstr "The order of development"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:636
 msgid ""
@@ -4286,76 +4333,87 @@ msgid ""
 "необходимо относительно нуля, то есть каждое поле может быть либо "
 "отрицательным, либо неотрицательным. Ниже представлена схема:"
 msgstr ""
+"Divide all possible combinations of attribute pairs - ``\"matrix_base_1\"`` "
+"and ``\"matrix_base_2\"`` into 4 vectors. Each field can be either negative "
+"or non-negative. See the scheme below:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:644
 msgid "Выписываем векторы и их условия:"
-msgstr ""
+msgstr "Choose vectors and their conditions:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:647
 msgid "Оба отрицательные: (matrix_base_1 < 0) && (matrix_base_2 < 0)"
-msgstr ""
+msgstr "Both negative: (matrix_base_1 < 0) && (matrix_base_2 < 0)"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:648
 msgid "Оба неотрицательные: (matrix_base_1 >= 0) && (matrix_base_2 >= 0)"
-msgstr ""
+msgstr "Both non-negative: (matrix_base_1 >= 0) && (matrix_base_2 >= 0)"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:649
 msgid ""
 "Первое неотрицательное второе отрицательное: (matrix_base_1 >= 0) && "
 "(matrix_base_2 < 0)"
 msgstr ""
+"First non-negative, second negative: (matrix_base_1 >= 0) && (matrix_base_2 <"
+" 0)"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:650
 msgid ""
 "Первое отрицательное, второе неотрицательное: (matrix_base_1 < 0) && "
 "(matrix_base_2 >= 0)"
 msgstr ""
+"First negative, second non-negative: (matrix_base_1 < 0) && (matrix_base_2 >="
+" 0)"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:651
 msgid ""
 "Если в 3 и 4 условиях неверно указать равенство нулю, то как результат - "
 "выпадающие элементы и перекрытие векторов."
 msgstr ""
+"If in the 3 and 4 conditions the equality to zero is not correctly set, as a "
+"result is drop-down elements and overlapping of vectors."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:653
 msgid ""
 "В примере выше для каждого вектора список выбора ограничен одним пунктом,"
 " но их может быть больше."
 msgstr ""
+"In the example above, for each vector the selection list is limited to one "
+"item, but there may be more."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:656
 msgid ""
 "Пример 2: Матрица от свободного действительного значения со сложными "
 "условиями"
-msgstr ""
+msgstr "Example 2: matrix of free real value with compound conditions"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:910
 msgid "**Векторы и их условия**\\ :"
-msgstr ""
+msgstr "**Vectors and their conditions**\\ :"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:913
 msgid "matrix_base < 3"
-msgstr ""
+msgstr "matrix_base < 3"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:914
 msgid "matrix_base = 3"
-msgstr ""
+msgstr "matrix_base = 3"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:915
 msgid "(matrix_base > 3) && (matrix_base <= 15)"
-msgstr ""
+msgstr "(matrix_base > 3) && (matrix_base <= 15)"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:916
 msgid "matrix_base >= 16"
-msgstr ""
+msgstr "matrix_base >= 16"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:917
 msgid "(matrix_base > 15) && (matrix_base < 16)"
-msgstr ""
+msgstr "(matrix_base > 15) && (matrix_base < 16)"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:920
 msgid "Следующая страница: `Предварительная выборка <eager_loading.md>`_"
-msgstr ""
+msgstr "The next page: `Eager loading <eager_loading.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selectionprovider.rst:925
 msgid ""
@@ -4364,16 +4422,21 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/atr_selectionprovider.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/atr_selectionprovider.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selsorting.rst:9
 msgid ""
 "Предыдущая страница: `Условия отбора допустимых значений "
 "<atr_selconditions.md>`_"
 msgstr ""
+"The previous page: `Conditions of sorting the valid values "
+"<atr_selconditions.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selsorting.rst:12
 msgid "Сортировка выборки допустимых значений"
-msgstr ""
+msgstr "Sorting a sample of valid values"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selsorting.rst:17
 msgid ""
@@ -4382,33 +4445,37 @@ msgid ""
 "задает способ сортировки объектов. Применяется для атрибутов типа  "
 "``\"Ссылка\"``."
 msgstr ""
+"**Sorting a sample of valid values** - is a filter that specifies how to "
+"sort objects. It is used for attributes of the ``\"Reference\"`` type. Set "
+"it in the ``\"selSorting\"`` field when creating the meta class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selsorting.rst:20
 msgid "Доступные типы сортировки:"
-msgstr ""
+msgstr "Available types of sorting:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selsorting.rst:22
 msgid "Сортировка по возрастанию\\ :raw-html-m2r:`<br>`"
-msgstr ""
+msgstr "Sorting in ascending order\\ :raw-html-m2r:`<br>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selsorting.rst:23
 msgid "Сортировка по убыванию"
-msgstr ""
+msgstr "Sorting in descending order"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/atr_selsorting.rst:84
 msgid ""
 "Следующая страница: `Список выбора допустимых значений "
 "<atr_selectionprovider.md>`_"
 msgstr ""
+"The next page: `Selection list of valid values <atr_selectionprovider.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/binding.rst:9
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:6
 msgid "Предыдущая страница: `Ключевой атрибут <key.md>`_"
-msgstr ""
+msgstr "The previous page: `The key attributes <key.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/binding.rst:12
 msgid "Основание коллекции"
-msgstr ""
+msgstr "Collection base"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/binding.rst:14
 msgid ""
@@ -4416,6 +4483,9 @@ msgid ""
 "выполняется поиск объектов в коллекции на основании сравнения с атрибутом"
 " обратной ссылки."
 msgstr ""
+"**Collection base** - an attribute in the object, by the value of which the "
+"search of objects in the collection is performed. The search is based on the "
+"comparison of collection base with the back reference attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/binding.rst:19
 msgid ""
@@ -4424,16 +4494,22 @@ msgid ""
 "от введенных данных или расчитанных по формуле значений, в отличие от "
 "обычных обратных ссылок с поиском только по ключевым атрибутам."
 msgstr ""
+"The base of the collection can be used to create dynamic collections. It "
+"means that the objects in the collection can be loaded depending on the "
+"entered data or calculated values by the formula, unlike regular back "
+"reference with search only by key attributes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/binding.rst:24
 msgid "Для примера в проекте develop-and-test заведены два класса:"
-msgstr ""
+msgstr "For example in the develop-and-test project there are two classes:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/binding.rst:27
 msgid ""
 "``searchRefs`` - в нем добавлен атрибут-строка ``code_binding`` в "
 "качестве обратной ссылки для ``binding``. .. code-block::"
 msgstr ""
+"In the ``searchRefs`` class we add a new ``code_binding`` string attribute "
+"as back reference for ``binding``. .. code-block::"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/binding.rst:61
 msgid ""
@@ -4447,11 +4523,21 @@ msgid ""
 "``code_binding`` из класса ``searchRefs``. При добавлении объектов в "
 "коллекцию вручную автоматически заполняется атрибут ``code_binding``."
 msgstr ""
+"In the ``backref_searchRefs`` class we have the "
+"``backref_searchRefs_binding`` and ``backref_searchRefs_text`` attributes. "
+"``backref_searchRefs_binding`` is a dynamic collection, and the "
+"``backref_searchRefs_text`` is used as a filter for the "
+"``backref_searchRefs_binding`` collection. In the "
+"``backref_searchRefs_binding`` collection the selection is occured by the "
+"equality of ``backref_searchRefs_text`` values from the "
+"``backref_searchRefs`` class and ``code_binding values`` from the "
+"``searchRefs`` class. When adding objects to the collection manually, the "
+"``code_binding`` attribute is automatically filled."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/binding.rst:125
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:76
 msgid "Следующая страница: `Признак абстрактности для класса <abstract.md>`_"
-msgstr ""
+msgstr "The next page: `Criteria of abstraction <abstract.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/binding.rst:130
 msgid ""
@@ -4460,26 +4546,33 @@ msgid ""
 "</docs/en/2_system_descriptionmetadata_structure/meta_class/binding.md>`_"
 " &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/"
+"2_system_descriptionmetadata_structure/meta_class/binding.md>`_ &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/composite_indexes.rst:9
 msgid "Предыдущая страница: `Журналирование изменений <journaling.md>`_"
-msgstr ""
+msgstr "The previous page: `Journaling <journaling.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/composite_indexes.rst:12
 msgid "Индексация"
-msgstr ""
+msgstr "Composite indexation"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/composite_indexes.rst:14
 msgid ""
 "**Индексация** - составные уникальные поля. Используется для поиска и "
 "контроля целостности данных."
 msgstr ""
+"**Composite indexation** - is compound unique fields. Used to search and "
+"manage the data integrity."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/composite_indexes.rst:16
 msgid ""
 "В общей части меты классов есть поле ``\"compositeIndexes\"``\\ , которое"
 " позволяет задать требование уникальности сочетания полей."
 msgstr ""
+"Composite indexation is located in the ``\"compositeIndexes\"``\\ field, "
+"which allows you to set the requirements of the unique field combinations."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/composite_indexes.rst:21
 msgid ""
@@ -4490,10 +4583,16 @@ msgid ""
 "``\"family\"`` из примера ниже могут повторятся, но пара значений - "
 "всегда уникальна."
 msgstr ""
+"Specify the composite index by listing its attributes and indicating the ``\""
+"unique\": true`` property. When a composite index is present in a class, "
+"when the object is saved, the DB checks the identical combinations of the "
+"listed fields. That is, the values of the ``\"protocol\"`` and ``\"family\"``"
+" fields from the example below can be repeated, but a pair of values is "
+"always unique."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/composite_indexes.rst:142
 msgid "Следующая страница: `Атрибуты <meta_class_attribute.md>`_"
-msgstr ""
+msgstr "The next page: `Meta class - attribute part <meta_class_attribute.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/composite_indexes.rst:147
 msgid ""
@@ -4502,16 +4601,21 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/composite_indexes.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/composite_indexes.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/eager_loading.rst:9
 msgid ""
 "Предыдущая страница: `Список выбора допустимых значений "
 "<atr_selectionprovider.md>`_"
 msgstr ""
+"The previous page: `Selection list of valid values "
+"<atr_selectionprovider.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/eager_loading.rst:12
 msgid "Предварительная выборка"
-msgstr ""
+msgstr "Eager loading"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/eager_loading.rst:14
 msgid ""
@@ -4520,6 +4624,9 @@ msgid ""
 "связанные данные, в объёме достаточном для корректного отображения "
 "семантики связанного объекта необходимо загрузить при выполнении запроса."
 msgstr ""
+"**Eager loading** - means that the related data is loaded in sufficient "
+"quantities to display the semantics of the associated object correctly. It "
+"is loaded from the database as part of the initial query."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/eager_loading.rst:16
 msgid ""
@@ -4527,18 +4634,25 @@ msgid ""
 "случаях, когда данные находятся на большом уровне вложенности, например в"
 " атрибутах типа \"Ссылка\" и \"Коллекция\"."
 msgstr ""
+"Eager loading helps in displaying objects of the system in cases where the "
+"data is at a high level of nesting, for example, in the attributes of the \""
+"Reference\" and \"Collection\" types."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/eager_loading.rst:18
 msgid ""
 "В мете применяется только в особых случаях и используется в основном для "
 "экономии временных ресурсов, в качестве альтернативы тонкой настройки."
 msgstr ""
+"In meta, it is used only in special cases mainly to save time resources and "
+"as an alternative to fine-tuning."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/eager_loading.rst:23
 msgid ""
 "Управление предварительной выборкой для атрибута определяется свойством "
 "``eagerLoading`` принимающим значения ``true`` или ``false``."
 msgstr ""
+"You can set the eager loading for an attribute by using ``eagerLoading`` "
+"property with ``true`` or ``false`` values."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/eager_loading.rst:37
 msgid ""
@@ -4547,6 +4661,10 @@ msgid ""
 "централизовано определить предварительно выбираемые атрибуты для многих "
 "классов."
 msgstr ""
+"We recommend you to configure the eager loading using the ``deploy.json`` "
+"file of the project. It is appropriate for the attributes of the meta class "
+"and meta navigation. This way of configuration allows you to centrally "
+"define pre-selected attributes for many classes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/eager_loading.rst:53
 msgid ""
@@ -4554,6 +4672,9 @@ msgid ""
 " любой навигации на данный объект заявления можно  использовать одну "
 "настройку класса для экспорта объекта."
 msgstr ""
+"NB: if instead of the ``\"node1\"`` you put ``\"*\"``\\, then when you hit "
+"this object from any navigation, you can use the same class setting to "
+"export the object."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/eager_loading.rst:58
 msgid ""
@@ -4561,12 +4682,18 @@ msgid ""
 " совпадает с настройкой в файле deploy.json, за одним исключением. Вместо"
 " ``list`` и ``item``\\ , указываем ``exportList`` и ``exportItem``."
 msgstr ""
+"The configuration of the eager loading for export in lists and forms "
+"coincides with the configuration in the deploy.json file, with only one "
+"exception. Instead of ``list`` and ``item``\\, specify ``exportList`` and "
+"``exportItem``."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/eager_loading.rst:77
 msgid ""
 "Глубина предварительной выборки задаётся свойством ``maxEagerDepth: 1`` в"
 " файле ``deploy.json`` проекта."
 msgstr ""
+"You can specify the depth of the eager loading in the ``maxEagerDepth: 1`` "
+"property in the ``deploy.json`` file of the project."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/eager_loading.rst:79
 msgid ""
@@ -4574,10 +4701,12 @@ msgid ""
 "допустимый уровень вложенности объекта относительно открытого объекта на "
 "странице."
 msgstr ""
+"The maximum depth of the eager loading determines the maximum permissible "
+"level of nesting of an object."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/eager_loading.rst:82
 msgid "Следующая страница: `Вычислимые поля <atr_formula.md>`_"
-msgstr ""
+msgstr "The next page: `Computable fields <atr_formula.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/eager_loading.rst:87
 msgid ""
@@ -4586,14 +4715,17 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/eager_loading.md>`_"
 " &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/eager_loading.md>`_ &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/isstruct.rst:9
 msgid "Предыдущая страница: `Мета класса - общая часть <meta_class_main.md>`_"
-msgstr ""
+msgstr "The previous page: `Meta class - general part <meta_class_main.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/isstruct.rst:12
 msgid "Тип Структура"
-msgstr ""
+msgstr "Structure"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/isstruct.rst:14
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_isstruct16.rst:14
@@ -4605,6 +4737,12 @@ msgid ""
 "m2r:`<br>` Для класса-структуры в основной части меты класса задается "
 "значение ``true`` в поле ``\"isStruct\"``."
 msgstr ""
+"**Structure** - is a way of displaying related attributes of the structure-"
+"class. It simplifies the procedure of creating a meta class. The ``\"true\"``"
+" value in the ``\"isStruct\"`` field means that this meta class is a "
+"structure-class. If the meta class has an attribute of the \"structure [16]\""
+" type and in the \"refClass\" field the name of the structure-class, than it "
+"displays all the attributes of the structure-class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/isstruct.rst:17
 msgid ""
@@ -4615,30 +4753,36 @@ msgid ""
 "такого свойства, а будут соответствующие атрибуты класса-структуры. Для "
 "них можно добавть колонки."
 msgstr ""
+"Use the type \"Group [0]\" for the attributes of the \"Structure [16]\" type "
+"in the create and edit view modes. If you do not specify the fields in the "
+"group, they will be created automatically according to the meta. In the list "
+"view, there is no need to create columns for structure attributes, because "
+"the object will not have such property, but it will have the corresponding "
+"attributes of the structure-class. For them, you can add columns."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/isstruct.rst:19
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_isstruct16.rst:19
 msgid "*NB: Объекты класса-структуры не создаются!*"
-msgstr ""
+msgstr "*NB: Objects of structure-class are not created!*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/isstruct.rst:24
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_isstruct16.rst:24
 msgid "**Класс-структура:**"
-msgstr ""
+msgstr "**Structure-class:**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/isstruct.rst:193
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_isstruct16.rst:193
 msgid "**Класс с атрибутом типа \"Структура [16]\"**"
-msgstr ""
+msgstr "**Meta class with an attribute of the \"Structure [16]\" type**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/isstruct.rst:275
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_isstruct16.rst:275
 msgid "Объект класса с атрибутом-структурой в базе:"
-msgstr ""
+msgstr "Class object with an attribute of structure type in DB:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/isstruct.rst:292
 msgid "Следующая страница: `Ключевой атрибут <key.md>`_"
-msgstr ""
+msgstr "The next page: ` Key attributes <key.md>`_ in Meta class - general part"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/isstruct.rst:297
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_isstruct16.rst:297
@@ -4648,16 +4792,21 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/type_isstruct16.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/type_isstruct16.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/journaling.rst:9
 msgid ""
 "Предыдущая страница: `Метка времени и пользователя создания и изменения "
 "<time_user_tracker.md>`_"
 msgstr ""
+"The previous page: `Time and user tag of created objects and committed "
+"changes <time_user_tracker.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/journaling.rst:12
 msgid "Журналирование"
-msgstr ""
+msgstr "Journaling the changes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/journaling.rst:14
 msgid ""
@@ -4667,10 +4816,15 @@ msgid ""
 "журналирования. Если в поле  указано значение ``false`` или отсутсвует, "
 "то журналирование изменений объекта не требуется."
 msgstr ""
+"**Journaling the changes** - indicates the need to log all actions performed "
+"on the object. Located in the ``journaling`` field of the main part of the "
+"meta class with two available values - ``true`` and ``false``. A value of "
+"``true`` indicates that you should log the changes. If the field is set to "
+"``false`` or absent, then no object change logging is required."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/journaling.rst:36
 msgid "Следующая страница: `Индексация <composite_indexes.md>`_"
-msgstr ""
+msgstr "The next page: `Composite indexation <composite_indexes.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/journaling.rst:41
 msgid ""
@@ -4679,14 +4833,17 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/journaling.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/journaling.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/key.rst:9
 msgid "Предыдущая страница: `Структура <isstruct.md>`_"
-msgstr ""
+msgstr "The previous page: `Structure <isstruct.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/key.rst:12
 msgid "Ключевые поля"
-msgstr ""
+msgstr "The key attributes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/key.rst:14
 msgid ""
@@ -4694,26 +4851,29 @@ msgid ""
 "``\"key\"`` основной части меты класса). Без этого приложение не будет "
 "функционировать."
 msgstr ""
+"Each class should have a key attribute (the ``\"key\"`` field in the general "
+"part of the meta class). Without specified key attribute the application "
+"will not function correctly."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/key.rst:17
 msgid "Типы ключевых полей"
-msgstr ""
+msgstr "Types of key fields"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/key.rst:20
 msgid "Guid - \"Глобальный идентификатор [12]\"."
-msgstr ""
+msgstr "Guid - \"Global identifier [12]\"."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/key.rst:21
 msgid "\"Строка [0]\"."
-msgstr ""
+msgstr "\"String [0]\"."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/key.rst:22
 msgid "\"Целое [6]\"."
-msgstr ""
+msgstr "\"Integer [6]\"."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/key.rst:25
 msgid "Требования к ключевому атрибуту"
-msgstr ""
+msgstr "Key attribute requirements"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/key.rst:27
 msgid ""
@@ -4721,6 +4881,9 @@ msgid ""
 "``\"autoassigned\"``  выставляются в ``true``. Необходимо запретить "
 "пустое значение, выставляя  ``\"nullable\"`` в ``false``."
 msgstr ""
+"When creating the key attribute meta, set the ``\"unique\"`` and ``\""
+"autoassigned\"`` fields to ``true``. Disable the empty value by setting ``\""
+"nullable\"`` to ``false``."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/key.rst:29
 msgid ""
@@ -4729,10 +4892,14 @@ msgid ""
 "создании. Например если это код  классификатора или регистрационный номер"
 " задаваемый внешним способом (на бумаге)."
 msgstr ""
+"If the attribute is not automatically generated, then set the ``\""
+"autoassigned\"`` field to ``false``\\, so the field must be set by the "
+"operator when creating. For example, if it is a classifier code or a "
+"registration number that is set externally (on paper)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/key.rst:32
 msgid "Следующая страница: `Семантический атрибут <semantic.md>`_"
-msgstr ""
+msgstr "The next page: `Semantic attributes <semantic.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/key.rst:37
 msgid ""
@@ -4741,14 +4908,17 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/key.md>`_ "
 "&ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/key.md>`_ &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:9
 msgid "Предыдущая страница: `Мета классов - общая часть <meta_class_main.md>`_"
-msgstr ""
+msgstr "The previous page: `Meta class - general part <meta_class_main.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:12
 msgid "Мета классов - атрибутивная часть"
-msgstr ""
+msgstr "Meta class - attribute part"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:14
 msgid ""
@@ -4757,6 +4927,11 @@ msgid ""
 "содержатся в виде массива в поле ``\"properties\"`` основной части меты "
 "классов. Каждый атрибут - это объект следующей структуры:"
 msgstr ""
+"**Attribute part of the meta class** describes the properties field of the "
+"meta class. There are usually at least two attributes in a class — a key "
+"field and a data field. The attributes are contained in the ``\"properties\""
+"``field of the main part of the meta class. Each attribute is an object of "
+"the following structure:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:17
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:11
@@ -4771,7 +4946,7 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/status_wf.rst:15
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:15
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:53
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:38
@@ -4784,43 +4959,45 @@ msgstr ""
 #: ../docs-ru/2_system_description/platform_configuration/deploy_globals.rst:175
 #: ../docs-ru/2_system_description/platform_configuration/package.rst:62
 msgid "Описание полей"
-msgstr ""
+msgstr "Field description"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:58
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:19
 msgid "Код"
-msgstr ""
+msgstr "Identifier"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:59
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:44
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:20
 #: ../docs-ru/2_system_description/platform_configuration/deploy.rst:22
 msgid "Имя"
-msgstr ""
+msgstr "Name"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:62
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:63
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:112
 msgid "``\"orderNumber\"``"
-msgstr ""
+msgstr "``\"orderNumber\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:63
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:64
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:113
 msgid "**Порядковый номер**"
-msgstr ""
+msgstr "**Position number**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:64
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:84
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:114
 msgid "Целое неотрицательное"
-msgstr ""
+msgstr "Non-negative integer"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:65
 msgid ""
 "Задает расположение атрибута относительно других атрибутов этого же "
 "класса."
 msgstr ""
+"Sets the position of the attribute regarding the other attributes of the "
+"same class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:66
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/meta_workflows.rst:40
@@ -4828,13 +5005,13 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:41
 #: ../docs-ru/2_system_description/platform_configuration/package.rst:70
 msgid "``\"name\"``"
-msgstr ""
+msgstr "``\"name\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:67
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:60
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:60
 msgid "**Системное имя**"
-msgstr ""
+msgstr "**System name**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:68
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:128
@@ -4843,7 +5020,7 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:140
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:74
 msgid "Строка, только латиница без пробелов"
-msgstr ""
+msgstr "String only the latin characters with no spaces"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:69
 msgid ""
@@ -4852,6 +5029,9 @@ msgid ""
 "алфавита, без пробелов (задается один раз при создании атрибута). В "
 "последующем поменять имя нельзя."
 msgstr ""
+"The name of the attribute that the system will work with, which means it "
+"cannot be empty, it can contain only Latin characters, without spaces (set "
+"once when crating the attribute). You cannot change the name later."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:70
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:91
@@ -4861,146 +5041,157 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/status_wf.rst:41
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:43
 msgid "``\"caption\"``"
-msgstr ""
+msgstr "``\"caption\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:71
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:72
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:92
 msgid "**Логическое имя**"
-msgstr ""
+msgstr "**Logic name**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:73
 msgid "Отображение имени атрибута в пользовательском интерфейсе."
-msgstr ""
+msgstr "Display attribute name in user interface."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:76
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:70
 msgid "Целое - идентификатор (код) типа"
-msgstr ""
+msgstr "Integer - identifier (code) of the type"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:77
 msgid ""
 "Тип данных атрибута. См. `Типы атрибутов "
 "<meta_class_attribute.md#следующая-страница-типы-атрибутов>`_"
 msgstr ""
+"Attribute Data Type. For more details see `Attribute types "
+"<meta_class_attribute.md#следующая-страница-типы-атрибутов>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:78
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:76
 msgid "``\"size\"``"
-msgstr ""
+msgstr "``\"size\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:79
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:77
 msgid "**Размер**"
-msgstr ""
+msgstr "**Size**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:80
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_main.rst:80
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_main.rst:100
 msgid "Целое положительное"
-msgstr ""
+msgstr "Positive integer"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:81
 msgid ""
 "Максимальный размер данных атрибута, допистимые значения зависят от типа "
 "атрибута."
 msgstr ""
+"The maximum size of the attribute data, the valid values depend on the type "
+"of attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:82
 msgid "``\"decimals\"``"
-msgstr ""
+msgstr "``\"decimals\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:83
 msgid "**Число знаков после запятой**"
-msgstr ""
+msgstr "**Number of decimal places**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:85
 msgid "Число знаков после запятой, задается только для типа \"Десятичное [8]\"."
 msgstr ""
+"The number of decimal places is specified only for the \"Decimal [8]\" type."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:86
 msgid "``\"allowedFileTypes\"``"
-msgstr ""
+msgstr "``\"allowedFileTypes\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:87
 msgid "**Допустимые типы файлов**"
-msgstr ""
+msgstr "**Valid file extension**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:88
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:154
 msgid "Массив строк"
-msgstr ""
+msgstr "Array of strings"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:89
 msgid ""
 "Позволяет задать допустимые расширения файлов, которые пользователь может"
 " загрузить в атрибут типа \"Коллекция файлов [110]\"."
 msgstr ""
+"Allows to specify the valid file extensions that a user can upload to the \""
+"File collection [110]\" attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:90
 msgid "``\"maxFileCount\"``"
-msgstr ""
+msgstr "``\"maxFileCount\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:91
 msgid "**Максимальное количество файлов**"
-msgstr ""
+msgstr "**Maximum number of files**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:92
 msgid "Число от 1 до 5"
-msgstr ""
+msgstr "Number from 1 to 5"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:93
 msgid ""
 "Задает максимальное количество файлов, которые пользователь может "
 "загрузить в атрибут типа \"Коллекция файлов [110]\"."
 msgstr ""
+"Specifies the maximum number of files that a user can upload to the \"File "
+"collection [110]\" attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:94
 msgid "``\"nullable\"``"
-msgstr ""
+msgstr "``\"nullable\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:95
 msgid "**Допустимо пустое значение**"
-msgstr ""
+msgstr "**Valid null value**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:97
 msgid "Разрешает или запрещает пустое значение атрибута."
-msgstr ""
+msgstr "Allows or denies an empty attribute value."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:98
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:132
 msgid "``\"readonly\"``"
-msgstr ""
+msgstr "``\"readonly\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:99
 msgid "**Только для чтения**"
-msgstr ""
+msgstr "**Read only**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:101
 msgid "Разрешает или запрещает изменять значение атрибута."
-msgstr ""
+msgstr "Allows or denies changing attribute value."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:102
 msgid "``\"indexed\"``"
-msgstr ""
+msgstr "``\"indexed\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:103
 msgid "`\\ **Индексация для поиска** <atr_indexed.md>`_"
-msgstr ""
+msgstr "`\\ **Index for search** <atr_indexed.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:105
 msgid ""
 "Указывает, нужно ли индексировать значения данного атрибута для ускорения"
 " поиска."
 msgstr ""
+"Indicates whether to index the value of this attribute to speed up the "
+"search."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:106
 msgid "``\"unique\"``"
-msgstr ""
+msgstr "``\"unique\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:107
 msgid "**Уникальные значения**"
-msgstr ""
+msgstr "**Unique values**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:109
 msgid ""
@@ -5008,94 +5199,104 @@ msgid ""
 "нельзя создать два объекта класса с одинаковыми значениями в уникальном "
 "атрибуте)."
 msgstr ""
+"Only unique attribute values (\\ **Attention**\\ :you cannot create two "
+"class objects with the same values in the attribute of the unique type)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:110
 msgid "``\"autoassigned\"``"
-msgstr ""
+msgstr "``\"autoassigned\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:111
 msgid "`\\ **Автозаполнение** <atr_autoassigned.md>`_"
-msgstr ""
+msgstr "`\\ **Autocompletion** <atr_autoassigned.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:113
 msgid "Разрешает или запрещает автоматическое заполнение поля приложением."
-msgstr ""
+msgstr "Allows or denies autocompletion of the fields."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:114
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:115
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:144
 msgid "``\"hint\"``"
-msgstr ""
+msgstr "``\"hint\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:115
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:116
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:145
 msgid "**Подсказка**"
-msgstr ""
+msgstr "**Help text**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:117
 msgid ""
 "Задает сообщение, которые выведется в пользовательском интерфейсе рядом с"
 " именем атрибута."
 msgstr ""
+"Specifies the message that will appear in the user interface next to the "
+"attribute name."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:118
 msgid "``\"defaultValue\"``"
-msgstr ""
+msgstr "``\"defaultValue\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:119
 msgid "`\\ **Значение по умолчанию** <atr_default_value.md>`_"
-msgstr ""
+msgstr "`\\ **Default value** <atr_default_value.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:120
 msgid "Зависит от типа атрибута"
-msgstr ""
+msgstr "Depends on attribute type"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:121
 msgid ""
 "Указывается значение, которое будет заполнено в атрибуте в форме создания"
 " (при создании объекта)."
 msgstr ""
+"Specifies the value that will be filled in the create form of the attribute ("
+"when an object is created)"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:122
 msgid "``\"refClass\"``"
-msgstr ""
+msgstr "``\"refClass\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:123
 msgid "`\\ **Атрибут ссылки** <atr_ref_backref.md>`_"
-msgstr ""
+msgstr "`\\ **Reference class** <atr_ref_backref.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:124
 msgid "Строка, только латиница, без пробелов"
-msgstr ""
+msgstr "String, only the latin characters with no spaces"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:125
 msgid ""
 "Содержит значение поля ``\"name\"`` (Системное имя) класса, который "
 "должен использоваться в атрибуте типа \"Ссылка [13]\"."
 msgstr ""
+"Contains the value of the ``\" name \"`` field (System name) of the class to "
+"be used in the \"Link [13]\" type attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:126
 msgid "``\"itemsClass\"``"
-msgstr ""
+msgstr "``\"itemsClass\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:127
 msgid "`\\ **Атрибут коллекции** <atr_itemclass_backcoll.md>`_"
-msgstr ""
+msgstr "`\\ **Collection class** <atr_itemclass_backcoll.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:129
 msgid ""
 "Содержит значение поля ``\"name\"`` (Системное имя) класса, объекты "
 "которого могут привязаться к атрибуту типа \"Коллекция [14]\""
 msgstr ""
+"Contains the value of the ``\" name \"`` field (System name) of the class, "
+"whose objects can bind to an attribute of the \"Collection [14]\" type"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:130
 msgid "``\"backRef\"``"
-msgstr ""
+msgstr "``\"backRef\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:131
 msgid "`\\ **Атрибут обратной ссылки** <atr_ref_backref.md>`_"
-msgstr ""
+msgstr "`\\ **Back reference attribute** <atr_ref_backref.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:133
 msgid ""
@@ -5104,14 +5305,18 @@ msgid ""
 "фильтрации и привязки объектов из класса Класс коллекции по значению "
 "ссылочного атрибута."
 msgstr ""
+"Specifies the attribute of the \"Link[13]\" type from the class specified in "
+"the Collection Class property, which refers to the original class. It is "
+"necessary to filter and bind objects from the Class class of the collection "
+"by the value of the reference attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:134
 msgid "``\"backColl\"``"
-msgstr ""
+msgstr "``\"backColl\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:135
 msgid "`\\ **Атрибут обратной коллекции** <atr_itemclass_backcoll.md>`_"
-msgstr ""
+msgstr "`\\ **Back collection attribute** <atr_itemclass_backcoll.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:137
 msgid ""
@@ -5120,28 +5325,34 @@ msgid ""
 "фильтрации и привязки объектов из класса Класс коллекции по значению "
 "ссылочного атрибута."
 msgstr ""
+"Specifies the attribute of the \"Collection [14]\" type from the class "
+"specified in the Collection Class property, which refers to the original "
+"class. It is necessary to filter and bind objects from the Class class of "
+"the collection by the value of the reference attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:138
 msgid "``\"binding\"``"
-msgstr ""
+msgstr "``\"binding\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:139
 msgid "`\\ **Основание коллекции** <binding.md>`_"
-msgstr ""
+msgstr "`\\ **Collection base** <binding.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:141
 msgid ""
 "Указывается атрибут класса, к которому привязывается атрибут обратной "
 "ссылки. Если не указан, то принимается ключевой атрибут."
 msgstr ""
+"Specifies the attribute of the class to which the back link attribute is "
+"bound. If not specified, the key attribute is accepted."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:142
 msgid "``\"semantic\"``"
-msgstr ""
+msgstr "``\"semantic\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:143
 msgid "`\\ **Семантика** <semantic.md>`_"
-msgstr ""
+msgstr "`\\ **Semantics** <semantic.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:145
 msgid ""
@@ -5149,64 +5360,71 @@ msgid ""
 "формировать информацию из ссылочного класса, корректную для описания "
 "артибута в объекте исходного класса."
 msgstr ""
+"Specified for the reference attributes in order to display and generate "
+"correct information for describing the item in the original class object "
+"from the reference class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:146
 msgid "``\"selConditions\"``"
-msgstr ""
+msgstr "``\"selConditions\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:147
 msgid "`\\ **Условия отбора допустимых значений** <atr_selconditions.md>`_"
-msgstr ""
+msgstr "`\\ **Conditions of sorting the valid values** <atr_selconditions.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:148
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:152
 msgid "Null либо массив объектов"
-msgstr ""
+msgstr "Null or array of objects"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:149
 msgid ""
 "Позволяет ограничить выбор объектов по ссылке, допустимых для привязкки в"
 " данном ссылочном атрибуте."
 msgstr ""
+"Allows to limit the selection of the reference objects, valid for binding in "
+"this reference attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:150
 msgid "``\"selSorting\"``"
-msgstr ""
+msgstr "``\"selSorting\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:151
 msgid "`\\ **Сортировка выборки допустимых значений** <atr_selsorting.md>`_"
-msgstr ""
+msgstr "`\\ **Sorting a sample of valid values** <atr_selsorting.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:153
 msgid ""
 "Позволяет сортировать выбор объектов по ссылке, допустимых для привязкки "
 "в данном ссылочном атрибуте."
 msgstr ""
+"Allows to sort the selection of reference objects, valid for binding in this "
+"reference attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:154
 msgid "``\"selectionProvider\"``"
-msgstr ""
+msgstr "``\"selectionProvider\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:155
 msgid "`\\ **Список выбора допустимых значений** <atr_selectionprovider.md>`_"
-msgstr ""
+msgstr "`\\ **Selection list of valid values** <atr_selectionprovider.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:156
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:168
 msgid "Null либо объект"
-msgstr ""
+msgstr "Null or object"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:157
 msgid "Задает список выбора допустимых значений для атрибута."
-msgstr ""
+msgstr "Specifies a list of selectable values for an attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:158
 msgid "``\"indexSearch\"``"
-msgstr ""
+msgstr "``\"indexSearch\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:159
 msgid "**Полнотекстовый поиск**"
-msgstr ""
+msgstr "**Full text search**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:161
 msgid ""
@@ -5214,41 +5432,45 @@ msgid ""
 "значение данного атрибута должно индексироваться поисковой системой. См. "
 "`Индексация <atr_indexed.md>`_"
 msgstr ""
+"Sign of using attribute in full text search. Indicates that the value of "
+"this attribute should be indexed by the search engine. For more details see `"
+"Indexation <atr_indexed.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:162
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:127
 msgid "``\"eagerLoading\"``"
-msgstr ""
+msgstr "``\"eagerLoading\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:163
 msgid "`\\ **Жадная загрузка** <eager_loading.md>`_"
-msgstr ""
+msgstr "`\\ **Eager loading** <eager_loading.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:165
 msgid ""
 "Загрузка достаточного объема данных объекта по ссылке (для атрибутов типа"
 " ссылка и коллекция)."
 msgstr ""
+"Load an object by reference (for the link and collection attribute types)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:166
 msgid "``\"formula\"``"
-msgstr ""
+msgstr "``\"formula\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:167
 msgid "`\\ **Вычисляймые поля** <atr_formula.md>`_"
-msgstr ""
+msgstr "`\\ **Computable fields** <atr_formula.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:169
 msgid "Указывает на формулу расчета."
-msgstr ""
+msgstr "Indicates a calculation formula."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:170
 msgid "``\"cached\"``"
-msgstr ""
+msgstr "``\"cached\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:171
 msgid "`\\ **Кеширование значения вычислимого атрибута** <atr_cached_true.md>`_"
-msgstr ""
+msgstr "`\\ **Cache value of a computable attribute** <atr_cached_true.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:173
 msgid ""
@@ -5256,10 +5478,12 @@ msgid ""
 " по формуле. Указывает на возможность кеширования значения вычислимого "
 "атрибута."
 msgstr ""
+"Applies only to attribute values obtained by formula. Indicates the ability "
+"to cache the value of a computable attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:177
 msgid "Следующая страница: `Типы атрибутов <property_types.md>`_"
-msgstr ""
+msgstr "The next page: `Attribute types <property_types.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_attribute.rst:182
 msgid ""
@@ -5268,39 +5492,47 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/meta_class_attribute.md>`_"
 " &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_\\ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/meta_class_attribute.md>`_ &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:2
 msgid "Мета классов - общая часть"
-msgstr ""
+msgstr "Meta class - general part"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:6
 msgid ""
 "Предыдущая страница: `Схема основных типов меты "
 "</docs/ru/2_system_description/metadata_structure/meta_scheme.md>`_"
 msgstr ""
+"The previous page: `Schema of the main types of metadata </docs/ru/"
+"2_system_description/metadata_structure/meta_scheme.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:8
 msgid ""
 "**Общая часть меты классов** - содержит поля параметров класса, которые "
 "имеют отношения к самой структуре и способам оперирования данными в ней."
 msgstr ""
+"**The general part of the class meta** - contains the fields of the class "
+"parameters that are related to the structure itself and the methods for "
+"handling data in it."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:43
 msgid "&ensp; Код      &ensp;"
-msgstr ""
+msgstr "&ensp; Identifier      &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:47
 msgid "``\"isStruct\"``      &ensp;"
-msgstr ""
+msgstr "``\"isStruct\"``      &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:48
 msgid "`\\ **Является структурой** <type_isstruct16.rst>`_"
-msgstr ""
+msgstr "`\\ **Structure** <type_isstruct16.rst>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:49
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:129
 msgid "Логическое."
-msgstr ""
+msgstr "Logical"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:50
 msgid ""
@@ -5308,64 +5540,67 @@ msgid ""
 "структурой, и может быть использован в прочих классах в атрибутах особого"
 " типа - Структура [16]"
 msgstr ""
+"If the value is \"true\" - this class is a structure and can be used in "
+"other classes in attributes of a special kind - \"Structure [16]\""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:51
 msgid "``\"key\"``           &ensp;"
-msgstr ""
+msgstr "``\"key\"``           &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:52
 msgid "`\\ **Ключевые атрибуты** <key.md>`_"
-msgstr ""
+msgstr "`\\ **Key attributes** <key.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:53
 msgid "Массив строк, минимум одно значение."
-msgstr ""
+msgstr "Array of strings, at least one value"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:54
 msgid ""
 "Для функционирования приложения, в каждом классе должно быть задано "
 "ключевое поле, однозначно идентифицирующее объект в коллекции."
 msgstr ""
+"Specify a key field that uniquely identifies the object in the collection"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:55
 msgid "``\"semantic\"``    &ensp;"
-msgstr ""
+msgstr "``\"semantic\"``    &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:56
 msgid "`\\ **Семантический атрибут** <semantic.md>`_"
-msgstr ""
+msgstr "`\\ **Semantic attributes** <semantic.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:57
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:69
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:73
 msgid "Строка."
-msgstr ""
+msgstr "String"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:58
 msgid ""
 "Задает семантику - правило формирования строкового представления для "
 "данного класса."
-msgstr ""
+msgstr "Sets the semantics - the rule of forming the row view for this class"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:59
 msgid "``\"name\"``     &ensp;"
-msgstr ""
+msgstr "``\"name\"``     &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:61
 msgid "Строка, только латиница, без пробелов."
-msgstr ""
+msgstr "String, only the latin characters with no spaces"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:62
 msgid "Задает в том числе первую часть имени файла меты класса, служебное имя."
-msgstr ""
+msgstr "Sets the first part of the name of the meta class file, the system name"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:63
 msgid "``\"abstract\"``     &ensp;"
-msgstr ""
+msgstr "``\"abstract\"``     &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:64
 msgid "`\\ **Признак абстрактности для класса** <abstract.md>`_"
-msgstr ""
+msgstr "`\\ **Criteria of abstraction for class** <abstract.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:65
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:62
@@ -5375,46 +5610,48 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_main.rst:76
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_main.rst:84
 msgid "Логическое"
-msgstr ""
+msgstr "Logical"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:66
 msgid "Используется только для родительских (базовых) классов."
-msgstr ""
+msgstr "Used only for parent (base) classes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:67
 msgid "``\"version\"``    &ensp;"
-msgstr ""
+msgstr "``\"version\"``    &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:68
 msgid "`\\ **Версионирование** <metaversion.md>`_"
-msgstr ""
+msgstr "`\\ **Version** <metaversion.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:70
 msgid ""
 "Позволяет задавать версионирвоание меты, для возможности оперирования "
 "данными созданными в разных версиях меты в рамках одной коллекции."
 msgstr ""
+"Allows to set the versioning of the meta to operate the data created in "
+"different meta versions in the same collection"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:71
 msgid "``\"caption\"``     &ensp;"
-msgstr ""
+msgstr "``\"caption\"``     &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:74
 msgid "Отображаемое в пользовательском интерфейсе имя класса"
-msgstr ""
+msgstr "The class name displayed in the UI"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:75
 msgid "``\"ancestor\"``    &ensp;"
-msgstr ""
+msgstr "``\"ancestor\"``    &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:76
 msgid "`\\ **Наследование** <ancestor.md>`_"
-msgstr ""
+msgstr "`\\ **Inheritance** <ancestor.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:77
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:81
 msgid "Null либо строка."
-msgstr ""
+msgstr "Null or string"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:78
 msgid ""
@@ -5425,14 +5662,19 @@ msgid ""
 "завести атрибуты, принадлежащие индивидуально данному классу-наследнику "
 "(при необходимости)."
 msgstr ""
+"A set of attributes, created in the class is inherited by successor classes. "
+"It is a way to reduce the number of entities when it is possible to use the "
+"same set of attributes. All classes-heirs will inherit the attribute set of "
+"the parent + you can make attributes belonging individually to this class-"
+"heir (if necessary)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:79
 msgid "``\"container\"``    &ensp;"
-msgstr ""
+msgstr "``\"container\"``    &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:80
 msgid "**Атрибут ссылки на контейнер**"
-msgstr ""
+msgstr "**Container attribute**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:82
 msgid ""
@@ -5442,14 +5684,18 @@ msgid ""
 "контейнер экземпляра доменного класса, и автоматически выстроит иерархию "
 "объектов."
 msgstr ""
+"Select the reference attribute that will be used to automatically build "
+"hierarchical navigation. The object to which the selected attribute will "
+"refer will be perceived by the environment as a container of the domain "
+"class instance, and automatically will build a hierarchy of objects"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:83
 msgid "``\"creationTracker\"`` &ensp;"
-msgstr ""
+msgstr "``\"creationTracker\"`` &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:84
 msgid "`\\ **Метка времени создания** <time_user_tracker.md>`_"
-msgstr ""
+msgstr "`\\ **Time tag of created objects** <time_user_tracker.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:86
 msgid ""
@@ -5457,14 +5703,17 @@ msgid ""
 " соответствующего атрибута класса, ``\"name\"`` которого и вносится в "
 "данное поле."
 msgstr ""
+"Allows to save data/time of the object creation, requires the presence of "
+"the corresponding class attribute, the ``\"name`` of which is entered into "
+"this field"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:87
 msgid "``\"changeTracker\"`` &ensp;"
-msgstr ""
+msgstr "``\"changeTracker\"`` &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:88
 msgid "`\\ **Метка времени изменения** <time_user_tracker.md>`_"
-msgstr ""
+msgstr "`\\ **Time tag of committed changes** <time_user_tracker.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:90
 msgid ""
@@ -5472,14 +5721,17 @@ msgid ""
 "наличия соответствующего атрибута класса, ``\"name\"`` которого и "
 "вносится в данное поле."
 msgstr ""
+"Allows to save data/time of the object change, requires the presence of the "
+"corresponding class attribute, the ``\"name\"`` of which is entered into "
+"this field"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:91
 msgid "``\"creatorTracker\"`` &ensp;"
-msgstr ""
+msgstr "``\"creatorTracker\"`` &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:92
 msgid "`\\ **Метка пользователя создавшего объект** <time_user_tracker.md>`_"
-msgstr ""
+msgstr "`\\ **Tag of the user who created the object** <time_user_tracker.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:94
 msgid ""
@@ -5487,14 +5739,17 @@ msgid ""
 "наличия соответствующего атрибута класса, ``\"name\"`` которого и "
 "вносится в данное поле."
 msgstr ""
+"Allows to save the name of the user who created the object, requires the "
+"presence of the corresponding class attribute, the ``\"name\"`` of which is "
+"entered into this field"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:95
 msgid "``\"editorTracker\"`` &ensp;"
-msgstr ""
+msgstr "``\"editorTracker\"`` &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:96
 msgid "`\\ **Метка пользователя изменившего объект** <time_user_tracker.md>`_"
-msgstr ""
+msgstr "`\\ **Tag of the user who changed the object** <time_user_tracker.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:98
 msgid ""
@@ -5502,98 +5757,105 @@ msgid ""
 "требует наличия соответствующего атрибута класса, ``\"name\"`` которого и"
 " вносится в данное поле."
 msgstr ""
+"Allows to save the name of the user who changed the object, requires the "
+"presence of the corresponding class attribute, the ``\"name\"`` of which is "
+"entered into this field"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:99
 msgid "``\"history\"``     &ensp;"
-msgstr ""
+msgstr "``\"history\"``     &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:100
 msgid "**Снимки данных**"
-msgstr ""
+msgstr "**Data image**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:101
 msgid "*0 - нет*"
-msgstr ""
+msgstr "*0 - none*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:102
 msgid "Хранит снимки данных"
-msgstr ""
+msgstr "Stores the images of data"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:105
 msgid "*1 - произвольно*"
-msgstr ""
+msgstr "*1 - arbitrarily*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:109
 msgid "*2 - с точностью до часа*"
-msgstr ""
+msgstr "*2 - up to an hour*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:113
 msgid "*3 - с точностью до суток*"
-msgstr ""
+msgstr "*3 - up to a day*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:117
 msgid "*4 - с точностью до недели*"
-msgstr ""
+msgstr "*4 - up to a week*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:121
 msgid "*5 - с точностью до месяца*"
-msgstr ""
+msgstr "*5 - up to a month*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:125
 msgid "*6 - с точностью до года*"
-msgstr ""
+msgstr "*6 - up to a year*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:127
 msgid "``\"journaling\"``  &ensp;"
-msgstr ""
+msgstr "``\"journaling\"``  &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:128
 msgid "`\\ **Журналирование изменений** <journaling.md>`_"
-msgstr ""
+msgstr "`\\ **Journaling the changes** <journaling.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:130
 msgid "Разрешает/запрещает журналирование изменений объектов класса."
-msgstr ""
+msgstr "Enable / Disable journaling changes of the class objects."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:131
 msgid "``\"compositeIndexes\"`` &ensp;"
-msgstr ""
+msgstr "``\"compositeIndexes\"`` &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:132
 msgid "`\\ **Индексация** <composite_indexes.md>`_"
-msgstr ""
+msgstr "`\\ **Indexation** <composite_indexes.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:133
 msgid "Null либо массив объектов."
-msgstr ""
+msgstr "Null or array of objects."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:134
 msgid "Позволяет задать требования уникальности сочетания полей."
 msgstr ""
+"Allows you to specify the requirements for the unique combination of fields."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:135
 msgid "``\"properties\"``   &ensp;"
-msgstr ""
+msgstr "``\"properties\"``   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:136
 msgid "`\\ **Атрибуты** <meta_class_attribute.md>`_"
-msgstr ""
+msgstr "`\\ **Attributes** <meta_class_attribute.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:137
 msgid "Массив объектов."
-msgstr ""
+msgstr "Array of objects"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:138
 msgid ""
 "Массив атрибутов сущности. Каждый объект описывается в соответствии с "
 "атрибутивной частью меты классов."
 msgstr ""
+"Array of attribute properties. Each object is described in accordance with "
+"the attribute part of the meta class"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:142
 msgid ""
 "Следующая страница: `Мета классов - атрибутивная часть "
 "<meta_class_attribute.md>`_"
 msgstr ""
+"The next page: `Meta class - the attribute part <meta_class_attribute.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:147
 msgid ""
@@ -5602,6 +5864,9 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/meta_class_main.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/meta_class_main.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/meta_class_main.rst:157
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/metaversion.rst:87
@@ -5612,16 +5877,16 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:156
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:98
 msgid "Copyright (c) 2018 **LLC \"ION DV\"**. All rights reserved."
-msgstr ""
+msgstr "Copyright (c) 2018 **LLC \"ION DV\"**. All rights reserved."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/metaversion.rst:6
 msgid "Предыдущая страница: `Признак абстрактности для класса <abstract.md>`_"
-msgstr ""
+msgstr "The previous page: `Criteria of abstraction for class <abstract.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/metaversion.rst:9
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/meta_workflows.rst:59
 msgid "Версионирование"
-msgstr ""
+msgstr "Versioning"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/metaversion.rst:11
 msgid ""
@@ -5630,6 +5895,11 @@ msgid ""
 "версия. Таким образом, версионирование предоставляет возможность работы с"
 " различными версиями одних объектов."
 msgstr ""
+"**Versioning** - greatly reduces the work required to manage the changes "
+"that occur with an object. Versioning allows you to store multiple versions "
+"of metadata. When you change and save the object, it acquires its version, "
+"that contains proceeded changes. So, versioning provides the ability to work "
+"with different versions of the same objects."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/metaversion.rst:13
 msgid ""
@@ -5637,20 +5907,26 @@ msgid ""
 "классов. Чтобы изменить версию меты, необходимо добавить атрибут  "
 "``version``\\ (\"version\" : 2)."
 msgstr ""
+"Versioning is set in the ``\"version\"`` field of the general part of the "
+"meta class. Add the ``version`` property (\" version \": 2) to the attribute "
+"to change the meta version."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/metaversion.rst:16
 msgid "Механизм работы"
-msgstr ""
+msgstr "How it works"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/metaversion.rst:18
 msgid ""
 "При загрузке метаданных если есть атрибут  version (\"version\" : 2), то "
 "будет закачена мета с версией, иначе версия = 1"
 msgstr ""
+"When downloading metadata, if the attribute has a \"version\" property, e.x. "
+"(\"version\": 2), then meta will be downloaded with the version 2,otherwise "
+"version 1."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/metaversion.rst:65
 msgid "Работа в коде"
-msgstr ""
+msgstr "Code realization"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/metaversion.rst:67
 msgid ""
@@ -5659,16 +5935,23 @@ msgid ""
 "<номер версии>”. Например ion_filter_1, ion_filter_2 – Класс ion_filter "
 "версии 1 и 2 соответственно."
 msgstr ""
+"When processing the meta classes, the data is divided into versions. The "
+"names of the versioned classes have the following names structure: “<class\\ "
+"*name>*\\ <version_number>”. For example, ion_filter_1, ion_filter_2 - сlass "
+"ion_filter of the version №1 and №2, respectively."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/metaversion.rst:69
 msgid ""
 "При выборке объектов, данные берутся с учётом версии. Версия объекта "
 "передаётся в виде параметра ``version`` запроса на открытие объекта."
 msgstr ""
+"Sample of object data occurs according to the version. The version of the "
+"object is passed as the ``version`` parameter of the request to open the "
+"object."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/metaversion.rst:72
 msgid "Следующая страница: `Родительский класс <ancestor.md>`_"
-msgstr ""
+msgstr "The next page: `Ancestor <ancestor.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/metaversion.rst:77
 msgid ""
@@ -5677,26 +5960,32 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/metaversion.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/metaversion.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:9
 msgid ""
 "Предыдущая страница: `Мета классов - атрибутивная часть "
 "<meta_class_attribute.md>`_"
 msgstr ""
+"The previous page: `Meta class - attribute part <meta_class_attribute.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:12
 msgid "Типы атрибутов"
-msgstr ""
+msgstr "Attribute types"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:14
 msgid ""
 "**Тип атрибута** - указывает на тип поддерживаемых атрибутом данных, как "
 "например размер допустимых значений и другие."
 msgstr ""
+"**Attribute type** - indicates the type of data supported by the attribute, "
+"such as the size of valid values and others."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:21
 msgid "Тип в БД"
-msgstr ""
+msgstr "Type in DB"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:25
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:29
@@ -5712,7 +6001,7 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:93
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:105
 msgid "String"
-msgstr ""
+msgstr "String"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:26
 msgid ""
@@ -5720,63 +6009,71 @@ msgid ""
 "(строка) символов алфавита. Каждая переменная такого типа (строковая "
 "переменная) может быть представлена фиксированным количеством символов."
 msgstr ""
+"A data type whose value is an arbitrary sequence (string) of the alphabet "
+"characters. Each variable of this type (string variable) can be represented "
+"by a fixed number of characters."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:30
 msgid "Хранит текстовые данные."
-msgstr ""
+msgstr "Stores text data."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:34
 msgid ""
 "Форматированный текст, содержащий гипертекстовую разметку  с возможностью"
 " редактирования с учетом возможных начертаний."
 msgstr ""
+"Formatted text containing hypertext markup with the ability to edit, "
+"inclusive of the possible outlines."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:38
 msgid "Хранит ссылку, позволяет сохранить любую строку."
-msgstr ""
+msgstr "Stores the reference, allows to save any string."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:42
 msgid ""
 "Изображение, сохраняемое в файловом хранилище с предпросмотром в "
 "представлениях."
-msgstr ""
+msgstr "Image stored in file storage with preview in views."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:46
 msgid "Файл, сохраняемый в файловом хранилище. В процессе реализации в регистри."
 msgstr ""
+"File stored in file storage. In the process of implementation in the "
+"register."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:49
 msgid "Int32"
-msgstr ""
+msgstr "Int32"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:50
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:65
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:69
 msgid "Целое число"
-msgstr ""
+msgstr "Whole number"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:53
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:61
 msgid "Double"
-msgstr ""
+msgstr "Double"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:54
 msgid "Любое положительное число, отрицательное число или ноль."
-msgstr ""
+msgstr "Any positive number, negative number or zero."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:56
 msgid "`\\ **Дата/время** <type_datetime9.md>`_"
-msgstr ""
+msgstr "`\\ **Date/time** <type_datetime9.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:57
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:58
 msgid ""
 "Дата в формате ISODate. Может быть отображена как дата, либо как "
 "дата-время."
 msgstr ""
+"Date in ISODate format. It can be displayed as a date, or as a date-time."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:62
 msgid ""
@@ -5784,43 +6081,47 @@ msgid ""
 "системы счисления состоит из 10 цифр от нуля до 9, отсюда и название - "
 "десятичная."
 msgstr ""
+"Number in the decimal numeric. The alphabet of this number system consists "
+"of 10 digits from zero to 9, hence the name is decimal."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:65
 msgid "Boolean"
-msgstr ""
+msgstr "Boolean"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:66
 msgid ""
 "Принимает два возможных значения, называемых истиной (true) и ложью "
 "(false)."
-msgstr ""
+msgstr "Accepts two possible values - true or false."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:70
 msgid "Хеш пароля"
-msgstr ""
+msgstr "Password hash."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:74
 msgid ""
 "Тип предназначенный для ключевого поля класса. Предполагает выставление "
 "атрибутов уникальности и автозаполнения."
 msgstr ""
+"A type intended for a class key field. Involves exhibiting unique and "
+"autocomplete attributes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:76
 msgid "`\\ **Ссылка** <type_reference13.md>`_"
-msgstr ""
+msgstr "`\\ **Reference** <type_reference13.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:78
 msgid "Тип данных, хранящий в себе ссылку на объекты другого класса."
-msgstr ""
+msgstr "A data type that stores a reference to objects of another class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:80
 msgid "`\\ **Коллекция** <type_collection14.md>`_"
-msgstr ""
+msgstr "`\\ **Collection** <type_collection14.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:81
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:109
 msgid "Array"
-msgstr ""
+msgstr "Array"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:82
 msgid ""
@@ -5829,68 +6130,76 @@ msgid ""
 "мете класса. Разделяются ссылки через запятую. Все значение из "
 "последовательности ссылок и запятых хранится строкой в базе."
 msgstr ""
+"A collection is a data type that stores references to other objects. Each "
+"reference contains the value of the object identifier defined in the meta "
+"class. References should be separated by commas. All values of the sequence "
+"of references and commas is stored in the database in the form of a string."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:86
 msgid "Храним набор дискретных значений из предопределенного списка выбора."
-msgstr ""
+msgstr "Stores a set of discrete values from a predefined selection list."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:88
 msgid "`\\ **Структура** <type_isstruct16.md>`_"
-msgstr ""
+msgstr "`\\ **Structure** <type_isstruct16.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:90
 msgid "Тип данных, хранящий в себе ссылку на объект класса-структуры."
-msgstr ""
+msgstr "A data type that stores a reference to a class-structure object."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:92
 msgid "`\\ **Пользовательский тип** <type_user17.md>`_"
-msgstr ""
+msgstr "`\\ **User type** <type_user17.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:94
 msgid ""
 "Дает возможность определения пользовательских типов на основе примитивных"
 " типов."
-msgstr ""
+msgstr "Provides the ability to define user types based on primitive types."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:98
 msgid "Хранит имя пользователя, для настройки безопасности, в формате *имя@local*"
-msgstr ""
+msgstr "Stores the username, for security settings, in the format *name@local*."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:100
 msgid "`\\ **Геоданные** <type_geodata100.md>`_"
-msgstr ""
+msgstr "`\\ **Geodata** <type_geodata100.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:101
 msgid "Object"
-msgstr ""
+msgstr "Object"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:102
 msgid ""
 "Особый тип данных, хранящий координаты с уникальными представлениями для "
 "создания и редактирования."
 msgstr ""
+"A special data type that stores coordinates with unique views for creating "
+"and editing."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:106
 msgid ""
 "Тип атрибута для хранения комплекта файлов до 5 штук, с общим "
 "ограничением размера и возможностью задания допустимых расширений файлов"
 msgstr ""
+"Attribute type to store up to 5 files, with overall size limitations and the "
+"ability to specify valid file extensions."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:107
 msgid "210"
-msgstr ""
+msgstr "210"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:108
 msgid "`\\ **Расписание** <type_schedule210.md>`_"
-msgstr ""
+msgstr "`\\ **Schedule** <type_schedule210.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:110
 msgid "Тип данных, предназначеный для хранения данных календаря/расписания"
-msgstr ""
+msgstr "Data type for storing data in the form of calendar/schedule."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:114
 msgid "Идентификаторы типов атрибутов:"
-msgstr ""
+msgstr "Attribute type identifiers:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:145
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:141
@@ -5898,6 +6207,8 @@ msgid ""
 "Следующая страница: `Мета представлений "
 "</docs/ru/2_system_description/metadata_structure/meta_view/meta_view_main.md>`_"
 msgstr ""
+"The next page: `Meta view </docs/ru/2_system_description/metadata_structure/"
+"meta_view/meta_view_main.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/property_types.rst:150
 msgid ""
@@ -5906,26 +6217,33 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/property_types.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/property_types.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:9
 msgid "Семантика"
-msgstr ""
+msgstr "Semantics"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:11
 msgid ""
 "**Семантика** - используется для вывода объекта класса в качестве одной "
 "строки заголовка класса."
 msgstr ""
+"**Semantics** - is used to output a class object as one string of the class "
+"title."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:13
 msgid "В мете классов поле ``\"semantic\"`` встречается дважды:"
-msgstr ""
+msgstr "The ``\"semantic\"`` field is used twice in the meta class:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:16
 msgid ""
 "в общей части меты класса, где формирует строковое представление для "
 "данного класса,"
 msgstr ""
+"in the general part of the meta class, where it forms a string view for this "
+"class;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:17
 msgid ""
@@ -5933,6 +6251,9 @@ msgid ""
 "класса на который ссылается атрибут, т.е. используется для ссылочных "
 "атрибутов."
 msgstr ""
+"in the attribute part of the meta class, where it forms a string view of the "
+"objects of the class to which the attribute refers, i.e. used for reference "
+"attributes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:22
 msgid ""
@@ -5940,10 +6261,13 @@ msgid ""
 " в списке. В атрибутах, которые выводят табличные данные, семантика "
 "используется для ограничения вывода колонок."
 msgstr ""
+"\"Semantics\" is used to adjust the display of attributes and attribute "
+"properties in the list. In attributes that display tabular data, semantics "
+"are used to limit the output of columns."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:25
 msgid "Примеры использования в ссылочных атрибутах"
-msgstr ""
+msgstr "Examples in reference attributes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:27
 msgid ""
@@ -5955,6 +6279,13 @@ msgid ""
 "``class``. Атрибуты, используемые как идентификаторы, указаны в мете "
 "класса ``class``."
 msgstr ""
+"For example, there is a ``class``\\, which has attributes: ``id``\\ , "
+"``name``\\ , ``link``\\ , ``date``. There is a second class - ``classTable``"
+"\\ , which has a reference attribute ``table`` on the ``class`` class. "
+"Without using the semantics in objects of the ``classTable`` class, in the "
+"``table`` attribute only the values of identifiers of objects of the "
+"``class`` will be displayed. Attributes used as identifiers are listed in "
+"the ``class`` meta class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:31
 msgid ""
@@ -5963,6 +6294,10 @@ msgid ""
 "``\"semantic\": \"name|link\"``. В зависимости от типа атрибута результат"
 " будет разный:"
 msgstr ""
+"To display the values of the ``name`` and ``link`` attributes in the "
+"``table``\\ attribute, and not the values of identifiers, you need to write "
+"``\"semantic\": \"name|link\"``. Depending on the type of attribute, the "
+"result will be different:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:34
 msgid ""
@@ -5972,30 +6307,39 @@ msgid ""
 "например ``\"semantic\": \"name|,  |link\"`` или ``\"semantic\": \"У "
 "объекта есть 2 атрибута:|name|,  |link\"``."
 msgstr ""
+"if the ``table`` attribute is a reference, then the values of the ``name`` "
+"and ``link`` attributes separated by spaces will be filled in. Here you can "
+"use additional words and expressions using the ``|``\\| sign, for example ``"
+"\" semantic \":\" name|, |link\"`` or ``\"semantic\":\"The object has 2 "
+"attributes:|name|, |link\"``;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:36
 msgid ""
 "Если атрибут ``table`` является коллекцией объектов класса ``class``\\ , "
 "то в нем будут выведеные колонки ``name`` и ``link``."
 msgstr ""
+"If the ``table`` attribute is a collection of objects of the ``class``\\ "
+"class, then it will display the ``name`` and ``link`` columns."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:39
 msgid "Формат отображения в семантике"
-msgstr ""
+msgstr "Display format in semantics"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:42
 msgid "Можно обрезать вывод с помощью: ``[]``. .. code-block::"
-msgstr ""
+msgstr "You can limit the output using: ``[]``. .. code-block::"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:47
 msgid ""
 "Доступно разыменование через ``.``  т.е. доступ во вложенный объект. .. "
 "code-block::"
 msgstr ""
+"Available dereferencing through ``.``, that is access to the nested object. "
+".. code-block::"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:54
 msgid "Отображение семантики на форме"
-msgstr ""
+msgstr "Display semantics on form"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:58
 msgid ""
@@ -6003,28 +6347,39 @@ msgid ""
 "в качестве заголовка выводим только значение из поля \"caption\" узла "
 "навигации."
 msgstr ""
+"In the lists of the first level (opened directly by the navigation node), "
+"only the value from the \"caption\" field of the navigation node is "
+"displayed as a title."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:61
 msgid ""
 "В списках выбора в заголовок выводим только значение из поля \"caption\" "
 "класса объектов списка."
 msgstr ""
+"In the selection lists we display only the value from the \"caption\" field "
+"of the class of the list objects as a title."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:64
 msgid "В форме редактирования в заголовок выводим только семантику объекта."
 msgstr ""
+"In the edit form we display only the semantics of the object as a title."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:67
 msgid ""
 "В форме создания в заголовок выводим только значение из поля \"caption\" "
 "класса."
 msgstr ""
+"In the creation form we display only the value from the \"caption\" field of "
+"the class as a title."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:70
 msgid ""
 "В списках выбора над заголовком мелким шрифтом выводим строку \"Выбор "
 "значения атрибута <...> объекта <...>\"."
 msgstr ""
+"In the selection lists we display the following line in fine print \""
+"Selecting the value of the attribute <...> of the object <...>\" above the "
+"title."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:73
 msgid ""
@@ -6032,6 +6387,9 @@ msgid ""
 "заголовком мелким шрифтом выводим строку \"Создание объекта в "
 "коллекции/по ссылке <...> объекта <...>\"."
 msgstr ""
+"In the creation form, if an object is created in a collection or a "
+"reference, we display the following line in fine print \"Creating an object "
+"in the collection/by reference <...> object <...>\" above the title."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/semantic.rst:81
 msgid ""
@@ -6040,18 +6398,21 @@ msgid ""
 "</docs/en/2_system_descriptionmetadata_structure/meta_class/semantic.md>`_"
 " &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/"
+"2_system_descriptionmetadata_structure/meta_class/semantic.md>`_ &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/time_user_tracker.rst:9
 msgid "Предыдущая страница: `Наследование <ancestor.md>`_"
-msgstr ""
+msgstr "The previous page: `Ancestor <ancestor.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/time_user_tracker.rst:12
 msgid "Метки времени создания и изменения"
-msgstr ""
+msgstr "Time tag of created objects and committed changes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/time_user_tracker.rst:14
 msgid "Речь идет о следующих полях общей части меты классов:"
-msgstr ""
+msgstr "These are the following fields of the main part of the meta class:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/time_user_tracker.rst:17
 msgid ""
@@ -6060,6 +6421,10 @@ msgid ""
 "соответствующего атрибута класса, ``\"name\"`` которого и вносится в "
 "данное поле."
 msgstr ""
+"``\"creationTracker\"`` - **Time tag of created objects**\\: allows you to "
+"save the date/time of creation of the object in the class. It requires the "
+"corresponding class attribute, ``\"name\"`` of which is to be entered into "
+"this field."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/time_user_tracker.rst:18
 msgid ""
@@ -6068,10 +6433,14 @@ msgid ""
 "соответствующего атрибута класса, ``\"name\"`` которого и вносится в "
 "данное поле."
 msgstr ""
+"``\"changeTracker\"`` - **Time tag of committed changes**\\: allows you to "
+"save the date/time of committed changes of the object in the class. It "
+"requires the corresponding class attribute, ``\"name\"`` of which is to be "
+"entered into this field."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/time_user_tracker.rst:87
 msgid "Метки пользователя создавшего и измененившего объект"
-msgstr ""
+msgstr "Tag of the user who created and changed the object"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/time_user_tracker.rst:91
 msgid ""
@@ -6080,6 +6449,10 @@ msgid ""
 "соответствующего атрибута класса, ``\"name\"`` которого и вносится в "
 "данное поле."
 msgstr ""
+"``\"creatorTracker\"`` - **Tag of the user who created the object**\\: "
+"allows you to save the name of the user who created the object in the class. "
+"It requires the corresponding class attribute, ``\"name\"`` of which is to "
+"be entered into this field."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/time_user_tracker.rst:94
 msgid ""
@@ -6088,10 +6461,14 @@ msgid ""
 "соответствующего атрибута класса, ``\"name\"`` которого и вносится в "
 "данное поле."
 msgstr ""
+"``\"editorTracker\"`` - **Tag of the user who changed the object**\\ : "
+"allows you to save the name of the user who changed the object in the class. "
+"It requires the corresponding class attribute, ``\"name\" of which is to be "
+"entered into this field."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/time_user_tracker.rst:182
 msgid "Следующая страница: `Журналирование изменений <journaling.md>`_"
-msgstr ""
+msgstr "The next page: `Journaling the changes <journaling.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/time_user_tracker.rst:187
 msgid ""
@@ -6100,15 +6477,18 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/time_user_tracker.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/time_user_tracker.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_collection14.rst:9
 msgid "Предыдущая страница: `Ссылка <type_reference13.md>`_"
-msgstr ""
+msgstr "The previous page: `Reference <type_reference13.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_collection14.rst:15
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_reference13.rst:12
 msgid "Общее описание"
-msgstr ""
+msgstr "Description"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_collection14.rst:17
 msgid ""
@@ -6116,6 +6496,9 @@ msgid ""
 " объектов. Данные объекты могут быть объектами любого класса включая "
 "исходный."
 msgstr ""
+"**Collection** - data type that allows to display the list of other objects "
+"in one. The data of the object can be the object of any class including the "
+"initial."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_collection14.rst:23
 msgid ""
@@ -6124,6 +6507,11 @@ msgid ""
 "указать ссылочный атрибут вложенного объекта по которому формируется "
 "связь. **См. Обратные ссылки в контексте коллекций.**"
 msgstr ""
+"``one-to-many`` - is the classic connection of the heir object to the "
+"ancestor object. Indicates the presence of a container and a nested object "
+"with a reference to the container. In the container, specify the collection "
+"and in the collection specify the reference attribute of the nested object. "
+"**See Back references**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_collection14.rst:24
 msgid ""
@@ -6131,6 +6519,9 @@ msgid ""
 "указать класс вложенных элементов - связи создаются при помещении в "
 "коллекцию и хранятся как отдельные сущности в БД. **См. Коллекции.**"
 msgstr ""
+"``many-to-many`` - is determined through a collection without references and "
+"a class of nested elements — connections are created in the collection and "
+"stored as separate entities in the DB. **See Collection**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_collection14.rst:25
 msgid ""
@@ -6138,6 +6529,9 @@ msgid ""
 "основании коллекции в другом объекте. то другая сторона связи задается "
 "через *backColl*. **См. Обратные коллекции.**"
 msgstr ""
+"``back collection`` - is similar to the one-to-many connection but in the "
+"opposite direction - connection from the reference object. Set the "
+"connection using the *backColl* property. **See Back collection**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_collection14.rst:27
 msgid ""
@@ -6145,10 +6539,13 @@ msgid ""
 " `\\ **Атрибут коллекции и обратной коллекции** "
 "<atr_itemclass_backcoll.md>`_."
 msgstr ""
+"See full description of ``Collection`` type in the attribute part of the "
+"meta class - `\\ **Collection and Back collection** "
+"<atr_itemclass_backcoll.md>`_."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_collection14.rst:30
 msgid "Следующая страница: `Структура <type_isstruct16.md>`_"
-msgstr ""
+msgstr "The next page: `Structure <type_isstruct16.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_collection14.rst:35
 msgid ""
@@ -6157,24 +6554,29 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/type_collection14.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/type_collection14.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_datetime9.rst:9
 msgid "Назад: `Типы атрибутов <property_types.md>`_"
-msgstr ""
+msgstr "Back: `Attribute types <property_types.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_datetime9.rst:12
 msgid "Тип атрибута дата/время"
-msgstr ""
+msgstr "Date/time attribute type"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_datetime9.rst:17
 msgid ""
 "**Тип атрибута дата/время** - представляет собой дату в формате ISODate. "
 "Может быть отображена как дата, либо как дата-время."
 msgstr ""
+"**Attribute type date/time** - is the date in ISODate format. It can be "
+"displayed as a date, or as a date-time."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_datetime9.rst:20
 msgid "Режимы даты и времени"
-msgstr ""
+msgstr "\"Date\" and \"Time\" modes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_datetime9.rst:22
 msgid ""
@@ -6182,6 +6584,8 @@ msgid ""
 "меты класса. Доступно 3 режима хранения даты - реальный, локализованный, "
 "универсальный:"
 msgstr ""
+"The modes of date and time types are set in the ``mode`` of attribute in the "
+"meta view:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_datetime9.rst:27
 msgid ""
@@ -6189,6 +6593,9 @@ msgid ""
 "поясе. При отображении приводится к часовому поясу пользователя. Т.е. "
 "01.01.2017 заданное на Камчатке в Хабаровске отобразится как 31.12.2016."
 msgstr ""
+"0 - **Actual** (by default). Date is stored without time zone. When "
+"displayed, it is converted to the user's time zone. That means 01/01/2017 "
+"set in Moscow, in Paris will be displayed as 12/31/2016."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_datetime9.rst:30
 msgid ""
@@ -6200,6 +6607,14 @@ msgid ""
 "поясом новой даты. При этом в БД хранится РЕАЛЬНЫЙ момент времени, что "
 "нужно учитывать в условиях выборки задаваемых хардкодом в мете."
 msgstr ""
+"1 - **Localized**. The date is stored with the time zone in which it was "
+"set. When displayed, it is assigned to this time zone. That means the preset "
+"date is 01/01/2017 in Paris, in Moscow it will also be displayed - 01/01/"
+"2017. But it is more correct to display it with the indication of the time "
+"zone, i.e. 01/01/2017 (+11). When editing, the time zone is overlapped by "
+"the time zone of the new date. In this case, the ACTUAL time is stored in "
+"the DB, which must be taken into account in the sample conditions specified "
+"by the hardcode in the meta."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_datetime9.rst:33
 msgid ""
@@ -6212,6 +6627,13 @@ msgid ""
 " когда важен не реальный, а формальный момент времени. Либо, когда не "
 "нужно учитывать время вообще."
 msgstr ""
+"2 - **Universal**. The date is saved as if it was set in UTC. So it isn't "
+"converted to the UTC, but saves in the UTC just as it was entered. I. e. if "
+"we entered Moscow time in Moscow on 01/01/2017, then it will remain as \"01/"
+"01/2017 00:00 UTC\". It is displayed in any time zone just as it was "
+"entered. Use for dates in the details (date of birth, date of issue of the "
+"document, etc.), i.e. when the formal moment of time is important or when it "
+"is not necessary to consider time in general."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_datetime9.rst:212
 msgid ""
@@ -6220,10 +6642,13 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/type_datetime9.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/type_datetime9.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:6
 msgid "Предыдущая страница: `Пользовательский тип <type_user17.md>`_"
-msgstr ""
+msgstr "The previous page: `User type <type_user17.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:11
 msgid ""
@@ -6232,10 +6657,13 @@ msgid ""
 "Значение свойства \"type\" для атрибута, имеющего тип геокоординаты равно"
 " 100."
 msgstr ""
+"**The Geodata** attribute type - stores coordinates with unique views for "
+"creating and editing forms. The value of the \"type\" property for Geodata "
+"attribute type is 100."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:14
 msgid "Описание:"
-msgstr ""
+msgstr "Description:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:16
 msgid ""
@@ -6245,10 +6673,14 @@ msgid ""
 "отображается только кнопка \"Задать координаты\". *Доступно только в "
 "студии*"
 msgstr ""
+"If the attribute has a geodata type and the coordinates are specified on the "
+"object creation/editing form, then the Map field with coordinates and the \""
+"Change\" button are displayed. If the coordinates aren't specified, then "
+"only the \"Set coordinates\" button is displayed. *Available only in Studio*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:19
 msgid "Особенности работы"
-msgstr ""
+msgstr "Specificity of work"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:21
 msgid ""
@@ -6256,10 +6688,14 @@ msgid ""
 "создании формы - то нужно определять координаты автоматически по данным "
 "адреса из атрибутов указанных в свойствах геометки."
 msgstr ""
+"If the \"autoassigned\" property is set to: true and the data is not "
+"specified when creating a form, then coordinates must be determined "
+"automatically from the address data from the attributes specified in the "
+"geodata properties."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:24
 msgid "Способы отображения на форме"
-msgstr ""
+msgstr "Attributes on the form"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:26
 msgid ""
@@ -6267,10 +6703,12 @@ msgid ""
 "представления геообъект. Геообъект может быть отображён на форме в одном "
 "из трёх режимов:"
 msgstr ""
+"Use the geo-object view type to display the attribute of the geodata type on "
+"the form. There are three display modes for geo-object in the meta view:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:30
 msgid "**Карта (0)** - геообъект отображается на карте;"
-msgstr ""
+msgstr "**Map (0)** - geo-object is displayed on the map;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:31
 msgid ""
@@ -6278,34 +6716,41 @@ msgid ""
 "адресу можно найти место и переместить туда геообъект. Или же можно "
 "просто задать координаты геообъекта;"
 msgstr ""
+"**Search by address (1)** - geo-object is displayed on the map, where you "
+"can search by address and move the geo-object. Or you can simply specify the "
+"coordinates of the geo-object;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:32
 msgid ""
 "**Холст (2)** - геообъект отображается на карте, можно задать "
 "интерактивное отображение геообъекта на карте."
 msgstr ""
+"**Canvas (2)** - geo-object is displayed on the map, you can set an "
+"interactive display of the geo-object."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:34
 msgid ""
 "Режим отображения задаётся указанием соответствующей цифры в поле "
 "``\"mode\"`` в **мете представлений класса**\\ :"
 msgstr ""
+"The display mode is set by specifying the corresponding number in the field "
+"``\"mode\"`` in **Meta view of the class**\\:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:36
 msgid "\"mode\": 0, – Режим отображения Карта"
-msgstr ""
+msgstr "\"mode\": 0, – Map display mode"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:38
 msgid "\"mode\": 1, – Режим отображения поиск по адресу"
-msgstr ""
+msgstr "\"mode\": 1, – Search by address display mode"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:40
 msgid "\"mode\": 2, – Режим отображения Холст"
-msgstr ""
+msgstr "\"mode\": 2, – Canvas display mode"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:43
 msgid "Способы хранения в БД"
-msgstr ""
+msgstr "Storage in the DB"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:45
 msgid ""
@@ -6313,28 +6758,33 @@ msgid ""
 "значениями через запятую, строки в формате JSON-массива или строки в "
 "формате JSON-объекта."
 msgstr ""
+"The attribute data of the geodata type is stored in the BD as a comma-"
+"separated string with values, a string as a JSON-array or a string as a JSON-"
+"object."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:48
 msgid "Пример структуры атрибута в режиме Карта (0) в JSON:"
-msgstr ""
+msgstr "Example of attribute structure in a Map (0) in JSON:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:50
 msgid ""
 "В логическом имени атрибута (\\ ``caption``\\ ) указан режим отображения "
 "(\\ ``mode``\\ ) для разделения атрибутов с одинаковым типом."
 msgstr ""
+"In the logic name (\\ ``caption``\\ ) of the attribute you can set the "
+"display mode (\\ ``mode``\\ ) to distinguish attributes of the same type."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:85
 msgid "Пример структуры атрибута в режиме Поиск по адресу (1) в JSON:"
-msgstr ""
+msgstr "Example of attribute structure in a Search by address (1) in JSON:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:120
 msgid "Пример структуры атрибута в режиме Холст (2) в JSON:"
-msgstr ""
+msgstr "Example of attribute structure in a Canvas (2) in JSON:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:155
 msgid "Следующая страница: `Расписание <type_schedule210.md>`_"
-msgstr ""
+msgstr "The next page: `Schedule <type_schedule210.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_geodata100.rst:160
 msgid ""
@@ -6343,6 +6793,9 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/type_geodata100.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/type_geodata100.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_isstruct16.rst:9
 msgid "Предыдущая страница: `Тип \"Коллекция\" <type_collection14.md>`_"
