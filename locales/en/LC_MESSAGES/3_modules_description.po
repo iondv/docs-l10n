@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-05-08 04:41+0000\n"
+"PO-Revision-Date: 2020-05-13 08:04+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "3_modules_description/en/>\n"
@@ -488,7 +488,7 @@ msgstr "Ability to delete resource objects, not used for navigation"
 
 #: ../../3_modules_description/admin_security.rst:80
 msgid "Использование"
-msgstr "Create"
+msgstr "How to use"
 
 #: ../../3_modules_description/admin_security.rst:81
 msgid "Возможность создания объектов ресурса, не применяется для навигации"
