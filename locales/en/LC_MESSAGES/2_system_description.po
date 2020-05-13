@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-26 07:49+0000\n"
-"PO-Revision-Date: 2020-05-12 05:58+0000\n"
+"PO-Revision-Date: 2020-05-13 08:04+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "2_system_description/en/>\n"
@@ -6799,11 +6799,11 @@ msgstr ""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_isstruct16.rst:9
 msgid "Предыдущая страница: `Тип \"Коллекция\" <type_collection14.md>`_"
-msgstr ""
+msgstr "The previous page: `Collection type <type_collection14.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_isstruct16.rst:12
 msgid "Тип \"Структура [16]\""
-msgstr ""
+msgstr "Structure"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_isstruct16.rst:17
 msgid ""
@@ -6814,18 +6814,24 @@ msgid ""
 "такого свойства, а будут соответствующие атрибуты класса-структуры. Для "
 "них можно добавить колонки."
 msgstr ""
+"In the meta view of creation and change use the type \"Group [0]\" for the "
+"attributes of the \"Structure [16]\" type. If you do not specify the fields "
+"in the group, they are created automatically according to the meta. In list "
+"views, there is no need to create columns for structure attributes, the "
+"object will not have such a property, but the corresponding attributes of "
+"the structure-class will be present. For them, you can add columns."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_isstruct16.rst:292
 msgid "Следующая страница: `Пользовательский тип <type_user17.md>`_"
-msgstr ""
+msgstr "The next page: `User type <type_user17.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_reference13.rst:6
 msgid "Предыдущая страница:\\ `Типы атрибутов <property_types.md>`_"
-msgstr ""
+msgstr "The previous page:\\ `Attribute types <property_types.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_reference13.rst:9
 msgid "Ссылки"
-msgstr "Links"
+msgstr "Reference"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_reference13.rst:14
 msgid ""
@@ -6833,6 +6839,9 @@ msgid ""
 "Данный объект может быть объектом исходного класса, если ссылка указывает"
 " на класс, в котором она определена."
 msgstr ""
+"**Reference** - is a data type that stores a simple value and that system "
+"interprets as a reference to the key attribute of an object of another "
+"class. This object can be an object of any class including the original one."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_reference13.rst:16
 msgid ""
@@ -6841,22 +6850,30 @@ msgid ""
 "\"Коллекция\" в том, что в поле атрибута типа \"Ссылка\" может "
 "отображаться и храниться только один объект класса по ссылке."
 msgstr ""
+"Values in the attribute of the \"Reference\" type are displayed in "
+"accordance with the semantics, specified in the reference class of this "
+"attribute. The main difference from the \"Collection\" type is that only one "
+"object of the reference class can be displayed and stored in the attribute "
+"field of the \"Reference\" type."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_reference13.rst:18
 msgid ""
 "См. полное описание типа ``Ссылка`` в атрибутивной части меты класса -\\ "
 "`\\ **Атрибут  ссылки и обратной ссылки** <atr_ref_backref.md>`_."
 msgstr ""
+"See the full description of the ``Reference`` type in the attribute part of "
+"the meta class -\\ `\\ **Reference and Back reference** "
+"<atr_ref_backref.md>`_."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_reference13.rst:21
 msgid "Способы задания ссылок :"
-msgstr ""
+msgstr "Types of connections of the \"Reference\" type:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_reference13.rst:23
 msgid ""
 "Способы задания ссылок с точки зрения используемых полей атрибутивной "
 "части меты классов:"
-msgstr ""
+msgstr "Reference type in context of the attribute part of the meta class:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_reference13.rst:26
 msgid ""
@@ -6867,6 +6884,13 @@ msgid ""
 "свойство уникальности - ``true``. **См. Обратные ссылки в контексте "
 "ссылок.**"
 msgstr ""
+"``one-to-one`` - similar to the one-to-many connection, means the presence "
+"of a reference and a nested object with a bonded reference to the source "
+"object. In the link, you must specify a bonded reference, and in the bonded "
+"reference you must indicate the reference attribute of the nested object by "
+"which the connection is formed. Be sure to specify the ``\"unique \": true`` "
+"property in the reference attribute. **See Back references in the context of "
+"references.**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_reference13.rst:27
 msgid ""
@@ -6874,10 +6898,14 @@ msgid ""
 "вложенного элемента - связи создаются при помещении в ссылку и хранятся "
 "как отдельная сущность в БД. **См. Ссылки.**"
 msgstr ""
+"``one-to-many`` - the classic connection of the heir object to the ancestor "
+"object. Define a reference and specify the class of the nested object, after "
+"connections are created and a reference stored as a separate entities in the "
+"DB. **See References.**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_reference13.rst:30
 msgid "Следующая страница: `Коллекция <type_collection14.md>`_"
-msgstr ""
+msgstr "The next page: `Collection <type_collection14.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_reference13.rst:35
 msgid ""
@@ -6886,24 +6914,29 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/type_reference13.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/type_reference13.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:6
 msgid "Предыдущая страница: `Геоданные <type_geodata100.md>`_"
-msgstr ""
+msgstr "The previous page: `Geodata <type_geodata100.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:9
 msgid "Расписание"
-msgstr ""
+msgstr "Schedule"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:11
 msgid ""
 "**Расписание** - тип данных реализующий хранение периодов времени или "
 "периодичность выполнения регулярных событий."
 msgstr ""
+"**Schedule** - is a data type that stores the time periods or the frequency "
+"of regular events."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:14
 msgid "Режим отображения атрибута на форме:"
-msgstr ""
+msgstr "Attributes on the form:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:16
 msgid ""
@@ -6911,18 +6944,21 @@ msgid ""
 " 210`` – расписание отображается в табличном виде ``CALENDAR = 220`` – "
 "расписание отображается в виде календаря"
 msgstr ""
+"There are two types of fields for \"Schedule\" in the meta view: ``SCHEDULE ="
+" 210`` – schedule is displayed as a table; ``CALENDAR = 220`` – schedule is "
+"displayed as a calendar"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:21
 msgid "Пример структуры атрибута в табличном виде:"
-msgstr ""
+msgstr "Example of attribute structure in the table form:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:52
 msgid "Пример структуры атрибута в виде календаря:"
-msgstr ""
+msgstr "Example of attribute structure in the calendar form:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:83
 msgid "Пример хранения расписания в БД:"
-msgstr ""
+msgstr "Storage in the DB:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:85
 msgid ""
@@ -6930,6 +6966,9 @@ msgid ""
 "с указанием атрибута ``duration``. Пропуски во временном периоде "
 "указываются в атрибуте ``skipped``."
 msgstr ""
+"Time periods are specified as periodicity objects in the ``occurs`` field "
+"with the ``duration`` property. Gaps in the time period are specified in the "
+"``skipped`` field."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:118
 msgid ""
@@ -6937,10 +6976,13 @@ msgid ""
 "значений, кроме атрибута ``year`` - год. Атрибут ``year``\\ , задаётся в "
 "виде частоты, так как является не периодической характеристикой."
 msgstr ""
+"In the periodicity object, attributes are set within their normal values, "
+"except for the ``year`` attribute. The ``year``\\ attribute is set as a "
+"frequency, since it is not a periodic characteristic."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:121
 msgid "**Пример**\\ :"
-msgstr ""
+msgstr "**Example**\\ :"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:138
 msgid ""
@@ -6948,6 +6990,9 @@ msgid ""
 "повторяется один раз в два года, пятого марта в 9 часов 20 минут 30 "
 "секунд и только если день выпадает на понедельник."
 msgstr ""
+"The example shows the time period of 30 seconds, which is repeated once "
+"every two years, on March 5 at 9 hours 20 minutes 30 seconds and only if the "
+"day falls on Monday."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_schedule210.rst:146
 msgid ""
@@ -6956,14 +7001,17 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/type_schedule210.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/type_schedule210.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:6
 msgid "Предыдущая страница: `Структура <type_isstruct16.md>`_"
-msgstr ""
+msgstr "The previous page: `Structure <type_isstruct16.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:9
 msgid "Пользовательские типы"
-msgstr ""
+msgstr "User types"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:11
 msgid ""
@@ -6973,42 +7021,46 @@ msgid ""
 "случаях, когда необходимо применить маску на значения определенного "
 "атрибута в различных классах."
 msgstr ""
+"**User type** - ``\"type\": 17``\\, sets a user type value based on the base "
+"type. It is located in the ``meta``\\ directory, ``types`` directory + [type "
+"name].type.json. Use it when you need to apply a mask on the values of a "
+"particular attribute in different classes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:14
 msgid "Допустимые базовые типы"
-msgstr ""
+msgstr "Acceptable base types"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:16
 msgid "При создании пользовательского типа доступны следующие базовые типы:"
-msgstr ""
+msgstr "There are five base types to create the user type:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:19
 msgid "Строка [0]"
-msgstr ""
+msgstr "String [0]"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:20
 msgid "Целое [6]"
-msgstr ""
+msgstr "Integer [6]"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:21
 msgid "Действительное [7]"
-msgstr ""
+msgstr "Real [7]"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:22
 msgid "Дата/Время [9]"
-msgstr ""
+msgstr "Date/Time [9]"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:23
 msgid "Десятичное [8]"
-msgstr ""
+msgstr "Decimal [8]"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:26
 msgid "Пример пользовательского типа userPassport.type.json"
-msgstr ""
+msgstr "Example of the user type - userPassport.type.json"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:41
 msgid "Применение"
-msgstr ""
+msgstr "How to use?"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:43
 msgid ""
@@ -7016,10 +7068,13 @@ msgid ""
 "\"Пользовательский [17]\" - ``\"type\": 17`` и указанием наименования "
 "пользовательского типа в поле \"refClass\"."
 msgstr ""
+"Custom types are connected by specifying the attribute type - \"User type "
+"[17]\" - ``\" type \": 17`` and specifying the name of the user type in the "
+"\"refClass\" field."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:46
 msgid "Пользовательский тип в JSON"
-msgstr ""
+msgstr "User type [17] in JSON"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:80
 msgid ""
@@ -7027,10 +7082,13 @@ msgid ""
 "(Пользовательский тип [17])\"`` будет применяться маска, заданая для типа"
 " ``\"userPassport\"`` по ссылке свойства ``\"refClass\"``."
 msgstr ""
+"Therefore, when you enter a value for the ``\"Passport Number (User Type "
+"[17])\"`` attribute, the mask specified for the ``\"userPassport\"`` type "
+"will be applied by the reference of the ``\"refClass\"`` property."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:83
 msgid "Следующая страница: `Геоданные <type_geodata100.md>`_"
-msgstr ""
+msgstr "The next page: `Geodata <type_geodata100.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_class/type_user17.rst:88
 msgid ""
@@ -7039,25 +7097,30 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_class/type_user17.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_class/type_user17.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:9
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/title.rst:9
 msgid "Назад: `Мета узлов навигации <navigation_nodes.md>`_"
-msgstr ""
+msgstr "Back: `Meta node navigation <navigation_nodes.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:12
 msgid "Условия выборки - ``\"conditions\"``"
-msgstr ""
+msgstr "Sample conditions - ``\"conditions\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:14
 msgid ""
 "**Условия выборки** ``\"conditions\"`` - это фильтры при открытии списка "
 "объектов."
 msgstr ""
+"**Sample conditions** ``\"conditions\"`` - are filters when opening the list "
+"of objects."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:17
 msgid "Сохраненные фильтры"
-msgstr ""
+msgstr "Saved filters"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:19
 msgid ""
@@ -7065,18 +7128,20 @@ msgid ""
 " которые подходят для данного окна. Подходящие фильтры состоят из двух "
 "частей:"
 msgstr ""
+"Before opening any page, in the registries, the system will read filters to "
+"find suitable ones for this window. Suitable filters consist of two parts:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:22
 msgid "Общие фильтры, которые применимы для всех классов."
-msgstr ""
+msgstr "General filters for all classes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:23
 msgid "Фильтры сохраненные конкретно для данного класса."
-msgstr ""
+msgstr "Filters for a specific class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:26
 msgid "Общие фильтры для всех классов"
-msgstr ""
+msgstr "General filters for all classes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:28
 msgid ""
@@ -7085,16 +7150,23 @@ msgid ""
 "класса у общего фильтра стоит ключевое слово ``ALL``\\ , у персональных "
 "фильтров в этом атрибуте стоит название класса, для которого он применим."
 msgstr ""
+"**General filters for all classes** - are filters that are displayed for all "
+"opened classes. The difference in the code is that in the class attribute "
+"the general filter has the keyword ``ALL``\\ , and the personal filters ("
+"filters for specific classes) in this attribute have the name of the class "
+"for which it is applicable."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:30
 msgid ""
 "Чтобы сделать фильтр для всех классов, при сохранении поставьте \"Для "
 "всех классов\"."
 msgstr ""
+"When saving, click \"For all classes\" button to make this filter available "
+"for all classes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:33
 msgid "Фильтры для конкретных классов"
-msgstr ""
+msgstr "Filters for specific classes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:35
 msgid ""
@@ -7102,16 +7174,21 @@ msgid ""
 "этого класса, сгенерируйте фильтр и сохраните его убедившись, что поле "
 "\"Для всех классов\" не отмечено."
 msgstr ""
+"To create a **filter for a specific class**\\, open the objects of the "
+"specific class, generate a filter, save it and make sure that the \"For all "
+"classes\" field is empty."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:38
 msgid "Реализация в коде"
-msgstr ""
+msgstr "Code realization"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:40
 msgid ""
 "Реализована единая спецификация выражений, как для вычисляемых выражений,"
 " так и для условий отбора и расчетов в агрегации."
 msgstr ""
+"For now, we have a unified specification of expressions for both computed "
+"expressions and for the sample conditions and calculations in aggregation."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:42
 msgid ""
@@ -7121,22 +7198,31 @@ msgid ""
 "участвовать в создании фильтров и как именно они должны выглядеть и "
 "сохраняться (например дата и чекбокс выглядят по разному)."
 msgstr ""
+"We mainly work with the _list-filter-ui file - it starts the search for the "
+"necessary filters, and also parses the current data to create new filters. "
+"The _list-filter-ui file describes which attributes can participate in the "
+"creation of filters and how exactly they should look like and be saved (for "
+"example, the date and checkbox look differently)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:45
 msgid ""
 "В параметре ``cond`` находятся данные фильтра, которые в последствие "
 "подставляются в условие для поиска (в файле _metaCRUD.js)."
 msgstr ""
+"The ``cond`` property contains the filter data that is subsequently "
+"substituted in the search condition (in the _metaCRUD.js file)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:64
 msgid ""
 "**NB:** новые фильтры - ``min`` и ``max`` расширяют возможности создания "
 "фильтров и условий в меню."
 msgstr ""
+"**NB:** New available filters - ``min`` and ``max`` expand the possibilities "
+"of creating filters and conditions in the menu."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:67
 msgid "Необходимая мета"
-msgstr ""
+msgstr "Necessary meta"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:69
 msgid ""
@@ -7145,6 +7231,10 @@ msgid ""
 "классами и метой для системы. Кроме одного класса ничего более не нужно. "
 "**Пересмотреть**"
 msgstr ""
+"The necessary meta is the meta class of filters - ``ion_filter``. It is "
+"located in the ``calc``\\ directory, which by default is a folder with "
+"classes and a meta for the system. Except for one class, nothing more is "
+"needed. **To be revised**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:74
 msgid ""
@@ -7154,48 +7244,60 @@ msgid ""
 "атрибутах, при этом без лишних запросов к базе, что повышает "
 "производительность."
 msgstr ""
+"If the search proceeds according to the \"equal\" or \"contains\" "
+"operations, then it proceeds in the semantics of this object. If the search "
+"proceeds according to the \"maximum\" or \"minimum\" operations, then it "
+"searches the value of the field. Thus, it is possible to search in the "
+"reference attributes, without unnecessary queries to the DB, which improves "
+"the performance."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:81
 msgid "Фильтры в меню"
-msgstr ""
+msgstr "Menu filters"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:83
 msgid ""
 "Есть возможность не только выдавать отсортированные данные в списке из "
 "условий меню, но и ограничивать выборки, т.е.применять фильтры."
 msgstr ""
+"It is possible not only to produce sorted data in the list of menu "
+"conditions, but also to limit the samples, I.e., to apply filters."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:86
 msgid "Мета отвечающая за работу фильтров"
-msgstr ""
+msgstr "Meta for the filter operations"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:89
 msgid "Пример меню с фильтром"
-msgstr ""
+msgstr "Example of menu with filter"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:109
 msgid "Атрибут ``conditions`` содержит два объекта:"
-msgstr ""
+msgstr "The ``conditions`` attribute contains two objects:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:112
 msgid "``property`` - свойство, по которому происходит фильтрация"
-msgstr ""
+msgstr "``property`` - filtering property"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:113
 msgid "``operation`` - операция фильтрации"
-msgstr ""
+msgstr "``operation`` - filtering operation"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:115
 msgid ""
 "В данном случае этот фильтр имеет такой смысл - *показать все объекты "
 "класса ``naselenie`` с минимальным годом*."
 msgstr ""
+"In this case, this filter has the following meaning - *to show all objects "
+"of the ``population`` class with a minimum year*."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:117
 msgid ""
 "Если нужно указать значение, то третьим атрибутом пойдет ``value`` и "
 "значение для поиска. Например:"
 msgstr ""
+"If you need to specify a value, the third attribute will be ``value`` and "
+"the value to search, for example:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:129
 msgid ""
@@ -7203,6 +7305,9 @@ msgid ""
 " переходе по данной навигации необходимо отображать объекты класса "
 "наследника данного класса, то применяется фильтр вида:"
 msgstr ""
+"The class page for the navigation node is the parent class. When navigating "
+"through this navigation, it is necessary to display objects of the class of "
+"an inheritor of this class, then use a filter of the following type:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:139
 msgid ""
@@ -7212,6 +7317,11 @@ msgid ""
 "объекты, у которых атрибут ``atr1`` является объектом класса-наследника "
 "``childClass``\\ *."
 msgstr ""
+"where ``atr1.__class`` is an attribute of the parent class by which objects "
+"are selected, ``childClass`` - is a heir, whose objects are displayed in the "
+"navigation. This filter has the following meaning - *to show on the list "
+"form only those objects that have the ``atr1`` attribute that is an object "
+"of ``childClass``\\ class*."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:212
 msgid ""
@@ -7220,16 +7330,23 @@ msgid ""
 " равно ``null``\\ , то кодируется логическое условие, по которому "
 "объединяются вложенные условия отбора (указаны в скобках в таблице выше)."
 msgstr ""
+"**NB:** the operation code corresponds to different values of operations, "
+"depending on whether the attribute is selected or not. If the ``\"property\""
+"`` field is ``null``\\, then a logical condition is coded by which the "
+"nested selection conditions are combined (indicated in parentheses in the "
+"table above)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:215
 msgid "Операции для дат"
-msgstr ""
+msgstr "Operations for dates"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:239
 msgid ""
 "Аргументы ``DATEADD``\\ : *дата, интервал, ед.изм интервала [ms, s, min, "
 "h, d, m, y] (по умолчанию - день(d))*"
 msgstr ""
+"The ``DATEADD``\\ arguments: *data, time frame, unit for measuring time [ms, "
+"s, min, h, d, m, y] (by default - day (d))*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:241
 msgid ""
@@ -7237,10 +7354,13 @@ msgid ""
 "результата [ms, s, min, h, d, m, y] (по умолчанию - день(d)), логический "
 "флаг приведения к целому числу*"
 msgstr ""
+"The ``DATEDIFF``\\ arguments: *end date, start date, unit for measuring the "
+"result [ms, s, min, h, d, m, y] (by default - day (d)), the logical flag of "
+"casting to an integer*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:244
 msgid "Сравнение текущей даты с месяцем"
-msgstr ""
+msgstr "Comparing the current date with the month"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:246
 msgid ""
@@ -7249,6 +7369,10 @@ msgid ""
 " бы в навигации показывались только те объекты, у которых значение "
 "атрибута \"Дата окончания\" - текущий месяц."
 msgstr ""
+"Setting the selection of objects in the list with the ability to compare the "
+"date value with any month of the year. For example, setting the filter in "
+"such a way that only objects where the \"End Date\" attribute value is the "
+"current month would be shown in the navigation."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:249
 msgid ""
@@ -7256,36 +7380,45 @@ msgid ""
 "добавлять или вычитать произвольное колличество месяцев и сравнивать "
 "полученный результат с необходимой датой."
 msgstr ""
+"For this, the beginning of the current month is calculated. After that, you "
+"can add or subtract an arbitrary number of months to it and compare the "
+"result with the required date."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:251
 msgid "*Вычисление конца текущего месяца*\\ :"
-msgstr ""
+msgstr "*Calculate the end of the current month:*\\ :"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:321
 msgid "Для начала вычисляется значение дня месяца для текущей даты:"
-msgstr ""
+msgstr "Firstly the day of the month is calculated for the current date:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:340
 msgid ""
 "Получено условное значение \"d\". Далее необходимо отнять полученное "
 "значение от 0 (0-d):"
 msgstr ""
+"The conditional value \"d\" is received . Next, you need to subtract the "
+"resulting value from 0 (0-d):"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:372
 msgid ""
 "Получено условное значение \"-d\". Далее к текущей дате прибавляется "
 "значение \"-d\" дней:"
 msgstr ""
+"The conditional value \"-d\" is obtained. Next to the current date the value "
+"of \"-d\" days is added:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:423
 msgid "Получено начало текущего месяца."
-msgstr ""
+msgstr "The beginning of the current month is received."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:424
 msgid ""
 "Для вычисления конца текущего месяца нужно прибавить к полученному "
 "значению начала месяца 1 месяц:"
 msgstr ""
+"To calculate the end of the current month, add 1 month to the received value "
+"of the beginning of the month:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/conditions.rst:503
 msgid ""
@@ -7294,16 +7427,21 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_navigation/conditions.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_navigation/conditions.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.rst:5
 msgid "Мета навигации"
-msgstr ""
+msgstr "Meta navigation"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.rst:9
 msgid ""
 "Предыдущая страница: `Мета представлений - типы представлений "
 "</docs/ru/2_system_description/metadata_structure/meta_view/view_types.md>`_"
 msgstr ""
+"The previous page: `Meta view - view types </docs/ru/2_system_description/"
+"metadata_structure/meta_view/view_types.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.rst:11
 msgid ""
@@ -7311,11 +7449,14 @@ msgid ""
 "блоке. Мета навигации разделяется на мету узлов навигации и мету секции "
 "навигации."
 msgstr ""
+"**Meta navigation** - adjusts the position of elements in the navigation "
+"block. Meta navigation is divided into meta navigation node and meta "
+"navigation section."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.rst:14
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_section.rst:12
 msgid "Мета секций навигации"
-msgstr ""
+msgstr "Meta navigation section"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.rst:16
 msgid ""
@@ -7323,15 +7464,18 @@ msgid ""
 "``\"name\" + .section.json`` и находится в директории ``navigation``. "
 "Например: ``workflow.section.json``."
 msgstr ""
+"`\\ **Meta section navigation** <navigation_section.md>`_ consists of ``\""
+"name\" + .section.json`` in the ``navigation`` directory. For example: "
+"``workflow.section.json``."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.rst:19
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:12
 msgid "Мета узлов навигации"
-msgstr ""
+msgstr "Meta navigation node"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.rst:21
 msgid "`\\ **Мета узлов навигации** <navigation_nodes.md>`_ состоит из:"
-msgstr ""
+msgstr "`\\ **Meta navigation node** <navigation_nodes.md>`_ consists of:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.rst:24
 msgid ""
@@ -7340,6 +7484,10 @@ msgid ""
 "находится в директории, имя которой совпадает с именем файла секции "
 "навигации к которому относится узел навигации."
 msgstr ""
+"For the first-order navigation nodes - those nodes that are directly in the "
+"navigation section: ``\"code\"`` + ``.json`` in a directory whose name is "
+"the same as the file name of the navigation section to which the navigation "
+"node belongs."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.rst:26
 msgid ""
@@ -7349,6 +7497,10 @@ msgid ""
 "Файл узла навигации будет иметь путь: "
 "``navigation\\simpleTypes\\classString.json``."
 msgstr ""
+"*Example*\\: In the ``navigation`` directory there is a file of a navigation "
+"section - ``simpleTypes.section.json``. And there is a navigation node - "
+"``classString.json``\\ in the ``simpleTypes`` directory. The navigation node "
+"file will have a path: ``navigation\\simpleTypes\\classString.json``."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.rst:29
 msgid ""
@@ -7357,6 +7509,11 @@ msgid ""
 "значение ``0``\\ ). Разница в том, что поле ``\"code\"`` у таких узлов "
 "составное и состоит из поля ``\"code\"`` группы и личного наименования."
 msgstr ""
+"For second order navigation nodes - those nodes that are of the group type ("
+"a special type of navigation nodes, the ``\"type\"`` field in which contains "
+"the value ``0``\\). The difference is that the ``\"code\"`` field of such "
+"nodes is composite and consists of the ``\"code\"`` field of the group and "
+"personal name."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.rst:32
 msgid ""
@@ -7364,10 +7521,13 @@ msgid ""
 "Это файл узла навигации ``refBase``\\ , который находится в группе "
 "``classReferense`` секции навигации ``relations``."
 msgstr ""
+"*Example*\\ : ``navigation\\relations\\classReference.refBase.json``. This "
+"is the file of the navigation node ``refBase``\\, which is located in the "
+"``classReferense`` of the ``relations`` navigation section."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.rst:35
 msgid "Следующая страница: `Мета секций навигации <navigation_section.md>`_"
-msgstr ""
+msgstr "The next page: `Meta section navigation <navigation_section.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/meta_navigation.rst:40
 msgid ""
@@ -7376,47 +7536,59 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_navigation/meta_navigation.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_navigation/meta_navigation.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:9
 msgid "Предыдущая страница: `Мета секций навигации <navigation_section.md>`_"
-msgstr ""
+msgstr "The previous page: `Meta section navigation <navigation_section.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:59
 msgid "``\"code\"``"
-msgstr ""
+msgstr "``\"code\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:61
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:97
 msgid "Строка латиницей, без пробелов"
-msgstr ""
+msgstr "String in Latin characters with no spaces"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:62
 msgid ""
 "Системное имя узла навигации может быть составным, если принадлежит узлу "
 "навигации типа Группа [0]."
 msgstr ""
+"If the type is - Group (0), then the nested navigation nodes will have a "
+"composite system name = \"code\" of the Group - dot(.) - the part that "
+"identifies the navigation node."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:66
 msgid "Задает порядок сортировки пунктов меню в пределах секции навигации"
-msgstr ""
+msgstr "Sets the sorting order of menu items in the navigation section."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:70
 msgid ""
 "Задает логику работы пункта меню, выводимые при переходе/активации "
 "значения. Накладывает ограничения на прочие поля меты узла навигации."
 msgstr ""
+"Sets the logic of the menu item, displayed during the activation of its "
+"value. It imposes restrictions on other fields of the meta node navigation."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:74
 msgid ""
 "*Группа.* Объединяет в себе другие узлы навигации по какому-либо общему "
 "признаку, не является страницей класса."
 msgstr ""
+"*Group*. Combines other navigation nodes on a common basis, but it is not a "
+"class page."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:78
 msgid ""
 "*Страница класса.* Отображает структуру и объекты класса, заданного в "
 "поле \"classname\"."
 msgstr ""
+"*Class page*. Displays the structure and objects of the class specified in "
+"the \"classname\" field."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:82
 msgid ""
@@ -7424,123 +7596,137 @@ msgid ""
 " Для таких узлов навигации нужно указывать класс и идентификатор "
 "объекта-контейнера, а также имя атрибута коллекции."
 msgstr ""
+"*Container page*. Displays a list of objects in the collection. For these "
+"navigation nodes, you must specify the class and the ID of the container "
+"object, as well as the name of the collection attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:86
 msgid "*Гиперссылка.* Осуществляет переход на ссылку, заданную в поле \"url\""
-msgstr ""
+msgstr "*Hyperlink*. Goes to the link specified in the \"url\" field."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:87
 msgid "``\"title\"``"
-msgstr ""
+msgstr "``\"title\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:88
 msgid "`\\ **Заголовок** <title.md>`_"
-msgstr ""
+msgstr "`\\ **Title** <title.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:90
 msgid "Позволяет дополнительно указать заголовок страницы."
-msgstr ""
+msgstr "Allows to optionally specify the title of the page."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:94
 msgid "Наименование узла навигации отображаемое в интерфейсе."
-msgstr ""
+msgstr "The name of the navigation node displayed in the interface."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:95
 msgid "``\"classname\"``"
-msgstr ""
+msgstr "``\"classname\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:96
 msgid "**Класс**"
-msgstr ""
+msgstr "**Class**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:98
 msgid "Если \"Тип\" - \"Страница класса (1)\", то поле обязательно к заполнению."
 msgstr ""
+"If \"Type\" is - \"class Page (1)\", the field is obligatory to be filled in."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:99
 msgid "``\"container\"``"
-msgstr ""
+msgstr "``\"container\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:100
 msgid "**ID контейнера**"
-msgstr ""
+msgstr "**Container ID**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:101
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:105
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:80
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:84
 msgid "Строка или null"
-msgstr ""
+msgstr "String or null"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:102
 msgid "Идентификатор объекта содержащего коллекцию отображаемую на странице."
 msgstr ""
+"The ID of the object containing the collection which is displayed on the "
+"page."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:103
 msgid "``\"collection\"``"
-msgstr ""
+msgstr "``\"collection\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:104
 msgid "**Атрибут коллекции**"
-msgstr ""
+msgstr "**Collection attribute**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:106
 msgid "Имя атрибута коллекции, содержимое которого надо вывести на странице."
 msgstr ""
+"The name of the collection attribute whose content you want to display on "
+"the page."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:107
 msgid "``\"url\"``"
-msgstr ""
+msgstr "``\"url\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:108
 msgid "**URL**"
-msgstr ""
+msgstr "**URL**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:109
 msgid "Гиперссылка (принимает любые строки)"
-msgstr ""
+msgstr "Hyperlink (any string is acceptable)"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:110
 msgid "Если \"Тип\" - \"Гиперссылка (3)\", то поле обязательно к заполнению."
 msgstr ""
+"If \"Type\" is - \"Hyperlink (3)\", the field is obligatory to be filled in."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:111
 msgid "``\"external\"``"
-msgstr ""
+msgstr "``\"external\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:112
 msgid "**Признак внешнего ресурса**"
-msgstr ""
+msgstr "**Sign of external resource**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:114
 msgid ""
 "Открывает страницу по ссылке в новом окне, если присвоено значение "
 "``true``."
 msgstr ""
+"Opens a page by reference in a new window, if the ``true`` value is set."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:118
 msgid ""
 "Текст, заданный в этой строке, отображается при наведении на узел "
 "навигации, которому она принадлежит."
 msgstr ""
+"The text specified in this line is displayed when you hover over the "
+"navigation node to which the string belongs."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:120
 msgid "`\\ **Условия выборки** <conditions.md>`_"
-msgstr ""
+msgstr "`\\ **Sample conditions** <conditions.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:122
 msgid ""
 "Фильтр при открытии списка объектов. Используется для узлов типа "
 "«Страница класса» и «Страница контейнера»."
 msgstr ""
+"Filter when opening a list of objects. Used for “Page Class” and “Container "
+"Page” nodes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:123
 msgid "``\"sorting\"``"
-msgstr ""
+msgstr "``\"sorting\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:124
 msgid "**Сортировка**"
-msgstr ""
+msgstr "**Sorting**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:126
 msgid ""
@@ -7549,14 +7735,18 @@ msgid ""
 " аналогично настройкам сортировки и выборки допустимых значений в "
 "атрибутах."
 msgstr ""
+"It is used for nodes of the \"Class page\" and \"Container page\" types. "
+"Here you can set the sorting options for the objects in the list. The "
+"parameters are set in the same way as the settings for the sample and "
+"sorting of valid values in attributes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:128
 msgid "**Жадная загрузка**"
-msgstr ""
+msgstr "**Eager Loading**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:129
 msgid "Объект"
-msgstr ""
+msgstr "Object"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:130
 msgid ""
@@ -7564,14 +7754,17 @@ msgid ""
 "навигациям, то правильнее ее задавать в файле deploy.json. Поэтому данный"
 " параметр используется редко."
 msgstr ""
+"The configuration of the eager loading in the meta navigation. If you need "
+"the eager loading for the class for all navigations, it's better to specify "
+"it in the deploy.json file. Therefore, this option is rarely used."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:131
 msgid "``\"pathChains\"``"
-msgstr ""
+msgstr "``\"pathChains\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:132
 msgid "**Хлебные крошки**"
-msgstr ""
+msgstr "**Bread crumbs**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:134
 msgid ""
@@ -7579,14 +7772,17 @@ msgid ""
 "объекта к вышестоящим объектам. Может быть использовано конкретной "
 "реализацией ION-приложения для оптимизации навигации."
 msgstr ""
+"Here you can define the logic for \"hierarchical\" navigation from the page "
+"object to the higher-nested object. It can be used in a specific "
+"implementation of ION application to optimize navigation."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:135
 msgid "``\"searchOptions\"``"
-msgstr ""
+msgstr "``\"searchOptions\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:136
 msgid "**Поиск в узле навигации**"
-msgstr ""
+msgstr "**Search in the navigation node**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:138
 msgid ""
@@ -7594,35 +7790,41 @@ msgid ""
 "списка: по вхождению слов или полные слова, по отдельным атрибутам или по"
 " указанным атрибутам в списке с параметрами поиска через пробел."
 msgstr ""
+"On the class level, it defines the way of searching the class objects from "
+"the view list: by the beginning of the word, by the entire word, by the "
+"attributes or by the specified attributes in the list with the search option "
+"\"with spaces\"."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:139
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/meta_workflows.rst:58
 msgid "``\"metaVersion\"``"
-msgstr ""
+msgstr "``\"metaVersion\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:140
 msgid "**Версия меты**"
-msgstr ""
+msgstr "**Metaversion**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:142
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_main.rst:89
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/meta_workflows.rst:60
 msgid "Версия метаданных."
-msgstr ""
+msgstr "Metadata versions."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:146
 msgid "Настройка поиска в узле навигации"
-msgstr ""
+msgstr "Search in the navigation node"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:164
 msgid "Структура в mongoDB (registry)"
-msgstr ""
+msgstr "Structure in mongoDB (registry)"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:188
 msgid ""
 "Следующая страница: `Мета бизнес-процессов "
 "</docs/ru/2_system_description/metadata_structure/meta_workflows/meta_workflows.md>`_"
 msgstr ""
+"The next page: `Meta workflows </docs/ru/2_system_description/"
+"metadata_structure/meta_workflows/meta_workflows.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_nodes.rst:193
 msgid ""
@@ -7631,14 +7833,17 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_navigation/navigation_nodes.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_navigation/navigation_nodes.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_section.rst:9
 msgid "Предыдущая страница: `Мета навигации <meta_navigation.md>`_"
-msgstr ""
+msgstr "The previous page: `Meta navigation <meta_navigation.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_section.rst:82
 msgid "Следующая страница: `Мета узлов навигации <navigation_nodes.md>`_"
-msgstr ""
+msgstr "The next page: `Meta node navigation <navigation_nodes.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/navigation_section.rst:87
 msgid ""
@@ -7647,16 +7852,21 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_navigation/navigation_section.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_navigation/navigation_section.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/title.rst:12
 msgid "Заголовок страницы - ``\"title\"``"
-msgstr ""
+msgstr "Page title - ``\"title\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/title.rst:14
 msgid ""
 "Поле **\"title\"** необходимо для того, чтобы задать отличный от поля "
 "``\"caption\"`` заголовок страницы в меню навигации."
 msgstr ""
+"The **\"title\"** field is used to set the page title, different from the ``"
+"\"caption\"`` field in the navigation menu."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/title.rst:19
 msgid ""
@@ -7668,6 +7878,12 @@ msgid ""
 "выбора (при открытии списка класса справочника из форм) используется "
 "``\"caption\"`` общей части меты класса."
 msgstr ""
+"When the page title is formed, firstly the system will use the value of the "
+"``\"title\"`` field of the corresponding node navigation. If the ``\"title\""
+"`` field is empty (not specified), the ``\"caption\"`` field of the meta "
+"navigation node is used to form the page title.\\ :raw-html-m2r:`<br>` When "
+"the page title is formed on the selection list pages, the system will use "
+"the ``\"caption\"`` field for the general part of the meta class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_navigation/title.rst:45
 msgid ""
@@ -7676,14 +7892,17 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_navigation/title.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_navigation/title.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/example.rst:9
 msgid "Назад: `Мета отчёта <meta_report.md>`_"
-msgstr ""
+msgstr "Back: `Meta report <meta_report.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/example.rst:12
 msgid "Пример простого полного отчета"
-msgstr ""
+msgstr "Example of a simple full report"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/example.rst:191
 msgid ""
@@ -7692,10 +7911,13 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_report/example.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_report/example.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:5
 msgid "Мета отчёта"
-msgstr ""
+msgstr "Meta report"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:7
 msgid "`Оглавление <index>`_"
@@ -7706,6 +7928,8 @@ msgid ""
 "Предыдущая страница: `Мета безопасности "
 "</docs/ru/2_system_description/metadata_structure/meta_security/meta_security.md>`_"
 msgstr ""
+"The previous page: `Meta security </docs/ru/2_system_description/"
+"metadata_structure/meta_security/meta_security.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:14
 msgid ""
@@ -7716,14 +7940,21 @@ msgid ""
 "и в дальнейшем формирование колонок таблицы отчета, с указанием ресурса "
 "на данные из метаклассов системы."
 msgstr ""
+"**Meta report** - is used to build a *data mine*\\ that contains analytical "
+"information on data from the meta. The information is organized in the form "
+"of tables. In the meta of report module, the data sources are indicated, on "
+"the basis of which the information is generated to build a report. Further "
+"the report table columns are formed, indicating the resource for the data "
+"from the meta classes of the system."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:16
 msgid "Мета модуля отчетов находится в папке ``bi`` проекта в формате YML."
 msgstr ""
+"Meta report is located in the ``bi`` folder of the project in the YML format."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:18
 msgid "**NB:** Определение \"Шахта данных\""
-msgstr ""
+msgstr "**NB:** Definition of \"Data mine\""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:28
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:150
@@ -7734,11 +7965,11 @@ msgstr ""
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:419
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:438
 msgid "Пример YML"
-msgstr ""
+msgstr "YML example"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:86
 msgid "Описание примера"
-msgstr ""
+msgstr "Example description"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:88
 msgid ""
@@ -7751,6 +7982,13 @@ msgid ""
 "атрибут, который является идентификатором для построения отчета (в данном"
 " случае id объекта)."
 msgstr ""
+"**Test report** contains data from the *\"sourceClass\"* class. The data "
+"source *\"dataSource\"* retrieves data from the corresponding meta class "
+"specified in the ``results:`` property. Then the *\"test\"* subsection forms "
+"and transforms data (based on the data obtained from the source specified in "
+"the ``source:`` property) for correct display in the report tables. The "
+"``joins:`` property sets the attribute, which is the identifier for building "
+"the report (in this case, object id)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:90
 msgid ""
@@ -7765,6 +8003,16 @@ msgid ""
 "формате ``ISO8601``. Свойство ``columns:`` позволяет формировать колонки "
 "таблицы (порядковые номера фактические)."
 msgstr ""
+"Next, the system generates a report table, based on the converted data from "
+"the source, in the ``reports:`` section. The``rangeFilters:`` property "
+"contains information on filters that are configured for the report (in this "
+"case, you must specify a date range according to the data from the class). "
+"In the module, set the range filter by using the query parameters: "
+"``?rangeFld[]=0&rangeFld[]=5``\\, where rangeFld is the field we use for "
+"searching. If you are searching by date - the date is sent in the locale "
+"format, which is transmitted in the http-header ``'accept-language'``\\, or "
+"in the format ``ISO8601``. The ``columns:`` property allows to form table "
+"columns (numbers are actual)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:92
 msgid ""
@@ -7774,20 +8022,26 @@ msgid ""
 " в таблице будет равно количеству значений идентификатора, настроенном в "
 "свойстве `joins:`."
 msgstr ""
+"The result: a two-column table (Date and Name) in which class objects from "
+"the _\"dataSource\"_ source are displayed, according to the date filter "
+"configured in `rangeFilters:`. The number of objects in the table will be "
+"equal to the number of identifier values configured in the `joins:` property."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:94
 msgid "Пример простого полного отчета можно посмотреть по `здесь <example.md>`_."
-msgstr ""
+msgstr "You can see the example of a simple report `here <example.md>`_."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:97
 msgid "Настройка строгости сравнения"
-msgstr ""
+msgstr "Configuration of comparison"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:99
 msgid ""
 "Настройка строгости сравнения на границах интервала ``rangeFilters`` в "
 "отчете:"
 msgstr ""
+"The configuration of strict comparison within the boundaries of a "
+"``rangeFilters`` in the report:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:111
 msgid ""
@@ -7796,36 +8050,48 @@ msgid ""
 "значениям\\ :raw-html-m2r:`<br>` ``right`` - правая граница (большая) "
 "может быть равна искомым значениям"
 msgstr ""
+"``both`` - both bounds can be equal to the sought values\\ :raw-html-"
+"m2r:`<br>```left``- left border (smaller one) can be equal to the sought "
+"values\\ :raw-html-m2r:`<br>` ``right`` - right border (bigger one) can be "
+"equal to the sought values"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:115
 msgid "Если ``inclusive`` не указан - сравнение строгое на обоих границах."
 msgstr ""
+"If ``inclusive`` is nor specified - the comparison is strict at both "
+"boundaries."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:118
 msgid "Иерархическая сборка"
-msgstr ""
+msgstr "Hierarchical build"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:120
 msgid ""
 "Настройка иерархической сборки необходима для обработки исходных данных "
 "при сборке шахты:"
 msgstr ""
+"The configuration of the hierarchical build is necessary to process the "
+"initial data when building the mine:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:123
 msgid ""
 "Чтобы сделать в одном источнике данных выгрузку данных по всей иерархии в"
 " базе"
 msgstr ""
+"To make in one data source data extraction across the entire hierarchy in "
+"the DB"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:124
 msgid ""
 "Чтобы вывести данные по первому столбцу с отступами в зависимости от "
 "глубины вложенности"
 msgstr ""
+"To display data of the first column with indents depending on the nesting "
+"depth"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:127
 msgid "Настройка иерархической сборки в шахте данных:"
-msgstr ""
+msgstr "Configuration of the hierarchical build in the data mine:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:129
 msgid ""
@@ -7833,52 +8099,63 @@ msgid ""
 " объект с набором свойств: ``id``\\ , ``parent``\\ , ``level``\\ , "
 "``order``."
 msgstr ""
+"The ``\"hierarchyBy\"`` config is the objects with the following set of "
+"properties: ``id``\\ , ``parent``\\ , ``level``\\ , ``order``."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:139
 msgid "где ``id`` - атрибут в данных, идентифицирующий элемент иерархии"
 msgstr ""
+"where ``id`` - is the attribute in data, identifying element of the hierarchy"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:141
 msgid ""
 "``parent`` - атрибут в данных, содержащий идентификатор родительского "
 "элемента"
-msgstr ""
+msgstr "``parent`` - is the attribute in data containing parent id"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:143
 msgid ""
 "``level`` - атрибут в результирующем источнике, куда будет записан "
 "уровень вложенности элемента"
 msgstr ""
+"``level`` - is the attribute in the resulting source where the nesting level "
+"of the element will be written"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:145
 msgid ""
 "``order`` - атрибут в результирующем источнике, куда будет записано "
 "значение для упорядочивания иерархии при отображении."
 msgstr ""
+"``order`` - is the attribute in the resulting source where the value will be "
+"written to organize the hierarchy when displayed on the form."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:147
 msgid ""
 "Поля ``objLevel`` и ``objOrder`` это поля для записи значения (их не надо"
 " считать, агрегировать и т.д.)"
 msgstr ""
+"The ``objLevel`` and``objOrder`` field - are the fields to write values (no "
+"need to calculate, aggregate etc.)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:181
 msgid ""
 "**NB:** Иерархическая сборка возможна только на основе источника и "
 "невозможна на основе класса."
 msgstr ""
+"**NB:** Hierarchical build is possible only on the basis of the source and "
+"impossible on the basis of the class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:184
 msgid "Алгоритм сборки:"
-msgstr ""
+msgstr "Build algorithm:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:187
 msgid "Создаем результирующий источник."
-msgstr ""
+msgstr "Create a result source."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:188
 msgid "Делаем выборку корневых элементов, у которых пустое поле ``parent``."
-msgstr ""
+msgstr "Make a sample of root elements that have an empty ``parent`` field."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:189
 msgid ""
@@ -7887,6 +8164,10 @@ msgid ""
 "значение 0, в ``order`` - приведенный к строке порядковый номер элемента "
 "в выборке, дополненный до длины 6 символов лидирующими нолями)."
 msgstr ""
+"We sort and write elements in the result source (in the special attribute "
+"``element_id`` - the object identifier (id), in ``level`` - the value 0, in "
+"``order`` - the sequence number of the element in the sample, reduced to a "
+"string, supplemented up to 6 characters with leading zeros)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:190
 msgid ""
@@ -7896,20 +8177,27 @@ msgid ""
 "по связи ``parent = element_id`` и ограничению ``level=текущий уровень`` "
 "вложенности."
 msgstr ""
+"Iteratively, we make samples of the levels of nesting (starting from 0), "
+"until 0 objects are extracted at the final iteration. Samples are made by "
+"combining the initial source with the resulting one by the ``parent = "
+"element_id`` connection and the constraint ``level = current level`` of "
+"nesting."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:191
 msgid ""
 "На каждой итерации перебираем и записываем элементы в результирующий "
 "сорс, при этом:"
 msgstr ""
+"At each iteration, we sort and write elements in the result source, and at "
+"the same time:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:193
 msgid "в спецатрибут ``element_id`` пишем идентфикатор (id) обьекта,"
-msgstr ""
+msgstr "write the id of the object in the special attribute ``element_id``,"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:194
 msgid "в ``level`` пишем текущий уровень вложенности,"
-msgstr ""
+msgstr "write the current level of nesting in ``level``,"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:195
 msgid ""
@@ -7917,10 +8205,13 @@ msgid ""
 "приведенного к строке порядкового номера элемента в выборке, дополненного"
 " до длины 6 символов лидирующими нолями."
 msgstr ""
+"in ``order``, write an order concatenation of the parent element and the "
+"sequence number of the element in the sample, reduced to a string, "
+"supplemented up to 6 characters with leading zeros."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:198
 msgid "Настройка скрытия объектов"
-msgstr ""
+msgstr "Configuration to hide objects"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:200
 msgid ""
@@ -7929,36 +8220,41 @@ msgid ""
 "значение из списка в фильтре необходимо для него применить настройку "
 "``\"needFilterSet: true\"``."
 msgstr ""
+"Configuration to hide all objects if tabular filters are not specified. "
+"Apply the ``\"needFilterSet: true\"`` setting to hide all objects when "
+"opening a report, until a value is selected from the list in the filter."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:203
 msgid "Отображение в заголовке отчета параметров выборки посредством паттернов"
-msgstr ""
+msgstr "How to display sample parameters in the report header by using patterns"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:308
 msgid "Стилизация строк отчета на основании данных"
-msgstr ""
+msgstr "How to style lines of the report by using data"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:356
 msgid "Возможность использования комбобоксов в параметрах и фильтрах"
-msgstr ""
+msgstr "Use of ComboBox in the parameters and filters"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:393
 msgid "Настройка обработки параметров в фильтре на странице отчета"
-msgstr ""
+msgstr "Configuration of processing filter parameters on the report page"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:409
 msgid ""
 "Значение года в атрибуте ``$yearStart`` равно значению года из даты в "
 "атрибуте ``:dateSelect``."
 msgstr ""
+"The year value in the ``$yearStart`` attribute is equal to the year value "
+"from the date in the ``:dateSelect`` attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:412
 msgid "Настройка пагинатора ``\"pageSize\"``"
-msgstr ""
+msgstr "Paginator ``\"pageSize\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:414
 msgid "**NB:** Применяется для отчетов с типом ``type: list``."
-msgstr ""
+msgstr "**NB:** It is used in the reports of the ``type: list`` type."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:416
 msgid ""
@@ -7966,36 +8262,45 @@ msgid ""
 "нужно выводить строки постранично, чтобы не нагружать браузер тяжелой "
 "обработкой данных."
 msgstr ""
+"We recommend using the \"pageSize\", when the report contains many objects "
+"and you need to output the lines page-by-page, not to load the browser with "
+"heavy data processing."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:433
 msgid "Настройка вывода построчно"
-msgstr ""
+msgstr "Output line by line"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:435
 msgid ""
 "Настройка вывода вложенных данных в отчете построчно настраивается "
 "следующим образом:"
 msgstr ""
+"Setting up the line by line output of nested data in the report is "
+"configured as follows:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:458
 msgid "Настройка инкрементальной загрузки"
-msgstr ""
+msgstr "Incremental load configuration"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:460
 msgid ""
 "Для настройки инкрементальной загрузки данных в источник при сборке шахты"
 " необходимо выставить параметр:"
 msgstr ""
+"Specify the ``append: true``property to set the incremental load of data "
+"into the source when building the data mine."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:466
 msgid ""
 "Он необходим для подгрузки статистики за день в шахту, чтоб не "
 "пересчитывать весь объем исходных данных и иметь историю по периодам."
 msgstr ""
+"It is used to upload the statistics for a day to the mine, so as not to "
+"recalculate the entire volume of source data and have a history by periods."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:469
 msgid "Особенности сортировки объектов"
-msgstr ""
+msgstr "Specificity of object sorting"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:471
 msgid ""
@@ -8004,16 +8309,22 @@ msgid ""
 "результата, по которым сортируем, необходимо называть так же, как и поля "
 "в источнике данных."
 msgstr ""
+"Taking into account the MongoDB aggregation functional — the sorting is "
+"possible only by the resulting fields. This means that for backward "
+"compatibility, you should name the result fields that are used for sorting "
+"the same way as the fields in the data source."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:474
 msgid "Пример сортировки (свойство ``sort``\\ ):"
-msgstr ""
+msgstr "Example of sorting (the ``sort``\\ property):"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:491
 msgid ""
 "Следующая страница: `Конфигурация платформы - deploy.json "
 "</docs/ru/2_system_description/platform_configuration/deploy.md>`_"
 msgstr ""
+"The next page: `Platform configuration - deploy.json </docs/ru/"
+"2_system_description/platform_configuration/deploy.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_report/meta_report.rst:496
 msgid ""
@@ -8022,16 +8333,21 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_report/meta_report.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_report/meta_report.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:5
 msgid "Схема основных типов меты"
-msgstr ""
+msgstr "Scheme of the main types of metadata"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:9
 msgid ""
 "Предыдущая страница: :doc:`Шаг 3 Сборка и запуск "
 "<../../1_system_deployment/step3_building_and_running>`"
 msgstr ""
+"Previous page: :doc:`Step3 Building and running <../../1_system_deployment/"
+"step3_building_and_running>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:11
 msgid ""
@@ -8040,51 +8356,55 @@ msgid ""
 "отображения данных структур в пользовательском интерфейсе и навигации по "
 "ним, а так же файлов конфигурации приложения."
 msgstr ""
+"**Metadata (Meta)** - a complex of JSON files that describe the set of "
+"structures, which the app operates, ways of displaying the data structures "
+"in the user interface and navigation on them, as well as displaying the "
+"application configuration files."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:14
 msgid "Типы файлов меты"
-msgstr ""
+msgstr "Types of meta files"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:17
 msgid "Мета классов"
-msgstr ""
+msgstr "Meta class"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:18
 msgid "Мета представлений"
-msgstr ""
+msgstr "Meta view"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:19
 msgid "Мета навигации: мета секций навигации, мета узлов навигации"
-msgstr ""
+msgstr "Meta navigation: meta navigation node, meta navigation section"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:20
 msgid "Мета отчета"
-msgstr ""
+msgstr "Meta report"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:21
 msgid "Мета админ"
-msgstr ""
+msgstr "Meta admin"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:22
 msgid "Мета бизнес-процессов"
-msgstr ""
+msgstr "Meta work-flows"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:23
 msgid "Геомета"
-msgstr ""
+msgstr "Geometa"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:24
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:5
 msgid "Мета безопасности"
-msgstr ""
+msgstr "Meta security"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:27
 msgid "Структура основных типов меты"
-msgstr ""
+msgstr "Structure of the meta main types"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:35
 msgid "Структуру основных типов меты можно представить следующим образом:"
-msgstr ""
+msgstr "The structure of the main types of meta can be described as follows:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:37
 msgid ""
@@ -8094,12 +8414,19 @@ msgid ""
 "\"properties\" общей части, которая содержит поля, имеющие отношение к "
 "самой структуре и способам оперирования данными в структуре."
 msgstr ""
+"**Meta class** is the main source of data generation in the application. A "
+"meta class is composed of the attributes (attribute part) and of the class "
+"parameters (general part). Attributes are the objects of the \"properties\" "
+"field of the general part, which contains fields relevant to the structure "
+"of the meta class and to the data processing in this structure."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:39
 msgid ""
 "На основе меты классов задается мета представлений, мета навигации, мета "
 "отчетов, мета бизнес-процессов и т.д."
 msgstr ""
+"Meta class is the basis for meta views, meta navigation, meta reports, meta "
+"business processes, etc."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:41
 msgid ""
@@ -8111,10 +8438,17 @@ msgid ""
 "(или) дополняемые свойства, задаваемые в мете класса для данного "
 "атрибута."
 msgstr ""
+"**Meta view** allows to specify the desired set of attributes for the class "
+"to be displayed on the form according to the type of the view form (the form "
+"of the list view - ``list.json``\\ , of create view - ``create.json``, of "
+"change view - ``item.json``\\ ). Also it allows to indicate redefined and "
+"(or) complemented properties specified in the meta class of this attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:45
 msgid "Мета представления + Атрибуты класса = Отображение атрибутов на форме"
 msgstr ""
+"Meta class + Class attributes = Display attributes on the form (the user "
+"interface)"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:48
 msgid ""
@@ -8122,154 +8456,165 @@ msgid ""
 "блоке. Мета навигации разделяется на мету узлов навигации и мету секции "
 "навигации."
 msgstr ""
+"**Meta navigation** adjusts the position of elements in the navigation "
+"block. The meta navigation is divided into the meta navigation node and the "
+"meta navigation section."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:51
 msgid "Наименование файлов меты:"
-msgstr ""
+msgstr "Name of meta files:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:66
 msgid ":doc:`Мета класса <./meta_class/meta_class_main>`"
-msgstr ""
+msgstr ":doc:`Meta class <./meta_class/meta_class_main>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:66
 msgid ":doc:`Мета представлений <./meta_view/meta_view_main>`"
-msgstr ""
+msgstr ":doc:`Meta view <./meta_view/meta_view_main>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:66
 msgid ":doc:`Мета навигации <./meta_navigation/meta_navigation>`"
-msgstr ""
+msgstr ":doc:`Meta navigation <./meta_navigation/meta_navigation>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "Находится в"
-msgstr ""
+msgstr "Located in"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "директории ``meta``"
-msgstr ""
+msgstr "``meta`` directory"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "и состоит из"
-msgstr ""
+msgstr "and composed of"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "наименования"
-msgstr ""
+msgstr "the name"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "общей части меты"
-msgstr ""
+msgstr "of the general part of the meta"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "класса +"
-msgstr ""
+msgstr "class +"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "``.class.json.``."
-msgstr ""
+msgstr "``.class.json.``."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "Например:"
-msgstr ""
+msgstr "Example:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "``adress.class.json``."
-msgstr ""
+msgstr "``adress.class.json``."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "В наименовании директории"
-msgstr ""
+msgstr "The name of the meta view directory"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "определяется к какому классу относится"
-msgstr ""
+msgstr "shows its meta class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "представление. Мета представлений"
-msgstr ""
+msgstr "The meta view"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "располагается в директории ``views``\\ , в"
-msgstr ""
+msgstr "is located in the ``views``\\ directory."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "которой содержатся директории,"
-msgstr ""
+msgstr "It contains directories"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "наименования которых совпадают с"
-msgstr ""
+msgstr "whose names match"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "первой частью наименований файлов"
-msgstr ""
+msgstr "the first part of the name"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "меты классов. Например:"
-msgstr ""
+msgstr "of the meta class file. Example:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "``address@project_name``\\ , где  ``address``"
-msgstr ""
+msgstr "``address@project_name``\\ , where  ``address``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "относится к классу ``address``."
-msgstr ""
+msgstr "belongs to the ``address`` class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "Мета секций"
-msgstr ""
+msgstr "The meta navigation"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "навигации: состоит из"
-msgstr ""
+msgstr "is composed of"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "поля ``\"name\" +``"
-msgstr ""
+msgstr "the ``\"name\" +``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "``.section.json`` и"
-msgstr ""
+msgstr "``.section.json`` and"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "находится в"
-msgstr ""
+msgstr "is located in"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "директории"
-msgstr ""
+msgstr "``navigation``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "``navigation``."
-msgstr ""
+msgstr "directory."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst
 msgid "``workflow.section.json``."
-msgstr ""
+msgstr "Example: ``workflow.section.json``."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_scheme.rst:81
 msgid ""
 "Следующая страница: :doc:`Мета классов - общая часть "
 "<./meta_class/meta_class_main>`"
 msgstr ""
+"The next page: :doc:`Meta class - general part <./meta_class/"
+"meta_class_main>`"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:9
 msgid ""
 "Предыдущая страница: `Переходы бизнес-процесса "
 "</docs/ru/2_system_description/metadata_structure/meta_workflows/transitions_wf.md>`_"
 msgstr ""
+"The previous page: `Workflow transitions </docs/ru/2_system_description/"
+"metadata_structure/meta_workflows/transitions_wf.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:14
 msgid ""
 "**Мета безопасности** - регулирует настройку прав безопасности на объекты"
 " системы. Можно разделить на статическую и динамическую безопасность:"
 msgstr ""
+"**Meta security** - configures the security rights of the system objects. It "
+"can be classified into two types: static security and dynamic security."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:16
 msgid ""
 "**Статическая безопасность** - регулирует права доступа на объекты "
 "системы для определенной роли."
 msgstr ""
+"**Static security** - configures the access rights to the system objects for "
+"the particular role."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:18
 msgid ""
@@ -8278,6 +8623,9 @@ msgid ""
 " то время как групповая динамическая безопасность - это права для группы "
 "безопасности."
 msgstr ""
+"**Dynamic security** - configures the access rights to the system objects "
+"for the particular user, under some conditions, while group dynamic security "
+"is the access rights for the security group."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:20
 msgid ""
@@ -8286,62 +8634,65 @@ msgid ""
 "Статическая безопасность задается только в файле ``acl/resources-and-"
 "roles.yml``."
 msgstr ""
+"You can configure the dynamic security in the ``deploy.json``\\ and the ``"
+"acl/resources-and-roles.yml``. But for the static security use the ``acl/"
+"resources-and-roles.yml`` file exclusively."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:23
 msgid "Правила формирования идентификаторов ресурсов"
-msgstr ""
+msgstr "How to form resource identifier?"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:26
 msgid "узел навигации - ``n:::namespace@code``"
-msgstr ""
+msgstr "navigation node - ``n:::namespace@code``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:27
 msgid "класс - ``c:::classname@namespace``"
-msgstr ""
+msgstr "class - ``c:::classname@namespace``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:28
 msgid "объект - ``i:::classname@namespace@id``"
-msgstr ""
+msgstr "object - ``i:::classname@namespace@id``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:29
 msgid "атрибут - ``a:::classname@namespace.propertyname``"
-msgstr ""
+msgstr "attribute - ``a:::classname@namespace.propertyname``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:30
 msgid "геомета:"
-msgstr ""
+msgstr "geometa:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:32
 msgid "узел навигации: geonav:::код узла@namespace"
-msgstr ""
+msgstr "navigation node: geonav:::code of the node@namespace"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:33
 msgid "слой: geolayer:::код слоя@namespace"
-msgstr ""
+msgstr "layer: geolayer:::code of the layer@namespace"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:34
 msgid "данные: geodata:::код слоя@namespace@индекс запроса"
-msgstr ""
+msgstr "data: geodata:::code of the layer@namespace@query index"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:36
 msgid "пути (модулей):"
-msgstr ""
+msgstr "paths (of modules):"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:38
 msgid "модуль portal: ``sys:::url:portal/*``"
-msgstr ""
+msgstr "portal module: ``sys:::url:portal/*``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:39
 msgid "модуль geomap: ``sys:::url:geomap/*``"
-msgstr ""
+msgstr "geomap module: ``sys:::url:geomap/*``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:42
 msgid "Типы прав"
-msgstr ""
+msgstr "Types of rights"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:45
 msgid "Чтение ``read``"
-msgstr ""
+msgstr "\"Read\""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:47
 msgid ""
@@ -8349,20 +8700,25 @@ msgid ""
 "разрешение просматривать объекты класса только для чтения и запрещает их "
 "создание/редактирование."
 msgstr ""
+"``read`` - is the right to view information about class objects. It sets the "
+"permission to view the class objects as \"read-only\" and prohibits the "
+"creation/editing of objects."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:59
 msgid "Запись ``write``"
-msgstr ""
+msgstr "\"Write\""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:61
 msgid ""
 "``write`` - это право на создание объектов класса. Задает разрешение на "
 "создание новых объектов класса, но запрещает редактирование существующих."
 msgstr ""
+"``write`` - is the right to create the class objects. It sets the permission "
+"to create new class objects and prohibits editing of existing ones."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:73
 msgid "Использование ``use``"
-msgstr ""
+msgstr "\"Use\""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:75
 msgid ""
@@ -8370,6 +8726,8 @@ msgid ""
 "создание объектов класса, и использование объектов класса в ссылках и "
 "коллекциях."
 msgstr ""
+"``use`` - is the right to create the class objects. It sets the permission "
+"to create class objects and to use them in the references and collections."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:77
 msgid ""
@@ -8377,22 +8735,25 @@ msgid ""
 ", но нет ``use``\\ , то нельзя выбрать объект и поместить его в "
 "коллекцию."
 msgstr ""
+"Without ``use`` - references are also displayed in the collections. If there "
+"is ``read``\\, but no ``use``\\, then it is impossible to select an object "
+"and place it in the collection."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:89
 msgid "Удаление ``delete``"
-msgstr ""
+msgstr "\"Delete\""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:91
 msgid "``delete`` - это право на удаление объектов класса."
-msgstr ""
+msgstr "``delete`` - is the right to delete the class objects."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:94
 msgid "Полный доступ ``full``"
-msgstr ""
+msgstr "\"Full\""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:96
 msgid "``full`` - это право на полный доступ к объектам класса."
-msgstr ""
+msgstr "``full`` - is the right of full access to the class objects."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:111
 msgid ""
@@ -8402,6 +8763,11 @@ msgid ""
 "``PROJECT_BENEFITIAR`` и проверить права на ресурс ``pm:project`` - эти "
 "права и будут правами на проект."
 msgstr ""
+"If the project in ``stakeholders.id`` has a value associated with the "
+"current user (pulling an organization as a global user role is set), then "
+"you should consider the current user ``PROJECT_BENEFITIAR`` and check the "
+"rights to the ``pm:project`` resource - these rights will be the rights to "
+"the project."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:113
 msgid ""
@@ -8409,6 +8775,9 @@ msgid ""
 "абстрагировать настройки доступа от проверяемого объекта для разных "
 "ролей, можно разные ресурсы указать на один класс и наоборот."
 msgstr ""
+"``pm:project`` - is a kind of virtual security resource. It is necessary to "
+"abstract the access settings from the checked object for different roles. "
+"You can specify different resources for one class and vice versa."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:116
 msgid ""
@@ -8416,26 +8785,34 @@ msgid ""
 "Тогда эту роль можно использовать как статическую, то есть выдавать "
 "статические права динамически."
 msgstr ""
+"If you did not specify a resource, then the rights to the class object will "
+"be checked. Then this role can be used as static, which means, to issue "
+"static rights dynamically."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:147
 msgid ""
 "При указании ``sids`` каждый уровень вложенности массивов значений меняет"
 " вид операции ``И``\\ /\\ ``ИЛИ``. На первом уровне применяется ``ИЛИ``."
 msgstr ""
+"When specifying ``sids``, each level of nesting arrays of values changes the "
+"type of operation ``AND``\\/``OR``\\. At the first level, the ``OR`` is "
+"applied."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:153
 msgid "Регистрируем пользователя с полным административным доступом - ``admin``."
-msgstr ""
+msgstr "Register a user with full admin privilege - ``admin``."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:154
 msgid ""
 "Под ``admin`` в ``registry`` в разделе Безопасность.Подразделения заводим"
 " иерархию подразделений (код подразделения = идентификатор безопасности)."
 msgstr ""
+"As ``admin`` in ``registry`` in the Security, Divisions section set up a "
+"hierarchy of divisions (division code = security identifier)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:155
 msgid "Регистрируем пользователя без прав - ``user``."
-msgstr ""
+msgstr "Register a user without full admin privilege - ``user``."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:156
 msgid ""
@@ -8443,34 +8820,41 @@ msgid ""
 "Сотрудника, указываем у него в атрибуте Пользователь пользователя без "
 "прав. Привязываем сотрудника к самому нижестоящему подразделению."
 msgstr ""
+"As admin in ``registry`` in the Security, Divisions section create an "
+"Employee, specify the User with no rights in its User attribute. Bind the "
+"employee to the subordinate division."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:157
 msgid "Заходим под ``user`` -  прав нет ни на что."
-msgstr ""
+msgstr "Connect as ``user`` - you have no rights."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:158
 msgid ""
 "Заходим под ``admin`` и даем роли (соответствующей самому вышестоящему "
 "подразделению) права на произвольные классы и узлы навигации."
 msgstr ""
+"Connect as ``admin``- give the rights to arbitrary classes and navigation "
+"nodes to roles, corresponding to the highest division."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:159
 msgid ""
 "Заходим под ``user`` - есть доступ к объектам, к которым есть доступ у "
 "подразделения."
 msgstr ""
+"Connect as ``user`` - you have an access to all objects of the division."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:160
 msgid "Аналогично проверяем применение разрешений по всей иерархии подразделений."
-msgstr ""
+msgstr "Similarly, we check the rights throughout the hierarchy of divisions."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:163
 msgid "Пример настройки в ``deploy.json``"
-msgstr ""
+msgstr "Example of the configuration in ``deploy.json``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:204
 msgid "Модель отображения атрибутов и объектов в соответствии с заданными правами"
 msgstr ""
+"How to display attributes and objects in accordance with specified rights?"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:206
 msgid ""
@@ -8478,6 +8862,10 @@ msgid ""
 "[Мероприятия]. Если для класса [Мероприятия] нет прав на чтение, то "
 "атрибут этого класса не показывается на форме класса [Проекты]."
 msgstr ""
+"The class [Projects] contains the attribute of the \"Collection\" type - "
+"[Events]. If the [Events] class does not have \"read\" access, then the "
+"attribute of this class is not displayed on the view form of the [Projects] "
+"class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:209
 msgid ""
@@ -8486,12 +8874,18 @@ msgid ""
 "[Проекты] будет показан, но сами объекты мероприятий будут показаны "
 "только если на них есть права."
 msgstr ""
+"If there is dynamic security for a class, then whether you have read access "
+"to the class [Events] or not - the attribute on the form of the "
+"class[Projects] will be displayed, but the event objects will be displayed "
+"only if you have rights."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:211
 msgid ""
 "**NB:** Для отображения атрибута и объектов необходимо задавать как "
 "статическую, так и динамическую безопасность на класс по ссылке атрибута."
 msgstr ""
+"**NB:** it is necessary to set both static and dynamic securities for a "
+"class by the attribute reference to display the attribute and objects."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:213
 msgid ""
@@ -8501,12 +8895,18 @@ msgid ""
 "динамическая безопасность и они будут отображаться для пользователя в "
 "соответствии с настройками в ней."
 msgstr ""
+"If there is a static \"read-only\" right for a class, the user will see all "
+"objects of this class, regardless of the dynamic rights. In addition, a "
+"sample of objects will be made. Objects that are configured for dynamic "
+"security will be displayed to the user in accordance with their settings."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:216
 msgid ""
 "Следующая страница: `Мета отчета "
 "</docs/ru/2_system_description/metadata_structure/meta_report/meta_report.md>`_"
 msgstr ""
+"The next page: `Meta report </docs/ru/2_system_description/"
+"metadata_structure/meta_report/meta_report.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_security/meta_security.rst:221
 msgid ""
@@ -8515,20 +8915,26 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_security/meta_security.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_security/meta_security.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:6
 msgid ""
 "Предыдущая страница: `Вычисляемые атрибуты "
 "</docs/ru/2_system_description/metadata_structure/meta_class/atr_formula.md#вычисляемые-атрибуты-без-кеширования>`_"
 msgstr ""
+"The previous page: `Computable attributes </docs/ru/2_system_description/"
+"metadata_structure/meta_class/"
+"atr_formula.md#вычисляемые-атрибуты-без-кеширования>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:9
 msgid "Переменные"
-msgstr ""
+msgstr "Variables"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:12
 msgid "Значение атрибутов"
-msgstr ""
+msgstr "Attribute values"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:14
 msgid ""
@@ -8537,10 +8943,14 @@ msgid ""
 "формировании какого-либо условия для действий над значениями атрибутов, "
 "то значение атрибута ``name`` и будет источником для заданного условия."
 msgstr ""
+"``$`` - is applied with the system name of the attribute and returns the "
+"value of the specified attribute. That means, if you specify ``$name`` when "
+"forming any condition for the attribute values, then the ``name`` value of "
+"the attribute will be the source for the specified condition."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:16
 msgid "*пример применения для вычислямого атрибута*"
-msgstr ""
+msgstr "*Example for a computable attribute*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:29
 msgid ""
@@ -8548,52 +8958,57 @@ msgid ""
 "согласно формуле, необходимо посчитать колличество значений данного "
 "атрибута."
 msgstr ""
+"This class has the attribute - ``projects`` of the \"Collection\" type and "
+"according to the formula, it is necessary to count the number of values of "
+"this attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:31
 msgid "Результат: количество объектов атрибута ``projects``"
-msgstr ""
+msgstr "The result: the number of objects of the ``projects`` attribute."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:34
 msgid "Текущая дата/время, дата"
-msgstr ""
+msgstr "Current date/time"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:36
 msgid "``$$now`` - возвращает текущую дату и время"
-msgstr ""
+msgstr "``$$now`` - returns the current date/time"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:38
 msgid "*пример применения для фильтра допустимых значений* в навигации:"
-msgstr ""
+msgstr "*Example for filter of sorting the valid values* in meta navigation:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:52
 msgid "\"dateEnd\" меньше текущей даты/времени"
-msgstr ""
+msgstr "\"dateEnd\" less than current date/time"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:54
 msgid "*пример применения для вывода значения по умолчанию* в мете класса:"
-msgstr ""
+msgstr "*Example for default value* in meta class:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:63
 msgid ""
 "``$$today`` - возвращает начало суток текущей даты *принцип тот же, "
 "только дата без времени*"
 msgstr ""
+"``$$today`` - returns the beginning of the day of the current date. *Rule is "
+"the same, only the date is without time*."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:67
 msgid "Синтаксис форматирования дат в формате momentjs"
-msgstr ""
+msgstr "Date syntax in momentjs format"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:78
 msgid "Текущий пользователь"
-msgstr ""
+msgstr "Current user"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:80
 msgid "``$$uid`` - возвращает текущего пользователя"
-msgstr ""
+msgstr "``$$uid`` - returns the current user"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:82
 msgid "*пример применения для фильтра допустимых значений в коллекции:*"
-msgstr ""
+msgstr "*Example for filter of sorting the valid values in the collection:*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:98
 msgid ""
@@ -8601,6 +9016,9 @@ msgid ""
 "которых значение атрибута \"user\" совпадает со значением текущего "
 "пользователя."
 msgstr ""
+"The result: display by the reference of the \"Collection\" type attribute "
+"only those objects, whose value of the \"user\" attribute matches the value "
+"of the current user."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_variables.rst:103
 msgid ""
@@ -8609,44 +9027,56 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_variables.md>`_ "
 "&ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_variables.md>`_ &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:9
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/overridemode.rst:9
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/styles.rst:9
 msgid "Назад: `Мета представлений - общая часть <meta_view_main.md>`_"
-msgstr ""
+msgstr "Back: `Meta view - general part <meta_view_main.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:12
 msgid "Поиск в списках объектов \"allowSearch\""
-msgstr ""
+msgstr "Search in lists - \"allowSearch\""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:14
 msgid ""
 "Поле основной части меты представления списка: ``\"allowSearch\"`` "
 "разрешает или запрещает отображение в форме поля поиска."
 msgstr ""
+"The field of the general part of the meta view \"LIST\": ``\"allowSearch\"`` "
+"allows or denies displaying a search field on the form."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:19
 msgid "Архитектурой платформы и регистри накладываются следующие ограничения:"
 msgstr ""
+"The platform architecture and registry impose the following restrictions:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:21
 msgid ""
 "Для того, чтобы работал поиск в представлении **\"СПИСОК\"** нужно "
 "выполнение одного из условий:"
 msgstr ""
+"To use the ``\"allowSearch\"`` field in the **\"LIST\"** view you need to "
+"fulfill one of the conditions:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:24
 msgid ""
 "В ключе класса должны быть поля какого-нибудь из следующих типов: Строка,"
 " Дата-Время, Целое, Действительное, Десятичное"
 msgstr ""
+"The key field of the class should include one of the following types: "
+"String, Date-Time, Integer, Real, Decimal"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:25
 msgid ""
 "В классе должны быть не ключевые атрибуты этих же типов помеченные как "
 "индексируемые"
 msgstr ""
+"There should be the non-key attributes of the same types, but specified as \""
+"Indexed\""
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:27
 msgid ""
@@ -8658,16 +9088,26 @@ msgid ""
 "фразе - объект считается удовлетворяющим условию поиска и добавляется в "
 "выборку."
 msgstr ""
+"If none of the conditions is met, the search in the **\"LIST\"** view is "
+"impossible - so the search field is not displayed. If one or both conditions "
+"are met, the search is available and is performed by matching each indexed "
+"attribute with the search phrase. If at least one of the attributes matches "
+"the search phrase, the object is considered to meet the search condition and "
+"is added to the selection."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:29
 msgid "В зависимости от поля, сопоставление выполняется по следующим правилам:"
 msgstr ""
+"Depending on the field, the matching is performed according to the following "
+"rules:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:32
 msgid ""
 "Строка - ищется вхождение поисковой фразы в значение строкового атрибута "
 "посредством регулярного выражения."
 msgstr ""
+"String - the search of the string value of the attribute using the regular "
+"expression."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:33
 msgid ""
@@ -8676,16 +9116,22 @@ msgid ""
 " дате. Сравнение строгое - до секунд, т.е. если в поиске не указано время"
 " - будут искаться даты с временем 00:00."
 msgstr ""
+"Date-time - the search phrase is cast to the date-time, then the attribute "
+"value of the received date is checked for equality. The comparison is strict "
+"- up to seconds, i.e. if the search does not indicate the time, dates with "
+"the time 00:00 will be searched."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:34
 msgid ""
 "Целое, Действительное, Десятичное число - поисковая фраза приводится к "
 "числу и проверяется равенство значению атрибута."
 msgstr ""
+"Integer, Real, Decimal - the search phrase is cast to a number and the "
+"attribute value is checked for equality."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:37
 msgid "Поиск по объектам вычислимых атрибутов"
-msgstr ""
+msgstr "Search by objects of computable attributes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:39
 msgid ""
@@ -8695,6 +9141,11 @@ msgid ""
 " Соответсвенно, нет необходимости для вычисляемых атрибутов ставить "
 "``indexed`` , если они не ``cached``."
 msgstr ""
+"For objects of computable attributes, the search will work only if ``\""
+"cached:true\"`` is set. For more details see Cached attributes </docs/en/"
+"2_system_description/metadata_structure/meta_class/atr_cached_true.md>`_. So "
+"there is no need to set ``indexed`` in the computable attributes, if they "
+"are not ``cached``."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/allowsearch.rst:44
 msgid ""
@@ -8703,150 +9154,157 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_view/allowsearch.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_view/allowsearch.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:9
 msgid "Предыдущая страница: `Поля <fields.md>`_"
-msgstr ""
+msgstr "The previous page: `Fields <fields.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:12
 msgid "Действия"
-msgstr ""
+msgstr "Commands"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:14
 msgid ""
 "**Действия** - это доступные команды, которые можно выполнять над "
 "объектом класса."
 msgstr ""
+"**Commands** - are available operations that can be executed on a class "
+"object."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:42
 msgid "``\"id\"``"
-msgstr ""
+msgstr "``\"id\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:43
 msgid "**Код**"
-msgstr ""
+msgstr "**Code**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:44
 msgid "*\"CREATE\" - создать объект/объект ссылочного поля*"
-msgstr ""
+msgstr "*\"CREATE\" - crate object/object of reference field*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:45
 msgid "Внутренний код действия с объектом."
-msgstr ""
+msgstr "Internal code for the object operations."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:48
 msgid "*\"EDIT\" - изменить объект/привязанный объект ссылочного поля*"
-msgstr ""
+msgstr "*\"EDIT\" - edit object/reference object of the reference field*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:52
 msgid "*\"DELETE\" - удалить объект*"
-msgstr ""
+msgstr "*\"DELETE\" - delete object*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:56
 msgid "*\"CREATE-INLINE\" - создать объект (не переходя на форму создания)*"
-msgstr ""
+msgstr "*\"CREATE-INLINE\" - create object (not in the create mode)*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:57
 msgid ""
 "Создание объекта без открытия формы создания, для ускорения заведения "
 "объектов."
-msgstr ""
+msgstr "Create object without opening the create form."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:60
 msgid "*\"SAVEANDCLOSE\" - сохранить изменения и закрыть фрейм*"
-msgstr ""
+msgstr "*\"SAVEANDCLOSE\" - save changes and close*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:64
 msgid "*\"SAVE\" - сохранить изменения*"
-msgstr ""
+msgstr "*\"SAVE\" - save changes*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:68
 msgid "*\"REMOVE\" - удалить привязку к объекту по ссылке*"
-msgstr ""
+msgstr "*\"REMOVE\" - delete the reference to the reference object*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:72
 msgid "*\"ADD\" - добавить привязку к объекту по ссылке*"
-msgstr ""
+msgstr "*\"ADD\" - add the reference to the reference object*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:75
 #: ../docs-ru/2_system_description/platform_configuration/package.rst:71
 msgid "**Имя**"
-msgstr ""
+msgstr "**Name**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:77
 msgid "Видимое наименование - подпись на кнопке действия (при наличии)."
-msgstr ""
+msgstr "Visible name - the signature on the action button (if available)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:78
 msgid "``\"visibilityCondition\"``"
-msgstr ""
+msgstr "``\"visibilityCondition\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:79
 msgid "**Условие видимости**"
-msgstr ""
+msgstr "**View conditions**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:81
 msgid "Условие, при котором кнопка действия будет отображена."
-msgstr ""
+msgstr "The condition under which the action button is available."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:82
 msgid "``\"enableCondition\"``"
-msgstr ""
+msgstr "``\"enableCondition\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:83
 msgid "**Условие активности**"
-msgstr ""
+msgstr "**Action condition**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:85
 msgid "Условие, при котором кнопка действия будет активна."
-msgstr ""
+msgstr "The condition under which the action button is not available."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:86
 msgid "``\"needSelectedItem\"``"
-msgstr ""
+msgstr "``\"needSelectedItem\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:87
 msgid "**Условие видимости - наличие выбранного элемента**"
-msgstr ""
+msgstr "**Visibility condition - presence of the selected item**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:88
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:92
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:96
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:100
 msgid "Логическое значение"
-msgstr ""
+msgstr "Boolean"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:89
 msgid ""
 "Поле выставляется в true для действий, которым необходимо наличие "
 "выбранного элемента для активации."
 msgstr ""
+"The field is set to ``true`` for commands that require the selected item to "
+"activate it."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:90
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:49
 msgid "``\"signBefore\"``"
-msgstr ""
+msgstr "``\"signBefore\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:91
 msgid "**ЭП входящих данных**"
-msgstr ""
+msgstr "**Digital signature of incoming data**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:94
 #: ../docs-ru/2_system_description/metadata_structure/meta_workflows/transitions_wf.rst:51
 msgid "``\"signAfter\"``"
-msgstr ""
+msgstr "``\"signAfter\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:95
 msgid "**ЭП исходящих данных**"
-msgstr ""
+msgstr "**Digital signature of outgoing data**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:98
 msgid "``\"isBulk\"``"
-msgstr ""
+msgstr "``\"isBulk\"``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:99
 msgid "**Групповая**"
-msgstr ""
+msgstr "**Batch**"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:101
 msgid ""
@@ -8854,10 +9312,13 @@ msgid ""
 "true для действий, которые выполняются со всеми привязанными объектами "
 "одновременно."
 msgstr ""
+"Sign of a batch operation, for the commands of reference fields. It is set "
+"to ``true`` for commands that are executed with all reference objects at the "
+"same time."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:105
 msgid "Логика действий над ссылочными объектами"
-msgstr ""
+msgstr "How it works with reference objects?"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:107
 msgid ""
@@ -8865,12 +9326,17 @@ msgid ""
 "зависимости от типа связи должна быть возможность ее установить (и "
 "разорвать) на уровне бизнес логики."
 msgstr ""
+"The ``\"Select\"`` operation - sets the connection between objects, "
+"regardless of the type of connection, it should be possible to set (and "
+"break) it at the level of business logic."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:110
 msgid ""
 "Если это связь по ссылке один ко многим, т. е. ссылка на ключ - то приняв"
 " сторону \"один\" за A, сторону \"многие\" за B, реализуем:"
 msgstr ""
+"If this is a one-to-many reference connection, i.e., a reference to a key — "
+"then taking the \"one\" side for A, the \"many\" side for B, we implement:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:112
 msgid ""
@@ -8878,6 +9344,10 @@ msgid ""
 "находим объект (A), устанавливаем значение ссылочного атрибута объекта B "
 "равным ключу объекта A (обнуляем атрибут для разрыва связи);"
 msgstr ""
+"on the side of the B object (reference to A): the ``\" SELECT \"`` operation "
+"- find the object (A), set the value of the reference attribute of the B "
+"object equal to the key of the A object (reset the attribute to break the "
+"connection);"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:113
 msgid ""
@@ -8887,12 +9357,19 @@ msgid ""
 "``\"Извлечь\"`` (REMOVE) - выбираем в коллекции объект (B), обнуляем "
 "ссылку на A."
 msgstr ""
+"on the side of the A object (collection or back reference): the ``\" ADD \"``"
+" operation - find the object (B), set the value of the reference attribute "
+"of this object (B) equal to the key of the object A, the ``\" REMOVE \"`` "
+"operation - select the object (B) in the collection, nullify the reference "
+"to A."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:115
 msgid ""
 "Если это связь по ссылке многие ко многим, т. е. ссылка на не ключевой "
 "атрибут, то для обоих концов коллекции реализуем связи:"
 msgstr ""
+"If this is a many-to-many reference connection, i.e., a link to a non-key "
+"attribute, then for both ends of the collection we implement:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:117
 msgid ""
@@ -8901,6 +9378,10 @@ msgid ""
 "окажется в коллекциях всех контейнеров с таким же значением атрибута, это"
 " специфика данного типа связей)"
 msgstr ""
+"The \"ADD\" operation - find an object, set the value of its reference to "
+"the corresponding attribute of the container. The object will be in the "
+"collections of all containers with the corresponding attribute value, this "
+"is the specificity of this type of connections)"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:118
 msgid ""
@@ -8908,6 +9389,9 @@ msgid ""
 " ссылку, при этом объект также удаляется из коллекций всех контейнеров с "
 "соответствующим значением атрибута."
 msgstr ""
+"The ``\"REMOVE\"`` operation - select an object in the collection, reset the "
+"link, and the object is also removed from the collections of all containers "
+"with the corresponding attribute value."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:120
 msgid ""
@@ -8915,12 +9399,19 @@ msgid ""
 "промежуточную сущность, сюда относятся и \"прямые\" коллекции и "
 "\"обратные\", как разные концы связи), то для обоих коллекций реализуем:"
 msgstr ""
+"If this is a many-to-many connection without a reference (communication "
+"through a system intermediate entity, this includes both \"direct\" and \""
+"back\" collections, as different ends of connection), then for both "
+"collections we implement:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:122
 msgid ""
 "Операция ``\"Добавить\"`` (ADD) - находим объект, создаем сущность-связь "
 "с контейнером - объект появляется только в коллекции данного контейнера"
 msgstr ""
+"The \"ADD\" operation - find an object and create the entity-connection with "
+"a container - the object is displayed only in the collection of this "
+"container"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:123
 msgid ""
@@ -8928,6 +9419,9 @@ msgid ""
 "сущность-связь с контейнером - объект пропадает только из коллекции "
 "данного контейнера"
 msgstr ""
+"The \"REMOVE\" operation - select an object in the collection, delete the "
+"connection with a container - the object disappears only from the collection "
+"of this container"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:125
 msgid ""
@@ -8938,10 +9432,16 @@ msgid ""
 "должны быть реализованы стандартные обработчики для кнопок ``ADD`` и "
 "``REMOVE`` в соответствии с описанной выше логикой."
 msgstr ""
+"From the viewpoint of UI there are no differences between the types of "
+"connections at all - everywhere we deal with collections, and the ADD and "
+"REMOVE operations are available everywhere. And it is possible to customize "
+"the certain buttons at the collection field at the level of the view mode. "
+"In business logic, standard handlers for the ``ADD`` and ``REMOVE`` buttons "
+"should be implemented in accordance with the logic described above."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:128
 msgid "Логика действий над объектами класса"
-msgstr ""
+msgstr "How it works with class objects?"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:130
 msgid ""
@@ -8950,48 +9450,52 @@ msgid ""
 "класса.\\ :raw-html-m2r:`<br>` В общей части меты представлений класса "
 "могут быть указаны команды следующих кодов ``\"id\"``\\ :"
 msgstr ""
+"The ``\"commands\"``\\ field, specified in the general part of the meta "
+"view, sets the list of commands, acceptable on objects of that class.\\ :raw-"
+"html-m2r:`<br>` In the general part of the meta view of the class there can "
+"be listed the commands of the following ``\"id\"``\\ :"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:134
 msgid "``\"CREATE\"`` - создать объект"
-msgstr ""
+msgstr "``\"CREATE\"`` - create object"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:135
 msgid "``\"EDIT\"`` - изменить объект"
-msgstr ""
+msgstr "``\"EDIT\"`` - edit object"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:136
 msgid "``\"DELETE\"`` - удалить объект"
-msgstr ""
+msgstr "``\"DELETE\"`` - delete object"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:137
 msgid "``\"SAVEANDCLOSE\"`` - сохранить изменения и закрыть"
-msgstr ""
+msgstr "``\"SAVEANDCLOSE\"`` - save changes and close"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:138
 msgid "``\"SAVE\"`` - сохранить изменения"
-msgstr ""
+msgstr "``\"SAVE\"`` - save changes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:141
 msgid ""
 "Для представления атрибутов со свойством ``\"type\":2`` применяются "
 "следующие действия:"
-msgstr ""
+msgstr "Use the following commands for the attribute with ``\"type\":2``:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:144
 msgid "``\"SELECT\"`` - добавить"
-msgstr ""
+msgstr "``\"SELECT\"`` - add"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:145
 msgid "``\"EDIT\"`` - править"
-msgstr ""
+msgstr "``\"EDIT\"`` - edit"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:146
 msgid "``\"REMOVE\"`` - удалить"
-msgstr ""
+msgstr "``\"REMOVE\"`` - delete"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:165
 msgid "Следующая страница: `Условия отображения <visibility.md>`_"
-msgstr ""
+msgstr "The next page: `Visibility conditions <visibility.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/commands.rst:170
 msgid ""
@@ -9000,38 +9504,45 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_view/commands.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_view/commands.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:9
 msgid "Предыдущая страница: `Проектные документы <fileshare.md>`_"
-msgstr ""
+msgstr "The previous page: `Maintenance of project documents <fileshare.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:12
 msgid "Представление ``Комментарий`` для атрибутов типа \"Коллекция\""
-msgstr ""
+msgstr "``Comments`` for attributes of the \"Collection\" type"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst
 msgid "warning"
-msgstr ""
+msgstr "warning"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:14
 msgid ""
 "Для корректной работы функционала обязательно в зависимостях проекта "
 "должен быть указан репозиторий  ``viewlib``. Подключение:"
 msgstr ""
+"The ``viewlib`` repository must be specified in the project dependencies for "
+"the functionality to work correctly. Configuration:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:17
 msgid "В файле **package.json** проекта:"
-msgstr ""
+msgstr "In the **package.json** file of the project:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:28
 msgid ""
 "В директорию **application** рядом с текущим проектом добавить "
 "репозиторий проекта ``viewlib``"
 msgstr ""
+"In the **application** directory next to the current project add the "
+"repository of the ``viewlib`` project"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:31
 msgid "Инструкция по подключению функционала"
-msgstr ""
+msgstr "How to configure the functionality?"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:33
 msgid ""
@@ -9039,24 +9550,31 @@ msgid ""
 "``templates/registry/item_footer.ejs`` вида обратите внимание на "
 "пояснение строк после знака **//** :"
 msgstr ""
+"The view is realized using the template of ``templates / registry / "
+"item_footer.ejs`` form. Please note the comments for the lines after the "
+"**//** sign:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:109
 msgid "Настройка ``\"options\"``"
-msgstr ""
+msgstr "The ``\"options\"`` configuration"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:111
 msgid ""
 "Далее подключаем функционал ``\"options\"`` для представление Комментарий"
 " на форме представления изменения для атрибута типа \"Коллекция\":"
 msgstr ""
+"Next, configure the functionality of ``\"options\"`` for the \"Comment\" "
+"view on the edit form for the attribute of the \"Collection\" type:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:256
 msgid "Mета класса с атрибутом типа \"Коллекция\" с представлением Комментарий"
 msgstr ""
+"Meta class with the attribute of the \"Collection\" type with the \"Comment\""
+" view"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:259
 msgid "#. В классе создается обычный атрибут с типом \"Коллекция\". #."
-msgstr ""
+msgstr "#. Create an attribute of the \"Collection\" type. #."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:261
 msgid ""
@@ -9066,6 +9584,11 @@ msgid ""
 "<comments.md#настройка-options>`_. ### Mета класса по ссылке из атрибута "
 "типа \"Коллекция\" с представлением Комментарий"
 msgstr ""
+"In the edit view form, create an attribute of the \"Collection\" type as "
+"usual but with the ``\"options\"``\\ setting, see the `\"options\" "
+"configuration<comments.md#настройка-options>`_ for more details. ### Meta "
+"class by reference from the attribute of the \"Collection\" type with the \""
+"Comment\" view"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:265
 msgid ""
@@ -9074,10 +9597,14 @@ msgid ""
 "``item_footer.ejs`` и в свойстве ``\"options\"``. Дополнительно к "
 "обязательным - класс может содержать любые атрибуты."
 msgstr ""
+"An attribute composition and their system names **must** match the names in "
+"the ``item_footer.ejs`` template and in the ``\"options\"`` property. In "
+"addition to the mandatory attributes - class can contain any other "
+"attributes."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:268
 msgid "Мета дополнительных классов"
-msgstr ""
+msgstr "Meta of additional classes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:271
 msgid ""
@@ -9086,11 +9613,15 @@ msgid ""
 " фотография персоны (атрибут \"Фото\"), а так же ФИО персоны, которые "
 "являются семантикой данного класса."
 msgstr ""
+"The \"Person\" class must contain an attribute to specify the user name (in "
+"this case, this is the \"user\" attribute) and a photo of the person (\""
+"Photo\" attribute), as well as the Surname, first name & patronymic of the "
+"person which are the semantics of this class."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:474
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/meta_view_attribute.rst:193
 msgid "Следующая страница: `Типы представлений <view_types.md>`_"
-msgstr ""
+msgstr "The next page: `View types <view_types.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/comments.rst:479
 msgid ""
@@ -9099,14 +9630,17 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_view/comments.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_view/comments.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/enablement.rst:9
 msgid "Предыдущая страница: `Условия отображения <visibility.md>`_"
-msgstr ""
+msgstr "The previous page: `Visibility conditions <visibility.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/enablement.rst:12
 msgid "Условия активности"
-msgstr ""
+msgstr "Activity conditions"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/enablement.rst:17
 msgid ""
@@ -9114,16 +9648,19 @@ msgid ""
 "поля для редактирования в представлении. Синтаксис условий такой же, как "
 "в `условиях отображения <visibility.md>`_."
 msgstr ""
+"**Activity conditions** - set the activity conditions for the filed in the "
+"view. It defines if the field is available for editing or not. The syntax is "
+"the same as in the `visibility conditions <visibility.md>`_."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/enablement.rst:21
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/obligation.rst:23
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/visibility.rst:92
 msgid "Пример в JSON:"
-msgstr ""
+msgstr "Example in JSON:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/enablement.rst:102
 msgid "Следующая страница: `Условия обязательности <obligation.md>`_"
-msgstr ""
+msgstr "The next page: `Obligation conditions <obligation.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/enablement.rst:107
 msgid ""
@@ -9132,14 +9669,17 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_view/enablement.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_view/enablement.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/field_sizes.rst:9
 msgid "Назад: `Мета представлений - атрибутивная часть <meta_view_attribute.md>`_"
-msgstr ""
+msgstr "Back: `Meta view - attribute part <meta_view_attribute.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/field_sizes.rst:12
 msgid "Размеры полей"
-msgstr ""
+msgstr "Field sizes"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/field_sizes.rst:28
 msgid ""
@@ -9148,14 +9688,17 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_view/field_sizes.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_view/field_sizes.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fields.rst:9
 msgid "Предыдущая страница: `Маски <mask.md>`_"
-msgstr ""
+msgstr "The previous page: `Masks <mask.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fields.rst:12
 msgid "Поля"
-msgstr ""
+msgstr "Fields"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fields.rst:17
 msgid ""
@@ -9163,22 +9706,28 @@ msgid ""
 "признаку, в группу (более подробное описание см. `Тип \"Группа [0]\") "
 "<type_group.md>`_."
 msgstr ""
+"**Fields** - contains class attributes that are combined on any ground into "
+"a group (for more details see `Type \"Group [0]\" <type_group.md>`_)."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fields.rst:19
 msgid ""
 "**Внимание:** данное свойство применяется только для атрибута типа "
 "\"Группа [0]\"."
 msgstr ""
+"**Attention:** this property applies only to the attribute type - \"Group [0]"
+"\"."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fields.rst:24
 msgid ""
 "**NB:** На форме представления, заданные атрибуты, отображаются на нижнем"
 " уровне иерархии, на верхнем находится наименование группы."
 msgstr ""
+"**NB:** On the form, the specified attributes are displayed on the lower "
+"level of the hierarchy, the name of the group is on the top."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fields.rst:61
 msgid "Следующая страница: `Действия <commands.md>`_"
-msgstr ""
+msgstr "The next page: `Commands <commands.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fields.rst:66
 msgid ""
@@ -9187,14 +9736,17 @@ msgid ""
 "</docs/en/2_system_description/metadata_structure/meta_view/fields.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `English </docs/en/2_system_description/"
+"metadata_structure/meta_view/fields.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:9
 msgid "Предыдущая страница: `Опции <options.md>`_"
-msgstr ""
+msgstr "The previous page: `Options <options.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:12
 msgid "Ведение проектных документов"
-msgstr ""
+msgstr "Maintenance of project documents"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:14
 msgid ""
@@ -9203,98 +9755,117 @@ msgid ""
 " возможность скачать и/или получить ссылку на файл. Для настройки, в "
 "представлении атрибута типа \"Файл\" необходимо указать свойство:"
 msgstr ""
+"**Maintenance of project documents** - is realized as ``\"fileshare-list\"`` "
+"and ``\"fileshare\"`` settings, which are intended for document management, "
+"such as the ability to download and/or get a file link. To configure, "
+"specify the following property in the \"File\" type attribute view:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:23
 msgid "``fileshare-list`` - для типа ``multifile`` - множественные файлы"
-msgstr ""
+msgstr "``fileshare-list`` - for the ``multifile`` type - multiple files"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:24
 msgid "``fileshare`` - для типа ``file`` - один файл"
-msgstr ""
+msgstr "``fileshare`` - for the ``file`` type - one file"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:26
 msgid ""
 "В ``deploy.json`` в настройках ``registry`` подключаем кастомный "
 "файл-аплоадер (который с шарой директории и расширенными настройками):"
 msgstr ""
+"In the ``deploy.json`` file in the settings of ``registry`` connect a custom "
+"uploader-file (with \"share\" directory and advanced settings):"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:47
 msgid "Cохранение файлов в облаке"
-msgstr ""
+msgstr "How to save files in the cloud"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:49
 msgid ""
 "Путь для сохранения файла в облаке настраивается в ``deploy.json`` "
 "приложения. Для обращения к свойствам объекта используется знак ``$``."
 msgstr ""
+"The path to save a file in the cloud is configured in the ``deploy.json`` "
+"file of the application. The ``$`` sign is used to access to the object "
+"properties."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:55
 msgid ""
 "т.е. используем ``${item.}`` для того чтобы обозначить что это обращение "
 "к объекту."
-msgstr ""
+msgstr "i.e. use ``$ {item.}`` to indicate that this is an object call."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:83
 msgid ""
 "*Настройка позволяет задавать любую структуру хранения файлов "
 "(линейно/иерархически, коллекцией/один файл)*"
 msgstr ""
+"*The setting allows to specify any structure of file storage (linear/"
+"hierarchical, collection/single file)*"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:86
 msgid "Функционал шаринга на файлы"
-msgstr ""
+msgstr "\"Sharing\" functionality"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:89
 msgid "Подключение"
-msgstr ""
+msgstr "How to configure?"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:91
 msgid "В представлении необходимо задать свойство атрибута типа ``\"Файл\"``\\ :"
-msgstr ""
+msgstr "In the view set the attribute property of the ``\"File\"``\\ type:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:100
 msgid "Использование"
-msgstr "Create"
+msgstr "How to use"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:102
 msgid ""
 "При клике на значок \"share\" необходимо открывать окно управления шарой "
 "аналогичное как в овнклауд - в окне предусмотреть кнопки:"
 msgstr ""
+"When you click on the \"share\" icon, open the control window similar to one "
+"in OwnCloud with the following buttons:"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:105
 msgid ""
 "``применить`` - по апи облачного хранилища для файлика/каталога передаем "
 "все выбранные параметры:"
 msgstr ""
+"``apply`` - using the api of cloud storage for the file / directory transfer "
+"all the selected parameters :"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:106
 msgid ""
 "``поделиться ссылкой`` - формируем шару на файлик/каталог - после "
 "применения возвращаем в поле для возможности копирования ссылки"
 msgstr ""
+"``share a link`` - form a \"share\" on the file / directory - after "
+"applying, return to the field to copy the link"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:107
 msgid "``разрешить на редактирование``"
-msgstr ""
+msgstr "``allow editing``"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:108
 msgid "``защитить паролем``\\ - поле для ввода пароля"
-msgstr ""
+msgstr "``protect with a password``\\ - the field for entering password"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:109
 msgid "``установить срок действия`` - поле для даты"
-msgstr ""
+msgstr "``set period of validity`` - the field for entering data"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:110
 msgid ""
 "``перейти в хранилище`` - открываем в новой вкладке по ссылке на шару где"
 " находится файл/каталог - ( к примеру файл к примеру каталог )"
 msgstr ""
+"``go to storage`` - open in a new tab the link on the \"share\" where there "
+"are the files/directory"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:111
 msgid "``закрыть`` - закрыть окно управления файлом"
-msgstr ""
+msgstr "``close`` - close the control window of the file"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:113
 msgid ""
@@ -9303,26 +9874,30 @@ msgid ""
 "управляющего окна отображаются настройки шаринга, при необходимости "
 "свойства можно изменить."
 msgstr ""
+"**NB:** Sharing setting is available both for each file and for the entire "
+"directory. If there is already a sharing on the file / directory, then when "
+"you open the control window, the sharing settings are displayed, if "
+"necessary, you can change the properties."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:116
 msgid "Переход по прямой ссылки до хранения файла"
-msgstr ""
+msgstr "Direct link to file storage"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:119
 msgid "Возможности"
-msgstr ""
+msgstr "Features"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:123
 msgid "сразу скачать"
-msgstr ""
+msgstr "download immediately"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:126
 msgid "перейти на nextCloud и там увидеть/редактировать"
-msgstr ""
+msgstr "go to nextCloud and edit"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:129
 msgid "Условия хранения ссылок"
-msgstr ""
+msgstr "Conditions of link storage"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:131
 msgid ""
@@ -9330,10 +9905,13 @@ msgid ""
 " возможность удалять все ссылки, созданные в процессе работы с файлом "
 "спустя какое-то время или же за ненадобностью."
 msgstr ""
+"Conditions for storing links created in the process of working with files: ``"
+"To be released`` the ability to delete all links created in the process of "
+"working with a file after some time or as unnecessary."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:134
 msgid "Настройка доступа"
-msgstr ""
+msgstr "Access configuration"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:136
 msgid ""
@@ -9341,14 +9919,17 @@ msgid ""
 "ряде случаев необходимо задавать пользователей и права для них на "
 "создаваемые объекты хранилища."
 msgstr ""
+"Settings of users and access rights to OwnCloud storage objects. In some "
+"cases, you must specify users and their rights to the storage objects that "
+"you create."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:138
 msgid "Настройка задается в файле ``deploy.json`` проекта."
-msgstr ""
+msgstr "You can specify it in the ``deploy.json`` file of the project."
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:164
 msgid "Следующая страница: `Комментарии <comments.md>`_"
-msgstr ""
+msgstr "The next page: `Comments <comments.md>`_"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/fileshare.rst:169
 msgid ""
@@ -9356,6 +9937,8 @@ msgid ""
 "<https://iondv.com/portal/contacts>`_ &ensp;  `Russian <fileshare.md>`_"
 "   &ensp;"
 msgstr ""
+"`Licence </LICENSE>`_ &ensp;  `Contact us <https://iondv.com/portal/"
+"contacts>`_ &ensp;  `Russian <fileshare.md>`_   &ensp;"
 
 #: ../docs-ru/2_system_description/metadata_structure/meta_view/mask.rst:9
 msgid "Предыдущая страница: `Тип атрибута представления <view_types.md>`_"
