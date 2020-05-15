@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-05-13 08:04+0000\n"
+"PO-Revision-Date: 2020-05-15 06:05+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "3_modules_description/en/>\n"
@@ -1801,11 +1801,11 @@ msgstr "`English </docs/en/3_modules_description/report_warning.md>`_ &ensp;"
 
 #: ../../3_modules_description/rest/info.rst:3
 msgid "Текст для обработки"
-msgstr ""
+msgstr "The text to process"
 
 #: ../../3_modules_description/rest/method_search.rst:3
 msgid "Метод SEARCH"
-msgstr ""
+msgstr "The SEARCH method"
 
 #: ../../3_modules_description/rest/method_search.rst:5
 msgid ""
@@ -1814,108 +1814,134 @@ msgid ""
 "можно в формате .json задать условия *фильтрации*\\ , *сортировки* и "
 "*жадной загрузки* в нотации метода ``GetList`` репозитория данных:"
 msgstr ""
+"The ``SEARCH`` HTTP method is accessed in the CRUD service in the same way "
+"as the ``GET``method. The exception is that in the body of the message it is "
+"possible to set the * filtering * \\, *sorting* and *greedy loading * "
+"conditions in the .json format in the notation of the `` GetList`` method of "
+"the data repository:"
 
 #: ../../3_modules_description/rest/methods_crud.rst:3
 msgid "Отправка запросов с файлами в CRUD сервисе"
-msgstr ""
+msgstr "Sending requests with files in the CRUD service"
 
 #: ../../3_modules_description/rest/methods_crud.rst:5
 msgid "Отправка и прием файлов осуществляется двумя способами:"
-msgstr ""
+msgstr "Files are sent and received in two ways:"
 
 #: ../../3_modules_description/rest/methods_crud.rst:8
 msgid ""
 "данные принимаются в формате ``json``\\ , тогда контент файла передается "
 "как строка в формате *Base64*"
 msgstr ""
+"data is received in the ``json``\\ format, then the file content is "
+"transmitted as a string in the *Base64* format"
 
 #: ../../3_modules_description/rest/methods_crud.rst:9
 msgid ""
 "данные принимаются как ``FormData`` (application/x-www-form-urlencoded), "
 "тогда файлы передаются как *multipart*"
 msgstr ""
+"data is received as ``Form Data`` (application/x-www-form-urlencoded), then "
+"files are transmitted as *multipart*"
 
 #: ../../3_modules_description/rest/methods_crud.rst:11
 msgid ""
 "Корректный прием файловых атрибутов в случае отправки таких запросов "
 "осуществляется методами ``POST``\\ , ``PUT`` и ``PATCH`` в CRUD сервисе."
 msgstr ""
+"Correct reception of file attributes in case of sending such requests is "
+"carried out using the ``POST``\\ , ``PUT`` and ``PATCH`` methods in the CRUD "
+"service."
 
 #: ../../3_modules_description/rest/methods_crud.rst:13
 msgid ""
 "Так же возможна передача ссылок и коллекций по примеру, описанному для "
 "`soap модуля <https://github.com/iondv/soap>`_."
 msgstr ""
+"It is also possible to transfer references and collections according to the "
+"example described for the `soap module <https://github.com/iondv/soap>`_."
 
 #: ../../3_modules_description/rest/performance_workflow.rst:3
 msgid "Сервис исполнения бизнес-процесса"
-msgstr ""
+msgstr "Workflow execution service"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:6
 msgid "Принцип сервиса"
-msgstr ""
+msgstr "How it works"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:8
 msgid ""
 "Сервис маппится для всех методов на один путь вида ``/:class/:id`` для "
 "идентификации обьекта данных."
 msgstr ""
+"The service is mapped for all methods to one path of the ``/:class/:id``form "
+"to identify the data object."
 
 #: ../../3_modules_description/rest/performance_workflow.rst:10
 msgid "Сервис содержит три метода:"
-msgstr ""
+msgstr "The service includes three methods:"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:13
 msgid ""
 "``GET`` - без параметров, возвращает информацию о текущем статусе в БП "
 "(возможные переходы)"
 msgstr ""
+"``GET`` - without parameters, returns information about the current status "
+"in the workflow (possible transitions)"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:14
 msgid ""
 "``PUT`` - выполняет перевод обьекта в указанные **следующие** этапы "
 "разных БП."
 msgstr ""
+"``PUT`` - transfers the object to the specified **next** stages of different "
+"workflows"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:15
 msgid ""
 "``PATCH`` - выполняет принудительный перевод обьекта в указанные этапы "
 "разных БП."
 msgstr ""
+"``PATCH`` - performs a forced transfer of an object to the specified stages "
+"of different workflows"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:18
 msgid "Спецификация методов:"
-msgstr ""
+msgstr "Specification of methods:"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:21
 msgid "Метод GET"
-msgstr ""
+msgstr "GET method"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:23
 msgid "Получение текущего положения обьекта в БП:"
-msgstr ""
+msgstr "Get the current position of an object in the workfow:"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:30
 msgid "Метод PUT"
-msgstr ""
+msgstr "PUT method"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:32
 msgid "Выполнение переходов объекта по БП (в том числе последовательных):"
 msgstr ""
+"Implementation of object transitions by the workflow (including sequential "
+"ones):"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:48
 msgid "Для метода **PUT** передаем в теле запроса один из вариантов:"
-msgstr ""
+msgstr "For the **PUT** method, we pass one of the options in the request body:"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:51
 msgid "массив переходов;"
-msgstr ""
+msgstr "array of transitions;"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:52
 msgid ""
 "объект у которого атрибутами являются имена БП, а значениями атрибутов - "
 "массивы переходов."
 msgstr ""
+"an object whose attributes are workflow names and attribute values are "
+"transition arrays."
 
 #: ../../3_modules_description/rest/performance_workflow.rst:54
 msgid ""
@@ -1923,32 +1949,38 @@ msgid ""
 "бизнес процесса. В случае возникновения ошибки при переходе фиксируем ее,"
 " чтобы вернуть в ответе, и выполняем следующий переход."
 msgstr ""
+"In the PUT method, we draw the object sequentially through the specified "
+"workflow transitions. If an error occurs during the transition, we fix it to "
+"return it in the response and perform the next transition."
 
 #: ../../3_modules_description/rest/performance_workflow.rst:57
 msgid "Метод PATCH"
-msgstr ""
+msgstr "PATCH method"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:59
 msgid "Принудительное перемещение объекта в указанные состояния БП:"
-msgstr ""
+msgstr "Forced movement of an object to the specified workflow statuses:"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:66
 msgid ""
 "Для метода **PATCH** передаем в теле запроса массив состояний разных БП. "
 "Последовательно помещаем обьект в каждое из переданных состояний."
 msgstr ""
+"For the **PATCH** method, we pass an array of different workflow statuses in "
+"the request body. We sequentially place the object in each of the passed "
+"statuses."
 
 #: ../../3_modules_description/rest/performance_workflow.rst:71
 msgid "Запрос (метод GET):"
-msgstr ""
+msgstr "Query (GET method):"
 
 #: ../../3_modules_description/rest/performance_workflow.rst:77
 msgid "Ответ:"
-msgstr ""
+msgstr "Response:"
 
 #: ../../3_modules_description/rest/rest.rst:6
 msgid "IONDV. REST"
-msgstr ""
+msgstr "IONDV. REST"
 
 #: ../../3_modules_description/rest/rest.rst:8
 msgid ""
@@ -1960,6 +1992,12 @@ msgid ""
 " SPA созданные на фреймворках Angular, Redux, Vue и т.д.) или для бакенд "
 "части мобильных приложений."
 msgstr ""
+"The ICONV. Framework REST module is used to quickly create web services "
+"based on metadata for implementing a micro-service architecture. The module "
+"also allows you to integrate applications created on the framework with "
+"other systems using the REST API and provides data exchange for implementing "
+"custom web interfaces (including SPA created on the Angular, Redux, Vue "
+"frameworks, etc.) or for the backend part of mobile applications."
 
 #: ../../3_modules_description/rest/rest.rst:17
 msgid ""
@@ -1977,7 +2015,7 @@ msgstr ""
 "modules. Framework is a part of instrumental digital platform to create "
 "enterprise (ERP) apps. This platform consists of the following open-source "
 "components: the `IONDV. Framework<https://github.com/iondv/framework>`_\\, "
-"the `modules <https://github.com/topics/iondv-module>`_ и ready-made "
+"the `modules <https://github.com/topics/iondv-module>`_ and ready-made "
 "applications expanding it functionality, visual development environment `"
 "Studio <https://github.com/iondv/studio>`_ to create metadata for the app."
 
@@ -1987,6 +2025,9 @@ msgid ""
 "документация доступна в `репозитории на github "
 "<https://github.com/iondv/framework/blob/master/docs/en/index.md>`_"
 msgstr ""
+"More details about `IONDV. Framework on the site <https://iondv.com>`_\\, "
+"the documentation is available in `github repository <https://github.com/"
+"iondv/framework/blob/master/docs/en/index.md>`_"
 
 #: ../../3_modules_description/rest/rest.rst:30
 msgid ""
