@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-05-15 06:05+0000\n"
+"PO-Revision-Date: 2020-05-19 03:50+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "3_modules_description/en/>\n"
@@ -2036,40 +2036,50 @@ msgid ""
 "стандартные функции CRUD или подключает собственные сервисы приложения, в"
 " том числе использующие API ядра."
 msgstr ""
+"**ION DV. REST** - a module that provides work with the data of the ION DV "
+"application via the ``REST AP``. It is a wrapper for working with data via "
+"standard CRUD functions or it connects the application's own services, "
+"including those using the core API."
 
 #: ../../3_modules_description/rest/rest.rst:34
 msgid "Дополнительно:"
-msgstr ""
+msgstr "Additionally:"
 
 #: ../../3_modules_description/rest/rest.rst:37
 msgid ""
 "`Регистрация сервиса в конфигруации приложения "
 "<#регистрация-сервиса-в-конфигурации-приложения>`_"
 msgstr ""
+"`Service registration in application configuration <#service-registration-in-"
+"application configuration>`_"
 
 #: ../../3_modules_description/rest/rest.rst:38
 msgid ""
 "`Авторизация при запросах к сервисам "
 "<#авторизация-при-запросах-к-сервисам>`_"
 msgstr ""
+"`Authorization for requests to services <#authorization-for-requests-to-"
+"services>`_"
 
 #: ../../3_modules_description/rest/rest.rst:39
 msgid "`Встроенные сервисы модуля <#встроенные-сервисы-модуля>`_"
-msgstr ""
+msgstr "`Built-in module services <#built-in-module services>`_"
 
 #: ../../3_modules_description/rest/rest.rst:40
 msgid ""
 "`Реализация обработчика сервиса в приложении "
 "<#реализация-обработчика-сервиса-в-приложении>`_"
 msgstr ""
+"`Service handler implementation in application <#service-handler-"
+"implementation-in-application>`_"
 
 #: ../../3_modules_description/rest/rest.rst:41
 msgid "`Дополнительные сервисы модуля <#дополнительные-сервисы>`_"
-msgstr ""
+msgstr "`Additional module services <#additional-services>`_"
 
 #: ../../3_modules_description/rest/rest.rst:44
 msgid "Регистрация сервиса в конфигурации приложения"
-msgstr ""
+msgstr "Service registration in application configuration"
 
 #: ../../3_modules_description/rest/rest.rst:46
 msgid ""
@@ -2077,6 +2087,9 @@ msgid ""
 "глобальных настройках модуля rest в файле deploy.json приложения. Пример "
 "приведен ниже."
 msgstr ""
+"To enable services in the app, it's necessary to configure them in the "
+"global settings of the rest module in the deploy.json file of the "
+"applications. An example is given below."
 
 #: ../../3_modules_description/rest/rest.rst:74
 msgid ""
@@ -2090,18 +2103,32 @@ msgid ""
 "может быть как в приложении, так и в любом модуле или фреймворке, в т.ч. "
 "типовые обработчики модуля rest."
 msgstr ""
+"The path to the registration service in the file ``deploy.json`` is "
+"``module.reset.globals.di``\\, then specify the name of the service that "
+"will be available at ``https://domain.com/rest/serviceName``\\, where "
+"serviceName is the name of the service specified in di, such as in the "
+"example above ``simple`` or ``string-list``. The attribute `` module`` "
+"indicates the path to the js file with the service handler with the path "
+"relative to the root of the framework. The handler can be both in the "
+"application and in any module or framework, including sample rest module "
+"handlers."
 
 #: ../../3_modules_description/rest/rest.rst:79
 msgid ""
 "В параметре ``options`` указываются специфические настройки сервиса. "
 "Например, для сервиса **crud** указаны:"
 msgstr ""
+"The ``options`` parameter the specific settings of the service are "
+"indicated. For example, for the **crud** service, the following settings are "
+"indicated:"
 
 #: ../../3_modules_description/rest/rest.rst:83
 msgid ""
 "в поле ``dataRepo`` - репозиторий данных с контролем доступа, "
 "используемый для операций над обьектами"
 msgstr ""
+"in the ``dataRepo`` field - data repository with access control used for "
+"operations with objects"
 
 #: ../../3_modules_description/rest/rest.rst:84
 msgid ""
@@ -2109,10 +2136,12 @@ msgid ""
 "текущей учетной записи пользователя. А для сервиса **string-list** "
 "указаны:"
 msgstr ""
+"in the ``auth``\\ field - the authentication component used to get the "
+"current user account. And for the service **string-list**:"
 
 #: ../../3_modules_description/rest/rest.rst:86
 msgid "в поле ``dataRepo`` - репозиторий данных, используемый для выборки данных"
-msgstr ""
+msgstr "in the ``dataRepo`` field - the data repository used for data retrieval"
 
 #: ../../3_modules_description/rest/rest.rst:87
 msgid ""
@@ -2120,32 +2149,37 @@ msgid ""
 "случае класс ``class_string@develop-and-test`` будет передан в метод "
 "``getList`` репозитория данных .. code-block:: javascript"
 msgstr ""
+"in the field ``stringClassName`` - the class name of the received objects, "
+"in this case the class ``class_string@develop-and-test`` will be passed to "
+"the ``getList`` method of the data repository .. code-block :: javascript"
 
 #: ../../3_modules_description/rest/rest.rst:91
 msgid "options.dataRepo.getList(options.stringClassName, {})"
-msgstr ""
+msgstr "options.dataRepo.getList(options.stringClassName, {})"
 
 #: ../../3_modules_description/rest/rest.rst:94
 msgid "Аунтентификация при запросах к сервисам"
-msgstr ""
+msgstr "Service Request Authentication"
 
 #: ../../3_modules_description/rest/rest.rst:96
 msgid "Авторизация может осуществляться следующими способами."
-msgstr ""
+msgstr "Authorization can be carried out in the following ways."
 
 #: ../../3_modules_description/rest/rest.rst:101
 msgid ""
 "Все сервисы по умолчанию используют стандартный механизм авторизации, "
 "подразумевающий передачу учетных данных в заголовке:"
 msgstr ""
+"All services use the standard authorization mechanism by default, which "
+"implies the transfer of credentials in the header:"
 
 #: ../../3_modules_description/rest/rest.rst:104
 msgid "путем авторизации через basicAuth, пример .. code-block:: bash"
-msgstr ""
+msgstr "by authorization via basicAuth, example .. code-block :: bash"
 
 #: ../../3_modules_description/rest/rest.rst:107
 msgid "curl -u demo@local:ion-demo https://dnt.iondv.com/rest/simple"
-msgstr ""
+msgstr "curl -u demo@local:ion-demo https://dnt.iondv.com/rest/simple"
 
 #: ../../3_modules_description/rest/rest.rst:108
 msgid ""
@@ -2155,20 +2189,27 @@ msgid ""
 "``/Checking echo-pwd service/# Requesting echo-pwd GET/check if the "
 "request can be made using the basicAuth``"
 msgstr ""
+"also in develop-and-test (dnt): `test/modules/rest/echopwd.spec.js "
+"<https://github.com/iondv/develop-and-test/test/modules/rest/"
+"echopwd.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking echo-pwd service/# "
+"Requesting echo-pwd GET/check if the request can be made using the "
+"basicAuth``"
 
 #: ../../3_modules_description/rest/rest.rst:110
 msgid "путем передачи учетных данных в заголовках запроса .. code-block:: bash"
-msgstr ""
+msgstr "by passing credentials in the request headers .. code-block :: bash"
 
 #: ../../3_modules_description/rest/rest.rst:113
 msgid ""
 "curl -H \"auth-user: demo\" -H \"auth-pwd: ion-demo\" -H \"auth-user-"
 "type: local\" https://dnt.iondv.com/rest/simple"
 msgstr ""
+"curl -H \"auth-user: demo\" -H \"auth-pwd: ion-demo\" -H \"auth-user-type: "
+"local\" https://dnt.iondv.com/rest/simple"
 
 #: ../../3_modules_description/rest/rest.rst:115
 msgid "или"
-msgstr ""
+msgstr "or"
 
 #: ../../3_modules_description/rest/rest.rst:121
 msgid ""
@@ -2177,12 +2218,19 @@ msgid ""
 "m2r:`<br>` ``/Checking echo-pwd service/# Requesting echo-pwd GET/check "
 "if the request can be made using the headers auth``"
 msgstr ""
+"dnt: `test/modules/rest/echopwd.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/echopwd.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking echo-pwd service/# Requesting echo-pwd GET/check if the request "
+"can be made using the headers auth``"
 
 #: ../../3_modules_description/rest/rest.rst:127
 msgid ""
 "Для реализации работы сервиса без аутентификации, необходимо задать для "
 "него значение ``none`` в настройке ``authMode`` в ``deploy.json``"
 msgstr ""
+"To implement the operation of the service without authentication, it's "
+"necessary to set it to ``none`` in the ``authMode`` setting in "
+"``deploy.json``"
 
 #: ../../3_modules_description/rest/rest.rst:138
 msgid ""
@@ -2193,24 +2241,35 @@ msgid ""
 " echo-pwd service/# Requesting echo-pwd GET/check if the request can be "
 "made using the headers auth``"
 msgstr ""
+"The request for the service will not require authentication, query example ``"
+"curl https://dnt.iondv.com/rest/echoo``\\ :raw-html-m2r:`<br>` dnt: `test/"
+"modules/rest/echo.spec.js <https://github.com/iondv/develop-and-test/test/"
+"modules/rest/echo.spec.js>`_\\ :raw-html-m2r:`<br>` ``/Checking echo-pwd "
+"service/# Requesting echo-pwd GET/check if the request can be made using the "
+"headers auth``"
 
 #: ../../3_modules_description/rest/rest.rst:145
 msgid ""
 "Для реализации работы сервиса с аутентификацией oauth2, необходимо "
 "предварительно подключить в deploy.json плагин вида"
 msgstr ""
+"To implement the service with oauth2 authentication, you have to first "
+"enable it in deploy.json plugin of the form"
 
 #: ../../3_modules_description/rest/rest.rst:157
 msgid ""
 "затем можно задать для сервиса значение ``oauth`` в настройке "
 "``auth_mode``\\ :"
 msgstr ""
+"then you can set the service to ``oauth`` in the setting ``auth_mode``\\ :"
 
 #: ../../3_modules_description/rest/rest.rst:168
 msgid ""
 "спецификация oauth2 доступна по ссылке: "
 "https://oauth2-server.readthedocs.io/en/latest/index.html"
 msgstr ""
+"oauth2 specification is available at: https://oauth2-server.readthedocs.io/"
+"en/latest/index.html"
 
 #: ../../3_modules_description/rest/rest.rst:170
 msgid ""
@@ -2219,36 +2278,45 @@ msgid ""
 "предоставлять логин и пароль. Запросы для получения доступа производятся "
 "в следующем порядке:"
 msgstr ""
+"This type of authorization is used to provide a third party with limited "
+"access to user resources without having to provide a username and password. "
+"Requests for access are made in the following order:"
 
 #: ../../3_modules_description/rest/rest.rst:175
 msgid "Со стороны пользователя получаем cookie с id сессии:"
-msgstr ""
+msgstr "From the user’s side, we get a cookie with session id:"
 
 #: ../../3_modules_description/rest/rest.rst:182
 msgid ""
 "Используя авторизованную сессию разрешаем клиенту ext@system запросы от "
 "нашего имени:"
 msgstr ""
+"Using an authorized session we allow ext@system client requests on our "
+"behalf:"
 
 #: ../../3_modules_description/rest/rest.rst:188
 msgid "В ответе будет содержаться параметр code."
-msgstr ""
+msgstr "The response will contain the code parameter."
 
 #: ../../3_modules_description/rest/rest.rst:191
 msgid "Теперь используя code можно получить токен:"
-msgstr ""
+msgstr "Now using code you can get a token:"
 
 #: ../../3_modules_description/rest/rest.rst:197
 msgid ""
 "в заголовке Authorization нужно ввести Basic :raw-html-"
 "m2r:`<client_secret>` код клиента. В ответе будет получен access_token."
 msgstr ""
+"in the Authorization header, enter Basic: raw-html-m2r: `<client_secret>` "
+"client code. The response will contain access_token."
 
 #: ../../3_modules_description/rest/rest.rst:201
 msgid ""
 "Для запросов от лица пользователя в сервисах с авторизацией oauth2 теперь"
 " можно авторизоваться используя access_token:"
 msgstr ""
+"For requests on behalf of the user in services with oauth2 authorization, "
+"you can now log in using access_token:"
 
 #: ../../3_modules_description/rest/rest.rst:207
 msgid ""
@@ -2256,12 +2324,17 @@ msgid ""
 "/develop-and-test/test/modules/rest/echooauth.spec.js>`_\\ :raw-html-"
 "m2r:`<br>` ``/Checking echo-oauth service``"
 msgstr ""
+"dnt: `test/modules/rest/echooauth.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/echooauth.spec.js>`_\\ :raw-html-"
+"m2r:`<br>` ``/Checking echo-oauth service``"
 
 #: ../../3_modules_description/rest/rest.rst:213
 msgid ""
 "Аутентификация по токену используется для исключения постоянной передачи "
 "учетной записи в запросах. Токены ограничены по времени жизни."
 msgstr ""
+"Token authentication is used to exclude the constant transfer of an account "
+"in requests. Tokens are limited in their lifetime."
 
 #: ../../3_modules_description/rest/rest.rst:216
 msgid ""
@@ -2269,12 +2342,17 @@ msgid ""
 "задать для него значение ``token`` в настройке ``authMode`` в "
 "``deploy.json``"
 msgstr ""
+"To implement the service with authentication through a token, you have to "
+"set the ``token`` value for it in the ``authMode`` setting in the "
+"``deploy.json``"
 
 #: ../../3_modules_description/rest/rest.rst:227
 msgid ""
 "Аутентификация через токен осуществляется путем отправки значения токена "
 "в заголовке запроса ``auth-token``"
 msgstr ""
+"Authentication through a token is performed by sending the token value in "
+"the ``auth-token`` request header"
 
 #: ../../3_modules_description/rest/rest.rst:233
 msgid ""
@@ -2283,18 +2361,26 @@ msgid ""
 "``/Checking token service/# basicAuth authorization with admin rights/# "
 "check if the generated token is valid (basicAuth) (using echo-token)``"
 msgstr ""
+"dnt: `test/modules/rest/token.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/token.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking token service/# basicAuth authorization with admin rights/# "
+"check if the generated token is valid (basicAuth) (using echo-token)``"
 
 #: ../../3_modules_description/rest/rest.rst:236
 msgid ""
 "Получение токена возможно двумя способами: в консоли модуля ionadmin или "
 "через сервис ``token`` модуля rest."
 msgstr ""
+"There are two ways to get a token: in the console of the ionadmin module or "
+"through the ``token`` service of the rest module."
 
 #: ../../3_modules_description/rest/rest.rst:238
 msgid ""
 "Все сгенерированные токены хранятся в коллекции ``ion_user_tokens`` в "
 "базе данных приложения"
 msgstr ""
+"All generated tokens are stored in the ``ion_user_tokens`` collection in the "
+"application database"
 
 #: ../../3_modules_description/rest/rest.rst:243
 msgid ""
@@ -2302,22 +2388,25 @@ msgid ""
 "навигации \"Ключи безопасности веб-сервисов\" модуля ionadmin, например "
 "перейдя по адресу ``locahost:8888/ionadmin/token``"
 msgstr ""
+"To get a token through the administrator’s console, go to the navigation "
+"item \"Web Services Security Keys\" of the ionadmin module, for example by "
+"going to the address ``locahost:8888/ionadmin/token``"
 
 #: ../../3_modules_description/rest/rest.rst:246
 msgid "На странице \"Генератор токенов безопасности\":"
-msgstr ""
+msgstr "On the \"Security Token Generator page\":"
 
 #: ../../3_modules_description/rest/rest.rst:249
 msgid "Введите имя пользоватля в поле \"Имя пользователя\""
-msgstr ""
+msgstr "Enter the user name in the \"User Name\" field"
 
 #: ../../3_modules_description/rest/rest.rst:250
 msgid "Укажите в поле \"Тип учетной записи\" значение \"local\""
-msgstr ""
+msgstr "Enter \"local\" in the \"Account Type\" field"
 
 #: ../../3_modules_description/rest/rest.rst:251
 msgid "Нажмите кнопку \"Сгенерировать токен\""
-msgstr ""
+msgstr "Click the \"Generate Token\" button"
 
 #: ../../3_modules_description/rest/rest.rst:252
 msgid ""
@@ -2325,10 +2414,13 @@ msgid ""
 "``3a546090355317c287886c0e81dfd304fa5bda99``\\ , его и нужно использовать"
 " как значение заголовка ``auth-token``."
 msgstr ""
+"The \"Token\" field will display a token value similar to "
+"``3a546090355317c287886c0e81dfd304fa5bda99``\\ , and it should be used as "
+"the ``auth-token`` header value."
 
 #: ../../3_modules_description/rest/rest.rst:255
 msgid "Время жизни токена созданного по умолчанию 100 лет."
-msgstr ""
+msgstr "The default token lifetime is 100 years."
 
 #: ../../3_modules_description/rest/rest.rst:260
 msgid ""
@@ -2337,10 +2429,13 @@ msgid ""
 "запрос на адрес ``rest/token``. Например через авторизацию типа "
 "basicAuth:"
 msgstr ""
+"The second way to get a token is to use the web service of the rest module - "
+"``token``. You can get a token via an authenticated request to the address ``"
+"rest/token``. For example using basicAuth authorization:"
 
 #: ../../3_modules_description/rest/rest.rst:267
 msgid "или запрос с авторизацией через параметры в заголовке:"
-msgstr ""
+msgstr "or a request with authorization through the parameters in the header:"
 
 #: ../../3_modules_description/rest/rest.rst:273
 #: ../../3_modules_description/rest/rest.rst:452
@@ -2351,6 +2446,11 @@ msgid ""
 " :raw-html-m2r:`<br>` ``/Checking token service/# authorization with "
 "admin rights using header parameters``"
 msgstr ""
+"dnt: `test/modules/rest/token.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/token.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking token service/# basicAuth authorization with admin rights``\\ "
+":raw-html-m2r:`<br>` ``/Checking token service/# authorization with admin "
+"rights using header parameters``"
 
 #: ../../3_modules_description/rest/rest.rst:277
 msgid ""
@@ -2358,12 +2458,17 @@ msgid ""
 "``e444c69894d2087696e0a6c6914788f67ebcf6ee``. Время жизни токена по "
 "умолчанию 100 лет."
 msgstr ""
+"In the response of the service there will be a token of the form "
+"``e444c69894d2087696e0a6c6914788f67ebcf6ee``. The default token lifetime is "
+"100 years."
 
 #: ../../3_modules_description/rest/rest.rst:279
 msgid ""
 "Для выполнения запроса нужно или обладать администраторскими правами в "
 "системе или иметь права ``use`` для ресурса ``ws:::gen-ws-token``"
 msgstr ""
+"To execute the request, you have to either have administrator rights in the "
+"system or have the ``use`` rights for the resource ``ws ::: gen-ws-token``"
 
 #: ../../3_modules_description/rest/rest.rst:281
 msgid ""
