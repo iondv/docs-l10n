@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-05-19 03:50+0000\n"
+"PO-Revision-Date: 2020-05-19 08:01+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "3_modules_description/en/>\n"
@@ -2476,58 +2476,68 @@ msgid ""
 " строки ``node bin/acl.js --role restGrp --p USE --res ws:::gen-ws-"
 "token`` (где restGrp название существующей группы)"
 msgstr ""
+"You can add a resource for generating tokens for a role from the command "
+"line ``node bin/acl.js --role restGrp --p USE --res ws:::gen-ws-token`` ("
+"where restGrp is the name of an existing group)"
 
 #: ../../3_modules_description/rest/rest.rst:286
 msgid ""
 "Вторым способом добавления прав на ресурс - использование консоли "
 "администратора модуля ionadmin, например, перейдя по"
 msgstr ""
+"The second way to add rights to a resource is to use the admin console of "
+"the ionadmin module, for example, by going to"
 
 #: ../../3_modules_description/rest/rest.rst:285
 msgid "адресу ``locahost:8888/ionadmin/``\\ :"
-msgstr ""
+msgstr "``locahost:8888/ionadmin/``\\ :"
 
 #: ../../3_modules_description/rest/rest.rst:288
 msgid "Выберите пункт навигации \"Безопасность\","
-msgstr ""
+msgstr "Select the \"Security\" navigation item"
 
 #: ../../3_modules_description/rest/rest.rst:289
 msgid "Выберите подпункт навигации \"Роли\""
-msgstr ""
+msgstr "Select the \"Roles\" navigation sub-item"
 
 #: ../../3_modules_description/rest/rest.rst:290
 msgid ""
 "Выберите существующую роль и нажмите кнопку редактировать или создать "
 "новую роль."
-msgstr ""
+msgstr "Select an existing role and click edit or create a new role"
 
 #: ../../3_modules_description/rest/rest.rst:291
 msgid "В поле \"Права доступа\" роли выберите вкладку \"Services\""
-msgstr ""
+msgstr "In the role \"Access rights\" field, select the \"Services\" tab"
 
 #: ../../3_modules_description/rest/rest.rst:292
 msgid ""
 "Раскройте список прав для ресурса \"Генерация токенов безопасности "
 "посредством веб-сервисов (ws:::gen-ws-token)\""
 msgstr ""
+"Expand the list of rights for the resource \"Generation of security tokens "
+"through web services (ws:::gen-ws-token)\""
 
 #: ../../3_modules_description/rest/rest.rst:293
 msgid "Выбрать пункт \"Использование\" и нажмите кнопку \"Сохранить\""
-msgstr ""
+msgstr "Select \"Use\" and click \"Save\""
 
 #: ../../3_modules_description/rest/rest.rst:296
 msgid "Прокси-клиент для доступа к функциям модуля без получения нового токена"
 msgstr ""
+"Proxy client for access to module functions without receiving a new token"
 
 #: ../../3_modules_description/rest/rest.rst:298
 msgid ""
 "Подключение клиента осуществляется в ``modules.registry.globals.di`` "
 "``deploy.json``\\ :"
 msgstr ""
+"Client connection is carried out in ``modules.registry.globals.di`` "
+"``deploy.json``\\ :"
 
 #: ../../3_modules_description/rest/rest.rst:327
 msgid "Пример запроса к rest/echo-token через прокси-клиент:"
-msgstr ""
+msgstr "Example of a request to rest/echo-token through a proxy client:"
 
 #: ../../3_modules_description/rest/rest.rst:334
 msgid ""
@@ -2535,36 +2545,45 @@ msgid ""
 "/develop-and-test/test/modules/rest/gateway.spec.js>`_\\ :raw-html-"
 "m2r:`<br>` ``/Checking rest-api proxy``"
 msgstr ""
+"dnt: `test/modules/rest/gateway.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/gateway.spec.js>`_\\ :raw-html-m2r:`<br>` "
+"``/Checking rest-api proxy``"
 
 #: ../../3_modules_description/rest/rest.rst:338
 msgid "Встроенные сервисы модуля"
-msgstr ""
+msgstr "Built-in module services"
 
 #: ../../3_modules_description/rest/rest.rst:340
 msgid ""
 "Модуль REST имеет несколько встроенных сервисов предназначенных для "
 "реализации типовых операций с модулем:"
 msgstr ""
+"The REST module has several built-in services designed to implement typical "
+"operations with the module:"
 
 #: ../../3_modules_description/rest/rest.rst:343
 msgid "``acceptor`` - сервис обеспечивает массовое создание объектов"
-msgstr ""
+msgstr "``acceptor`` - the service provides mass creation of objects"
 
 #: ../../3_modules_description/rest/rest.rst:344
 msgid ""
 "``token`` - сервис обеспечивает выдачу токена для авторизованного "
 "пользователя"
 msgstr ""
+"``token`` - the service provides the issuance of a token for an authorized "
+"user"
 
 #: ../../3_modules_description/rest/rest.rst:345
 msgid "``crud`` - сервис CRUD для объектов системы"
-msgstr ""
+msgstr "``crud`` - CRUD service for system objects"
 
 #: ../../3_modules_description/rest/rest.rst:350
 msgid ""
 "Сервис ``acceptor`` предназначен для массового сохранения объектов разных"
 " классов."
 msgstr ""
+"The `` acceptor`` service is intended for mass storage of objects of "
+"different classes."
 
 #: ../../3_modules_description/rest/rest.rst:352
 msgid ""
@@ -2572,12 +2591,18 @@ msgid ""
 "приложений deploy.json. При этом для сервиса обязательно должны быть "
 "указаны в ``options`` репозитории ``dataRepo`` и ``metaRepo``. Например"
 msgstr ""
+"To work with the service, its registration in the deploy.json application "
+"configuration file is required. At the same time, for the service, the "
+"repositories ``dataRepo`` and ``metaRepo`` must be specified in the "
+"``options``. For example"
 
 #: ../../3_modules_description/rest/rest.rst:370
 msgid ""
 "Авторизация осуществляется через все основные типы доступа, а по "
 "умолчанию через учетную запись пользователя."
 msgstr ""
+"Authorization is carried out through all the main types of access, and by "
+"default through the user account."
 
 #: ../../3_modules_description/rest/rest.rst:372
 msgid ""
@@ -2586,6 +2611,10 @@ msgid ""
 "заголовке содержания json ``Content-Type:application/json``. "
 "Автосоздаваемые поля указывать не обязательно."
 msgstr ""
+"The service uses the ``POST``\\ method, objects are passed as an array of "
+"objects in JSON format in the request body, with the mandatory indication of "
+"the json content ``Content-Type:application/json`` in the header. You don't "
+"need to specify auto-generated fields."
 
 #: ../../3_modules_description/rest/rest.rst:375
 msgid ""
@@ -2595,28 +2624,35 @@ msgid ""
 "зарегистрирован в ``options`` сервиса. Если обработчик не указан, "
 "используется обработчик по умолчанию."
 msgstr ""
+"In the header in the ``ion-converter`` property, the name of the converter "
+"can be passed, which should be used when processing the data of both the "
+"request and the response. In this case, the data converter itself must be "
+"registered in the ``options`` of the service. If no handler is specified, "
+"the default handler is used."
 
 #: ../../3_modules_description/rest/rest.rst:379
 msgid "В данных объекта обязательно указываются:"
-msgstr ""
+msgstr "The object data must include:"
 
 #: ../../3_modules_description/rest/rest.rst:382
 msgid "``_id`` - идентификатор объекта по ключевому полю"
-msgstr ""
+msgstr "``_id`` - the object ID in the key field"
 
 #: ../../3_modules_description/rest/rest.rst:383
 msgid "``_class`` - класс объекта с неймспейсом"
-msgstr ""
+msgstr "``_class`` - object class with namespace"
 
 #: ../../3_modules_description/rest/rest.rst:384
 msgid "``_classVer`` - версия класса"
-msgstr ""
+msgstr "``_classVer`` - class version"
 
 #: ../../3_modules_description/rest/rest.rst:386
 msgid ""
 "Остальные значения должны соответствовать свойствам класса, включая "
 "соответствие типов данных. Пример."
 msgstr ""
+"The other values must match the class properties, including matching data "
+"types. Example."
 
 #: ../../3_modules_description/rest/rest.rst:396
 msgid ""
@@ -2625,15 +2661,21 @@ msgid ""
 "m2r:`<br>` ``/Checking acceptor service/# basicAuth authorization with "
 "admin rights, POSTing strings/# result of creation of objects``"
 msgstr ""
+"dnt: `test/modules/rest/acceptor.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/acceptor.spec.js>`_\\ :raw-html-m2r:`<br>`"
+" ``/Checking acceptor service/# basicAuth authorization with admin rights, "
+"POSTing strings/# result of creation of objects``"
 
 #: ../../3_modules_description/rest/rest.rst:399
 msgid "Метод возвращает код ``200`` и массив сохраненных объектов."
-msgstr ""
+msgstr "The method returns the code ``200`` and an array of stored objects."
 
 #: ../../3_modules_description/rest/rest.rst:415
 #: ../../3_modules_description/rest/rest.rst:650
 msgid "В случае ошибки код ответа будет ``400``\\ , а текст ответа содержать"
 msgstr ""
+"In case of an error, the response code will be ``400`` \\, and the response "
+"text will contain"
 
 #: ../../3_modules_description/rest/rest.rst:433
 msgid ""
@@ -2641,6 +2683,8 @@ msgid ""
 "аутентификацию, для его дальнейшего использования в сервисах "
 "осуществляющих аутентификацию по токену."
 msgstr ""
+"The ``token`` service is intended for issuing a token to an authenticated "
+"user for its further use in token authentication services."
 
 #: ../../3_modules_description/rest/rest.rst:436
 msgid ""
@@ -2651,20 +2695,29 @@ msgid ""
 "``e444c69894d2087696e0a6c6914788f67ebcf6ee``. Время жизни токена по "
 "умолчанию 100 лет."
 msgstr ""
+"The service does not require registration in deploy.json. The service "
+"provides the issuance of a token for an authorized user if he has the ``use``"
+" rights for the ``ws:::gen-ws-token`` resource or has administrator rights. "
+"In response to the request, a token of the form "
+"``e444c69894d2087696e0a6c6914788f67ebcf6ee`` is returned. The default token "
+"lifetime is 100 years."
 
 #: ../../3_modules_description/rest/rest.rst:440
 msgid "Пример запроса через аутентификацию типа basicAuth"
-msgstr ""
+msgstr "Example of a request using basicAuth authentication"
 
 #: ../../3_modules_description/rest/rest.rst:446
 msgid "Пример запроса  с аутентификацией через параметры в заголовке"
 msgstr ""
+"Example of a request with authentication through parameters in the header"
 
 #: ../../3_modules_description/rest/rest.rst:459
 msgid ""
 "Сервис ``crud`` реализует REST API по модели основных операций CRUD "
 "(create, read, update, delete)."
 msgstr ""
+"The ``crud`` service implements the REST API according to the model of basic "
+"CRUD operations (create, read, update, delete)."
 
 #: ../../3_modules_description/rest/rest.rst:461
 msgid ""
@@ -2675,6 +2728,12 @@ msgid ""
 "репозиторий с полной обработкой безопасности, чтобы отрабатывать доступ к"
 " объектам с учетом динамической безопаности. Например"
 msgstr ""
+"The service requires registration in deploy.json of the application and "
+"requires specifying the data source ``data Repo`` in ``options`` of the "
+"service, as well as the ``auth`` authorization source for accessing user "
+"data. It is advisable to specify a repository with full security processing "
+"as the data repository in order to work out access to objects that take "
+"dynamic security into account. For example"
 
 #: ../../3_modules_description/rest/rest.rst:481
 msgid ""
