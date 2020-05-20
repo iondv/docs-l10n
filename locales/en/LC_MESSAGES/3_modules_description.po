@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-05-19 08:01+0000\n"
+"PO-Revision-Date: 2020-05-20 03:13+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "3_modules_description/en/>\n"
@@ -2740,6 +2740,8 @@ msgid ""
 "Аутентификация осуществляется через все основные типы доступа, а по "
 "умолчанию через учетную запись пользователя."
 msgstr ""
+"Authentication is performed through all the main access types, and by "
+"default through a user account."
 
 #: ../../3_modules_description/rest/rest.rst:489
 msgid ""
@@ -2748,12 +2750,17 @@ msgid ""
 "``/Checking crud service/# check if the response for null parameters is "
 "valid``"
 msgstr ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/"
+"Checking crud service/# check if the response for null parameters is valid``"
 
 #: ../../3_modules_description/rest/rest.rst:492
 msgid ""
 "По умолчанию, без правильных параметров - код ответа сервера ``404`` об "
 "ошибке"
 msgstr ""
+"By default, without the correct parameters - the server responds with the "
+"``404`` error code"
 
 #: ../../3_modules_description/rest/rest.rst:510
 msgid ""
@@ -2761,6 +2768,9 @@ msgid ""
 "указывается код класса и нейспейс, например ``rest/crud/class_string"
 "@develop-and-test/``"
 msgstr ""
+"The list of objects is requested using the ``GET``\\ method, and the class "
+"code and namespace are specified, for example, ``rest/crud/class_string"
+"@develop-and-test/``"
 
 #: ../../3_modules_description/rest/rest.rst:516
 msgid ""
@@ -2771,24 +2781,32 @@ msgid ""
 "кол-вом 5ть записей и статусом ``200``\\ , если такого класса нет "
 "возвращает код ``404``."
 msgstr ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/"
+"Checking crud service/GET/# getting a list of text objects``\\ :raw-html-"
+"m2r:`<br>` The service response with a JSON Object with an offset of 0 and a "
+"count of 5 records and a status of ``200``\\, if there is no such class, it "
+"returns the code ``404``."
 
 #: ../../3_modules_description/rest/rest.rst:540
 msgid "Запрос может быть осуществлен со следущими query параметрами:"
-msgstr ""
+msgstr "The query can be implemented with the following parameters:"
 
 #: ../../3_modules_description/rest/rest.rst:543
 msgid "``_offset`` - смещение выборки, по умолчанию 0"
-msgstr ""
+msgstr "``_offset`` - sampling offset, 0 by default"
 
 #: ../../3_modules_description/rest/rest.rst:544
 msgid "``_count`` - кол-во значение в выборке, по умолчанию 5"
-msgstr ""
+msgstr "``_count`` - number of values in the sample, by default 5"
 
 #: ../../3_modules_description/rest/rest.rst:545
 msgid ""
 "``_eager`` - список свойств класса, разделенных символом ``|`` для "
 "которых необходимо осуществить жадную загрузку данных."
 msgstr ""
+"``_eager`` - a list of class properties separated by the ``|`` symbol for "
+"which data must be eagerly loaded."
 
 #: ../../3_modules_description/rest/rest.rst:546
 msgid ""
@@ -2796,10 +2814,13 @@ msgid ""
 "начинающихся на ``_`` считаются именами атрибутов класса, а их значения "
 "задаются в качестве фильтров."
 msgstr ""
+"``[name of property]`` - all parameters are assumed to be query names, "
+"except those beginning with ``_``which are considered class attribute names, "
+"and their values are set as filters."
 
 #: ../../3_modules_description/rest/rest.rst:549
 msgid "Примеры:"
-msgstr ""
+msgstr "Examples:"
 
 #: ../../3_modules_description/rest/rest.rst:560
 msgid ""
@@ -2810,6 +2831,11 @@ msgid ""
 "service/GET/# getting a list of text objects containing a specific "
 "string``"
 msgstr ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/"
+"Checking crud service/GET/# getting a list of text objects, with an offset "
+"of 1 and a count of 2``\\ :raw-html-m2r:`<br>` ``/Checking crud service/GET/#"
+" getting a list of text objects containing a specific string``"
 
 #: ../../3_modules_description/rest/rest.rst:567
 msgid ""
@@ -2818,6 +2844,10 @@ msgid ""
 "``rest/crud/class_string@develop-and-"
 "test/66dbb3d0-5583-11e6-aef7-cf50314f026b``"
 msgstr ""
+"The presence of an object is checked by the ``HEAD``\\ method, and the class "
+"code with a namespace and the value of the object key are indicated, for "
+"example``rest/crud/class_string@develop-and-test/"
+"66dbb3d0-5583-11e6-aef7-cf50314f026b``"
 
 #: ../../3_modules_description/rest/rest.rst:574
 msgid ""
@@ -2825,12 +2855,17 @@ msgid ""
 "and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` "
 "``/Checking crud service/HEAD/# checking if an object is present (HEAD)``"
 msgstr ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/"
+"Checking crud service/HEAD/# checking if an object is present (HEAD)``"
 
 #: ../../3_modules_description/rest/rest.rst:577
 msgid ""
 "Если объект существует - возвращает код ответа ``200``\\ , если объект не"
 " найден ``404``\\ , если нет прав ``403``."
 msgstr ""
+"If the object exists, the response code \"200\"\\ is issued, if the object "
+"is not found - ``404``\\, if there are no permissions - ``403``."
 
 #: ../../3_modules_description/rest/rest.rst:582
 msgid ""
@@ -2839,6 +2874,10 @@ msgid ""
 "``rest/crud/class_string@develop-and-"
 "test/66dbb3d0-5583-11e6-aef7-cf50314f026b``"
 msgstr ""
+"Obtaining an object is performed using the ``GET``\\ method, and the code of "
+"the namespace class and the value of the object key are specified, for "
+"example``rest/crud/class_string@develop-and-test/"
+"66dbb3d0-5583-11e6-aef7-cf50314f026b``"
 
 #: ../../3_modules_description/rest/rest.rst:589
 msgid ""
@@ -2846,6 +2885,9 @@ msgid ""
 "and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` "
 "``/Checking crud service/GET/# getting an object (GET)``"
 msgstr ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/"
+"Checking crud service/GET/# getting an object (GET)``"
 
 #: ../../3_modules_description/rest/rest.rst:592
 msgid ""
@@ -2854,6 +2896,9 @@ msgid ""
 "необходимо осуществить жадную загрузку данных (ссылки или коллекции). "
 "Например"
 msgstr ""
+"In addition, the ``_eager`` parameter that contains a list of class "
+"properties separated by the ` | \" symbol for which data must be eagerly "
+"loaded (links or collections) can be set in query . For example"
 
 #: ../../3_modules_description/rest/rest.rst:599
 msgid ""
@@ -2862,12 +2907,19 @@ msgid ""
 "``/Checking crud service/GET/# getting an object with eager loading of "
 "the \"table\" property (GET)``"
 msgstr ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/"
+"Checking crud service/GET/# getting an object with eager loading of the \""
+"table\" property (GET)``"
 
 #: ../../3_modules_description/rest/rest.rst:602
 msgid ""
 "Если объект существует - возвращает код ответа ``200`` и сам объект в "
 "формате json, если объект не найден ``404``\\ , если нет прав ``403``."
 msgstr ""
+"If the object exists, the response code ``200`` and the object itself in "
+"json format are issued, if the object was not found - ``404``\\, if there "
+"are no rights - ``403``."
 
 #: ../../3_modules_description/rest/rest.rst:620
 msgid ""
@@ -2878,6 +2930,12 @@ msgid ""
 "Type:application/json``. Автосоздаваемые поля указывать не обязательно. "
 "Пример"
 msgstr ""
+"The object is created using the ``POST``\\ method, and the code of the class "
+"with a namespace is specified, for example,``rest/crud/class_string@develop-"
+"and-test``. The object itself is passed in the request body in json format "
+"with the mandatory indication of the json content type ``Content-Type:"
+"application/json`` in the header. You don't need to specify auto-generated "
+"fields. Example"
 
 #: ../../3_modules_description/rest/rest.rst:631
 msgid ""
@@ -2885,12 +2943,17 @@ msgid ""
 "and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` "
 "``/Checking crud service/POST/# creating an object (POST)``"
 msgstr ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/"
+"Checking crud service/POST/# creating an object (POST)``"
 
 #: ../../3_modules_description/rest/rest.rst:634
 msgid ""
 "В ответ будет возвращён созданный объект, в котором будут заполнены все "
 "автосозданные поля и указан код ответа ``200``."
 msgstr ""
+"In response, the created object will be returned, in which all auto-created "
+"fields will be filled and the response code ``200`` will be indicated."
 
 #: ../../3_modules_description/rest/rest.rst:668
 msgid ""
@@ -2899,12 +2962,19 @@ msgid ""
 "например ``rest/crud/class_string@develop-and-"
 "test/66dbb3d0-5583-11e6-aef7-cf50314f026b``. Сам объект передается в теле"
 msgstr ""
+"The object is updated by the ``PATCH`` or ``PUT``\\ method, and the class "
+"code with the namespace and the value of the object key are indicated, for "
+"example, ``rest/crud/class_string@develop-and-test/"
+"66dbb3d0-5583-11e6-aef7-cf50314f026b``. The object itself is transmitted in "
+"the body"
 
 #: ../../3_modules_description/rest/rest.rst:670
 msgid ""
 "запроса в формате json с обязательным указанием в заголовке типа "
 "содержания json ``Content-Type:application/json``."
 msgstr ""
+"request in json format with the obligatory indication in the header of the "
+"json content type ``Content-Type: application/json``."
 
 #: ../../3_modules_description/rest/rest.rst:680
 msgid ""
@@ -2912,6 +2982,9 @@ msgid ""
 "and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` "
 "``/Checking crud service/PATCH/# updating an object (PATCH)``"
 msgstr ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/"
+"Checking crud service/PATCH/# updating an object (PATCH)``"
 
 #: ../../3_modules_description/rest/rest.rst:683
 msgid ""
@@ -2919,10 +2992,14 @@ msgid ""
 "формате json, если объект не найден код ``404``\\ , при ошибке обработки "
 "код ``500``\\ , если нет прав ``403``."
 msgstr ""
+"If the object exists, the response code ``200`` and the object itself in "
+"json format are issued, if the object does not find the code - ``404``\\, if "
+"the processing fails, the code is ``500`` \\, if there are no rights - "
+"``403``."
 
 #: ../../3_modules_description/rest/rest.rst:685
 msgid "Пример объекта."
-msgstr ""
+msgstr "Example of an object."
 
 #: ../../3_modules_description/rest/rest.rst:704
 msgid ""
@@ -2931,6 +3008,10 @@ msgid ""
 "``rest/crud/class_string@develop-and-"
 "test/66dbb3d0-5583-11e6-aef7-cf50314f026b``."
 msgstr ""
+"Deleting an object is performed using the ``DELETE``\\ method, and the code "
+"of the class with the namespace and the value of the object's key are "
+"specified, for example``rest/crud/class_string@develop-and-test/"
+"66dbb3d0-5583-11e6-aef7-cf50314f026b``."
 
 #: ../../3_modules_description/rest/rest.rst:711
 msgid ""
@@ -2938,32 +3019,37 @@ msgid ""
 "and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` "
 "``/Checking crud service/DELETE/# deleting an object (DELETE)``"
 msgstr ""
+"dnt: `test/modules/rest/crud.spec.js <https://github.com/iondv/"
+"develop-and-test/test/modules/rest/crud.spec.js>`_\\ :raw-html-m2r:`<br>` ``/"
+"Checking crud service/DELETE/# deleting an object (DELETE)``"
 
 #: ../../3_modules_description/rest/rest.rst:714
 msgid ""
 "В случае успеха - сервис возвращает код ответа ``200``\\ , в случае если "
 "объект не найден ``404``"
 msgstr ""
+"If successful, the service issues the ``200``\\response code, if the object "
+"is not found - ``404``"
 
 #: ../../3_modules_description/rest/rest.rst:717
 msgid "Создание сервиса"
-msgstr ""
+msgstr "Service Creation"
 
 #: ../../3_modules_description/rest/rest.rst:719
 msgid "Создание собственного сервиса состоит из следующих действий:"
-msgstr ""
+msgstr "Creating your own service consists of the following actions:"
 
 #: ../../3_modules_description/rest/rest.rst:722
 msgid "регистрация сервиса в deploy.json"
-msgstr ""
+msgstr "service registration in deploy.json"
 
 #: ../../3_modules_description/rest/rest.rst:723
 msgid "создание обработчика сервисв а приложении"
-msgstr ""
+msgstr "creating a service handler in the application"
 
 #: ../../3_modules_description/rest/rest.rst:724
 msgid "реализация логики обработки запросов"
-msgstr ""
+msgstr "implementation of request processing logic"
 
 #: ../../3_modules_description/rest/rest.rst:729
 msgid ""
@@ -2971,16 +3057,23 @@ msgid ""
 "в конфигурации приложения "
 "<#регистрация-сервиса-в-конфигурации-приложения>`_"
 msgstr ""
+"An example of registering a test service, for more details see `Registering "
+"a service in the application configuration <#register-service-in-application-"
+"configuration>`_"
 
 #: ../../3_modules_description/rest/rest.rst:749
 msgid "Все сервисы реализуются как наследники от Service - функции модуля rest."
 msgstr ""
+"All services are implemented as heirs from Service - functions of the rest "
+"module."
 
 #: ../../3_modules_description/rest/rest.rst:756
 msgid ""
 "Какждый сервис должен экспортировать функцию обработчика, в которой "
 "реализован асинхронный метод ``this._route``\\ , в котором"
 msgstr ""
+"Each service must export a handler function that implements the asynchronous "
+"method ``this._route``\\, in which"
 
 #: ../../3_modules_description/rest/rest.rst:752
 msgid ""
@@ -2993,6 +3086,14 @@ msgid ""
 "<https://expressjs.com/en/4x/api.html#req>`_. Уже распарсенные в объект "
 "данные будет находится в ``req.body``."
 msgstr ""
+"it is necessary to register the processed methods and paths, through the "
+"functions ``this.addHandler`` that returns Promise. The processing function "
+"will have access to ``options``\\, through which - access to data "
+"repositories, authorizations, metadata, and classes (if they are specified "
+"in the application configuration in the deploy file.json), and also gets an "
+"object with the typical name ``req`` - which is the ``request`` object of "
+"the `express ' library <https://expressjs.com/en/4x/api.html#req>`_. The "
+"data already parsed to the object will be located in ``req.body``."
 
 #: ../../3_modules_description/rest/rest.rst:762
 msgid ""
@@ -3000,6 +3101,9 @@ msgid ""
 "выполнения обработчика (для обработки в Service "
 "``modules/rest/lib/interfaces/Service.js``\\ ),"
 msgstr ""
+"The handler function must return a Promise that is resolved as a result of "
+"the handler execution (for processing in Service ``modules/rest/lib/"
+"interfaces/Service.js``\\),"
 
 #: ../../3_modules_description/rest/rest.rst:759
 msgid ""
@@ -3007,6 +3111,9 @@ msgid ""
 "Type:application/json``. Если в ходе обработки будет ошибка перехваченная"
 " catch то для"
 msgstr ""
+"the handler will issue it with the code 200 and the content type ``Content-"
+"Type:application/json``. If during processing there is an error intercepted "
+"by catch, then for"
 
 #: ../../3_modules_description/rest/rest.rst:761
 msgid ""
@@ -3014,12 +3121,17 @@ msgid ""
 "ошибки и с кодом ``403``\\ , а для всех остальных код ответа ``500`` и "
 "сообщением об ошибке ``Internal server error``."
 msgstr ""
+"errors related to access control, a response will be returned with the error "
+"text and with the code ``403``\\, and for all others, the response code is "
+"``500`` and the error message ``Internal server error``."
 
 #: ../../3_modules_description/rest/rest.rst:764
 msgid ""
 "Заголовок можно переопределить, для этого в ответе нужно отдать тип "
 "заголовка ``headers``\\ , а объект в атрибуте ``data``"
 msgstr ""
+"The header can be redefined, for this, in the response you need to give the "
+"``headers``\\ header type and the object in the ``data`` attribute"
 
 #: ../../3_modules_description/rest/rest.rst:778
 msgid ""
@@ -3028,44 +3140,52 @@ msgid ""
 "изучения удобно смотреть сам метод crud, находящийся по адресу "
 "``modules/rest/lib/impl/crud.js``"
 msgstr ""
+"Example of implementing a service that outputs lists of objects with filters "
+"for the ``class_string`` class in the [develop-and-test] application. It is "
+"also convenient to study the crud method itself, located at ``modules/rest/"
+"lib/impl/crud.js``"
 
 #: ../../3_modules_description/rest/rest.rst:836
 msgid "Запрос без атрибутов в теле запроса"
-msgstr ""
+msgstr "Request without attributes in the request body"
 
 #: ../../3_modules_description/rest/rest.rst:842
 msgid "Вернет весь список"
-msgstr ""
+msgstr "Returns the entire list"
 
 #: ../../3_modules_description/rest/rest.rst:865
 msgid ""
 "А запрос с параметром атрибута равного значению в атрибуте string_text "
 "``Example of the \\\"String [0]\\\" type in the \\\"Text [1]\\\" view``"
 msgstr ""
+"A request with an attribute parameter equal to the value in the string_text "
+"attribute ``Example of the \\\"String [0]\\\" type in the \\\"Text [1]\\\" "
+"view``"
 
 #: ../../3_modules_description/rest/rest.rst:873
 msgid "Вернет объекты удовлетворяющие условию"
-msgstr ""
+msgstr "Returns objects that meet the condition"
 
 #: ../../3_modules_description/rest/rest.rst:885
 msgid "Дополнительные сервисы"
-msgstr ""
+msgstr "Additional services"
 
 #: ../../3_modules_description/rest/rest.rst:888
 msgid "`Метод SEARCH </docs/ru/method_search.md>`_"
-msgstr ""
+msgstr "`SEARCH Method </docs/ru/method_search.md>`_"
 
 #: ../../3_modules_description/rest/rest.rst:889
 msgid "`Отправка запросов с файлами в CRUD сервисе </docs/ru/methods_crud.md>`_"
 msgstr ""
+"`Sending requests with files in the CRUD service </docs/ru/methods_crud.md>`_"
 
 #: ../../3_modules_description/rest/rest.rst:890
 msgid "`Сервис исполнения бизнес-процесса </docs/ru/performance_workflow.md>`_"
-msgstr ""
+msgstr "`Workflow execution service </docs/ru/performance_workflow.md>`_"
 
 #: ../../3_modules_description/rest/rest.rst:891
 msgid "`Cервис публикации метаданных </docs/ru/service_metadata.md>`_"
-msgstr ""
+msgstr "`Metadata publishing service </docs/ru/service_metadata.md>`_"
 
 #: ../../3_modules_description/rest/rest.rst:900
 msgid ""
@@ -3077,33 +3197,36 @@ msgstr ""
 
 #: ../../3_modules_description/rest/service_metadata.rst:3
 msgid "Cервис публикации метаданных"
-msgstr ""
+msgstr "Metadata publishing service"
 
 #: ../../3_modules_description/rest/service_metadata.rst:5
 msgid ""
 "Представляет собой встроенный сервис в rest модуле, который по сути "
 "отражает интерфейс метарепозитория."
 msgstr ""
+"It is a built-in service in the rest module, which essentially reflects the "
+"meta repository interface."
 
 #: ../../3_modules_description/rest/service_metadata.rst:8
 msgid "**Запросы** осуществляются через GET-методы."
-msgstr ""
+msgstr "** Requests ** are implemented through GET methods."
 
 #: ../../3_modules_description/rest/service_metadata.rst:9
 msgid "**Имена методов** метарепозитория задаются через путь."
-msgstr ""
+msgstr "**Method names** of meta repository are set via the path."
 
 #: ../../3_modules_description/rest/service_metadata.rst:10
 msgid "**Идентификаторы мета-объектов** также через путь, вторым уровнем."
 msgstr ""
+"**Meta-object identifiers** are also set through the path, the second level."
 
 #: ../../3_modules_description/rest/service_metadata.rst:11
 msgid "**Дополнительные аргументы** - как query параметры."
-msgstr ""
+msgstr "**Additional arguments** - as query parameters."
 
 #: ../../3_modules_description/rest/service_metadata.rst:13
 msgid "Список GET-методов:"
-msgstr ""
+msgstr "List of GET methods:"
 
 #: ../../3_modules_description/soap.rst:5
 msgid "Soap модуль"
