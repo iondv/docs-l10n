@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-20 07:37+0000\n"
-"PO-Revision-Date: 2020-05-20 03:13+0000\n"
+"PO-Revision-Date: 2020-05-21 02:59+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
+"Language-Team: English <http://weblate.iondv.com/projects/docs/"
+"3_modules_description/en/>\n"
 "Language: en\n"
-"Language-Team: English "
-"<http://weblate.iondv.com/projects/docs/3_modules_description/en/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.2\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ../docs-ru/3_modules_description/account.rst:5
@@ -162,7 +163,7 @@ msgstr "Ionadmin module configuration in the config.json file"
 
 #: ../docs-ru/3_modules_description/admin.rst:17
 msgid "Настройка записи медленных запросов"
-msgstr ""
+msgstr "Configure slow query recording"
 
 #: ../docs-ru/3_modules_description/admin.rst:19
 msgid ""
@@ -1808,7 +1809,7 @@ msgstr "`English </docs/en/3_modules_description/report_warning.md>`_ &ensp;"
 #: ../docs-ru/3_modules_description/rest/authorization/getting_token.rst:3
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:5
 msgid "Получение токена"
-msgstr ""
+msgstr "Getting a token"
 
 #: ../docs-ru/3_modules_description/rest/authorization/getting_token.rst:5
 msgid ""
@@ -1828,7 +1829,7 @@ msgstr ""
 
 #: ../docs-ru/3_modules_description/rest/authorization/getting_token.rst:10
 msgid "Получение постоянного токена через модуль ionadmin"
-msgstr ""
+msgstr "Getting a permanent token via the ionadmin module"
 
 #: ../docs-ru/3_modules_description/rest/authorization/getting_token.rst:12
 msgid ""
@@ -1872,54 +1873,51 @@ msgstr "The default token lifetime is 100 years."
 
 #: ../docs-ru/3_modules_description/rest/authorization/getting_token.rst:27
 msgid "Получение временного токена через сервис rest/token"
-msgstr ""
+msgstr "Getting a temporary token via the rest/token service"
 
 #: ../docs-ru/3_modules_description/rest/authorization/getting_token.rst:29
-#, fuzzy
 msgid ""
 "Вторым способом получения токена является использование веб-сервиса "
 "модуля rest - ``token``. Получить токен можно через аутентифицированный "
 "запрос на адрес ``rest/token``. Подробнее: :doc:`../services/token`."
 msgstr ""
-"The second way to get a token is to use the web service of the rest "
-"module - ``token``. You can get a token via an authenticated request to "
-"the address ``rest/token``. For example using basicAuth authorization:"
+"The second way to get a token is to use the web service of the rest module - "
+"``token``. You can get a token via an authenticated request to the address ``"
+"rest/token``. More details: :doc:`../services/token`."
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:5
 msgid "Получение доступа через прокси-клиент"
-msgstr ""
+msgstr "Getting access via a proxy client"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:3
-#, fuzzy
 msgid "Авторизация при запросах к сервисам"
-msgstr "Service Request Authentication"
+msgstr "Service request authentication"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:12
-#, fuzzy
 msgid ""
 "Авторизация для доступа к сервисам может осуществляться следующими "
 "способами:"
-msgstr "Authorization can be carried out in the following ways."
+msgstr "Authorization can be carried out in the following ways:"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:14
 msgid "`Без авторизации <#id5>`_"
-msgstr ""
+msgstr "`Without authorization <#id5>`_"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:15
 msgid "`По учетной записи <#id6>`_"
-msgstr ""
+msgstr "`By account <#id6>`_"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:16
 msgid "`По токену <#id8>`_"
-msgstr ""
+msgstr "`By token <#id8>`_"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:17
 msgid "`Oauth2 <#id9>`_"
-msgstr ""
+msgstr "`Oauth2 <#id9>`_"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:20
 msgid "Сервисы без аутентификации"
-msgstr ""
+msgstr "Services without authentication"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:22
 msgid ""
@@ -1935,22 +1933,23 @@ msgid ""
 "Запрос к сервису не будет требовать аутентификации, пример запроса ``curl"
 " https://dnt.iondv.com/rest/echoo``"
 msgstr ""
+"A request to the service will not require authentication, an example request "
+"is ``curl https://dnt.iondv.com/rest/echoo``"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:35
-#, fuzzy
 msgid ""
 "Пример запроса к сервису без аутентификации в :doc:`dnt "
 "<../services/request_examples>`: `test/modules/rest/echo.spec.js "
 "<https://github.com/iondv/develop-and-"
 "test/test/modules/rest/echo.spec.js>`_"
 msgstr ""
-"dnt: `test/modules/rest/echooauth.spec.js <https://github.com/iondv"
-"/develop-and-test/test/modules/rest/echooauth.spec.js>`_\\ :raw-html-"
-"m2r:`<br>` ``/Checking echo-oauth service``"
+"An example of a service request without authentication in :doc:`dnt <../"
+"services/request_examples>`: `test/modules/rest/echo.spec.js <https://github."
+"com/iondv/develop-and-test/test/modules/rest/echo.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:44
 msgid "Сервисы со стандартрным механизмом авторизации по учетной записи"
-msgstr ""
+msgstr "Services with a standard account authorization mechanism"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:46
 msgid ""
@@ -1961,9 +1960,8 @@ msgstr ""
 "implies the transfer of credentials in the header:"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:49
-#, fuzzy
 msgid "путем авторизации через Basic Auth, пример"
-msgstr "by authorization via basicAuth, example .. code-block :: bash"
+msgstr "by authorization via basicAuth, example"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:54
 msgid ""
@@ -1972,11 +1970,14 @@ msgid ""
 "<https://github.com/iondv/develop-and-"
 "test/test/modules/rest/echopwd.spec.js>`_"
 msgstr ""
+"Basic Auth authorization request example in :doc:`develop-and-test (dnt) <../"
+"services/request_examples>`: `test/modules/rest/echopwd.spec.js "
+"<https://github.com/iondv/develop-and-test/test/modules/rest/"
+"echopwd.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:61
-#, fuzzy
 msgid "путем передачи учетных данных в заголовках запроса"
-msgstr "by passing credentials in the request headers .. code-block :: bash"
+msgstr "by passing credentials in the request headers"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:67
 msgid "или"
@@ -1989,11 +1990,14 @@ msgid ""
 "<https://github.com/iondv/develop-and-"
 "test/test/modules/rest/echopwd.spec.js>`_"
 msgstr ""
+"example request with credential authorization in the header in :doc:`dnt <../"
+"services/request_examples>`: `test/modules/rest/echopwd.spec.js "
+"<https://github.com/iondv/develop-and-test/test/modules/rest/"
+"echopwd.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:82
-#, fuzzy
 msgid "Сервисы с аутентификацией через токен"
-msgstr "Example of a request with authentication through parameters in the header"
+msgstr "Services with token authentication"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:84
 msgid ""
@@ -2028,14 +2032,17 @@ msgid ""
 "<https://github.com/iondv/develop-and-"
 "test/test/modules/rest/token.spec.js>`_"
 msgstr ""
+"Example of a request with authorization via a token in :doc:`dnt <../"
+"services/request_examples>`: `test/modules/rest/token.spec.js "
+"<https://github.com/iondv/develop-and-test/test/modules/rest/token.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:111
 msgid "подробнее о получении токена: :doc:`Получение токена <getting_token>`"
-msgstr ""
+msgstr "Learn more about getting a token: :doc:`Getting token <getting_token>`"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:114
 msgid "Сервисы с аутентификацией методом OAuth2"
-msgstr ""
+msgstr "Services with OAuth 2 authentication"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:116
 msgid ""
@@ -2083,23 +2090,20 @@ msgstr ""
 "behalf:"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:159
-#, fuzzy
 msgid "В ответе будет содержаться параметр ``code``."
-msgstr "The response will contain the code parameter."
+msgstr "The response will contain the ``code`` parameter."
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:162
-#, fuzzy
 msgid "Теперь используя ``code`` можно получить токен:"
-msgstr "Now using code you can get a token:"
+msgstr "Now using ``code`` you can get a token:"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:168
-#, fuzzy
 msgid ""
 "в заголовке Authorization нужно ввести ``Basic <client_secret>`` код "
 "клиента. В ответе будет получен ``access_token``."
 msgstr ""
-"in the Authorization header, enter Basic: raw-html-m2r: `<client_secret>`"
-" client code. The response will contain access_token."
+"in the Authorization header, enter ``Basic <client_secret>`` client code. "
+"The response will contain ``access_token``."
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:172
 msgid ""
@@ -2110,28 +2114,26 @@ msgstr ""
 " you can now log in using access_token:"
 
 #: ../docs-ru/3_modules_description/rest/authorization/index.rst:178
-#, fuzzy
 msgid ""
 "пример запроса к сервису с авторизацией oauth2 в :doc:`dnt "
 "<../services/request_examples>`: `test/modules/rest/echooauth.spec.js "
 "<https://github.com/iondv/develop-and-"
 "test/test/modules/rest/echooauth.spec.js>`_"
 msgstr ""
-"dnt: `test/modules/rest/echooauth.spec.js <https://github.com/iondv"
-"/develop-and-test/test/modules/rest/echooauth.spec.js>`_\\ :raw-html-"
-"m2r:`<br>` ``/Checking echo-oauth service``"
+"Service request example with oauth2 authorization in :doc:`dnt <../services/"
+"request_examples>`: `test/modules/rest/echooauth.spec.js <https://github.com/"
+"iondv/develop-and-test/test/modules/rest/echooauth.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/authorization/proxy_access.rst:2
 msgid "Прокси-клиент для доступа к функциям модуля без получения нового токена"
 msgstr "Proxy client for access to module functions without receiving a new token"
 
 #: ../docs-ru/3_modules_description/rest/authorization/proxy_access.rst:4
-#, fuzzy
 msgid ""
 "Подключение клиента осуществляется в ``modules.registry.globals.di`` в "
 "``deploy.json``\\ :"
 msgstr ""
-"Client connection is carried out in ``modules.registry.globals.di`` "
+"Client connection is carried out in ``modules.registry.globals.di`` in "
 "``deploy.json``\\ :"
 
 #: ../docs-ru/3_modules_description/rest/authorization/proxy_access.rst:33
@@ -2139,25 +2141,23 @@ msgid "Пример запроса к rest/echo-token через прокси-к
 msgstr "Example of a request to rest/echo-token through a proxy client:"
 
 #: ../docs-ru/3_modules_description/rest/authorization/proxy_access.rst:40
-#, fuzzy
 msgid ""
 "пример запроса в :doc:`dnt <../services/request_examples>`: "
 "`test/modules/rest/gateway.spec.js <https://github.com/iondv/develop-and-"
 "test/test/modules/rest/gateway.spec.js>`_"
 msgstr ""
-"dnt: `test/modules/rest/gateway.spec.js <https://github.com/iondv"
-"/develop-and-test/test/modules/rest/gateway.spec.js>`_\\ :raw-html-"
-"m2r:`<br>` ``/Checking rest-api proxy``"
+"Request example in :doc:`dnt <../services/request_examples>`: `test/modules/"
+"rest/gateway.spec.js <https://github.com/iondv/develop-and-test/test/modules/"
+"rest/gateway.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/index.rst:21
 #: ../docs-ru/3_modules_description/rest/services/index.rst:3
 msgid "Сервисы REST"
-msgstr ""
+msgstr "REST Services"
 
 #: ../docs-ru/3_modules_description/rest/index.rst:21
-#, fuzzy
 msgid "Конфигурация доступа к сервисам"
-msgstr "Service Request Authentication"
+msgstr "Configuration of access to services"
 
 #: ../docs-ru/3_modules_description/rest/index.rst:3
 msgid "IONDV. REST"
@@ -2169,6 +2169,9 @@ msgid ""
 "различным видам данных, созданных в в том числе только визуальным "
 "способом путем проектирования в IONDV. Studio и предназначен для:"
 msgstr ""
+"The IONDV.Framework REST module is used to create web services for various "
+"types of data, including only visual data created by designing in "
+"IONDV.Studio and is intended for:"
 
 #: ../docs-ru/3_modules_description/rest/index.rst:7
 msgid ""
@@ -2178,6 +2181,10 @@ msgid ""
 "Angular, Redux, Vue и т.д.) или приложений с разделенным фронт и бек "
 "офисом;"
 msgstr ""
+"out-of-the-box CRUD model for accessing data, managing business processes, "
+"various types of authorization - as a backend for mobile applications, for "
+"SPA applications (created on the frameworks of Angular, Redux, Vue, etc.) or "
+"applications with divided front and back office;"
 
 #: ../docs-ru/3_modules_description/rest/index.rst:8
 msgid ""
@@ -2185,12 +2192,17 @@ msgid ""
 "написания кода на готовом API работы с данными для реализации "
 "микросервисной архитектуры"
 msgstr ""
+"the rapid development of our own web services, by registering them and "
+"writing code on a ready-made data manipulation API for implementing a "
+"microservice architecture"
 
 #: ../docs-ru/3_modules_description/rest/index.rst:9
 msgid ""
 "обеспечения интеграции приложений созданных на IONDV. Framework с другими"
 " системами по REST API;"
 msgstr ""
+"integration of applications created on the ION DV. Framework with other "
+"systems using the REST API."
 
 #: ../docs-ru/3_modules_description/rest/index.rst:14
 msgid ""
@@ -2199,20 +2211,19 @@ msgid ""
 "стандартные функции CRUD или подключает собственные сервисы приложения, в"
 " том числе использующие API ядра."
 msgstr ""
-"**ION DV. REST** - a module that provides work with the data of the ION "
-"DV application via the ``REST AP``. It is a wrapper for working with data"
-" via standard CRUD functions or it connects the application's own "
-"services, including those using the core API."
+"**ION DV. REST** - a module that provides work with the data of the ION DV "
+"application via the ``REST API``. It is a wrapper for working with data via "
+"standard CRUD functions or it connects the application's own services, "
+"including those using the core API."
 
 #: ../docs-ru/3_modules_description/rest/index.rst:19
 msgid "Содержание"
-msgstr ""
+msgstr "Сontents"
 
 #: ../docs-ru/3_modules_description/rest/services/acceptor.rst:3
 #: ../docs-ru/3_modules_description/rest/services/index.rst:15
-#, fuzzy
 msgid "Встроенный сервис \"acceptor\""
-msgstr "Built-in module services"
+msgstr "Built-in \"acceptor\" service"
 
 #: ../docs-ru/3_modules_description/rest/services/acceptor.rst:5
 msgid ""
@@ -2224,7 +2235,7 @@ msgstr ""
 
 #: ../docs-ru/3_modules_description/rest/services/acceptor.rst:7
 msgid "Доступен по адресу ``<адрес сервера>/rest/acceptor``."
-msgstr ""
+msgstr "Available at ``<server address>/rest/acceptor``."
 
 #: ../docs-ru/3_modules_description/rest/services/acceptor.rst:9
 msgid ""
@@ -2242,6 +2253,8 @@ msgid ""
 "Авторизация осуществляется через все основные :doc:`типы доступа "
 "<../authorization/index>`."
 msgstr ""
+"Authorization is carried out through all the main ones: doc: `access types "
+"<../ authorization / index>`."
 
 #: ../docs-ru/3_modules_description/rest/services/acceptor.rst:29
 msgid ""
@@ -2300,6 +2313,9 @@ msgid ""
 "<https://github.com/iondv/develop-and-"
 "test/test/modules/rest/acceptor.spec.js>`_"
 msgstr ""
+"Example of a request to create objects for the acceptor service in :doc:`dnt "
+"<request_examples>`: `test/modules/rest/acceptor.spec.js <https://github.com/"
+"iondv/develop-and-test/test/modules/rest/acceptor.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/services/acceptor.rst:60
 msgid "Метод возвращает код ``200`` и массив сохраненных объектов."
@@ -2315,43 +2331,41 @@ msgstr ""
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:61
 #: ../docs-ru/3_modules_description/rest/services/crud_post.rst:3
 msgid "Создание объекта: метод POST"
-msgstr ""
+msgstr "Creating an object: POST method"
 
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:61
 #: ../docs-ru/3_modules_description/rest/services/crud_get.rst:3
 msgid "Получение объекта или списка объектов: метод GET"
-msgstr ""
+msgstr "Getting an object or list of objects: GET method"
 
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:61
 #: ../docs-ru/3_modules_description/rest/services/crud_search.rst:3
 msgid "Получение объектов методом SEARCH"
-msgstr ""
+msgstr "Getting objects using the SEARCH method"
 
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:61
 #: ../docs-ru/3_modules_description/rest/services/crud_head.rst:3
 msgid "Проверка наличия объекта: метод HEAD"
-msgstr ""
+msgstr "Checking the presence of an object: the HEAD method"
 
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:61
 #: ../docs-ru/3_modules_description/rest/services/crud_patch.rst:3
 msgid "Обновление объекта: методы PATCH и PUT"
-msgstr ""
+msgstr "Updating an object: PATCH and PUT methods"
 
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:61
 #: ../docs-ru/3_modules_description/rest/services/crud_delete.rst:3
 msgid "Удаление объекта: метод DELETE"
-msgstr ""
+msgstr "Deleting an object: the DELETE method"
 
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:61
-#, fuzzy
 msgid "Отправка запросов с файлами"
-msgstr "Sending requests with files in the CRUD service"
+msgstr "Sending requests with files"
 
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:3
 #: ../docs-ru/3_modules_description/rest/services/index.rst:15
-#, fuzzy
 msgid "Встроенный сервис \"crud\""
-msgstr "Built-in module services"
+msgstr "Built-in service \"crud\""
 
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:5
 msgid ""
@@ -2363,10 +2377,9 @@ msgstr ""
 
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:7
 msgid "Доступен по адресу ``<адрес сервера>/rest/crud``."
-msgstr ""
+msgstr "Available at ``<server address>/rest/crud``."
 
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:9
-#, fuzzy
 msgid ""
 "Сервис требует регистрации в deploy.json приложения и обязательного "
 "указания источника данных ``dataRepo`` в ``options`` сервиса, а также "
@@ -2378,18 +2391,17 @@ msgstr ""
 "The service requires registration in deploy.json of the application and "
 "requires specifying the data source ``data Repo`` in ``options`` of the "
 "service, as well as the ``auth`` authorization source for accessing user "
-"data. It is advisable to specify a repository with full security "
-"processing as the data repository in order to work out access to objects "
-"that take dynamic security into account. For example"
+"data. It is advisable to specify a repository with full security processing "
+"as the data repository in order to work out access to objects that take "
+"dynamic security into account. For example"
 
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:29
-#, fuzzy
 msgid ""
 "Аутентификация осуществляется через все основные :doc:`типы доступа "
 "<../authorization/index>`."
 msgstr ""
-"Authentication is performed through all the main access types, and by "
-"default through a user account."
+"Authentication is performed through all the main :doc:`access types <../"
+"authorization/index>`."
 
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:37
 msgid ""
@@ -2398,6 +2410,9 @@ msgid ""
 "<https://github.com/iondv/develop-and-"
 "test/test/modules/rest/crud.spec.js>`_"
 msgstr ""
+"Example of a request to the crud service without parameters in :doc:`dnt "
+"<request_examples>`: `test/modules/rest/crud.spec.js <https://github.com/"
+"iondv/develop-and-test/test/modules/rest/crud.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:44
 msgid ""
@@ -4606,4 +4621,3 @@ msgstr ""
 
 #~ msgid "Список GET-методов:"
 #~ msgstr "List of GET methods:"
-
