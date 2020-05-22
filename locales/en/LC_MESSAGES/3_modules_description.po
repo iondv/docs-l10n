@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-20 07:37+0000\n"
-"PO-Revision-Date: 2020-05-21 02:59+0000\n"
+"PO-Revision-Date: 2020-05-22 05:18+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/"
 "3_modules_description/en/>\n"
@@ -2424,7 +2424,7 @@ msgstr ""
 
 #: ../docs-ru/3_modules_description/rest/services/crud.rst:59
 msgid "Информация по взаимодействию с crud через основные методы:"
-msgstr ""
+msgstr "Information on interacting with crud through the main methods:"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_delete.rst:5
 msgid ""
@@ -2445,6 +2445,9 @@ msgid ""
 "<https://github.com/iondv/develop-and-"
 "test/test/modules/rest/crud.spec.js>`_"
 msgstr ""
+"example of a request to the crud service to delete objects in :doc:`dnt "
+"<request_examples>`: `test/modules/rest/crud.spec.js <https://github.com/"
+"iondv/develop-and-test/test/modules/rest/crud.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_delete.rst:18
 msgid ""
@@ -2455,9 +2458,8 @@ msgstr ""
 "object is not found - ``404``"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_get.rst:6
-#, fuzzy
 msgid "Получение объекта"
-msgstr "Example of an object."
+msgstr "Getting an object"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_get.rst:8
 msgid ""
@@ -2478,6 +2480,9 @@ msgid ""
 "<https://github.com/iondv/develop-and-"
 "test/test/modules/rest/crud.spec.js>`_"
 msgstr ""
+"example of a request to the crud service to get an object in :doc:`dnt "
+"<request_examples>`: `test/modules/rest/crud.spec.js <https://github.com/"
+"iondv/develop-and-test/test/modules/rest/crud.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_get.rst:22
 msgid ""
@@ -2497,6 +2502,10 @@ msgid ""
 "`test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-"
 "test/test/modules/rest/crud.spec.js>`_"
 msgstr ""
+"example of a request to the crud service to get an object with a eagerly "
+"loading of the \"table\" property in :doc:`dnt <request_examples>`: `test/"
+"modules/rest/crud.spec.js <https://github.com/iondv/develop-and-test/test/"
+"modules/rest/crud.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_get.rst:36
 msgid ""
@@ -2509,7 +2518,7 @@ msgstr ""
 
 #: ../docs-ru/3_modules_description/rest/services/crud_get.rst:52
 msgid "Получение списка объектов"
-msgstr ""
+msgstr "Getting a list of objects"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_get.rst:54
 msgid ""
@@ -2528,12 +2537,18 @@ msgid ""
 "<https://github.com/iondv/develop-and-"
 "test/test/modules/rest/crud.spec.js>`_"
 msgstr ""
+"example of a request to the crud service to get a list of objects in :doc:`"
+"dnt <request_examples>`: `test/modules/rest/crud.spec.js <https://github.com/"
+"iondv/develop-and-test/test/modules/rest/crud.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_get.rst:67
 msgid ""
 "В ответ сервис выдает JSON Объект со смещением 0 и кол-вом 5ть записей и "
 "статусом ``200``\\ , если такого класса нет возвращает код ``404``."
 msgstr ""
+"In response, the service issues a JSON Object with an offset of 0 and a "
+"count of 5 records and a status of ``200`` \\, if there is no such class, it "
+"shows the code ``404``."
 
 #: ../docs-ru/3_modules_description/rest/services/crud_get.rst:89
 msgid "Запрос может быть осуществлен со следущими query параметрами:"
@@ -2572,19 +2587,22 @@ msgstr "Examples:"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_get.rst:100
 msgid "Запрос списка объектов класса со смещением 1 и кол-вом 2"
-msgstr ""
+msgstr "Request for a list of class objects with offset 1 and count 2"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_get.rst:106
 msgid ""
 "Запрос списка объектов, у которы свойство string_text имеет значение "
 "example1"
 msgstr ""
+"Querying a list of objects whose string_text property is set to example1"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_get.rst:112
 msgid ""
 "Запрос списка объектов, у которы свойство string_text имеет значение "
 "example1, со смещением 1 и кол-вом 2"
 msgstr ""
+"Querying a list of objects for which the string_text property has the value "
+"example1, with an offset of 1 and a count of 2"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_get.rst:118
 msgid ""
@@ -2593,6 +2611,10 @@ msgid ""
 "`test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-"
 "test/test/modules/rest/crud.spec.js>`_"
 msgstr ""
+"example of a request to the crud service to get a list of objects with "
+"different shift and filter parameters in :doc:`dnt <request_examples>`: `"
+"test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-test/"
+"test/modules/rest/crud.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_head.rst:5
 msgid ""
@@ -2613,6 +2635,9 @@ msgid ""
 "<https://github.com/iondv/develop-and-"
 "test/test/modules/rest/crud.spec.js>`_"
 msgstr ""
+"example of a request to the crud service to check for the presence of an "
+"object in :doc:`dnt <request_examples>`: `test/modules/rest/crud.spec.js "
+"<https://github.com/iondv/develop-and-test/test/modules/rest/crud.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_head.rst:19
 msgid ""
@@ -2623,7 +2648,6 @@ msgstr ""
 "object is not found - ``404``\\, if there are no permissions - ``403``."
 
 #: ../docs-ru/3_modules_description/rest/services/crud_patch.rst:5
-#, fuzzy
 msgid ""
 "Обновления объекта осуществляется методом ``PATCH`` или ``PUT``\\ , при "
 "этом указывается код класса с нейспейсом и значение ключа объекта, "
@@ -2632,12 +2656,12 @@ msgid ""
 " запроса в формате json с обязательным указанием в заголовке типа "
 "содержания json ``Content-Type:application/json``."
 msgstr ""
-"The object is created using the ``POST``\\ method, and the code of the "
-"class with a namespace is specified, for example,``rest/crud/class_string"
-"@develop-and-test``. The object itself is passed in the request body in "
-"json format with the mandatory indication of the json content type "
-"``Content-Type:application/json`` in the header. You don't need to "
-"specify auto-generated fields. Example"
+"Object updates are performed using the ``PATCH`` or ``PUT``\\ method, the "
+"class code with the namespace and the object key value are specified, for "
+"example, ``rest/crud/class_string@develop-and-test/"
+"66dbb3d0-5583-11e6-aef7-cf50314f026b``. The object itself is passed in the "
+"request body in json format with the mandatory indication of the json "
+"content type ``Content-Type:application/json`` in the header."
 
 #: ../docs-ru/3_modules_description/rest/services/crud_patch.rst:16
 msgid ""
@@ -2646,6 +2670,9 @@ msgid ""
 "<https://github.com/iondv/develop-and-"
 "test/test/modules/rest/crud.spec.js>`_"
 msgstr ""
+"example of a request to the crud service to update an object in :doc:`dnt "
+"<request_examples>`: `test/modules/rest/crud.spec.js <https://github.com/"
+"iondv/develop-and-test/test/modules/rest/crud.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_patch.rst:23
 msgid ""
@@ -2663,7 +2690,6 @@ msgid "Пример объекта."
 msgstr "Example of an object."
 
 #: ../docs-ru/3_modules_description/rest/services/crud_post.rst:5
-#, fuzzy
 msgid ""
 "Создание объекта осуществляется методом ``POST``\\ , при этом указывается"
 " код класса с нейспейсом, например ``rest/crud/class_string@develop-and-"
@@ -2671,17 +2697,16 @@ msgid ""
 "обязательным указанием в заголовке типа содержания json ``Content-"
 "Type:application/json``. Автосоздаваемые поля указывать не обязательно."
 msgstr ""
-"The object is created using the ``POST``\\ method, and the code of the "
-"class with a namespace is specified, for example,``rest/crud/class_string"
-"@develop-and-test``. The object itself is passed in the request body in "
-"json format with the mandatory indication of the json content type "
-"``Content-Type:application/json`` in the header. You don't need to "
-"specify auto-generated fields. Example"
+"The object is created using the ``POST``\\ method, and the code of the class "
+"with a namespace is specified, for example,``rest/crud/class_string@develop-"
+"and-test``. The object itself is passed in the request body in json format "
+"with the mandatory indication of the json content type ``Content-Type:"
+"application/json`` in the header. You don't need to specify auto-generated "
+"fields."
 
 #: ../docs-ru/3_modules_description/rest/services/crud_post.rst:9
-#, fuzzy
 msgid "Пример:"
-msgstr "Examples:"
+msgstr "Example:"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_post.rst:18
 msgid ""
@@ -2690,6 +2715,9 @@ msgid ""
 "<https://github.com/iondv/develop-and-"
 "test/test/modules/rest/crud.spec.js>`_"
 msgstr ""
+"example of a request to the crud service to create an object :doc:`dnt "
+"<request_examples>`: `test/modules/rest/crud.spec.js <https://github.com/"
+"iondv/develop-and-test/test/modules/rest/crud.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/services/crud_post.rst:25
 msgid ""
@@ -2714,9 +2742,8 @@ msgstr ""
 "GetList`` method of the data repository:"
 
 #: ../docs-ru/3_modules_description/rest/services/custom_service_creation.rst:3
-#, fuzzy
 msgid "Разработка обработчика сервиса в приложении"
-msgstr "creating a service handler in the application"
+msgstr "Creating a service handler in the application"
 
 #: ../docs-ru/3_modules_description/rest/services/custom_service_creation.rst:5
 msgid "Все сервисы реализуются как наследники от Service - функции модуля rest."
@@ -2725,7 +2752,6 @@ msgstr ""
 "rest module."
 
 #: ../docs-ru/3_modules_description/rest/services/custom_service_creation.rst:7
-#, fuzzy
 msgid ""
 "Каждый сервис должен экспортировать функцию обработчика, в которой "
 "реализован асинхронный метод ``this._route``\\ , в котором необходимо "
@@ -2738,15 +2764,16 @@ msgid ""
 "<https://expressjs.com/en/4x/api.html#req>`_. Данные, прошедшие парсинг в"
 " объект будут находиться в ``req.body``."
 msgstr ""
-"it is necessary to register the processed methods and paths, through the "
-"functions ``this.addHandler`` that returns Promise. The processing "
-"function will have access to ``options``\\, through which - access to "
-"data repositories, authorizations, metadata, and classes (if they are "
-"specified in the application configuration in the deploy file.json), and "
-"also gets an object with the typical name ``req`` - which is the "
-"``request`` object of the `express ' library "
-"<https://expressjs.com/en/4x/api.html#req>`_. The data already parsed to "
-"the object will be located in ``req.body``."
+"Each service must export a handler function that implements the asynchronous "
+"method ``this._route`` \\, in which it is necessary to register the "
+"processed methods and paths that return Promise through the functions "
+"``this.addHandler``. The processing function will have access to ``options``"
+"\\, through which - access to data repositories, authorizations, metadata, "
+"and classes (if they are specified in the application configuration in the "
+"deploy file.json), and also gets an object with the typical name ``req`` - "
+"which is the ``request`` object of the `express <https://expressjs.com/en/4x/"
+"api.html#req>`_ library . The data already parsed to the object will be "
+"located in ``req.body``."
 
 #: ../docs-ru/3_modules_description/rest/services/custom_service_creation.rst:14
 msgid ""
@@ -2759,6 +2786,14 @@ msgid ""
 "кодом ``403``\\ , а для всех остальных код ответа ``500`` и сообщением об"
 " ошибке ``Internal server error``."
 msgstr ""
+"The handler function must return a Promise that resolves to the processing "
+"result (for processing in Service ``modules/rest/lib/interfaces/Service.js``"
+"\\ ), the handler will output it with the code ``200`` and the content type "
+"``Content-Type:application/json``. If during processing there is an error "
+"caught by catch, then for errors related to access control, a response will "
+"be returned with the error text and with the code ``403`` \\, and for all "
+"others, the response code is ``500`` and the error message ``Internal server "
+"error``."
 
 #: ../docs-ru/3_modules_description/rest/services/custom_service_creation.rst:18
 msgid ""
@@ -2769,17 +2804,16 @@ msgstr ""
 "the ``headers``\\ header type and the object in the ``data`` attribute"
 
 #: ../docs-ru/3_modules_description/rest/services/custom_service_creation.rst:32
-#, fuzzy
 msgid ""
 "Пример реализации сервиса, выдающего списки объектов с фильтрами для "
 "класса ``class_string`` есть в приложении ``develop-and-test``. Также для"
 " изучения удобно смотреть сам метод crud, находящийся по адресу "
 "``modules/rest/lib/impl/crud.js``"
 msgstr ""
-"Example of implementing a service that outputs lists of objects with "
-"filters for the ``class_string`` class in the [develop-and-test] "
-"application. It is also convenient to study the crud method itself, "
-"located at ``modules/rest/lib/impl/crud.js``"
+"Example of implementing a service that outputs lists of objects with filters "
+"for the ``class_string`` class in the ``develop-and-test`` application. It "
+"is also convenient to study the crud method itself, located at ``modules/"
+"rest/lib/impl/crud.js``"
 
 #: ../docs-ru/3_modules_description/rest/services/custom_service_creation.rst:90
 msgid "Запрос без атрибутов в теле запроса"
@@ -2803,14 +2837,13 @@ msgid "Вернет объекты удовлетворяющие условию
 msgstr "Returns objects that meet the condition"
 
 #: ../docs-ru/3_modules_description/rest/services/custom_service_creation.rst:138
-#, fuzzy
 msgid ""
 "Пример регистрации тестового сервиса, подробнее см. :doc:`Регистрация "
 "сервиса в конфигурации приложения <service_configuration>`"
 msgstr ""
-"An example of registering a test service, for more details see "
-"`Registering a service in the application configuration <#register-"
-"service-in-application-configuration>`_"
+"An example of registering a test service, for more details see :doc:`"
+"Registering a service in the application configuration <#register-service-in-"
+"application-configuration>`"
 
 #: ../docs-ru/3_modules_description/rest/services/custom_service_creation.rst:155
 msgid ""
@@ -2819,6 +2852,10 @@ msgid ""
 "(``rest/backend/multipart.js``) модуля ``REST``. Пример реализации есть в"
 " сервисе ``CRUD``:"
 msgstr ""
+"To implement multipart query processing, for example, for queries containing "
+"files, you can use the library ``multipart.js`` (``rest/backend/"
+"multipart.js``) of the ``REST`` module. There is an example of "
+"implementation in the ``CRUD`` service:"
 
 #: ../docs-ru/3_modules_description/rest/services/custom_service_creation.rst:163
 msgid ""
@@ -2826,32 +2863,30 @@ msgid ""
 " обеспечивающая корректность действий при работе с файлами и файловым "
 "хранилищем, пример из ``CRUD``:"
 msgstr ""
+"The library ``util.js`` (``rest/backend/util.js``), which ensures correct "
+"actions when working with files and file storage, also serves this purpose , "
+"example from ``CRUD``:"
 
 #: ../docs-ru/3_modules_description/rest/services/index.rst:15
-#, fuzzy
 msgid "Регистрация сервиса в приложении"
-msgstr "Service registration in application configuration"
+msgstr "Service registration in application"
 
 #: ../docs-ru/3_modules_description/rest/services/index.rst:15
 #: ../docs-ru/3_modules_description/rest/services/token.rst:3
-#, fuzzy
 msgid "Встроенный сервис \"token\""
-msgstr "Built-in module services"
+msgstr "Built-in \"token\" service"
 
 #: ../docs-ru/3_modules_description/rest/services/index.rst:15
-#, fuzzy
 msgid "Встроенный сервис исполнения бизнес-процессов \"workflows\""
-msgstr "Workflow execution service"
+msgstr "Built-in \"workflows\" execution service"
 
 #: ../docs-ru/3_modules_description/rest/services/index.rst:15
-#, fuzzy
 msgid "Встроенный сервис публикации метаданных \"meta\""
-msgstr "Metadata publishing service"
+msgstr "Metadata publishing service \"meta\""
 
 #: ../docs-ru/3_modules_description/rest/services/index.rst:15
-#, fuzzy
 msgid "Создание пользовательского сервиса"
-msgstr "Service Creation"
+msgstr "Creating a custom service"
 
 #: ../docs-ru/3_modules_description/rest/services/index.rst:5
 msgid ""
@@ -2879,22 +2914,24 @@ msgstr "``crud`` - CRUD service for system objects"
 
 #: ../docs-ru/3_modules_description/rest/services/index.rst:10
 msgid "``meta`` - сервис обеспечивает доступ к интерфейсу метаданных"
-msgstr ""
+msgstr "``meta`` - service provides access to metadata interface"
 
 #: ../docs-ru/3_modules_description/rest/services/index.rst:11
 msgid ""
 "``workflows`` - сервис обеспечивает возможности контролировать и "
 "управлять бизнес-процессами"
 msgstr ""
+"``workflows`` - the service provides the ability to control and manage "
+"workflows"
 
 #: ../docs-ru/3_modules_description/rest/services/index.rst:13
 msgid "Также поддерживается разработка и подключение пользовательских сервисов."
-msgstr ""
+msgstr "The development and connection of user services is also supported."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_ancestor.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
 msgid "Получение информации о классе-предке: ancestor"
-msgstr ""
+msgstr "Getting information about the ancestor class: ancestor"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_ancestor.rst:5
 msgid ""
@@ -2902,6 +2939,8 @@ msgid ""
 "сервиса>/ancestor/<имя класса>``, где имя класса указывается с "
 "неймспейсом."
 msgstr ""
+"The request is made along the path ``<server URL>/rest/<service name>/"
+"ancestor/<class name>``, where the class name is indicated with a namespace."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_ancestor.rst:8
 #: ../docs-ru/3_modules_description/rest/services/meta_getCollectionViewModel.rst:8
@@ -2923,6 +2962,8 @@ msgid ""
 "В запросе можно указать :doc:`дополнительные параметры "
 "<meta_query_parameters>`:"
 msgstr ""
+"You can specify in the request: doc: `additional parameters "
+"<meta_query_parameters>`:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_ancestor.rst:10
 #: ../docs-ru/3_modules_description/rest/services/meta_getCollectionViewModel.rst:13
@@ -2936,9 +2977,8 @@ msgstr ""
 #: ../docs-ru/3_modules_description/rest/services/meta_getWorkflows.rst:11
 #: ../docs-ru/3_modules_description/rest/services/meta_listMeta.rst:10
 #: ../docs-ru/3_modules_description/rest/services/meta_propertyMetas.rst:10
-#, fuzzy
 msgid "``version``"
-msgstr "``s``"
+msgstr "``version``"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_ancestor.rst:11
 #: ../docs-ru/3_modules_description/rest/services/meta_getCollectionViewModel.rst:12
@@ -2957,7 +2997,7 @@ msgstr "``s``"
 #: ../docs-ru/3_modules_description/rest/services/meta_listMeta.rst:12
 #: ../docs-ru/3_modules_description/rest/services/meta_propertyMetas.rst:11
 msgid "``namespace``"
-msgstr ""
+msgstr "``namespace``"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_ancestor.rst:13
 #: ../docs-ru/3_modules_description/rest/services/meta_getCollectionViewModel.rst:15
@@ -2978,13 +3018,15 @@ msgstr ""
 #: ../docs-ru/3_modules_description/rest/services/workflows_patch.rst:12
 #: ../docs-ru/3_modules_description/rest/services/workflows_put.rst:17
 msgid "Пример запроса:"
-msgstr ""
+msgstr "Query example:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_ancestor.rst:19
 msgid ""
 "будет запрошена информация по классу-предку класса ``event`` в неймспейсе"
 " ``develop-and-test`` - ``basicObj``."
 msgstr ""
+"Information will be requested on the ancestor class of the ``event`` class "
+"in the ``develop-and-test`` namespace - ``BasicObj``."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_ancestor.rst:21
 #: ../docs-ru/3_modules_description/rest/services/meta_getCollectionViewModel.rst:23
@@ -3005,15 +3047,14 @@ msgstr ""
 #: ../docs-ru/3_modules_description/rest/services/meta_listMeta.rst:22
 #: ../docs-ru/3_modules_description/rest/services/meta_propertyMetas.rst:140
 #: ../docs-ru/3_modules_description/rest/services/meta_query_parameters.rst:18
-#, fuzzy
 msgid ""
 "Этот пример в :doc:`dnt <request_examples>`: "
 "`test/modules/rest/metadatasrv.spec.js <https://github.com/iondv/develop-"
 "and-test/test/modules/rest/metadatasrv.spec.js>`_"
 msgstr ""
-"dnt: `test/modules/rest/gateway.spec.js <https://github.com/iondv"
-"/develop-and-test/test/modules/rest/gateway.spec.js>`_\\ :raw-html-"
-"m2r:`<br>` ``/Checking rest-api proxy``"
+"This example in :doc:`dnt <request_examples>`: `test/modules/rest/"
+"metadatasrv.spec.js <https://github.com/iondv/develop-and-test/test/modules/"
+"rest/metadatasrv.spec.js>`_"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getCollectionViewModel.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
@@ -3021,6 +3062,8 @@ msgid ""
 "Получение информации о форме представления объектов класса в виде "
 "коллекции: getCollectionViewModel"
 msgstr ""
+"Getting information about the form of representation of class objects as a "
+"collection: getCollectionViewModel"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getCollectionViewModel.rst:5
 msgid ""
@@ -3028,25 +3071,29 @@ msgid ""
 "сервиса>/getCollectionViewModel/<имя класса>``, где имя класса "
 "указывается с неймспейсом."
 msgstr ""
+"The request is made along the path ``<server URL>/rest/<service name>/"
+"getCollectionViewModel/<class name>``, where the class name is indicated "
+"with a namespace."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getCollectionViewModel.rst:10
 msgid "``collection``"
-msgstr ""
+msgstr "``collection``"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getCollectionViewModel.rst:11
 #: ../docs-ru/3_modules_description/rest/services/meta_getCreationViewModel.rst:10
 #: ../docs-ru/3_modules_description/rest/services/meta_getDetailViewModel.rst:10
 #: ../docs-ru/3_modules_description/rest/services/meta_getItemViewModel.rst:10
 #: ../docs-ru/3_modules_description/rest/services/meta_getListViewModel.rst:10
-#, fuzzy
 msgid "``node``"
-msgstr "``d``"
+msgstr "``node``"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getCollectionViewModel.rst:21
 msgid ""
 "будет запрошен объект представления объектов класса ``class_text`` в "
 "форме коллекции в неймспейсе ``develop-and-test``."
 msgstr ""
+"an object will be requested to represent objects of the ``class_text`` class "
+"in the form of a collection in the ``develop-and-test`` namespace."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getCreationViewModel.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
@@ -3054,6 +3101,8 @@ msgid ""
 "Получение информации о форме представления объектов класса при создании: "
 "getCreationViewModel"
 msgstr ""
+"Getting information about the presentation form of class objects when "
+"creating: getCreationViewModel"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getCreationViewModel.rst:5
 msgid ""
@@ -3061,12 +3110,18 @@ msgid ""
 "сервиса>/getCreationViewModel/<имя класса>``, где имя класса указывается "
 "с неймспейсом."
 msgstr ""
+"The request is made along the path ``<server URL>/rest/<service name>/"
+"getCreationViewModel/<class name> ``, where the class name is indicated with "
+"the namespace."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getCreationViewModel.rst:20
 msgid ""
 "будет запрошен объект представления объектов класса ``class_text`` при их"
 " создании в неймспейсе ``develop-and-test``, пример ответа:"
 msgstr ""
+"an object will be requested to represent objects of the ``class_text`` class "
+"when they are created in the ``develop-and-test`` namespace, an example "
+"response:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getDetailViewModel.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
@@ -3074,6 +3129,8 @@ msgid ""
 "Получение информации о форме представления объектов класса при просмотре:"
 " getDetailViewModel"
 msgstr ""
+"Getting information about the presentation form of class objects when "
+"viewing: getDetailViewModel"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getDetailViewModel.rst:5
 msgid ""
@@ -3081,12 +3138,17 @@ msgid ""
 "сервиса>/getDetailViewModel/<имя класса>``, где имя класса указывается с "
 "неймспейсом."
 msgstr ""
+"The request is made along the path ``<server URL>/rest/<service name>/"
+"getDetailViewModel/<class name>``, where the class name is indicated with "
+"the namespace."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getDetailViewModel.rst:20
 msgid ""
 "будет запрошен объект представления объектов класса ``class_text`` при их"
 " просмотре в неймспейсе ``develop-and-test``."
 msgstr ""
+"an object will be requested to represent objects of the ``class_text`` class "
+"when viewing them in the ``develop-and-test`` namespace."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getItemViewModel.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
@@ -3094,6 +3156,8 @@ msgid ""
 "Получение информации о форме представления объектов класса при "
 "редактировании: getItemViewModel"
 msgstr ""
+"Getting information about the presentation form of class objects when "
+"editing: getDetailViewModel"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getItemViewModel.rst:5
 msgid ""
@@ -3101,12 +3165,17 @@ msgid ""
 "сервиса>/getItemViewModel/<имя класса>``, где имя класса указывается с "
 "неймспейсом."
 msgstr ""
+"The request is made along the path ``<server URL>/rest/<service name>/"
+"getItemViewModel/<class name>``, where the class name is indicated with the "
+"namespace."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getItemViewModel.rst:20
 msgid ""
 "будет запрошен объект представления объектов класса ``class_text`` при их"
 " редактировании в неймспейсе ``develop-and-test``, пример ответа:"
 msgstr ""
+"an object will be requested to represent objects of the ``class_text`` class "
+"when editing them in the ``develop-and-test`` namespace, an example response:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getListViewModel.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
@@ -3114,6 +3183,8 @@ msgid ""
 "Получение информации о списочной форме представления объектов класса: "
 "getListViewModel"
 msgstr ""
+"Getting information about the list form for representing class objects: "
+"getListViewModel"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getListViewModel.rst:5
 msgid ""
@@ -3121,32 +3192,39 @@ msgid ""
 "сервиса>/getListViewModel/<имя класса>``, где имя класса указывается с "
 "неймспейсом."
 msgstr ""
+"The request is made along the path ``<server URL>/rest/<service name>/"
+"getListViewModel/<class name>``, where the class name is indicated with the "
+"namespace."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getListViewModel.rst:20
 msgid ""
 "будет запрошен объект представления объектов класса ``class_text`` в "
 "списочной форме в неймспейсе ``develop-and-test``, пример ответа:"
 msgstr ""
+"an object will be requested to represent objects of the ``class_text`` class "
+"in a list form in the ``develop-and-test`` namespace, an example response:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getMask.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
 msgid "Получение информации о маске формы представления: getMask"
-msgstr ""
+msgstr "Getting information about the view form mask: getMask"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getMask.rst:5
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getMask/<имя маски>``. Например:"
 msgstr ""
+"The request is carried out along the path ``<server URL>/rest/<service name>/"
+"getMask/<mask name>``. For example:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getMask.rst:11
 msgid "будет запрошен объект маски ``snils``."
-msgstr ""
+msgstr "the ``snils`` mask object will be requested."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getMeta.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
 msgid "Получение информации о классе метаданных: getMeta"
-msgstr ""
+msgstr "Getting information about the metadata class: getMeta"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getMeta.rst:5
 msgid ""
@@ -3154,17 +3232,21 @@ msgid ""
 "сервиса>/getMeta/<имя класса>``, где имя класса указывается с "
 "неймспейсом."
 msgstr ""
+"The request is made along the path ``<server URL>/rest/<service name>/"
+"getMeta/<class name>``, where the class name is indicated with a namespace."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getMeta.rst:19
 msgid ""
 "будет запрошена информация по классу ``class_text`` в неймспейсе "
 "``develop-and-test``, пример ответа:"
 msgstr ""
+"Information on the ``class_text`` class in the namespace ``develop-and-test``"
+" will be requested, an example response:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getNavigationSection.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
 msgid "Получение информации о секции навигации: getNavigationSection"
-msgstr ""
+msgstr "Getting information about the navigation section: getNavigationSection"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getNavigationSection.rst:5
 msgid ""
@@ -3172,34 +3254,44 @@ msgid ""
 "сервиса>/getNavigationSection/<код секции>``, где код секции указывается "
 "в формате ``namespace@name``."
 msgstr ""
+"The request is made along the path ``<server URL>/rest/<service name>/"
+"getNavigationSection/<section code>`` where the section code is specified in "
+"the ``namespace @ name`` format."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getNavigationSection.rst:18
 msgid ""
 "будет запрошен объект секции навигации ``simpleTypes`` в неймспейсе "
 "``develop-and-test``, пример ответа:"
 msgstr ""
+"the object of the navigation section ``simpleTypes`` in the namespace "
+"``develop-and-test`` will be requested, an example response:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getNavigationSections.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
 msgid "Получение списка секций навигации: getNavigationSections"
-msgstr ""
+msgstr "Getting a list of navigation sections: getNavigationSections"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getNavigationSections.rst:5
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getNavigationSections``."
 msgstr ""
+"The request is carried out along the path ``<server URL>/rest/<service "
+"name>/getNavigationSections``."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getNavigationSections.rst:17
 msgid ""
 "будет запрошен список всех объектов секций навигации из метарепозитория, "
 "указанного в настройках сервиса ``meta`` в ``deploy.json``."
 msgstr ""
+"a list of all objects of the navigation sections from the meta repository "
+"specified in the settings of the ``meta`` service in ``deploy.json`` will be "
+"requested."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getNode.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
 msgid "Получение информации об узле навигации: getNode"
-msgstr ""
+msgstr "Getting information about the navigation node: getNode"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getNode.rst:5
 msgid ""
@@ -3207,17 +3299,22 @@ msgid ""
 "сервиса>/getNode/<код навигации>``, где код навигации указывается в "
 "формате ``namespace@code``."
 msgstr ""
+"The request is made along the path ``<server URL>/rest/<service name>/"
+"getNode/<navigation code>`` where the navigation code is specified in the "
+"format ``namespace@code``."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getNode.rst:18
 msgid ""
 "будет запрошен объект узла навигации ``semantic`` в неймспейсе ``develop-"
 "and-test``, пример ответа:"
 msgstr ""
+"the ``semantic`` navigation node object will be requested in ``the develop-"
+"and-test`` namespace, example response:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getNodes.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
 msgid "Получение списка узлов навигации в секции: getNodes"
-msgstr ""
+msgstr "Getting a list of navigation nodes in the section: getNodes"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getNodes.rst:5
 msgid ""
@@ -3225,40 +3322,46 @@ msgid ""
 "сервиса>/getNodes/<код секции>``, где код секции указывается в формате "
 "``namespace@name``."
 msgstr ""
+"The request is made along the path ``<server URL>/rest/<service name>/"
+"getNodes/<section code>`` where the section code is specified in the "
+"``namespace@name`` format ."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getNodes.rst:10
-#, fuzzy
 msgid "``section``"
-msgstr "``s``"
+msgstr "``section``"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getNodes.rst:11
 msgid "``parent``"
-msgstr ""
+msgstr "``parent``"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getNodes.rst:20
 msgid ""
 "будет запрошен список узлов навигации в секции ``simpleTypes`` в "
 "неймспейсе ``develop-and-test``."
 msgstr ""
+"a list of navigation nodes will be requested in the ``simpleTypes`` section "
+"of the ``develop-and-test`` namespace."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getValidatiors.rst:3
 msgid "Получение списка доступных валидаторов ввода: getValidators"
-msgstr ""
+msgstr "Getting a list of available input validators: getValidators"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getValidatiors.rst:5
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getValidators``, например:"
 msgstr ""
+"The request is made using the path ``<server URL>/rest/<service "
+"name>/getValidators``, for example:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getValidatiors.rst:11
 msgid "будет запрошен список доступных валидаторов."
-msgstr ""
+msgstr "A list of available validators will be requested."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getWorkflow.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
 msgid "Получение информации о бизнес-процессе класса: getWorkflow"
-msgstr ""
+msgstr "Getting information about the workflow of the class: getWorkflow"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getWorkflow.rst:5
 msgid ""
@@ -3266,11 +3369,14 @@ msgid ""
 "сервиса>/getWorkflow/<имя класса>/<имя бизнес-процесса>``, где имя класса"
 " и имя бизнес-процесса указываются с неймспейсом."
 msgstr ""
+"The request is made using the path ``<server URL>/rest/<service name>/"
+"getWorkflow/<class name>/<business process name>``, where the class name and "
+"business process name are specified with a namespace."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getWorkflow.rst:10
 #: ../docs-ru/3_modules_description/rest/services/meta_getWorkflowView.rst:10
 msgid "``workflow``"
-msgstr ""
+msgstr "``workflow``"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getWorkflow.rst:20
 msgid ""
@@ -3278,12 +3384,17 @@ msgid ""
 "объектов ``workflowBase`` в неймспейсе ``develop-and-test``, пример "
 "ответа:"
 msgstr ""
+"the ``simple Workflow`` workflow object will be requested for the "
+"``workflowBase`` object class in the ``develop-and-test`` namespace, example "
+"of a response:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getWorkflowView.rst:3
 msgid ""
 "Получение информации о форме представления объекта класса при некотором "
 "состоянии бизнес-процесса: getListViewModel"
 msgstr ""
+"Getting information about the representation form of a class object when the "
+"workflow is in a certain state: getListViewModel"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getWorkflowView.rst:5
 msgid ""
@@ -3292,11 +3403,13 @@ msgid ""
 "состояния>``, где имя класса и имя бизнес-процесса указываются с "
 "неймспейсом."
 msgstr ""
+"The request is made using the path ``<server URL>/rest/<service name>/"
+"getListView Model/<class name>/<workflow name>/<state name>``, where the "
+"class name and workflow name are specified with namespace."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getWorkflowView.rst:11
-#, fuzzy
 msgid "``state``"
-msgstr "``s``"
+msgstr "``state``"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getWorkflowView.rst:21
 msgid ""
@@ -3304,11 +3417,14 @@ msgid ""
 "состоянии ``canStart`` бизнес-процесса ``simpleWorkflow`` в неймспейсе "
 "``develop-and-test``, пример ответа:"
 msgstr ""
+"an object will be requested to represent objects of the ``workflowBase`` "
+"class with the ``canStart`` state of the ``simpleWorkflow`` workflow in the "
+"``develop-and-test``namespace, example of a response:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getWorkflows.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
 msgid "Получение списка возможных бизнес-процессов для класса: getWorkflows"
-msgstr ""
+msgstr "Getting a list of possible workflows for the class: getWorkflows"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getWorkflows.rst:5
 msgid ""
@@ -3316,43 +3432,52 @@ msgid ""
 "сервиса>/getWorkflows/<имя класса>``, где имя класса указывается с "
 "неймспейсом."
 msgstr ""
+"The request is made using the path ``<server URL>/rest/<service name>/"
+"getWorkflows/<class name>``, where the class name is specified with a "
+"namespace."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_getWorkflows.rst:19
 msgid ""
 "будет запрошен список бизнес-процессов для класса ``workflowBase`` в "
 "неймспейсе ``develop-and-test``, пример ответа:"
 msgstr ""
+"A list of workflows for the class ``workflowBase`` in the namespace "
+"``develop-and-test`` will be requested, an example response:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_listMeta.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
 msgid "Получение списка всех классов метаданных: listMeta"
-msgstr ""
+msgstr "Getting a list of all metadata classes: listMeta"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_listMeta.rst:5
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/listMeta``."
 msgstr ""
+"The request is made using the path ``<server URL>/rest/<service name>/list "
+"Meta``."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_listMeta.rst:9
 msgid "``ancestor``"
-msgstr ""
+msgstr "``ancestor``"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_listMeta.rst:11
-#, fuzzy
 msgid "``direct``"
-msgstr "``d``"
+msgstr "``direct``"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_listMeta.rst:20
 msgid ""
 "будет запрошена информация по всем классам из метарепозитория, указанного"
 " в настройках сервиса ``meta`` в ``deploy.json``."
 msgstr ""
+"information will be requested for all classes from the meta repository "
+"specified in the ``meta`` service settings in ``deploy.json``."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_propertyMetas.rst:3
 #: ../docs-ru/3_modules_description/rest/services/service_metadata.rst:23
 msgid "Получение информации о свойствах объектов класса: propertyMetas"
 msgstr ""
+"Getting information about properties of objects of the class: propertyMetas"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_propertyMetas.rst:5
 msgid ""
@@ -3360,16 +3485,21 @@ msgid ""
 "сервиса>/propertyMetas/<имя класса>``, где имя класса указывается с "
 "неймспейсом."
 msgstr ""
+"The request is made using the path ``<server URL>/rest/<service name>/"
+"propertyMetas/<class name>``, where the class name is specified with a "
+"namespace."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_propertyMetas.rst:19
 msgid ""
 "будет запрошена информация о свойствах объектов класса ``class_text`` в "
 "неймспейсе ``develop-and-test``, например:"
 msgstr ""
+"information about the properties of objects of the ``class_text`` class in "
+"the ``develop-and-test`` namespace will be requested, for example:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_query_parameters.rst:3
 msgid "Дополнительные параметры запросов к сервису метаданных"
-msgstr ""
+msgstr "Additional metadata service request parameters"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_query_parameters.rst:5
 msgid ""
@@ -3379,22 +3509,31 @@ msgid ""
 "``?``, после этого пишется название и значение параметра через знак "
 "``=``, несколько параметров разделяются между собой с помощью ``&``."
 msgstr ""
+"In most requests to the metadata service (``meta``), in addition to the "
+"request itself, you can specify additional parameters. The list of "
+"additional parameters that need to be applied to the request begins with the "
+"symbol ``?``. After which the name and value of the parameter are written "
+"through the sign `` = ``, several parameters are separated using `` & ``."
 
 #: ../docs-ru/3_modules_description/rest/services/meta_query_parameters.rst:10
 msgid ""
 "Пример GET запроса к ``meta/getList`` с дополнительным параметром "
 "``ancestor`` - фильтрацией по предку:"
 msgstr ""
+"An example of a GET request to ``meta/getList`` with the additional "
+"parameter ``ancestor`` - filtering by ancestor:"
 
 #: ../docs-ru/3_modules_description/rest/services/meta_query_parameters.rst:16
 msgid ""
 "В ответ будет возвращен список классов метаданных, которые являются "
 "производными от ``basicObj``."
 msgstr ""
+"The response will return a list of metadata classes that are derived from "
+"``basicObj``."
 
 #: ../docs-ru/3_modules_description/rest/services/request_examples.rst:3
 msgid "Запросы к сервисам на примере тестов"
-msgstr ""
+msgstr "Service requests using the example of tests"
 
 #: ../docs-ru/3_modules_description/rest/services/request_examples.rst:5
 msgid ""
