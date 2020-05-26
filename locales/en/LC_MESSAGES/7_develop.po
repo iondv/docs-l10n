@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-05-21 02:59+0000\n"
+"PO-Revision-Date: 2020-05-26 06:14+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/7_develop/en/>"
 "\n"
@@ -22,14 +22,14 @@ msgstr ""
 
 #: ../../7_develop/app-utils/button.rst:6
 msgid "Утилиты для кнопок действия"
-msgstr ""
+msgstr "Utilities for action buttons"
 
 #: ../../7_develop/app-utils/button.rst:8 ../../7_develop/app-utils/job.rst:8
 #: ../../7_develop/app-utils/print-form.rst:8
 #: ../../7_develop/app-utils/rest.rst:8
 #: ../../7_develop/app-utils/workflow.rst:8
 msgid "Назад: `Функциональные утилиты приложения <./readme.md>`_"
-msgstr ""
+msgstr "Back: `Functional utilities of the application <./readme.md>`_"
 
 #: ../../7_develop/app-utils/button.rst:10
 msgid ""
@@ -38,6 +38,10 @@ msgid ""
 "для веб-формы создания и редактирования объекта через массив ``commands``"
 " основого объекта формы:"
 msgstr ""
+"Utilities for action buttons are designed to automate the execution of "
+"certain actions when you click a button in a web form. The button is "
+"connected for the web form of creating and editing the object through the "
+"``commands`` array of the main form object:"
 
 #: ../../7_develop/app-utils/button.rst:49
 msgid ""
@@ -46,10 +50,14 @@ msgid ""
 "кнопки перед подключением к форме необходимо задать в ``deploy.json`` в "
 "объекте ``modules.registry.globals.di.actions.options.actions``\\ :"
 msgstr ""
+"There are three buttons available on this form: ``SAVE``\\ , ``SAVEANDCLOSE``"
+" и ``CREATE_INDICATOR_VALUE``.\\ :raw-html-m2r:`<br>` Custom buttons must be "
+"specified before connecting to the form in ``deploy.json`` in the "
+"``modules.registry.globals.di.actions.options.actions``\\ object:"
 
 #: ../../7_develop/app-utils/button.rst:76
 msgid "А также указать параметры используемого кнопкой модуля-обработчика:"
-msgstr ""
+msgstr "Also specify the parameters of the handler module used by the button:"
 
 #: ../../7_develop/app-utils/button.rst:98
 msgid ""
@@ -57,26 +65,33 @@ msgid ""
 "скрипт ``./applications/sakh-"
 "pm/lib/actions/createIndicatorValueHandler.js``."
 msgstr ""
+"In this example, clicking the ``CREATE_INDICATOR_VALUE`` button launches the "
+"script ``./applications/sakh-pm/lib/actions/createIndicatorValueHandler.js``."
 
 #: ../../7_develop/app-utils/button.rst:100
 msgid "Содержание скрипта:"
-msgstr ""
+msgstr "The contents of the script:"
 
 #: ../../7_develop/app-utils/index.rst:3
 msgid "Разработка функциональных утилит в приложении"
-msgstr ""
+msgstr "Development of functional utilities in the application"
 
 #: ../../7_develop/app-utils/index.rst:5
 msgid ""
 "Функциональные утилиты приложения предназначены для решения специфичных "
 "задач приложения, без реализации отдельной логики в виде модуля."
 msgstr ""
+"The application's functional utilities are designed to solve specific "
+"application tasks, without implementing separate logic in the form of a "
+"module."
 
 #: ../../7_develop/app-utils/index.rst:7
 msgid ""
 "Например - утилиты вызываемой задачей по расписанию или утилиты "
 "вызываемой при переходе в бизнес-процессе."
 msgstr ""
+"For example, utilities that are called by a scheduled task, or utilities "
+"that are called during a transition in a workflow."
 
 #: ../../7_develop/app-utils/index.rst:10
 msgid "Содержание"
@@ -84,27 +99,27 @@ msgstr "Сontents"
 
 #: ../../7_develop/app-utils/index.rst:21
 msgid "утилиты для `задач по расписанию <./job.md>`_"
-msgstr ""
+msgstr "utilities for `scheduled tasks <./job.md>`_"
 
 #: ../../7_develop/app-utils/index.rst:22
 msgid "утилиты для `бизнес-процесса <./workflow.md>`_"
-msgstr ""
+msgstr "utilities for `workflow <./workflow.md>`_"
 
 #: ../../7_develop/app-utils/index.rst:23
 msgid "утилиты для `кнопки действия <./button.md>`_"
-msgstr ""
+msgstr "utilities for `action button <./button.md>`_"
 
 #: ../../7_develop/app-utils/index.rst:24
 msgid "утилиты для `веб-сервиса (модуль REST) <./rest.md>`_"
-msgstr ""
+msgstr "utilities for `web-service (REST module) <./rest.md>`_"
 
 #: ../../7_develop/app-utils/index.rst:25
 msgid "утилиты для `печатных форм <./print-form.md>`_"
-msgstr ""
+msgstr "utilities for `printed forms <./print-form.md>`_"
 
 #: ../../7_develop/app-utils/job.rst:6
 msgid "Утилиты для задач по расписанию"
-msgstr ""
+msgstr "Utilities for scheduled tasks"
 
 #: ../../7_develop/app-utils/job.rst:10
 msgid ""
@@ -113,12 +128,18 @@ msgid ""
 "времени.\\ :raw-html-m2r:`<br>` Для этого каждая утилита должна быть "
 "определена в deploy.json приложения в объекте globals.jobs, например:"
 msgstr ""
+"Utilities for scheduled tasks (jobs) are designed to automate the regular "
+"execution of certain actions at certain intervals.\\ :raw-html-m2r:`<br>` To "
+"do this, each utility must be defined in the deploy.json application in the "
+"globals.jobs object, for example:"
 
 #: ../../7_develop/app-utils/job.rst:34
 msgid ""
 "В ``di`` должно содержаться поле с именем, равном значению ``worker`` - "
 "это задача, которая будет запускаться."
 msgstr ""
+"``di`` should contain a field with a name equal to the value of ``worker`` - "
+"this is the task that will be launched."
 
 #: ../../7_develop/app-utils/job.rst:36
 msgid ""
@@ -137,6 +158,19 @@ msgid ""
 "``timeout`` - время в милисекундах, после которого запущенная задача "
 "прерывается по таймауту;"
 msgstr ""
+"Here the script runs on a schedule applications/khv-ticket-discount/lib/"
+"overnightTicketClose.js. ``launch`` can be an object containing the "
+"following fields:\\ :raw-html-m2r:`<br>` ``month``\\ , ``week``\\ , ``day``\\"
+" , ``dayOfYear``\\ , ``weekday``\\ , ``hour``\\ , ``min``\\ , ``minute``\\ , "
+"``sec``\\ , ``second`` - they set the interval between task completion;\\ "
+":raw-html-m2r:`<br>` ``check`` - the interval for checking the execution "
+"condition, in milliseconds, is 1000 by default. \\ :raw-html-m2r:`<br>` For "
+"example, if ``check`` is 5000 and ``sec`` is 2, the task will be executed "
+"only every 10 seconds when the interval between checks coincides with the "
+"execution interval\\ :raw-html-m2r:`<br>` If the task execution interval is "
+"not set, it will be completed when the application starts and after each "
+"verification interval.\\ :raw-html-m2r:`<br>```timeout`` - time in "
+"milliseconds after which a running task is interrupted by timeout;"
 
 #: ../../7_develop/app-utils/job.rst:44
 msgid ""
@@ -144,6 +178,9 @@ msgid ""
 "задания в милисекундах, при этом задача также будет выполнена сразу при "
 "запуске приложения. Таймаут будет установлен равным интервалу выполнения."
 msgstr ""
+"``launch`` can also be an integer - the interval of the task in "
+"milliseconds, while the task will also be performed immediately when the "
+"application starts. The timeout will be set equal to the execution interval."
 
 #: ../../7_develop/app-utils/job.rst:46
 msgid ""
@@ -151,14 +188,17 @@ msgid ""
 "которые станут доступны в скрипте через поля объекта, передаваемого как "
 "аргумент основной функции модуля."
 msgstr ""
+"In the ``options`` field, any variables and their values can be specified, "
+"which will become available in the script through the fields of the object "
+"passed as an argument to the main function of the module."
 
 #: ../../7_develop/app-utils/job.rst:48 ../../7_develop/app-utils/rest.rst:31
 msgid "Скрипт составляется в формате модуля, например так:"
-msgstr ""
+msgstr "The script is compiled in the module format, for example:"
 
 #: ../../7_develop/app-utils/print-form.rst:6
 msgid "Утилиты для печатных форм"
-msgstr ""
+msgstr "Utilities for printed forms"
 
 #: ../../7_develop/app-utils/print-form.rst:10
 msgid ""
@@ -167,6 +207,10 @@ msgid ""
 "и форматирования.\\ :raw-html-m2r:`<br>` Печатную форму для которой будет"
 " использоваться инжектор необходимо определить в deploy.json, например:"
 msgstr ""
+"Utilities for printed forms (injectors) are designed to process the data "
+"output to a template, including intermediate calculations and formatting.\\ "
+":raw-html-m2r:`<br>` The printed form for which the injector will be used "
+"must be defined in deploy.json, for example:"
 
 #: ../../7_develop/app-utils/print-form.rst:35
 msgid ""
@@ -176,26 +220,37 @@ msgid ""
 "названием пространства имен, в которую затем поместить файл с названием "
 "нужного для выгрузки класса из этого пространства имен, например:"
 msgstr ""
+"In this case, the listToDocx module is used, so a list of all objects of a "
+"certain class will be uploaded to the printed form.\\ :raw-html-m2r:`<br>` "
+"For each such class in tplDir, you need to create a folder with the name of "
+"the namespace, and then put a file with the name of the class you need to "
+"unload from this namespace in it, for example:"
 
 #: ../../7_develop/app-utils/print-form.rst:42
 msgid ""
 "Таким образом в документ будет выгружен список всех объектов класса "
 "ticketYear@khv-ticket-discount."
 msgstr ""
+"Thus, a list of all objects of the ticketYear@khv-ticket-discount class will "
+"be uploaded to the document."
 
 #: ../../7_develop/app-utils/print-form.rst:44
 msgid ""
 "Сама утилита представляет собой .js скрипт, подключаемый к приложению в "
 "формате модуля в deploy.json, например так:"
 msgstr ""
+"The utility itself is a .js script connected to the application in the "
+"module format in deploy.json, for example:"
 
 #: ../../7_develop/app-utils/print-form.rst:65
 msgid ".js файл здесь находится по пути \"module\"."
-msgstr ""
+msgstr "The .js file here is located at the \"module\" path."
 
 #: ../../7_develop/app-utils/print-form.rst:67
 msgid "После подключения утилиту необходимо включить в опции печатной формы:"
 msgstr ""
+"After connecting, the utility must be included in the options of the printed "
+"form:"
 
 #: ../../7_develop/app-utils/print-form.rst:94
 msgid ""
@@ -204,14 +259,18 @@ msgid ""
 "объект с вложенным в него списком объектов заданного ранее класса, для "
 "примера из этой справки:"
 msgstr ""
+"The injector script is compiled in the module format, provided that it must "
+"contain the this.inject function, into the parameter of which the object "
+"with the list of objects of the class specified earlier will be transferred "
+"to, for an example from this reference:"
 
 #: ../../7_develop/app-utils/print-form.rst:100
 msgid "Пример файла monthTicketStats.js:"
-msgstr ""
+msgstr "Example of the monthTicketStats.js file:"
 
 #: ../../7_develop/app-utils/print-form.rst:125
 msgid "Пример конфигурации экспорта для данной формы в deploy.js:"
-msgstr ""
+msgstr "Example of an export configuration for this form in deploy.js:"
 
 #: ../../7_develop/app-utils/print-form.rst:177
 msgid ""
@@ -225,10 +284,19 @@ msgid ""
 "класса.\\ :raw-html-m2r:`<br>` Переданные параметры будут доступны в "
 "скрипте через параметр функции this.inject."
 msgstr ""
+"Here you should pay attention to the params field - in it you can specify "
+"the parameters available in the export form in the application web service, "
+"as of 12.24.2019 the following types of parameters are possible:\\ :raw-html-"
+"m2r:`<br>` \"string\" - text enter string,\\ :raw-html-m2r:`<br>` \"date\" - "
+"an interactive calendar where you can select a date of interest\\ :raw-html-"
+"m2r:`<br>` \"reference\" - a reference to the class, in this case, the "
+"export window will display a drop-down list of all objects of the class.\\ "
+":raw-html-m2r:`<br>` The passed parameters will be available in the script "
+"through the parameter of the this.inject function."
 
 #: ../../7_develop/app-utils/rest.rst:6
 msgid "Утилиты для веб-сервиса (rest)"
-msgstr ""
+msgstr "Utilities for web service (rest)"
 
 #: ../../7_develop/app-utils/rest.rst:10
 msgid ""
@@ -236,6 +304,10 @@ msgid ""
 "видов запросов к серверу.\\ :raw-html-m2r:`<br>` Cервис подключается к "
 "приложению в deploy.json в объекте modules.rest.globals.di, например так:"
 msgstr ""
+"Web service utilities are designed to implement the processing of various "
+"types of server requests.\\ :raw-html-m2r:`<br>` The service connects to the "
+"application in deploy.json in the modules.rest.globals.di object, for "
+"example:"
 
 #: ../../7_develop/app-utils/rest.rst:27
 msgid ""
@@ -247,6 +319,13 @@ msgid ""
 "значения, которые станут доступны в скрипте через поля объекта, "
 "передаваемого как аргумент основной функции модуля."
 msgstr ""
+"In this case, the service ``acceptor`` \\ is connected, it will become "
+"available for requests at the url ``https://dnt.iondv.com/rest/acceptor``.\\ "
+":raw-html-m2r:`<br>` A functional description of interaction with requests "
+"should be contained in a script``modules/rest/lib/impl/acceptor.js``.\\ :raw-"
+"html-m2r:`<br>` In the ``options`` field, any variables and their values can "
+"be indicated, which will become available in the script through the fields "
+"of the object passed as an argument to the main function of the module."
 
 #: ../../7_develop/app-utils/rest.rst:58
 msgid ""
