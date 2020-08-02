@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-05-15 06:05+0000\n"
+"PO-Revision-Date: 2020-05-27 03:43+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.com/projects/docs/index/en/>\n"
 "Language: en\n"
@@ -424,17 +424,16 @@ msgid "Установка в одну строку:"
 msgstr "Install in one command:"
 
 #: ../../index.rst:206
-#, fuzzy
 msgid ""
 "Где параметры для iondv-app ``localhost:27017`` адрес MongoDB, а "
 "``develop-and-test`` название приложения. После запуска открыть ссылку "
 "'http://localhost:8888', учетная запись бек офиса **demo**\\ , пароль "
 "**ion-demo**."
 msgstr ""
-"Where ``localhost: 27017`` is the MongoDB address, and ``develop-and-test`` "
-"is the app name. Open this link http://localhost:8888 in a browser and log "
-"in. 8888 — is a port in the server.ports parameter. For back office login: "
-"demo, password: ion-demo."
+"Where the parameters for iondv-app ``localhost: 27017`` is the MongoDB "
+"address, and ``develop-and-test`` is the name of the application. After "
+"starting, open the link 'http://localhost:8888', back office account - "
+"**demo**\\, password - **ion-demo**."
 
 #: ../../index.rst:208
 msgid ""
@@ -442,6 +441,9 @@ msgid ""
 "https://github.com/iondv/iondv-app.git``\\ ) и установите приложение с "
 "помощью команды ``bash iondv-app -m localhost:27017 develop-and-test``."
 msgstr ""
+"Also another way is to clone - (\\ ``git clone https://github.com/iondv/"
+"iondv-app.git``\\ ) and install the application using the command ``bash "
+"iondv-app -m localhost:27017 develop-and-test``."
 
 #: ../../index.rst:210
 msgid ""
@@ -450,6 +452,10 @@ msgid ""
 "странице сборщика приложения  IONDV. Framework `iondv-app "
 "<https://github.com/iondv/iondv-app>`_"
 msgstr ""
+"You can also build the application in docker containers, then from the "
+"environment you only need docker and the mongodb DBMS in the docker "
+"container. More details on the IONDV. Framework application builder page "
+"`iondv-app <https://github.com/iondv/iondv-app>`_"
 
 #: ../../index.rst:213
 msgid "Сборка приложения из репозитория"
@@ -507,6 +513,12 @@ msgid ""
 "в путь, вместо ``namespace``. Находим приложение ``develop-and-test`` в "
 "репозитории. Смотрим зависимости указаные в файле ``package.json``."
 msgstr ""
+"Let's consider the example of the ``develop-and-test`` application. At the "
+"place of the ``develop-and-test`` application, the path may indicate "
+"``namespace``. This means that you must put the name of the application in "
+"the path yourself, instead of ``namespace``. Find the ``develop-and-test`` "
+"application in the repository. Look at the dependencies specified in the "
+"``package.json``."
 
 #: ../../index.rst:250
 msgid ""
@@ -679,7 +691,7 @@ msgstr ""
 
 #: ../../index.rst:295
 msgid "Docker"
-msgstr ""
+msgstr "Docker"
 
 #: ../../index.rst:297
 msgid "Запуск приложения с использованием докер контейнера:"
