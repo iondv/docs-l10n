@@ -4,7 +4,7 @@ Translation of ION DV documentation into other languages (use https://weblate.io
 Below text in Russian.
 
 Порядок действий:
-На основе master ветки в docs-ru формируется русская версия документации iondv.reathedocs.io
+На основе master ветки в docs-ru формируется русская версия документации https://iondv.readthedocs.io/ru/latest/
 
 Утилитой:
 * Клонируется iondv/docs-l10n и переключаемся на ветку translations
