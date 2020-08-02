@@ -1,5 +1,5 @@
 # docs-l10n
-Translation of ION DV documentation into other languages (use https://weblate.iondv.com). Ready documentation on the site 
+Translation of ION DV documentation into other languages (use https://weblate.iondv.com). Ready documentation on the site https://iondv.readthedocs.io/en/latest/ 
 
 Below text in Russian.
 
