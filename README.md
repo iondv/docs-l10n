@@ -7,12 +7,12 @@ Below text in Russian.
 На основе master ветки в docs-ru формируется русская версия документации iondv.reathedocs.io
 
 Утилитой:
-* Клонируется docs-l10n и переключаемся на ветку translations
-* В ней клонируется docs-ru
-* При наличии изменений в docs-ru, черех sphinx обновляется gettext и пушатся в ветку translations
-* В веблейт получаем изменения вручную
-* Переводим в веблейт изменения и пушим их в ветку tranlate
+* Клонируется iondv/docs-l10n и переключаемся на ветку translations
+* В папке репозитория клонируется iondv/docs-ru
+* При наличии изменений в iondv/docs-ru, черех sphinx в ветку translate репозитория iondv/docs-l10n обновляется папка gettext и пушатся изменения 
+* В веблейт втягиваем изменения вручную
+* Переводим в веблейт изменения и пушим их в ветку translate. iondv.reathedocs.io - собирает документацию по этой ветке https://iondv.readthedocs.io/en/translation/ для проверки
 * Если все хорошо, мерджим вручную ветку translate в master
-* iondv.reathedocs.io - собирает документацию, на основе ветки translate 
+* iondv.reathedocs.io - на основе изменений ветки master собирает дефолтную версию документации https://iondv.readthedocs.io/en/latest/ 
 
 Подробнее в статье на Habr https://habr.com/ru/post/488956/
