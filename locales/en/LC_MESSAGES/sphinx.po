@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2020, IONDV LLC and the IONDV community (Apache 2.0)
+# This file is distributed under the same license as the IONDV Framework
+# docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV Framework docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-14 09:35+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../_templates/breadcrumbs.html:45 ../../_templates/breadcrumbs.html:48
+msgid "Edit on GitHub"
+msgstr ""
+
+#: ../../_templates/breadcrumbs.html:53 ../../_templates/breadcrumbs.html:55
+msgid "Edit on Bitbucket"
+msgstr ""
+
+#: ../../_templates/breadcrumbs.html:60 ../../_templates/breadcrumbs.html:62
+msgid "Edit on GitLab"
+msgstr ""
+
+#: ../../_templates/breadcrumbs.html:65 ../../_templates/breadcrumbs.html:67
+msgid "View page source"
+msgstr ""
+
+#: ../../_templates/breadcrumbs.html:77
+msgid "Next"
+msgstr ""
+
+#: ../../_templates/breadcrumbs.html:80
+msgid "Previous"
+msgstr ""
+

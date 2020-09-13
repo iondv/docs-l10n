@@ -16,10 +16,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../4_ion_model/index.rst:2
-msgid "4. Создание проекта модели ИОН"
+#: ../../_templates/breadcrumbs.html:45
+#: ../../_templates/breadcrumbs.html:48
+msgid "Edit on GitHub"
 msgstr ""
 
-#: ../../4_ion_model/ion_environment.rst:2
-msgid "Настройка среды разработки ION"
+#: ../../_templates/breadcrumbs.html:53
+#: ../../_templates/breadcrumbs.html:55
+msgid "Edit on Bitbucket"
+msgstr ""
+
+#: ../../_templates/breadcrumbs.html:60
+#: ../../_templates/breadcrumbs.html:62
+msgid "Edit on GitLab"
+msgstr ""
+
+#: ../../_templates/breadcrumbs.html:65
+#: ../../_templates/breadcrumbs.html:67
+msgid "View page source"
+msgstr ""
+
+#: ../../_templates/breadcrumbs.html:77
+msgid "Next"
+msgstr ""
+
+#: ../../_templates/breadcrumbs.html:80
+msgid "Previous"
 msgstr ""
