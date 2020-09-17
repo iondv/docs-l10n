@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2020, IONDV LLC and the IONDV community (Apache 2.0)
+# This file is distributed under the same license as the IONDV Framework docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV Framework docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-17 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../docs-ru/3_development/metadata_structure.rst:2
+msgid "Структура метаданных"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:5
+msgid "**Метаданные (Мета)** - совокупность JSON-файлов в полной мере описывающих комплект структур, которыми оперирует приложение, способов отображения данных структур в пользовательском интерфейсе и навигации по ним, а так же файлов конфигурации приложения."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:8
+msgid "Типы файлов меты"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:11
+msgid "Мета классов"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:12
+#: ../docs-ru/3_development/metadata_structure.rst:60
+msgid "Мета представлений"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:13
+msgid "Мета навигации: мета секций навигации, мета узлов навигации"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:14
+msgid "Мета отчета"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:15
+msgid "Мета админ"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:16
+msgid "Мета бизнес-процессов"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:17
+msgid "Геомета"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:18
+msgid "Мета безопасности"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:21
+msgid "Структура основных типов меты"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:29
+msgid "Структуру основных типов меты можно представить следующим образом:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:31
+msgid "**Мета классов** является основным источником формирования данных в приложении. Мета классов состоит из атрибутов (атрибутивная часть) и параметров самого класса (общая часть). Атрибуты - это объекты массива \"properties\" общей части, которая содержит поля, имеющие отношение к самой структуре и способам оперирования данными в структуре."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:33
+msgid "На основе меты классов задается мета представлений, мета навигации, мета отчетов, мета бизнес-процессов и т.д."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:35
+msgid "**Мета представления (класса)** позволяет задавать желаемый состав атрибутов этого класса для отображения на форме, в соответствии с типом формы представления (представление формы списка ``list.json``\\ , создания ``create.json``\\ , изменения класса ``item.json``\\ ) и указывать для каждого отдельного атрибута свойства, переопределяемые и (или) дополняемые свойства, задаваемые в мете класса для данного атрибута."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:39
+msgid "Мета представления + Атрибуты класса = Отображение атрибутов на форме"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:42
+msgid "**Мета навигации** регулирует расположение элементов в навигационном блоке. Мета навигации разделяется на мету узлов навигации и мету секции навигации."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:45
+msgid "Наименование файлов меты:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:60
+msgid "Мета класса"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:60
+msgid "Мета навигации"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "Находится в"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "директории ``meta``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "и состоит из"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "наименования"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "общей части меты"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "класса +"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "``.class.json.``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "Например:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "``adress.class.json``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "В наименовании директории"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "определяется к какому классу относится"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "представление. Мета представлений"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "располагается в директории ``views``\\ , в"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "которой содержатся директории,"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "наименования которых совпадают с"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "первой частью наименований файлов"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "меты классов. Например:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "``address@project_name``\\ , где  ``address``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "относится к классу ``address``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "Мета секций"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "навигации: состоит из"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "поля ``\"name\" +``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "``.section.json`` и"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "находится в"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "директории"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "``navigation``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure.rst:0
+msgid "``workflow.section.json``."
+msgstr ""
