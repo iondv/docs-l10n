@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-14 09:35+1000\n"
+"POT-Creation-Date: 2020-09-16 02:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,30 +16,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../_templates/breadcrumbs.html:45
-#: ../../_templates/breadcrumbs.html:48
+#: ../docs-ru/_templates/breadcrumbs.html:45
+#: ../docs-ru/_templates/breadcrumbs.html:48
 msgid "Edit on GitHub"
 msgstr ""
 
-#: ../../_templates/breadcrumbs.html:53
-#: ../../_templates/breadcrumbs.html:55
+#: ../docs-ru/_templates/breadcrumbs.html:53
+#: ../docs-ru/_templates/breadcrumbs.html:55
 msgid "Edit on Bitbucket"
 msgstr ""
 
-#: ../../_templates/breadcrumbs.html:60
-#: ../../_templates/breadcrumbs.html:62
+#: ../docs-ru/_templates/breadcrumbs.html:60
+#: ../docs-ru/_templates/breadcrumbs.html:62
 msgid "Edit on GitLab"
 msgstr ""
 
-#: ../../_templates/breadcrumbs.html:65
-#: ../../_templates/breadcrumbs.html:67
+#: ../docs-ru/_templates/breadcrumbs.html:65
+#: ../docs-ru/_templates/breadcrumbs.html:67
 msgid "View page source"
 msgstr ""
 
-#: ../../_templates/breadcrumbs.html:77
+#: ../docs-ru/_templates/breadcrumbs.html:77
 msgid "Next"
 msgstr ""
 
-#: ../../_templates/breadcrumbs.html:80
+#: ../docs-ru/_templates/breadcrumbs.html:80
 msgid "Previous"
 msgstr ""
