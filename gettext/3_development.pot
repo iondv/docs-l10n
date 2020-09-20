@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-17 02:28+0000\n"
+"POT-Creation-Date: 2020-09-18 19:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -208,4 +208,1148 @@ msgstr ""
 
 #: ../docs-ru/3_development/metadata_structure.rst:0
 msgid "``workflow.section.json``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:4
+msgid "Мета классов - атрибутивная часть"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:6
+msgid "**Атрибутивная часть меты класса** описывает поля атрибута класса. Атрибутов в классе обычно минимум два - ключевое поле и поле данных. Они содержатся в виде массива в поле ``\"properties\"`` основной части меты классов. Каждый атрибут - это объект следующей структуры:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:9
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:7
+msgid "JSON"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:45
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:34
+msgid "Описание полей"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:50
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:39
+msgid "Код"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:51
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:40
+msgid "Имя"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:52
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:41
+msgid "Допустимые значения"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:53
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:42
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/composite_indexes.rst:11
+msgid "Описание"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:54
+msgid "``\"orderNumber\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:55
+msgid "**Порядковый номер**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:56
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:76
+msgid "Целое неотрицательное"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:57
+msgid "Задает расположение атрибута относительно других атрибутов этого же класса."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:58
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:55
+msgid "``\"name\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:59
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:56
+msgid "**Системное имя**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:60
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:120
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:124
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:128
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:132
+msgid "Строка, только латиница без пробелов"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:61
+msgid "Указывается имя атрибута, с которым будет работать система, а значит не может быть пустым, может содержитать только символовы латинского алфавита, без пробелов (задается один раз при создании атрибута). В последующем поменять имя нельзя."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:62
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:67
+msgid "``\"caption\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:63
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:68
+msgid "**Логическое имя**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:64
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:108
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:136
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:81
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:85
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:89
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:93
+msgid "Строка"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:65
+msgid "Отображение имени атрибута в пользовательском интерфейсе."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:66
+msgid "``\"type\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:67
+msgid "**Тип**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:68
+msgid "Целое - идентификатор (код) типа"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:69
+msgid "Тип данных атрибута. См. `Типы атрибутов <meta_class_attribute.md#следующая-страница-типы-атрибутов>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:70
+msgid "``\"size\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:71
+msgid "**Размер**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:72
+msgid "Целое положительное"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:73
+msgid "Максимальный размер данных атрибута, допистимые значения зависят от типа атрибута."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:74
+msgid "``\"decimals\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:75
+msgid "**Число знаков после запятой**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:77
+msgid "Число знаков после запятой, задается только для типа \"Десятичное [8]\"."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:78
+msgid "``\"allowedFileTypes\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:79
+msgid "**Допустимые типы файлов**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:80
+msgid "Массив строк"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:81
+msgid "Позволяет задать допустимые расширения файлов, которые пользователь может загрузить в атрибут типа \"Коллекция файлов [110]\"."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:82
+msgid "``\"maxFileCount\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:83
+msgid "**Максимальное количество файлов**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:84
+msgid "Число от 1 до 5"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:85
+msgid "Задает максимальное количество файлов, которые пользователь может загрузить в атрибут типа \"Коллекция файлов [110]\"."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:86
+msgid "``\"nullable\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:87
+msgid "**Допустимо пустое значение**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:88
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:92
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:96
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:100
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:104
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:152
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:156
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:164
+msgid "Логический"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:89
+msgid "Разрешает или запрещает пустое значение атрибута."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:90
+msgid "``\"readonly\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:91
+msgid "**Только для чтения**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:93
+msgid "Разрешает или запрещает изменять значение атрибута."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:94
+msgid "``\"indexed\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:95
+msgid "`Индексация для поиска <atr_indexed.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:97
+msgid "Указывает, нужно ли индексировать значения данного атрибута для ускорения поиска."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:98
+msgid "``\"unique\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:99
+msgid "**Уникальные значения**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:101
+msgid "Для атрибута накладывает ограничение уникальности (\\ **Внимание**\\ : нельзя создать два объекта класса с одинаковыми значениями в уникальном атрибуте)."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:102
+msgid "``\"autoassigned\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:103
+msgid "`Автозаполнение <atr_autoassigned.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:105
+msgid "Разрешает или запрещает автоматическое заполнение поля приложением."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:106
+msgid "``\"hint\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:107
+msgid "**Подсказка**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:109
+msgid "Задает сообщение, которые выведется в пользовательском интерфейсе рядом с именем атрибута."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:110
+msgid "``\"defaultValue\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:111
+msgid "`Значение по умолчанию <atr_default_value.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:112
+msgid "Зависит от типа атрибута"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:113
+msgid "Указывается значение, которое будет заполнено в атрибуте в форме создания (при создании объекта)."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:114
+msgid "``\"refClass\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:115
+msgid "`Атрибут ссылки <atr_ref_backref.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:116
+msgid "Строка, только латиница, без пробелов"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:117
+msgid "Содержит значение поля ``\"name\"`` (Системное имя) класса, который должен использоваться в атрибуте типа \"Ссылка [13]\"."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:118
+msgid "``\"itemsClass\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:119
+msgid "`Атрибут коллекции <atr_itemclass_backcoll.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:121
+msgid "Содержит значение поля ``\"name\"`` (Системное имя) класса, объекты которого могут привязаться к атрибуту типа \"Коллекция [14]\""
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:122
+msgid "``\"backRef\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:123
+msgid "`Атрибут обратной ссылки <atr_ref_backref.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:125
+msgid "Указывается атрибут типа \"Ссылка [13]\", из класса, указанного в свойстве Класс коллекции, который ссылается на исходный класс. Нужно для фильтрации и привязки объектов из класса Класс коллекции по значению ссылочного атрибута."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:126
+msgid "``\"backColl\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:127
+msgid "`Атрибут обратной коллекции <atr_itemclass_backcoll.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:129
+msgid "Указывается атрибут типа \"Коллекция [14]\", из класса, указанного в свойстве Класс коллекции, который ссылается на исходный класс. Нужно для фильтрации и привязки объектов из класса Класс коллекции по значению ссылочного атрибута."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:130
+msgid "``\"binding\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:131
+msgid "`Основание коллекции <binding.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:133
+msgid "Указывается атрибут класса, к которому привязывается атрибут обратной ссылки. Если не указан, то принимается ключевой атрибут."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:134
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:51
+msgid "``\"semantic\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:135
+msgid "`Семантика <semantic.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:137
+msgid "Указывается для ссылочных атрибутов для того, чтобы выводить и формировать информацию из ссылочного класса, корректную для описания артибута в объекте исходного класса."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:138
+msgid "``\"selConditions\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:139
+msgid "`Условия отбора допустимых значений <atr_selconditions.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:140
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:144
+msgid "Null либо массив объектов"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:141
+msgid "Позволяет ограничить выбор объектов по ссылке, допустимых для привязкки в данном ссылочном атрибуте."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:142
+msgid "``\"selSorting\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:143
+msgid "`Сортировка выборки допустимых значений <atr_selsorting.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:145
+msgid "Позволяет сортировать выбор объектов по ссылке, допустимых для привязкки в данном ссылочном атрибуте."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:146
+msgid "``\"selectionProvider\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:147
+msgid "`Список выбора допустимых значений <atr_selectionprovider.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:148
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:160
+msgid "Null либо объект"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:149
+msgid "Задает список выбора допустимых значений для атрибута."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:150
+msgid "``\"indexSearch\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:151
+msgid "**Полнотекстовый поиск**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:153
+msgid "Признак использования атрибута в полнотекстовом поиске. Указывает, что значение данного атрибута должно индексироваться поисковой системой. См. `Индексация <atr_indexed.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:154
+msgid "``\"eagerLoading\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:155
+msgid "`Жадная загрузка <eager_loading.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:157
+msgid "Загрузка достаточного объема данных объекта по ссылке (для атрибутов типа ссылка и коллекция)."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:158
+msgid "``\"formula\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:159
+msgid "`Вычисляймые поля <atr_formula.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:161
+msgid "Указывает на формулу расчета."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:162
+msgid "``\"cached\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:163
+msgid "`Кеширование значения вычислимого атрибута <atr_cached_true.md>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:165
+msgid "Применяется только для значений атрибута, полученных с помощью вычисления по формуле. Указывает на возможность кеширования значения вычислимого атрибута."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:4
+msgid "Автозаполняемые атрибуты"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:7
+msgid "Тип **автозаполняемые поля** ``\"autoassigned\": true`` - указывает, что значение данного атрибута должно быть заполнено автоматически при создании экземпляра класса. Применяется в основном для атрибутов типа «Уникальный идентификатор» ``\"unique\": true`` для целосчисленных и строковых атрибутов, а также для атрибутов типа «Дата-время»."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:10
+msgid "Принцип формирования:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:13
+msgid "Для атрибутов «Дата-время» атрибуту должно быть присвоено значение текущего момента времени. Используется для меток создания и изменения."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:14
+msgid "Для целочисленных атрибутов, если указано значение \"Уникальный идентификатор\" (``\"unique\": true``) при создании формы, заполняется случайным набором символов."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:15
+msgid "Для строк, если указано значение \"Уникальный идентификатор\" (``\"unique\": true``), то должно быть сгенерировано случайное значение hex - размером с длину строки - в примере ниже 20 символов."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:22
+msgid "Для типа \"Глобальный идентификатор\" - реализуется аналогично строке."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:24
+msgid "**NB:** Необходимо сделать проверку при сохранении. Поле должно генерироваться автоматически для пустых значений или даты. Для всех остальных (целое, строка) должны генерироваться ранее созданные значения."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:27
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/composite_indexes.rst:16
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/journaling.rst:9
+msgid "Пример:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:4
+msgid "Индексация атрибутов"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:6
+msgid "**Индексация** атрибутов необходима для ускорения поиска. Индексация задается вручную, присвоением значения ``true`` для свойства ``\"indexed\"``\\ , то есть:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:12
+msgid "За исключением следующих типов атрибутов:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:15
+msgid "Индексация задается автоматически (независимо от того, что указано в индексации для поля):"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:19
+msgid "для ключевого поля;"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:22
+msgid "для объектов с полем ``\"compositeIndexes\": true`` в основной части меты класса."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:26
+msgid "При импорте меты принудительно индексируются все объекты атрибутов типа \"Ссылка\"."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:29
+msgid "Объекты атрибутов типа \"Коллекция\" не индексируются, так как коллекции с обратной ссылкой не хранятся в объекте, соответственно, в индексации нет необходимости."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:2
+msgid "Мета классов - общая часть"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:4
+msgid "**Общая часть меты классов** - содержит поля параметров класса, которые имеют отношения к самой структуре и способам оперирования данными в ней."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:43
+msgid "``\"isStruct\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:44
+msgid "`Является структурой <meta_class_main/type_isstruct16.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:45
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:125
+msgid "Логическое."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:46
+msgid "Если выставлено \"true\" - это говорит о том, что данный класс является структурой, и может быть использован в прочих классах в атрибутах особого типа - Структура [16]"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:47
+msgid "``\"key\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:48
+msgid "`Ключевые атрибуты <meta_class_main/key.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:49
+msgid "Массив строк, минимум одно значение."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:50
+msgid "Для функционирования приложения, в каждом классе должно быть задано ключевое поле, однозначно идентифицирующее объект в коллекции."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:52
+msgid "`Семантический атрибут <meta_class_main/semantic.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:53
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:65
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:69
+msgid "Строка."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:54
+msgid "Задает семантику - правило формирования строкового представления для данного класса."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:57
+msgid "Строка, только латиница, без пробелов."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:58
+msgid "Задает в том числе первую часть имени файла меты класса, служебное имя."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:59
+msgid "``\"abstract\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:60
+msgid "`Признак абстрактности для класса <meta_class_main/abstract.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:61
+msgid "Логическое"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:62
+msgid "Используется только для родительских (базовых) классов."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:63
+msgid "``\"version\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:64
+msgid "`Версионирование <meta_class_main/metaversion.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:66
+msgid "Позволяет задавать версионирвоание меты, для возможности оперирования данными созданными в разных версиях меты в рамках одной коллекции."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:70
+msgid "Отображаемое в пользовательском интерфейсе имя класса"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:71
+msgid "``\"ancestor\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:72
+msgid "`Наследование <meta_class_main/ancestor.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:73
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:77
+msgid "Null либо строка."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:74
+msgid "Набор атрибутов, заведенных в данном классе, наследуется классами-наследниками. Является способом сократить количество сущностей, когда для них можно использовать одинаковый набор атрибутов. Все классы-наследники будут наследовать атрибутивный состав родителя + можно завести атрибуты, принадлежащие индивидуально данному классу-наследнику (при необходимости)."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:75
+msgid "``\"container\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:76
+msgid "**Атрибут ссылки на контейнер**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:78
+msgid "Здесь можно выбрать ссылочный атрибут, который будет использован для автоматического построения иерархической навигации. Объект, на который будет ссылаться выбранный атрибут, будет восприниматься средой как контейнер экземпляра доменного класса, и автоматически выстроит иерархию объектов."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:79
+msgid "``\"creationTracker\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:80
+msgid "`Метка времени создания <meta_class_main/time_user_tracker.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:82
+msgid "Позволяет сохранять в классе дату/время создания объекта, требует наличия соответствующего атрибута класса, ``\"name\"`` которого и вносится в данное поле."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:83
+msgid "``\"changeTracker\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:84
+msgid "`Метка времени изменения <meta_class_main/time_user_tracker.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:86
+msgid "Позволяет сохранять в классе дату/время изменения объекта, требует наличия соответствующего атрибута класса, ``\"name\"`` которого и вносится в данное поле."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:87
+msgid "``\"creatorTracker\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:88
+msgid "`Метка пользователя создавшего объект <meta_class_main/time_user_tracker.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:90
+msgid "Позволяет сохранять в классе имя пользователя создавшего объект, требует наличия соответствующего атрибута класса, ``\"name\"`` которого и вносится в данное поле."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:91
+msgid "``\"editorTracker\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:92
+msgid "`Метка пользователя изменившего объект <meta_class_main/time_user_tracker.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:94
+msgid "Позволяет сохранять в классе имя пользователя, изменившего объект, требует наличия соответствующего атрибута класса, ``\"name\"`` которого и вносится в данное поле."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:95
+msgid "``\"history\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:96
+msgid "**Снимки данных**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:97
+msgid "*0 - нет*"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:98
+msgid "Хранит снимки данных"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:101
+msgid "*1 - произвольно*"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:105
+msgid "*2 - с точностью до часа*"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:109
+msgid "*3 - с точностью до суток*"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:113
+msgid "*4 - с точностью до недели*"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:117
+msgid "*5 - с точностью до месяца*"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:121
+msgid "*6 - с точностью до года*"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:123
+msgid "``\"journaling\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:124
+msgid "`Журналирование изменений <meta_class_main/journaling.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:126
+msgid "Разрешает/запрещает журналирование изменений объектов класса."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:127
+msgid "``\"compositeIndexes\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:128
+msgid "`Индексация <meta_class_main/composite_indexes.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:129
+msgid "Null либо массив объектов."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:130
+msgid "Позволяет задать требования уникальности сочетания полей."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:131
+msgid "``\"properties\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:132
+msgid "Атрибуты"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:133
+msgid "Массив объектов."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:134
+msgid "Массив атрибутов сущности. Каждый объект описывается в соответствии с атрибутивной частью меты классов."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/abstract.rst:4
+msgid "Признак абстрактности класса"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/abstract.rst:7
+msgid "**Признак абстрактности класса** - требуется в случае, когда необходимо по ссылке атрибута на базовый класс отображать список выбора его наследников. При формировании списка выбора классов для создания обьекта абстрактные классы не включены. Выставите ``true`` в поле \"abstract\"."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/abstract.rst:10
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/abstract.rst:22
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:16
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:104
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:172
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/time_user_tracker.rst:13
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/type_isstruct16.rst:14
+msgid "Пример"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/abstract.rst:19
+msgid "Класс становится недоступным для инициализации на уровне UI."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:4
+msgid "Наследование"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:7
+msgid "**Наследование** - позволяет создать новый класс на основе уже существующего (родительского), при этом атрибуты родительского класса заимствуются новым классом. Родительский класс может иметь несколько наследников с различным атрибутивным составом. Каждый наследник может включать в себя свой индивидуальный состав атрибутов + атрибуты родительского класса."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:10
+msgid "Атрибутивный состав"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:12
+msgid "В мете родительского класса атрибутивный состав формируется таким образом, чтобы каждый из них можно было использовать для какого-либо из классов наследников. В то время как в мете класса наследника атрибутивный состав для каждого свой и применяется только на класс, в котором находится."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:18
+msgid "**Родительский класс:**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:40
+msgid "**Класс-наследник:**"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:62
+msgid "``\"id\"`` - является уникальным идентификатором для всех его наследников. Хранится в родительском классе."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:64
+msgid "``\"name\"`` - в классе есть атрибут \"Наименование\", который может отображаться в любом из наследников, или в одном из них. То есть, если атрибут ``\"name\"`` задается в родительском классе, то он может отображаться в любом из наследников. Но если ``\"name\"`` задается в классе наследнике, то отображается только в том классе, в котором он был задан."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:67
+msgid "Представление класса:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:69
+msgid "Если для родительского класса задан признак абстрактности, то представление для него задавать не обязательно."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:71
+msgid "Представления класса задается для каждого наследника по отдельности, с указанием необходимого атрибутивного состава (из класса, для которого создается + необходимые из родительского класса)."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:74
+msgid "Настройка списка классов наследников для создания объектов по ссылке"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:76
+msgid "Задается в мете класса для атрибута типа ``\"Ссылка\"``\\ /\\ ``\"Коллекция\"`` после указания ссылочного класса/класса коллекции:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:86
+msgid "``itemsClass`` - коллекция на базовый класс ``[event]``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:88
+msgid "``Subclasses1`` - дочерний класс базого класса ``[event]``\\ , который будет отображаться в списке, при создании объекта по ссылке (далее перечисляем все дочерние классы, которые нужно отображать в списке)."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:92
+msgid "**NB:** Если данная настройка не задана - при создании, в списке отображаются все дочерние классы."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:96
+msgid "Условия для применения настройки:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:99
+msgid "Тип атрибута \"Коллекция\" или \"Ссылка\";"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:100
+msgid "Для атрибута типа \"Коллекция\", \"Ссылка\" указан класс ссылки/коллекции на родительский (базовый) класс (при создании объекта ссылочного класса выводиться окно выбора нескольких классов);"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:101
+msgid "Помимо скрытия базового класса, при создании объекта не нужно отображать все дочерние классы в списке выбора классов для создания объекта по ссылке."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:106
+msgid "Родительский класс [Мероприятия] имеет несколько классов наследников ([Мероприятие1], [Мероприятие3], [Мероприятие2]). В классе [Проект] есть атрибут типа \"Коллекция\", который ссылается на родительский класс [Мероприятие] :"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:163
+msgid "В случае, если для класса задана настройка абстрактности, то при создании объекта класса [Мероприятие] в коллекцию, в списке выбора отобразятся те наследники класса [event], которые указаны в свойстве ``\"allowedSubclasses\"``. То есть, исходя из примера, в коллекцию \"Мероприятия\" можно создать только объекты класса \"Мероприятие1\" и \"Мероприятие2\"."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:166
+msgid "Многоуровневая иерархия"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:168
+msgid "Дочерние классы могут унаследовать атрибутивный состав не только от своих прямых родительских классов, но и от тех, которые находятся выше по иерархии наследования."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:174
+msgid "``[basicObj]`` - родительский класс  ->> ``[eventBasic]`` - наследник класса [basicObj] ->> ``[eventBlock]`` - наследник класса ``[eventBasic]``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/ancestor.rst:240
+msgid "Наследник ``[eventBlock]`` будет так же наследовать атрибутивный состав родительского класса ``[basicObj]``\\ , как и наследник ``[eventBasic]``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/composite_indexes.rst:4
+msgid "Индексация"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/composite_indexes.rst:6
+msgid "**Индексация** - составные уникальные поля. Используется для поиска и контроля целостности данных."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/composite_indexes.rst:8
+msgid "В общей части меты классов есть поле ``\"compositeIndexes\"``\\ , которое позволяет задать требование уникальности сочетания полей."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/composite_indexes.rst:13
+msgid "Cоставной индекс задается перечислением входящих в него атрибутов и указанием признака уникальности. Когда в классе присутсвует составной индекс, при сохранении объекта в базе проверяется отсутвие одинаковых сочетаний перечисленных полей. То есть значения полей ``\"protocol\"`` и ``\"family\"`` из примера ниже могут повторятся, но пара значений - всегда уникальна."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/journaling.rst:4
+msgid "Журналирование"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/journaling.rst:6
+msgid "**Журналирование** - указывает на необходимость журналирования всех действий произведенных над объектом. Находится в поле ``journaling`` основной части меты класса. Значение ``true`` указывает на необходимость журналирования. Если в поле указано значение ``false`` или отсутсвует, то журналирование изменений объекта не требуется."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/key.rst:4
+msgid "Ключевые поля"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/key.rst:6
+msgid "В каждом классе обязательно должен быть задан ключевой атрибут (поле ``\"key\"`` основной части меты класса). Без этого приложение не будет функционировать."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/key.rst:9
+msgid "Типы ключевых полей"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/key.rst:12
+msgid "Guid - \"Глобальный идентификатор [12]\"."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/key.rst:13
+msgid "\"Строка [0]\"."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/key.rst:14
+msgid "\"Целое [6]\"."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/key.rst:17
+msgid "Требования к ключевому атрибуту"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/key.rst:19
+msgid "При формировании меты ключевого атрибута,  поля ``\"unique\"`` и  ``\"autoassigned\"``  выставляются в ``true``. Необходимо запретить пустое значение, выставляя  ``\"nullable\"`` в ``false``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/key.rst:21
+msgid "Если атрибут не генерируется автоматически, то ``\"autoassigned\"`` можно поставить в ``false``\\ , тогда поле должно быть задано оператором при создании. Например, если это код классификатора или регистрационный номер задаваемый внешним способом (на бумаге)."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/metaversion.rst:4
+msgid "Версионирование"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/metaversion.rst:6
+msgid "**Версионирование** - позволяет хранить в системе сразу несколько версий метаданных. В каждый объект при изменении и сохранении проставляется его версия. Таким образом, версионирование предоставляет возможность работы с различными версиями одних объектов."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/metaversion.rst:8
+msgid "Версионирование задается в поле ``\"version\"`` основной части меты классов. Чтобы изменить версию меты, необходимо добавить атрибут  ``version``\\ (\"version\" : 2)."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/metaversion.rst:11
+msgid "Механизм работы"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/metaversion.rst:13
+msgid "При загрузке метаданных, если есть атрибут  version (\"version\" : 2) - будет закачена мета с версией, иначе версия = 1."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/metaversion.rst:31
+msgid "При создании объектов к ним будет добавляться последняя версия метаданных из текущих в базе, а при редактировании объектов они будут редактироваться на основании сохраненной версии."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/metaversion.rst:33
+msgid "Пример сохраненных объектов с разными версиями в базе:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/metaversion.rst:60
+msgid "Работа в коде"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/metaversion.rst:62
+msgid "При считывании меты классов, данные разделяются по версиям.  Имена версионированных классов имеют имена следующего вида “<имя\\ класса>\\ <номер версии>”. Например, ion_filter_1, ion_filter_2 – Класс ion_filter версии 1 и 2 соответственно."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/metaversion.rst:64
+msgid "При выборке объектов, данные берутся с учётом версии. Версия объекта передаётся в виде параметра ``version`` запроса на открытие объекта."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:4
+msgid "Семантика"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:6
+msgid "**Семантика** - используется для вывода объекта класса в качестве одной строки заголовка класса."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:8
+msgid "В мете классов поле ``\"semantic\"`` встречается дважды:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:11
+msgid "в общей части меты класса, где формирует строковое представление для данного класса,"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:12
+msgid "в мете атрибута класса, где формирует строковое представление объектов класса, на который ссылается атрибут, т.е. используется для ссылочных атрибутов."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:15
+msgid "Цель использования"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:17
+msgid "Используется для корректировки отображения атрибутов и значений атрибутов в списке. В атрибутах, которые выводят табличные данные, семантика используется для ограничения вывода колонок."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:20
+msgid "Примеры использования в ссылочных атрибутах"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:22
+msgid "Например, есть класс ``class``\\ , у которого есть атрибуты: ``id``\\ , ``name``\\ , ``link``\\ , ``date``. Есть второй класс ``classTable``\\ , у которого есть ссылочный атрибут ``table`` на класс ``class``. Без использования семантики в объектах класса ``classTable`` в атрибуте ``table`` будут выводится значения идентификаторов объектов класса ``class``. Атрибуты, используемые как идентификаторы, указаны в мете класса ``class``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:26
+msgid "Чтобы вывести значения атрибутов ``name`` и ``link`` в атрибуте ``table``\\ , а не значения идентификаторов, нужно прописать ``\"semantic\": \"name|link\"``. В зависимости от типа атрибута результат будет разный:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:29
+msgid "Если атрибут ``table`` является ссылкой, то в нем будут заполнены значения атрибутов ``name`` и ``link`` через пробел. Тут можно использовать дополнительные слова и выражения через знак ``|``\\ , например ``\"semantic\": \"name|,  |link\"`` или ``\"semantic\": \"У объекта есть 2 атрибута:|name|,  |link\"``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:31
+msgid "Если атрибут ``table`` является коллекцией объектов класса ``class``\\ , то в нем будут выведеные колонки ``name`` и ``link``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:34
+msgid "Формат отображения в семантике"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:37
+msgid "Можно обрезать вывод с помощью: ``[]``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:43
+msgid "Доступно разыменование через ``.``  т.е. доступ во вложенный объект."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:51
+msgid "Отображение семантики на форме"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:55
+msgid "В списках первого уровня (открываемые непосредственно по узлу навигации), в качестве заголовка выводим только значение из поля \"caption\" узла навигации."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:58
+msgid "В списках выбора в заголовок выводим только значение из поля \"caption\" класса объектов списка."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:61
+msgid "В форме редактирования в заголовок выводим только семантику объекта."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:64
+msgid "В форме создания в заголовок выводим только значение из поля \"caption\" класса."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:67
+msgid "В списках выбора над заголовком мелким шрифтом выводим строку \"Выбор значения атрибута <...> объекта <...>\"."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:70
+msgid "В форме создания, если создается объект в коллекции или ссылке, над заголовком мелким шрифтом выводим строку \"Создание объекта в коллекции/по ссылке <...> объекта <...>\"."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/time_user_tracker.rst:4
+msgid "Метки времени создания и изменения"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/time_user_tracker.rst:6
+msgid "Речь идет о следующих полях общей части меты классов:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/time_user_tracker.rst:9
+msgid "``\"creationTracker\"`` - **Метка времени создания**\\ :  позволяет сохранять в классе дату/время создания объекта, требует наличия соответствующего атрибута класса, ``\"name\"`` которого и вносится в данное поле."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/time_user_tracker.rst:10
+msgid "``\"changeTracker\"`` - **Метка времени изменения**\\ : позволяет сохранять в классе дату/время изменения объекта, требует наличия соответствующего атрибута класса, ``\"name\"`` которого и вносится в данное поле."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/time_user_tracker.rst:79
+msgid "Метки пользователя создавшего и измененившего объект"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/time_user_tracker.rst:83
+msgid "``\"creatorTracker\"`` - **Метка пользователя создавшего**\\ :  позволяет сохранять в классе имя пользователя, создавшего объект, требует наличия соответствующего атрибута класса, ``\"name\"`` которого и вносится в данное поле."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/time_user_tracker.rst:86
+msgid "``\"editorTracker\"`` - **Метка пользователя изменившего**\\ : позволяет сохранять в классе имя пользователя, изменившего объект, требует наличия соответствующего атрибута класса, ``\"name\"`` которого и вносится в данное поле."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/type_isstruct16.rst:4
+msgid "Тип Структура [16]"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/type_isstruct16.rst:6
+msgid "**Структура** - способ отображения связанных объектов (ссылок). Если у поля указано структура, то данный тип атрибута нужен для уменьшения действий при заведении модели, при заранее известных типовых классах, атрибуты которых используются во многих других классах. Для класса-структуры в основной части меты класса задается значение ``true`` в поле ``\"isStruct\"``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/type_isstruct16.rst:9
+msgid "Для атрибутов типа \"Структура [16]\" в мете представлений создания и изменения используется тип \"Группа [0]\".  Если не указывать поля у группы, они создаются автоматически по мете.  В представлениях списка нет необходимости делать колонки для атрибутов-структур, в объекте не будет такого свойства, а будут соответствующие атрибуты класса-структуры. Для них можно добавить колонки."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/type_isstruct16.rst:11
+msgid "**NB:** Объекты класса-структуры не создаются!"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/type_isstruct16.rst:16
+msgid "Класс-структура:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/type_isstruct16.rst:185
+msgid "Класс с атрибутом типа \"Структура [16]\":"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/type_isstruct16.rst:267
+msgid "Объект класса с атрибутом-структурой в базе:"
 msgstr ""
