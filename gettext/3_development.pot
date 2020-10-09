@@ -8,13 +8,423 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-02 19:15+0000\n"
+"POT-Creation-Date: 2020-10-09 19:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils.rst:2
+msgid "Разработка функциональных утилит в приложении"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils.rst:4
+msgid "Функциональные утилиты приложения предназначены для решения специфичных задач приложения, без реализации отдельной логики в виде модуля."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils.rst:6
+msgid "Например - утилиты вызываемой задачи по расписанию или утилиты вызываемой при переходе в бизнес-процессе."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils.rst:9
+msgid "Содержание"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils.rst:11
+msgid "утилиты для `задач по расписанию <app_utils_files/jobs.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils.rst:12
+msgid "утилиты для `бизнес-процесса <app_utils_files/workflow.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils.rst:13
+msgid "утилиты для `кнопки действия <app_utils_files/button.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils.rst:14
+msgid "утилиты для `веб-сервиса (модуль REST) <app_utils_files/rest.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils.rst:15
+msgid "утилиты для `печатных форм <app_utils_files/print_forms.rst>`_"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/button.rst:2
+msgid "Утилиты для кнопок действия"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/button.rst:5
+msgid "Утилиты для кнопок действия предназначены для автоматизации выполнения некоторых действий при нажатии кнопки в веб-форме. Кнопка подключается для веб-формы создания и редактирования объекта через массив ``commands`` основого объекта формы:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/button.rst:44
+msgid "На этой форме доступно три кнопки: ``SAVE``\\ , ``SAVEANDCLOSE`` и ``CREATE_INDICATOR_VALUE``."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/button.rst:46
+msgid "Пользовательские кнопки перед подключением к форме необходимо задать в ``deploy.json`` в объекте ``modules.registry.globals.di.actions.options.actions``\\ :"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/button.rst:72
+msgid "А также указать параметры используемого кнопкой модуля-обработчика:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/button.rst:94
+msgid "В этом примере нажатие на кнопку ``CREATE_INDICATOR_VALUE`` запускает скрипт ``./applications/sakh-pm/lib/actions/createIndicatorValueHandler.js``."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/button.rst:96
+msgid "Содержание скрипта:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:2
+msgid "Утилиты для задач по расписанию"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:5
+msgid "**Утилиты для задач по расписанию (jobs)** предназначены для автоматизации регулярного выполнения некоторых действий через определенные промежутки времени."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:7
+msgid "Для этого каждая утилита должна быть определена в deploy.json приложения в объекте globals.jobs, например:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:30
+msgid "В ``di`` должно содержаться поле с именем, равном значению ``worker`` - это задача, которая будет запускаться."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:32
+msgid "Здесь по расписанию выполняется скрипт ``applications/khv-ticket-discount/lib/overnightTicketClose.js``. ``launch`` может быть объектом, содержащим следующие поля:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:35
+msgid "``month``\\ , ``week``\\ , ``day``\\ , ``dayOfYear``\\ , ``weekday``\\ , ``hour``\\ , ``min``\\ , ``minute``\\ , ``sec``\\ , ``second`` - задают интервал между выполнениями задачи;"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:37
+msgid "``check`` - интервал проверки условия выполнения, в милисекундах, по умолчанию - 1000.\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:39
+msgid "Например если ``check`` равен 5000, а ``sec`` - 2, задание будет выполняться лишь каждые 10 секунд, когда интервал между проверками совпадет с интервалом выполнения\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:41
+msgid "Если интервал выполнения задачи не задан, то она будет выполнена при запуске приложения и через каждый интервал проверки.\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:43
+msgid "``timeout`` - время в милисекундах, после которого запущенная задача прерывается по таймауту;"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:45
+msgid "``launch`` также может равняться целому числу - интервалу выполнения задания в милисекундах, при этом задача также будет выполнена сразу при запуске приложения. Таймаут будет установлен равным интервалу выполнения."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:47
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:27
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/workflow.rst:26
+msgid "В поле ``options`` могут быть указаны любые переменные и их значения, которые станут доступны в скрипте через поля объекта, передаваемого как аргумент основной функции модуля."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:49
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:29
+msgid "Скрипт составляется в формате модуля, например так:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:2
+msgid "Утилиты для печатных форм"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:5
+msgid "**Утилиты для печатных форм (инжекторы)** предназначены для обработки выводимых в шаблон данных, в том числе проведения промежуточных расчетов и форматирования.\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:7
+msgid "Печатную форму, для которой будет использоваться инжектор, необходимо определить в deploy.json, например:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:31
+msgid "В данном случае используется модуль listToDocx, следовательно в печатную форму будет выгружен список всех объектов определенного класса.\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:33
+msgid "Для каждого такого класса в tplDir нужно создать папку с названием пространства имен, в которую затем поместить файл с названием нужного для выгрузки класса из этого пространства имен, например:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:39
+msgid "Таким образом в документ будет выгружен список всех объектов класса ticketYear@khv-ticket-discount."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:41
+msgid "Сама утилита представляет собой .js скрипт, подключаемый к приложению в формате модуля в deploy.json, например так:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:62
+msgid ".js файл здесь находится по пути \"module\"."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:64
+msgid "После подключения утилиту необходимо включить в опции печатной формы:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:91
+msgid "Скрипт инжектора составляется в формате модуля, с тем условием, что он должен содержать функцию this.inject, в параметр которой будет передан объект с вложенным в него списком объектов заданного ранее класса, для примера из этой справки:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:97
+msgid "Пример файла monthTicketStats.js:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:122
+msgid "Пример конфигурации экспорта для данной формы в deploy.js:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:174
+msgid "Здесь следует обратить внимание на поле params - в нем можно указать параметры, доступные в форме экспорта в веб сервисе приложения, по состоянию на 24.12.2019 возможны следующие типы параметров:\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:176
+msgid "\"string\" - строка для ввода текста,\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:178
+msgid "\"date\" - интерактивный календарь, в котором можно выбрать интересующую дату\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:180
+msgid "\"reference\" - ссылка на класс, в данном случае в окне экспорта будет отображен выпадающий список всех объектов класса.\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:182
+msgid "Переданные параметры будут доступны в скрипте через параметр функции this.inject."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:2
+msgid "Утилиты для веб-сервиса (rest)"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:5
+msgid "**Утилиты веб-сервиса** предназначены для реализации обработки различных видов запросов к серверу.\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:7
+msgid "Cервис подключается к приложению в deploy.json в объекте modules.rest.globals.di, например так:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:23
+msgid "В этом случае подключается сервис ``acceptor``\\ , он станет доступен для запросов по url ``https://dnt.iondv.com/rest/acceptor``.\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:25
+msgid "Функциональное описание взаимодействия с запросами должно содержаться в скрипте ``modules/rest/lib/impl/acceptor.js``.\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:56
+msgid "Подробное описание принципов создания сервиса можно найти в https://github.com/iondv/rest/blob/master/README_RU.md/ раздел ``Разработка обработчика сервиса в приложении``"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/workflow.rst:2
+msgid "Утилиты для бизнес-процесса"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/workflow.rst:5
+msgid "**Утилиты для бизнес-процесса** предназначены для автоматизации выполнения некоторых действий при изменении статуса бизнес процесса. Утилита подключается к приложению в deploy.json в объекте globals.plugins, например так:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/workflow.rst:24
+msgid "Здесь подключается утилита ``wfEvents``. Скрипт, содержащий описание действий при изменении статуса бизнес-процесса находится по пути ``applications/sakh-pm/lib/wfEvents.js``.\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/workflow.rst:28
+msgid "Скрипт составляется в формате модуля, при условии, что он должен включать метод init, например так:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/workflow.rst:76
+msgid "В этом скрипте описаны действия, которые нужно выполнить при изменении статуса бизнес-процесса ``assignmentBasic@sakh-pm`` на ``fin``\\ , и статуса бизнес-процесса ``proposal@sakh-pm`` на ``cancel``."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:2
+msgid "Ключевые функции ядра: dataRepo"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:4
+msgid "//dataRepo info from"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:8
+msgid "core\\impl\\datarepository\\ionDataRepository.js"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:9
+msgid "core\\interfaces\\DataRepository\\DataRepository.js"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:10
+msgid "core\\interfaces\\MetaRepository\\MetaRepository.js"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:11
+msgid "core\\impl\\meta\\DsMetaRepository.js"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:12
+msgid "#. core\\iterfaces\\DataSource.js #."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:14
+msgid "core\\impl\\datasource\\mongodb.js // supported calls:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:19
+msgid "wrap(className, data, [version], [options]) supported options: user ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:25
+msgid "setValidators(validators[]) ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:29
+msgid "getCount(obj, [options]) supported options: filter"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:33
+msgid "Возвращает количество объектов класса obj в базе данных. ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:37
+msgid "getList(obj, [options]) supported options: filter offset count sort countTotal nestingDepth env user"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:48
+msgid "Возвращает список объектов класса obj в базе данных. ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:52
+msgid "getIterator(obj, [options]) supported options: filter offset count sort countTotal nestingDepth env user"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:63
+msgid "предположительно https://docs.mongodb.com/manual/tutorial/iterate-a-cursor/ ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:67
+msgid "aggregate(className, [options]) supported options: user expressions filter groupBy"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:74
+msgid "предположительно https://docs.mongodb.com/manual/aggregation/"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:76
+msgid "..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:80
+msgid "rawData(className, [options]) supported options: user filter attributes distinct"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:87
+msgid "https://docs.mongodb.com/manual/reference/method/db.collection.find/ ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:92
+msgid "getItem(obj, [id], [options]) supported options: filter nestingDepth user ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:100
+msgid "createItem(className, data, [version], [changeLogger], [options]) supported options: nestingDepth skipResult adjustAutoInc user ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:109
+msgid "editItem(className, id, data, [changeLogger], [options]) supported options: nestingDepth skipResult adjustAutoInc user ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:118
+msgid "saveItem(className, id, data, [version], [changeLogger], [options]) supported options: nestingDepth autoAssign skipResult adjustAutoInc user ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:128
+msgid "deleteItem(className, id, [changeLogger], [options]) supported options: user ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:134
+msgid "put(master, collection, details, [changeLogger], [options]) supported options: user ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:140
+msgid "eject(master, collection, details, [changeLogger], [options]) supported options: user ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:146
+msgid "getAssociationsList(master, collection, [options]) supported options: filter offset count sort countTotal nestingDepth user ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:158
+msgid "getAssociationsCount(master, collection, [options]) supported options: filter offset count sort countTotal nestingDepth user ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:170
+msgid "bulkEdit(classname, data, [options]) supported options: filter nestingDepth forceEnrichment user ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:179
+msgid "bulkDelete(classname, [options]) supported options: filter user"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:185
+msgid "recache(item, [options]) ..."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/metaRepo.rst:2
+msgid "MetaRepo"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/metaRepo.rst:3
+#: ../docs-ru/3_development/expand_functionality/core/workflow.rst:3
+#: ../docs-ru/3_development/metadata_structure/meta_view/create_edit_view.rst:3
+#: ../docs-ru/3_development/metadata_structure/meta_view/list_view.rst:3
+msgid "TODO"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/core/workflow.rst:2
+msgid "Workflow"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:2
+msgid "Использование шаблонов для полей ввода данных в веб-форме"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:4
+msgid "Шаблоны предназначены для задания пользовательских параметров построения полей ввода данных в веб-форме.\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:6
+msgid "Для подключения шаблона к полю веб-формы, необходимо указать его в опциях соответствующего поля json формы:"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:25
+msgid "Шаблоны в формате ``.ejs`` загружаются по пути, указанном в ``modules.registry.globals.templates`` из ``deploy.json``.\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:27
+msgid "Например, если указан путь ``applications/khv-ticket-discount/templates/registry``\\ , то в прошлом примере для поля ``property`` будет загружен скрипт ``applications/khv-ticket-discount/templates/registry/capitalize.ejs``."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:29
+msgid "Скрипт будет выполнен при загрузке поля в веб-форме. Синтаксис стандартный для ejs.\\"
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:31
+msgid "Внутри скрипта доступны некоторые элементы веб-формы, подробнее: `Опции </3_development/metadata_structure/meta_view/meta_view_attribute/options.rst>`_."
+msgstr ""
+
+#: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:33
+msgid "Пример скрипта для автоматической замены в текстовом поле ввода нижнего регистра букв на верхний и буквы \"ö\" на \"o\":"
+msgstr ""
 
 #: ../docs-ru/3_development/functionality/functionality.rst:2
 msgid "Функциональность"
@@ -39,6 +449,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main.rst:133
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main/commands.rst:29
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_workflows.rst:32
+#: ../docs-ru/3_development/platform_configuration/package.rst:63
 msgid "Наименование"
 msgstr ""
 
@@ -87,6 +498,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_workflows.rst:6
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_workflows.rst:33
 #: ../docs-ru/3_development/platform_configuration/deploy.rst:16
+#: ../docs-ru/3_development/platform_configuration/package.rst:64
 msgid "Описание"
 msgstr ""
 
@@ -1029,7 +1441,7 @@ msgid "Дополнительная информация"
 msgstr ""
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:162
-msgid "`Настройки модулей в deploy.json <../platform_configuration/deploy_modules>`_"
+msgid "`Настройки модулей в deploy.json </3_development/platform_configuration/deploy/deploy_modules.rst>`_"
 msgstr ""
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:165
@@ -1052,201 +1464,24 @@ msgstr ""
 msgid "``__classTitle`` - выводит наименование класса, в котором заведен атрибут"
 msgstr ""
 
-#: ../docs-ru/3_development/metadata_structure.rst:2
-msgid "Структура метаданных"
+#: ../docs-ru/3_development/language/index.rst:3
+msgid "Локализация"
 msgstr ""
 
-#: ../docs-ru/3_development/metadata_structure.rst:5
-msgid "**Метаданные (Мета)** - совокупность JSON-файлов в полной мере описывающих комплект структур, которыми оперирует приложение, способов отображения данных структур в пользовательском интерфейсе и навигации по ним, а так же файлов конфигурации приложения."
+#: ../docs-ru/3_development/language/index.rst:5
+msgid "Локализация фреймворка, модулей и приложений организована по папкам i18n в соответствующих директориях."
 msgstr ""
 
-#: ../docs-ru/3_development/metadata_structure.rst:8
-msgid "Типы файлов меты"
+#: ../docs-ru/3_development/language/index.rst:7
+msgid "Чтобы перевести строку для определенной локали, нужно добавить ее и ее перевод в:"
 msgstr ""
 
-#: ../docs-ru/3_development/metadata_structure.rst:11
-msgid "Мета классов"
+#: ../docs-ru/3_development/language/index.rst:13
+msgid "в экспортируемый объект, например:"
 msgstr ""
 
-#: ../docs-ru/3_development/metadata_structure.rst:12
-#: ../docs-ru/3_development/metadata_structure.rst:60
-msgid "Мета представлений"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:13
-msgid "Мета навигации: мета секций навигации, мета узлов навигации"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:14
-msgid "Мета отчета"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:15
-msgid "Мета админ"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:16
-msgid "Мета бизнес-процессов"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:17
-msgid "Геомета"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:18
-#: ../docs-ru/3_development/metadata_structure/meta_security/meta_security.rst:3
-msgid "Мета безопасности"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:21
-msgid "Структура основных типов меты"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:29
-msgid "Структуру основных типов меты можно представить следующим образом:"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:31
-msgid "**Мета классов** является основным источником формирования данных в приложении. Мета классов состоит из атрибутов (атрибутивная часть) и параметров самого класса (общая часть). Атрибуты - это объекты массива \"properties\" общей части, которая содержит поля, имеющие отношение к самой структуре и способам оперирования данными в структуре."
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:33
-msgid "На основе меты классов задается мета представлений, мета навигации, мета отчетов, мета бизнес-процессов и т.д."
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:35
-msgid "**Мета представления (класса)** позволяет задавать желаемый состав атрибутов этого класса для отображения на форме, в соответствии с типом формы представления (представление формы списка ``list.json``\\ , создания ``create.json``\\ , изменения класса ``item.json``\\ ) и указывать для каждого отдельного атрибута свойства, переопределяемые и (или) дополняемые свойства, задаваемые в мете класса для данного атрибута."
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:39
-msgid "Мета представления + Атрибуты класса = Отображение атрибутов на форме"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:42
-msgid "**Мета навигации** регулирует расположение элементов в навигационном блоке. Мета навигации разделяется на мету узлов навигации и мету секции навигации."
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:45
-msgid "Наименование файлов меты:"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:60
-msgid "Мета класса"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:60
-#: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_navigation.rst:2
-msgid "Мета навигации"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "Находится в"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "директории ``meta``"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "и состоит из"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "наименования"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "общей части меты"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "класса +"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "``.class.json.``."
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-#: ../docs-ru/3_development/metadata_structure.rst:0
-#: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:109
-msgid "Например:"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "``adress.class.json``."
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "В наименовании директории"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "определяется к какому классу относится"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "представление. Мета представлений"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "располагается в директории ``views``\\ , в"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "которой содержатся директории,"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "наименования которых совпадают с"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "первой частью наименований файлов"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "меты классов. Например:"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "``address@project_name``\\ , где  ``address``"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "относится к классу ``address``."
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "Мета секций"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "навигации: состоит из"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "поля ``\"name\" +``"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "``.section.json`` и"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "находится в"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "директории"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "``navigation``."
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure.rst:0
-msgid "``workflow.section.json``."
+#: ../docs-ru/3_development/language/index.rst:21
+msgid "Здесь строка 'Контрольная панель', при ее загрузке, будет переведена как 'Control Panel'"
 msgstr ""
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:2
@@ -1772,6 +2007,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_wf_files/wf_transitions.rst:24
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_workflows.rst:26
 #: ../docs-ru/3_development/platform_configuration/deploy/deploy_globals.rst:165
+#: ../docs-ru/3_development/platform_configuration/package.rst:57
 msgid "Описание полей"
 msgstr ""
 
@@ -1834,6 +2070,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_wf_files/wf_status.rst:30
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_wf_files/wf_transitions.rst:31
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_workflows.rst:34
+#: ../docs-ru/3_development/platform_configuration/package.rst:65
 msgid "``\"name\"``"
 msgstr ""
 
@@ -3111,6 +3348,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_wf_files/wf_transitions.rst:29
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_workflows.rst:31
 #: ../docs-ru/3_development/platform_configuration/deploy.rst:14
+#: ../docs-ru/3_development/platform_configuration/package.rst:62
 msgid "Поле"
 msgstr ""
 
@@ -3764,6 +4002,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:63
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main.rst:80
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main.rst:176
+#: ../docs-ru/3_development/platform_configuration/package.rst:71
 msgid "``\"version\"``"
 msgstr ""
 
@@ -4785,6 +5024,12 @@ msgstr ""
 msgid "Если нужно указать значение, то третьим атрибутом пойдет ``value`` и значение для поиска."
 msgstr ""
 
+#: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:109
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "Например:"
+msgstr ""
+
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:118
 msgid "Настройка фильтра для отображения объектов класса-наследника"
 msgstr ""
@@ -5272,6 +5517,11 @@ msgstr ""
 msgid "Для формирования заголовка страницы на страницах списка выбора (при открытии списка класса справочника из форм) используется ``\"caption\"`` общей части меты класса."
 msgstr ""
 
+#: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_navigation.rst:2
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:60
+msgid "Мета навигации"
+msgstr ""
+
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_navigation.rst:5
 msgid "**Мета навигации** - регулирует расположение элементов в навигационном блоке."
 msgstr ""
@@ -5537,6 +5787,11 @@ msgstr ""
 
 #: ../docs-ru/3_development/metadata_structure/meta_report/meta_report.rst:470
 msgid "Пример сортировки (свойство ``sort``\\ ):"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/meta_security/meta_security.rst:3
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:18
+msgid "Мета безопасности"
 msgstr ""
 
 #: ../docs-ru/3_development/metadata_structure/meta_security/meta_security.rst:9
@@ -5873,11 +6128,6 @@ msgstr ""
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/create_edit_view.rst:2
 msgid "create_edit_view"
-msgstr ""
-
-#: ../docs-ru/3_development/metadata_structure/meta_view/create_edit_view.rst:3
-#: ../docs-ru/3_development/metadata_structure/meta_view/list_view.rst:3
-msgid "TODO"
 msgstr ""
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:2
@@ -6358,6 +6608,7 @@ msgstr ""
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/commands.rst:65
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main/commands.rst:65
+#: ../docs-ru/3_development/platform_configuration/package.rst:66
 msgid "**Имя**"
 msgstr ""
 
@@ -7997,6 +8248,336 @@ msgstr ""
 msgid "Есть возможность использовать утилиту как \"action\". При переделке нужно просто убрать команду из модели представления. Параметры задаются в файле deploy.json проекта. Синтаксис настройки:"
 msgstr ""
 
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:2
+msgid "Структура метаданных"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:5
+msgid "**Метаданные (Мета)** - совокупность JSON-файлов в полной мере описывающих комплект структур, которыми оперирует приложение, способов отображения данных структур в пользовательском интерфейсе и навигации по ним, а так же файлов конфигурации приложения."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:8
+msgid "Типы файлов меты"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:11
+msgid "Мета классов"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:12
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:60
+msgid "Мета представлений"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:13
+msgid "Мета навигации: мета секций навигации, мета узлов навигации"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:14
+msgid "Мета отчета"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:15
+msgid "Мета админ"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:16
+msgid "Мета бизнес-процессов"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:17
+msgid "Геомета"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:21
+msgid "Структура основных типов меты"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:29
+msgid "Структуру основных типов меты можно представить следующим образом:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:31
+msgid "**Мета классов** является основным источником формирования данных в приложении. Мета классов состоит из атрибутов (атрибутивная часть) и параметров самого класса (общая часть). Атрибуты - это объекты массива \"properties\" общей части, которая содержит поля, имеющие отношение к самой структуре и способам оперирования данными в структуре."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:33
+msgid "На основе меты классов задается мета представлений, мета навигации, мета отчетов, мета бизнес-процессов и т.д."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:35
+msgid "**Мета представления (класса)** позволяет задавать желаемый состав атрибутов этого класса для отображения на форме, в соответствии с типом формы представления (представление формы списка ``list.json``\\ , создания ``create.json``\\ , изменения класса ``item.json``\\ ) и указывать для каждого отдельного атрибута свойства, переопределяемые и (или) дополняемые свойства, задаваемые в мете класса для данного атрибута."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:39
+msgid "Мета представления + Атрибуты класса = Отображение атрибутов на форме"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:42
+msgid "**Мета навигации** регулирует расположение элементов в навигационном блоке. Мета навигации разделяется на мету узлов навигации и мету секции навигации."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:45
+msgid "Наименование файлов меты:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:60
+msgid "Мета класса"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "Находится в"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "директории ``meta``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "и состоит из"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "наименования"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "общей части меты"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "класса +"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "``.class.json.``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "``adress.class.json``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "В наименовании директории"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "определяется к какому классу относится"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "представление. Мета представлений"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "располагается в директории ``views``\\ , в"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "которой содержатся директории,"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "наименования которых совпадают с"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "первой частью наименований файлов"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "меты классов. Например:"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "``address@project_name``\\ , где  ``address``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "относится к классу ``address``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "Мета секций"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "навигации: состоит из"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "поля ``\"name\" +``"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "``.section.json`` и"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "находится в"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "директории"
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "``navigation``."
+msgstr ""
+
+#: ../docs-ru/3_development/metadata_structure/metadata_structure.rst:0
+msgid "``workflow.section.json``."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:2
+msgid "Настройки авторизации и безопасности"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:5
+msgid "Параметры конфигруации приложения, файл ``deploy.json``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:7
+msgid "Параметры конфигурации приложения предназначены для определения ключевых возможностей системы при работе приложения на этапе проектирования и изменения параметров по умолчанию."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:11
+msgid "Настройка параметров авторизации при работе с паролем"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:13
+msgid "Параметры и требования работы с паролем задаются в ``di`` в конфигурации компонента ``auth`` модуля. Но в основном настройки задаются глобально."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:46
+msgid "При этом значения обозначенные ``[[auth.passwordLifeTime]]`` могут быть переконфигурированы в файле настроек приложения ``/config/setup.ini``. Но для этого обязательно нужно проверить, что задана настройка \"parametrised\": true, на уровне global."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:49
+msgid "Время жизни задается в формает ``[длительность][ед. изм]``\\ , при этом единицы измерения:"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:52
+msgid "y - год"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:53
+msgid "d - день"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:54
+msgid "h - час"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:55
+msgid "m - минута"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:56
+msgid "s - секунда"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:58
+msgid "По умолчанию значения ключевых параметров:"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:61
+msgid "passwordLifetime = 100y"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:62
+msgid "passwordMinPeriod = 0d"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:63
+msgid "passwordMinLength = 8"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:65
+msgid "Все создаваемые пароли в системе, в том числе импортированные, автоматически проставляются как требуемые к смене. Чтобы при импорте пароли не требовалось менять, в свойствах пользователя в импортируемом файле acl должен быть указан параметр ``needPwdReset: false``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:69
+msgid "Настройка минимальной длины пароля для входа в систему"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:71
+msgid "Для указания минимальной длины пароля для входа в систему используем свойство ``\"passwordMinLength\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:84
+msgid "Настройка прав доступа \"aclProvider\""
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:86
+#: ../docs-ru/3_development/platform_configuration/deploy/deploy_globals.rst:181
+msgid "``\"plugins\":{``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:102
+msgid "Параметры настроек фреймворка и приложения в файле ``config/setup.ini``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:104
+msgid "Настройки предназначены для уточнения и изменения параметров приложения и инициализируются при запуске. Настройки имеют более высокий приоритет, чем параметры конфигурации."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:107
+msgid "Настройки приложения могут быть также заданы в переменных окружения; при этом переменные окружения имеют более высокий приоритет перед настройками."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:111
+msgid "Переопределение параметров конфигурации паролей"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:113
+msgid "Параметры работы с паролями, заданные в ``deploy.json`` проекта, если включена параметризация и указан код параметр, можно переопределить через настройки платформы или через переменные окружения."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:115
+msgid "Пример файла настроек ``/config/setup.ini``, в котором переопределяются значения, указанные в примере файла ``deploy.json``."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:137
+msgid "Настройка параметров сессии в системе"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:139
+msgid "Длина сессии задается в config/config.json в ``sessionHandler``\\ , с применением плейсхолдеров для параметра ``cookie.maxAge``\\ :"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:163
+msgid "Добавляем настройку в deploy.ini-файл проекта. Формат задания аналогичен настройкам периодов в ``auth``\\ :"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:172
+msgid "Также можно задавать просто числом, тогда это будет задание в миллисекундах."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:174
+msgid "Для хранения сессии не в базе данных, а в сервере кеширования redis, добавляем настройку и параметры кеширования в deploy.ini-файл проекта"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:185
+msgid "Настройка отключения формы авторизации для перехода на страницу модуля"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:187
+msgid "В конфиге ядра у поля *\"auth\"* есть настройка ``exclude``\\ :"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:206
+msgid "То есть прописываем в ini-файле проекта:"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:216
+msgid "При переходе на страницу указанного в настройке модуля - данные отображаются без необходимости авторизации."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/auth.rst:219
+msgid "Отключение авторизации для статичных путей на примере проекта develop-and-test:"
+msgstr ""
+
 #: ../docs-ru/3_development/platform_configuration/deploy.rst:2
 msgid "Конфигурационный файл - ``deploy.json``"
 msgstr ""
@@ -8253,10 +8834,6 @@ msgstr ""
 
 #: ../docs-ru/3_development/platform_configuration/deploy/deploy_globals.rst:179
 msgid "Настройка HTML атрибутов для отображения и сохранения картинок в атрибуте"
-msgstr ""
-
-#: ../docs-ru/3_development/platform_configuration/deploy/deploy_globals.rst:181
-msgid "``\"plugins\":{``"
 msgstr ""
 
 #: ../docs-ru/3_development/platform_configuration/deploy/deploy_globals.rst:228
@@ -8700,6 +9277,118 @@ msgstr ""
 msgid "Описание при этом начинается с корня модуля (а не приложения):"
 msgstr ""
 
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:2
+msgid "Способы конфигурации параметров:"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:5
+msgid "через ini-файлы"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:6
+msgid "через переменную окружения"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:8
+msgid "**NB:** Приоритетной является настройка, заданная через переменные окружения, а не через ini-файлы. При этом настройки /config/setup.ini не влияют на настройки деплой приложения - они используются только для ядра и модулей. Deploy.json чаще всего параметризируеются через ini в дирректории приложения, например файл deploy.ini."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:13
+msgid "Пример конфигурации параметров ownCloud, вместе с учетной записью"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:15
+msgid "Для начала необходимо задать в ``deploy.json`` параметрические настройки хранилища:"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:30
+msgid "Конфигурация параметров deploy через ini-файлы:"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:32
+msgid "В ini-файле ``deploy.ini`` рядом c deploy.json задать параметры следующего вида:"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:41
+msgid "Конфигурация параметров deploy через переменную окружения:"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:43
+msgid "В переменных окружения для ноды при конфигурации приложения задать параметры следующего вида:"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:52
+msgid "Настройка ограничения"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:54
+msgid "Настройка ограничения переключения по пунктам системного меню для анонимного пользователя. Системное меню формируется с учетом контроля доступа к страницам модулей, т.е. нет прав на страницу модуля - не отображается пункт меню, для перехода на данный модуль, в системном меню. В ini-файле приложения необходимо выставить ``auth.checkUrlAccess=true``, чтобы задать настройку ограничения."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:57
+msgid "Изменение всех ссылок на относительные"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:59
+msgid "Чтобы изменить все ссылки на относительные, в ini-файле проекта укажите:"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:65
+msgid "Если путь не указан то считается по умолчанию '/'."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:68
+msgid "Настройка в модуле админа блока управления запуском заданий по расписанию"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:70
+msgid "Для отображения пункта меню необходимо добавить в ini-файл проекта настройку:"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:76
+msgid "Она включит шедулер (англ. scheduler) в процессе веб-сервера, что даст возможность управлять джобами из модуля админа ."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:78
+msgid "**Шедулер** — управляет таймерами запуска задач."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:80
+msgid "**Джоб** — конкретная задача, запускаемая по таймеру."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:83
+msgid "Настройка кеширования данных на уровне ядра"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:85
+msgid "Настройка кеширования данных на уровне ядра - позволяет корректно восстановливать из кеша жаднозагружаемые ссылочные атрибуты и коллекции, а также файлы и вычисляемые атрибуты. Корректно кешируются списки. Внедрено кеширование в геомодуле. Настройка раз и навсегда решает проблему циклических ссылок при сериализации объектов."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:87
+msgid "В ini-файле прописываем:"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:94
+msgid "Настройка временных ограничений"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:96
+msgid "``connectTimeOut`` - максимальное время установления соединения."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:98
+msgid "``operTimeOut`` - максимальное время выполнения операции."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:106
+msgid "Настройка минимальной длины пароля"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/ini_files.rst:112
+msgid "Переопределить настройку для отдельного приложения можно в файле `deploy.json <https://github.com/iondv/framework/blob/masterdeploy_globals.md#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%BC%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%B4%D0%BB%D0%B8%D0%BD%D1%8B-%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D1%8F-%D0%B4%D0%BB%D1%8F-%D0%B2%D1%85%D0%BE%D0%B4%D0%B0-%D0%B2-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%83>`_"
+msgstr ""
+
 #: ../docs-ru/3_development/platform_configuration/mongodb_user_management.rst:2
 msgid "Операции с учетными записями MongoDB через CLI"
 msgstr ""
@@ -8756,4 +9445,160 @@ msgstr ""
 
 #: ../docs-ru/3_development/platform_configuration/mongodb_user_management.rst:65
 msgid "Удалить пользователя через CLI mongodb можно командой"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:2
+msgid "Зависмости в package.json"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:5
+msgid "Файл **package.json** - определяет структуру зависимостей и детальный состав модулей системы."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:14
+msgid "Логика подключения при помощи скрипта"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:17
+msgid "если в названии объекта отсутствует слеш - / => \"project-management\"- подставляем в путь по умолчанию группу ION-APP - т.е. путь - //git.iondv.ru/ION-APP/project-management."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:18
+msgid "если в названии есть слеш - значит задан уже с группой и просто склеиваем путь к гиту с группой и метой, пример \"ION-METADATA/viewlib\" - путь - //git.iondv.ru/ION-METADATA/viewlib."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:19
+msgid "если значение версии начинается с git+http:// или git+https:// - то это полный путь к внешнему репозиторию - отбрасываем git+ и тянем гитом."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:20
+msgid "если значение версии начинается с http:// или https:// - то это полный путь к архиву - тянем и распаковываем."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:22
+msgid "**Не реализовано**\\ , так как dapp не поддерживает работу с архивами."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:25
+msgid "Пример файла ``package.json``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:67
+msgid "Имя проекта."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:68
+msgid "``\"description\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:69
+msgid "**Описание**"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:70
+msgid "Описание проекта."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:72
+msgid "**Версия**"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:73
+msgid "Номер текущей версии."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:74
+msgid "``\"homepage\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:75
+msgid "**Домашняя страница**"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:76
+msgid "Ссылка на собранный проект на докере."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:77
+msgid "``\"bugs\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:78
+msgid "**Ошибки**"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:79
+msgid "Указывается ссылка на проект приложения в GitLab, где принимаются заявки об ошибках."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:80
+msgid "``\"repository\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:81
+msgid "**Репозиторий**"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:82
+msgid "Состоит из полей \"type\" и \"url\". Указыается тип репозитория и ссылка на него."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:83
+msgid "``\"engines\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:84
+msgid "**Ядро**"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:85
+msgid "Номер версии ядра."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:86
+msgid "``\"scripts\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:87
+msgid "**Скрипты**"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:88
+msgid "Скрипт для сборки меты из разных групп и разных url./"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:89
+msgid "``\"ionModulesDependencies\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:90
+msgid "**Зависимости модулей ion**"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:91
+msgid "Задает модули и их версии, используемые  в приложении. Проект включает в себя следующий состав модулей: •  \"\\ **ionadmin**\\ \" – модуль администрирования •  \"\\ **registry**\\ \" – модуль регистра •  \"\\ **report**\\ \" – модуль отчетов •  \"\\ **rest**\\ \" - модуль rest-сервисов •  \"\\ **dashboard**\\ \" – модуль дашбоардов •  \"\\ **geomap**\\ \" - геомодуль •  \"\\ **gantt-chart**\\ \" – модуль диаграмм ганта •  \"\\ **portal**\\ \" – модуль портала"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:92
+msgid "``\"ionMetaDependencies\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:93
+msgid "**Зависимости метаданных ion**"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:94
+msgid "Дополнительные приложения для функционирования системы."
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:95
+msgid "``\"dependencies\"``"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:96
+msgid "**Зависимости**"
+msgstr ""
+
+#: ../docs-ru/3_development/platform_configuration/package.rst:97
+msgid "Прочие зависимости проекта из репозитория npm."
 msgstr ""
