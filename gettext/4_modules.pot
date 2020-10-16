@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-09 19:15+0000\n"
+"POT-Creation-Date: 2020-10-16 19:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1108,122 +1108,126 @@ msgid "`По токену <#id9>`_"
 msgstr ""
 
 #: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:10
-msgid "`Oauth2 <#id12>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:13
-msgid "Сервисы без аутентификации"
+msgid "`Oauth2 <#id13>`_"
 msgstr ""
 
 #: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:15
+msgid "Сервисы без аутентификации"
+msgstr ""
+
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:17
 msgid "Для реализации работы сервиса без аутентификации, необходимо задать для него значение ``none`` в настройке ``authMode`` в ``deploy.json``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:26
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:28
 msgid "Запрос к сервису не будет требовать аутентификации, пример запроса ``curl https://dnt.iondv.com/rest/echoo``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:28
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:30
 msgid "Пример запроса к сервису без аутентификации в `dnt </4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_: `test/modules/rest/echo.spec.js <https://github.com/iondv/develop-and-test/blob/master/test/modules/rest/echo.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:37
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:39
 msgid "Сервисы со стандартрным механизмом авторизации по учетной записи"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:39
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:41
 msgid "Все сервисы по умолчанию используют стандартный механизм авторизации, подразумевающий передачу учетных данных в заголовке:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:42
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:44
 msgid "путем авторизации через Basic Auth, пример"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:47
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:49
 msgid "пример запроса с авторизацией Basic Auth в `develop-and-test (dnt) </4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_: `test/modules/rest/echopwd.spec.js <https://github.com/iondv/develop-and-test/blob/master/test/modules/rest/echopwd.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:54
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:56
 msgid "путем передачи учетных данных в заголовках запроса"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:60
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:62
 msgid "или"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:66
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:68
 msgid "пример запроса с авторизацией учетными данными в заголовке в `dnt </4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_: `test/modules/rest/echopwd.spec.js <https://github.com/iondv/develop-and-test/blob/master/test/modules/rest/echopwd.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:75
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:77
 msgid "Сервисы с аутентификацией через токен"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:77
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:79
 msgid "Аутентификация по токену используется для исключения постоянной передачи учетной записи в запросах. Токены ограничены по времени жизни."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:80
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:82
 msgid "Для реализации работы сервиса с аутентификацией через токен, необходимо задать для него значение ``token`` в настройке ``authMode`` в ``deploy.json``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:91
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:93
 msgid "Аутентификация через токен осуществляется путем отправки значения токена в заголовке запроса ``auth-token``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:97
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:99
 msgid "пример запроса с авторизацией через токен в `dnt </4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_: `test/modules/rest/token.spec.js <https://github.com/iondv/develop-and-test/blob/master/test/modules/rest/token.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:104
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:106
 msgid "подробнее о получении токена: `Получение токена <getting_token.rst>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:107
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:108
+msgid "`Прокси-клиент </4_modules/modules/rest/authorization/proxy_access.rst>`_ для доступа к функциям модуля без получения нового токена."
+msgstr ""
+
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:111
 msgid "Сервисы с аутентификацией методом OAuth2"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:109
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:113
 msgid "Для реализации работы сервиса с аутентификацией oauth2, необходимо предварительно подключить в deploy.json плагин вида"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:121
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:125
 msgid "затем можно задать для сервиса значение ``oauth`` в настройке ``auth_mode``\\ :"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:132
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:136
 msgid "спецификация oauth2 доступна по ссылке: https://oauth2-server.readthedocs.io/en/latest/index.html"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:134
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:138
 msgid "Этот тип авторизации используется для предоставления третьей стороне ограниченного доступа к ресурсам пользователя без необходимости предоставлять логин и пароль. Запросы для получения доступа производятся в следующем порядке:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:139
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:143
 msgid "Со стороны пользователя получаем cookie с id сессии:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:146
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:150
 msgid "Используя авторизованную сессию разрешаем клиенту ext@system запросы от нашего имени:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:152
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:156
 msgid "В ответе будет содержаться параметр ``code``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:155
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:159
 msgid "Теперь используя ``code`` можно получить токен:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:161
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:165
 msgid "в заголовке Authorization нужно ввести ``Basic <client_secret>`` код клиента. В ответе будет получен ``access_token``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:165
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:169
 msgid "Для запросов от лица пользователя в сервисах с авторизацией oauth2 теперь можно авторизоваться используя access_token:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:171
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:175
 msgid "пример запроса к сервису с авторизацией oauth2 в `dnt </4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_: `test/modules/rest/echooauth.spec.js <https://github.com/iondv/develop-and-test/blob/master/test/modules/rest/echooauth.spec.js>`_"
 msgstr ""
 
