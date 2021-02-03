@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-16 19:15+0000\n"
+"POT-Creation-Date: 2021-02-03 05:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1462,6 +1462,10 @@ msgstr ""
 
 #: ../docs-ru/3_development/functionality/functionality_files/virtual_attr.rst:12
 msgid "``__classTitle`` - выводит наименование класса, в котором заведен атрибут"
+msgstr ""
+
+#: ../docs-ru/3_development/index.rst:1
+msgid "TO DO"
 msgstr ""
 
 #: ../docs-ru/3_development/language/index.rst:3
