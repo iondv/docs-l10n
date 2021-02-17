@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2020, IONDV LLC and the IONDV community (Apache 2.0)
+# This file is distributed under the same license as the IONDV Framework docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV Framework docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-17 18:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../docs-ru/1_general/about.rst:54
+msgid "1. О IONDV. Framework"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:56
+msgid "IONDV. Framework - это опенсорный фреймворк на node.js для разработки учетных приложений на основе метаданных в формате JSON/YAML и отдельных функциональных модулей. Визуальный редактор `IONDV. Studio <https://studio.iondv.com>`_ позволяет создавать приложения по технологии \"no code\" и собирать приложение с веб-сервисами REST-API (модуль `rest <https://github.com/iondv/rest>`_). Ключевой модуль `registry <https://github.com/iondv/registry>`_ является универсальным средством представления и редактирования данных, обработки их по бизнес-процессам."
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:62
+msgid "На видео технология разработки и сборки приложения"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:70
+msgid "Бесплатные demo-версии"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:72
+msgid "Посмотрите наши демо уже сейчас:"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:74
+msgid "`Studio <https://studio.iondv.com/index>`_ - специализированная IDE, созданная как приложение iondv для визуальной (no code) разработки приложений на IONDV. Framework. `Инструкция <https://github.com/iondv/nutrition-tickets/blob/master/tutorial/ru/index.md>`_ и `видео <https://www.youtube.com/watch?v=e201ko9fkQ8>`_ по созданию приложения с помощью IONDV. Studio. См. на `GitHub <https://github.com/iondv/studio>`_."
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:75
+msgid "`Telecom <https://telecom-ru.iondv.com>`_ - приложение по организации учета, хранения и отображения данных о наличии услуг связи (интернет, сотовая связь, телевидение, почта и др.) в населенных пукнтах региона. См. на `GitHub <https://github.com/iondv/telecom-ru>`_"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:77
+msgid "`DNT <https://dnt.iondv.com/>`_ - приложение для разработки и тестирования функциональности фреймворка, в котором каждая учетная сущность отражает тим метаданных, например класс \"строка\", или класс \"коллекция\". Это позволяет изучать возможности фреймворка через приложение. См. на `GitHub <github.com/iondv/develop-and-test>`_."
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:78
+msgid "`War Archive <https://war-archive.iondv.com/portal/index>`_ - это программное решение на основе IONDV. Framework, реализованное для действующего проекта \"Вспомнить каждого\", цель которого оцифровать архивные документы, внести информацию в базу и обеспечить к ним свободный доступ. См. на `GitHub <https://github.com/iondv/war-archive>`_."
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:79
+msgid "`Project Management <https://pm-gov-ru.iondv.com>`_ - приложение по  организации проектной деятельности региональных ОГВ , целью которой является контроль результатов, соблюдение и сокращение сроков их достижения, эффективное использование временных, человеческих и финансовых ресурсов, принятие своевременных и обоснованных управленческих решений. См. на `GitHub <https://github.com/iondv/pm-gov-ru>`_"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:80
+msgid "`CRM <https://crm-ru.iondv.com>`_ - это программное решение, реализованное для организации регистрации, учета, хранения и отображения бизнес-данных (входящие заявки, звонки, посетители, продукция, услуги). См. на `GitHub <https://github.com/iondv/crm-ru>`_"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:82
+msgid "Логин для доступа - **demo**, пароль - **ion-demo**. Регистрация не требуется."
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:86
+msgid "Типовые приложения"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:88
+msgid "IONDV. Framework - конструктор веб-приложений широкой специфики, так как преметная область определяется структурой метаданных, описывающих поведение приложение. Например, можно создать приложения:"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:91
+msgid "CRM - управление отношениями с клиентами;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:92
+msgid "учет и управление ресурсами предприятия;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:93
+msgid "автоматизация бизнес-процессов организации и документооборота;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:94
+msgid "сбор и хранение любых данных, например метрик оборудования (IoT);"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:95
+msgid "представление данных в виде порталов;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:96
+msgid "REST-API для SPA приложений;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:97
+msgid "REST-API и бэкграунд для мобильных приложений;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:100
+msgid "Структура фреймворка"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:102
+msgid "Схема приложения на основе фреймворка: ``core + metadata + modules = application``"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:111
+msgid "На рисунке отражены компоненты:"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:113
+msgid "**ION Core** - это ядро приложения в виде IONDV. фреймворка;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:114
+msgid "**meta class**, **meta view**, **meta navigation**, **meta workflow**, **meta security** - это функциональные метаданные приложения - структуры, представления, навигации, бизнес-процессов и безопасности соответственно;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:115
+msgid "**registry module** - отражает подключаемые функциональные модули, например модуль registry для просмотра и редактирования данных;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:117
+msgid "Чуть ниже представлены дополнительные типы меты и модули. Они представляют собой дополнительную функциональность и применяются в соответствии со спецификой приложения. Зависимости приложения представлены в файле ``package.json``."
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:119
+msgid "Приложение - это метаописание его поведения в файлах формата JSON (YAML) + функциональный код + HTML шаблоны, расширяющие типовую функциональность -> с ним удобно работать через репозиторий версий git. Посмотрите примеры на `Github <https://github.com/search?q=org%3Aiondv+iondv-app&type=Repositories>`_ ."
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:122
+msgid "Подробнее о функциональных возможностях фреймворка IONDV. Framework и его модулей в `документации <https://iondv.readthedocs.io/ru/latest/key_features.html>`_."
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:126
+msgid "Функциональные возможности"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:128
+msgid "**IONDV. Framework** обеспечивает реализацию следующей функциональности:"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:130
+msgid "обеспечение трансляции описательных метаданных в структуру хранения данных в СУБД;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:131
+msgid "обеспечение функциональности работы с различными СУБД (ORM технологию);"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:132
+msgid "обеспечение авторизации в системе с различными политиками, по умолчанию oath2, с открытым конфигурируемым API для подключения авторизационных модулей библиотеки passport обеспечивает до 500 различных политик авторизации;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:133
+msgid "обеспечение безопасности доступа к данным – статической к типам данных, к навигации, к этапам бизнес-процессов, к действиям на форме; динамической – через условия в данных, которым должен соответствовать профиль текущего пользователя (принадлежность к подразделению или организации указанной в объекте, группе или другим условиям); через url; обеспечение исключения в авторизации и безопасности по url или для специального пользователя;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:134
+msgid "подключение модулей, обеспечивающих дополнительную функциональность и реализуемую через доступ к интерфейсам (API) ядра;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:135
+msgid "обеспечение импорта, экспорта данных в системе, метаданных, безопасности из файлов;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:136
+msgid "обеспечение взаимодействия с файловой системой для хранения данных, в том числе с внешними файловыми хранилищами, такими как nextcloud;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:137
+msgid "расчет значения с формулами и кэширование этих данных;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:138
+msgid "обеспечение жадной загрузки данных и их фильтрации в связанных коллекциях;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:139
+msgid "кэширование запросов и сессий в memcached, redis;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:140
+msgid "выполнение задач по расписанию;"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:141
+msgid "уведомление пользователей по событиям."
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:147
+msgid "Документация"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:149
+msgid "Документация по платформе IONDV.Framework доступна на двух языках  - `русский <https://iondv.readthedocs.io/ru/latest/index.html>`_ и `english <https://iondv.readthedocs.io/en/latest/index.html>`_."
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:152
+msgid "Ссылки"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:154
+msgid "Ссылки на дополнительную информацию по разработке приложений с использованием IONDV. Framework."
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:156
+msgid "`Документация <https://iondv.readthedocs.io/ru/latest/index.html>`_"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:157
+msgid "`Web-сайт <https://iondv.com/>`_"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:158
+msgid "Обучающие видеоролики на `Youtube <https://www.youtube.com/channel/UC_r2CGcOTfuV-7AXl6MwOqw>`_"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:159
+msgid "Обратная связь на `Facebook <https://www.facebook.com/iondv/>`_"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:165
+msgid "`License <https://github.com/iondv/framework/blob/master/LICENSE>`_                              `Contact us <https://iondv.com/portal/contacts>`_                              `English <https://iondv.readthedocs.io/en/latest/index.html>`_"
+msgstr ""
+
+#: ../docs-ru/1_general/about.rst:167
+msgid "Copyright (c) 2016-2020 **LLC \"ION DV\"**. All rights reserved."
+msgstr ""

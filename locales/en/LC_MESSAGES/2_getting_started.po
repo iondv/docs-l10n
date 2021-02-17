@@ -1,0 +1,1860 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2020, IONDV LLC and the IONDV community (Apache 2.0)
+# This file is distributed under the same license as the IONDV Framework
+# docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IONDV Framework docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-17 18:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../docs-ru/2_getting_started/how deploy.rst:2 to
+msgid "Как развернуть"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how deploy.rst:13 to
+msgid ""
+"В данном разделе - о том, как развернуть систему. Для развертывания "
+"системы необходимо выполнить несколько шагов."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how
+#: ../docs-ru/2_getting_started/quickstart/3_docker_container.rst:9
+#: deploy.rst:17 to
+msgid "Шаги"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how deploy.rst:19 to
+msgid ":doc:`Установка окружения <how_to_deploy/1_install_environment>`"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how deploy.rst:20 to
+msgid ""
+":doc:`Установка ядра, модулей и приложения "
+"<how_to_deploy/2_core_modules_app>`"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how deploy.rst:21 to
+msgid ":doc:`Сборка и запуск приложения <how_to_deploy/3_build_and_run>`"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:2
+msgid "Шаг 1 Установка окружения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:4
+msgid "**Окружение** - это список программ необходимых для запуска."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:6
+msgid ""
+"Окружение, необходимое для запуска платформы IONDV. Framework с "
+"приложениями:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:8
+msgid "СУБД `MongoDb <https://www.mongodb.org/>`_ версии 3.6."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:9
+msgid "Среда разработки `Node.js <https://nodejs.org/en/>`_ версии 10.x.x."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:12
+msgid "СУБД"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:14
+msgid ""
+"Необходимо установить СУБД `MongoDB <https://www.mongodb.org/>`_. "
+"Проверенная версия ``3.6.9`` и ``4.0.0``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:16
+msgid "Далее создаем папку ``data`` на диске C: и в ней подпапку ``db``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:18
+msgid ""
+"Для запуска базы данных переходим в папку расположения ``MongoDb``\\ , "
+"далее в папку ``server\\bin`` и запускаем файл ``mongod.exe``. Если есть "
+"необходимость использовать каталог с БД отличный от ``c:\\data\\db``\\ , "
+"тогда файл ``mongod.exe`` необходимо запустить с параметром ``--dbpath`` "
+"после которого указать путь к каталогу."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:23
+msgid "Среда выполнения Node.js"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:25
+msgid ""
+"**Node.js** - является средой, в которой осуществляется выполнение "
+"компонентов."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:27
+msgid ""
+"Необходимо установить среду разработки `Node.js <https://nodejs.org/>`_. "
+"Проверенная версия node.JS ``10.14.2``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:29
+msgid ""
+"По умолчанию установщик сам прописывает пути к Node.js в PATH, а также "
+"устанавливает менеджер пакетов ``npm``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:32
+msgid "Установка глобальных зависимостей"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:34
+msgid ""
+"Установливайте глобальные зависимости в командной строке ``cmd.exe``\\ , "
+"запущенной от имени администратора, после установки ``node.js``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:36
+msgid "**NB:** команда ``node -v`` - показывает версию node.js."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:39
+msgid "Установка среды сборки под Windows"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:41
+msgid ""
+"Установите глобально пакет `node-gyp <https://github.com/nodejs/node-"
+"gyp>`_ командой ``npm install -g node-gyp`` необходимый для сборки "
+"различных библиотек."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:43
+msgid ""
+"Для работы библиотеки под операционной системой семейства Windows "
+"дополнительно необходимо установить пакет windows-build-tools - ``npm "
+"install -g --production windows-build-tools``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:46
+msgid "Пакет сборщика проектов"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:48
+msgid ""
+"Для организации тестирования и сборки дистрибутивов при разработке "
+"используется `Gulp <http://gulpjs.com/>`_. Установите глобально командой "
+"``npm install -g gulp@4.0``. ``4.0`` - поддерживаемая версия ``Gulp``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:51
+msgid "Установщик фронтенд библиотек"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:53
+msgid ""
+"Для установки библиотек фронтенд используется `bower "
+"<https://bower.io>`_. Установите глобально командой ``npm install -g "
+"bower``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:2
+msgid "Шаг 2 Установка ядра, модулей и приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:5
+msgid "Клонирование приложения и его компонентов"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:7
+msgid ""
+"**NB:** пути не должны содержать русских букв и пробелов. Мы советуем "
+"размещать приложение в ``c:\\workspace``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:9
+msgid ""
+"Рассматриваем формирование проекта с модулями на примере приложения "
+"``develop-and-test``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:11
+msgid ""
+"Находим приложение в репозитории github. Набираем искомое приложение "
+"``develop-and-test`` в поле поиска и переходим на него."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:13
+msgid "Переходим в репозиторий файлов на ветку версии."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:15
+msgid "Открываем файл ``package.json`` в котором смотрим зависимости."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:35
+msgid "``engines\": \"ion\": 3.0.0`` - версия ядра ``3.0.0``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:37
+msgid "``ionModulesDependencies`` - список модулей и их версий."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:39
+msgid ""
+"``ionMetaDependencies`` - список других метаданных, необходимых для "
+"проекта, в данном случае исключение ``viewlib`` - библиотека "
+"представлений."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:41
+msgid ""
+"**NB:** для переключения на tag номера версии - смотрите версии в файле "
+"``package.json``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:44
+msgid "Получение репозитория ядра"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:46
+msgid ""
+"Ядро находится в репозитории `framework "
+"<https://github.com/iondv/framework>`_. На главной странице есть поле с "
+"путем к репозиторию."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:48
+msgid "Запустите командную строку от имени администратора."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:50
+msgid ""
+"Скопируйте адрес репозитория, перейдите в папку workspace командой  ``cd "
+"c:\\workspace`` и выполните команду ``git clone "
+"https://github.com/iondv/framework``. Эта команда создает папку "
+"``framework`` и в неё клонирует репозиторий."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:53
+msgid "Получение модулей"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:55
+msgid "Переходим в папку модулей командой ``cd framework\\modules``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:57
+msgid ""
+"Для каждого модуля из списка ``package.json`` в свойстве "
+"``ionModulesDependencies`` - находим репозиторий модуля среди группы "
+"модулей ``https://github.com/iondv/ION-MODULES``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:59
+msgid ""
+"Клонируйте все модули из списка ``ionModulesDependencies`` командой ``git"
+" clone https://github.com/iondv/registry``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:61
+msgid ""
+"Перейдите в папку установленного модуля, переключитесь на tag номера "
+"версии ``git checkout tags/v1.27.1``. Например ``1.27.1`` - это номер "
+"версии модуля ``registry``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:63
+msgid "Повторите для всех модулей."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:66
+msgid "Получение приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:68
+msgid ""
+"Переходим в папку приложения. Если вы находитесь в папке модулей "
+"выполните команду ``cd ..\\applications``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:70
+msgid ""
+"Далее вернитесь на страницу репозитория ``develop-and-test``\\ , "
+"скопируйте путь и клонируйте его командой ``git clone "
+"https://github.com/iondv/develop-and-test``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:73
+msgid ""
+"Перейдите в папку установленного приложения, переключитесь на tag номера "
+"версии ``git checkout tags/v1.17.0``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:75
+msgid ""
+"Установка зависимостей в ``ionMetaDependencies`` осуществляется в папку "
+"``applications``\\ , для установки необходимо убедиться, что находитесь в"
+" папке приложений. Клонируем приложения из списка в параметре  "
+"``ionMetaDependencies``. Для приложения ``viewlib`` клонируйте командой "
+"``git clone https://github.com/iondv/viewlib``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:77
+msgid ""
+"Перейдите в папку установленного приложения, переключитесь на tag номера "
+"версии ``git checkout tags/v0.9.1``. Повторите для каждого приложения."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:79
+msgid "Приложение скомпоновано."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:81
+msgid ""
+"**NB:** мы советуем создать для него проект в IDE, например, в Visual "
+"Studio Code, и в нём создать конфигурациионный файл."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:84
+msgid "Конфигурациионный файл"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:86
+msgid ""
+"Конфигурационный файл служит для задания основных параметров окружения "
+"приложения и настройки дополнительных параметров запуска."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:88
+msgid ""
+"Создайте конфигурационный файл ``setup`` с расширением ``ini`` в папке "
+"``config``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:90
+msgid "Открываем файл в редакторе и вставляем содержимое."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:104
+msgid ""
+"Самый главный параметр - ``db.uri=mongodb://127.0.0.1:27017/db``. Он "
+"указывает на название базы которую мы будем использовать для приложения. "
+"База данных будет создана автоматически."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:2
+msgid "Шаг 3 Cборка и запуск приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:4
+msgid ""
+"Для всех дальнейших команд, необходимо запустить командную строку от "
+"имени администратора."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:6
+msgid ""
+"Перейдите в папку приложения ``cd c:\\workspace\\framework`` и задайте "
+"переменную окружения  ``NODE_PATH`` равной пути к приложению. Для Windows"
+" команда - ``set NODE_PATH=c:\\workspace\\framework``\\ , для Linux - "
+"``export NODE_PATH=/workspace/framework``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:10
+msgid "Сборка приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:12
+msgid ""
+"Сборка приложения обеспечивает установку всех библиотек, импорт данных в "
+"базу данных и подготовку приложения для запуска."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:15
+msgid ""
+"При первом запуске необходимо выполнить ``npm install`` - она поставит "
+"ключевые зависимости, в том числе локально сборщик ``gulp``. Убедитесь, "
+"что версия ``Gulp`` - ``4.0``. Эта команда ставит все библиотеки из "
+"свойства ``dependencies`` файла ``package.json`` ядра."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:18
+msgid ""
+"После этого, а также все последующие разы выполняйте команду сборки "
+"приложения ``gulp assemble``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:20
+msgid ""
+"**NB:** Убедитесь, что стоит переменная окружения ``NODE_PATH``\\ , "
+"запущена база ``MongoDB``\\ , ``Gulp`` установлен глобально и локально и "
+"его версия ``4.0``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:23
+msgid ""
+"Перед непосредственным запуском приложения необходимо добавить базового "
+"пользователя для входа. Откройте программу ``Mongo Compass`` и в базе "
+"данных найдите таблицу ``ion-user``. Удалите все записи, которые увидите "
+"там. Далее вернитесь в консоль и выполните указанные ниже команды. "
+"Добавьте пользователя admin с паролем 123 командой ``node bin/adduser.js "
+"--name admin --pwd 123``. Добавьте пользователю права администратора "
+"командой ``node bin/acl.js --u admin@local --role admin --p full``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:27
+msgid "Запуск приложения с использованием скриптов"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:29
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:4
+msgid ""
+"В папке \"bin\" содержатся скрипты запуска приложения, реализованного на "
+"IONDV. Framework, такие как:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:31
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:16
+msgid "acl.js"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:32
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:36
+msgid "export.js"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:33
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:44
+msgid "import.js и import-data.js"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:34
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:59
+msgid "setup.js"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:35
+msgid "www.js"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:42
+msgid ""
+"Подробнее о :doc:`скриптах запуска приложения "
+"</how_to_deploy/files_in_bin_folder>`"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:46
+msgid "Запуск приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:48
+msgid ""
+"После окончания сборки можно запускать приложение. Убедитесь, что стоит "
+"переменная окружения ``NODE_PATH``. Без этого система выдаст ошибку - об "
+"отсутствии компонентов."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:50
+msgid ""
+"Запуск системы осуществляется командой ``npm start``\\ , альтернативой "
+"является запуск ``node bin/www``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:52
+msgid ""
+"После запуска системы, откройте браузер с адресом "
+"``http://localhost:8888`` и авторизуйтесь в приложении, где ``8888`` - "
+"порт указанный в параметре ``server.ports`` конфигурации запуска."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:2
+msgid "Cкрипты запуска приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:6
+msgid "`acl.js`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:7
+msgid "`export.js`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:8
+msgid "`import.js и import-data.js`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:9
+msgid "`setup.js`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:18
+msgid ""
+"Шаблон команды запуска: ``node %NODE_PATH%\\bin\\acl.js --d "
+"%NODE_PATH%\\applications\\%IONAPP%\\acl`` где ``NODE_PATH`` - путь к "
+"директории платформы, ``%IONAPP%`` - наименование приложения."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:21
+msgid "Добавляет права на объекты системы, указанные в папке acl."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:23
+msgid ""
+"Так же доступны команды для создания роли и прав для нее в системе, в "
+"случае если в приложении отсутствуют настройки в папке **acl**\\ :"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:25
+msgid "Настройка логина и пароль - ``node bin/adduser.js --name admin --pwd 123``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:27
+msgid ""
+"Настройка доступа - ``node bin/acl.js --u admin@local --role admin --p "
+"full``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:29
+msgid ""
+"Права на генерацию токена для сервиса rest/token - ``node bin/acl.js "
+"--role admin --p USE --res ws:::gen-ws-token``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:38
+msgid ""
+"Шаблон команды запуска: ``node bin/export --ns %IONAPP%``, где "
+"``NODE_PATH`` - путь к директории платформы, ``%IONAPP%`` - наименование "
+"приложения (namespace)."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:40
+msgid ""
+"Выполняет экспорт данных и меты из приложения, которое в данный момент "
+"собрано и запущено локально. Файлы экспорта формируются в структуру "
+"папок, которые расположены на одном уровне с директорией платформы в "
+"папке *out*."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:46
+msgid ""
+"При импорте меты, по умолчанию, импорт данных не выполняется. Поэтому, "
+"для импорта меты вместе с данными вызываем команду:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:49
+msgid ""
+"``node bin/import.js --src %NODE_PATH%/applications/%IONAPP% --with-data "
+"--ns %IONAPP%`` где, ``NODE_PATH`` - путь к директории платформы, "
+"``%IONAPP%`` - наименование приложения (namespace)."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:52
+msgid "А для импорта непосредственно данных вызываем:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:54
+msgid ""
+"``node %NODE_PATH%/bin/import-data.js --src "
+"%NODE_PATH%/applications/%IONAPP%/data --ns %IONAPP%``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:56
+msgid ""
+"При этом, если импортируем мету и данные, указываем директорию приложения"
+" (при этом данные для импорта будут искаться в поддиректории data), если "
+"импортируем данные, нужно указывать непосредственно директорию с данными."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:61
+msgid ""
+"Шаблон команды запуска: ``node %NODE_PATH%\\bin\\setup %IONAPP%`` где, "
+"``NODE_PATH`` - путь к директории платформы, ``%IONAPP%`` - наименование "
+"приложения."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:64
+msgid ""
+"Выполняет установку приложения, запускает скрипт развертывания "
+"приложения, что включает в себя импорт и запись в базу данных меты "
+"модулей приложения."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/index.rst:2
+msgid "2. Начало работы"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:2
+msgid "Быстрый запуск"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:13
+msgid ""
+"Начать знакомство с IONDV. Framework рекомендуем с быстрого запуска "
+"приложений."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:15
+msgid ""
+"В этом разделе приведены инструкции для разворачивания приложений IONDV. "
+"Framework. Существует несколько способов быстрого запуска приложений. Вы "
+"можете определиться со способом, который удобен для Вас."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:17
+msgid "Развернуть приложения Вы можете следующими способами:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:19
+msgid "с помощью :doc:`IONDV. Studio <quickstart/1_iondv_studio>`"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:20
+msgid ""
+"клонирование репозитория приложения и установка всех компонентов - "
+":doc:`смотреть <quickstart/2_git_clone>`"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:21
+msgid ""
+"с помощью :doc:`docker-контейнера <quickstart/3_docker_container>` с "
+"собранными приложениями"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:22
+msgid ""
+"с помощью :doc:`установщика <quickstart/4_installer>` для операционной "
+"системы Linux"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:26
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:167
+msgid "Ссылки"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:28
+msgid ""
+"Ниже представлены ссылки на дополнительную информацию по разработке "
+"приложений с использованием IONDV.Framework."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:30
+msgid "`Документация <https://iondv.readthedocs.io/ru/latest/index.html>`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:31
+msgid "`Домашняя страница фреймворка <https://iondv.com/>`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:32
+msgid "Обратная связь на `Facebook <https://www.facebook.com/iondv/>`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:33
+msgid ""
+"Обучающие видеоролики на `youtube <https://www.youtube.com/channel"
+"/UC_r2CGcOTfuV-7AXl6MwOqw>`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:38
+msgid "Copyright (c) 2016-2020 **LLC \"ION DV\"**.\\"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart.rst:40
+msgid "All rights reserved."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:2
+msgid "IONDV. Studio"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:4
+msgid ""
+"**IONDV. Studio** является приложением IONDV. Framework. Может "
+"использоваться как отдельное приложение node.js или как "
+"десктоп-приложение. Развернуть приложение можно с помощью демо-версии "
+"`студии <https://studio.iondv.com>`_. Регистрация и учетная запись не "
+"требуются."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:7
+msgid "**Описание**"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:9
+msgid ""
+"**IONDV. Studio** - приложение для визуального создания и редактирования "
+"метаданных (таких как классы, навигация, представления, бизнес-процессы, "
+"портальные формы), которые разворачиваются как веб-приложение IONDV. "
+"Framework."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:13
+msgid "Как запустить приложение в Студии"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:15
+msgid ""
+"Смотрите `видео <https://www.youtube.com/watch?v=s7q9_YXkeEo>`_, о том, "
+"как развернуть в IONDV. Studio уже готовое приложение из репозитория."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:17
+msgid ""
+"Выберите пример готового приложения с github. Например, `Nutrition-"
+"Tickets <https: //github.com/iondv/nutrition-tickets>`_."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:18
+msgid "Скачайте архивный файл приложения и откройте его в приложении."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:19
+msgid ""
+"Нажмите кнопку воспроизведения в правом верхнем углу экрана, чтобы "
+"запустить приложение."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:20
+msgid "Приложение начнет развертывание. Это занимает примерно 80 секунд."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:21
+msgid "Получите ссылку на приложение и нажмите на нее."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:22
+msgid "Войдите в приложение, используя логин **demo** и пароль **ion-demo**."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:24
+msgid ""
+"Приложение запущено! Приложение в демо-Студии хранится в течение 1-го "
+"часа, Вы можете ознакомиться с технологией и попробовать самостоятельно "
+"внести изменения в структуру приложение и увидеть результат. После этого "
+"приложение будет удалено с сервера."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:28
+msgid "Как создать приложение в студии"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:30
+msgid ""
+"В Студии также можно создавать приложения. Смотрите `видео "
+"<https://www.youtube.com/watch?v=e201ko9fkQ8&t=331s>`_ о создании "
+"простого приложения `IONDV. Nutrition-tickets <https://github.com/iondv"
+"/nutrition-tickets>`_ в **IONDV. Studio**. Инструкция доступна в "
+"репозитории `IONDV. Nutrition-Tickets <https://github.com/iondv"
+"/nutrition-tickets/blob/master/tutorial/ru/index.md>`_."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:35
+msgid ""
+"Нажмите на `+` чтобы приступить к созданию приложения. В всплывающем окне"
+" заполняем обязательные поля. Вкладка приложения, которое вы создали, "
+"появляется в левом верхнем углу и управляется по типу браузера."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:37
+msgid ""
+"Появляется боковое меню - это рабочая панель приложения. Раздел Классы "
+"нужен для создания Классов и Атрибутов."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:39
+msgid ""
+"Создание приложения начинается с Класса. Нажимаем на Класс и в рабочем "
+"пространстве нажимаем `+Класс`. В всплывающем окне заполняем обязательные"
+" поля. Описание полей :doc:`тут "
+"<../../3_development/metadata_structure/meta_class/meta_class_main>`."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:41
+msgid "У нас появился Класс и автоматически создался Атрибут ID."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:43
+msgid ""
+"Когда Класс выделен, можно добавить к нему Атрибуты, нажав на +Атрибут. "
+"Описание свойств и типов Атрибута :doc:`тут "
+"<../../3_development/metadata_structure/meta_class/meta_class_attribute>`."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:45
+msgid ""
+"Когда у вас есть минимум 2 Класса, можно настроить между ними связи. Это "
+"выполняется через настройку типа данных при создании атрибута Класса. "
+"Основные типы - :doc:`Коллекция "
+"<../../3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll>`"
+" и :doc:`Ссылка "
+"<../../3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref>`."
+" Заданный тип данных у Атрибута отразится в рабочей области в виде "
+"связующей линии."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:47
+msgid ""
+"В разделе Класс появятся созданные вами Классы и их Атрибуты - это "
+"называется дерево проекта, по которому будет легко ориентироваться, когда"
+" количество Классов приложения увеличится. Это - базовые пункты для "
+"создания приложения."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:51
+msgid "Приложение в IONDV. Studio"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:53
+msgid ""
+"Для того чтобы разработать приложение в Студии, нужно предварительно "
+"запустить ее одним из следующих способов:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:55
+msgid "Используйте `демо-версию <https://studio.iondv.com>`_ студии."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:56
+msgid ""
+"Запустите локально как приложение `IONDV. Framework "
+"<https://github.com/iondv/framework>`_, получив исходные коды на `github "
+"<https://github.com/iondv/studio>`_. После чего соберите и разверните его"
+" согласно инструкции приложений Framework."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:57
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:62
+msgid "Откройте в браузере по ссылке `http://localhost:8888`."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:58
+msgid ""
+"Запустите локального как отдельное приложение node.js согласно инструкции"
+" ниже."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:59
+msgid "Запустите как десктоп приложение, согласно инструкции ниже."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:60
+msgid ""
+"Запустите в docker-конейтнере выполнив `docker run -d -p 8888:8888 --name"
+" studio iondv/studio`."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:64
+msgid "Затем:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:66
+msgid "В Студии разработайте Ваше приложение, путем создания классов, навигации."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:67
+msgid ""
+"Обратите внимание, что данные хранятся в локальном репозитории браузера. "
+"Экспортируйте приложение как zip-архив."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:68
+msgid ""
+"Скачайте последнюю версию IONDV. Framework и модуля IONDV. Registry "
+"module - получить их можно c репозиториев GitHub `Framework "
+"<https://github.com/iondv/framework>`_ и `Registry "
+"<https://github.com/iondv/registry>`_."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:69
+msgid ""
+"Следуйте типовой инструкции развертывания приложения из git, за "
+"исключением приложения - вместо приложения разверните в папку applictions"
+" ваш архив с приложением."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:70
+msgid ""
+"Далее необходимо собрать и развернуть приложение, согласно инструкции "
+"`IONDV. Framework <https://github.com/iondv/framework>`_."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:73
+msgid "Варианты использования Студии"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:76
+msgid "Отдельное приложение node.js"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:78
+msgid ""
+"Преимуществами использования отдельного приложения является отсутствие "
+"необходимости в базе данных и в IONDV. Framework."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:80
+msgid ""
+"Выполните команду `git clone https://github.com/iondv/studio.git`. "
+"Имените локальную дирректорию на `studio`."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:81
+msgid ""
+"Выполните команду `npm install` для установки всех необходимых "
+"зависимостей, включая локальное приложение сборки `gulp`."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:82
+msgid "Пожалуйста проверьте, что глобально установлен Gulp версии `4.0`."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:83
+msgid "Выполните команду `gulp build` для сборки приложения."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:84
+msgid ""
+"Запустите приложение командой `npm start` или `node www` (`node "
+"standalone` для запуска приложения как [standalone](/readme-"
+"standalone_ru.md).)"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:85
+msgid "Перейдите в браузере по адресу  `http://localhost:8888`."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:88
+msgid "Десктоп приложение Студии (node-webkit)"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:90
+msgid ""
+"Перед формированием десктоп приложения Студии, соберите *Отдельное "
+"приложение node.js*"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:93
+msgid "Запуск новой студии на локальном сервере node-webkit"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:95
+msgid ""
+"Скачайте последнюю **NORMAL** версию node-webkit c сайта "
+"**https://nwjs.io/**."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:96
+msgid "Распакуйте содержимое архива в любую удобную папку."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:97
+msgid ""
+"Воспользуйтесь одним из имеющихся способов для того, чтобы соеденить "
+"приложение и node-webkit."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:99
+msgid ""
+"Примеры описаны в статье **https://github.com/nwjs/nw.js/wiki/How-to-"
+"package-and-distribute-your-apps** в пунктах **2a** и **2b**."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:101
+msgid ""
+"Более удобным является вариант воспользоваться пакетом **nw-"
+"builder**:**https://github.com/nwjs-community/nw-builder**. Пример "
+"команды: `nwbuild ./studio -p win64 -v 0.34.0 -o ./destination`. Стоит "
+"отметить, **nw-builder сам скачает необходимую версию node-webkit**."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:105
+msgid ""
+"В результате вы получите ваше приложение в папке с dll, которые "
+"использует nwjs. Запустить приложение можно с помощью nw.exe файла "
+"(название может отличаться)."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:109
+msgid "Формирование одного единственного исполняемого файла"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:111
+msgid ""
+"Скачайте **Enigma virtual box** с сайта "
+"**https://enigmaprotector.com/en/downloads.html**, установите и запустите"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:112
+msgid ""
+"Занесите в первое поле путь к исполняемому файлу вашего приложения. "
+"(Можно выбрать)"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:113
+msgid "Занесите во второе поле путь сохранения исполняемого файла."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:114
+msgid ""
+"Занесите в поле Files *ВСЕ* файлы и папки из директории вашего приложения"
+" кроме исполняемого файла .exe."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:115
+msgid "В меню Files options, поставьте галочку на путкте Compress."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:116
+msgid "Нажмите Process и дождитесь результата."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:119
+msgid "External App Tracker"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:121
+msgid "Вся настройка в deploy.json -> globals -> externalAppTracker"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:148
+msgid "item.name - задает имя файла при сохранении архива"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:149
+msgid "item.title - отображается на клиенте при выборе приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:150
+msgid "item.url - удаленный адрес архива приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:151
+msgid ""
+"item.front - адрес архива для клиента, если не указан, создается по общей"
+" настройке и имени"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:152
+msgid "item.language - если не указан, то приложение отобразится в любом языке"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:154
+msgid "storage - место сохранения архивов приложений"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:155
+msgid "front - ссылка до архивов с клиента"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:156
+msgid "tempzip  - временный файл при удаленной закачки с другого сервера"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:157
+msgid ""
+"enableUpdate  - вкл/выкл  синхронизацию с удаленным сервером. При старте "
+"сервера проверяется наличие архивов, и если нет, то скачиваются с "
+"указанных URL. По истечению периода updateInterval  архивы обновляются"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:158
+msgid "updateInterval  - период повторной загрузки архива на сервер (секунды)"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:160
+msgid ""
+"На клиенте можно указать custom URL, но нужно иметь в виду, что браузер "
+"разрешает загрузки с чужих хостов только явно разрешенные через Access-"
+"Control-Allow-Origin"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:162
+msgid ""
+"Оригинальная инструкция на английском представлена на сайте "
+"https://github.com/nwjs/nw.js/wiki/How-to-package-and-distribute-your-"
+"apps в пункте **An alternative way to make an executable file in "
+"Windows**"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:169
+msgid "`Репозиторий приложения <https://github.com/iondv/studio.git>`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:170
+msgid "`Node-webkit <https://nwjs.io/>`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:171
+msgid ""
+"`Node-webkit вики <https://github.com/nwjs/nw.js/wiki/How-to-package-and-"
+"distribute-your-apps>`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:172
+msgid ""
+"`Пакет для формирования исполняемого файла <https://github.com/nwjs-"
+"community/nw-builder>`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:173
+msgid ""
+"`Программа для линковки dll "
+"<https://enigmaprotector.com/en/downloads.html>`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:174
+msgid "`Руководство пользователя <manuals/RP_studio.docx>`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:175
+msgid "`Запуск приложения как standalone </readme-standalone_ru.md>`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:176
+msgid ""
+"`Инструкция по созданию ИС при помощи ION. Studio "
+"<https://github.com/iondv/nutrition-"
+"tickets/blob/master/tutorial/ru/index.md>`_"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:2
+msgid "Сборка приложения из репозитория"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:4
+msgid ""
+"Для быстрого запуска приложений с использованием репозитория GitHub "
+"выполните следующие шаги:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:6
+msgid "Установите системное окружение и глобальные зависимости."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:7
+msgid "Клонируйте ядро, модуль и приложение."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:8
+msgid "Соберите и разверните приложение."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:9
+msgid "Запустите."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:11
+msgid ""
+"Ниже - развернутая инструкция, как собрать приложение из репозитория "
+"GitHub."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:14
+msgid "Развернутая инструкция"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:17
+msgid "Системное окружение и глобальные зависимости"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:19
+msgid ""
+"Запуск фреймворка осуществляется в среде `Node.js "
+"<https://nodejs.org/en/>`_ версии 10.x.x."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:21
+msgid ""
+"Для хранения данных необходимо установить и запустить `MongoDb "
+"<https://www.mongodb.org/>`_ версии старше 3.6."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:23
+msgid ""
+"Для сборки компонентов и библиотек фреймворка необходимо установить "
+"глобально:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:25
+msgid ""
+"пакет `node-gyp <https://github.com/nodejs/node-gyp>`_ ``npm install -g "
+"node-gyp``. Для работы библиотеки под операционной системой семейства "
+"windows дополнительно необходимо установить пакет windows-build-tools "
+"``npm install -g --production windows-build-tools``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:26
+msgid ""
+"пакет сборщика проектов `Gulp <http://gulpjs.com/>`_ ``npm install -g "
+"gulp@4.0``. ``4.0`` - поддерживаемая версия ``Gulp``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:27
+msgid ""
+"для версий IONDV. Framework 3.x.x и более ранних нужен менджер пакетов "
+"фронтенд библиотек `Bower <https://bower.io>`_ ``npm install -g bower``. "
+"Для версия 4.х.х и старше не требуется."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:30
+msgid "Ручная установка ядра, модулей и приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:32
+msgid ""
+"Рассматриваем на примере приложения ``develop-and-test``. Находим "
+"приложение ``develop-and-test`` в репозитории. Смотрим зависимости "
+"указаные в файле ``package.json``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:56
+msgid ""
+"Начинаем установку с ядра, версия которого указана в парметре "
+"``\"engines\": {\"ion\": \"1.24.1\"}``. Скопируйте адрес репозитория ядра"
+" и в командной строке выполните комманду ``git clone "
+"https://github.com/iondv/framework``. Перейдите в папку ядра, "
+"переключитесь на tag номера версии ``git checkout tags/v1.24.1``.  Так "
+"как совместимость обеспечивается на уровне метаданных, а новые версии "
+"выпускались из-за изменения технологии сборки, то вы можете использовать "
+"последние, например 4.0.0."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:57
+msgid ""
+"После этого устанавливаются необходимые для приложения модули, указанные "
+"в параметре ``\"ionModulesDependencies\"``. Модули устанавливаются в "
+"папку ``modules`` ядра, для этого перейдите в неё командой ``cd "
+"modules``. Клонируем модули из списка ``\"ionModulesDependencies\"``, для"
+" модуля registry это осуществляется командой ``git clone "
+"https://github.com/iondv/registry``. Перейдите в папку установленного "
+"модуля, переключитесь на tag номера версии ``git checkout tags/v1.27.1``."
+" Повторите для каждого модуля. Для большинства приложений, можно "
+"использовать последние совместимые с ядром модули."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:58
+msgid ""
+"Установка самого приложения осуществляется в папку ``applications``, для "
+"этого перейдите в неё командой  ``cd ..\\applications``, если вы "
+"находитесь в папке модулей. Установку выполните клонированием репозитория"
+" коммандой ``git clone https://github.com/iondv/dnt_ru``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:59
+msgid ""
+"После этого установите дополнительно необходимые приложения из параметра "
+"``\"ionMetaDependencies\"``. Установка осуществляется в папку "
+"``applications``, для установки необходимо убедиться, что находитесь в "
+"папке приложений. Клонируем приложения из списка в параметре  "
+"``\"ionMetaDependencies\"``, для приложения ``viewlib`` осуществляется "
+"командой ``https://github.com/iondv/viewlib``.  Перейдите в папку "
+"установленного приложения, переключитесь на tag номера версии ``git "
+"checkout tags/v0.9.1``. Повторите для каждого приложения."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:62
+msgid "Сборка, конфигурирование и развертывание приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:64
+msgid ""
+"Сборка приложения обеспечивает установку всех зависимых библиотек, импорт"
+" данных в базу данных и подготовку приложения для запуска."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:66
+msgid ""
+"Создайте конфигурационный файл ``setup.ini``  в папке ``config``, куда "
+"был клонирован фреймворк для задания основных параметров окружения "
+"приложения."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:78
+msgid ""
+"Открываем файл в редакторе и вставляем содержимое. Самый главный параметр"
+" ``db.uri=mongodb://127.0.0.1:27017/ion-dnt`` - он указывает на название "
+"базы, которую мы будем использовать для приложения. База данных будет "
+"создана автоматически."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:80
+msgid ""
+"Задайте переменную окружения NODE_PATH равной пути к ядру приложения "
+"следующей командой ``set NODE_PATH=c:\\workspace\\dnt`` для Windows и "
+"``export NODE_PATH=/workspace/dnt`` для Linux, где ``workspace\\dnt`` - "
+"папка куда склонирован фреймворк."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:82
+msgid ""
+"При первом запуске необходимо выполнить ``npm install`` - она поставит "
+"ключевые зависимости, в том числе локально сборщик ``gulp``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:84
+msgid "Далее выполните команду сборки приложения ``gulp assemble``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:86
+msgid ""
+"Если вы хотите выполнить импорт данных в вашем проекте, проверьте папку "
+"``data`` в приложении и выполните команду: ``node bin/import-data --src "
+"./applications/develop-and-test/data --ns develop-and-test``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:89
+msgid ""
+"Добавьте пользователя admin с паролем 123 командой ``node bin\\adduser.js"
+" --name admin --pwd 123``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:91
+msgid ""
+"Добавьте пользователю права администратора командой ``node bin/acl.js --u"
+" admin@local --role admin --p full``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:94
+msgid "Запуск"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:96
+msgid ""
+"Запустите приложение командой в папке ядра ``npm start`` или ``node "
+"bin\\www``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:98
+msgid ""
+"Откройте браузер с адресом ``http://localhost:8888`` и авторизуйтесь в "
+"приложении, где ``8888`` - порт указанный в параметре server.ports "
+"конфигурации запуска."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/3_docker_container.rst:2
+msgid "Docker-контейнер"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/3_docker_container.rst:4
+msgid "Приложения также можно запустить с использованием докер контейнера."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/3_docker_container.rst:6
+msgid ""
+"**Docker** – это программная платформа для быстрой разработки, "
+"тестирования и развертывания приложений."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/3_docker_container.rst:11
+msgid ""
+"Запустите СУБД mongodb: ``docker run --name mongodb -v "
+"mongodb_data:/data/db -p 27017:27017 -d mongo``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/3_docker_container.rst:12
+msgid ""
+"Запустите IONDV. App  ``docker run -d -p 80:8888 --link mongodb "
+"iondv/app``, где **App** - название приложения и путь к соответствующему "
+"репозиторию."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/3_docker_container.rst:13
+msgid ""
+"Откройте ссылку ``http://localhost`` в браузере через минуту (время "
+"требуется для инициализации данных). Для авторизации используйте типовой "
+"логин: **demo**\\ , пароль: **ion-demo**"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:2
+msgid "Установщик для Linux"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:4
+msgid ""
+"Вы также можете использовать установщик приложений IONDV. Framework для "
+"Linux, требующий установленных node, mongodb и git. В ходе установки "
+"будет проверены и установлены все остальные зависимости, а также собрано "
+"и запущено само приложение."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:7
+msgid "Установка в одну строку:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:13
+msgid ""
+"Где параметры для iondv-app ``localhost:27017`` адрес MongoDB, а ``app`` "
+"название приложения. После запуска открыть ссылку http://localhost:8888, "
+"учетная запись бек офиса **demo**, пароль **ion-demo**."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:15
+msgid ""
+"Также другой способ заключается в клонировании - ``git clone "
+"https://github.com/iondv/iondv-app.git`` и установите приложение с "
+"помощью команды ``bash iondv-app -m localhost:27017 app``, где app - "
+"название приложения."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:17
+msgid ""
+"Можно также собрать приложение в докер конейтнерах, тогда из окружения "
+"нужен только docker и СУБД mongodb в докер контейнере."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:20
+msgid "Требования к окружению"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:22
+msgid ""
+"Для работы системы должна быть запущена СУБД Монго ДБ. В "
+"docker-контейнере её можно запустить командой:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:24
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:233
+msgid ""
+"``docker run --name mongodb -v mongodb_data:/data/db -p 27017:27017 -d "
+"mongo``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:26
+msgid "Описание подготовки системы приведено ниже."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:29
+msgid "Установка, сборка и запуск приложения одной командой в докер-контейнере"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:31
+msgid ""
+"Примеры сборок ниже, подразумевают что СУБД запущена в контейнере с "
+"именем mongodb."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:33
+msgid ""
+"На примере простейшего приложения `Nutrition-Tickets "
+"<https://github.com/iondv/nutrition-tickets>`_, команда скачивает "
+"установщик с репозитория github, который собирает и запускает приложение "
+"в docker-контейнере в текущей директории."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:37
+msgid "из репозтория git"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:44
+msgid ""
+"из архива zip, например полученного с гитхаб ``curl -L "
+"https://github.com/iondv/nutrition-tickets/archive/master.zip > "
+"./nutrition-tickets.zip`` или созданного в `IONDV. Studio "
+"<https://studio.iondv.com>`_. Обратите внимание, что в ``package.json`` "
+"созданного приложения в атрибуте ``\"ionModulesDependencies\"`` нужно "
+"указать модуль для отображения данным - обычно это ``\"registry\"``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:54
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:88
+msgid ""
+"из папки, при этом оригинальная папка приложения не модифицируется. "
+"Обратите внимание, что название папки должно соответствовать неймспейсу "
+"приложения (если папка распакована с архива github - то в названии обычно"
+" добавляется код ветки - нужно переименовать)"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:60
+msgid ""
+"Адрес собранного приложения по умолчанию http://localhost:8888, "
+"пользователь ``demo``, пароль ``ion-demo``."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:63
+msgid "Установка, сборка и запуск приложения в локальной файловой системе"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:65
+msgid ""
+"Примеры сборок ниже, подразумевают что СУБД запущена локально и доступна "
+"по адресу localhost:27017."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:67
+msgid ""
+"Установка в локальной файловой системе позволяет получить приложение "
+"готовое к модификации и доработкам средствами разработчика, например в "
+"IDE - достаточно открыть папку приложения. Папка приложения создается в "
+"папке запуска, либо в папке заданной параметром ``-p``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:72
+msgid "из репозитория git в папке ``/workspace``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:79
+msgid ""
+"из архива zip в текущей папке, например полученного с гитхаб ``curl -L "
+"https://github.com/iondv/nutrition-tickets/archive/master.zip > "
+"./nutrition-tickets.zip`` или созданного в `IONDV. Studio "
+"<https://studio.iondv.com>`_. Обратите внимание, что в ``package.json`` "
+"созданного приложения в атрибуте ``\"ionModulesDependencies\"`` нужно "
+"указать модуль для отображения данным - обычно это ``\"registry\"``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:95
+msgid "Параметры запуска"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:97
+msgid ""
+"``iondv-app [OPTION]... "
+"IONDV_APP_NAME|IONDV_APP_NAME@VERSION|GIT_URL|IONDV_APP_ZIP|IONDV_APP_PATH``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:100
+msgid "Параметры"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:100
+msgid "Тип сборки приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:102
+msgid "-t [value]"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:102
+msgid ""
+"git: клонирование репозиториев в файловую систему (требуется "
+"установленный git) docker: сборка в докер-контейнерах, не требует "
+"установки окружения на хост-машину"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:105
+msgid "-c [value]"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:105
+msgid "запуск приложения как кластера с кол-вом инсталляций [value]"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:107
+msgid "-m [value]"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:107
+msgid ""
+"uri для монгодб, примеры: mongodb:27017. localhost:27017 - по умолчанию "
+"(при сборке в докере выдаст ошибку подключения к БД(!). Для докера "
+"используйте параметр -l, либо укажите внешний адрес СУБД"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:111
+msgid "-r"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:111
+msgid "проверка и удаление папки с именем приложения в директории сборки"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:113
+msgid "-i"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:113
+msgid "импорт  данных при инициализации приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:115
+msgid "-a"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:115
+msgid "импорт ролей и учетных записей пользователей при инициализации приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:117
+msgid "-y"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:117
+msgid "применение всех значений по умолчанию (yes to all)"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:119
+msgid "-q"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:119
+msgid ""
+"тихий режим. Показывается только основная информация, предупреждения и "
+"ошибки"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:121
+msgid "-l [value]"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:121
+msgid ""
+"имя контейнера MongoDB для линковки к собранному контейнеру (тип сборки "
+"docker или параметр -d при типе сборки git), также формирует конфигурацию"
+" с указанием значения mongo uri как [value]:27017"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:125
+msgid "-p [value]"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:125
+msgid ""
+"путь к директории в которой будет создавать папка с именем приложения и "
+"осуществляться сборка"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:128
+msgid "-s [value]"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:128
+msgid ""
+"полный путь к скрипту, запускаемому в папке приложения после сборки, но "
+"до деплоя приложения. Может использоваться для дополнительной обработки "
+"файлов приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:131
+msgid "-n [value]"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:131
+msgid ""
+"параметр определяющий запуск изменение неймспейса приложения на новое, до"
+" деплоя"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:133
+msgid "-h"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:133
+msgid ""
+"пропуск переключения на версии зависимостей приложения, установка "
+"последних версий"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:135
+msgid "-x"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:135
+msgid "выход без запуска приложения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:137
+msgid "Параметры для метода git:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:139
+msgid "-d"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:139
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:147
+msgid ""
+"на основе собранной версии подготовить также docker-контейнер. Также "
+"остановить и удалить контейнер, образ с таким именем"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:142
+msgid "-k"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:142
+msgid "пропустить проверку окружения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:144
+msgid "Параметры для метода сборки docker:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:144
+msgid ""
+"сохранять временные версии контейнеров - позволяет ускорить последующие "
+"сборки. Но кэширование пропускается, если установлен флаг игнорировать "
+"версии зависимостей"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:147
+msgid "-v"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:150
+msgid "Переменные окружения:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:152
+msgid "IONDVUrlGitFramework"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:152
+msgid ""
+"URL репозитория фреймворка, по умолчанию "
+"https://github.com/iondv/framework.git Вы можете задать логин и пароль к "
+"своей версии в приватном репозитории. Например: "
+"https://login:password@git.company-name.com/iondv/framework.git"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:156
+msgid "IONDVUrlGitModules"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:156
+msgid "URL к модулям, по умолчанию by default https://github.com/iondv"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:158
+msgid "IONDVUrlGitApp"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:158
+msgid ""
+"URL к приложениям - используется если для сборки указано только имя "
+"приложения, по умолчанию https://github.com/iondv"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:161
+msgid "IONDVUrlGitExtApp"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:161
+msgid "URL к приложениям-расширениям, по умолчанию https://github.com/iondv"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:166
+msgid "Подготовка окружения"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:169
+msgid "Установка docker"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:171
+msgid "Рекомендуется делать не под root"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:173
+msgid "Установка последней версии docker для CentOS:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:175
+msgid "1. Обновляем систему ``sudo yum update``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:178
+msgid ""
+"2. Устанавливаем необходимые библиотеки ``yum install -y yum-utils "
+"device-mapper-persistent-data lvm2``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:181
+msgid ""
+"3. Регистрируем  репозиторий ``yum-config-manager --add-repo`` "
+"https://download.docker.com/linux/centos/docker-ce.repo"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:184
+msgid ""
+"4. Установка последней версии ``yum -y install docker-ce docker-ce-cli "
+"containerd.io``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:187
+msgid "5. Запускаем докер ``systemctl start docker``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:190
+msgid "6. Для автоматического запуска докера ``systemctl enable docker``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:194
+msgid "Установка последней версии docker для Ubuntu:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:197
+msgid ""
+"Добавляем ключ GDP ``curl -fsSL "
+"https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:201
+msgid "Проверяем ключ ``apt-key fingerprint 0EBFCD88``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:205
+msgid "Добавляем репозиторий"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:214
+msgid "Обновляем репозитории ``sudo apt-get update``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:218
+msgid ""
+"Ставим последнюю версию ``sudo apt-get install docker-ce docker-ce-cli "
+"containerd.io``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:222
+msgid "Добавляем текущего пользователя в группу docker:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:224
+msgid "``sudo groupadd docker   sudo usermod -aG docker $USER``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:226
+msgid "Проверить можно ``docker run hello-world``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:229
+msgid "Запуск Mongo в докере"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:231
+msgid "Запускаем с маппингом на локальный порт:"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:236
+msgid "Установка node"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:238
+msgid ""
+"Для ускорения сборки, рекомендуется предварительно скачать локально "
+"docker-образ node:10, т.к. он занимает 900Мб."
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:240
+msgid "``docker pull node:10``"
+msgstr ""
+
+#: ../docs-ru/2_getting_started/quickstart/4_installer.rst:242
+msgid ""
+"Проверить можно командой ``docker images | grep node`` - будет отображён "
+"спискок локальных образов node."
+msgstr ""
+
