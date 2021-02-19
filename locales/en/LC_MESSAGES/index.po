@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-12 19:15+0000\n"
+"POT-Creation-Date: 2021-02-19 19:15+0000\n"
 "PO-Revision-Date: 2020-05-27 03:43+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language: en\n"
@@ -26,10 +26,6 @@ msgstr "Contents:"
 #: ../docs-ru/index.rst:7
 msgid "Документация по платформе IONDV.Framework"
 msgstr "Documentation for the IONDV.Framework platform"
-
-#: ../docs-ru/index.rst:17
-msgid "4_modules/modules 5_ion_model_project/index key_features"
-msgstr ""
 
 #: ../docs-ru/index.rst:78
 msgid "This page in `English <https://iondv.readthedocs.io/en/latest>`_"
@@ -961,5 +957,8 @@ msgstr ""
 #~ "определяется структурой метаданных, описывающих "
 #~ "поведение приложение. Например можно создать"
 #~ " приложения"
+#~ msgstr ""
+
+#~ msgid "4_modules/modules 5_ion_model_project/index key_features"
 #~ msgstr ""
 

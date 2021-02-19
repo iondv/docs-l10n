@@ -9,114 +9,114 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-16 19:15+0000\n"
+"POT-Creation-Date: 2021-02-19 19:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../docs-ru/4_modules/modules.rst:2
-msgid "Модули"
+msgid "4. Модули"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules.rst:4
+#: ../docs-ru/4_modules/modules.rst:19
 msgid ""
 "**Модули** - это независимые блоки с обязательной или дополнительной "
 "функциональностью, структура которых подчиняется определенным правилам."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules.rst:9
+#: ../docs-ru/4_modules/modules.rst:24
 msgid "Наименование"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules.rst:10
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:26
+#: ../docs-ru/4_modules/modules.rst:25
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:24
 #: ../docs-ru/4_modules/modules/rest/rest.rst:8
 msgid "Описание"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules.rst:11
-msgid "`\\ Registry </4_modules/modules/registry/registry.rst>`_"
+#: ../docs-ru/4_modules/modules.rst:26
+msgid ":doc:`\\ Registry <modules/registry/registry>`"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules.rst:12
+#: ../docs-ru/4_modules/modules.rst:27
 msgid ""
 "Ключевой модуль предназначенный непосредственно для работы с данными на "
 "основе структур метаданных."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules.rst:13
-msgid "`\\ Report </4_modules/modules/report/report.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules.rst:14
-msgid "Модуль предназначенный для формирования аналитических отчетов."
-msgstr ""
-
-#: ../docs-ru/4_modules/modules.rst:15
-msgid "`\\ Gantt-chart </4_modules/modules/gantt-chart.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules.rst:16
-msgid "Модуль для вывода данных с датами."
-msgstr ""
-
-#: ../docs-ru/4_modules/modules.rst:17
-msgid "`\\ Portal </4_modules/modules/portal.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules.rst:18
-msgid "Модуль для вывода произвольных шаблонов данных."
-msgstr ""
-
-#: ../docs-ru/4_modules/modules.rst:19
-msgid "`\\ Dashboard </4_modules/modules/dashboard.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules.rst:20
-msgid "Модуль предназначенный для выведения краткой информации в виде блоков."
-msgstr ""
-
-#: ../docs-ru/4_modules/modules.rst:21
-msgid "`\\ Ionadmin </4_modules/modules/admin/admin.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules.rst:22
-msgid "Модуль администрирования для назначения прав."
-msgstr ""
-
-#: ../docs-ru/4_modules/modules.rst:23
-msgid "`\\ Account </4_modules/modules/account.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules.rst:24
-msgid "Модуль личного кабинета, который формирует логику отображения."
-msgstr ""
-
-#: ../docs-ru/4_modules/modules.rst:25
-msgid "`\\ Soap </4_modules/modules/soap.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules.rst:26
-msgid "Модуль запросов к сервисам."
-msgstr ""
-
-#: ../docs-ru/4_modules/modules.rst:27
-msgid "`\\ Image-storage </4_modules/modules/image_storage.rst>`_"
-msgstr ""
-
 #: ../docs-ru/4_modules/modules.rst:28
-msgid "Модуль предварительного просмотра картинок."
+msgid ":doc:`\\ Report <modules/report/report>`"
 msgstr ""
 
 #: ../docs-ru/4_modules/modules.rst:29
-msgid "`\\ REST </4_modules/modules/rest/rest.rst>`_"
+msgid "Модуль предназначенный для формирования аналитических отчетов."
 msgstr ""
 
 #: ../docs-ru/4_modules/modules.rst:30
+msgid ":doc:`\\ Gantt-chart <modules/gantt-chart>`"
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:31
+msgid "Модуль для вывода данных с датами."
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:32
+msgid ":doc:`\\ Portal <modules/portal>`"
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:33
+msgid "Модуль для вывода произвольных шаблонов данных."
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:34
+msgid ":doc:`\\ Dashboard <modules/dashboard>`"
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:35
+msgid "Модуль предназначенный для выведения краткой информации в виде блоков."
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:36
+msgid ":doc:`\\ Ionadmin <modules/admin/admin>`"
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:37
+msgid "Модуль администрирования для назначения прав."
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:38
+msgid ":doc:`\\ Account <modules/account>`"
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:39
+msgid "Модуль личного кабинета, который формирует логику отображения."
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:40
+msgid ":doc:`\\ Soap <modules/soap>`"
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:41
+msgid "Модуль запросов к сервисам."
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:42
+msgid ":doc:`\\ Image-storage <modules/image_storage>`"
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:43
+msgid "Модуль предварительного просмотра картинок."
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:44
+msgid ":doc:`\\ REST <modules/rest/rest>`"
+msgstr ""
+
+#: ../docs-ru/4_modules/modules.rst:45
 msgid "Модуль обеспечивающий работу с данными приложения IONDV через REST API."
 msgstr ""
 
@@ -176,86 +176,86 @@ msgstr ""
 msgid "Модуль Ionadmin"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:5
+#: ../docs-ru/4_modules/modules/admin/admin.rst:10
 msgid ""
 "**Модуль администрирования (ionadmin)** – используется для назначения "
 "прав, управления задачами по расписанию и другими административными "
 "задачами."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:8
+#: ../docs-ru/4_modules/modules/admin/admin.rst:13
 msgid "Настройка модуля ionadmin в файле config.json"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:11
+#: ../docs-ru/4_modules/modules/admin/admin.rst:16
 msgid "Настройка записи медленных запросов"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:13
+#: ../docs-ru/4_modules/modules/admin/admin.rst:18
 msgid ""
 "Настройка в виде модального окна на списке медленных запросов. В в файле "
 "config.json модуля ionadmin указывать источник:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:28
+#: ../docs-ru/4_modules/modules/admin/admin.rst:33
 msgid ""
 "Если свойство ``\"sources\"`` не задано или null, то будет браться из "
 "таблицы:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:40
+#: ../docs-ru/4_modules/modules/admin/admin.rst:45
 msgid "Если задан пустой массив, то источников нет."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:43
+#: ../docs-ru/4_modules/modules/admin/admin.rst:48
 msgid "Настройка источников логов"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:45
+#: ../docs-ru/4_modules/modules/admin/admin.rst:50
 msgid "Источники логов (может быть несколько) указываются в конфиге модуля:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:62
+#: ../docs-ru/4_modules/modules/admin/admin.rst:67
 msgid ""
 "Сделанные выборки хранятся в отдельной таблице и не зависят от текущего "
 "состояния источников логов. Их можно дополнить редактированием. Например,"
 " комментариями или пометками, сообщающими решена проблема или нет."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:65
+#: ../docs-ru/4_modules/modules/admin/admin.rst:70
 msgid "Настройка резервирования БД"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:67
+#: ../docs-ru/4_modules/modules/admin/admin.rst:72
 msgid "Настройка в *ionmodule/config*\\ :"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:80
+#: ../docs-ru/4_modules/modules/admin/admin.rst:85
 msgid ""
 "``dir`` содержит путь папки, в которой было запущено приложение ноды. По "
 "умолчанию *\"../ion-backups\"*"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:83
+#: ../docs-ru/4_modules/modules/admin/admin.rst:88
 msgid ""
 "``zlib.level`` - уровень сжатия, также влияет на скорость создания "
 "архива. По умолчанию - значение 3"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:86
+#: ../docs-ru/4_modules/modules/admin/admin.rst:91
 msgid ""
 "К тому же, необходимо что бы утилита ``export.js`` с заданными "
 "параметрами корректно отрабатывала сама по себе."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:89
+#: ../docs-ru/4_modules/modules/admin/admin.rst:94
 msgid "Руководство пользователя по безопасности"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/admin/admin.rst:91
+#: ../docs-ru/4_modules/modules/admin/admin.rst:96
 msgid ""
-"Руководство пользователя по безопасности находится `здесь "
-"<admin_security.rst>`_."
+"Руководство пользователя по безопасности находится :doc:`здесь "
+"<admin_security>`."
 msgstr ""
 
 #: ../docs-ru/4_modules/modules/admin/admin_security.rst:2
@@ -709,7 +709,7 @@ msgstr ""
 
 #: ../docs-ru/4_modules/modules/dashboard.rst:90
 msgid ""
-"Для того что бы данные из меты подгружались в модуль дашборда, необходимо"
+"Для того, чтобы данные из меты подгружались в модуль дашборда, необходимо"
 " в файле конфигурации приложения ``deploy.json`` добавить следующую "
 "секцию, в раздел ``\"modules\"``\\ :"
 msgstr ""
@@ -839,88 +839,88 @@ msgstr ""
 msgid "Модуль портала"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:5
+#: ../docs-ru/4_modules/modules/portal.rst:4
 msgid ""
 "**Модуль портала (portal)** – модуль, предназначенный для отображения "
 "произвольных шаблонов данных. Модуль портала выполняет функцию "
-"отображения дизайна различной информации с помощью языка разметки "
+"отображения дизайна различной информации с помощью языков разметки "
 "*Markdown* и *HTML*."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:8
+#: ../docs-ru/4_modules/modules/portal.rst:7
 msgid "Состав"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:10
+#: ../docs-ru/4_modules/modules/portal.rst:9
 msgid "Слой представления - отвечает за отображение данных:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:13
+#: ../docs-ru/4_modules/modules/portal.rst:12
 msgid ""
 "``Adapter Provider`` - выполняет функцию связи между данными и "
 "отображением их на портале (настройка через файл 'deploy.json')"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:14
+#: ../docs-ru/4_modules/modules/portal.rst:13
 msgid ""
 "``File Adapter`` - возвращает ресурсы типа \"Файл\" (остается в памяти "
 "приложения)"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:15
+#: ../docs-ru/4_modules/modules/portal.rst:14
 msgid ""
 "``Class Adapter`` - предназначен для отображения данных из базы через "
 "репозиторий данных (каждый раз обновляются)"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:18
+#: ../docs-ru/4_modules/modules/portal.rst:17
 msgid "Логика отображения данных на портале"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:21
+#: ../docs-ru/4_modules/modules/portal.rst:20
 msgid "Стили портала"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:23
+#: ../docs-ru/4_modules/modules/portal.rst:22
 msgid ""
 "Для описания/оформления внешнего вида страниц портала применяются CSS "
 "(каскадные таблицы стилей) Пример оформления страницы портала в Dnt - "
 "/develop-and-test/portal/view/static/css/style.css"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:26
+#: ../docs-ru/4_modules/modules/portal.rst:25
 msgid ""
 "Возможные варианты для применения стилей задаются в папке "
 "*portal/view/static/style.css*."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:41
+#: ../docs-ru/4_modules/modules/portal.rst:40
 msgid "Страницы портала"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:43
+#: ../docs-ru/4_modules/modules/portal.rst:42
 msgid "Шаблоны страниц портала настраиваются в папке *portal/view/templates*."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:45
+#: ../docs-ru/4_modules/modules/portal.rst:44
 msgid ""
 "Расположение объектов на странице описывается в формате языка разметки "
 "HTML:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:66
+#: ../docs-ru/4_modules/modules/portal.rst:65
 msgid ""
 "Содержание тега ``<head>`` включает в себя отображение стилей оформления "
 "внешнего вида портала."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:69
+#: ../docs-ru/4_modules/modules/portal.rst:68
 msgid ""
 "В тег ``<body>`` включается информация об объектах, отображаемых на "
 "странице портала."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:72
+#: ../docs-ru/4_modules/modules/portal.rst:71
 msgid ""
 "Тег ``<script>`` содержит в себе информацию в виде ссылки на программу "
 "или ее текст на определенном языке. Скрипты могут располагаться во "
@@ -931,74 +931,74 @@ msgid ""
 "файла для импорта в текущий документ."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:75
+#: ../docs-ru/4_modules/modules/portal.rst:74
 msgid "Навигация портала"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:77
+#: ../docs-ru/4_modules/modules/portal.rst:76
 msgid ""
 "Мета навигации портала представляет собой набор узлов навигации, у "
 "каждого из которых указан тип ресурса."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:79
+#: ../docs-ru/4_modules/modules/portal.rst:78
 msgid "Пример создания секции навигации:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:91
+#: ../docs-ru/4_modules/modules/portal.rst:90
 msgid "code - системной имя объекта"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:92
-#: ../docs-ru/4_modules/modules/portal.rst:110
+#: ../docs-ru/4_modules/modules/portal.rst:91
+#: ../docs-ru/4_modules/modules/portal.rst:109
 msgid "caption - логическое имя объекта"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:93
+#: ../docs-ru/4_modules/modules/portal.rst:92
 msgid "itemType - тип отображения объекта"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:94
+#: ../docs-ru/4_modules/modules/portal.rst:93
 msgid "subNodes - массив узлов навигации, содержащихся в данной секции"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:96
+#: ../docs-ru/4_modules/modules/portal.rst:95
 msgid "Пример создания узла навигации:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:109
+#: ../docs-ru/4_modules/modules/portal.rst:108
 msgid "code - системное имя объекта"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:111
+#: ../docs-ru/4_modules/modules/portal.rst:110
 msgid "resources - превращение данных в контент портала"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:112
+#: ../docs-ru/4_modules/modules/portal.rst:111
 msgid "PageSize - размер страницы"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:113
+#: ../docs-ru/4_modules/modules/portal.rst:112
 msgid "itemType -  тип отображения объекта"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:116
+#: ../docs-ru/4_modules/modules/portal.rst:115
 msgid "Оформление данных"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:120
+#: ../docs-ru/4_modules/modules/portal.rst:119
 msgid "Формат разбиения информации на страницы"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:152
+#: ../docs-ru/4_modules/modules/portal.rst:151
 msgid "Формат корректного отображения текста ошибок"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:164
+#: ../docs-ru/4_modules/modules/portal.rst:163
 msgid "Формат преобразования данных в контент портала"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/portal.rst:197
+#: ../docs-ru/4_modules/modules/portal.rst:196
 msgid "Формат отображения текста"
 msgstr ""
 
@@ -1006,70 +1006,70 @@ msgstr ""
 msgid "Модуль Registry"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry.rst:5
+#: ../docs-ru/4_modules/modules/registry/registry.rst:12
 msgid ""
 "**Модуль регистра (registry)** – ключевой модуль, предназначенный "
 "непосредственно для работы с данными на основе структур метаданных – в "
 "том числе для ведения проектов, программ, мероприятий и др."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry.rst:8
+#: ../docs-ru/4_modules/modules/registry/registry.rst:15
 msgid "Настройка"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry.rst:11
-msgid "`DI (treegridController) <registry_treegrid.rst>`_"
+#: ../docs-ru/4_modules/modules/registry/registry.rst:18
+msgid ":doc:`DI (treegridController) <registry_treegrid>`"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry.rst:14
+#: ../docs-ru/4_modules/modules/registry/registry.rst:21
 msgid "Deploy"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry.rst:17
+#: ../docs-ru/4_modules/modules/registry/registry.rst:24
 msgid "Настройка частоты опроса в deploy.json"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry.rst:19
+#: ../docs-ru/4_modules/modules/registry/registry.rst:26
 msgid ""
 "Настройка частоты опроса сервера, что объект не заблокирован в "
 "deploy.json:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry.rst:30
+#: ../docs-ru/4_modules/modules/registry/registry.rst:37
 msgid "Настройка createByCopy"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry.rst:32
+#: ../docs-ru/4_modules/modules/registry/registry.rst:39
 msgid "Настройка отображения кнопки \"Создать еще\" в deploy.json:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry.rst:41
+#: ../docs-ru/4_modules/modules/registry/registry.rst:48
 #: ../docs-ru/4_modules/modules/report/report_note.rst:43
 msgid "Фильтры"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry.rst:43
+#: ../docs-ru/4_modules/modules/registry/registry.rst:50
 msgid ""
-"Подробнее о фильтрах `здесь "
-"</3_development/functionality/functionality_files/filter.rst>`_."
+"Подробнее о фильтрах :doc:`здесь "
+"</3_development/functionality/functionality_files/filter>`."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry.rst:46
+#: ../docs-ru/4_modules/modules/registry/registry.rst:53
 msgid "Настройка помощь по фильтрам"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry.rst:48
+#: ../docs-ru/4_modules/modules/registry/registry.rst:55
 msgid ""
 "Справка размещается в файле шаблона "
 "``modules/registry/view/default/templates/view/list-filter-helper.ejs``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry.rst:51
+#: ../docs-ru/4_modules/modules/registry/registry.rst:58
 msgid "Требования к коду"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry.rst:53
-msgid "Cтиль написания компонентов фронт-енда `здесь <registry_code.rst>`_."
+#: ../docs-ru/4_modules/modules/registry/registry.rst:60
+msgid "Cтиль написания компонентов фронт-енда :doc:`здесь <registry_code>`."
 msgstr ""
 
 #: ../docs-ru/4_modules/modules/registry/registry_code.rst:2
@@ -1136,85 +1136,86 @@ msgstr ""
 msgid "Узел навигации открытого класса."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:3
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:2
 msgid "Настройки DI"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:7
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:5
 msgid "Подключение в глобальных настройках модуля регистра"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:11
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:9
 msgid "Пример в deploy.json"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:22
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:20
 msgid "treegridController"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:29
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:27
 msgid ""
 "Предназначен для создания иерархичных списков объектов в "
 "атрибуте-коллекции класса или в навигации класса."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:31
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:29
 msgid ""
 "Работает с использованием компонента dhtmlxSuite_v51_pro "
 "(https://dhtmlx.com/docs/products/dhtmlxTreeGrid/)."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:34
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:32
 msgid "Подключение в DI"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:62
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:59
 msgid "Виды шаблонов"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:65
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:62
 msgid "``\"template\": \"treegrid/collection\"``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:67
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:64
 msgid "Для атрибута-коллекции. Подключается в представлении формы объекта:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:85
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:82
 msgid "``\"template\": \"treegrid/list\"``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:87
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:84
 msgid "Для навигации класса. Подключение:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:95
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:92
 msgid "Настройка ``skin``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:97
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:94
 msgid "https://docs.dhtmlx.com/grid__skins.html"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:116
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:110
 msgid "Дополнительные источники информации по treegridController"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:118
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:112
 msgid ""
 "`Иерархическое представление для коллекций "
-"<https://git.iondv.ru/ION/platform/blob/v1.24/docs/ru/2_system_description/platform_configuration/deploy_modules.md#настройка-иерархического-представления-для-коллекций>`_."
+"<../../../3_development/platform_configuration/platform_config_files/deploy/deploy_modules.html#id11>`_\\"
+" ."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:121
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:115
 msgid "DHTMLX (dhtmlxSuite_v51_pro)"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:124
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:118
 msgid "https://docs.dhtmlx.com/"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:125
+#: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:119
 msgid "https://dhtmlx.com/docs/products/dhtmlxTreeGrid/"
 msgstr ""
 
@@ -1222,7 +1223,7 @@ msgstr ""
 msgid "Модуль Report"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/report/report.rst:5
+#: ../docs-ru/4_modules/modules/report/report.rst:10
 msgid ""
 "**Модуль отчетов (report)** – модуль для формирования аналитических "
 "отчетов и справочной информации в виде графиков на основе специальных "
@@ -1230,11 +1231,11 @@ msgid ""
 " оператором."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/report/report.rst:8
+#: ../docs-ru/4_modules/modules/report/report.rst:13
 msgid "Библиотека для построения отчетов вида Pivot"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/report/report.rst:10
+#: ../docs-ru/4_modules/modules/report/report.rst:15
 msgid ""
 "Библиотекой для построения отчетов вида Pivot служит PivotTable.js "
 "(Примеры и описание: https://pivottable.js.org ) Функционал богатый, в то"
@@ -1244,37 +1245,37 @@ msgid ""
 "ожидаемый функционал отчета относительно сложен."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/report/report.rst:15
+#: ../docs-ru/4_modules/modules/report/report.rst:20
 msgid "Метаданные"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/report/report.rst:17
-msgid ""
-"`Метаданные модуля отчетов (шахта, навигация) "
-"</3_development/metadata_structure/meta_report/meta_report.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/report/report.rst:19
-msgid "`Замечания при проектировании шахты <report_note.rst>`_"
-msgstr ""
-
 #: ../docs-ru/4_modules/modules/report/report.rst:22
-msgid "Настройка автоматической сборки шахты данных"
+msgid ""
+":doc:`Метаданные модуля отчетов (шахта, навигация) "
+"</3_development/metadata_structure/meta_report/meta_report>`"
 msgstr ""
 
 #: ../docs-ru/4_modules/modules/report/report.rst:24
+msgid ":doc:`Замечания при проектировании шахты <report_note>`"
+msgstr ""
+
+#: ../docs-ru/4_modules/modules/report/report.rst:27
+msgid "Настройка автоматической сборки шахты данных"
+msgstr ""
+
+#: ../docs-ru/4_modules/modules/report/report.rst:29
 msgid ""
 "Добавьте настройку ``jobs.enabled=true`` в файл config.ini чтобы "
 "настроить автоматическую сборку шахты данных."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/report/report.rst:27
+#: ../docs-ru/4_modules/modules/report/report.rst:32
 #: ../docs-ru/4_modules/modules/soap.rst:32
 #: ../docs-ru/4_modules/modules/soap.rst:68
 msgid "Пример"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/report/report.rst:29
+#: ../docs-ru/4_modules/modules/report/report.rst:34
 msgid ""
 "Чтобы запускать задание при старте приложения и далее каждые 6 часов, "
 "нужно настроить джоб следующим образом:"
@@ -1335,154 +1336,154 @@ msgstr ""
 msgid "Авторизация при запросах к сервисам"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:5
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:11
 msgid ""
 "Авторизация для доступа к сервисам может быть осуществлена следующими "
 "способами:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:7
-msgid "`Без авторизации <#id5>`_"
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:13
+msgid ":ref:`Без авторизации <без-авторизации>`"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:8
-msgid "`По учетной записи <#id6>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:9
-msgid "`По токену <#id9>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:10
-msgid "`Oauth2 <#id13>`_"
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:14
+msgid ":ref:`По учетной записи <по-учетной-записи>`"
 msgstr ""
 
 #: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:15
+msgid ":ref:`По токену <по-токену>`"
+msgstr ""
+
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:16
+msgid ":ref:`Oauth2 <oauth2>`"
+msgstr ""
+
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:22
 msgid "Сервисы без аутентификации"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:17
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:24
 msgid ""
 "Для реализации работы сервиса без аутентификации, необходимо задать для "
 "него значение ``none`` в настройке ``authMode`` в ``deploy.json``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:28
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:35
 msgid ""
 "Запрос к сервису не будет требовать аутентификации, пример запроса ``curl"
-" https://dnt.iondv.com/rest/echoo``"
+" https://dnt.iondv.com/rest/echo``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:30
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:37
 msgid ""
-"Пример запроса к сервису без аутентификации в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"Пример запроса к сервису без аутентификации в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/echo.spec.js <https://github.com/iondv/develop-and-"
 "test/blob/master/test/modules/rest/echo.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:39
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:47
 msgid "Сервисы со стандартрным механизмом авторизации по учетной записи"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:41
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:49
 msgid ""
 "Все сервисы по умолчанию используют стандартный механизм авторизации, "
 "подразумевающий передачу учетных данных в заголовке:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:44
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:52
 msgid "путем авторизации через Basic Auth, пример"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:49
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:58
 msgid ""
-"пример запроса с авторизацией Basic Auth в `develop-and-test (dnt) "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"пример запроса с авторизацией Basic Auth в :doc:`develop-and-test (dnt) "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/echopwd.spec.js <https://github.com/iondv/develop-"
 "and-test/blob/master/test/modules/rest/echopwd.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:56
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:65
 msgid "путем передачи учетных данных в заголовках запроса"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:62
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:71
 msgid "или"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:68
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:77
 msgid ""
-"пример запроса с авторизацией учетными данными в заголовке в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"пример запроса с авторизацией учетными данными в заголовке в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/echopwd.spec.js <https://github.com/iondv/develop-"
 "and-test/blob/master/test/modules/rest/echopwd.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:77
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:88
 msgid "Сервисы с аутентификацией через токен"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:79
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:90
 msgid ""
 "Аутентификация по токену используется для исключения постоянной передачи "
 "учетной записи в запросах. Токены ограничены по времени жизни."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:82
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:93
 msgid ""
 "Для реализации работы сервиса с аутентификацией через токен, необходимо "
 "задать для него значение ``token`` в настройке ``authMode`` в "
 "``deploy.json``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:93
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:104
 msgid ""
 "Аутентификация через токен осуществляется путем отправки значения токена "
 "в заголовке запроса ``auth-token``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:99
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:110
 msgid ""
-"пример запроса с авторизацией через токен в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"пример запроса с авторизацией через токен в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/token.spec.js <https://github.com/iondv/develop-and-"
 "test/blob/master/test/modules/rest/token.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:106
-msgid "подробнее о получении токена: `Получение токена <getting_token.rst>`_"
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:117
+msgid "подробнее о получении токена: :doc:`Получение токена <getting_token>`"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:108
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:119
 msgid ""
-"`Прокси-клиент </4_modules/modules/rest/authorization/proxy_access.rst>`_"
+":doc:`Прокси-клиент </4_modules/modules/rest/authorization/proxy_access>`"
 " для доступа к функциям модуля без получения нового токена."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:111
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:124
 msgid "Сервисы с аутентификацией методом OAuth2"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:113
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:126
 msgid ""
 "Для реализации работы сервиса с аутентификацией oauth2, необходимо "
 "предварительно подключить в deploy.json плагин вида"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:125
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:138
 msgid ""
 "затем можно задать для сервиса значение ``oauth`` в настройке "
 "``auth_mode``\\ :"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:136
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:149
 msgid ""
 "спецификация oauth2 доступна по ссылке: "
 "https://oauth2-server.readthedocs.io/en/latest/index.html"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:138
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:151
 msgid ""
 "Этот тип авторизации используется для предоставления третьей стороне "
 "ограниченного доступа к ресурсам пользователя без необходимости "
@@ -1490,40 +1491,40 @@ msgid ""
 "в следующем порядке:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:143
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:156
 msgid "Со стороны пользователя получаем cookie с id сессии:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:150
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:163
 msgid ""
 "Используя авторизованную сессию разрешаем клиенту ext@system запросы от "
 "нашего имени:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:156
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:169
 msgid "В ответе будет содержаться параметр ``code``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:159
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:172
 msgid "Теперь используя ``code`` можно получить токен:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:165
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:178
 msgid ""
 "в заголовке Authorization нужно ввести ``Basic <client_secret>`` код "
 "клиента. В ответе будет получен ``access_token``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:169
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:182
 msgid ""
 "Для запросов от лица пользователя в сервисах с авторизацией oauth2 теперь"
 " можно авторизоваться используя access_token:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:175
+#: ../docs-ru/4_modules/modules/rest/authorization/authorization.rst:188
 msgid ""
-"пример запроса к сервису с авторизацией oauth2 в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"пример запроса к сервису с авторизацией oauth2 в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/echooauth.spec.js <https://github.com/iondv/develop-"
 "and-test/blob/master/test/modules/rest/echooauth.spec.js>`_"
 msgstr ""
@@ -1590,8 +1591,8 @@ msgstr ""
 msgid ""
 "Вторым способом получения токена является использование веб-сервиса "
 "модуля rest - ``token``. Получить токен можно через аутентифицированный "
-"запрос на адрес ``rest/token``. `Подробнее "
-"</4_modules/modules/rest/services/sevices_files/token.rst>`_."
+"запрос на адрес ``rest/token``. :doc:`Подробнее "
+"</4_modules/modules/rest/services/services_files/token>`."
 msgstr ""
 
 #: ../docs-ru/4_modules/modules/rest/authorization/proxy_access.rst:2
@@ -1610,14 +1611,14 @@ msgstr ""
 
 #: ../docs-ru/4_modules/modules/rest/authorization/proxy_access.rst:40
 msgid ""
-"пример запроса в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"пример запроса в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/gateway.spec.js <https://github.com/iondv/develop-"
 "and-test/blob/master/test/modules/rest/gateway.spec.js>`_"
 msgstr ""
 
 #: ../docs-ru/4_modules/modules/rest/rest.rst:2
-msgid "Модуль IONDV. REST"
+msgid "Модуль REST"
 msgstr ""
 
 #: ../docs-ru/4_modules/modules/rest/rest.rst:4
@@ -1665,105 +1666,90 @@ msgstr ""
 msgid "**Подробнее:**"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/rest.rst:21
-msgid ""
-"`Авторизация при запросах к сервисам "
-"</4_modules/modules/rest/authorization/authorization.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/rest.rst:23
-msgid "`Cервисы REST </4_modules/modules/rest/services/services.rst>`_"
-msgstr ""
-
 #: ../docs-ru/4_modules/modules/rest/services/services.rst:2
 msgid "Сервисы REST"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/services.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services.rst:17
 msgid ""
 "Модуль REST имеет несколько встроенных сервисов, предназначенных для "
 "реализации типовых операций с модулем:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/services.rst:6
+#: ../docs-ru/4_modules/modules/rest/services/services.rst:19
 msgid ""
-"`Сервис Acceptor "
-"</4_modules/modules/rest/services/sevices_files/acceptor.rst>`_  -  "
-"обеспечивает массовое создание объектов."
+":doc:`Сервис Acceptor <services_files/acceptor>`  -  обеспечивает "
+"массовое создание объектов."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/services.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services.rst:20
 msgid ""
-"`Сервис Token "
-"</4_modules/modules/rest/services/sevices_files/token.rst>`_ - "
-"обеспечивает выдачу токена для авторизованного пользователя."
+":doc:`Сервис Token <services_files/token>` - обеспечивает выдачу токена "
+"для авторизованного пользователя."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/services.rst:8
+#: ../docs-ru/4_modules/modules/rest/services/services.rst:21
 msgid ""
-"`Сервис CRUD "
-"</4_modules/modules/rest/services/sevices_files/crud/crud.rst>`_ - сервис"
-" CRUD для объектов системы."
+":doc:`Сервис CRUD <services_files/crud/crud>` - сервис CRUD для объектов "
+"системы."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/services.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services.rst:22
 msgid ""
-"`Cервис Meta "
-"</4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst>`_"
-" - обеспечивает доступ к интерфейсу метаданных."
+":doc:`Cервис Meta <services_files/meta/metadata_service>` - обеспечивает "
+"доступ к интерфейсу метаданных."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/services.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services.rst:23
 msgid ""
-"`Cервис Workflows "
-"</4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst>`_"
-" - обеспечивает возможности контролировать и управлять бизнес-процессами."
+":doc:`Cервис Workflows <services_files/workflow/workflows_service>` - "
+"обеспечивает возможности контролировать и управлять бизнес-процессами."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/services.rst:12
+#: ../docs-ru/4_modules/modules/rest/services/services.rst:25
 msgid "Также поддерживается разработка и подключение пользовательских сервисов."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/services.rst:14
+#: ../docs-ru/4_modules/modules/rest/services/services.rst:27
 msgid ""
-"Разработка обработчика в приложении - `подробнее "
-"</4_modules/modules/rest/services/sevices_files/custom_service.rst>`_."
+"Разработка обработчика в приложении - :doc:`подробнее "
+"<services_files/custom_service>`."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/services.rst:16
+#: ../docs-ru/4_modules/modules/rest/services/services.rst:29
 msgid ""
-"Регистрация сервиса в конфигурации приложения - `подробнее "
-"</4_modules/modules/rest/services/sevices_files/service_configuration.rst>`_."
+"Регистрация сервиса в конфигурации приложения - :doc:`подробнее "
+"<services_files/service_configuration>`."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:2
 msgid "Встроенный сервис Acceptor"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:4
 msgid ""
 "Сервис ``acceptor`` предназначен для массового сохранения объектов разных"
 " классов."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:6
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:6
 msgid "Доступен по адресу ``<адрес сервера>/rest/acceptor``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:8
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:8
 msgid ""
 "Для работы с сервисом требуется его регистрация в файле конфигураций "
 "приложений deploy.json. При этом для сервиса обязательно должны быть "
 "указаны репозитории ``dataRepo`` и ``metaRepo`` в ``options``. Например:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:26
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:26
 msgid ""
-"Авторизация осуществляется через все основные `типы доступа "
-"</4_modules/modules/rest/authorization/authorization.rst>`_."
+"Авторизация осуществляется через все основные :doc:`типы доступа "
+"</4_modules/modules/rest/authorization/authorization>`."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:28
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:28
 msgid ""
 "Сервис работает по методу ``POST``\\ , объекты передаются в виде массива "
 "объектов в формате JSON в теле запроса с обязательным указанием в "
@@ -1771,7 +1757,7 @@ msgid ""
 "Автосоздаваемые поля указывать не обязательно."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:31
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:31
 msgid ""
 "В заголовке (header) в свойстве ``ion-converter`` может быть передано имя"
 " конвертора, который нужно использовать при обработке данных - как "
@@ -1780,60 +1766,60 @@ msgid ""
 "используется обработчик по умолчанию."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:35
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:35
 msgid "В данных объекта обязательно указываются:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:38
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:38
 msgid "``_id`` - идентификатор объекта по ключевому полю"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:39
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:39
 msgid "``_class`` - класс объекта с неймспейсом"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:40
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:40
 msgid "``_classVer`` - версия класса"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:42
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:42
 msgid ""
 "Остальные значения должны соответствовать свойствам класса, включая "
 "соответствие типов данных. Пример:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:52
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:52
 msgid ""
-"пример запроса на создание объектов к сервису acceptor в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"пример запроса на создание объектов к сервису acceptor в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/acceptor.spec.js <https://github.com/iondv/develop-"
 "and-test/blob/master/test/modules/rest/acceptor.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:59
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:59
 msgid "Метод возвращает код ``200`` и массив сохраненных объектов."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/acceptor.rst:75
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_post.rst:40
+#: ../docs-ru/4_modules/modules/rest/services/services_files/acceptor.rst:75
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_post.rst:40
 msgid "В случае ошибки код ответа будет ``400``\\ , а текст ответа содержать"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud.rst:2
 msgid "Встроенный сервис crud"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud.rst:4
 msgid ""
 "**Сервис crud** реализует REST API по модели основных операций CRUD "
 "(create, read, update, delete)."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:6
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud.rst:6
 msgid "Доступен по адресу ``<адрес сервера>/rest/crud``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:8
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud.rst:8
 msgid ""
 "Сервис требует регистрации в deploy.json приложения и обязательного "
 "указания источника данных ``dataRepo`` в ``options`` сервиса, а также "
@@ -1843,71 +1829,41 @@ msgid ""
 "учетом динамической безопаности. Например:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:28
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud.rst:28
 msgid ""
-"Аутентификация осуществляется через все основные `типы доступа "
-"</4_modules/modules/rest/authorization/authorization.rst>`_."
+"Аутентификация осуществляется через все основные :doc:`типы доступа "
+"</4_modules/modules/rest/authorization/authorization>`."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:30
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_patch.rst:7
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_post.rst:8
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud.rst:30
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_patch.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_post.rst:8
 msgid "Пример:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:36
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud.rst:36
 msgid ""
-"Пример запроса к сервису crud без параметров в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"Пример запроса к сервису crud без параметров в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-"
 "test/blob/master/test/modules/rest/crud.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:43
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud.rst:43
 msgid ""
 "По умолчанию, без правильных параметров - код ответа сервера ``404`` об "
 "ошибке"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:58
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud.rst:58
 msgid "**Информация по взаимодействию с crud через основные методы:**"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:60
-msgid "Создание объекта: `метод POST <crud_post.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:61
-msgid "Получение объекта или списка объектов: `метод GET <crud_get.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:62
-msgid "Получение объектов `методом SEARCH <crud_search.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:63
-msgid "Проверка наличия объекта: `метод HEAD <crud_head.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:64
-msgid "Обновление объекта: `методы PATCH и PUT <crud_patch.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:65
-msgid "Удаление объекта: `метод DELETE <crud_delete.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud.rst:66
-msgid ""
-"Отправка `запросов с файлами "
-"</4_modules/modules/rest/services/sevices_files/request/request_with_files.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_delete.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_delete.rst:2
 msgid "Удаление объекта: метод DELETE"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_delete.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_delete.rst:4
 msgid ""
 "**Удаление объекта** осуществляется методом ``DELETE``\\ , при этом "
 "указывается код класса с нейспейсом и значение ключа объекта, например "
@@ -1915,29 +1871,29 @@ msgid ""
 "test/66dbb3d0-5583-11e6-aef7-cf50314f026b``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_delete.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_delete.rst:11
 msgid ""
-"Пример запроса к сервису crud на удаление объектов в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"Пример запроса к сервису crud на удаление объектов в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-"
 "test/tree/master/test/modules/rest/crud.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_delete.rst:17
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_delete.rst:17
 msgid ""
 "В случае успеха - сервис возвращает код ответа ``200``\\ , в случае если "
 "объект не найден ``404``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:2
 msgid "Получение объекта или списка объектов: метод GET"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:5
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:5
 msgid "Получение объекта"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:7
 msgid ""
 "Получение объекта осуществляется методом ``GET``\\ , при этом указывается"
 " код класса с нейспейсом и значение ключа объекта, например "
@@ -1945,15 +1901,15 @@ msgid ""
 "test/66dbb3d0-5583-11e6-aef7-cf50314f026b``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:14
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:14
 msgid ""
-"Пример запроса к сервису crud для получения объекта в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"Пример запроса к сервису crud для получения объекта в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-"
 "test/tree/master/test/modules/rest/crud.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:21
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:21
 msgid ""
 "При этом дополнительно в query может быть задан параметр ``_eager`` "
 "содержащий список свойств класса, разделенных символом ``|`` для которых "
@@ -1961,105 +1917,105 @@ msgid ""
 "Например"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:28
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:28
 msgid ""
 "Пример запроса к сервису crud для получения объекта с жадной загрузкой "
-"свойства \"table\" в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"свойства \"table\" в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-"
 "test/tree/master/test/modules/rest/crud.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:35
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:35
 msgid ""
 "Если объект существует - возвращает код ответа ``200`` и сам объект в "
 "формате json, если объект не найден ``404``\\ , если нет прав ``403``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:51
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:51
 msgid "Получение списка объектов"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:53
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:53
 msgid ""
 "Запрос списка объектов осуществляется методом ``GET``\\ , при этом "
 "указывается код класса и нейспейс, например ``rest/crud/class_string"
 "@develop-and-test/``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:59
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:59
 msgid ""
-"Пример запроса к сервису crud для получения списка объектов в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"Пример запроса к сервису crud для получения списка объектов в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-"
 "test/tree/master/test/modules/rest/crud.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:66
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:66
 msgid ""
 "В ответ сервис выдает JSON Объект со смещением 0 и кол-вом 5ть записей и "
 "статусом ``200``\\ , если такого класса нет возвращает код ``404``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:88
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:88
 msgid "Запрос может быть осуществлен со следущими query параметрами:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:91
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:91
 msgid "``_offset`` - смещение выборки, по умолчанию 0"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:92
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:92
 msgid "``_count`` - кол-во значение в выборке, по умолчанию 5"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:93
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:93
 msgid ""
 "``_eager`` - список свойств класса, разделенных символом ``|`` для "
 "которых необходимо осуществить жадную загрузку данных."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:94
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:94
 msgid ""
 "``[name of property]`` - все параметры запроса, кроме начинающихся на "
 "``_`` считаются именами атрибутов класса, а их значения задаются в "
 "качестве фильтров."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:97
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:97
 msgid "**Примеры:**"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:99
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:99
 msgid "Запрос списка объектов класса со смещением 1 и кол-вом 2"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:105
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:105
 msgid ""
 "Запрос списка объектов, у которы свойство string_text имеет значение "
 "example1"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:111
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:111
 msgid ""
 "Запрос списка объектов, у которы свойство string_text имеет значение "
 "example1, со смещением 1 и кол-вом 2"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_get.rst:117
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_get.rst:117
 msgid ""
 "Пример запроса к сервису crud для получения списка объектов с различными "
-"параметрами сдвига и фильтрации в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"параметрами сдвига и фильтрации в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-"
 "test/tree/master/test/modules/rest/crud.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_head.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_head.rst:2
 msgid "Проверка наличия объекта: метод HEAD"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_head.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_head.rst:4
 msgid ""
 "**Проверка наличия объекта** осуществляется методом ``HEAD``\\ , при этом"
 " указывается код класса с нейспейсом и значение ключа объекта, например "
@@ -2067,25 +2023,25 @@ msgid ""
 "test/66dbb3d0-5583-11e6-aef7-cf50314f026b``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_head.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_head.rst:11
 msgid ""
-"Пример запроса к сервису crud для проверки наличия объекта в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"Пример запроса к сервису crud для проверки наличия объекта в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-"
 "test/tree/master/test/modules/rest/crud.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_head.rst:18
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_head.rst:18
 msgid ""
 "Если объект существует - возвращает код ответа ``200``\\ , если объект не"
 " найден ``404``\\ , если нет прав ``403``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_patch.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_patch.rst:2
 msgid "Обновление объекта: методы PATCH и PUT"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_patch.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_patch.rst:4
 msgid ""
 "**Обновление объекта** осуществляется методом ``PATCH`` или ``PUT``\\ , "
 "при этом указывается код класса с нейспейсом и значение ключа объекта, "
@@ -2095,30 +2051,30 @@ msgid ""
 "содержания json ``Content-Type:application/json``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_patch.rst:15
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_patch.rst:15
 msgid ""
-"Пример запроса к сервису crud для обновления объекта в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"Пример запроса к сервису crud для обновления объекта в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-"
 "test/tree/master/test/modules/rest/crud.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_patch.rst:22
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_patch.rst:22
 msgid ""
 "Если объект существует - возвращает код ответа ``200`` и сам объект в "
 "формате json, если объект не найден код ``404``\\ , при ошибке обработки "
 "код ``500``\\ , если нет прав ``403``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_patch.rst:24
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_patch.rst:24
 msgid "Пример объекта."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_post.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_post.rst:2
 msgid "Создание объекта: метод POST"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_post.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_post.rst:4
 msgid ""
 "**Создание объекта** осуществляется методом ``POST``\\ , при этом "
 "указывается код класса с нейспейсом, например ``rest/crud/class_string"
@@ -2127,25 +2083,25 @@ msgid ""
 "Type:application/json``. Автосоздаваемые поля указывать не обязательно."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_post.rst:17
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_post.rst:17
 msgid ""
-"Пример запроса к сервису crud для создания объекта `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"Пример запроса к сервису crud для создания объекта :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/crud.spec.js <https://github.com/iondv/develop-and-"
 "test/tree/master/test/modules/rest/crud.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_post.rst:24
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_post.rst:24
 msgid ""
 "В ответ будет возвращён созданный объект, в котором будут заполнены все "
 "автосозданные поля и указан код ответа ``200``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_search.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_search.rst:2
 msgid "Получение объектов методом SEARCH"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/crud/crud_search.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/crud/crud_search.rst:4
 msgid ""
 "Обращение к HTTP-методу ``SEARCH`` в сервисе CRUD осуществляется "
 "аналогично методу ``GET``. Исключением является то, что в теле сообщения "
@@ -2153,15 +2109,15 @@ msgid ""
 "*жадной загрузки* в нотации метода ``GetList`` репозитория данных:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/custom_service.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/custom_service.rst:2
 msgid "Разработка обработчика сервиса в приложении"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/custom_service.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/custom_service.rst:4
 msgid "Все сервисы реализуются как наследники от Service - функции модуля rest."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/custom_service.rst:6
+#: ../docs-ru/4_modules/modules/rest/services/services_files/custom_service.rst:6
 msgid ""
 "Каждый сервис должен экспортировать функцию обработчика, в которой "
 "реализован асинхронный метод ``this._route``\\ , в котором необходимо "
@@ -2175,7 +2131,7 @@ msgid ""
 " объект будут находиться в ``req.body``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/custom_service.rst:13
+#: ../docs-ru/4_modules/modules/rest/services/services_files/custom_service.rst:13
 msgid ""
 "Функция-обработчик должна вернуть Promise разрешающийся в результат "
 "обработки (для обработки в Service "
@@ -2187,13 +2143,13 @@ msgid ""
 " ошибке ``Internal server error``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/custom_service.rst:17
+#: ../docs-ru/4_modules/modules/rest/services/services_files/custom_service.rst:17
 msgid ""
 "Заголовок можно переопределить, для этого в ответе нужно отдать тип "
 "заголовка ``headers``\\ , а объект в атрибуте ``data``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/custom_service.rst:31
+#: ../docs-ru/4_modules/modules/rest/services/services_files/custom_service.rst:31
 msgid ""
 "Пример реализации сервиса, выдающего списки объектов с фильтрами для "
 "класса ``class_string`` есть в приложении ``develop-and-test``. Также, "
@@ -2201,31 +2157,31 @@ msgid ""
 "``modules/rest/lib/impl/crud.js``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/custom_service.rst:89
+#: ../docs-ru/4_modules/modules/rest/services/services_files/custom_service.rst:89
 msgid "Запрос без атрибутов в теле запроса"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/custom_service.rst:95
+#: ../docs-ru/4_modules/modules/rest/services/services_files/custom_service.rst:95
 msgid "вернет весь список:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/custom_service.rst:118
+#: ../docs-ru/4_modules/modules/rest/services/services_files/custom_service.rst:118
 msgid ""
 "А запрос с параметром атрибута равного значению в атрибуте string_text "
 "``Example of the \\\"String [0]\\\" type in the \\\"Text [1]\\\" view``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/custom_service.rst:126
+#: ../docs-ru/4_modules/modules/rest/services/services_files/custom_service.rst:126
 msgid "вернет объекты удовлетворяющие условию:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/custom_service.rst:137
+#: ../docs-ru/4_modules/modules/rest/services/services_files/custom_service.rst:137
 msgid ""
 "Пример регистрации тестового сервиса, подробнее см. `Регистрация сервиса "
 "в конфигурации приложения <service_configuration.rst>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/custom_service.rst:154
+#: ../docs-ru/4_modules/modules/rest/services/services_files/custom_service.rst:154
 msgid ""
 "Для реализации обработки multipart запросов, например для запросов, "
 "содержащих файлы, можно использовать библиотеку ``multipart.js`` "
@@ -2233,397 +2189,392 @@ msgid ""
 " сервисе ``CRUD``:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/custom_service.rst:162
+#: ../docs-ru/4_modules/modules/rest/services/services_files/custom_service.rst:162
 msgid ""
 "Этой цели также служит библиотека ``util.js`` (``rest/backend/util.js``),"
 " обеспечивающая корректность действий при работе с файлами и файловым "
 "хранилищем, пример из ``CRUD``:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_ancestor.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_ancestor.rst:2
 msgid "Получение информации о классе-предке: ancestor"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_ancestor.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_ancestor.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/ancestor/<имя класса>``, где имя класса указывается с "
 "неймспейсом."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_ancestor.rst:7
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCollectionViewModel.rst:7
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCreationViewModel.rst:7
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getDetailViewModel.rst:7
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getItemViewModel.rst:8
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getListViewModel.rst:7
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getMeta.rst:7
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNavigationSection.rst:7
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNode.rst:7
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNodes.rst:7
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflow.rst:7
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflowView.rst:7
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflows.rst:7
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_listMeta.rst:6
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_propertyMetas.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_ancestor.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCollectionViewModel.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCreationViewModel.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getDetailViewModel.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getItemViewModel.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getListViewModel.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMeta.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNavigationSection.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNavigationSections.rst:6
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNode.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNodes.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflow.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflowView.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflows.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_listMeta.rst:6
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_propertyMetas.rst:7
 msgid ""
-"В запросе можно указать `дополнительные параметры "
-"<meta_query_parameters.rst>`_:"
+"В запросе можно указать :doc:`дополнительные параметры "
+"<meta_query_parameters>`:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_ancestor.rst:9
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCollectionViewModel.rst:12
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCreationViewModel.rst:11
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getDetailViewModel.rst:11
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getItemViewModel.rst:12
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getListViewModel.rst:11
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getMeta.rst:9
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflow.rst:11
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflowView.rst:12
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflows.rst:10
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_listMeta.rst:9
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_propertyMetas.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_ancestor.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCollectionViewModel.rst:12
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCreationViewModel.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getDetailViewModel.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getItemViewModel.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getListViewModel.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMeta.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflow.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflowView.rst:12
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflows.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_listMeta.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_propertyMetas.rst:9
 msgid "``version``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_ancestor.rst:10
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCollectionViewModel.rst:11
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCreationViewModel.rst:10
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getDetailViewModel.rst:10
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getItemViewModel.rst:11
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getListViewModel.rst:10
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getMeta.rst:10
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNavigationSection.rst:9
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNavigationSections.rst:8
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNode.rst:9
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNodes.rst:11
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflow.rst:10
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflowView.rst:11
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflows.rst:9
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_listMeta.rst:11
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_propertyMetas.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_ancestor.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCollectionViewModel.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCreationViewModel.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getDetailViewModel.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getItemViewModel.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getListViewModel.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMeta.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNavigationSection.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNavigationSections.rst:8
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNode.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNodes.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflow.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflowView.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflows.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_listMeta.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_propertyMetas.rst:10
 msgid "``namespace``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_ancestor.rst:12
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCollectionViewModel.rst:14
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCreationViewModel.rst:13
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getDetailViewModel.rst:13
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getItemViewModel.rst:14
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getListViewModel.rst:13
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getMeta.rst:12
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNavigationSection.rst:11
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNavigationSections.rst:10
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNode.rst:11
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNodes.rst:13
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflow.rst:13
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflowView.rst:14
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflows.rst:12
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_listMeta.rst:13
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_propertyMetas.rst:12
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_patch.rst:11
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_put.rst:16
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_ancestor.rst:12
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCollectionViewModel.rst:14
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCreationViewModel.rst:13
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getDetailViewModel.rst:13
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getItemViewModel.rst:13
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getListViewModel.rst:13
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMeta.rst:12
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNavigationSection.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNavigationSections.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNode.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNodes.rst:13
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflow.rst:13
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflowView.rst:14
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflows.rst:12
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_listMeta.rst:13
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_propertyMetas.rst:12
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_patch.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:16
 msgid "Пример запроса:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_ancestor.rst:18
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_ancestor.rst:18
 msgid ""
 "будет запрошена информация по классу-предку класса ``event`` в неймспейсе"
 " ``develop-and-test`` - ``basicObj``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_ancestor.rst:20
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCollectionViewModel.rst:22
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCreationViewModel.rst:54
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getDetailViewModel.rst:21
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getItemViewModel.rst:54
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getListViewModel.rst:157
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getMask.rst:14
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getMeta.rst:147
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNavigationSection.rst:109
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNavigationSections.rst:18
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNode.rst:75
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNodes.rst:21
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getValidatiors.rst:12
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflow.rst:122
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflowView.rst:55
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflows.rst:31
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_listMeta.rst:21
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_propertyMetas.rst:139
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_ancestor.rst:20
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCollectionViewModel.rst:22
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCreationViewModel.rst:54
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getDetailViewModel.rst:21
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getItemViewModel.rst:53
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getListViewModel.rst:157
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMask.rst:14
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMeta.rst:147
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNavigationSection.rst:109
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNavigationSections.rst:18
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNode.rst:75
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNodes.rst:21
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getValidators.rst:12
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflow.rst:122
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflowView.rst:55
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflows.rst:31
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_listMeta.rst:21
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_propertyMetas.rst:139
 msgid ""
-"Этот пример в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"Этот пример в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/metadatasrv.spec.js <https://github.com/iondv"
 "/develop-and-test/tree/master/test/modules/rest/metadatasrv.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCollectionViewModel.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCollectionViewModel.rst:2
 msgid ""
 "Получение информации о форме представления объектов класса в виде "
 "коллекции: getCollectionViewModel"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCollectionViewModel.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCollectionViewModel.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getCollectionViewModel/<имя класса>``, где имя класса "
 "указывается с неймспейсом."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCollectionViewModel.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCollectionViewModel.rst:9
 msgid "``collection``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCollectionViewModel.rst:10
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCreationViewModel.rst:9
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getDetailViewModel.rst:9
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getItemViewModel.rst:10
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getListViewModel.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCollectionViewModel.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCreationViewModel.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getDetailViewModel.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getItemViewModel.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getListViewModel.rst:9
 msgid "``node``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCollectionViewModel.rst:20
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCollectionViewModel.rst:20
 msgid ""
 "будет запрошен объект представления объектов класса ``class_text`` в "
 "форме коллекции в неймспейсе ``develop-and-test``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCreationViewModel.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCreationViewModel.rst:2
 msgid ""
 "Получение информации о форме представления объектов класса при создании: "
 "getCreationViewModel"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCreationViewModel.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCreationViewModel.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getCreationViewModel/<имя класса>``, где имя класса указывается "
 "с неймспейсом."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getCreationViewModel.rst:19
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getCreationViewModel.rst:19
 msgid ""
 "будет запрошен объект представления объектов класса ``class_text`` при их"
 " создании в неймспейсе ``develop-and-test``, пример ответа:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getDetailViewModel.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getDetailViewModel.rst:2
 msgid ""
 "Получение информации о форме представления объектов класса при просмотре:"
 " getDetailViewModel"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getDetailViewModel.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getDetailViewModel.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getDetailViewModel/<имя класса>``, где имя класса указывается с "
 "неймспейсом."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getDetailViewModel.rst:19
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getDetailViewModel.rst:19
 msgid ""
 "будет запрошен объект представления объектов класса ``class_text`` при их"
 " просмотре в неймспейсе ``develop-and-test``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getItemViewModel.rst:3
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getItemViewModel.rst:2
 msgid ""
 "Получение информации о форме представления объектов класса при "
 "редактировании: getItemViewModel"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getItemViewModel.rst:5
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getItemViewModel.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getItemViewModel/<имя класса>``, где имя класса указывается с "
 "неймспейсом."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getItemViewModel.rst:20
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getItemViewModel.rst:19
 msgid ""
 "будет запрошен объект представления объектов класса ``class_text`` при их"
 " редактировании в неймспейсе ``develop-and-test``, пример ответа:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getListViewModel.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getListViewModel.rst:2
 msgid ""
 "Получение информации о списочной форме представления объектов класса: "
 "getListViewModel"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getListViewModel.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getListViewModel.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getListViewModel/<имя класса>``, где имя класса указывается с "
 "неймспейсом."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getListViewModel.rst:19
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getListViewModel.rst:19
 msgid ""
 "будет запрошен объект представления объектов класса ``class_text`` в "
 "списочной форме в неймспейсе ``develop-and-test``, пример ответа:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getMask.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMask.rst:2
 msgid "Получение информации о маске формы представления: getMask"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getMask.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMask.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getMask/<имя маски>``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getMask.rst:6
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMask.rst:6
 msgid "Например:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getMask.rst:12
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMask.rst:12
 msgid "будет запрошен объект маски ``snils``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getMeta.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMeta.rst:2
 msgid "Получение информации о классе метаданных: getMeta"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getMeta.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMeta.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getMeta/<имя класса>``, где имя класса указывается с "
 "неймспейсом."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getMeta.rst:18
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMeta.rst:18
 msgid ""
 "будет запрошена информация по классу ``class_text`` в неймспейсе "
 "``develop-and-test``, пример ответа:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNavigationSection.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNavigationSection.rst:2
 msgid "Получение информации о секции навигации: getNavigationSection"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNavigationSection.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNavigationSection.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getNavigationSection/<код секции>``, где код секции указывается "
 "в формате ``namespace@name``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNavigationSection.rst:17
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNavigationSection.rst:17
 msgid ""
 "будет запрошен объект секции навигации ``simpleTypes`` в неймспейсе "
 "``develop-and-test``, пример ответа:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNavigationSections.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNavigationSections.rst:2
 msgid "Получение списка секций навигации: getNavigationSections"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNavigationSections.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNavigationSections.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getNavigationSections``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNavigationSections.rst:6
-msgid ""
-"В запросе можно указать `дополнительные параметры "
-"<meta_query_parameters.rts>`_:"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNavigationSections.rst:16
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNavigationSections.rst:16
 msgid ""
 "будет запрошен список всех объектов секций навигации из метарепозитория, "
 "указанного в настройках сервиса ``meta`` в ``deploy.json``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNode.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNode.rst:2
 msgid "Получение информации об узле навигации: getNode"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNode.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNode.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getNode/<код навигации>``, где код навигации указывается в "
 "формате ``namespace@code``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNode.rst:17
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNode.rst:17
 msgid ""
 "будет запрошен объект узла навигации ``semantic`` в неймспейсе ``develop-"
 "and-test``, пример ответа:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNodes.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNodes.rst:2
 msgid "Получение списка узлов навигации в секции: getNodes"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNodes.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNodes.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getNodes/<код секции>``, где код секции указывается в формате "
 "``namespace@name``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNodes.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNodes.rst:9
 msgid "``section``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNodes.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNodes.rst:10
 msgid "``parent``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getNodes.rst:19
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getNodes.rst:19
 msgid ""
 "будет запрошен список узлов навигации в секции ``simpleTypes`` в "
 "неймспейсе ``develop-and-test``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getValidatiors.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getValidators.rst:2
 msgid "Получение списка доступных валидаторов ввода: getValidators"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getValidatiors.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getValidators.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getValidators``, например:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getValidatiors.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getValidators.rst:10
 msgid "будет запрошен список доступных валидаторов."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflow.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflow.rst:2
 msgid "Получение информации о бизнес-процессе класса: getWorkflow"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflow.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflow.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getWorkflow/<имя класса>/<имя бизнес-процесса>``, где имя класса"
 " и имя бизнес-процесса указываются с неймспейсом."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflow.rst:9
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflowView.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflow.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflowView.rst:9
 msgid "``workflow``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflow.rst:19
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflow.rst:19
 msgid ""
 "будет запрошен объект бизнес-процесса ``simpleWorkflow`` для класса "
 "объектов ``workflowBase`` в неймспейсе ``develop-and-test``. Пример "
 "ответа:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflowView.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflowView.rst:2
 msgid ""
 "Получение информации о форме представления объекта класса при некотором "
 "состоянии бизнес-процесса: getListViewModel"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflowView.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflowView.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getListViewModel/<имя класса>/<имя бизнес-процесса>/<имя "
@@ -2631,80 +2582,80 @@ msgid ""
 "неймспейсом."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflowView.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflowView.rst:10
 msgid "``state``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflowView.rst:20
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflowView.rst:20
 msgid ""
 "будет запрошен объект представления объектов класса ``workflowBase`` при "
 "состоянии ``canStart`` бизнес-процесса ``simpleWorkflow`` в неймспейсе "
 "``develop-and-test``, пример ответа:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflows.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflows.rst:2
 msgid "Получение списка возможных бизнес-процессов для класса: getWorkflows"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflows.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflows.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/getWorkflows/<имя класса>``, где имя класса указывается с "
 "неймспейсом."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_getWorkflows.rst:18
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getWorkflows.rst:18
 msgid ""
 "будет запрошен список бизнес-процессов для класса ``workflowBase`` в "
 "неймспейсе ``develop-and-test``, пример ответа:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_listMeta.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_listMeta.rst:2
 msgid "Получение списка всех классов метаданных: listMeta"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_listMeta.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_listMeta.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/listMeta``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_listMeta.rst:8
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_listMeta.rst:8
 msgid "``ancestor``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_listMeta.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_listMeta.rst:10
 msgid "``direct``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_listMeta.rst:19
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_listMeta.rst:19
 msgid ""
 "будет запрошена информация по всем классам из метарепозитория, указанного"
 " в настройках сервиса ``meta`` в ``deploy.json``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_propertyMetas.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_propertyMetas.rst:2
 msgid "Получение информации о свойствах объектов класса: propertyMetas"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_propertyMetas.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_propertyMetas.rst:4
 msgid ""
 "Запрос осуществляется по пути ``<URL сервера>/rest/<название "
 "сервиса>/propertyMetas/<имя класса>``, где имя класса указывается с "
 "неймспейсом."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_propertyMetas.rst:18
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_propertyMetas.rst:18
 msgid ""
 "будет запрошена информация о свойствах объектов класса ``class_text`` в "
 "неймспейсе ``develop-and-test``, например:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_query_parameters.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_query_parameters.rst:2
 msgid "Дополнительные параметры запросов к сервису метаданных"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_query_parameters.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_query_parameters.rst:4
 msgid ""
 "В большинстве запросов к сервису метаданных (``meta``), помимо самого "
 "запроса, можно указать дополнительные параметры. Список дополнительных "
@@ -2713,157 +2664,59 @@ msgid ""
 "``=``, несколько параметров разделяются между собой с помощью ``&``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_query_parameters.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_query_parameters.rst:9
 msgid ""
 "Пример GET запроса к ``meta/getList`` с дополнительным параметром "
 "``ancestor`` - фильтрацией по предку:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_query_parameters.rst:15
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_query_parameters.rst:15
 msgid ""
 "В ответ будет возвращен список классов метаданных, которые являются "
 "производными от ``basicObj``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/meta_query_parameters.rst:17
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_query_parameters.rst:17
 msgid ""
-"Этот пример в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"Этот пример в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/metadatasrv.spec.js <https://github.com/iondv"
 "/develop-and-test/blob/master/test/modules/rest/metadatasrv.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/metadata_service.rst:2
 msgid "Cервис публикации метаданных Meta"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/metadata_service.rst:4
 msgid ""
 "**Meta** ``meta`` - встроенный сервис в rest модуле, который "
 "предоставляет доступ к интерфейсу метарепозитория в формате веб-сервиса."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:6
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/metadata_service.rst:6
 msgid ""
 "Сервис требует подключения в ``deploy.json`` и обязательного указания "
 "``options.dataRepo`` и ``options.metaRepo``, пример:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:18
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst:20
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/metadata_service.rst:18
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:20
 msgid ""
-"Поддерживаются все `типы авторизации "
-"</4_modules/modules/rest/authorization/authorization.rst>`_, по умолчанию"
-" - авторизация учетными данными."
+"Поддерживаются все :doc:`типы авторизации "
+"</4_modules/modules/rest/authorization/authorization>`, по умолчанию - "
+"авторизация учетными данными."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:21
+#: ../docs-ru/4_modules/modules/rest/services/services_files/meta/metadata_service.rst:21
 msgid "Сервис предоставляет доступ к следующим **GET** запросам:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:24
-msgid "Получение информации о классе метаданных: `getMeta <meta_getMeta.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:25
-msgid "Получение списка всех классов метаданных: `listMeta <meta_listMeta.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:26
-msgid "Получение информации о классе-предке: `ancestor <meta_ancestor.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:27
-msgid ""
-"Получение информации о свойствах объектов класса: `propertyMetas "
-"<meta_propertyMetas.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:28
-msgid ""
-"Получение списка секций навигации: `getNavigationSections "
-"<meta_getNavigationSections.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:29
-msgid ""
-"Получение информации о секции навигации: `getNavigationSection "
-"<meta_getNavigationSection.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:30
-msgid "Получение информации об узле навигации: `getNode <meta_getNode.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:31
-msgid "Получение списка узлов навигации в секции: `getNodes <meta_getNodes.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:32
-msgid ""
-"Получение информации о списочной форме представления объектов класса: "
-"`getListViewModel <meta_getListViewModel.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:33
-msgid ""
-"Получение информации о форме представления объектов класса в виде "
-"коллекции: `getCollectionViewModel <meta_getCollectionViewModel.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:34
-msgid ""
-"Получение информации о форме представления объектов класса при "
-"редактировании: `getItemViewModel <meta_getItemViewModel.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:35
-msgid ""
-"Получение информации о форме представления объектов класса при создании: "
-"`getCreationViewModel <meta_getCreationViewModel.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:36
-msgid ""
-"Получение информации о форме представления объектов класса при просмотре:"
-" `getDetailViewModel <meta_getDetailViewModel.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:37
-msgid ""
-"Получение списка возможных бизнес-процессов для класса: `getWorkflows "
-"<meta_getWorkflows.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:38
-msgid ""
-"Получение информации о форме представления объекта класса при некотором "
-"состоянии бизнес-процесса: `getWorkflowView <meta_getWorkflowView.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:39
-msgid ""
-"Получение информации о бизнес-процессе класса: `getWorkflow "
-"<meta_getWorkflow.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:40
-msgid ""
-"Получение информации о маске формы представления: `getMask "
-"<meta_getMask.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst:41
-msgid ""
-"Получение списка доступных валидаторов ввода: `getValidators "
-"<meta_getValidators.rst>`_"
-msgstr ""
-
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_examples.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_examples.rst:2
 msgid "Запросы к сервисам на примере тестов"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_examples.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_examples.rst:4
 msgid ""
 "Примеры запросов к основным сервисам REST можно найти в подготовленных "
 "для этих сервисов тестах. Тесты написаны для `mocha "
@@ -2871,94 +2724,94 @@ msgid ""
 "develop-and-test <https://github.com/iondv/develop-and-test>`_."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_examples.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_examples.rst:7
 msgid ""
 "Для запуска тестов нужно установить пакеты ``request-promise-native`` и "
 "``mocha``, например запустив ``npm install`` в папке ``develop-and-"
 "test/test``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_examples.rst:10
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_examples.rst:10
 msgid ""
 "Предварительно нужно сконфигурировать параметры сервера и пользователей в"
 " ``develop-and-test/test/modules/rest/config.js``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_examples.rst:12
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_examples.rst:12
 msgid ""
 "Запуск осуществляется вызовом ``mocha/lib/cli/cli.js`` для тестового "
 "скрипта, например:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_examples.rst:18
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_examples.rst:18
 msgid "Можно запустить все тесты в папке:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_examples.rst:24
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_examples.rst:24
 msgid "Также возможен запуск отдельных юнит-тестов:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_examples.rst:30
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_examples.rst:30
 msgid "например:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_with_files.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_with_files.rst:2
 msgid "Отправка запросов с файлами в CRUD сервисе"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_with_files.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_with_files.rst:4
 msgid ""
 "При запросе к CRUD методами **POST**, **PATCH** и **PUT**, в теле запроса"
 " можно передать файлы."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_with_files.rst:6
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_with_files.rst:6
 msgid "Отправка и прием файлов осуществляется двумя способами:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_with_files.rst:8
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_with_files.rst:8
 msgid ""
 "данные отправляются в формате ``json``, тогда контент файла передается "
 "как строка в формате *Base64* в соответствующем поле класса метаданных."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_with_files.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_with_files.rst:9
 msgid ""
 "данные отправляются как ``FormData`` (application/x-www-form-urlencoded),"
 " тогда файлы передаются как компонент *multipart*."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_with_files.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_with_files.rst:11
 msgid ""
 "Корректный прием файловых атрибутов в случае отправки таких запросов "
 "осуществляется методами ``POST``, ``PUT`` и ``PATCH`` в CRUD сервисе."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_with_files.rst:13
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_with_files.rst:13
 msgid ""
 "Так же возможна передача ссылок и коллекций по примеру, описанному для "
 "`soap модуля <https://github.com/iondv/soap>`_."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/request/request_with_files.rst:15
+#: ../docs-ru/4_modules/modules/rest/services/services_files/request/request_with_files.rst:15
 msgid ""
-"Примеры **POST** запросов с файлами к ``CRUD`` в `dnt "
-"<request_examples.rst>`_: `test/modules/rest/crud.spec.js "
+"Примеры **POST** запросов с файлами к ``CRUD`` в :doc:`dnt "
+"<request_examples>`: `test/modules/rest/crud.spec.js "
 "<https://github.com/iondv/develop-and-"
 "test/tree/master/test/modules/rest/crud.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/service_configuration.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/service_configuration.rst:2
 msgid "Регистрация сервиса в конфигурации приложения"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/service_configuration.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/service_configuration.rst:4
 msgid ""
 "Для подключения сервисов в приложении их необходимо сконфигурировать в "
 "глобальных настройках модуля rest в файле deploy.json приложения. Пример:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/service_configuration.rst:32
+#: ../docs-ru/4_modules/modules/rest/services/services_files/service_configuration.rst:32
 msgid ""
 "Путь к регистрациям сервиса в файле ``deploy.json`` - "
 "``modules.rest.globals.di``\\ . Далее указывается название сервиса, "
@@ -2968,7 +2821,7 @@ msgid ""
 "``string-list``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/service_configuration.rst:36
+#: ../docs-ru/4_modules/modules/rest/services/services_files/service_configuration.rst:36
 msgid ""
 "В атрибуте ``module`` указывается путь к js-файлу с обработчиком сервиса "
 "с путем относительно корня фреймворка. Обработчик может быть как в "
@@ -2976,157 +2829,158 @@ msgid ""
 "обработчики модуля rest."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/service_configuration.rst:39
+#: ../docs-ru/4_modules/modules/rest/services/services_files/service_configuration.rst:39
 msgid ""
 "В параметре ``options`` указываются специфические настройки сервиса. "
 "Например, для сервиса **crud** указаны:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/service_configuration.rst:43
+#: ../docs-ru/4_modules/modules/rest/services/services_files/service_configuration.rst:43
 msgid ""
 "в поле ``dataRepo`` - репозиторий данных с контролем доступа, "
 "используемый для операций над обьектами"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/service_configuration.rst:44
+#: ../docs-ru/4_modules/modules/rest/services/services_files/service_configuration.rst:44
 msgid ""
 "в поле ``auth``\\ - компонент аутентификации, используемый для получения "
 "текущей учетной записи пользователя."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/service_configuration.rst:46
+#: ../docs-ru/4_modules/modules/rest/services/services_files/service_configuration.rst:46
 msgid "А для сервиса **string-list** указаны:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/service_configuration.rst:48
+#: ../docs-ru/4_modules/modules/rest/services/services_files/service_configuration.rst:48
 msgid "в поле ``dataRepo`` - репозиторий данных, используемый для выборки данных"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/service_configuration.rst:49
+#: ../docs-ru/4_modules/modules/rest/services/services_files/service_configuration.rst:49
 msgid ""
 "в поле ``stringClassName`` - имя класса получаемых обьектов в данном "
 "случае класс ``class_string@develop-and-test`` будет передан в метод "
 "``getList`` репозитория данных"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:2
 msgid "Встроенный сервис Token"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:4
 msgid ""
 "**Сервис token** предназначен для выдачи токена пользователю, прошедшему "
 "аутентификацию, для его дальнейшего использования в сервисах, "
 "осуществляющих аутентификацию по токену."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:7
 msgid "Доступен по адресу ``<адрес сервера>/rest/token``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:9
 msgid ""
 "Сервис не требует регистрации в deploy.json. Сервис обеспечивает выдачу "
 "токена для авторизованного пользователя, если он имеет права ``use`` для "
 "ресурса ``ws:::gen-ws-token``  или имеет права администратора."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:12
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:12
 msgid ""
 "В ответ на запрос, возвращается токен вида "
 "``e444c69894d2087696e0a6c6914788f67ebcf6ee``. Время жизни токена по "
 "умолчанию 100 лет."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:14
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:14
 msgid "**Пример запроса через аутентификацию типа Basic Auth**"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:21
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:21
 msgid "**Пример запроса  с аутентификацией через параметры в заголовке**"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:27
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:27
 msgid ""
-"**Примеры запросов к сервису token в** `dnt <request_examples.rst>`_: "
-"`test/modules/rest/token.spec.js <https://github.com/iondv/develop-and-"
+"**Примеры запросов к сервису token в** :doc:`dnt "
+"<request/request_examples>`: `test/modules/rest/token.spec.js "
+"<https://github.com/iondv/develop-and-"
 "test/blob/master/test/modules/rest/token.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:36
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:36
 msgid "Права на ресурс"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:38
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:38
 msgid ""
 "Добавить ресурс возможности генерации токенов для роли можно из комадной "
 "строки ``node bin/acl.js --role restGrp --p USE --res ws:::gen-ws-token``"
 " (где restGrp - название существующей группы)"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:41
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:41
 msgid ""
 "Второй способ добавления прав на ресурс - использование консоли "
 "администратора модуля ionadmin, например, по адресу "
 "``locahost:8888/ionadmin/``:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:43
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:43
 msgid "Выберите пункт навигации \"Безопасность\","
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:44
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:44
 msgid "Выберите подпункт навигации \"Роли\""
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:45
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:45
 msgid ""
 "Выберите существующую роль и нажмите кнопку \"редактировать\" или "
 "\"создать новую роль\"."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:46
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:46
 msgid "В поле \"Права доступа\" роли выберите вкладку \"Services\""
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:47
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:47
 msgid ""
 "Раскройте список прав для ресурса \"Генерация токенов безопасности "
 "посредством веб-сервисов (ws:::gen-ws-token)\""
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/token.rst:48
+#: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:48
 msgid "Выбрать пункт \"Использование\" и нажмите кнопку \"Сохранить\""
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_get.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_get.rst:2
 msgid "Получение текущего положения обьекта в бизнес-процессе: GET"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_get.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_get.rst:4
 msgid ""
 "**Методом GET** осуществляется получение текущего положения обьекта в "
 "бизнес-процессах. Запрос осуществляется по пути ``<URL "
 "сервера>/rest/<название сервиса>/<имя класса>/<id объекта>``, пример:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_get.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_get.rst:11
 msgid "В ответ будет получен объект с состояниями бизнес-процессов:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_get.rst:26
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_get.rst:26
 msgid ""
-"Пример ``GET`` запроса к ``workflows`` в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"Пример ``GET`` запроса к ``workflows`` в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/workflows.spec.js <https://github.com/iondv/develop-"
 "and-test/tree/master/test/modules/rest/workflows.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_patch.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_patch.rst:2
 msgid "Перемещение объекта в указанное состояние бизнес-процесса: PATCH"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_patch.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_patch.rst:4
 msgid ""
 "**Методом PATCH** осуществляется принудительное перемещение объекта в "
 "указанные состояния бизнес-процессов. Запрос осуществляется по пути "
@@ -3134,7 +2988,7 @@ msgid ""
 "класса указывается с неймспейсом."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_patch.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_patch.rst:7
 msgid ""
 "В теле запроса передается массив целевых состояний бизнес-процессов, "
 "которые указываются как строки в формате ``<имя "
@@ -3142,143 +2996,143 @@ msgid ""
 "неймспейсом. Объект последовательно перемещается в каждое из состояний."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_patch.rst:21
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_patch.rst:21
 msgid ""
 "В ответ будет возвращен список ошибок, возникших при перемещениях, либо "
 "пустой список."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_patch.rst:23
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_patch.rst:23
 msgid ""
-"Пример ``PATCH`` запроса к ``workflows`` в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"Пример ``PATCH`` запроса к ``workflows`` в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/workflows.spec.js <https://github.com/iondv/develop-"
 "and-test/tree/master/test/modules/rest/workflows.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_put.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:2
 msgid "Выполнение перехода объекта по бизнес-процессу: PUT"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_put.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:4
 msgid ""
 "**Методом PUT** сервиса ``workflows`` осуществляется выполнение переходов"
 " объекта по БП (в том числе последовательных). Запрос осуществляется по "
 "пути ``<URL сервера>/rest/<название сервиса>/<имя класса>/<id объекта>``."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_put.rst:7
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:7
 msgid "Имя класса указывается с неймспейсом."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_put.rst:9
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:9
 msgid "В теле запроса передается один из вариантов:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_put.rst:11
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:11
 msgid ""
 "объект с атрибутами - именами БП, которые содержат список из переходов по"
 " этим бизнес-процессам."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_put.rst:12
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:12
 msgid "список из строк формата ``<имя бизнес-процесса>.<название перехода>``"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_put.rst:14
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:14
 msgid "имена бизнес-процессов указываются с неймспейсом."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_put.rst:29
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:29
 msgid "что равносильно:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_put.rst:40
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:40
 msgid ""
 "Переходы выполняются последовательно. Для каждого перехода будет "
 "предпринята попытка выполнения, даже если в одном из них произошла "
 "ошибка."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_put.rst:42
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:42
 msgid "В ответ будет возвращен список из ошибок по каждому переходу:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_put.rst:55
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:55
 msgid "или пустой список."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_put.rst:57
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:57
 msgid ""
-"Примеры ``PUT`` запросов к ``workflows`` в `dnt "
-"</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+"Примеры ``PUT`` запросов к ``workflows`` в :doc:`dnt "
+"</4_modules/modules/rest/services/services_files/request/request_examples>`:"
 " `test/modules/rest/workflows.spec.js <https://github.com/iondv/develop-"
 "and-test/tree/master/test/modules/rest/workflows.spec.js>`_"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst:2
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:2
 msgid "Сервис исполнения бизнес-процессов Workflows"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst:4
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:4
 msgid ""
 "**Workflows** ``workflows`` - встроенный сервис в rest модуле, который "
 "предоставляет возможности контроля и управления бизнес-процессами."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst:6
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:6
 msgid ""
 "Сервис требует подключения в ``deploy.json`` и обязательного указания "
 "``options.dataRepo``, ``options.metaRepo``, ``options.auth`` и "
 "``options.workflow``, пример:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst:22
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:22
 msgid "Сервис содержит три метода:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst:24
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:24
 msgid ""
 "``GET`` - без параметров, возвращает информацию о текущем статусе в БП "
 "(возможные переходы)"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst:25
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:25
 msgid ""
 "``PUT`` - выполняет перевод обьекта в указанные **следующие** этапы "
 "разных БП."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst:26
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:26
 msgid ""
 "``PATCH`` - выполняет принудительный перевод обьекта в указанные этапы "
 "разных БП."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst:28
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:28
 msgid ""
 "Для всех методов запросы принимаются по пути ``<URL сервера>/rest/<имя "
 "сервиса>/:class/:id`` для идентификации обьекта данных."
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst:31
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:31
 msgid "Спецификация методов:"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst:33
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:40
 msgid ""
-"Получение текущего положения обьекта в бизнес-процессе: `GET "
-"<workflows_get.rst>`_"
+"Получение текущего положения обьекта в бизнес-процессе: :doc:`GET "
+"<workflows_get>`"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst:34
-msgid "Выполнение перехода объекта по бизнес-процессу: `PUT <workflows_put.rst>`_"
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:41
+msgid "Выполнение перехода объекта по бизнес-процессу: :doc:`PUT <workflows_put>`"
 msgstr ""
 
-#: ../docs-ru/4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst:35
+#: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:42
 msgid ""
-"Перемещение объекта в указанное состояние бизнес-процесса: `PATCH "
-"<workflows_patch.rst>`_"
+"Перемещение объекта в указанное состояние бизнес-процесса: :doc:`PATCH "
+"<workflows_patch>`"
 msgstr ""
 
 #: ../docs-ru/4_modules/modules/soap.rst:2
@@ -3362,5 +3216,539 @@ msgid ""
 msgstr ""
 
 #~ msgid "`Oauth2 <#id12>`_"
+#~ msgstr ""
+
+#~ msgid "Модули"
+#~ msgstr ""
+
+#~ msgid "`\\ Registry </4_modules/modules/registry/registry.rst>`_"
+#~ msgstr ""
+
+#~ msgid "`\\ Report </4_modules/modules/report/report.rst>`_"
+#~ msgstr ""
+
+#~ msgid "`\\ Gantt-chart </4_modules/modules/gantt-chart.rst>`_"
+#~ msgstr ""
+
+#~ msgid "`\\ Portal </4_modules/modules/portal.rst>`_"
+#~ msgstr ""
+
+#~ msgid "`\\ Dashboard </4_modules/modules/dashboard.rst>`_"
+#~ msgstr ""
+
+#~ msgid "`\\ Ionadmin </4_modules/modules/admin/admin.rst>`_"
+#~ msgstr ""
+
+#~ msgid "`\\ Account </4_modules/modules/account.rst>`_"
+#~ msgstr ""
+
+#~ msgid "`\\ Soap </4_modules/modules/soap.rst>`_"
+#~ msgstr ""
+
+#~ msgid "`\\ Image-storage </4_modules/modules/image_storage.rst>`_"
+#~ msgstr ""
+
+#~ msgid "`\\ REST </4_modules/modules/rest/rest.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Руководство пользователя по безопасности "
+#~ "находится `здесь <admin_security.rst>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Для того что бы данные из меты "
+#~ "подгружались в модуль дашборда, необходимо "
+#~ "в файле конфигурации приложения "
+#~ "``deploy.json`` добавить следующую секцию, в"
+#~ " раздел ``\"modules\"``\\ :"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Модуль портала (portal)** – модуль, "
+#~ "предназначенный для отображения произвольных "
+#~ "шаблонов данных. Модуль портала выполняет "
+#~ "функцию отображения дизайна различной "
+#~ "информации с помощью языка разметки "
+#~ "*Markdown* и *HTML*."
+#~ msgstr ""
+
+#~ msgid "`DI (treegridController) <registry_treegrid.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Подробнее о фильтрах `здесь "
+#~ "</3_development/functionality/functionality_files/filter.rst>`_."
+#~ msgstr ""
+
+#~ msgid "Cтиль написания компонентов фронт-енда `здесь <registry_code.rst>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Иерархическое представление для коллекций "
+#~ "<https://git.iondv.ru/ION/platform/blob/v1.24/docs/ru/2_system_description/platform_configuration/deploy_modules.md#настройка-иерархического-представления-для-коллекций>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Метаданные модуля отчетов (шахта, навигация)"
+#~ " </3_development/metadata_structure/meta_report/meta_report.rst>`_"
+#~ msgstr ""
+
+#~ msgid "`Замечания при проектировании шахты <report_note.rst>`_"
+#~ msgstr ""
+
+#~ msgid "`Без авторизации <#id5>`_"
+#~ msgstr ""
+
+#~ msgid "`По учетной записи <#id6>`_"
+#~ msgstr ""
+
+#~ msgid "`По токену <#id9>`_"
+#~ msgstr ""
+
+#~ msgid "`Oauth2 <#id13>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Запрос к сервису не будет требовать "
+#~ "аутентификации, пример запроса ``curl "
+#~ "https://dnt.iondv.com/rest/echoo``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пример запроса к сервису без "
+#~ "аутентификации в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/echo.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/blob/master/test/modules/rest/echo.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "пример запроса с авторизацией Basic Auth"
+#~ " в `develop-and-test (dnt) "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/echopwd.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/blob/master/test/modules/rest/echopwd.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "пример запроса с авторизацией учетными "
+#~ "данными в заголовке в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/echopwd.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/blob/master/test/modules/rest/echopwd.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "пример запроса с авторизацией через "
+#~ "токен в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/token.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/blob/master/test/modules/rest/token.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid "подробнее о получении токена: `Получение токена <getting_token.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Прокси-клиент "
+#~ "</4_modules/modules/rest/authorization/proxy_access.rst>`_ для"
+#~ " доступа к функциям модуля без "
+#~ "получения нового токена."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "пример запроса к сервису с авторизацией"
+#~ " oauth2 в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/echooauth.spec.js "
+#~ "<https://github.com/iondv/develop-and-"
+#~ "test/blob/master/test/modules/rest/echooauth.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Вторым способом получения токена является "
+#~ "использование веб-сервиса модуля rest - "
+#~ "``token``. Получить токен можно через "
+#~ "аутентифицированный запрос на адрес "
+#~ "``rest/token``. `Подробнее "
+#~ "</4_modules/modules/rest/services/sevices_files/token.rst>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "пример запроса в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/gateway.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/blob/master/test/modules/rest/gateway.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid "Модуль IONDV. REST"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Авторизация при запросах к сервисам "
+#~ "</4_modules/modules/rest/authorization/authorization.rst>`_"
+#~ msgstr ""
+
+#~ msgid "`Cервисы REST </4_modules/modules/rest/services/services.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Сервис Acceptor "
+#~ "</4_modules/modules/rest/services/sevices_files/acceptor.rst>`_  "
+#~ "-  обеспечивает массовое создание объектов."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Сервис Token "
+#~ "</4_modules/modules/rest/services/sevices_files/token.rst>`_ -"
+#~ " обеспечивает выдачу токена для "
+#~ "авторизованного пользователя."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Сервис CRUD "
+#~ "</4_modules/modules/rest/services/sevices_files/crud/crud.rst>`_ "
+#~ "- сервис CRUD для объектов системы."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Cервис Meta "
+#~ "</4_modules/modules/rest/services/sevices_files/meta/metadata_service.rst>`_"
+#~ " - обеспечивает доступ к интерфейсу "
+#~ "метаданных."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Cервис Workflows "
+#~ "</4_modules/modules/rest/services/sevices_files/workflow/workflows_service.rst>`_"
+#~ " - обеспечивает возможности контролировать "
+#~ "и управлять бизнес-процессами."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Разработка обработчика в приложении - "
+#~ "`подробнее "
+#~ "</4_modules/modules/rest/services/sevices_files/custom_service.rst>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Регистрация сервиса в конфигурации приложения"
+#~ " - `подробнее "
+#~ "</4_modules/modules/rest/services/sevices_files/service_configuration.rst>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Авторизация осуществляется через все основные"
+#~ " `типы доступа "
+#~ "</4_modules/modules/rest/authorization/authorization.rst>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "пример запроса на создание объектов к"
+#~ " сервису acceptor в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/acceptor.spec.js "
+#~ "<https://github.com/iondv/develop-and-"
+#~ "test/blob/master/test/modules/rest/acceptor.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Аутентификация осуществляется через все "
+#~ "основные `типы доступа "
+#~ "</4_modules/modules/rest/authorization/authorization.rst>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пример запроса к сервису crud без "
+#~ "параметров в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/crud.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/blob/master/test/modules/rest/crud.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid "Создание объекта: `метод POST <crud_post.rst>`_"
+#~ msgstr ""
+
+#~ msgid "Получение объекта или списка объектов: `метод GET <crud_get.rst>`_"
+#~ msgstr ""
+
+#~ msgid "Получение объектов `методом SEARCH <crud_search.rst>`_"
+#~ msgstr ""
+
+#~ msgid "Проверка наличия объекта: `метод HEAD <crud_head.rst>`_"
+#~ msgstr ""
+
+#~ msgid "Обновление объекта: `методы PATCH и PUT <crud_patch.rst>`_"
+#~ msgstr ""
+
+#~ msgid "Удаление объекта: `метод DELETE <crud_delete.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Отправка `запросов с файлами "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_with_files.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пример запроса к сервису crud на "
+#~ "удаление объектов в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/crud.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/tree/master/test/modules/rest/crud.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пример запроса к сервису crud для "
+#~ "получения объекта в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/crud.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/tree/master/test/modules/rest/crud.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пример запроса к сервису crud для "
+#~ "получения объекта с жадной загрузкой "
+#~ "свойства \"table\" в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/crud.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/tree/master/test/modules/rest/crud.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пример запроса к сервису crud для "
+#~ "получения списка объектов в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/crud.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/tree/master/test/modules/rest/crud.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пример запроса к сервису crud для "
+#~ "получения списка объектов с различными "
+#~ "параметрами сдвига и фильтрации в `dnt"
+#~ " "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/crud.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/tree/master/test/modules/rest/crud.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пример запроса к сервису crud для "
+#~ "проверки наличия объекта в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/crud.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/tree/master/test/modules/rest/crud.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пример запроса к сервису crud для "
+#~ "обновления объекта в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/crud.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/tree/master/test/modules/rest/crud.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пример запроса к сервису crud для "
+#~ "создания объекта `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/crud.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/tree/master/test/modules/rest/crud.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "В запросе можно указать `дополнительные "
+#~ "параметры <meta_query_parameters.rst>`_:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Этот пример в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/metadatasrv.spec.js "
+#~ "<https://github.com/iondv/develop-and-"
+#~ "test/tree/master/test/modules/rest/metadatasrv.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "В запросе можно указать `дополнительные "
+#~ "параметры <meta_query_parameters.rts>`_:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Этот пример в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/metadatasrv.spec.js "
+#~ "<https://github.com/iondv/develop-and-"
+#~ "test/blob/master/test/modules/rest/metadatasrv.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Поддерживаются все `типы авторизации "
+#~ "</4_modules/modules/rest/authorization/authorization.rst>`_, по"
+#~ " умолчанию - авторизация учетными данными."
+#~ msgstr ""
+
+#~ msgid "Получение информации о классе метаданных: `getMeta <meta_getMeta.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение списка всех классов метаданных: "
+#~ "`listMeta <meta_listMeta.rst>`_"
+#~ msgstr ""
+
+#~ msgid "Получение информации о классе-предке: `ancestor <meta_ancestor.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение информации о свойствах объектов "
+#~ "класса: `propertyMetas <meta_propertyMetas.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение списка секций навигации: "
+#~ "`getNavigationSections <meta_getNavigationSections.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение информации о секции навигации: "
+#~ "`getNavigationSection <meta_getNavigationSection.rst>`_"
+#~ msgstr ""
+
+#~ msgid "Получение информации об узле навигации: `getNode <meta_getNode.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение списка узлов навигации в "
+#~ "секции: `getNodes <meta_getNodes.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение информации о списочной форме "
+#~ "представления объектов класса: `getListViewModel "
+#~ "<meta_getListViewModel.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение информации о форме представления "
+#~ "объектов класса в виде коллекции: "
+#~ "`getCollectionViewModel <meta_getCollectionViewModel.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение информации о форме представления "
+#~ "объектов класса при редактировании: "
+#~ "`getItemViewModel <meta_getItemViewModel.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение информации о форме представления "
+#~ "объектов класса при создании: "
+#~ "`getCreationViewModel <meta_getCreationViewModel.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение информации о форме представления "
+#~ "объектов класса при просмотре: "
+#~ "`getDetailViewModel <meta_getDetailViewModel.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение списка возможных бизнес-процессов "
+#~ "для класса: `getWorkflows <meta_getWorkflows.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение информации о форме представления "
+#~ "объекта класса при некотором состоянии "
+#~ "бизнес-процесса: `getWorkflowView "
+#~ "<meta_getWorkflowView.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение информации о бизнес-процессе класса:"
+#~ " `getWorkflow <meta_getWorkflow.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение информации о маске формы "
+#~ "представления: `getMask <meta_getMask.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение списка доступных валидаторов ввода:"
+#~ " `getValidators <meta_getValidators.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Примеры **POST** запросов с файлами к"
+#~ " ``CRUD`` в `dnt <request_examples.rst>`_: "
+#~ "`test/modules/rest/crud.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/tree/master/test/modules/rest/crud.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Примеры запросов к сервису token в**"
+#~ " `dnt <request_examples.rst>`_: "
+#~ "`test/modules/rest/token.spec.js <https://github.com/iondv"
+#~ "/develop-and-"
+#~ "test/blob/master/test/modules/rest/token.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пример ``GET`` запроса к ``workflows`` в"
+#~ " `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/workflows.spec.js "
+#~ "<https://github.com/iondv/develop-and-"
+#~ "test/tree/master/test/modules/rest/workflows.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пример ``PATCH`` запроса к ``workflows`` "
+#~ "в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/workflows.spec.js "
+#~ "<https://github.com/iondv/develop-and-"
+#~ "test/tree/master/test/modules/rest/workflows.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Примеры ``PUT`` запросов к ``workflows`` "
+#~ "в `dnt "
+#~ "</4_modules/modules/rest/services/sevices_files/request/request_examples.rst>`_:"
+#~ " `test/modules/rest/workflows.spec.js "
+#~ "<https://github.com/iondv/develop-and-"
+#~ "test/tree/master/test/modules/rest/workflows.spec.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Получение текущего положения обьекта в "
+#~ "бизнес-процессе: `GET <workflows_get.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Выполнение перехода объекта по "
+#~ "бизнес-процессу: `PUT <workflows_put.rst>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Перемещение объекта в указанное состояние "
+#~ "бизнес-процесса: `PATCH <workflows_patch.rst>`_"
 #~ msgstr ""
 

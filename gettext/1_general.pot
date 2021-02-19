@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-12 19:15+0000\n"
+"POT-Creation-Date: 2021-02-19 19:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -224,10 +224,10 @@ msgstr ""
 msgid "Обратная связь на `Facebook <https://www.facebook.com/iondv/>`_"
 msgstr ""
 
-#: ../docs-ru/1_general/about.rst:166
+#: ../docs-ru/1_general/about.rst:165
 msgid "`License <https://github.com/iondv/framework/blob/master/LICENSE>`_                              `Contact us <https://iondv.com/portal/contacts>`_                              `English <https://iondv.readthedocs.io/en/latest/index.html>`_"
 msgstr ""
 
-#: ../docs-ru/1_general/about.rst:168
+#: ../docs-ru/1_general/about.rst:167
 msgid "Copyright (c) 2016-2020 **LLC \"ION DV\"**. All rights reserved."
 msgstr ""

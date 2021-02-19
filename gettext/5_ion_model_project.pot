@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-16 19:15+0000\n"
+"POT-Creation-Date: 2021-02-19 19:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../docs-ru/5_ion_model_project/index.rst:2
-msgid "Создание проекта модели ИОН"
+msgid "5. Создание проекта модели ИОН"
 msgstr ""
 
 #: ../docs-ru/5_ion_model_project/ion-environment.rst:2
