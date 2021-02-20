@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2020-05-27 03:43+0000\n"
+"PO-Revision-Date: 2021-02-21 00:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
+"Language-Team: English <http://weblate.iondv.ru/projects/docs/index/en/>\n"
 "Language: en\n"
-"Language-Team: English <http://weblate.iondv.com/projects/docs/index/en/>"
-"\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../docs-ru/index.rst:9
@@ -33,7 +33,7 @@ msgstr "Эта страница на `Русском <https://iondv.readthedocs.
 
 #: ../docs-ru/index.rst:88
 msgid "IONDV. Framework"
-msgstr ""
+msgstr "IONDV. Framework"
 
 #: ../docs-ru/index.rst:91
 msgid "Описание"
@@ -61,7 +61,7 @@ msgstr "Free Demos"
 
 #: ../docs-ru/index.rst:111
 msgid "Посмотрите наши демо уже сейчас:"
-msgstr "For now, we have three demos to show you:"
+msgstr "Check out our demo apps right now:"
 
 #: ../docs-ru/index.rst:113
 #, fuzzy
@@ -166,11 +166,13 @@ msgstr ""
 
 #: ../docs-ru/index.rst:131
 msgid "автоматизация бизнес-процессов организации и документооборота;"
-msgstr ""
+msgstr "company workflows and document management automatization;"
 
 #: ../docs-ru/index.rst:132
 msgid "сбор и хранение любых данных, например метрик оборудования (IoT);"
 msgstr ""
+"collecting and storing any data, for example equipment metrics tracking "
+"(IoT);"
 
 #: ../docs-ru/index.rst:133
 msgid "представление данных в виде порталов;"
@@ -986,4 +988,3 @@ msgstr ""
 #~ "поведение приложение. Например можно создать"
 #~ " приложения"
 #~ msgstr ""
-
