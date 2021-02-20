@@ -4,23 +4,26 @@
 # docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-02-21 00:10+0000\n"
+"Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
+"Language-Team: English <http://weblate.iondv.ru/projects/docs/1_general/en/>"
+"\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../docs-ru/1_general/about.rst:54
 msgid "1. О IONDV. Framework"
-msgstr ""
+msgstr "1. About IONDV. Framework"
 
 #: ../docs-ru/1_general/about.rst:56
 msgid ""
@@ -33,18 +36,25 @@ msgid ""
 "<https://github.com/iondv/registry>`_ является универсальным средством "
 "представления и редактирования данных, обработки их по бизнес-процессам."
 msgstr ""
+"IONDV. Framework is an node.js opensource framework for developping data "
+"accounting applications and functional modules based on JSON/YAML metadata. "
+"Visual constructor `IONDV. Studio <https://studio.iondv.com>`_ allows you to "
+"create applications with \"no code\" and build applications using REST-API "
+"web-services (module `rest <https://github.com/iondv/rest>`_). The basic "
+"module `registry <https://github.com/iondv/registry>`_ is a universal tool "
+"for viewing and editing data, processing it according to workflows."
 
 #: ../docs-ru/1_general/about.rst:62
 msgid "На видео технология разработки и сборки приложения"
-msgstr ""
+msgstr "See the video for the application development and building process"
 
 #: ../docs-ru/1_general/about.rst:70
 msgid "Бесплатные demo-версии"
-msgstr ""
+msgstr "Free demo apps"
 
 #: ../docs-ru/1_general/about.rst:72
 msgid "Посмотрите наши демо уже сейчас:"
-msgstr ""
+msgstr "Check out our demo apps right now:"
 
 #: ../docs-ru/1_general/about.rst:74
 msgid ""
@@ -56,6 +66,12 @@ msgid ""
 "помощью IONDV. Studio. См. на `GitHub "
 "<https://github.com/iondv/studio>`_."
 msgstr ""
+"`Studio <https://studio.iondv.com/index>`_ is a specialized IDE, created as "
+"an iondv application for visual (no code) development of IONDV.Framework "
+"applications. `Tutorial <https://github.com/iondv/nutrition-tickets/blob/"
+"master/tutorial/en/index.md>`_ and `video <https://www.youtube.com/"
+"watch?v=e201ko9fkQ8>`_ on creating an application using IONDV. Studio. See "
+"on `GitHub <https://github.com/iondv/studio>`_."
 
 #: ../docs-ru/1_general/about.rst:75
 msgid ""
@@ -64,6 +80,10 @@ msgid ""
 "сотовая связь, телевидение, почта и др.) в населенных пукнтах региона. "
 "См. на `GitHub <https://github.com/iondv/telecom-ru>`_"
 msgstr ""
+"`Telecom <https://telecom-ru.iondv.com>`_ is an application for accounting, "
+"storing and viewing data on the availability of communications (internet, "
+"cellular, TV, post offices etc.) in different localities. See on `GitHub "
+"<https://github.com/iondv/telecom-ru>`_"
 
 #: ../docs-ru/1_general/about.rst:77
 msgid ""
@@ -73,6 +93,11 @@ msgid ""
 "\"коллекция\". Это позволяет изучать возможности фреймворка через "
 "приложение. См. на `GitHub <github.com/iondv/develop-and-test>`_."
 msgstr ""
+"`DNT <https://dnt.iondv.com/>`_ is an application for developping and "
+"testing the framework functionality, in which every accounting entity "
+"represents the type of data, for example the \"string\" class or the "
+"\"collection\" class. It allows to explore the framework's features through "
+"the app. See on `GitHub <github.com/iondv/develop-and-test>`_."
 
 #: ../docs-ru/1_general/about.rst:78
 msgid ""
@@ -82,6 +107,11 @@ msgid ""
 "архивные документы, внести информацию в базу и обеспечить к ним свободный"
 " доступ. См. на `GitHub <https://github.com/iondv/war-archive>`_."
 msgstr ""
+"`War Archive <https://war-archive.iondv.com/portal/index>`_ is a software "
+"solution based on the IONDV. Framework, developped for the project \"Remember"
+" everyone\" which aims to digitize the archive documents, upload them to the "
+"database and allow everyone access to them. See on `GitHub <https://github."
+"com/iondv/war-archive>`_."
 
 #: ../docs-ru/1_general/about.rst:79
 msgid ""
@@ -92,6 +122,12 @@ msgid ""
 "финансовых ресурсов, принятие своевременных и обоснованных управленческих"
 " решений. См. на `GitHub <https://github.com/iondv/pm-gov-ru>`_"
 msgstr ""
+"`Project Management <https://pm-gov-ru.iondv.com>`_ is an application for "
+"the management of project activities of the regional authorities aiming to "
+"control the results of the activities, fitting and diminishing the terms of "
+"their accomplishment; effective usage of time, human and financial resources;"
+" making up-to-date and justified management solutions. See on `GitHub "
+"<https://github.com/iondv/pm-gov-ru>`_"
 
 #: ../docs-ru/1_general/about.rst:80
 msgid ""
@@ -100,16 +136,20 @@ msgid ""
 "бизнес-данных (входящие заявки, звонки, посетители, продукция, услуги). "
 "См. на `GitHub <https://github.com/iondv/crm-ru>`_"
 msgstr ""
+"`CRM <https://crm-ru.iondv.com>`_ is a software solution developed for "
+"registring, accounting, storing and viewing buisness data (such as requests, "
+"incoming calls, clients, product, services and so on ). See on`GitHub "
+"<https://github.com/iondv/crm-ru>`_"
 
 #: ../docs-ru/1_general/about.rst:82
 msgid ""
 "Логин для доступа - **demo**, пароль - **ion-demo**. Регистрация не "
 "требуется."
-msgstr ""
+msgstr "Login: **demo**, password: **ion-demo**. No signing up required."
 
 #: ../docs-ru/1_general/about.rst:86
 msgid "Типовые приложения"
-msgstr ""
+msgstr "Standard applications"
 
 #: ../docs-ru/1_general/about.rst:88
 msgid ""
@@ -117,22 +157,27 @@ msgid ""
 "преметная область определяется структурой метаданных, описывающих "
 "поведение приложение. Например, можно создать приложения:"
 msgstr ""
+"IONDV. Framework is a wide range web-applications constructor as the subject "
+"area is defined by the metadata structure. For example, applications such as "
+"following may be created:"
 
 #: ../docs-ru/1_general/about.rst:91
 msgid "CRM - управление отношениями с клиентами;"
-msgstr ""
+msgstr "CRM for the clients relationships management;"
 
 #: ../docs-ru/1_general/about.rst:92
 msgid "учет и управление ресурсами предприятия;"
-msgstr ""
+msgstr "accounting and managing the company resources;"
 
 #: ../docs-ru/1_general/about.rst:93
 msgid "автоматизация бизнес-процессов организации и документооборота;"
-msgstr ""
+msgstr "company workflows and document management automatization;"
 
 #: ../docs-ru/1_general/about.rst:94
 msgid "сбор и хранение любых данных, например метрик оборудования (IoT);"
 msgstr ""
+"collecting and storing any data, for example equipment metrics tracking "
+"(IoT);"
 
 #: ../docs-ru/1_general/about.rst:95
 msgid "представление данных в виде порталов;"
@@ -208,17 +253,17 @@ msgstr ""
 
 #: ../docs-ru/1_general/about.rst:128
 msgid "**IONDV. Framework** обеспечивает реализацию следующей функциональности:"
-msgstr ""
+msgstr "**IONDV. Framework** provides the following functionality:"
 
 #: ../docs-ru/1_general/about.rst:130
 msgid ""
 "обеспечение трансляции описательных метаданных в структуру хранения "
 "данных в СУБД;"
-msgstr ""
+msgstr "descriptive metadata into the data storage structure in the DBMS;"
 
 #: ../docs-ru/1_general/about.rst:131
 msgid "обеспечение функциональности работы с различными СУБД (ORM технологию);"
-msgstr ""
+msgstr "functionality to work with various DBMS (ORM technology);"
 
 #: ../docs-ru/1_general/about.rst:132
 msgid ""
@@ -227,6 +272,9 @@ msgid ""
 "модулей библиотеки passport обеспечивает до 500 различных политик "
 "авторизации;"
 msgstr ""
+"authorization in a system with different policies, by default oath2, with an "
+"open, configurable API for connecting passport library authorization modules "
+"which provides up to 500 different authorization policies;"
 
 #: ../docs-ru/1_general/about.rst:133
 msgid ""
@@ -327,4 +375,3 @@ msgstr ""
 #: ../docs-ru/1_general/about.rst:167
 msgid "Copyright (c) 2016-2020 **LLC \"ION DV\"**. All rights reserved."
 msgstr ""
-
