@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-02-21 00:10+0000\n"
+"PO-Revision-Date: 2021-02-27 05:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/index/en/>\n"
 "Language: en\n"
@@ -176,11 +176,11 @@ msgstr ""
 
 #: ../docs-ru/index.rst:133
 msgid "представление данных в виде порталов;"
-msgstr ""
+msgstr "representation of data in the form of portals;"
 
 #: ../docs-ru/index.rst:134
 msgid "REST-API для SPA приложений;"
-msgstr ""
+msgstr "REST-API for SPA applications;"
 
 #: ../docs-ru/index.rst:135
 msgid "REST-API и бекграунд для мобильных приложений;"
@@ -188,7 +188,7 @@ msgstr ""
 
 #: ../docs-ru/index.rst:138
 msgid "Функциональные возможности"
-msgstr "Top features"
+msgstr "Functional features"
 
 #: ../docs-ru/index.rst:140
 msgid "**IONDV. Framework** обеспечивает реализацию следующей функциональности:"
@@ -237,15 +237,15 @@ msgid ""
 "подключение модулей, обеспечивающих дополнительную функциональность и "
 "реализуемую через доступ к интерфейсам (API) ядра;"
 msgstr ""
-"connection of modules providing additional functionality and implemented "
-"through access to the kernel interfaces (APIs);"
+"connecting modules that provide additional functionality and are implemented "
+"through access to the kernel interfaces (APIs) ;"
 
 #: ../docs-ru/index.rst:147
 msgid ""
 "обеспечение импорта, экспорта данных в системе, метаданных, безопасности "
 "из файлов;"
 msgstr ""
-"providing import, export of data in the system, metadata, security from "
+"providing import, export of data in the system, metadata and security from "
 "files;"
 
 #: ../docs-ru/index.rst:148
@@ -270,11 +270,11 @@ msgstr "caching requests and sessions in memcached, redis;"
 
 #: ../docs-ru/index.rst:152
 msgid "выполнение задач по расписанию;"
-msgstr "scheduled tasks;"
+msgstr "scheduled jobs;"
 
 #: ../docs-ru/index.rst:153
 msgid "уведомление пользователей по событиям."
-msgstr "notification of users by events."
+msgstr "notifying users about events."
 
 #: ../docs-ru/index.rst:156
 #, fuzzy
@@ -733,7 +733,7 @@ msgstr ""
 
 #: ../docs-ru/index.rst:309
 msgid "Ссылки"
-msgstr "Reference"
+msgstr "Links"
 
 #: ../docs-ru/index.rst:311
 msgid ""
@@ -745,7 +745,7 @@ msgstr ""
 
 #: ../docs-ru/index.rst:313
 msgid "`Документация <https://iondv.readthedocs.io/ru/latest/index.html>`_"
-msgstr "`Documentations https://iondv.readthedocs.io/en/latest/index.html>`_"
+msgstr "`Documentation https://iondv.readthedocs.io/en/latest/index.html>`_"
 
 #: ../docs-ru/index.rst:314
 msgid "`Домашняя страница фреймворка <https://iondv.com/>`_"
