@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-02-21 00:10+0000\n"
+"PO-Revision-Date: 2021-02-27 05:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/1_general/en/>"
 "\n"
@@ -181,33 +181,37 @@ msgstr ""
 
 #: ../docs-ru/1_general/about.rst:95
 msgid "представление данных в виде порталов;"
-msgstr ""
+msgstr "representation of data in the form of portals;"
 
 #: ../docs-ru/1_general/about.rst:96
 msgid "REST-API для SPA приложений;"
-msgstr ""
+msgstr "REST-API for SPA applications;"
 
 #: ../docs-ru/1_general/about.rst:97
 msgid "REST-API и бэкграунд для мобильных приложений;"
-msgstr ""
+msgstr "REST-API and background for mobile apps;"
 
 #: ../docs-ru/1_general/about.rst:100
 msgid "Структура фреймворка"
-msgstr ""
+msgstr "The structure of the framework"
 
 #: ../docs-ru/1_general/about.rst:102
 msgid ""
 "Схема приложения на основе фреймворка: ``core + metadata + modules = "
 "application``"
 msgstr ""
+"The framework-based application schema: ``core + metadata + modules = "
+"application``"
 
 #: ../docs-ru/1_general/about.rst:111
 msgid "На рисунке отражены компоненты:"
-msgstr ""
+msgstr "The following components are shown at the figure:"
 
 #: ../docs-ru/1_general/about.rst:113
 msgid "**ION Core** - это ядро приложения в виде IONDV. фреймворка;"
 msgstr ""
+"**ION Core** is the core of the application in the form of the IONDV. "
+"Framework;"
 
 #: ../docs-ru/1_general/about.rst:114
 msgid ""
@@ -216,12 +220,17 @@ msgid ""
 " представления, навигации, бизнес-процессов и безопасности "
 "соответственно;"
 msgstr ""
+"**meta class**, **meta view**, **meta navigation**, **meta workflow**, **"
+"meta security** are the functional metadata of the application's structures, "
+"views, navigations, workflows and security respectively;"
 
 #: ../docs-ru/1_general/about.rst:115
 msgid ""
 "**registry module** - отражает подключаемые функциональные модули, "
 "например модуль registry для просмотра и редактирования данных;"
 msgstr ""
+"**registry module** shows the plug-in functional modules, for example the "
+"Registry module for data viewing and editing;"
 
 #: ../docs-ru/1_general/about.rst:117
 msgid ""
@@ -230,6 +239,9 @@ msgid ""
 "соответствии со спецификой приложения. Зависимости приложения "
 "представлены в файле ``package.json``."
 msgstr ""
+"Below are additional meta types and modules. They bring additional "
+"functionality and are applied accordingly with the application specifics. "
+"The application dependencies are represented in the ``package.json`` file."
 
 #: ../docs-ru/1_general/about.rst:119
 msgid ""
@@ -239,6 +251,11 @@ msgid ""
 "примеры на `Github <https://github.com/search?q=org%3Aiondv+iondv-"
 "app&type=Repositories>`_ ."
 msgstr ""
+"The application is a meta-description of its behaviour in the files of the "
+"JSON (YAML) formats + functional code + HTML templates, expanding standard "
+"functionality -> it's comfortable to work with using git version repository. "
+"See the examples at `Github <https://github.com/search?q=org%3Aiondv+iondv-"
+"app&type=Repositories>`_ ."
 
 #: ../docs-ru/1_general/about.rst:122
 msgid ""
@@ -246,10 +263,13 @@ msgid ""
 " модулей в `документации "
 "<https://iondv.readthedocs.io/ru/latest/key_features.html>`_."
 msgstr ""
+"More details on functional features of the IONDV. Framework and its modules "
+"in `documentation <https://iondv.readthedocs.io/ru/latest/key_features."
+"html>`_."
 
 #: ../docs-ru/1_general/about.rst:126
 msgid "Функциональные возможности"
-msgstr ""
+msgstr "Functional features"
 
 #: ../docs-ru/1_general/about.rst:128
 msgid "**IONDV. Framework** обеспечивает реализацию следующей функциональности:"
@@ -286,48 +306,60 @@ msgid ""
 "исключения в авторизации и безопасности по url или для специального "
 "пользователя;"
 msgstr ""
+"securing access to data - static securing to data types, to navigation, to "
+"stages of business processes, to actions on a form; dynamic securing- "
+"through the conditions in the data that the profile of the current user must "
+"correspond to (belonging to the unit or organization specified in the "
+"object, group or other conditions); through url; providing exceptions in "
+"authorization and security by url or for a special user;"
 
 #: ../docs-ru/1_general/about.rst:134
 msgid ""
 "подключение модулей, обеспечивающих дополнительную функциональность и "
 "реализуемую через доступ к интерфейсам (API) ядра;"
 msgstr ""
+"connecting modules that provide additional functionality and are implemented "
+"through access to the kernel interfaces (APIs) ;"
 
 #: ../docs-ru/1_general/about.rst:135
 msgid ""
 "обеспечение импорта, экспорта данных в системе, метаданных, безопасности "
 "из файлов;"
 msgstr ""
+"providing import, export of data in the system, metadata and security from "
+"files;"
 
 #: ../docs-ru/1_general/about.rst:136
 msgid ""
 "обеспечение взаимодействия с файловой системой для хранения данных, в том"
 " числе с внешними файловыми хранилищами, такими как nextcloud;"
 msgstr ""
+"providing interaction with the file system for storing data, including "
+"external file storages, such as nextcloud;"
 
 #: ../docs-ru/1_general/about.rst:137
 msgid "расчет значения с формулами и кэширование этих данных;"
-msgstr ""
+msgstr "calculating values with formulas and caching this data;"
 
 #: ../docs-ru/1_general/about.rst:138
 msgid "обеспечение жадной загрузки данных и их фильтрации в связанных коллекциях;"
-msgstr ""
+msgstr "providing eager loading and data filtering in connected collections;"
 
 #: ../docs-ru/1_general/about.rst:139
 msgid "кэширование запросов и сессий в memcached, redis;"
-msgstr ""
+msgstr "caching requests and sessions in memcached, redis;"
 
 #: ../docs-ru/1_general/about.rst:140
 msgid "выполнение задач по расписанию;"
-msgstr ""
+msgstr "scheduled jobs;"
 
 #: ../docs-ru/1_general/about.rst:141
 msgid "уведомление пользователей по событиям."
-msgstr ""
+msgstr "notifying users about events."
 
 #: ../docs-ru/1_general/about.rst:147
 msgid "Документация"
-msgstr ""
+msgstr "Documentation"
 
 #: ../docs-ru/1_general/about.rst:149
 msgid ""
@@ -335,34 +367,41 @@ msgid ""
 "`русский <https://iondv.readthedocs.io/ru/latest/index.html>`_ и `english"
 " <https://iondv.readthedocs.io/en/latest/index.html>`_."
 msgstr ""
+"The IONDV.Framework documentation is available in two languages — `english "
+"<https://iondv.readthedocs.io/en/latest/index.html>`_ and `russian "
+"<https://iondv.readthedocs.io/ru/latest/index.html>`_."
 
 #: ../docs-ru/1_general/about.rst:152
 msgid "Ссылки"
-msgstr ""
+msgstr "Links"
 
 #: ../docs-ru/1_general/about.rst:154
 msgid ""
 "Ссылки на дополнительную информацию по разработке приложений с "
 "использованием IONDV. Framework."
 msgstr ""
+"Links to the additional information on web application development using the "
+"IONDV. Framework."
 
 #: ../docs-ru/1_general/about.rst:156
 msgid "`Документация <https://iondv.readthedocs.io/ru/latest/index.html>`_"
-msgstr ""
+msgstr "`Documentation https://iondv.readthedocs.io/en/latest/index.html>`_"
 
 #: ../docs-ru/1_general/about.rst:157
 msgid "`Web-сайт <https://iondv.com/>`_"
-msgstr ""
+msgstr "`Web site <https://iondv.com/>`_"
 
 #: ../docs-ru/1_general/about.rst:158
 msgid ""
 "Обучающие видеоролики на `Youtube <https://www.youtube.com/channel"
 "/UC_r2CGcOTfuV-7AXl6MwOqw>`_"
 msgstr ""
+"Video tutorials on `Youtube <https://www.youtube.com/channel/UC_r2CGcOTfuV-"
+"7AXl6MwOqw>`_"
 
 #: ../docs-ru/1_general/about.rst:159
 msgid "Обратная связь на `Facebook <https://www.facebook.com/iondv/>`_"
-msgstr ""
+msgstr "Feedback on `Facebook <https://www.facebook.com/iondv/>`_"
 
 #: ../docs-ru/1_general/about.rst:165
 msgid ""
@@ -371,7 +410,11 @@ msgid ""
 "<https://iondv.com/portal/contacts>`_                              "
 "`English <https://iondv.readthedocs.io/en/latest/index.html>`_"
 msgstr ""
+"`License <https://github.com/iondv/framework/blob/master/LICENSE>`"
+"_                              `Contact us <https://iondv.com/portal/"
+"contacts>`_                              `English <https://iondv.readthedocs."
+"io/en/latest/index.html>`_"
 
 #: ../docs-ru/1_general/about.rst:167
 msgid "Copyright (c) 2016-2020 **LLC \"ION DV\"**. All rights reserved."
-msgstr ""
+msgstr "Copyright (c) 2016-2020 **LLC \"ION DV\"**. All rights reserved."
