@@ -4,18 +4,21 @@
 # docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-02-27 05:10+0000\n"
+"Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
+"Language-Team: English <http://weblate.iondv.ru/projects/docs/3_development/"
+"en/>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils.rst:8
@@ -6062,7 +6065,7 @@ msgstr ""
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types/type_reference13.rst:2
 msgid "Ссылки"
-msgstr ""
+msgstr "Links"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types/type_reference13.rst:7
 msgid ""
@@ -11972,4 +11975,3 @@ msgstr ""
 #: ../docs-ru/3_development/platform_configuration/platform_configuration.rst:2
 msgid "Конфигурация платформы"
 msgstr ""
-
