@@ -4,85 +4,97 @@
 # docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-02-27 05:10+0000\n"
+"Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
+"Language-Team: English <http://weblate.iondv.ru/projects/docs/"
+"2_getting_started/en/>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../docs-ru/2_getting_started/how deploy.rst:2 to
 msgid "Как развернуть"
-msgstr ""
+msgstr "How to deploy"
 
 #: ../docs-ru/2_getting_started/how deploy.rst:13 to
 msgid ""
 "В данном разделе - о том, как развернуть систему. Для развертывания "
 "системы необходимо выполнить несколько шагов."
 msgstr ""
+"This section explains how to deploy the system. Several steps are required "
+"to deploy the system."
 
 #: ../docs-ru/2_getting_started/how
 #: ../docs-ru/2_getting_started/quickstart/3_docker_container.rst:9
 #: deploy.rst:17 to
 msgid "Шаги"
-msgstr ""
+msgstr "Steps"
 
 #: ../docs-ru/2_getting_started/how deploy.rst:19 to
 msgid ":doc:`Установка окружения <how_to_deploy/1_install_environment>`"
-msgstr ""
+msgstr ":doc:`Environment Setup <how_to_deploy/1_install_environment>`"
 
 #: ../docs-ru/2_getting_started/how deploy.rst:20 to
 msgid ""
 ":doc:`Установка ядра, модулей и приложения "
 "<how_to_deploy/2_core_modules_app>`"
 msgstr ""
+":doc:`Install core, modules and application <how_to_deploy/"
+"2_core_modules_app>`"
 
 #: ../docs-ru/2_getting_started/how deploy.rst:21 to
 msgid ":doc:`Сборка и запуск приложения <how_to_deploy/3_build_and_run>`"
-msgstr ""
+msgstr ":doc:`Build and Run application <how_to_deploy/3_build_and_run>`"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:2
 msgid "Шаг 1 Установка окружения"
-msgstr ""
+msgstr "Step 1 Environment Setup"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:4
 msgid "**Окружение** - это список программ необходимых для запуска."
-msgstr ""
+msgstr "**Environment** is a list of programs required to start."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:6
 msgid ""
 "Окружение, необходимое для запуска платформы IONDV. Framework с "
 "приложениями:"
 msgstr ""
+"Environment required for launching the IONDV. Framework with applications:"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:8
 msgid "СУБД `MongoDb <https://www.mongodb.org/>`_ версии 3.6."
-msgstr ""
+msgstr "DBMS `MongoDb <https://www.mongodb.org/>`_ version 3.6."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:9
 msgid "Среда разработки `Node.js <https://nodejs.org/en/>`_ версии 10.x.x."
 msgstr ""
+"Development environment `Node.js <https://nodejs.org/en/>`_ version 10.x.x."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:12
 msgid "СУБД"
-msgstr ""
+msgstr "DBMS"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:14
 msgid ""
 "Необходимо установить СУБД `MongoDB <https://www.mongodb.org/>`_. "
 "Проверенная версия ``3.6.9`` и ``4.0.0``."
 msgstr ""
+"DBMS installation required `MongoDB <https://www.mongodb.org/>`_. Verified "
+"version ``3.6.9`` and ``4.0.0``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:16
 msgid "Далее создаем папку ``data`` на диске C: и в ней подпапку ``db``."
 msgstr ""
+"Then create folder ``data`` on the C: drive and a subfolder ``db``in it."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:18
 msgid ""
@@ -92,42 +104,53 @@ msgid ""
 "тогда файл ``mongod.exe`` необходимо запустить с параметром ``--dbpath`` "
 "после которого указать путь к каталогу."
 msgstr ""
+"For launching the database move to the folder of the ``MongoDb``\\ location, "
+"then to the ``server\\bin`` folder and launch the file ``mongod.exe``. If "
+"you need to use the DB catalog different from ``c:\\data\\db``\\ , then the "
+"file ``mongod.exe`` should be launched with the parameter ``--dbpath`` + "
+"path to the folder."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:23
 msgid "Среда выполнения Node.js"
-msgstr ""
+msgstr "Node.js runtime environment"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:25
 msgid ""
 "**Node.js** - является средой, в которой осуществляется выполнение "
 "компонентов."
-msgstr ""
+msgstr "**Node.js** is an environment in which the components are executed."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:27
 msgid ""
 "Необходимо установить среду разработки `Node.js <https://nodejs.org/>`_. "
 "Проверенная версия node.JS ``10.14.2``."
 msgstr ""
+"`Node.js <https://nodejs.org/>`_ runtime environment setup required. "
+"Verified version node.JS ``10.14.2``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:29
 msgid ""
 "По умолчанию установщик сам прописывает пути к Node.js в PATH, а также "
 "устанавливает менеджер пакетов ``npm``."
 msgstr ""
+"By default, the installer prescribes the paths to the Node.js in PATH, and "
+"also installs the ``npm`` package manager."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:32
 msgid "Установка глобальных зависимостей"
-msgstr ""
+msgstr "Install global dependencies"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:34
 msgid ""
 "Установливайте глобальные зависимости в командной строке ``cmd.exe``\\ , "
 "запущенной от имени администратора, после установки ``node.js``."
 msgstr ""
+"Install global dependencies using ``cmd.exe``\\ command prompt ran as "
+"administrator, after installation of ``node.js``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:36
 msgid "**NB:** команда ``node -v`` - показывает версию node.js."
-msgstr ""
+msgstr "**NB:** command ``node -v`` will show the node.js version."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:39
 msgid "Установка среды сборки под Windows"
@@ -641,7 +664,7 @@ msgstr ""
 #: ../docs-ru/2_getting_started/quickstart.rst:26
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:167
 msgid "Ссылки"
-msgstr ""
+msgstr "Links"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:28
 msgid ""
@@ -651,7 +674,7 @@ msgstr ""
 
 #: ../docs-ru/2_getting_started/quickstart.rst:30
 msgid "`Документация <https://iondv.readthedocs.io/ru/latest/index.html>`_"
-msgstr ""
+msgstr "`Documentation https://iondv.readthedocs.io/en/latest/index.html>`_"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:31
 msgid "`Домашняя страница фреймворка <https://iondv.com/>`_"
@@ -659,7 +682,7 @@ msgstr ""
 
 #: ../docs-ru/2_getting_started/quickstart.rst:32
 msgid "Обратная связь на `Facebook <https://www.facebook.com/iondv/>`_"
-msgstr ""
+msgstr "Feedback on `Facebook <https://www.facebook.com/iondv/>`_"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:33
 msgid ""
@@ -1857,4 +1880,3 @@ msgid ""
 "Проверить можно командой ``docker images | grep node`` - будет отображён "
 "спискок локальных образов node."
 msgstr ""
-
