@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-02-27 05:10+0000\n"
+"PO-Revision-Date: 2021-03-02 07:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/"
 "2_getting_started/en/>\n"
@@ -154,7 +154,7 @@ msgstr "**NB:** command ``node -v`` will show the node.js version."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:39
 msgid "Установка среды сборки под Windows"
-msgstr ""
+msgstr "Environment Setup for Windows"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:41
 msgid ""
@@ -162,6 +162,9 @@ msgid ""
 "gyp>`_ командой ``npm install -g node-gyp`` необходимый для сборки "
 "различных библиотек."
 msgstr ""
+"Install globally the package `node-gyp <https://github.com/nodejs/node-gyp>`"
+"_ required to build various libraries using command ``npm install -g node-"
+"gyp``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:43
 msgid ""
@@ -169,10 +172,13 @@ msgid ""
 "дополнительно необходимо установить пакет windows-build-tools - ``npm "
 "install -g --production windows-build-tools``."
 msgstr ""
+"To run the library under the Windows operating system, you must additionally "
+"install the windows-build-tools package ``npm install -g --production "
+"windows-build-tools``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:46
 msgid "Пакет сборщика проектов"
-msgstr ""
+msgstr "Project builder package"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:48
 msgid ""
@@ -180,10 +186,13 @@ msgid ""
 "используется `Gulp <http://gulpjs.com/>`_. Установите глобально командой "
 "``npm install -g gulp@4.0``. ``4.0`` - поддерживаемая версия ``Gulp``."
 msgstr ""
+"To organize testing and build distributions during development `Gulp "
+"<http://gulpjs.com/>`_ is used. Install globally using command ``npm install "
+"-g gulp@4.0``. ``4.0`` is a supported version of ``Gulp``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:51
 msgid "Установщик фронтенд библиотек"
-msgstr ""
+msgstr "Frontend libraries installer"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/1_install_environment.rst:53
 msgid ""
@@ -191,48 +200,55 @@ msgid ""
 "<https://bower.io>`_. Установите глобально командой ``npm install -g "
 "bower``."
 msgstr ""
+"To install frontend libraries, use`bower <https://bower.io>`_. Install "
+"globally using command ``npm install -g bower``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:2
 msgid "Шаг 2 Установка ядра, модулей и приложения"
-msgstr ""
+msgstr "Step 2 Install core, modules and application"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:5
 msgid "Клонирование приложения и его компонентов"
-msgstr ""
+msgstr "Clone application and its components"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:7
 msgid ""
 "**NB:** пути не должны содержать русских букв и пробелов. Мы советуем "
 "размещать приложение в ``c:\\workspace``."
 msgstr ""
+"**NB:** paths should not contain Russian letters and spaces. We recommend "
+"that you place your application in ``c:\\workspace``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:9
 msgid ""
 "Рассматриваем формирование проекта с модулями на примере приложения "
 "``develop-and-test``."
 msgstr ""
+"Let's examine the creating a project with modules using the ``develop-and-"
+"test`` application as an example."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:11
 msgid ""
 "Находим приложение в репозитории github. Набираем искомое приложение "
 "``develop-and-test`` в поле поиска и переходим на него."
 msgstr ""
+"Find the application on github. Search for ``develop-and-test`` and click it."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:13
 msgid "Переходим в репозиторий файлов на ветку версии."
-msgstr ""
+msgstr "Go to the file repository on the version branch."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:15
 msgid "Открываем файл ``package.json`` в котором смотрим зависимости."
-msgstr ""
+msgstr "Open ``package.json`` file to check the dependencies."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:35
 msgid "``engines\": \"ion\": 3.0.0`` - версия ядра ``3.0.0``."
-msgstr ""
+msgstr "``engines\": \"ion\": 3.0.0`` - version of the core ``3.0.0``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:37
 msgid "``ionModulesDependencies`` - список модулей и их версий."
-msgstr ""
+msgstr "``ionModulesDependencies`` - list of modules and their versions."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:39
 msgid ""
@@ -240,16 +256,20 @@ msgid ""
 "проекта, в данном случае исключение ``viewlib`` - библиотека "
 "представлений."
 msgstr ""
+"``ionMetaDependencies`` - list of other metadata required for the project; "
+"in this case the ``viewlib``exception is a view library."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:41
 msgid ""
 "**NB:** для переключения на tag номера версии - смотрите версии в файле "
 "``package.json``."
 msgstr ""
+"**NB:** to switch to tag version number, see versions in ``package.json`` "
+"file."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:44
 msgid "Получение репозитория ядра"
-msgstr ""
+msgstr "Getting repository of the core"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:46
 msgid ""
@@ -257,10 +277,13 @@ msgid ""
 "<https://github.com/iondv/framework>`_. На главной странице есть поле с "
 "путем к репозиторию."
 msgstr ""
+"The core is located in the repository `framework <https://github.com/iondv/"
+"framework>`_. The field containing the path to the repository is at the main "
+"page."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:48
 msgid "Запустите командную строку от имени администратора."
-msgstr ""
+msgstr "Run the command prompt as Administrator."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:50
 msgid ""
@@ -269,14 +292,18 @@ msgid ""
 "https://github.com/iondv/framework``. Эта команда создает папку "
 "``framework`` и в неё клонирует репозиторий."
 msgstr ""
+"Copy the repository path, go to the workspace folder using command ``cd c:"
+"\\workspace`` and run ``git clone https://github.com/iondv/framework``. The "
+"command will create the ``framework`` folder and clone the repository into "
+"it."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:53
 msgid "Получение модулей"
-msgstr ""
+msgstr "Getting Modules"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:55
 msgid "Переходим в папку модулей командой ``cd framework\\modules``."
-msgstr ""
+msgstr "Go to the modules flofer using command ``cd framework\\modules``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:57
 msgid ""
@@ -284,12 +311,17 @@ msgid ""
 "``ionModulesDependencies`` - находим репозиторий модуля среди группы "
 "модулей ``https://github.com/iondv/ION-MODULES``."
 msgstr ""
+"For each module from the ``package.json`` list in the "
+"``ionModulesDependencies`` property find the module repository among the "
+"group of modules``https://github.com/iondv/ION-MODULES``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:59
 msgid ""
 "Клонируйте все модули из списка ``ionModulesDependencies`` командой ``git"
 " clone https://github.com/iondv/registry``."
 msgstr ""
+"Clone all the modules from the ``ionModulesDependencies`` list using command "
+"``git clone https://github.com/iondv/registry``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:61
 msgid ""
@@ -297,20 +329,25 @@ msgid ""
 "версии ``git checkout tags/v1.27.1``. Например ``1.27.1`` - это номер "
 "версии модуля ``registry``."
 msgstr ""
+"Go to the folder of the installed module, switch to thetag version number ``"
+"git checkout tags/v1.27.1``. For example ``1.27.1`` is a number of "
+"``registry`` module version."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:63
 msgid "Повторите для всех модулей."
-msgstr ""
+msgstr "Repeat for each module."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:66
 msgid "Получение приложения"
-msgstr ""
+msgstr "Getting Application"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:68
 msgid ""
 "Переходим в папку приложения. Если вы находитесь в папке модулей "
 "выполните команду ``cd ..\\applications``."
 msgstr ""
+"Go to the application folder. If you are in the modules folder, run ``cd .."
+"\\applications``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:70
 msgid ""
@@ -318,12 +355,17 @@ msgid ""
 "скопируйте путь и клонируйте его командой ``git clone "
 "https://github.com/iondv/develop-and-test``."
 msgstr ""
+"Next, go back to the ``develop-and-test``\\ repository page, copy the path "
+"and clone it using command ``git clone https://github.com/iondv/develop-and-"
+"test``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:73
 msgid ""
 "Перейдите в папку установленного приложения, переключитесь на tag номера "
 "версии ``git checkout tags/v1.17.0``."
 msgstr ""
+"Go to the folder of the installed application, switch to the tag version "
+"number ``git checkout tags/v1.17.0``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:75
 msgid ""
@@ -333,42 +375,54 @@ msgid ""
 "``ionMetaDependencies``. Для приложения ``viewlib`` клонируйте командой "
 "``git clone https://github.com/iondv/viewlib``."
 msgstr ""
+"The dependencies installation in ``ionMetaDependencies`` is carried out in "
+"the ``applications``\\ folder. For installation make sure you're in the "
+"applications folder. Clone the applications from the list in the "
+"``ionMetaDependencies`` parameter. For``viewlib`` application clone using "
+"command``git clone https://github.com/iondv/viewlib``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:77
 msgid ""
 "Перейдите в папку установленного приложения, переключитесь на tag номера "
 "версии ``git checkout tags/v0.9.1``. Повторите для каждого приложения."
 msgstr ""
+"Go to the folder of the installed application, switch to the tag version "
+"number ``git checkout tags/v0.9.1``. Repeat for each application."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:79
 msgid "Приложение скомпоновано."
-msgstr ""
+msgstr "The application is compiled."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:81
 msgid ""
 "**NB:** мы советуем создать для него проект в IDE, например, в Visual "
 "Studio Code, и в нём создать конфигурациионный файл."
 msgstr ""
+"**NB:** we recommend creating a project for it in an IDE, for example Visual "
+"Studio Code, and creating the configuration file in it."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:84
 msgid "Конфигурациионный файл"
-msgstr ""
+msgstr "Config file"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:86
 msgid ""
 "Конфигурационный файл служит для задания основных параметров окружения "
 "приложения и настройки дополнительных параметров запуска."
 msgstr ""
+"Config file is for setting the main parameters of the app environment and "
+"configuring the additional start parameters."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:88
 msgid ""
 "Создайте конфигурационный файл ``setup`` с расширением ``ini`` в папке "
 "``config``."
 msgstr ""
+"Create ``setup`` config file with ``ini`` extension in ``config`` folder."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:90
 msgid "Открываем файл в редакторе и вставляем содержимое."
-msgstr ""
+msgstr "Open the file in the editor and paste the contents."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/2_core_modules_app.rst:104
 msgid ""
@@ -376,16 +430,19 @@ msgid ""
 "указывает на название базы которую мы будем использовать для приложения. "
 "База данных будет создана автоматически."
 msgstr ""
+"The main parameter is ``db.uri=mongodb://127.0.0.1:27017/db``. It indicates "
+"the name of the database we'll use for the application. The database will be "
+"created authomatically."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:2
 msgid "Шаг 3 Cборка и запуск приложения"
-msgstr ""
+msgstr "Step 3 Build and run application"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:4
 msgid ""
 "Для всех дальнейших команд, необходимо запустить командную строку от "
 "имени администратора."
-msgstr ""
+msgstr "For all further commands, run command prompt as Administrator."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:6
 msgid ""
@@ -394,16 +451,22 @@ msgid ""
 " команда - ``set NODE_PATH=c:\\workspace\\framework``\\ , для Linux - "
 "``export NODE_PATH=/workspace/framework``."
 msgstr ""
+"Go to the application folder ``cd c:\\workspace\\framework``and set the "
+"environment variable  ``NODE_PATH`` equal to the path to the application. "
+"For Windows: command ``set NODE_PATH=c:\\workspace\\framework``\\, for Linux:"
+" ``export NODE_PATH=/workspace/framework``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:10
 msgid "Сборка приложения"
-msgstr ""
+msgstr "Build application"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:12
 msgid ""
 "Сборка приложения обеспечивает установку всех библиотек, импорт данных в "
 "базу данных и подготовку приложения для запуска."
 msgstr ""
+"Building the application provides installing all the libraries, importing "
+"the data into the database, and preparing the application to run."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:15
 msgid ""
@@ -412,12 +475,18 @@ msgid ""
 "что версия ``Gulp`` - ``4.0``. Эта команда ставит все библиотеки из "
 "свойства ``dependencies`` файла ``package.json`` ядра."
 msgstr ""
+"At the first launch, you need to run ``npm install`` command to install key "
+"dependencies, including the ``gulp`` task runner locally. Make sure that the "
+"``Gulp`` version is ``4.0``. This command will install all the libraries "
+"from the ``dependencies``property of ``package.json``file of the core."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:18
 msgid ""
 "После этого, а также все последующие разы выполняйте команду сборки "
 "приложения ``gulp assemble``."
 msgstr ""
+"After that, and in all the next times, run the command ``gulp assemble`` to "
+"build the application."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:20
 msgid ""
@@ -425,6 +494,9 @@ msgid ""
 "запущена база ``MongoDB``\\ , ``Gulp`` установлен глобально и локально и "
 "его версия ``4.0``."
 msgstr ""
+"**NB:** Make sure that the environment variable ``NODE_PATH``\\ is set, the "
+"``MongoDB``\\ database is running, the ``Gulp`` is globally and locally "
+"installed and its version is``4.0``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:23
 msgid ""
@@ -436,10 +508,17 @@ msgid ""
 "--name admin --pwd 123``. Добавьте пользователю права администратора "
 "командой ``node bin/acl.js --u admin@local --role admin --p full``."
 msgstr ""
+"Before launching the application, add a basic user for logging in. Open``"
+"Mongo Compass`` app and find the ``ion-user``table in the database. Delete "
+"all the records you see there. Then go back to the console and execute the "
+"commands below. Add ``admin`` user with ``123`` password using command ``"
+"node bin/adduser.js --name admin --pwd 123``. Add administrator rights to "
+"the user using command ``node bin/acl.js --u admin@local --role admin --p "
+"full``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:27
 msgid "Запуск приложения с использованием скриптов"
-msgstr ""
+msgstr "Launch application using scripts"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:29
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:4
@@ -447,40 +526,44 @@ msgid ""
 "В папке \"bin\" содержатся скрипты запуска приложения, реализованного на "
 "IONDV. Framework, такие как:"
 msgstr ""
+"The ``bin`` folder contains the scripts to run applications based on the "
+"IONDV.Framework, such as:"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:31
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:16
 msgid "acl.js"
-msgstr ""
+msgstr "acl.js"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:32
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:36
 msgid "export.js"
-msgstr ""
+msgstr "export.js"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:33
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:44
 msgid "import.js и import-data.js"
-msgstr ""
+msgstr "import.js and import-data.js"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:34
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:59
 msgid "setup.js"
-msgstr ""
+msgstr "setup.js"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:35
 msgid "www.js"
-msgstr ""
+msgstr "www.js"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:42
 msgid ""
 "Подробнее о :doc:`скриптах запуска приложения "
 "</how_to_deploy/files_in_bin_folder>`"
 msgstr ""
+"More details about :doc:`application launch scripts </how_to_deploy/"
+"files_in_bin_folder>`"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:46
 msgid "Запуск приложения"
-msgstr ""
+msgstr "Run application"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:48
 msgid ""
@@ -488,6 +571,9 @@ msgid ""
 "переменная окружения ``NODE_PATH``. Без этого система выдаст ошибку - об "
 "отсутствии компонентов."
 msgstr ""
+"After finishing the build you can launch the app. Make sure that the "
+"environment variable ``NODE_PATH`` is set. If skipping this step, the system "
+"will show the missing components error."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:50
 msgid ""
