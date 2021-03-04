@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-03-02 07:10+0000\n"
+"PO-Revision-Date: 2021-03-05 03:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/"
 "2_getting_started/en/>\n"
@@ -580,6 +580,8 @@ msgid ""
 "Запуск системы осуществляется командой ``npm start``\\ , альтернативой "
 "является запуск ``node bin/www``."
 msgstr ""
+"The system is launched by the command ``npm start``\\ , alternative launch "
+"is ``node bin/www``."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:52
 msgid ""
@@ -587,26 +589,29 @@ msgid ""
 "``http://localhost:8888`` и авторизуйтесь в приложении, где ``8888`` - "
 "порт указанный в параметре ``server.ports`` конфигурации запуска."
 msgstr ""
+"After launching the system, open the browser with ``http://localhost:8888``"
+"adress and log in to the application, where ``8888`` is a port specified in "
+"the ``server.ports`` parameter in the launch configuration."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:2
 msgid "Cкрипты запуска приложения"
-msgstr ""
+msgstr "Application launch scripts"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:6
 msgid "`acl.js`_"
-msgstr ""
+msgstr "`acl.js`_"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:7
 msgid "`export.js`_"
-msgstr ""
+msgstr "`export.js`_"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:8
 msgid "`import.js и import-data.js`_"
-msgstr ""
+msgstr "`import.js and import-data.js`_"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:9
 msgid "`setup.js`_"
-msgstr ""
+msgstr "`setup.js`_"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:18
 msgid ""
@@ -614,32 +619,42 @@ msgid ""
 "%NODE_PATH%\\applications\\%IONAPP%\\acl`` где ``NODE_PATH`` - путь к "
 "директории платформы, ``%IONAPP%`` - наименование приложения."
 msgstr ""
+"Launch command template: ``node %NODE_PATH%\\bin\\acl.js --d %NODE_PATH%"
+"\\applications\\%IONAPP%\\acl`` where ``NODE_PATH`` is a path to the "
+"platform directory, ``%IONAPP%`` is a name of the application."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:21
 msgid "Добавляет права на объекты системы, указанные в папке acl."
-msgstr ""
+msgstr "Adds rights to the system objects, specified in the acl folder."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:23
 msgid ""
 "Так же доступны команды для создания роли и прав для нее в системе, в "
 "случае если в приложении отсутствуют настройки в папке **acl**\\ :"
 msgstr ""
+"Also the commands for creating roles and its rights in the system are "
+"available in case of missing settings in the **acl**\\ folder:"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:25
 msgid "Настройка логина и пароль - ``node bin/adduser.js --name admin --pwd 123``"
 msgstr ""
+"Setting the login and the password ``node bin/adduser.js --name admin --pwd "
+"123``"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:27
 msgid ""
 "Настройка доступа - ``node bin/acl.js --u admin@local --role admin --p "
 "full``"
 msgstr ""
+"Setting the access ``node bin/acl.js --u admin@local --role admin --p full``"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:29
 msgid ""
 "Права на генерацию токена для сервиса rest/token - ``node bin/acl.js "
 "--role admin --p USE --res ws:::gen-ws-token``"
 msgstr ""
+"Rights to generate a token for the rest/token service ``node bin/acl.js --"
+"role admin --p USE --res ws:::gen-ws-token``"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:38
 msgid ""
@@ -647,6 +662,9 @@ msgid ""
 "``NODE_PATH`` - путь к директории платформы, ``%IONAPP%`` - наименование "
 "приложения (namespace)."
 msgstr ""
+"Launch command template: ``node bin/export --ns %IONAPP%``, "
+"where``NODE_PATH`` is a path to the platform directory, ``%IONAPP%`` is a "
+"name of the application (namespace)."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:40
 msgid ""
@@ -655,12 +673,17 @@ msgid ""
 "папок, которые расположены на одном уровне с директорией платформы в "
 "папке *out*."
 msgstr ""
+"Exports data and meta out of the current built and locally running "
+"application. Export files are formed in the folder structure, located at the "
+"same point as the directory platform in the *out* folder."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:46
 msgid ""
 "При импорте меты, по умолчанию, импорт данных не выполняется. Поэтому, "
 "для импорта меты вместе с данными вызываем команду:"
 msgstr ""
+"When importing meta, the data import is not implemented by default. For "
+"importing meta along with the data call the command:"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:49
 msgid ""
@@ -668,16 +691,21 @@ msgid ""
 "--ns %IONAPP%`` где, ``NODE_PATH`` - путь к директории платформы, "
 "``%IONAPP%`` - наименование приложения (namespace)."
 msgstr ""
+"``node bin/import.js --src %NODE_PATH%/applications/%IONAPP% --with-data --"
+"ns %IONAPP%`` , where``NODE_PATH`` is a path to the directory platform, "
+"``%IONAPP%`` is a name of the application (namespace)."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:52
 msgid "А для импорта непосредственно данных вызываем:"
-msgstr ""
+msgstr "For importing the data call:"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:54
 msgid ""
 "``node %NODE_PATH%/bin/import-data.js --src "
 "%NODE_PATH%/applications/%IONAPP%/data --ns %IONAPP%``"
 msgstr ""
+"``node %NODE_PATH%/bin/import-data.js --src %NODE_PATH%/applications/"
+"%IONAPP%/data --ns %IONAPP%``"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:56
 msgid ""
@@ -685,6 +713,9 @@ msgid ""
 " (при этом данные для импорта будут искаться в поддиректории data), если "
 "импортируем данные, нужно указывать непосредственно директорию с данными."
 msgstr ""
+"Besides, when importing meta with the data specify the directory of the "
+"application(and the data for import will be located in the data subdirectory)"
+", but when importing the data specify the data directory."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:61
 msgid ""
@@ -692,6 +723,9 @@ msgid ""
 "``NODE_PATH`` - путь к директории платформы, ``%IONAPP%`` - наименование "
 "приложения."
 msgstr ""
+"Launch command template: ``node %NODE_PATH%\\bin\\setup %IONAPP%`` , where "
+"``NODE_PATH`` is a path to the directory of the platform, ``%IONAPP%`` is a "
+"name of the application."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:64
 msgid ""
@@ -699,20 +733,25 @@ msgid ""
 "приложения, что включает в себя импорт и запись в базу данных меты "
 "модулей приложения."
 msgstr ""
+"Installs the application, runs the application deployment script, what "
+"includes importing and recording to the database the application modules "
+"meta."
 
 #: ../docs-ru/2_getting_started/index.rst:2
 msgid "2. Начало работы"
-msgstr ""
+msgstr "2. Getting started"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:2
 msgid "Быстрый запуск"
-msgstr ""
+msgstr "Quick start"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:13
 msgid ""
 "Начать знакомство с IONDV. Framework рекомендуем с быстрого запуска "
 "приложений."
 msgstr ""
+"We recommend that you start getting to know the IONDV. Framework with the "
+"quick start of applications."
 
 #: ../docs-ru/2_getting_started/quickstart.rst:15
 msgid ""
@@ -720,32 +759,40 @@ msgid ""
 "Framework. Существует несколько способов быстрого запуска приложений. Вы "
 "можете определиться со способом, который удобен для Вас."
 msgstr ""
+"This section contains the instructions on how to deploy the IONDV. Framework "
+"applications. There are several ways to quickly launch the applications. You "
+"can choose the most convenient for you."
 
 #: ../docs-ru/2_getting_started/quickstart.rst:17
 msgid "Развернуть приложения Вы можете следующими способами:"
-msgstr ""
+msgstr "Deploy the application in following ways:"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:19
 msgid "с помощью :doc:`IONDV. Studio <quickstart/1_iondv_studio>`"
-msgstr ""
+msgstr "use :doc:`IONDV. Studio <quickstart/1_iondv_studio>`"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:20
 msgid ""
 "клонирование репозитория приложения и установка всех компонентов - "
 ":doc:`смотреть <quickstart/2_git_clone>`"
 msgstr ""
+"clone the repository of the application and install all the components :doc:`"
+"see <quickstart/2_git_clone>`"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:21
 msgid ""
 "с помощью :doc:`docker-контейнера <quickstart/3_docker_container>` с "
 "собранными приложениями"
 msgstr ""
+"use :doc:`docker-container <quickstart/3_docker_container>`with built "
+"applications"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:22
 msgid ""
 "с помощью :doc:`установщика <quickstart/4_installer>` для операционной "
 "системы Linux"
 msgstr ""
+"use :doc:`installer <quickstart/4_installer>` for Linux operating system"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:26
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:167
@@ -757,6 +804,8 @@ msgid ""
 "Ниже представлены ссылки на дополнительную информацию по разработке "
 "приложений с использованием IONDV.Framework."
 msgstr ""
+"Links for additional information on developing applications using the IONDV."
+"Framework."
 
 #: ../docs-ru/2_getting_started/quickstart.rst:30
 msgid "`Документация <https://iondv.readthedocs.io/ru/latest/index.html>`_"
@@ -764,7 +813,7 @@ msgstr "`Documentation https://iondv.readthedocs.io/en/latest/index.html>`_"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:31
 msgid "`Домашняя страница фреймворка <https://iondv.com/>`_"
-msgstr ""
+msgstr "`Framework Homepage <https://iondv.com/>`_"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:32
 msgid "Обратная связь на `Facebook <https://www.facebook.com/iondv/>`_"
@@ -775,18 +824,20 @@ msgid ""
 "Обучающие видеоролики на `youtube <https://www.youtube.com/channel"
 "/UC_r2CGcOTfuV-7AXl6MwOqw>`_"
 msgstr ""
+"Video tutorials on `youtube <https://www.youtube.com/channel/UC_r2CGcOTfuV-"
+"7AXl6MwOqw>`_"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:38
 msgid "Copyright (c) 2016-2020 **LLC \"ION DV\"**.\\"
-msgstr ""
+msgstr "Copyright (c) 2016-2020 **LLC \"ION DV\"**.\\"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:40
 msgid "All rights reserved."
-msgstr ""
+msgstr "All rights reserved."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:2
 msgid "IONDV. Studio"
-msgstr ""
+msgstr "IONDV. Studio"
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:4
 msgid ""
@@ -796,10 +847,14 @@ msgid ""
 "`студии <https://studio.iondv.com>`_. Регистрация и учетная запись не "
 "требуются."
 msgstr ""
+"**IONDV. Studio** is the IONDV. Framework application. It can be used as "
+"standalone node.js application or as the desktop application. The IONDV. "
+"Studio can be deployed with the use of the `studio <https://studio.iondv."
+"com>`_ demo version. Registration and account are not required."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:7
 msgid "**Описание**"
-msgstr ""
+msgstr "**Description**"
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:9
 msgid ""
@@ -808,44 +863,55 @@ msgid ""
 "портальные формы), которые разворачиваются как веб-приложение IONDV. "
 "Framework."
 msgstr ""
+"**IONDV. Studio** is an application for visual development and editing "
+"metadata (such as classes, navigation, views, workflows, portal forms), "
+"which are deployed as an IONDV.Framework web application."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:13
 msgid "Как запустить приложение в Студии"
-msgstr ""
+msgstr "How to launch application in the Studio"
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:15
 msgid ""
 "Смотрите `видео <https://www.youtube.com/watch?v=s7q9_YXkeEo>`_, о том, "
 "как развернуть в IONDV. Studio уже готовое приложение из репозитория."
 msgstr ""
+"Watch `video <https://www.youtube.com/watch?v=s7q9_YXkeEo>`_ on how to "
+"deploy the application from the repositry in the IONDV. Studio."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:17
 msgid ""
 "Выберите пример готового приложения с github. Например, `Nutrition-"
 "Tickets <https: //github.com/iondv/nutrition-tickets>`_."
 msgstr ""
+"Choose a ready-made application on github. For example, `Nutrition-Tickets "
+"<https: //github.com/iondv/nutrition-tickets>`_."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:18
 msgid "Скачайте архивный файл приложения и откройте его в приложении."
-msgstr ""
+msgstr "Download the zip file and open it in the Studio application."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:19
 msgid ""
 "Нажмите кнопку воспроизведения в правом верхнем углу экрана, чтобы "
 "запустить приложение."
 msgstr ""
+"Click the play button in the upper right corner of the screen to launch the "
+"application."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:20
 msgid "Приложение начнет развертывание. Это занимает примерно 80 секунд."
-msgstr ""
+msgstr "The application will start deploying. It takes around 80 seconds."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:21
 msgid "Получите ссылку на приложение и нажмите на нее."
-msgstr ""
+msgstr "Get the link to the application and click it."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:22
 msgid "Войдите в приложение, используя логин **demo** и пароль **ion-demo**."
 msgstr ""
+"Login to the application using **demo** as the login and **ion-demo** as the "
+"password."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:24
 msgid ""
@@ -854,10 +920,14 @@ msgid ""
 "внести изменения в структуру приложение и увидеть результат. После этого "
 "приложение будет удалено с сервера."
 msgstr ""
+"The application is running! The application in the demo Studio is stored for "
+"1 hour, you get to know the technologie and try to make your own changes to "
+"the structure of the application and see the result. After 1 hour the "
+"application will be removed from the server."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:28
 msgid "Как создать приложение в студии"
-msgstr ""
+msgstr "How to create an application in the Studio"
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:30
 msgid ""
@@ -868,6 +938,12 @@ msgid ""
 "репозитории `IONDV. Nutrition-Tickets <https://github.com/iondv"
 "/nutrition-tickets/blob/master/tutorial/ru/index.md>`_."
 msgstr ""
+"You can also create application in the Studio. Watch `video <https://www."
+"youtube.com/watch?v=e201ko9fkQ8&t=331s>`_ on how to create a simple "
+"application `IONDV. Nutrition-tickets <https://github.com/iondv/nutrition-"
+"tickets>`_ in the **IONDV. Studio**. The instruction is available in the "
+"repository `IONDV. Nutrition-Tickets <https://github.com/iondv/"
+"nutrition-tickets/blob/master/tutorial/ru/index.md>`_."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:35
 msgid ""
@@ -875,12 +951,17 @@ msgid ""
 " заполняем обязательные поля. Вкладка приложения, которое вы создали, "
 "появляется в левом верхнем углу и управляется по типу браузера."
 msgstr ""
+"Press `+` to start creating an application. Fill out the required fields in "
+"the popped-up window. The tab for the application you created will appear in "
+"the left upper corner of the screen and can be managed as a browser tab."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:37
 msgid ""
 "Появляется боковое меню - это рабочая панель приложения. Раздел Классы "
 "нужен для создания Классов и Атрибутов."
 msgstr ""
+"The side menu will appear, which is the application work panel. The Classes "
+"section is for creating Classes and Attributes."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:39
 msgid ""
@@ -889,10 +970,12 @@ msgid ""
 " поля. Описание полей :doc:`тут "
 "<../../3_development/metadata_structure/meta_class/meta_class_main>`."
 msgstr ""
+"Start creating an application with a Class. Click on the Class and in the "
+"work space click `+Class`."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:41
 msgid "У нас появился Класс и автоматически создался Атрибут ID."
-msgstr ""
+msgstr "Now we've got the Class and the Attribute ID is automatically created."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:43
 msgid ""
@@ -900,6 +983,9 @@ msgid ""
 "Описание свойств и типов Атрибута :doc:`тут "
 "<../../3_development/metadata_structure/meta_class/meta_class_attribute>`."
 msgstr ""
+"When the Class is selected, you can add its Attributes by clicking on "
+"`+Attribute`. Attribute properties and types description :doc:`here <../../"
+"3_development/metadata_structure/meta_class/meta_class_attribute>`."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:45
 msgid ""
@@ -912,6 +998,13 @@ msgid ""
 " Заданный тип данных у Атрибута отразится в рабочей области в виде "
 "связующей линии."
 msgstr ""
+"When you've created at least the 2 Classes you can set up the connections "
+"between them. It can be made through the data type setting when creating "
+"Class attribute. Main types are the :doc:`Collection <../../3_development/"
+"metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll>` "
+"and :doc:`Reference <../../3_development/metadata_structure/meta_class/"
+"meta_class_attribute/attr_ref_backref>`. The specified type of data of the "
+"Attribute will be shown in the workspace as a linking line."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:47
 msgid ""
@@ -920,20 +1013,26 @@ msgid ""
 " количество Классов приложения увеличится. Это - базовые пункты для "
 "создания приложения."
 msgstr ""
+"The created Classes and their Attributes will appear in the Class section. "
+"It is called the project tree, which will make it easy to navigate the "
+"project when the amount of Classes will get bigger. These are the basic "
+"things about creating an application."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:51
 msgid "Приложение в IONDV. Studio"
-msgstr ""
+msgstr "Application in the IONDV.Studio"
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:53
 msgid ""
 "Для того чтобы разработать приложение в Студии, нужно предварительно "
 "запустить ее одним из следующих способов:"
 msgstr ""
+"To develop an application in the Studio, first launch it using one of the "
+"following methods:"
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:55
 msgid "Используйте `демо-версию <https://studio.iondv.com>`_ студии."
-msgstr ""
+msgstr "Use the `demo <https://studio.iondv.com>`_ of the Studio."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:56
 msgid ""
@@ -942,41 +1041,52 @@ msgid ""
 "<https://github.com/iondv/studio>`_. После чего соберите и разверните его"
 " согласно инструкции приложений Framework."
 msgstr ""
+"Launch locally as the `IONDV. Framework <https://github.com/iondv/framework>`"
+"_ application with the source code from `github <https://github.com/iondv/"
+"studio>`_. After that build and deploy the application according to the "
+"instruction for the Framework applications."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:57
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:62
 msgid "Откройте в браузере по ссылке `http://localhost:8888`."
-msgstr ""
+msgstr "Open in the browser by the link `http://localhost:8888`."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:58
 msgid ""
 "Запустите локального как отдельное приложение node.js согласно инструкции"
 " ниже."
 msgstr ""
+"Launch locally as a standalone node.js application according to the "
+"instruction below."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:59
 msgid "Запустите как десктоп приложение, согласно инструкции ниже."
-msgstr ""
+msgstr "Launch as a desktop application according to the instruction below."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:60
 msgid ""
 "Запустите в docker-конейтнере выполнив `docker run -d -p 8888:8888 --name"
 " studio iondv/studio`."
 msgstr ""
+"Launch in docker-container using command `docker run -d -p 8888:8888 --name "
+"studio iondv/studio`."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:64
 msgid "Затем:"
-msgstr ""
+msgstr "Then:"
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:66
 msgid "В Студии разработайте Ваше приложение, путем создания классов, навигации."
 msgstr ""
+"Develop your application in the Studio by creating classes and navigation."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:67
 msgid ""
 "Обратите внимание, что данные хранятся в локальном репозитории браузера. "
 "Экспортируйте приложение как zip-архив."
 msgstr ""
+"Note that the data is stored in the local reporitory of the browser. Export "
+"the application as zip."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:68
 msgid ""
@@ -985,6 +1095,9 @@ msgid ""
 "<https://github.com/iondv/framework>`_ и `Registry "
 "<https://github.com/iondv/registry>`_."
 msgstr ""
+"Download the latest version of the IONDV. Framework and the IONDV. Registry "
+"module from GitHub repositories `Framework <https://github.com/iondv/"
+"framework>`_ and `Registry <https://github.com/iondv/registry>`_."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:69
 msgid ""
@@ -992,32 +1105,41 @@ msgid ""
 "исключением приложения - вместо приложения разверните в папку applictions"
 " ваш архив с приложением."
 msgstr ""
+"Follow the standard instruction on deploying the application by git, "
+"excluding the application. Instead of the application deploy your zip file "
+"in the applications folder."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:70
 msgid ""
 "Далее необходимо собрать и развернуть приложение, согласно инструкции "
 "`IONDV. Framework <https://github.com/iondv/framework>`_."
 msgstr ""
+"Then build and deploy the application according to the instruction `IONDV. "
+"Framework <https://github.com/iondv/framework>`_."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:73
 msgid "Варианты использования Студии"
-msgstr ""
+msgstr "Ways to use the Studio"
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:76
 msgid "Отдельное приложение node.js"
-msgstr ""
+msgstr "Standalone node.js application"
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:78
 msgid ""
 "Преимуществами использования отдельного приложения является отсутствие "
 "необходимости в базе данных и в IONDV. Framework."
 msgstr ""
+"The advantage of using the standalone application is no need of the database "
+"and the IONDV. Framework."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:80
 msgid ""
 "Выполните команду `git clone https://github.com/iondv/studio.git`. "
 "Имените локальную дирректорию на `studio`."
 msgstr ""
+"Run the command `git clone https://github.com/iondv/studio.git`. Change the "
+"local directory to `studio`."
 
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:81
 msgid ""
