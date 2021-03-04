@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-02-27 05:10+0000\n"
+"PO-Revision-Date: 2021-03-05 03:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/index/en/>\n"
 "Language: en\n"
@@ -740,8 +740,8 @@ msgid ""
 "Ниже представлены ссылки на дополнительную информацию по разработке "
 "приложений с использованием IONDV.Framework."
 msgstr ""
-"Some handy links to learn more information on developing applications "
-"using IONDV.Framework."
+"Links for additional information on developing applications using the IONDV."
+"Framework."
 
 #: ../docs-ru/index.rst:313
 msgid "`Документация <https://iondv.readthedocs.io/ru/latest/index.html>`_"
@@ -749,7 +749,7 @@ msgstr "`Documentation https://iondv.readthedocs.io/en/latest/index.html>`_"
 
 #: ../docs-ru/index.rst:314
 msgid "`Домашняя страница фреймворка <https://iondv.com/>`_"
-msgstr "`Homepage <https://iondv.com/>`_"
+msgstr "`Framework Homepage <https://iondv.com/>`_"
 
 #: ../docs-ru/index.rst:315
 msgid "Обратная связь на `Facebook <https://www.facebook.com/iondv/>`_"
@@ -760,6 +760,8 @@ msgid ""
 "Обучающие видеоролики на `youtube <https://www.youtube.com/channel"
 "/UC_r2CGcOTfuV-7AXl6MwOqw>`_"
 msgstr ""
+"Video tutorials on `youtube <https://www.youtube.com/channel/UC_r2CGcOTfuV-"
+"7AXl6MwOqw>`_"
 
 #: ../docs-ru/index.rst:322
 msgid ""
