@@ -4,125 +4,130 @@
 # docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-10 07:10+0000\n"
+"Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
+"Language-Team: English <http://weblate.iondv.ru/projects/docs/4_modules/en/>"
+"\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../docs-ru/4_modules/modules.rst:2
 msgid "4. Модули"
-msgstr ""
+msgstr "4. Modules"
 
 #: ../docs-ru/4_modules/modules.rst:19
 msgid ""
 "**Модули** - это независимые блоки с обязательной или дополнительной "
 "функциональностью, структура которых подчиняется определенным правилам."
 msgstr ""
+"**Module** is an independent component with necessary or additional "
+"functionality and structured according to certain rules."
 
 #: ../docs-ru/4_modules/modules.rst:24
 msgid "Наименование"
-msgstr ""
+msgstr "Name"
 
 #: ../docs-ru/4_modules/modules.rst:25
 #: ../docs-ru/4_modules/modules/registry/registry_treegrid.rst:24
 #: ../docs-ru/4_modules/modules/rest/rest.rst:8
 msgid "Описание"
-msgstr ""
+msgstr "Description"
 
 #: ../docs-ru/4_modules/modules.rst:26
 msgid ":doc:`\\ Registry <modules/registry/registry>`"
-msgstr ""
+msgstr ":doc:`\\ Registry <modules/registry/registry>`"
 
 #: ../docs-ru/4_modules/modules.rst:27
 msgid ""
 "Ключевой модуль предназначенный непосредственно для работы с данными на "
 "основе структур метаданных."
-msgstr ""
+msgstr "Module for data operating based on the metadata structure."
 
 #: ../docs-ru/4_modules/modules.rst:28
 msgid ":doc:`\\ Report <modules/report/report>`"
-msgstr ""
+msgstr ":doc:`\\ Report <modules/report/report>`"
 
 #: ../docs-ru/4_modules/modules.rst:29
 msgid "Модуль предназначенный для формирования аналитических отчетов."
-msgstr ""
+msgstr "Module for generating analytical reports."
 
 #: ../docs-ru/4_modules/modules.rst:30
 msgid ":doc:`\\ Gantt-chart <modules/gantt-chart>`"
-msgstr ""
+msgstr ":doc:`\\ Gantt-chart <modules/gantt-chart>`"
 
 #: ../docs-ru/4_modules/modules.rst:31
 msgid "Модуль для вывода данных с датами."
-msgstr ""
+msgstr "Module for displaying data with dates."
 
 #: ../docs-ru/4_modules/modules.rst:32
 msgid ":doc:`\\ Portal <modules/portal>`"
-msgstr ""
+msgstr ":doc:`\\ Portal <modules/portal>`"
 
 #: ../docs-ru/4_modules/modules.rst:33
 msgid "Модуль для вывода произвольных шаблонов данных."
-msgstr ""
+msgstr "Module for displaying arbitrary data templates."
 
 #: ../docs-ru/4_modules/modules.rst:34
 msgid ":doc:`\\ Dashboard <modules/dashboard>`"
-msgstr ""
+msgstr ":doc:`\\ Dashboard <modules/dashboard>`"
 
 #: ../docs-ru/4_modules/modules.rst:35
 msgid "Модуль предназначенный для выведения краткой информации в виде блоков."
-msgstr ""
+msgstr "Module designed to display brief information in the form of blocks."
 
 #: ../docs-ru/4_modules/modules.rst:36
 msgid ":doc:`\\ Ionadmin <modules/admin/admin>`"
-msgstr ""
+msgstr ":doc:`\\ Ionadmin <modules/admin/admin>`"
 
 #: ../docs-ru/4_modules/modules.rst:37
 msgid "Модуль администрирования для назначения прав."
-msgstr ""
+msgstr "Administrative module for assigning rights."
 
 #: ../docs-ru/4_modules/modules.rst:38
 msgid ":doc:`\\ Account <modules/account>`"
-msgstr ""
+msgstr ":doc:`\\ Account <modules/account>`"
 
 #: ../docs-ru/4_modules/modules.rst:39
 msgid "Модуль личного кабинета, который формирует логику отображения."
-msgstr ""
+msgstr "Personal account module that forms the display logics."
 
 #: ../docs-ru/4_modules/modules.rst:40
 msgid ":doc:`\\ Soap <modules/soap>`"
-msgstr ""
+msgstr ":doc:`\\ Soap <modules/soap>`"
 
 #: ../docs-ru/4_modules/modules.rst:41
 msgid "Модуль запросов к сервисам."
-msgstr ""
+msgstr "Module for the requests to services."
 
 #: ../docs-ru/4_modules/modules.rst:42
 msgid ":doc:`\\ Image-storage <modules/image_storage>`"
-msgstr ""
+msgstr ":doc:`\\ Image-storage <modules/image_storage>`"
 
 #: ../docs-ru/4_modules/modules.rst:43
 msgid "Модуль предварительного просмотра картинок."
-msgstr ""
+msgstr "Module for image preview."
 
 #: ../docs-ru/4_modules/modules.rst:44
 msgid ":doc:`\\ REST <modules/rest/rest>`"
-msgstr ""
+msgstr ":doc:`\\ REST <modules/rest/rest>`"
 
 #: ../docs-ru/4_modules/modules.rst:45
 msgid "Модуль обеспечивающий работу с данными приложения IONDV через REST API."
-msgstr ""
+msgstr "Module providing data operation of IONDV apps through REST API."
 
 #: ../docs-ru/4_modules/modules/account.rst:2
 msgid "Личный кабинет"
-msgstr ""
+msgstr "Personal account"
 
 #: ../docs-ru/4_modules/modules/account.rst:4
 msgid ""
@@ -131,14 +136,17 @@ msgid ""
 "(или форм-страниц), модуль их считывает и формирует на их основании "
 "навигацию и логику отображения страниц."
 msgstr ""
+"**Personal account** is used for displaying different \"instrumental\" "
+"forms, etc. in the applications when creating navigation (or page forms), "
+"the module finds them and forms the navigation and pages display logics."
 
 #: ../docs-ru/4_modules/modules/account.rst:7
 msgid "Настройка модуля"
-msgstr ""
+msgstr "Module configuration"
 
 #: ../docs-ru/4_modules/modules/account.rst:10
 msgid "В приложении в некую директорию кладем html-страницы."
-msgstr ""
+msgstr "Put the html-pages in a directory of the application."
 
 #: ../docs-ru/4_modules/modules/account.rst:11
 msgid ""
@@ -146,18 +154,25 @@ msgid ""
 "опционально хеш-массив соответствия между именем файла и отображаемым "
 "названием."
 msgstr ""
+"Write this directory in deploy.json in the PA module settings, and also "
+"optionally a hash array of a match between the file name and the display "
+"name."
 
 #: ../docs-ru/4_modules/modules/account.rst:12
 msgid ""
 "ЛК считывает эти настройки и в мастер-шаблоне отображает меню навигации "
 "ЛК."
 msgstr ""
+"The personal account reads these settings and displays the PA navigation "
+"menu in the master template."
 
 #: ../docs-ru/4_modules/modules/account.rst:13
 msgid ""
 "По клику на пункте меню в рабочей области окна ЛК отображается "
 "соответствующая разметка из html-файла."
 msgstr ""
+"When clicking on the menu item in the working area of the PA window, the "
+"corresponding markup from the html file is displayed."
 
 #: ../docs-ru/4_modules/modules/account.rst:14
 msgid ""
@@ -165,16 +180,19 @@ msgid ""
 "страница-инструмент по умолчанию, если не указан берется первый считанный"
 " по порядку."
 msgstr ""
+"Also in deploy.json file, in the PA module settings , the tool page is "
+"specified by default. If not specified, the first in order is taken."
 
 #: ../docs-ru/4_modules/modules/account.rst:16
 msgid ""
 "Также есть возможность структурирования меню посредством вложенности "
 "директорий."
 msgstr ""
+"There is also the possibility of structuring the menu by nesting directories."
 
 #: ../docs-ru/4_modules/modules/admin/admin.rst:2
 msgid "Модуль Ionadmin"
-msgstr ""
+msgstr "Ionadmin module"
 
 #: ../docs-ru/4_modules/modules/admin/admin.rst:10
 msgid ""
@@ -182,38 +200,46 @@ msgid ""
 "прав, управления задачами по расписанию и другими административными "
 "задачами."
 msgstr ""
+"**Administration module (Ionadmin)** – is used for assigning rights, "
+"managing scheduled jobs and other administrative tasks."
 
 #: ../docs-ru/4_modules/modules/admin/admin.rst:13
 msgid "Настройка модуля ionadmin в файле config.json"
-msgstr ""
+msgstr "Configure the Ionadmin module in the config.json file"
 
 #: ../docs-ru/4_modules/modules/admin/admin.rst:16
 msgid "Настройка записи медленных запросов"
-msgstr ""
+msgstr "Configure slow query recording"
 
 #: ../docs-ru/4_modules/modules/admin/admin.rst:18
 msgid ""
 "Настройка в виде модального окна на списке медленных запросов. В в файле "
 "config.json модуля ionadmin указывать источник:"
 msgstr ""
+"Setting up as a modal window in the list of slow queries. Set the source in "
+"the config.json file of the ionadmin module:"
 
 #: ../docs-ru/4_modules/modules/admin/admin.rst:33
 msgid ""
 "Если свойство ``\"sources\"`` не задано или null, то будет браться из "
 "таблицы:"
 msgstr ""
+"If the ``\"sources\"`` property is not set or null, the data will be taken "
+"from the table:"
 
 #: ../docs-ru/4_modules/modules/admin/admin.rst:45
 msgid "Если задан пустой массив, то источников нет."
-msgstr ""
+msgstr "If an empty array is set, then there are no sources."
 
 #: ../docs-ru/4_modules/modules/admin/admin.rst:48
 msgid "Настройка источников логов"
-msgstr ""
+msgstr "Log sources configuration"
 
 #: ../docs-ru/4_modules/modules/admin/admin.rst:50
 msgid "Источники логов (может быть несколько) указываются в конфиге модуля:"
 msgstr ""
+"Log sources (can be a few) are specified in the config.json file of the "
+"module:"
 
 #: ../docs-ru/4_modules/modules/admin/admin.rst:67
 msgid ""
@@ -221,14 +247,17 @@ msgid ""
 "состояния источников логов. Их можно дополнить редактированием. Например,"
 " комментариями или пометками, сообщающими решена проблема или нет."
 msgstr ""
+"The selections made are stored in a separate table and do not depend on the "
+"current state of the log sources. They can be supplemented by editing. For "
+"example, with comments or notes reporting whether the problem is solved."
 
 #: ../docs-ru/4_modules/modules/admin/admin.rst:70
 msgid "Настройка резервирования БД"
-msgstr ""
+msgstr "DB backup configuration"
 
 #: ../docs-ru/4_modules/modules/admin/admin.rst:72
 msgid "Настройка в *ionmodule/config*\\ :"
-msgstr ""
+msgstr "Settings in the *ionmodule/config*\\:"
 
 #: ../docs-ru/4_modules/modules/admin/admin.rst:85
 msgid ""
@@ -3214,4 +3243,3 @@ msgid ""
 "``authMode`` для сервиса в token, переходим в админку, генерируем токен, "
 "используем его вместо пароля в заголовках."
 msgstr ""
-
