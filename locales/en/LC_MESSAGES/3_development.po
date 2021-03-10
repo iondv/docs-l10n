@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-03-05 03:10+0000\n"
+"PO-Revision-Date: 2021-03-10 07:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/3_development/"
 "en/>\n"
@@ -591,7 +591,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_workflows.rst:39
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:63
 msgid "Наименование"
-msgstr ""
+msgstr "Name"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:10
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:5
@@ -642,7 +642,7 @@ msgstr ""
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy.rst:25
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:64
 msgid "Описание"
-msgstr ""
+msgstr "Description"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:11
 msgid ":doc:`Шаблоны модулей <functionality_files/module_templates>`"
