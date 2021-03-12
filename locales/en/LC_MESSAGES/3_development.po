@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-03-10 07:10+0000\n"
+"PO-Revision-Date: 2021-03-13 07:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/3_development/"
 "en/>\n"
@@ -777,7 +777,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/tags.rst:21
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:433
 msgid "Пример:"
-msgstr ""
+msgstr "Example:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:28
 msgid "Если **cachedClasses** не указан, то кешируются все данные."
@@ -1013,7 +1013,7 @@ msgstr ""
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:379
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:466
 msgid "Пример"
-msgstr ""
+msgstr "Example"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:72
 msgid ""
@@ -4769,7 +4769,7 @@ msgstr ""
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/eagerloading.rst:25
 msgid "Настройка"
-msgstr ""
+msgstr "Configuration"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/eagerloading.rst:27
 msgid ""
@@ -6408,7 +6408,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:107
 #: ../docs-ru/3_development/metadata_structure/metadata_structure.rst
 msgid "Например:"
-msgstr ""
+msgstr "Example:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:116
 msgid "Настройка фильтра для отображения объектов класса-наследника"
@@ -7769,7 +7769,7 @@ msgstr ""
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:90
 msgid "Использование"
-msgstr ""
+msgstr "Usage"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:92
 msgid ""
