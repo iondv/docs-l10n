@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-03-13 07:10+0000\n"
+"PO-Revision-Date: 2021-03-16 08:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/4_modules/en/>"
 "\n"
@@ -3598,7 +3598,7 @@ msgstr ""
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:36
 msgid "Права на ресурс"
-msgstr ""
+msgstr "Resource rights"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:38
 msgid ""
@@ -3606,6 +3606,9 @@ msgid ""
 "строки ``node bin/acl.js --role restGrp --p USE --res ws:::gen-ws-token``"
 " (где restGrp - название существующей группы)"
 msgstr ""
+"Add the resource for generating tokens for the role using the command line ``"
+"node bin/acl.js --role restGrp --p USE --res ws:::gen-ws-token`` (where "
+"restGrp is a name of existing group)"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:41
 msgid ""
@@ -3613,38 +3616,42 @@ msgid ""
 "администратора модуля ionadmin, например, по адресу "
 "``locahost:8888/ionadmin/``:"
 msgstr ""
+"Another way to add rights to a resource is to use the administrator console "
+"of the ionadmin module, for example, at ``locahost:8888/ionadmin/``:"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:43
 msgid "Выберите пункт навигации \"Безопасность\","
-msgstr ""
+msgstr "Select the \"Security\" navigation item"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:44
 msgid "Выберите подпункт навигации \"Роли\""
-msgstr ""
+msgstr "Select the \"Roles\" navigation sub-item"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:45
 msgid ""
 "Выберите существующую роль и нажмите кнопку \"редактировать\" или "
 "\"создать новую роль\"."
-msgstr ""
+msgstr "Select the existing role and click on \"Edit\" or \"Create new role\"."
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:46
 msgid "В поле \"Права доступа\" роли выберите вкладку \"Services\""
-msgstr ""
+msgstr "In the role field \"Access rights\", select the \"Services\" tab"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:47
 msgid ""
 "Раскройте список прав для ресурса \"Генерация токенов безопасности "
 "посредством веб-сервисов (ws:::gen-ws-token)\""
 msgstr ""
+"Expand the list of rights for the resource \"Generation of security tokens "
+"through web services (ws:::gen-ws-token)\""
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/token.rst:48
 msgid "Выбрать пункт \"Использование\" и нажмите кнопку \"Сохранить\""
-msgstr ""
+msgstr "Select \"Use\" and click \"Save\""
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_get.rst:2
 msgid "Получение текущего положения обьекта в бизнес-процессе: GET"
-msgstr ""
+msgstr "Get the current position of an object in the workflow: GET"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_get.rst:4
 msgid ""
@@ -3652,10 +3659,13 @@ msgid ""
 "бизнес-процессах. Запрос осуществляется по пути ``<URL "
 "сервера>/rest/<название сервиса>/<имя класса>/<id объекта>``, пример:"
 msgstr ""
+"**GET method** is used to get the current position of the object in "
+"workflows. The request is made along the path ``<URL сервера>/rest/<service "
+"name>/<class name>/<object id>``, for example:"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_get.rst:11
 msgid "В ответ будет получен объект с состояниями бизнес-процессов:"
-msgstr ""
+msgstr "In response, an object with the states of workflows will be received:"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_get.rst:26
 msgid ""
@@ -3664,10 +3674,14 @@ msgid ""
 " `test/modules/rest/workflows.spec.js <https://github.com/iondv/develop-"
 "and-test/tree/master/test/modules/rest/workflows.spec.js>`_"
 msgstr ""
+"The example of ``GET`` request to ``workflows`` in :doc:`dnt </4_modules/"
+"modules/rest/services/services_files/request/request_examples>`: `test/"
+"modules/rest/workflows.spec.js <https://github.com/iondv/develop-and-test/"
+"tree/master/test/modules/rest/workflows.spec.js>`_"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_patch.rst:2
 msgid "Перемещение объекта в указанное состояние бизнес-процесса: PATCH"
-msgstr ""
+msgstr "Moving an object to the specified workflow state: PATCH"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_patch.rst:4
 msgid ""
@@ -3676,6 +3690,10 @@ msgid ""
 "``<URL сервера>/rest/<название сервиса>/<имя класса>/<id объекта>``. Имя "
 "класса указывается с неймспейсом."
 msgstr ""
+"** PATCH method* * is used to force the object to move to the specified "
+"states of business processes. The request follows the path ``<URL сервера>/"
+"rest/<service name>/<class name>/<object id>``. The class name is specified "
+"with a namespace."
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_patch.rst:7
 msgid ""
@@ -3684,12 +3702,18 @@ msgid ""
 "бизнес-процесса>.<состояние>``. Имя бизнес-процесса указывается с "
 "неймспейсом. Объект последовательно перемещается в каждое из состояний."
 msgstr ""
+"The request body passes an array of target states of workflows, which are "
+"specified as strings in the format ``<business process name>.<state>``. The "
+"name of the business process is indicated with the namespace. An object "
+"sequentially moves to each of the states."
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_patch.rst:21
 msgid ""
 "В ответ будет возвращен список ошибок, возникших при перемещениях, либо "
 "пустой список."
 msgstr ""
+"A list of errors that occurred during the movement or an empty list will be "
+"returned as a response."
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_patch.rst:23
 msgid ""
@@ -3698,10 +3722,14 @@ msgid ""
 " `test/modules/rest/workflows.spec.js <https://github.com/iondv/develop-"
 "and-test/tree/master/test/modules/rest/workflows.spec.js>`_"
 msgstr ""
+"The example of the ``PATCH`` request to the ``workflows`` in :doc:`dnt </"
+"4_modules/modules/rest/services/services_files/request/request_examples>`: `"
+"test/modules/rest/workflows.spec.js <https://github.com/iondv/"
+"develop-and-test/tree/master/test/modules/rest/workflows.spec.js>`_"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:2
 msgid "Выполнение перехода объекта по бизнес-процессу: PUT"
-msgstr ""
+msgstr "Performing an object transition through a workflow: PUT"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:4
 msgid ""
@@ -3709,32 +3737,39 @@ msgid ""
 " объекта по БП (в том числе последовательных). Запрос осуществляется по "
 "пути ``<URL сервера>/rest/<название сервиса>/<имя класса>/<id объекта>``."
 msgstr ""
+"**PUT method** of the ``workflows`` service performs object transitions "
+"through the workflows (including sequential ones). The request is made with "
+"the path ``<server URL>/rest/<service name>/<class name>/<object id>``."
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:7
 msgid "Имя класса указывается с неймспейсом."
-msgstr ""
+msgstr "The class name is specified with the namespace."
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:9
 msgid "В теле запроса передается один из вариантов:"
-msgstr ""
+msgstr "One of the options is passed in the request body:"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:11
 msgid ""
 "объект с атрибутами - именами БП, которые содержат список из переходов по"
 " этим бизнес-процессам."
 msgstr ""
+"an object with attributes - the names of workflows that contain a list of "
+"transitions for these workflows."
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:12
 msgid "список из строк формата ``<имя бизнес-процесса>.<название перехода>``"
 msgstr ""
+"a list of strings of the following format ``<workflow name>.<transition "
+"name>``"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:14
 msgid "имена бизнес-процессов указываются с неймспейсом."
-msgstr ""
+msgstr "the names of workflows are indicated with a namespace."
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:29
 msgid "что равносильно:"
-msgstr ""
+msgstr "which is equivalent to:"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:40
 msgid ""
@@ -3742,14 +3777,16 @@ msgid ""
 "предпринята попытка выполнения, даже если в одном из них произошла "
 "ошибка."
 msgstr ""
+"The transitions are performed sequentially. For each transition an attempt "
+"will be made, even if an error has occurred in one of them."
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:42
 msgid "В ответ будет возвращен список из ошибок по каждому переходу:"
-msgstr ""
+msgstr "In response, a list of errors for each transition will be returned:"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:55
 msgid "или пустой список."
-msgstr ""
+msgstr "or an empty list."
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_put.rst:57
 msgid ""
@@ -3758,16 +3795,22 @@ msgid ""
 " `test/modules/rest/workflows.spec.js <https://github.com/iondv/develop-"
 "and-test/tree/master/test/modules/rest/workflows.spec.js>`_"
 msgstr ""
+"The examples of ``PUT``requests to ``workflows`` in :doc:`dnt </4_modules/"
+"modules/rest/services/services_files/request/request_examples>`: `test/"
+"modules/rest/workflows.spec.js <https://github.com/iondv/develop-and-test/"
+"tree/master/test/modules/rest/workflows.spec.js>`_"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:2
 msgid "Сервис исполнения бизнес-процессов Workflows"
-msgstr ""
+msgstr "Workflows execution service"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:4
 msgid ""
 "**Workflows** ``workflows`` - встроенный сервис в rest модуле, который "
 "предоставляет возможности контроля и управления бизнес-процессами."
 msgstr ""
+"**Workflows** is a module built in the rest module, which provides the "
+"ability to control and manage the workflows."
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:6
 msgid ""
@@ -3775,62 +3818,79 @@ msgid ""
 "``options.dataRepo``, ``options.metaRepo``, ``options.auth`` и "
 "``options.workflow``, пример:"
 msgstr ""
+"The service requires a connection in ``deploy.json`` and a mandatory "
+"indication of ``options.dataRepo``, ``options.metaRepo``, ``options.auth`` "
+"and ``options.workflow``, example:"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:22
 msgid "Сервис содержит три метода:"
-msgstr ""
+msgstr "The service includes three methods:"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:24
 msgid ""
 "``GET`` - без параметров, возвращает информацию о текущем статусе в БП "
 "(возможные переходы)"
 msgstr ""
+"``GET`` - no parameters, returns information on the current status in the "
+"workflow (possible transitions)"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:25
 msgid ""
 "``PUT`` - выполняет перевод обьекта в указанные **следующие** этапы "
 "разных БП."
 msgstr ""
+"``PUT`` - transfers the object to the **next** specified stages of different "
+"workflows"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:26
 msgid ""
 "``PATCH`` - выполняет принудительный перевод обьекта в указанные этапы "
 "разных БП."
 msgstr ""
+"``PATCH`` - performs a forced transition of an object to the specified "
+"stages of different workflows"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:28
 msgid ""
 "Для всех методов запросы принимаются по пути ``<URL сервера>/rest/<имя "
 "сервиса>/:class/:id`` для идентификации обьекта данных."
 msgstr ""
+"For all the methods, the requests are accepted with the path of the type``"
+"<server URL>/rest/<service name>/:class/: id`` to identify the data object."
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:31
 msgid "Спецификация методов:"
-msgstr ""
+msgstr "Specification of methods:"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:40
 msgid ""
 "Получение текущего положения обьекта в бизнес-процессе: :doc:`GET "
 "<workflows_get>`"
 msgstr ""
+"Getting the current location of the object in the workflow: :doc:`GET "
+"<workflows_get>`"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:41
 msgid "Выполнение перехода объекта по бизнес-процессу: :doc:`PUT <workflows_put>`"
 msgstr ""
+"Performing the object transition through the workflow: :doc:`PUT "
+"<workflows_put>`"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/workflow/workflows_service.rst:42
 msgid ""
 "Перемещение объекта в указанное состояние бизнес-процесса: :doc:`PATCH "
 "<workflows_patch>`"
 msgstr ""
+"Moving an object to the specifies state of the workflow :doc:`PATCH "
+"<workflows_patch>`"
 
 #: ../docs-ru/4_modules/modules/soap.rst:2
 msgid "Модуль Soap"
-msgstr ""
+msgstr "Soap Module"
 
 #: ../docs-ru/4_modules/modules/soap.rst:5
 msgid "**NB:** модуль Soap не поддерживает GET запросы к сервисам."
-msgstr ""
+msgstr "**NB:** Soap module does not support the GET requests to services."
 
 #: ../docs-ru/4_modules/modules/soap.rst:7
 msgid ""
@@ -3840,10 +3900,16 @@ msgid ""
 " (можно и в браузере, но в теле запроса нужно писать SOAP-запрос, который"
 " основан на WSDL и является достаточно громоздким)."
 msgstr ""
+"This is partly due to the fact that a SOAP request is transmitted in the "
+"request body, while a GET request does not have a body (so to speak). For "
+"this reason, you need to send a POST request. This can be done using the "
+"SOAP-UI utility (it is also possible in a browser, but in the request body "
+"you need to write a SOAP request, which is based on WSDL and is quite "
+"cumbersome)."
 
 #: ../docs-ru/4_modules/modules/soap.rst:11
 msgid "Настройки структуры данных crud-сервиса"
-msgstr ""
+msgstr "Crud service data structure settings"
 
 #: ../docs-ru/4_modules/modules/soap.rst:13
 msgid ""
@@ -3855,6 +3921,13 @@ msgid ""
 "этим псевдонимом, во всех других случаях, кроме указания ``false``, "
 "атрибут появляется под своим именем."
 msgstr ""
+"The `` types ``option contains a mapping specified in the form of a mapping "
+"between the class (full name) and the map of the published attributes of "
+"this class. In map, the key is the attribute name, and the value is either a "
+"string alias or a Boolean value indicating whether the attribute is included "
+"in the schema or not, i.e., if an alias is specified, the attribute appears "
+"in the schema under this alias, in all other cases, except for specifying "
+"``false``, the attribute appears under its own name."
 
 #: ../docs-ru/4_modules/modules/soap.rst:15
 msgid ""
@@ -3862,10 +3935,14 @@ msgid ""
 "сервиса, а также при парсинге входящих сообщений и генерации ответов. "
 "Путем замены normalize на функцию корректно приводящую данные к схеме."
 msgstr ""
+"The setting is used when parsing classes when forming a service data schema, "
+"as well as when parsing incoming messages and generating responses. By "
+"replacing normalize with a function that correctly converts the data to the "
+"schema."
 
 #: ../docs-ru/4_modules/modules/soap.rst:18
 msgid "Для работы с коллекциями и ссылками"
-msgstr ""
+msgstr "For collections and references"
 
 #: ../docs-ru/4_modules/modules/soap.rst:20
 msgid ""
@@ -3873,14 +3950,17 @@ msgid ""
 "объекты, которые находятся в этих свойствах можно тоже описать мапой в "
 "``deploy.json`` вот по такому принципу:"
 msgstr ""
+"If the values of collections and links also need to be parsed somehow "
+"differently, the objects that are in these properties can also be described "
+"by a map in ``deploy.json`` according to this principle:"
 
 #: ../docs-ru/4_modules/modules/soap.rst:54
 msgid "Настройка, убирающая из запроса системные атрибуты"
-msgstr ""
+msgstr "The setting for removing system attributes from a request"
 
 #: ../docs-ru/4_modules/modules/soap.rst:61
 msgid "Авторизация по токену oauth2 в модуле SOAP"
-msgstr ""
+msgstr "Oauth2 token authentication in the SOAP module"
 
 #: ../docs-ru/4_modules/modules/soap.rst:63
 msgid ""
@@ -3889,12 +3969,18 @@ msgid ""
 " в сообщение заголовок безопасности ``WSSecurity``. Для аутентфиикации "
 "REST-сервисов добавляем стандартные заголовки ``HTTP-аутентифкации``."
 msgstr ""
+"Login-password and login-token authentication is applied by default for all "
+"services. Add the ``WSSecurity`` security header to the message to "
+"authenticate soap requests. To authenticate REST services, add standard ``"
+"HTTP authentication`` headers."
 
 #: ../docs-ru/4_modules/modules/soap.rst:65
 msgid ""
 "Настройка типа проверки - по паролю или токену (pwd/token) выполняется в "
 "deploy.json настройкой ``authMode`` в соответствующем модуле:"
 msgstr ""
+"Set the type of verification - by password or token (pwd/token) in "
+"deploy.json file by setting the ``authMode`` in the corresponding module:"
 
 #: ../docs-ru/4_modules/modules/soap.rst:82
 msgid ""
@@ -3903,3 +3989,7 @@ msgid ""
 "``authMode`` для сервиса в token, переходим в админку, генерируем токен, "
 "используем его вместо пароля в заголовках."
 msgstr ""
+"By default, all services are authenticated by passwords. The admin panel has "
+"a special form to generate a user token. Configure the ``authMode`` for the "
+"service in token, go to the admin panel, generate a token and use it instead "
+"of the password in the headers."
