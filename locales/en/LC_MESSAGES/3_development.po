@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-03-13 07:10+0000\n"
+"PO-Revision-Date: 2021-03-19 07:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/3_development/"
 "en/>\n"
@@ -24,27 +24,32 @@ msgstr ""
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils.rst:8
 #: ../docs-ru/3_development/platform_configuration/platform_configuration.rst:4
 msgid "Содержание"
-msgstr ""
+msgstr "Сontents"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils.rst:2
 msgid "Разработка функциональных утилит в приложении"
-msgstr ""
+msgstr "Development of functional utilities in the application"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils.rst:4
 msgid ""
 "Функциональные утилиты приложения предназначены для решения специфичных "
 "задач приложения, без реализации отдельной логики в виде модуля."
 msgstr ""
+"The application's functional utilities are designed to solve specific "
+"application tasks, without implementing separate logic in the form of a "
+"module."
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils.rst:6
 msgid ""
 "Например - утилиты вызываемой задачи по расписанию или утилиты вызываемой"
 " при переходе в бизнес-процессе."
 msgstr ""
+"For example, the utilities of a scheduled job or the utilities called upon "
+"transition in a workflow."
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/button.rst:2
 msgid "Утилиты для кнопок действия"
-msgstr ""
+msgstr "Utilities for action buttons"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/button.rst:4
 msgid ""
@@ -53,12 +58,18 @@ msgid ""
 "для веб-формы создания и редактирования объекта через массив ``commands``"
 " основого объекта формы:"
 msgstr ""
+"Utilities for action buttons are designed to automate the execution of "
+"certain actions when you click a button in a web form. The button is "
+"connected for the web form of creating and editing the object through the "
+"``commands`` array of the main form object:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/button.rst:43
 msgid ""
 "На этой форме доступно три кнопки: ``SAVE``\\ , ``SAVEANDCLOSE`` и "
 "``CREATE_INDICATOR_VALUE``."
 msgstr ""
+"The three buttons are available on the form: ``SAVE``\\ , ``SAVEANDCLOSE`` "
+"and ``CREATE_INDICATOR_VALUE``."
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/button.rst:45
 msgid ""
@@ -66,10 +77,15 @@ msgid ""
 "``deploy.json`` в объекте "
 "``modules.registry.globals.di.actions.options.actions``\\ :"
 msgstr ""
+"Before connecting to the form, the custom buttons must be set in ``deploy."
+"json`` in the object ``modules.registry.globals.di.actions.options.actions``"
+"\\ :"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/button.rst:71
 msgid "А также указать параметры используемого кнопкой модуля-обработчика:"
 msgstr ""
+"Also the parameters of the handler module used by the button must be "
+"specified:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/button.rst:93
 msgid ""
@@ -77,14 +93,16 @@ msgid ""
 "скрипт ``./applications/sakh-"
 "pm/lib/actions/createIndicatorValueHandler.js``."
 msgstr ""
+"In this example, clicking the button``CREATE_INDICATOR_VALUE`` launches the "
+"script ``./applications/sakh-pm/lib/actions/createIndicatorValueHandler.js``."
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/button.rst:95
 msgid "Содержание скрипта:"
-msgstr ""
+msgstr "The contents of the script:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:2
 msgid "Утилиты для задач по расписанию"
-msgstr ""
+msgstr "Utilities for scheduled jobs"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:4
 msgid ""
@@ -92,18 +110,24 @@ msgid ""
 "автоматизации регулярного выполнения некоторых действий через "
 "определенные промежутки времени."
 msgstr ""
+"**Utilities for schedueled jobs** are designed to automate the regular "
+"execution of some actions at certain intervals."
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:6
 msgid ""
 "Для этого каждая утилита должна быть определена в deploy.json приложения "
 "в объекте globals.jobs, например:"
 msgstr ""
+"Each utility must be specified in ``deploy.json`` of the application in the "
+"globals.jobs object, for example:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:29
 msgid ""
 "В ``di`` должно содержаться поле с именем, равном значению ``worker`` - "
 "это задача, которая будет запускаться."
 msgstr ""
+"``di`` should contain a field with a name equal to ``worker`` value - this "
+"is the job that will be launched."
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:31
 msgid ""
