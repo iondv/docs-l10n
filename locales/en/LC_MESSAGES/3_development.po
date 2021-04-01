@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-03-19 07:10+0000\n"
+"PO-Revision-Date: 2021-04-02 09:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/3_development/"
 "en/>\n"
@@ -135,6 +135,9 @@ msgid ""
 "discount/lib/overnightTicketClose.js``. ``launch`` может быть объектом, "
 "содержащим следующие поля:"
 msgstr ""
+"Here the script ``applications/khv-ticket-discount/lib/overnightTicketClose."
+"js`` is launched on the schedule. ``launch`` can be an object containing the "
+"following fields:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:34
 msgid ""
@@ -142,12 +145,17 @@ msgid ""
 "``hour``\\ , ``min``\\ , ``minute``\\ , ``sec``\\ , ``second`` - задают "
 "интервал между выполнениями задачи;"
 msgstr ""
+"``month``\\ , ``week``\\ , ``day``\\ , ``dayOfYear``\\ , ``weekday``\\ , "
+"``hour``\\ , ``min``\\ , ``minute``\\ , ``sec``\\ , ``second`` - set the "
+"interval for job executions;"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:36
 msgid ""
 "``check`` - интервал проверки условия выполнения, в милисекундах, по "
 "умолчанию - 1000.\\"
 msgstr ""
+"``check`` - interval for checking the execution condition, in milliseconds, "
+"by default - 1000.\\"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:38
 msgid ""
@@ -155,18 +163,25 @@ msgid ""
 "выполняться лишь каждые 10 секунд, когда интервал между проверками "
 "совпадет с интервалом выполнения\\"
 msgstr ""
+"For example, if ``check`` is equal to 5000, and ``sec`` is 2, the job will "
+"be implemented only every 10 seconds, when the interval between checks "
+"coincides with the interval of execution\\"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:40
 msgid ""
 "Если интервал выполнения задачи не задан, то она будет выполнена при "
 "запуске приложения и через каждый интервал проверки.\\"
 msgstr ""
+"If the job execution interval is not specified, then it will be executed "
+"when the application is launched and at each check interval.\\"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:42
 msgid ""
 "``timeout`` - время в милисекундах, после которого запущенная задача "
 "прерывается по таймауту;"
 msgstr ""
+"``timeout`` - the time in milliseconds after which the running job is "
+"interrupted by timeout;"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:44
 msgid ""
@@ -174,6 +189,9 @@ msgid ""
 "задания в милисекундах, при этом задача также будет выполнена сразу при "
 "запуске приложения. Таймаут будет установлен равным интервалу выполнения."
 msgstr ""
+"``launch`` can also be an integer - the interval of the job in milliseconds, "
+"while the job will also be performed immediately when the application "
+"starts. The timeout will be set equal to the execution interval."
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:46
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:26
@@ -183,15 +201,18 @@ msgid ""
 "которые станут доступны в скрипте через поля объекта, передаваемого как "
 "аргумент основной функции модуля."
 msgstr ""
+"In the ``options`` field, any variables and their values, which will become "
+"available in the script through the fields of the object passed as an "
+"argument to the main function of the module, can be specified."
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/jobs.rst:48
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:28
 msgid "Скрипт составляется в формате модуля, например так:"
-msgstr ""
+msgstr "The script is compiled in the module format, for example:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:2
 msgid "Утилиты для печатных форм"
-msgstr ""
+msgstr "Utilities for printed forms"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:4
 msgid ""
@@ -199,18 +220,25 @@ msgid ""
 "выводимых в шаблон данных, в том числе проведения промежуточных расчетов "
 "и форматирования.\\"
 msgstr ""
+"**Utilities for printed forms (injectors)** are designed to process data "
+"output to the template, including performing intermediate calculations and "
+"formatting.\\"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:6
 msgid ""
 "Печатную форму, для которой будет использоваться инжектор, необходимо "
 "определить в deploy.json, например:"
 msgstr ""
+"The printed form for which the injector will be used must be defined in "
+"deploy.json, for example:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:30
 msgid ""
 "В данном случае используется модуль listToDocx, следовательно в печатную "
 "форму будет выгружен список всех объектов определенного класса.\\"
 msgstr ""
+"In this case, the listToDocx module is used, so a list of all objects of a "
+"certain class will be uploaded to the printed form.\\"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:32
 msgid ""
@@ -218,26 +246,35 @@ msgid ""
 "пространства имен, в которую затем поместить файл с названием нужного для"
 " выгрузки класса из этого пространства имен, например:"
 msgstr ""
+"For each such class in tplDir, create a folder with the name of the "
+"namespace, into which then place a file with the name of the class you need "
+"to unload from this namespace, for example:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:38
 msgid ""
 "Таким образом в документ будет выгружен список всех объектов класса "
 "ticketYear@khv-ticket-discount."
 msgstr ""
+"Thus, a list of all objects of the ticketYear@khv-ticket-discount class will "
+"be uploaded to the document."
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:40
 msgid ""
 "Сама утилита представляет собой .js скрипт, подключаемый к приложению в "
 "формате модуля в deploy.json, например так:"
 msgstr ""
+"The utility itself is a .js script connected to the application in the "
+"module format in deploy.json, for example:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:61
 msgid ".js файл здесь находится по пути \"module\"."
-msgstr ""
+msgstr "The .js file here is located at the \"module\" path."
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:63
 msgid "После подключения утилиту необходимо включить в опции печатной формы:"
 msgstr ""
+"After connecting, the utility must be included in the options of the printed "
+"form:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:90
 msgid ""
@@ -246,14 +283,18 @@ msgid ""
 "объект с вложенным в него списком объектов заданного ранее класса, для "
 "примера из этой справки:"
 msgstr ""
+"The injector script is compiled in the module format, provided that it must "
+"contain the this.inject function, into the parameter of which the object "
+"with the list of objects of the class specified earlier will be transferred "
+"to, for an example from this reference:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:96
 msgid "Пример файла monthTicketStats.js:"
-msgstr ""
+msgstr "Example of the monthTicketStats.js file:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:121
 msgid "Пример конфигурации экспорта для данной формы в deploy.js:"
-msgstr ""
+msgstr "Example of an export configuration for this form in deploy.js:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:173
 msgid ""
@@ -261,56 +302,71 @@ msgid ""
 "параметры, доступные в форме экспорта в веб сервисе приложения. Возможны "
 "следующие типы параметров:\\"
 msgstr ""
+"Here you should pay attention to the params field, you can specify the "
+"parameters available in the export form in the application web service in it "
+". The following types of parameters are possible:\\"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:175
 msgid "\"string\" - строка для ввода текста,\\"
-msgstr ""
+msgstr "\"string\" - a string for entering text,\\"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:177
 msgid ""
 "\"date\" - интерактивный календарь, в котором можно выбрать интересующую "
 "дату\\"
-msgstr ""
+msgstr "\"date\" - interactive calendar where you can select a required date\\"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:179
 msgid ""
 "\"reference\" - ссылка на класс, в данном случае в окне экспорта будет "
 "отображен выпадающий список всех объектов класса.\\"
 msgstr ""
+"\"reference\" - a reference to the class, in this case, the export window "
+"will display a drop-down list of all objects of the class.\\"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/print_forms.rst:181
 msgid ""
 "Переданные параметры будут доступны в скрипте через параметр функции "
 "this.inject."
 msgstr ""
+"The passed parameters will be available in the script through the "
+"this.inject function parameter."
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:2
 msgid "Утилиты для веб-сервиса (rest)"
-msgstr ""
+msgstr "Utilities for web service (rest)"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:4
 msgid ""
 "**Утилиты веб-сервиса** предназначены для реализации обработки различных "
 "видов запросов к серверу.\\"
 msgstr ""
+"**Web service utilities** are designed to implement the processing of "
+"various types of requests to the server.\\"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:6
 msgid ""
 "Cервис подключается к приложению в deploy.json в объекте "
 "modules.rest.globals.di, например так:"
 msgstr ""
+"The service connects to the application in deploy.json in the "
+"modules.rest.globals.di object, for example like this:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:22
 msgid ""
 "В этом случае подключается сервис ``acceptor``\\ , он станет доступен для"
 " запросов по url ``https://dnt.iondv.com/rest/acceptor``.\\"
 msgstr ""
+"In this case, the service ``acceptor``\\ is connected , it will be available "
+"for requests by url ``https://dnt.iondv.com/rest/acceptor``.\\"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:24
 msgid ""
 "Функциональное описание взаимодействия с запросами должно содержаться в "
 "скрипте ``modules/rest/lib/impl/acceptor.js``.\\"
 msgstr ""
+"Functional description of interaction with requests should be contained in "
+"the script ``modules/rest/lib/impl/acceptor.js``.\\"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/rest.rst:55
 msgid ""
@@ -318,10 +374,13 @@ msgid ""
 "https://github.com/iondv/rest/blob/master/README_RU.md/ раздел "
 "``Разработка обработчика сервиса в приложении``"
 msgstr ""
+"A detailed description of the principles of creating the service can be "
+"found in https://github.com/iondv/rest/blob/main/README.md/ section ``"
+"Development of the service handler in the app``"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/workflow.rst:2
 msgid "Утилиты для бизнес-процесса"
-msgstr ""
+msgstr "Utilities for workflow"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/workflow.rst:4
 msgid ""
@@ -330,6 +389,10 @@ msgid ""
 "Утилита подключается к приложению в deploy.json в объекте "
 "globals.plugins, например так:"
 msgstr ""
+"**Utilities for workflow** are designed to automate the execution of some "
+"actions when the status of a workflow changes. The utility is connected to "
+"the application in deploy.json in the globals.plugins object, for example "
+"like this:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/workflow.rst:23
 msgid ""
@@ -337,12 +400,17 @@ msgid ""
 "действий при изменении статуса бизнес-процесса находится по пути "
 "``applications/sakh-pm/lib/wfEvents.js``.\\"
 msgstr ""
+"Here the ``wfEvents`` utility is connected. The script containing the "
+"description of actions when changing the status of the workflow is located "
+"on the path ``applications/sakh-pm/lib/wfEvents.js``.\\"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/workflow.rst:27
 msgid ""
 "Скрипт составляется в формате модуля, при условии, что он должен включать"
 " метод init, например так:"
 msgstr ""
+"The script is compiled in module format, provided that it must include the "
+"init method, for example:"
 
 #: ../docs-ru/3_development/expand_functionality/app_utils/app_utils_files/workflow.rst:75
 msgid ""
@@ -350,118 +418,136 @@ msgid ""
 "статуса бизнес-процесса ``assignmentBasic@sakh-pm`` на ``fin``\\ , и "
 "статуса бизнес-процесса ``proposal@sakh-pm`` на ``cancel``."
 msgstr ""
+"This script describes the actions to be performed when changing the status "
+"of the workflow ``assignmentBasic@sakh-pm`` to ``fin``\\, and the status of "
+"the workflow ``proposal@sakh-pm`` to``cancel``."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:2
 msgid "dataRepo"
-msgstr ""
+msgstr "dataRepo"
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:4
 msgid "//dataRepo info from"
-msgstr ""
+msgstr "//dataRepo info from"
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:8
 msgid "core\\impl\\datarepository\\ionDataRepository.js"
-msgstr ""
+msgstr "core\\impl\\datarepository\\ionDataRepository.js"
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:9
 msgid "core\\interfaces\\DataRepository\\DataRepository.js"
-msgstr ""
+msgstr "core\\interfaces\\DataRepository\\DataRepository.js"
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:10
 msgid "core\\interfaces\\MetaRepository\\MetaRepository.js"
-msgstr ""
+msgstr "core\\interfaces\\MetaRepository\\MetaRepository.js"
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:11
 msgid "core\\impl\\meta\\DsMetaRepository.js"
-msgstr ""
+msgstr "core\\impl\\meta\\DsMetaRepository.js"
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:12
 msgid "#. core\\iterfaces\\DataSource.js #."
-msgstr ""
+msgstr "#. core\\iterfaces\\DataSource.js #."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:14
 msgid "core\\impl\\datasource\\mongodb.js // supported calls:"
-msgstr ""
+msgstr "core\\impl\\datasource\\mongodb.js // supported calls:"
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:19
 msgid "wrap(className, data, [version], [options]) supported options: user ..."
-msgstr ""
+msgstr "wrap(className, data, [version], [options]) supported options: user ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:25
 msgid "setValidators(validators[]) ..."
-msgstr ""
+msgstr "setValidators(validators[]) ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:29
 msgid "getCount(obj, [options]) supported options: filter"
-msgstr ""
+msgstr "getCount(obj, [options]) supported options: filter"
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:33
 msgid "Возвращает количество объектов класса obj в базе данных. ..."
-msgstr ""
+msgstr "Returns the number of objects of the obj class in the database. ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:37
 msgid ""
 "getList(obj, [options]) supported options: filter offset count sort "
 "countTotal nestingDepth env user"
 msgstr ""
+"getList(obj, [options]) supported options: filter offset count sort "
+"countTotal nestingDepth env user"
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:48
 msgid "Возвращает список объектов класса obj в базе данных. ..."
-msgstr ""
+msgstr "Returns a list of objects of the obj class in the database. ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:52
 msgid ""
 "getIterator(obj, [options]) supported options: filter offset count sort "
 "countTotal nestingDepth env user"
 msgstr ""
+"getIterator(obj, [options]) supported options: filter offset count sort "
+"countTotal nestingDepth env user"
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:63
 msgid ""
 "предположительно "
 "https://docs.mongodb.com/manual/tutorial/iterate-a-cursor/ ..."
 msgstr ""
+"presumably https://docs.mongodb.com/manual/tutorial/iterate-a-cursor/ ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:67
 msgid ""
 "aggregate(className, [options]) supported options: user expressions "
 "filter groupBy"
 msgstr ""
+"aggregate(className, [options]) supported options: user expressions filter "
+"groupBy"
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:74
 msgid "предположительно https://docs.mongodb.com/manual/aggregation/"
-msgstr ""
+msgstr "presumably https://docs.mongodb.com/manual/aggregation/"
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:76
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:80
 msgid ""
 "rawData(className, [options]) supported options: user filter attributes "
 "distinct"
 msgstr ""
+"rawData(className, [options]) supported options: user filter attributes "
+"distinct"
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:87
 msgid "https://docs.mongodb.com/manual/reference/method/db.collection.find/ ..."
 msgstr ""
+"https://docs.mongodb.com/manual/reference/method/db.collection.find/ ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:92
 msgid ""
 "getItem(obj, [id], [options]) supported options: filter nestingDepth user"
 " ..."
 msgstr ""
+"getItem(obj, [id], [options]) supported options: filter nestingDepth user ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:100
 msgid ""
 "createItem(className, data, [version], [changeLogger], [options]) "
 "supported options: nestingDepth skipResult adjustAutoInc user ..."
 msgstr ""
+"createItem(className, data, [version], [changeLogger], [options]) supported "
+"options: nestingDepth skipResult adjustAutoInc user ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:109
 msgid ""
 "editItem(className, id, data, [changeLogger], [options]) supported "
 "options: nestingDepth skipResult adjustAutoInc user ..."
 msgstr ""
+"editItem(className, id, data, [changeLogger], [options]) supported options: "
+"nestingDepth skipResult adjustAutoInc user ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:118
 msgid ""
@@ -469,91 +555,111 @@ msgid ""
 "supported options: nestingDepth autoAssign skipResult adjustAutoInc user "
 "..."
 msgstr ""
+"saveItem(className, id, data, [version], [changeLogger], [options]) "
+"supported options: nestingDepth autoAssign skipResult adjustAutoInc user ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:128
 msgid ""
 "deleteItem(className, id, [changeLogger], [options]) supported options: "
 "user ..."
 msgstr ""
+"deleteItem(className, id, [changeLogger], [options]) supported options: user "
+"..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:134
 msgid ""
 "put(master, collection, details, [changeLogger], [options]) supported "
 "options: user ..."
 msgstr ""
+"put(master, collection, details, [changeLogger], [options]) supported "
+"options: user ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:140
 msgid ""
 "eject(master, collection, details, [changeLogger], [options]) supported "
 "options: user ..."
 msgstr ""
+"eject(master, collection, details, [changeLogger], [options]) supported "
+"options: user ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:146
 msgid ""
 "getAssociationsList(master, collection, [options]) supported options: "
 "filter offset count sort countTotal nestingDepth user ..."
 msgstr ""
+"getAssociationsList(master, collection, [options]) supported options: filter "
+"offset count sort countTotal nestingDepth user ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:158
 msgid ""
 "getAssociationsCount(master, collection, [options]) supported options: "
 "filter offset count sort countTotal nestingDepth user ..."
 msgstr ""
+"getAssociationsCount(master, collection, [options]) supported options: "
+"filter offset count sort countTotal nestingDepth user ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:170
 msgid ""
 "bulkEdit(classname, data, [options]) supported options: filter "
 "nestingDepth forceEnrichment user ..."
 msgstr ""
+"bulkEdit(classname, data, [options]) supported options: filter nestingDepth "
+"forceEnrichment user ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:179
 msgid "bulkDelete(classname, [options]) supported options: filter user"
-msgstr ""
+msgstr "bulkDelete(classname, [options]) supported options: filter user"
 
 #: ../docs-ru/3_development/expand_functionality/core/dataRepo.rst:185
 msgid "recache(item, [options]) ..."
-msgstr ""
+msgstr "recache(item, [options]) ..."
 
 #: ../docs-ru/3_development/expand_functionality/core/index.rst:2
 msgid "Ключевые функции ядра"
-msgstr ""
+msgstr "Core key functions"
 
 #: ../docs-ru/3_development/expand_functionality/core/metaRepo.rst:2
 msgid "MetaRepo"
-msgstr ""
+msgstr "MetaRepo"
 
 #: ../docs-ru/3_development/expand_functionality/core/metaRepo.rst:4
 #: ../docs-ru/3_development/expand_functionality/core/workflow.rst:4
 #: ../docs-ru/3_development/metadata_structure/meta_view/create_edit_view.rst:4
 #: ../docs-ru/3_development/metadata_structure/meta_view/list_view.rst:4
 msgid "TODO"
-msgstr ""
+msgstr "TODO"
 
 #: ../docs-ru/3_development/expand_functionality/core/workflow.rst:2
 msgid "Workflow"
-msgstr ""
+msgstr "Workflow"
 
 #: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:2
 msgid "Использование шаблонов для полей ввода данных в веб-форме"
-msgstr ""
+msgstr "Using templates for data entry fields in a web form"
 
 #: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:4
 msgid ""
 "Шаблоны предназначены для задания пользовательских параметров построения "
 "полей ввода данных в веб-форме."
 msgstr ""
+"Templates are used to set custom parameters for constructing data entry "
+"fields in a web form."
 
 #: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:6
 msgid ""
 "Для подключения шаблона к полю веб-формы, необходимо указать его в опциях"
 " соответствующего поля json формы:"
 msgstr ""
+"To connect a template to a web form field, you must specify it in the "
+"options of the corresponding field of the json form:"
 
 #: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:25
 msgid ""
 "Шаблоны в формате ``.ejs`` загружаются по пути, указанном в "
 "``modules.registry.globals.templates`` из ``deploy.json``."
 msgstr ""
+"`.ejs`` templates are loaded by the path specified in ``modules.registry."
+"globals.templates`` from ``deploy.json``."
 
 #: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:27
 msgid ""
@@ -562,32 +668,43 @@ msgid ""
 " будет загружен скрипт ``applications/khv-ticket-"
 "discount/templates/registry/capitalize.ejs``."
 msgstr ""
+"For example, if the path ``applications/khv-ticket-discount/templates/"
+"registry`` is specified, then for the previous example in the ``property`` "
+"field the script ``applications/khv-ticket-discount/templates/registry/"
+"capitalize.ejs`` will be loaded."
 
 #: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:29
 msgid ""
 "Скрипт будет выполнен при загрузке поля в веб-форме. Синтаксис "
 "стандартный для ejs."
 msgstr ""
+"The script will be executed when the field is loaded in the web form. The "
+"syntax is standard for ejs."
 
 #: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:31
 msgid ""
 "Внутри скрипта доступны некоторые элементы веб-формы, подробнее: `Опции "
 "</3_development/metadata_structure/meta_view/meta_view_attribute/options.rst>`_."
 msgstr ""
+"Some elements of the web form are available inside the script, for more "
+"details see: `Options </3_development/metadata_structure/meta_view/"
+"meta_view_attribute/options.rst>` _."
 
 #: ../docs-ru/3_development/expand_functionality/fieldTemplate.rst:33
 msgid ""
 "Пример скрипта для автоматической замены в текстовом поле ввода нижнего "
 "регистра букв на верхний и буквы \"ö\" на \"o\":"
 msgstr ""
+"Example of a script for automatically replacing lowercase letters with "
+"uppercase letters and the letters \"ö\" with \"o\" in a text field:"
 
 #: ../docs-ru/3_development/expand_functionality/index.rst:2
 msgid "Расширение функциональности"
-msgstr ""
+msgstr "Expand functionality"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:2
 msgid "Функциональность"
-msgstr ""
+msgstr "Functionality"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:4
 msgid ""
@@ -595,6 +712,9 @@ msgid ""
 "которые реализуются отдельно и независимо от метаданных, но в рамках "
 "приложения."
 msgstr ""
+"**Application functionality** - is a set of features (functions) that are "
+"implemented separately and independently of metadata but within an "
+"application."
 
 #: ../docs-ru/3_development/functionality/functionality.rst:9
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:148
@@ -670,94 +790,96 @@ msgstr "Description"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:11
 msgid ":doc:`Шаблоны модулей <functionality_files/module_templates>`"
-msgstr ""
+msgstr ":doc:`Module templates <functionality_files/module_templates>`"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:12
 msgid "Разделяются на системные и проектные шаблоны."
-msgstr ""
+msgstr "Divided into system and project templates."
 
 #: ../docs-ru/3_development/functionality/functionality.rst:13
 msgid ":doc:`Печатные формы <functionality_files/printed_forms>`"
-msgstr ""
+msgstr ":doc:`Printed forms <functionality_files/printed_forms>`"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:14
 msgid "Передача форматирования в прописном виде."
-msgstr ""
+msgstr "Display formatting in printed form."
 
 #: ../docs-ru/3_development/functionality/functionality.rst:15
 msgid ":doc:`Задания по расписанию <functionality_files/schedule>`"
-msgstr ""
+msgstr ":doc:`Scheduled jobs <functionality_files/schedule>`"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:16
 msgid "Подсистемы запуска заданий по расписанию."
-msgstr ""
+msgstr "Subsystems for running scheduled jobs."
 
 #: ../docs-ru/3_development/functionality/functionality.rst:17
 msgid ":doc:`Уведомления <functionality_files/notifications>`"
-msgstr ""
+msgstr ":doc:`Notifications <functionality_files/notifications>`"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:18
 msgid "Лента новых уведомлений."
-msgstr ""
+msgstr "Feed of new notifications."
 
 #: ../docs-ru/3_development/functionality/functionality.rst:19
 msgid ":doc:`Кеширование данных <functionality_files/cached>`"
-msgstr ""
+msgstr ":doc:`Data caching <functionality_files/cached>`"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:20
 msgid "Кеширование данных обеспечивает быстрый доступ к запрашиваемой информации."
-msgstr ""
+msgstr "Data caching provides quick access to the requested information."
 
 #: ../docs-ru/3_development/functionality/functionality.rst:21
 msgid ":doc:`Фильтры на форме <functionality_files/filter>`"
-msgstr ""
+msgstr ":doc:`Filters on form <functionality_files/filter>`"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:22
 msgid "Запрос для фильтра на форме представления списка."
-msgstr ""
+msgstr "Query for filter on the list view form."
 
 #: ../docs-ru/3_development/functionality/functionality.rst:23
 msgid ":doc:`Связь двух неймспейсов <functionality_files/namespace>`"
-msgstr ""
+msgstr ":doc:`Connect two namespaces <functionality_files/namespace>`"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:24
 msgid "Для связывания двух проектов."
-msgstr ""
+msgstr "Connection of two projects using \"namespace\"."
 
 #: ../docs-ru/3_development/functionality/functionality.rst:25
 msgid ":doc:`ЭЦП <functionality_files/eds>`"
-msgstr ""
+msgstr ":doc:`EDS <functionality_files/eds>`"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:26
 msgid "Электронно-цифровая подпись."
-msgstr ""
+msgstr "Electronic digital signature."
 
 #: ../docs-ru/3_development/functionality/functionality.rst:27
 msgid ":doc:`Виртуальные атрибуты <functionality_files/virtual_attr>`"
-msgstr ""
+msgstr ":doc:`Virtual attributes <functionality_files/virtual_attr>`"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:28
 msgid ""
 "Специальный тип атрибутов, который позволяет выводить полный код и "
 "наименование класса."
 msgstr ""
+"Special type of attributes that allows you to display the full code and name "
+"of the class."
 
 #: ../docs-ru/3_development/functionality/functionality.rst:29
 msgid ":doc:`Утилиты <functionality_files/utilities>`"
-msgstr ""
+msgstr ":doc:`Utilities <functionality_files/utilities>`"
 
 #: ../docs-ru/3_development/functionality/functionality.rst:30
 msgid "Дополнительные программы для более специализированного применения"
-msgstr ""
+msgstr "Additional programs for more specialized application."
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:2
 msgid "Кеширование данных"
-msgstr ""
+msgstr "Data caching"
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:5
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main/allowsearch.rst:7
 msgid "Логика работы"
-msgstr ""
+msgstr "Principle of work"
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:7
 msgid ""
@@ -766,6 +888,10 @@ msgid ""
 "поддержкой кеширования ``cachedDataRepo``. Данные загружаются по цепочке:"
 " *БД -> dataRepo -> cachedDataRepo -> securedDataRepo*."
 msgstr ""
+"Between the basic data repository ``dataRepo`` and the data repository with "
+"security checks ``securedDataRepo``, a data repository with support for "
+"caching ``cachedDataRepo`` has been implemented. The data is loaded by chain:"
+" *BD -> dataRepo -> cachedDataRepo -> securedDataRepo*."
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:10
 msgid ""
@@ -774,10 +900,14 @@ msgid ""
 "запрашивает их у ``dataRepo``\\ , после чего помещает в кеш и отдает "
 "``securedDataRepo``."
 msgstr ""
+"However, when running a query, the ``cachedDataRepo``\\ first checks for the "
+"availability of data in the cache (if the cache is enabled), and if there is "
+"no data in the cache, it requests it from ``dataRepo``\\, then it places it "
+"in the cache and returns it to ``securedDataRepo``."
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:13
 msgid "Настройка кеширования объектов отдельных классов"
-msgstr ""
+msgstr "Setting caching of objects of individual classes"
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:15
 msgid ""
@@ -785,6 +915,9 @@ msgid ""
 "(deploy.json), в опциях ``cachedDataRepo`` указать список классов, данные"
 " которых нужно хранить в кеше."
 msgstr ""
+"In the configuration file (deploy.json), in the options ``cachedDataRepo`` "
+"you can individually specify the list of classes whose data should be stored "
+"in the cache."
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:18
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:21
@@ -805,15 +938,15 @@ msgstr "Example:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:28
 msgid "Если **cachedClasses** не указан, то кешируются все данные."
-msgstr ""
+msgstr "If **cachedClasses** is not specified, then all data are cached."
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:31
 msgid "Кеширование списка объектов"
-msgstr ""
+msgstr "Caching a list of objects"
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:33
 msgid "Кешируются как индивидуальные обьекты, так и списки."
-msgstr ""
+msgstr "Both individual objects and lists are cached."
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:35
 msgid ""
@@ -823,14 +956,22 @@ msgid ""
 " обьектов. При выборке списка из кеша на основании этого массива из кеша "
 "выбираются соответствующие обьекты и формируется результирующий список."
 msgstr ""
+"When a list is cached based on its selection conditions (including "
+"pagination), a key is generated, then a selection is performed and all "
+"received objects are cached individually, and the list is cached as an array "
+"of object identifiers. When selecting a list from the cache, on the basis of "
+"this array, the corresponding objects are selected from the cache and the "
+"resulting list is formed."
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:38
 msgid "Аналогично кешируются все объекты по ссылке и коллекции загружаемые жадно."
 msgstr ""
+"Similarly, all objects by reference and eagerly loaded collections are "
+"cached."
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:41
 msgid "Настройка гибкого кеширования"
-msgstr ""
+msgstr "Setting the adaptive cache"
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:43
 msgid ""
@@ -841,6 +982,12 @@ msgid ""
 "``memcached`` и ``redis`` в опции ``connectOptions``. Все нужные "
 "плейсхолдеры прописаны в файле config.json репозитория платформы."
 msgstr ""
+"For advanced configuration of cache (such as, query storage time, depth of "
+"storage of objects in the cache, etc.) the setting of *adaptive object "
+"caching* is applied. Adaptive cache settings are specified in the "
+"deploy.json file in the ``\"di\"``\\ property, in the ``memcached`` and "
+"``redis`` components in the ``connectOptions`` option. All the necessary "
+"placeholders are listed in the config.json file of the platform repository."
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:47
 msgid ""
@@ -848,22 +995,26 @@ msgid ""
 "обьектов из БД, то есть в обьекте хранится информация о его ссылках, а "
 "дальше в кеше получается граф обьектов, а не дерево."
 msgstr ""
+"**NB:** The storage depth of objects in the cache corresponds to the depth "
+"of the query for objects from the database. So, the object stores "
+"information about its references, and then in the cache the object graph is "
+"obtained, and not the tree."
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:51
 msgid "Настройка кеширования через ini файл приложения"
-msgstr ""
+msgstr "Setting the cache by use of the ini-file"
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:53
 msgid "Параметры ini файла:"
-msgstr ""
+msgstr "The ini-file parameters:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/cached.rst:72
 msgid "По умолчанию кеширование не используется."
-msgstr ""
+msgstr "Cache is not used by default."
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:2
 msgid "Электронно-цифровая подпись"
-msgstr ""
+msgstr "Electronic digital signature"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:7
 msgid ""
@@ -874,62 +1025,68 @@ msgid ""
 " Он позволяет идентифицировать владельца сертификата ключа подписи и "
 "установить отсутствие искажения информации в электронном документе."
 msgstr ""
+"**Electronic digital signature (EDS)** - is a detail of an electronic "
+"document intended to protect this electronic document from forgery, obtained "
+"as a result of cryptographic transformation of information using the private "
+"key of an electronic digital signature. It allows you to identify the owner "
+"of the certificate key signature and establish that there is no distortion "
+"of information in the electronic document."
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:10
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/binding.rst:7
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/semantic.rst:13
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/semantic.rst:13
 msgid "Цель использования"
-msgstr ""
+msgstr "Purpose of use"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:12
 msgid "В приложении ЭЦП может быть нужна для:"
-msgstr ""
+msgstr "In the application the EDS may be used for:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:15
 msgid "Проверки целостности данных"
-msgstr ""
+msgstr "Data integrity checking"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:16
 msgid "Определения авторства данных"
-msgstr ""
+msgstr "Data authorship establishment"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:18
 msgid ""
 "Существует три вида электронной цифровой подписи, которые отличаются по "
 "своему применению:"
-msgstr ""
+msgstr "There are three types of digital signatures that differ in their use:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:21
 msgid "Простая электронно-цифровая подпись"
-msgstr ""
+msgstr "Simple electronic digital signature"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:23
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:29
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:35
 msgid "для определения авторства данных"
-msgstr ""
+msgstr "to establish the authorship of the data"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:24
 msgid "создается с использованием кодов, паролей или иных средств"
-msgstr ""
+msgstr "created with the use of codes, passwords or other instruments"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:26
 msgid "Усиленная неквалифицированная электронно-цифровая подпись"
-msgstr ""
+msgstr "Reinforced unqualified electronic digital signature"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:28
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:34
 msgid "для проверки целостности данных"
-msgstr ""
+msgstr "to check data integrity"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:30
 msgid "создается с использованием средств электронной подписи"
-msgstr ""
+msgstr "created using electronic signature tools"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:32
 msgid "Усиленная квалифицированная электронно-цифровая подпись"
-msgstr ""
+msgstr "Reinforced qualified electronic digital signature"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:36
 msgid ""
@@ -937,36 +1094,44 @@ msgid ""
 "электронной подписи, получившие подтверждение соответствия требованиям "
 "законодательства"
 msgstr ""
+"to create and verify an electronic signature, electronic signature tools are "
+"used that have received confirmation of compliance with the requirements of "
+"the legislation"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:39
 msgid "Специфика работы"
-msgstr ""
+msgstr "Work specifics"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:41
 msgid ""
 "Работает утилита ЭЦП на основе КриптоПро, поэтому он должен быть "
 "установлен на одном компьютере:"
 msgstr ""
+"The EDS utility works on the cryptoPro basis, so it should be installed on "
+"the computer:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:44
 msgid "ставим `крипто про <https://www.cryptopro.ru/products/csp/downloads>`_"
-msgstr ""
+msgstr "install `cryptopro <https://www.cryptopro.ru/products/csp/downloads>`_"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:45
 msgid "ставим `плагин <https://www.cryptopro.ru/products/cades/plugin>`_"
 msgstr ""
+"install `cryptopro plugin <https://www.cryptopro.ru/products/cades/plugin>`_"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:46
 msgid ""
 "для тестирования, выпускаем `сертификат "
 "<https://www.cryptopro.ru/certsrv/certrqma.asp>`_"
 msgstr ""
+"issue a `certificate <https://www.cryptopro.ru/certsrv/certrqma.asp>`_ for "
+"testing"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:49
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:93
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_wf_files/wf_security.rst:10
 msgid "Реализация"
-msgstr ""
+msgstr "Implementation"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:51
 msgid ""
@@ -975,6 +1140,10 @@ msgid ""
 "папке приложения ``lib/digest`` (на примере приложения project-"
 "management):"
 msgstr ""
+"EDS can be attributed to the application utilities, since its main "
+"implementation is in the application. Usually the implementation of EDS is "
+"located in the ``lib/digest`` application folder (for example, the project-"
+"management app):"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:54
 msgid ""
@@ -982,16 +1151,21 @@ msgid ""
 "необходимость в электронной подписи (_applicable) и процесс подписи при "
 "выполнении перехода БП (_process)"
 msgstr ""
+"``lib/digest/digestData.js`` - check the loading object form to the need for "
+"an electronic signature (_applicable) and check the signature process when "
+"performing a WF transition (_process)"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:55
 msgid "``lib/digest/signSaver.js`` - прикрепление подписи к объекту"
-msgstr ""
+msgstr "``lib/digest/signSaver.js`` - attachment of the signature to the object"
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:57
 msgid ""
 "Для того, чтобы статус ЭП запрашивался/отображался, для registry "
 "добавляем в ``deploy`` настройку signedClasses."
 msgstr ""
+"Add the ``signedClasses`` setting in the ``deploy`` file for the registry "
+"module, so that EDS status can be displayed."
 
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:60
 #: ../docs-ru/3_development/functionality/functionality_files/eds.rst:75
@@ -1044,46 +1218,48 @@ msgid ""
 "В БП ``workflows/indicatorValueBasic.wf.json`` добавляем переход со "
 "свойством ``\"signBefore\": true``."
 msgstr ""
+"In the ``workflows/indicatorValueBasic.wf.json`` workflow add a transition "
+"with the ``\"signBefore\": true`` property."
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:2
 msgid "Фильтры на форме представления списка"
-msgstr ""
+msgstr "Filters on the list view form"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:8
 msgid "Запрос для фильтра задается выражением (поисковым запросом)."
-msgstr ""
+msgstr "The query for the filter is specified by an expression (search query)."
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:10
 msgid "Поддерживает следующие операции:"
-msgstr ""
+msgstr "The available operations:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:13
 msgid "группировки скобками"
-msgstr ""
+msgstr "using brackets for grouping"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:14
 msgid "логических: AND, OR, NOT"
-msgstr ""
+msgstr "logical: AND, OR, NOT"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:15
 msgid "сравнения: =, <, >, <=, >=, <>"
-msgstr ""
+msgstr "comparison: =, <, >, <=, >=, <>"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:16
 msgid "арифметических: +, -, \\*\\, /"
-msgstr ""
+msgstr "arithmetic: +, -, \\*\\, /"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:17
 msgid "строковых: like"
-msgstr ""
+msgstr "string: like"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:18
 msgid "над коллекциями: size"
-msgstr ""
+msgstr "over collections: size"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:21
 msgid "Создание запроса"
-msgstr ""
+msgstr "Create a query"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:23
 msgid ""
@@ -1091,36 +1267,41 @@ msgid ""
 "``>_``\\ , расположенной у основания поля запроса для фильтра. "
 "Наименование атрибута оборочивается в *\"backticks\"* т.е.:"
 msgstr ""
+"**Choose attribute** from the drop-down list using the ``> _``\\ button "
+"located at the bottom of the filter request field. The name of the attribute "
+"is shortened in *\"backticks\"* i.e.:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:29
 msgid "**Параметры комбинации** значений атрибутов для запроса:"
-msgstr ""
+msgstr "**Combination options** of attribute values for a query:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:32
 msgid "and - И - т.е. обязательно оба (или больше) значаний,"
-msgstr ""
+msgstr "and - necessarily both (or more) values,"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:33
 msgid "or - ИЛИ - т.е. любое из значений оба (или больше) значаний."
-msgstr ""
+msgstr "or - any of the values of both (or more) values."
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:35
 msgid "пример комбинации:"
-msgstr ""
+msgstr "Example of a combination:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:41
 msgid ""
 "**Строковые значения** атрибутов при формировании запроса оборачиваются в"
 " *двойные кавычки*\\ :"
 msgstr ""
+"**String values** of attributes when forming the request, are wrapped in *"
+"double quotes*\\:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:47
 msgid "**Обращение к атрибутам по ссылке**\\ :"
-msgstr ""
+msgstr "**Accessing attributes by reference**\\:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:53
 msgid "**Подсказки**\\ :"
-msgstr ""
+msgstr "**Hints**\\ :"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:55
 msgid ""
@@ -1128,16 +1309,20 @@ msgid ""
 "который откроется модельное окно с описанием принципа работы фильтра и "
 "синтаксиса запроса к нему."
 msgstr ""
+"At the end of the filter query field, there is a ``?``\\ sign, when clicked, "
+"a model window opens describing how the filter and the query syntax for it "
+"works."
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:57
 msgid ""
 "Для парсинга поисковых выражений используется библиотека "
 "https://nearley.js.org/"
 msgstr ""
+"This library (https://nearley.js.org/) is used to parse search expressions."
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:60
 msgid "Варианты использования"
-msgstr ""
+msgstr "Options for using"
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:62
 msgid ""
@@ -1145,6 +1330,9 @@ msgid ""
 "можно вызывать кликом на аналогичного вида значек, расположенный в каждом"
 " столбце таблицы."
 msgstr ""
+"In addition to the button next to the search bar at the top of the page, you "
+"can call the filter by clicking on the similar icon located in each column "
+"of the table."
 
 #: ../docs-ru/3_development/functionality/functionality_files/filter.rst:64
 msgid ""
@@ -1153,112 +1341,125 @@ msgid ""
 "выбрано необходимо нажать клавишу ``Enter`` - в столбце со значениями "
 "отобразится результат запроса."
 msgstr ""
+"To create a request for the filter, select a value from the drop-down list, "
+"or start typing a value in a row. As soon as the value is selected, you need "
+"to press the ``Enter`` key - the result of the query is displayed in the "
+"value column."
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:2
 msgid "Шаблоны модулей"
-msgstr ""
+msgstr "Module templates"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:5
 msgid "Тема оформления"
-msgstr ""
+msgstr "Themes"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:7
 msgid "Тема оформления - директория следующей структуры:"
-msgstr ""
+msgstr "``Themes`` is a directory of the following structure:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:15
 msgid "Темы оформления могут располагаться:"
-msgstr ""
+msgstr "Themes can be located:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:18
 msgid ""
 "В директории ``view`` модуля и платформы - тогда это системные темы "
 "оформления"
-msgstr ""
+msgstr "In the ``view`` directory of modules and platform - the system themes"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:19
 msgid ""
 "В директории ``applications`` платформы как приложения - тогда это "
 "проектные темы оформления"
 msgstr ""
+"In the ``applications`` directory of application as a platform - the "
+"projects themes"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:20
 msgid "В директории ``themes`` приложения - тогда это проектные темы офрмления"
-msgstr ""
+msgstr "In the ``themes`` directory application - the project themes"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:22
 msgid "Настройка текущей темы оформления:"
-msgstr ""
+msgstr "Setting the current theme:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:25
 msgid "Для платформы"
-msgstr ""
+msgstr "For a platform"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:27
 msgid "Настройка *theme* в config.json платформы"
-msgstr ""
+msgstr "Setting *theme* in the config.json of the platform"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:28
 msgid "Настройка *globals.theme* в deploy.json приложения"
-msgstr ""
+msgstr "Setting *globals.theme* in the deploy.json of the application"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:30
 msgid "Для модуля"
-msgstr ""
+msgstr "For a module"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:32
 msgid "Настройка *theme* в config.json модуля"
-msgstr ""
+msgstr "Setting *theme* in the config.json of the module"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:33
 msgid "Настройка **Имя модуля**.\\ *globals.theme* в deploy.json приложения"
 msgstr ""
+"Setting **Module name**.\\ *globals.theme* in the deploy.json of the "
+"application"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:35
 msgid ""
 "По умолчанию используется системная тема ``default`` (в платформе и "
 "модулях registry, geomap, report, offline-sync)."
 msgstr ""
+"The default system theme is ``default`` (in the platform and modules "
+"\"registry\", \"geomap\", \"report\")."
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:37
 msgid ""
 "В настроке ``theme`` указывается путь до директории темы, он разрешается "
 "в соответствии с правилами:"
 msgstr ""
+"Set the path to the theme directory in the ``theme`` field according to the "
+"following rules:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:40
 msgid "Абсолютный путь берется как есть"
-msgstr ""
+msgstr "The absolute path is taken as it is."
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:41
 msgid ""
 "Относительный путь разрешается относительно системных путей в следующем "
 "порядке:"
 msgstr ""
+"A relative path is taken relative to the system paths in the following order:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:43
 msgid "Относительно директории ``view`` модуля или платформы"
-msgstr ""
+msgstr "Relative to the ``view`` directory of module and platform"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:44
 msgid "Относительно директории ``applications`` платформы"
-msgstr ""
+msgstr "Relative to the ``applications`` directory of the platform"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:45
 msgid "Относительно директории платформы"
-msgstr ""
+msgstr "Relative to the platform directory"
 
 #: ../docs-ru/3_development/functionality/functionality_files/module_templates.rst:48
 msgid "Пример в dnt"
-msgstr ""
+msgstr "Example in dnt"
 
 #: ../docs-ru/3_development/functionality/functionality_files/namespace.rst:2
 msgid "Связь двух неймспейсов"
-msgstr ""
+msgstr "Connection of two namespaces"
 
 #: ../docs-ru/3_development/functionality/functionality_files/namespace.rst:5
 msgid "Связь нескольких проектов с использованием пространства имен \"namespace\""
-msgstr ""
+msgstr "Connection of two projects using \"namespace\""
 
 #: ../docs-ru/3_development/functionality/functionality_files/namespace.rst:7
 msgid ""
@@ -1269,6 +1470,12 @@ msgid ""
 "понятно к какому проекту относятся классы по ссылке. Так, например, "
 "связываем тестовый проект ``develop-and-test`` с проектом ``fias``\\ :"
 msgstr ""
+"It is used if you need to link two projects together and deploy them on the "
+"same platform, with references and collections not only within the project "
+"but also to others deployed in the same context. Implemented using the "
+"project namespace, so it would be clear to which project the classes refer "
+"by reference. For example, we associate the test project ``develop-and-test``"
+" with the project ``fias``\\:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/namespace.rst:32
 msgid ""
@@ -1277,16 +1484,22 @@ msgid ""
 " пункту меню одного проекта - получаем данные из другого проекта, при "
 "указании необходимого пространства имен."
 msgstr ""
+"In the ``develop-and-test`` project menu, there is a navigation node, which "
+"is a class representation from the ``fias`` project. Thus, when navigating "
+"through the menu item of one project, we obtain data from another project, "
+"if the required namespace is specified."
 
 #: ../docs-ru/3_development/functionality/functionality_files/namespace.rst:38
 msgid "Для меты:"
-msgstr ""
+msgstr "For meta:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/namespace.rst:40
 msgid ""
 "При импорте неймспейс берется не из параметра, а из меты класса. Убираем "
 "неймспейс как параметр навигации и т.д."
 msgstr ""
+"When importing, the namespace is taken not from the parameter, but from the "
+"meta class. We remove namespace as a navigation parameter, etc."
 
 #: ../docs-ru/3_development/functionality/functionality_files/namespace.rst:42
 msgid ""
@@ -1294,10 +1507,13 @@ msgid ""
 " мета, накатываемая последней, но с учетом заполненности атрибутов. т.е. "
 "пустое значение атрибута не переопределяет непустое."
 msgstr ""
+"When importing the navigation meta, if the system names match, the meta that "
+"is rolled last takes precedence, but taking into account the fullness of the "
+"attributes. i.e., an empty attribute value does not override a non-empty one."
 
 #: ../docs-ru/3_development/functionality/functionality_files/namespace.rst:45
 msgid "Для студии:"
-msgstr ""
+msgstr "For Studio:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/namespace.rst:47
 msgid ""
@@ -1306,6 +1522,10 @@ msgid ""
 "имен по умолчанию проставляется в соответствующее поле на форме создания "
 "класса."
 msgstr ""
+"The ``namespace`` property is added in the class meta. In the studio, the "
+"\"namespace\" parameter has been added to the ION project settings. By "
+"default, this namespace is entered in the corresponding field on the class "
+"creation form."
 
 #: ../docs-ru/3_development/functionality/functionality_files/namespace.rst:49
 msgid ""
@@ -1314,6 +1534,10 @@ msgid ""
 "везде отображается с неймспейсом через знак ``@``\\ , если класс объявлен"
 " в неймспейсе отличном от неймспейса текущего проекта."
 msgstr ""
+"The \"namespace\" attribute is also set to separate fields on the forms for "
+"creating and editing a class. In the studio, the system class name is now "
+"displayed everywhere with a namespace through a ``@``\\ sign if the class is "
+"declared in a namespace other than the namespace of the current project."
 
 #: ../docs-ru/3_development/functionality/functionality_files/namespace.rst:51
 msgid ""
@@ -1321,6 +1545,9 @@ msgid ""
 "неймспейс проекта, либо неймспейсы связанных проектов (Project "
 "references). При этом есть возможность и вбить его руками."
 msgstr ""
+"Namespace field is in the form of a drop-down list, from where you can "
+"choose either a project's namespace or project-related namespaces (Project "
+"references). At the same time there is an opportunity to set it manually."
 
 #: ../docs-ru/3_development/functionality/functionality_files/namespace.rst:53
 msgid ""
@@ -1329,6 +1556,10 @@ msgid ""
 "Это значит, что в списках выбора классов должно быть полное имя класса с "
 "неймспейсом."
 msgstr ""
+"The rest of the meta objects has no namespaces, but links to classes "
+"everywhere must be affixed with the account of namespaces (in the reference "
+"attributes too). This means that the class selection list must contain the "
+"full name of the class with a namespace."
 
 #: ../docs-ru/3_development/functionality/functionality_files/namespace.rst:55
 msgid ""
@@ -1337,10 +1568,14 @@ msgid ""
 "класса (и директорий, если они участвуют в формировании логики привязки к"
 " классу, например, у меты представления)."
 msgstr ""
+"Also, the class selection lists should include classes from all Project "
+"References. At the physical level, the namespace is included in the file "
+"name of the class meta (and directories, if they are involved in the "
+"formation of the class binding logic, for example, in the view meta)."
 
 #: ../docs-ru/3_development/functionality/functionality_files/notifications.rst:2
 msgid "Уведомления"
-msgstr ""
+msgstr "Notifications"
 
 #: ../docs-ru/3_development/functionality/functionality_files/notifications.rst:4
 msgid ""
@@ -1350,16 +1585,22 @@ msgid ""
 "Лента обновляется раз в 15 секунд. Если колокольчик отсутсвует это значит"
 " что уведомлений нет."
 msgstr ""
+"**Notifications** - is displayed on the form as a red bell, when clicked, "
+"the notification feed (the last 10 unread) is displayed, when clicked on the "
+"notification, it disappears as read. The feed is updated every 15 seconds. "
+"If the bell is missing, then there are no new notifications."
 
 #: ../docs-ru/3_development/functionality/functionality_files/notifications.rst:7
 msgid "Настройка уведомлений"
-msgstr ""
+msgstr "Setting up notifications"
 
 #: ../docs-ru/3_development/functionality/functionality_files/notifications.rst:9
 msgid ""
 "Реализована отправка уведомлений на почту. Настраивается в проекте - "
 "**TODO**."
 msgstr ""
+"The feature of sending notifications to mail is implemented. Configure it in "
+"the project - **TODO**."
 
 #: ../docs-ru/3_development/functionality/functionality_files/notifications.rst:11
 msgid ""
@@ -1368,56 +1609,66 @@ msgid ""
 "уведомлений в поле \"Получатели\" указывается список полных имен "
 "пользователей (user@local) разделенных пробелом."
 msgstr ""
+"The API for sending notifications programmatically is implemented. That "
+"means that you can send a notification in the event handler. In the admin "
+"panel when sending notifications the list of full user names (user @ local) "
+"separated by a space is indicated in the \"Recipients\" field."
 
 #: ../docs-ru/3_development/functionality/functionality_files/notifications.rst:14
 msgid ""
 "Хранение уведомлений происходит в коллекциях: ion_notification, "
 "ion_notification_recievers."
 msgstr ""
+"Notifications are stored in the following collections: ion_notification, "
+"ion_notification_recievers."
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:2
 msgid "Печатные формы"
-msgstr ""
+msgstr "Printed forms"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:5
 msgid "Печатные формы Word"
-msgstr ""
+msgstr "Printed forms Word"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:7
 msgid "Используется библиотека docxtemplater"
-msgstr ""
+msgstr "The docxtemplater library is used"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:8
 msgid ""
 "Примеры подключения и использования docxtemplater `здесь <http"
 "://javascript-ninja.fr/docxtemplater/v1/examples/demo.html>`_."
 msgstr ""
+"See the `examples <http://javascript-ninja.fr/docxtemplater/v1/examples/demo."
+"html>`_ of the connecting and using docxtemplater library."
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:11
 msgid "Параметры передачи форматирования"
-msgstr ""
+msgstr "Format transfer options"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:13
 msgid ""
 "Для ``table_col`` параметр для передачи форматирования см. "
 "правила/примеры `здесь <https://momentjs.com/docs/#/displaying/>`_."
 msgstr ""
+"The ``table_col`` parameter is to transfer the formatting. See the rulles "
+"and examples `here <https://momentjs.com/docs/#/displaying/>`_."
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:15
 msgid "Вид:"
-msgstr ""
+msgstr "Type:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:27
 msgid "Результат:"
-msgstr ""
+msgstr "Result:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:33
 msgid "В формате допускается использование символа ``:``."
-msgstr ""
+msgstr "The format allows the use of the ``:`` symbol."
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:36
 msgid "Вывод значения суммы в прописном варианте"
-msgstr ""
+msgstr "Displays the value of the sum in upper case"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:38
 msgid ""
@@ -1425,6 +1676,9 @@ msgid ""
 "преобразует просто в текст, если добавить вторым параметром true, то "
 "будет добавляться рублевый формат (рубли - копейки)."
 msgstr ""
+"There is a *toWords*\\ filter for docx templates, which converts to text by "
+"default. If you add \"true\" as the second parameter , then a ruble format "
+"will be added (rubles - kopecks)."
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:47
 msgid ""
@@ -1432,96 +1686,106 @@ msgid ""
 "печатной форме будет = **Триста сорок пять рублей пятьдесят две "
 "копейки**."
 msgstr ""
+"As a result, the value of the \"costExp\" attribute equals **345.52**. The "
+"result in written form is = **Three hundred and forty five rubles fifty two "
+"kopecks**."
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:50
 msgid "Преобразования между датой и строкой"
-msgstr ""
+msgstr "Conversion between date and string"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:52
 msgid "Доступны к применению следующие функции:"
-msgstr ""
+msgstr "The following functions are available:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:55
 msgid "date - преобразование строки в дату"
-msgstr ""
+msgstr "date - convert string to date"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:56
 msgid "upper - строку к верхнему регистру"
-msgstr ""
+msgstr "upper - string to upper case"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:57
 msgid "lower - строку к нижнему регистру"
-msgstr ""
+msgstr "lower - string to lower case"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:59
 msgid "В экспорте в docx в выражениях доступны фильтры:"
 msgstr ""
+"In the export to docx, the following filters are available in expressions:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:62
 msgid "lower - к нижнему регистру"
-msgstr ""
+msgstr "lower - to lower case"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:63
 msgid "upper - к верхнему регистру"
-msgstr ""
+msgstr "upper - to upper case"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:64
 msgid "dateFormat - дата к строке, примеры применения:"
-msgstr ""
+msgstr "dateFormat - convert date to string, examples of use:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:66
 msgid "{now | dateFormat:\\ ``ru``\\ }"
-msgstr ""
+msgstr "{now | dateFormat:\\ ``en``\\ }"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:67
 msgid "{since | dateFormat:\\ ``ru``\\ }"
-msgstr ""
+msgstr "{since | dateFormat:\\ ``en``\\ }"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:68
 msgid "{date | dateFormat:`ru`:`YYYYMMDD`}"
-msgstr ""
+msgstr "{date | dateFormat:`en`:`YYYYMMDD`}"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:70
 msgid "toDate - строка к дате"
-msgstr ""
+msgstr "toDate - string to date"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:73
 msgid "Значение текущей даты ``_now``"
-msgstr ""
+msgstr "Current date value - ``_now``"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:80
 msgid "Настройка для отображения значения полей из массива объектов"
-msgstr ""
+msgstr "Setting to display field values from an array of objects"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:82
 msgid ""
 "Если необходимо отобразить поля из массива объектов (коллекция например) "
 "используется тэг:"
 msgstr ""
+"If you need to display fields from an array of objects (collection for "
+"example), use the tag:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/printed_forms.rst:88
 msgid ""
 "По умолчанию значения будут объеденины через точку с запятой. Чтобы "
 "указать другой разделитель, укажите его после второго двоеточия:"
 msgstr ""
+"By default, the values will be connected by a semicolon. To indicate another "
+"separator, specify it after the second colon:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/schedule.rst:2
 msgid "Подсистема задания по расписанию"
-msgstr ""
+msgstr "Scheduled jobs subsystem"
 
 #: ../docs-ru/3_development/functionality/functionality_files/schedule.rst:4
 msgid "Запуск подсистемы заданий по расписанию выполняется двумя способами:"
-msgstr ""
+msgstr "The launch of the scheduled jobs is performed in two ways:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/schedule.rst:7
 msgid "в отдельном процессе посредством скрипта ``bin/schedule.js``"
-msgstr ""
+msgstr "in a separate process using the ``bin/schedule.js`` script"
 
 #: ../docs-ru/3_development/functionality/functionality_files/schedule.rst:8
 msgid ""
 "внутри процесса веб-приложения ION (bin/www) путем указания в ini-файле "
 "опции ``jobs.enabled=true``"
 msgstr ""
+"within the ION web application process (bin/www) by specifying the option "
+"``jobs.enabled=true`` in the ini-file"
 
 #: ../docs-ru/3_development/functionality/functionality_files/schedule.rst:10
 msgid ""
@@ -1529,6 +1793,9 @@ msgid ""
 "веб-приложении. Задания по расписанию настраиваются в deploy.json "
 "приложений в разделе глобальных настроек как параметр jobs."
 msgstr ""
+"In the second case, job management is possible to implement in a web "
+"application. Jobs are configured in the deploy.json file of the applications "
+"in the global settings section as a jobs parameter."
 
 #: ../docs-ru/3_development/functionality/functionality_files/schedule.rst:41
 msgid ""
@@ -1537,24 +1804,28 @@ msgid ""
 "может быть указана и функция. Тогда в **di** она описывается аналогично "
 "компоненту, но с использованием настройки ``executable``\\ :"
 msgstr ""
+"A component can be specified as a starting job, in this case it should have "
+"the ``run`` method. A function can also be specified as a starting job. Then "
+"in **di** it is described similarly to the component, but using the "
+"``executable``\\ setting:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/schedule.rst:55
 msgid "*Раздел jobs в глобальных настройках.*"
-msgstr ""
+msgstr "*The jobs field in the global settings.*"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:2
 msgid "Утилиты"
-msgstr ""
+msgstr "Utilities"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:7
 msgid ""
 "**Утилиты** - дополнительные программы для более специализированного "
 "применения."
-msgstr ""
+msgstr "**Utilities** - additional programs for more specialized use."
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:10
 msgid "Утилиты ядра"
-msgstr ""
+msgstr "Utilities of core"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:12
 msgid ""
@@ -1563,10 +1834,15 @@ msgid ""
 "необходимо указать переменную окружения ``NODE_PATH``\\ , если она не "
 "задана заранее (с указанием на папку ядра)."
 msgstr ""
+"The utilities of the core are the most necessary utilities from the "
+"installation to the operation of the application and are located in the "
+"``bin`` folder. Before running them, specify the environment variable "
+"``NODE_PATH``\\, if it is not set in advance (with an indication of the core "
+"folder)."
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:14
 msgid "В состав ядра входят утилиты:"
-msgstr ""
+msgstr "The core includes utilities:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:18
 msgid ""
@@ -1574,44 +1850,48 @@ msgid ""
 "приложения (ресурсы, роли, пользователи, права доступа). Параметры "
 "запуска:"
 msgstr ""
+"``bin/acl.js`` - to import and edit application security settings ("
+"resources, roles, users, access rights). Launch parameters:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:21
 msgid "``--u`` - указывается пользователь"
-msgstr ""
+msgstr "``--u`` - user"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:22
 msgid "``--res`` - указывается ресурс"
-msgstr ""
+msgstr "``--res`` - resource"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:23
 msgid "``--role`` - указывается роль"
-msgstr ""
+msgstr "``--role`` - role"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:24
 msgid "``--p`` - указывается доступ"
-msgstr ""
+msgstr "``--p`` - access right"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:25
 msgid "``--m`` - указывается метод применения доступа"
-msgstr ""
+msgstr "``--m`` - access application method"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:26
 msgid "``--d`` - указывается для импорта директория с настройками безопасности"
-msgstr ""
+msgstr "``--d`` - directory with the security settings for import"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:29
 msgid ""
 "``bin/adduser.js`` - для добавления новых пользователей в настройки "
 "безопасности приложения. Параметры запуска:"
 msgstr ""
+"``bin/adduser.js`` - to add new users to the application’s security "
+"settings. Launch parameters:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:32
 msgid "``--name`` - указывается логин пользователя (по умолчанию admin)"
-msgstr ""
+msgstr "``--name`` - user login (admin - by default)"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:33
 msgid "``--pwd`` - указывается пароль пользователя (по умолчанию admin)"
-msgstr ""
+msgstr "``--pwd`` - user password (admin - by default)"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:36
 msgid ""
@@ -1619,48 +1899,57 @@ msgid ""
 "требующих больших мощностей от процессора или выполняющихся относительно "
 "длительно по времени"
 msgstr ""
+"``bin/bg.js`` - to run low priority background procedures that require high "
+"power from the processor or run relatively long time"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:39
 msgid ""
 "``bin/export.js`` - для экспорта приложения в локальную директорию. "
 "Параметры запуска:"
 msgstr ""
+"``bin/export.js`` - to export the application to a local directory. Launch "
+"parameters:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:42
 msgid ""
 "``--dst`` - путь к директории, в которую будет записан результат экспорта"
 " (по умолчанию ../out)"
 msgstr ""
+"``--dst`` - path to the directory where the export result will be written ("
+"by default ../out)"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:43
 msgid "``--ns`` - указывается неймспейс приложения"
-msgstr ""
+msgstr "``--ns`` - application namespace"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:44
 msgid ""
 "``--file-dir`` - путь к директории, в которую будут экспортированы файлы "
 "из файловых атрибутов"
 msgstr ""
+"``--file-dir`` - path to the directory to which files from file attributes "
+"will be exported"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:45
 msgid "``--acl`` - дополнительно экспортировать настройки безопасности"
-msgstr ""
+msgstr "``--acl`` - optional export of security settings"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:46
 msgid "``--nodata`` - пропустить экспорт для всех созданных объектов в приложении"
-msgstr ""
+msgstr "``--nodata`` - skip export for all created objects in the application"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:47
 msgid "``--nofiles`` - пропустить экспорт файловых атрибутов"
-msgstr ""
+msgstr "``--nofiles`` - skip file attribute export"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:48
 msgid "``--ver`` - версия (последняя версия -last)"
-msgstr ""
+msgstr "``--ver`` - version (latest version - last)"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:51
 msgid "``bin/import.js`` - для импорта метаданных приложения. Параметры запуска:"
 msgstr ""
+"``bin/import.js`` - to import the application metadata. Launch parameters:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:54
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:62
@@ -1668,63 +1957,73 @@ msgid ""
 "``--src`` - путь к директории, из которой будет происходить импорт (по "
 "умолчанию ../in)"
 msgstr ""
+"``--src`` - path to the directory from which the import will take place (by "
+"default ../in)"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:55
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:63
 msgid "``--ns`` - неймспейс приложения"
-msgstr ""
+msgstr "``--ns`` - application namespace"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:56
 msgid "``--ignoreIntegrityCheck`` - при импорте игнорируется целостность данных"
-msgstr ""
+msgstr "``--ignoreIntegrityCheck`` - data integrity ignored during import"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:59
 msgid "``bin/import-data.js`` - для импорта данных приложения. Параметры запуска:"
 msgstr ""
+"``bin/import-data.js`` - to import the application data. Launch parameters:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:66
 msgid "``bin/job-runner.js`` - для запуска задач по расписанию"
-msgstr ""
+msgstr "``bin/job-runner.js`` - to run scheduled jobs"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:68
 msgid ""
 "``bin/job.js`` - для запуска рабочего компонента задания из утилиты job-"
 "runner"
-msgstr ""
+msgstr "``bin/job.js`` - to run the job component from the job-runner utility"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:69
 msgid ""
 "``bin/meta-update.js`` - для конвертации меты приложения из одной версии "
 "в другую"
 msgstr ""
+"``bin/meta-update.js`` - to convert application meta from one version to "
+"another"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:70
 msgid "``bin/schedule.js`` - для ручного запуска задач по расписанию"
-msgstr ""
+msgstr "``bin/schedule.js`` - for manual start of scheduled jobs"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:71
 msgid ""
 "``bin/setup.js`` - для установки настроек ``deploy`` из приложения. "
 "Параметры запуска:"
 msgstr ""
+"``bin/setup.js`` - to set the ``deploy`` settings from the application. "
+"Launch parameters:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:73
 msgid "``--reset`` - предварительный сброс всех настроек ``deploy`` в приложении"
 msgstr ""
+"``--reset`` - preliminary reset of all ``deploy`` settings in the application"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:74
 msgid ""
 "``--sms`` - при сбросе настроек, не зачищаются настройки ``deploy`` "
 "помеченные как важные"
 msgstr ""
+"``--sms`` - when resetting the settings, the ``deploy`` settings that are "
+"marked as important are not deleted"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:75
 msgid "``--rwa`` - переопределять, а не дополнять массивы в настройках ``deploy``"
-msgstr ""
+msgstr "``--rwa`` - to override, not add to arrays in ``deploy`` settings"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:78
 msgid "Утилиты приложения"
-msgstr ""
+msgstr "Application utilities"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:80
 msgid ""
@@ -1733,44 +2032,59 @@ msgid ""
 "для различных приложений. Как правило, данные утилиты находятся в "
 "директории ``lib`` и подключаются к приложению через ``deploy``."
 msgstr ""
+"Application utilities implement specific application functionality during "
+"the operation phase, which has not yet been implemented in the kernel in a "
+"unified form for various applications. Usually, these utilities are stored "
+"in the ``lib`` directory and connect to the app via ``deploy``."
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:82
 msgid "Примеры реализованных утилит для приложения ``sakh-pm``\\ :"
-msgstr ""
+msgstr "Examples of implemented utilities for the ``sakh-pm``\\ application:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:85
 msgid ""
 "``lib/actions/createIndicatorValueHandler.js`` - утилита создания "
 "показателей в коллекции за выбранный период"
 msgstr ""
+"``lib/actions/createIndicatorValueHandler.js`` - utility that creates values "
+"in the collection for the selected period"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:86
 msgid ""
 "``lib/actions/createProjectReportsHandler.js`` - утилита автоматического "
 "создания печатных форм по проекту с сохранением файлов в облако"
 msgstr ""
+"``lib/actions/createProjectReportsHandler.js`` - the utility that "
+"automatically creates printed forms for the project saving files in the cloud"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:87
 msgid ""
 "``lib/actions/assignmentToEventOnly.js`` - утилита, формирующая из "
 "поручения контрольную точку"
 msgstr ""
+"``lib/actions/assignmentToEventOnly.js`` - utility that forms a checkpoint "
+"from an instruction"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:90
 msgid "Создание утилиты для приложения на примере createIndicatorValueHandler"
-msgstr ""
+msgstr "App utility creation using an example of createIndicatorValueHandler"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:95
 msgid ""
 "Для реализации как правило используется язык JavaScript с использованием "
 "доступного функционала модулей, входящих в приложение."
 msgstr ""
+"For implementation, as a rule, JavaScript is used with the use of the "
+"available functionality of the modules included in the application."
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:97
 msgid ""
 "При реализации утилит в приложении с относительно большим функционалом "
 "сами файлы могут быть разбиты на несколько зависимых файлов."
 msgstr ""
+"When implementing utilities in an application with relatively large "
+"functionality, the files themselves can be split into several dependent "
+"files."
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:99
 msgid ""
@@ -1778,16 +2092,20 @@ msgid ""
 "``lib/actions/createPlanIndicatorsHandler.js`` должен быть экспорт "
 "последней строкой:"
 msgstr ""
+"In this example in the utility main file ``lib/actions/"
+"createPlanIndicatorsHandler.js`` the export should be the last line:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:106
 msgid "Подключение к приложению"
-msgstr ""
+msgstr "Connecting to the application"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:108
 msgid ""
 "Для запуска утилиты при эксплуатации приложения нужно настроить параметры"
 " подключения в ``deploy``."
 msgstr ""
+"Set the connection parameters in the ``deploy`` to start the utility when "
+"using the application."
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:110
 msgid ""
@@ -1796,6 +2114,9 @@ msgid ""
 "``views/indicatorFinancial/item.json`` нужно добавить кнопку "
 "``CREATE_INDICATOR_VALUE``\\ :"
 msgstr ""
+"For example, you first need to add in the meta view an interface element for "
+"the utility that will launch the utility. Add the ``CREATE_INDICATOR_VALUE``"
+"\\ button in the ``views/indicatorFinancial/item.json`` file:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:125
 msgid ""
@@ -1803,6 +2124,9 @@ msgid ""
 "интерфейсе ``CREATE_INDICATOR_VALUE`` и утилиту "
 "``createIndicatorValueHandler``\\ :"
 msgstr ""
+"Then add the settings in the ``deploy``\\ file to connect the "
+"``CREATE_INDICATOR_VALUE`` button in the UI with the "
+"``createIndicatorValueHandler``\\utility:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:156
 msgid ""
@@ -1810,26 +2134,33 @@ msgid ""
 "будет вызвана утилита при нажатии на кнопку ``CREATE_INDICATOR_VALUE`` в "
 "форме объекта класса ``indicatorFinancial``."
 msgstr ""
+"In this example all settings are held for the registry module, since the "
+"utility will be called out of it in the form of the ``indicatorFinancial`` "
+"object by clicking the ``CREATE_INDICATOR_VALUE`` button ."
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:159
 msgid "Дополнительная информация"
-msgstr ""
+msgstr "Additional info"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:161
 msgid ""
 ":doc:`Настройки модулей в deploy.json "
 "</3_development/platform_configuration/platform_config_files/deploy/deploy_modules>`"
 msgstr ""
+":doc:`Module settings in deploy.json </3_development/platform_configuration/"
+"platform_config_files/deploy/deploy_modules>`"
 
 #: ../docs-ru/3_development/functionality/functionality_files/utilities.rst:163
 msgid ""
 ":doc:`Мета представлений - Действия "
 "</3_development/metadata_structure/meta_view/meta_view_main/commands>`"
 msgstr ""
+":doc:`Meta view - Commands </3_development/metadata_structure/meta_view/"
+"meta_view_main/commands>`"
 
 #: ../docs-ru/3_development/functionality/functionality_files/virtual_attr.rst:2
 msgid "Виртуальные атрибуты"
-msgstr ""
+msgstr "Virtual attributes"
 
 #: ../docs-ru/3_development/functionality/functionality_files/virtual_attr.rst:7
 msgid ""
@@ -1838,72 +2169,85 @@ msgid ""
 "каждого виртуального атрибута различен, существуют следующие виртуальные "
 "атрибуты:"
 msgstr ""
+"**Virtual attributes** - a special type of attributes, specified in the "
+"``property`` attribute name starting with``__``. The functionality of each "
+"virtual attribute is different, there are the following virtual attributes:"
 
 #: ../docs-ru/3_development/functionality/functionality_files/virtual_attr.rst:10
 msgid "``__class`` - выводит полный код класса, в котором заведен атрибут"
 msgstr ""
+"``__class`` - displays the full code of the class in which the attribute was "
+"set."
 
 #: ../docs-ru/3_development/functionality/functionality_files/virtual_attr.rst:11
 msgid "``__classTitle`` - выводит наименование класса, в котором заведен атрибут"
 msgstr ""
+"``__classTitle`` - displays the name of the class in which the attribute was "
+"set."
 
 #: ../docs-ru/3_development/index.rst:2
 msgid "3. Разработка"
-msgstr ""
+msgstr "3. Development"
 
 #: ../docs-ru/3_development/language/index.rst:2
 msgid "Локализация"
-msgstr ""
+msgstr "Localization"
 
 #: ../docs-ru/3_development/language/index.rst:4
 msgid ""
 "Локализация фреймворка, модулей и приложений организована по папкам i18n "
 "в соответствующих директориях."
 msgstr ""
+"The localization of the framework, modules and applications is organized in "
+"the i18n folders in the corresponding directories."
 
 #: ../docs-ru/3_development/language/index.rst:6
 msgid ""
 "Чтобы перевести строку для определенной локали, нужно добавить ее и ее "
 "перевод в:"
 msgstr ""
+"To translate a string for a specific locale, you need to add it and its "
+"translation to:"
 
 #: ../docs-ru/3_development/language/index.rst:12
 msgid "в экспортируемый объект, например:"
-msgstr ""
+msgstr "to the exported object, for example:"
 
 #: ../docs-ru/3_development/language/index.rst:20
 msgid ""
 "Здесь строка 'Контрольная панель', при ее загрузке, будет переведена как "
 "'Control Panel'"
 msgstr ""
+"The string 'Контрольная панель' in Russian, when loaded will be translated "
+"as 'Control Panel'"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:2
 msgid "Таблица соответствия типов атрибутов типам представлений"
-msgstr ""
+msgstr "Correspondence table: attribute types to view types"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:7
 msgid "Код типа атрибута"
-msgstr ""
+msgstr "Code of attribute type"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:8
 msgid "Наименование типа атрибута"
-msgstr ""
+msgstr "Name of attribute type"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:9
 msgid "Код основного типа представления"
-msgstr ""
+msgstr "Code of the main view type"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:10
 msgid "Наименование основного типа представления"
-msgstr ""
+msgstr "Name of the main view type"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:11
 msgid "Предпочитаемый тип отображения для основного типа представления"
-msgstr ""
+msgstr "Preferred display type for the main view type"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:12
 msgid "Допустимые типы представлений (выборочно)"
-msgstr ""
+msgstr "Acceptable view types (selectively)"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:13
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:111
@@ -1911,7 +2255,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_nodes.rst:63
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:42
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:14
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:81
@@ -1942,7 +2286,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main.rst:189
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main/commands.rst:66
 msgid "Строка"
-msgstr ""
+msgstr "String"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:15
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:19
@@ -1952,38 +2296,38 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_nodes.rst:67
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:45
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:16
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:88
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:124
 msgid "Текстовое"
-msgstr ""
+msgstr "Text"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:18
 msgid "7 - Многострочный текст, 8 - Форматированный текст"
-msgstr ""
+msgstr "7 - Multiline text, 8 - Formatted text"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:20
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:30
 msgid "Текст"
-msgstr ""
+msgstr "Text"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:21
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:55
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:53
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:60
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:22
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:61
 msgid "Многострочный текст"
-msgstr ""
+msgstr "Multiline text"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:24
 msgid "1 - Текстовое, 8 - Форматированный текст"
-msgstr ""
+msgstr "1 - Text, 8 - Formatted text"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:25
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:93
@@ -1991,12 +2335,12 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_nodes.rst:71
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:48
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:26
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:34
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:27
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:61
@@ -2004,16 +2348,16 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:213
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:63
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:28
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:64
 msgid "Форматированный текст"
-msgstr ""
+msgstr "Formatted text"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:30
 msgid "1 - Текстовое, 7 -Многострочный текст"
-msgstr ""
+msgstr "1 - Text, 7 - Multiline text"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:31
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:99
@@ -2021,97 +2365,97 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_nodes.rst:75
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:51
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:32
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:34
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:38
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:88
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:33
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:115
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:93
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:87
 msgid "17"
-msgstr ""
+msgstr "17"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:37
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:75
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:41
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:54
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:38
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:42
 msgid "Изображение"
-msgstr ""
+msgstr "Image"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:39
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:91
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:77
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:78
 msgid "13"
-msgstr ""
+msgstr "13"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:40
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:79
 msgid "Выбор изображения"
-msgstr ""
+msgstr "Image selection"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:43
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:45
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:57
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:44
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:46
 msgid "Файл"
-msgstr ""
+msgstr "File"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:45
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:79
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:69
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:72
 msgid "11"
-msgstr ""
+msgstr "11"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:46
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:73
 msgid "Выбор файла"
-msgstr ""
+msgstr "File selection"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:49
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:49
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:50
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:50
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:157
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main.rst:181
 msgid "Целое"
-msgstr ""
+msgstr "Integer"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:51
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:97
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:81
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:81
 msgid "14"
-msgstr ""
+msgstr "14"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:52
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:82
 msgid "Редактор целых чисел"
-msgstr ""
+msgstr "Integer editor"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:56
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:54
 msgid "Действительное"
-msgstr ""
+msgstr "Real"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:57
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:63
@@ -2119,18 +2463,18 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:85
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:84
 msgid "15"
-msgstr ""
+msgstr "15"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:58
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:64
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:85
 msgid "Редактор вещественных чисел"
-msgstr ""
+msgstr "Real number editor"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:62
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:62
 msgid "Десятичное"
-msgstr ""
+msgstr "Decimal"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:67
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:105
@@ -2138,30 +2482,30 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:216
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:66
 msgid "9"
-msgstr ""
+msgstr "9"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:68
 msgid "Дата/Время"
-msgstr ""
+msgstr "Date/Time"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:69
 msgid "120"
-msgstr ""
+msgstr "120"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:70
 msgid "Выбор даты"
-msgstr ""
+msgstr "Date selecion"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:72
 msgid "6 - Выбор даты-времени"
-msgstr ""
+msgstr "6 - Date-time selection"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:73
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:65
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:219
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:69
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:74
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:105
@@ -2175,19 +2519,19 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:66
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_nodes.rst:103
 msgid "Логический"
-msgstr ""
+msgstr "Logical"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:76
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:55
 msgid "Флаг"
-msgstr ""
+msgstr "Flag"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:80
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:82
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:70
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:76
 msgid "Пароль"
-msgstr ""
+msgstr "Password"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:81
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:85
@@ -2195,134 +2539,134 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:222
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:75
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:86
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:74
 msgid "Глобальный идентификатор"
-msgstr ""
+msgstr "Global identifier"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:92
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:94
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:2
 msgid "Ссылка"
-msgstr ""
+msgstr "Reference"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:95
 msgid "1 - Ссылка"
-msgstr ""
+msgstr "1 - Reference"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:98
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:100
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:2
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types/type_collection14.rst:2
 msgid "Коллекция"
-msgstr ""
+msgstr "Collection"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:101
 msgid "3 - Таблица"
-msgstr ""
+msgstr "3 - Table"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:104
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:86
 msgid "Множество"
-msgstr ""
+msgstr "Multiplicity"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:106
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:67
 msgid "Альтернативный выбор"
-msgstr ""
+msgstr "Alternative choice"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:108
 msgid "10 - Множественный выбор"
-msgstr ""
+msgstr "10 - Multiple choice"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:109
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:89
 msgid "16"
-msgstr ""
+msgstr "16"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:110
 msgid "Структура"
-msgstr ""
+msgstr "Structure"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:112
 msgid "Группа"
-msgstr ""
+msgstr "Group"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:116
 msgid "Пользовательский тип"
-msgstr ""
+msgstr "User type"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:118
 msgid "*не определено, зависит от базового типа*"
-msgstr ""
+msgstr "*not defined, depends on the main type*"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:121
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:97
 msgid "18"
-msgstr ""
+msgstr "18"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:122
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:98
 msgid "Пользователь"
-msgstr ""
+msgstr "User"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:127
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:129
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:90
 msgid "60"
-msgstr ""
+msgstr "60"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:128
 msgid "Период"
-msgstr ""
+msgstr "Period"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:130
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:91
 msgid "Выбор периода"
-msgstr ""
+msgstr "Period selection"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:133
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:135
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:101
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:93
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:134
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types/type_geodata100.rst:2
 msgid "Геоданные"
-msgstr ""
+msgstr "Geodata"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:136
 msgid "Геообъект"
-msgstr ""
+msgstr "Geo object"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:137
 msgid "0 - Карта"
-msgstr ""
+msgstr "0 - Map"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:139
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:141
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:105
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:96
 msgid "110"
-msgstr ""
+msgstr "110"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:140
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:106
 msgid "Коллекция файлов"
-msgstr ""
+msgstr "File collection"
 
 #: ../docs-ru/3_development/metadata_structure/correspondance_table.rst:142
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:97
 msgid "Набор файлов"
-msgstr ""
+msgstr "File set"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/isstruct.rst:2
 msgid "Тип Структура"
-msgstr ""
+msgstr "Type Structure"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/isstruct.rst:4
 msgid ""
@@ -2331,6 +2675,10 @@ msgid ""
 "действий при заведении модели, при заранее известных типовых классах, "
 "атрибуты которых используются во многих других классах."
 msgstr ""
+"**Structure** - a way to display related objects (references). If the field "
+"has a structure specified, then this type of attribute is needed to reduce "
+"actions when creating a model, with previously known type classes, whose "
+"attributes are used in many other classes."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/isstruct.rst:6
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types/type_isstruct16.rst:6
@@ -2338,6 +2686,8 @@ msgid ""
 "Для класса-структуры в основной части меты класса задается значение "
 "``true`` в поле ``\"isStruct\"``."
 msgstr ""
+"For the class structure in the main part of the meta class, the value "
+"``true`` is set in the ``\"isStruct\"`` field."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/isstruct.rst:8
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/type_isstruct16.rst:7
@@ -2350,32 +2700,38 @@ msgid ""
 "такого свойства, а будут соответствующие атрибуты класса-структуры. Для "
 "них можно добавить колонки."
 msgstr ""
+"In the meta view of creation and change use the type \"Group [0]\" for the "
+"attributes of the \"Structure [16]\" type. If you do not specify the fields "
+"in the group, they are created automatically according to the meta. In list "
+"views, there is no need to create columns for structure attributes, the "
+"object will not have such a property, but the corresponding attributes of "
+"the structure-class will be present. For them, you can add columns."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/isstruct.rst:10
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/type_isstruct16.rst:9
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types/type_isstruct16.rst:10
 msgid "**NB:** Объекты класса-структуры не создаются!"
-msgstr ""
+msgstr "** NB: ** Objects of the class-structure are not created!"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/isstruct.rst:15
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types/type_isstruct16.rst:15
 msgid "**Класс-структура:**"
-msgstr ""
+msgstr "**Class-structure:**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/isstruct.rst:184
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types/type_isstruct16.rst:184
 msgid "**Класс с атрибутом типа \"Структура [16]\"**"
-msgstr ""
+msgstr "**Meta class with an attribute of the \"Structure [16]\" type**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/isstruct.rst:266
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main/type_isstruct16.rst:265
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types/type_isstruct16.rst:266
 msgid "Объект класса с атрибутом-структурой в базе:"
-msgstr ""
+msgstr "Class object with an attribute of structure type in DB:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:2
 msgid "Мета классов - атрибутивная часть"
-msgstr ""
+msgstr "Meta class - attribute part"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:23
 msgid ""
@@ -2384,6 +2740,11 @@ msgid ""
 "содержатся в виде массива в поле ``\"properties\"`` основной части меты "
 "классов. Каждый атрибут - это объект следующей структуры:"
 msgstr ""
+"**Attribute part of the meta class** describes the properties field of the "
+"meta class. There are usually at least two attributes in a class — a key "
+"field and a data field. The attributes are contained in the ``\"properties\""
+"``field of the main part of the meta class. Each attribute is an object of "
+"the following structure:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:26
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:105
@@ -2401,7 +2762,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_wf_files/wf_transitions.rst:5
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_workflows.rst:18
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:62
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:142
@@ -2420,21 +2781,21 @@ msgstr ""
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_globals.rst:169
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:57
 msgid "Описание полей"
-msgstr ""
+msgstr "Field description"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:67
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:54
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:21
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute/view_types.rst:39
 msgid "Код"
-msgstr ""
+msgstr "Code"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:68
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:55
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types.rst:22
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy.rst:24
 msgid "Имя"
-msgstr ""
+msgstr "Name"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:69
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:149
@@ -2453,31 +2814,33 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main.rst:145
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main/commands.rst:30
 msgid "Допустимые значения"
-msgstr ""
+msgstr "Acceptable values"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:71
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_nodes.rst:53
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:119
 msgid "``\"orderNumber\"``"
-msgstr ""
+msgstr "``\"orderNumber\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:72
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_nodes.rst:54
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:120
 msgid "**Порядковый номер**"
-msgstr ""
+msgstr "**Serial number**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:73
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:93
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:121
 msgid "Целое неотрицательное"
-msgstr ""
+msgstr "Non-negative integer"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:74
 msgid ""
 "Задает расположение атрибута относительно других атрибутов этого же "
 "класса."
 msgstr ""
+"Sets the position of the attribute regarding the other attributes of the "
+"same class."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:75
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:70
@@ -2487,14 +2850,14 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_workflows.rst:41
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:65
 msgid "``\"name\"``"
-msgstr ""
+msgstr "``\"name\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:76
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:71
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_nodes.rst:50
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_section.rst:31
 msgid "**Системное имя**"
-msgstr ""
+msgstr "**System name**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:77
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:137
@@ -2507,7 +2870,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:142
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:81
 msgid "Строка, только латиница без пробелов"
-msgstr ""
+msgstr "String only the latin characters with no spaces"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:78
 msgid ""
@@ -2516,6 +2879,9 @@ msgid ""
 "алфавита, без пробелов (задается один раз при создании атрибута). В "
 "последующем поменять имя нельзя."
 msgstr ""
+"The name of the attribute that the system will work with, which means it "
+"cannot be empty, it can contain only Latin characters, without spaces (set "
+"once when crating the attribute). You cannot change the name later."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:79
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:82
@@ -2529,162 +2895,173 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_wf_files/wf_transitions.rst:33
 #: ../docs-ru/3_development/metadata_structure/meta_workflows/meta_workflows.rst:44
 msgid "``\"caption\"``"
-msgstr ""
+msgstr "``\"caption\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:80
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:83
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_nodes.rst:82
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_section.rst:27
 msgid "**Логическое имя**"
-msgstr ""
+msgstr "**Logic name**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:82
 msgid "Отображение имени атрибута в пользовательском интерфейсе."
-msgstr ""
+msgstr "Display attribute name in user interface."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:83
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:34
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_nodes.rst:57
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:75
 msgid "``\"type\"``"
-msgstr ""
+msgstr "``\"type\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:84
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:35
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_nodes.rst:58
 msgid "**Тип**"
-msgstr ""
+msgstr "**Type**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:85
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:77
 msgid "Целое - идентификатор (код) типа"
-msgstr ""
+msgstr "Integer - identifier (code) of the type"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:86
 msgid ""
 "Тип данных атрибута. См. :doc:`Типы атрибутов "
 "</3_development/metadata_structure/meta_class/property_types>`"
 msgstr ""
+"Attribute data type. См. :doc:`Attribute types </3_development/"
+"metadata_structure/meta_class/property_types>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:87
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:83
 msgid "``\"size\"``"
-msgstr ""
+msgstr "``\"size\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:88
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:84
 msgid "**Размер**"
-msgstr ""
+msgstr "**Size**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:89
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main.rst:85
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main.rst:105
 msgid "Целое положительное"
-msgstr ""
+msgstr "Positive integer"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:90
 msgid ""
 "Максимальный размер данных атрибута, допистимые значения зависят от типа "
 "атрибута."
 msgstr ""
+"The maximum size of the attribute data, the valid values depend on the type "
+"of attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:91
 msgid "``\"decimals\"``"
-msgstr ""
+msgstr "``\"decimals\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:92
 msgid "**Число знаков после запятой**"
-msgstr ""
+msgstr "**Number of decimal places**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:94
 msgid "Число знаков после запятой, задается только для типа \"Десятичное [8]\"."
 msgstr ""
+"The number of decimal places is specified only for the \"Decimal [8]\" type."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:95
 msgid "``\"allowedFileTypes\"``"
-msgstr ""
+msgstr "``\"allowedFileTypes\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:96
 msgid "**Допустимые типы файлов**"
-msgstr ""
+msgstr "**Valid file extension**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:97
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:161
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main.rst:173
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_main.rst:177
 msgid "Массив строк"
-msgstr ""
+msgstr "Array of strings"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:98
 msgid ""
 "Позволяет задать допустимые расширения файлов, которые пользователь может"
 " загрузить в атрибут типа \"Коллекция файлов [110]\"."
 msgstr ""
+"Allows to specify the valid file extensions that a user can upload to the "
+"\"File collection [110]\" attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:99
 msgid "``\"maxFileCount\"``"
-msgstr ""
+msgstr "``\"maxFileCount\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:100
 msgid "**Максимальное количество файлов**"
-msgstr ""
+msgstr "**Maximum number of files**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:101
 msgid "Число от 1 до 5"
-msgstr ""
+msgstr "Number from 1 to 5"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:102
 msgid ""
 "Задает максимальное количество файлов, которые пользователь может "
 "загрузить в атрибут типа \"Коллекция файлов [110]\"."
 msgstr ""
+"Specifies the maximum number of files that a user can upload to the \"File "
+"collection [110]\" attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:103
 msgid "``\"nullable\"``"
-msgstr ""
+msgstr "``\"nullable\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:104
 msgid "**Допустимо пустое значение**"
-msgstr ""
+msgstr "**Valid null value**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:106
 msgid "Разрешает или запрещает пустое значение атрибута."
-msgstr ""
+msgstr "Allows or denies an empty attribute value."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:107
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:139
 msgid "``\"readonly\"``"
-msgstr ""
+msgstr "``\"readonly\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:108
 msgid "**Только для чтения**"
-msgstr ""
+msgstr "**Read only**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:110
 msgid "Разрешает или запрещает изменять значение атрибута."
-msgstr ""
+msgstr "Allows or denies changing attribute value."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:111
 msgid "``\"indexed\"``"
-msgstr ""
+msgstr "``\"indexed\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:112
 msgid ":doc:`Индексация для поиска <meta_class_attribute/attr_indexed>`"
-msgstr ""
+msgstr ":doc:`Indexing for search <meta_class_attribute/attr_indexed>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:114
 msgid ""
 "Указывает, нужно ли индексировать значения данного атрибута для ускорения"
 " поиска."
 msgstr ""
+"Indicates whether to index the value of this attribute to speed up the "
+"search."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:115
 msgid "``\"unique\"``"
-msgstr ""
+msgstr "``\"unique\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:116
 msgid "**Уникальные значения**"
-msgstr ""
+msgstr "**Unique values**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:118
 msgid ""
@@ -2692,94 +3069,105 @@ msgid ""
 "нельзя создать два объекта класса с одинаковыми значениями в уникальном "
 "атрибуте)."
 msgstr ""
+"Only unique attribute values (\\ **Attention**\\ :you cannot create two "
+"class objects with the same values in the attribute of the unique type)."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:119
 msgid "``\"autoassigned\"``"
-msgstr ""
+msgstr "``\"autoassigned\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:120
 msgid ":doc:`Автозаполнение <meta_class_attribute/attr_autoassigned>`"
-msgstr ""
+msgstr ":doc:`Auto assignment <meta_class_attribute/attr_autoassigned>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:122
 msgid "Разрешает или запрещает автоматическое заполнение поля приложением."
-msgstr ""
+msgstr "Allows or denies autocompletion of the fields."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:123
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_nodes.rst:105
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:151
 msgid "``\"hint\"``"
-msgstr ""
+msgstr "``\"hint\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:124
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_nodes.rst:106
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:152
 msgid "**Подсказка**"
-msgstr ""
+msgstr "**Help text**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:126
 msgid ""
 "Задает сообщение, которые выведется в пользовательском интерфейсе рядом с"
 " именем атрибута."
 msgstr ""
+"Specifies the message that will appear in the user interface next to the "
+"attribute name."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:127
 msgid "``\"defaultValue\"``"
-msgstr ""
+msgstr "``\"defaultValue\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:128
 msgid ":doc:`Значение по умолчанию <meta_class_attribute/attr_default_value>`"
-msgstr ""
+msgstr ":doc:`Default value <meta_class_attribute/attr_default_value>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:129
 msgid "Зависит от типа атрибута"
-msgstr ""
+msgstr "Depends on attribute type"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:130
 msgid ""
 "Указывается значение, которое будет заполнено в атрибуте в форме создания"
 " (при создании объекта)."
 msgstr ""
+"Specifies the value that will be filled in the create form of the attribute ("
+"when an object is created)"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:131
 msgid "``\"refClass\"``"
-msgstr ""
+msgstr "``\"refClass\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:132
 msgid ":doc:`Атрибут ссылки <meta_class_attribute/attr_ref_backref>`"
-msgstr ""
+msgstr ":doc:`Reference attribute <meta_class_attribute/attr_ref_backref>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:133
 msgid "Строка, только латиница, без пробелов"
-msgstr ""
+msgstr "String, only the latin characters with no spaces"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:134
 msgid ""
 "Содержит значение поля ``\"name\"`` (Системное имя) класса, который "
 "должен использоваться в атрибуте типа \"Ссылка [13]\"."
 msgstr ""
+"Contains the value of the ``\" name \"`` field (System name) of the class to "
+"be used in the \"Link [13]\" type attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:135
 msgid "``\"itemsClass\"``"
-msgstr ""
+msgstr "``\"itemsClass\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:136
 msgid ":doc:`Атрибут коллекции <meta_class_attribute/attr_itemclass_backcoll>`"
 msgstr ""
+":doc:`Collection attribute <meta_class_attribute/attr_itemclass_backcoll>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:138
 msgid ""
 "Содержит значение поля ``\"name\"`` (Системное имя) класса, объекты "
 "которого могут привязаться к атрибуту типа \"Коллекция [14]\""
 msgstr ""
+"Contains the value of the ``\" name \"`` field (System name) of the class, "
+"whose objects can bind to an attribute of the \"Collection [14]\" type"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:139
 msgid "``\"backRef\"``"
-msgstr ""
+msgstr "``\"backRef\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:140
 msgid ":doc:`Атрибут обратной ссылки <meta_class_attribute/attr_ref_backref>`"
-msgstr ""
+msgstr ":doc:`Back reference attribute <meta_class_attribute/attr_ref_backref>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:142
 msgid ""
@@ -2788,16 +3176,22 @@ msgid ""
 "фильтрации и привязки объектов из класса Класс коллекции по значению "
 "ссылочного атрибута."
 msgstr ""
+"Specifies the attribute of the \"Link[13]\" type from the class specified in "
+"the Collection Class property, which refers to the original class. It is "
+"necessary to filter and bind objects from the Class class of the collection "
+"by the value of the reference attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:143
 msgid "``\"backColl\"``"
-msgstr ""
+msgstr "``\"backColl\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:144
 msgid ""
 ":doc:`Атрибут обратной коллекции "
 "<meta_class_attribute/attr_itemclass_backcoll>`"
 msgstr ""
+":doc:`Back collection attribute <meta_class_attribute/"
+"attr_itemclass_backcoll>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:146
 msgid ""
@@ -2806,29 +3200,35 @@ msgid ""
 "фильтрации и привязки объектов из класса Класс коллекции по значению "
 "ссылочного атрибута."
 msgstr ""
+"Specifies the attribute of the \"Collection [14]\" type from the class "
+"specified in the Collection Class property, which refers to the original "
+"class. It is necessary to filter and bind objects from the Class class of "
+"the collection by the value of the reference attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:147
 msgid "``\"binding\"``"
-msgstr ""
+msgstr "``\"binding\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:148
 msgid ":doc:`Основание коллекции <meta_class_attribute/binding>`"
-msgstr ""
+msgstr ":doc:`Collection base <meta_class_attribute/binding>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:150
 msgid ""
 "Указывается атрибут класса, к которому привязывается атрибут обратной "
 "ссылки. Если не указан, то принимается ключевой атрибут."
 msgstr ""
+"Specifies the attribute of the class to which the back link attribute is "
+"bound. If not specified, the key attribute is accepted."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:151
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_main.rst:66
 msgid "``\"semantic\"``"
-msgstr ""
+msgstr "``\"semantic\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:152
 msgid ":doc:`Семантика <meta_class_attribute/semantic>`"
-msgstr ""
+msgstr ":doc:`Semantic <meta_class_attribute/semantic>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:154
 msgid ""
@@ -2836,70 +3236,83 @@ msgid ""
 "формировать информацию из ссылочного класса, корректную для описания "
 "артибута в объекте исходного класса."
 msgstr ""
+"Specified for the reference attributes in order to display and generate "
+"correct information for describing the attribute in the original class "
+"object from the reference class."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:155
 msgid "``\"selConditions\"``"
-msgstr ""
+msgstr "``\"selConditions\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:156
 msgid ""
 ":doc:`Условия отбора допустимых значений "
 "<meta_class_attribute/attr_selconditions>`"
 msgstr ""
+":doc:`Conditions for selecting acceptable values <meta_class_attribute/"
+"attr_selconditions>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:157
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:161
 msgid "Null либо массив объектов"
-msgstr ""
+msgstr "Null or array of objects"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:158
 msgid ""
 "Позволяет ограничить выбор объектов по ссылке, допустимых для привязкки в"
 " данном ссылочном атрибуте."
 msgstr ""
+"Allows to limit the selection of the reference objects, valid for binding in "
+"this reference attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:159
 msgid "``\"selSorting\"``"
-msgstr ""
+msgstr "``\"selSorting\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:160
 msgid ""
 ":doc:`Сортировка выборки допустимых значений "
 "<meta_class_attribute/attr_selsorting>`"
 msgstr ""
+":doc:`Sorting a selection of valid values <meta_class_attribute/"
+"attr_selsorting>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:162
 msgid ""
 "Позволяет сортировать выбор объектов по ссылке, допустимых для привязкки "
 "в данном ссылочном атрибуте."
 msgstr ""
+"Allows to sort the selection of reference objects, valid for binding in this "
+"reference attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:163
 msgid "``\"selectionProvider\"``"
-msgstr ""
+msgstr "``\"selectionProvider\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:164
 msgid ""
 ":doc:`Список выбора допустимых значений "
 "<meta_class_attribute/attr_selectionprovider>`"
 msgstr ""
+":doc:`Selection list of valid values <meta_class_attribute/"
+"attr_selectionprovider>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:165
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:177
 msgid "Null либо объект"
-msgstr ""
+msgstr "Null or object"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:166
 msgid "Задает список выбора допустимых значений для атрибута."
-msgstr ""
+msgstr "Specifies a list of selectable values for an attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:167
 msgid "``\"indexSearch\"``"
-msgstr ""
+msgstr "``\"indexSearch\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:168
 msgid "**Полнотекстовый поиск**"
-msgstr ""
+msgstr "**Full text search**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:170
 msgid ""
@@ -2907,43 +3320,49 @@ msgid ""
 "значение данного атрибута должно индексироваться поисковой системой. См. "
 ":doc:`Индексация <meta_class_attribute/attr_indexed>`"
 msgstr ""
+"Indicates whether the attribute is used in full-text search. Specifies that "
+"the value of this attribute should be indexed by the search engine. См. "
+":doc:`Indexing <meta_class_attribute/attr_indexed>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:171
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/navigation_nodes.rst:117
 msgid "``\"eagerLoading\"``"
-msgstr ""
+msgstr "``\"eagerLoading\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:172
 msgid ":doc:`Жадная загрузка <meta_class_attribute/eagerloading>`"
-msgstr ""
+msgstr ":doc:`Eager loading <meta_class_attribute/eagerloading>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:174
 msgid ""
 "Загрузка достаточного объема данных объекта по ссылке (для атрибутов типа"
 " ссылка и коллекция)."
 msgstr ""
+"Load an object by reference (for the link and collection attribute types)."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:175
 msgid "``\"formula\"``"
-msgstr ""
+msgstr "``\"formula\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:176
 msgid ":doc:`Вычисляемые поля <meta_class_attribute/attr_formula>`"
-msgstr ""
+msgstr ":doc:`Calculated field <meta_class_attribute/attr_formula>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:178
 msgid "Указывает на формулу расчета."
-msgstr ""
+msgstr "Indicates a calculation formula."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:179
 msgid "``\"cached\"``"
-msgstr ""
+msgstr "``\"cached\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:180
 msgid ""
 ":doc:`Кеширование значения вычислимого атрибута "
 "<meta_class_attribute/attr_cached_true>`"
 msgstr ""
+":doc:`Caching value of computable attribute <meta_class_attribute/"
+"attr_cached_true>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute.rst:182
 msgid ""
@@ -2951,10 +3370,12 @@ msgid ""
 " по формуле. Указывает на возможность кеширования значения вычислимого "
 "атрибута."
 msgstr ""
+"Applies only to attribute values obtained by formula. Indicates the ability "
+"to cache the value of a computable attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:2
 msgid "Автозаполняемые атрибуты"
-msgstr ""
+msgstr "Autocomplete attributes"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:4
 msgid ""
@@ -2964,16 +3385,24 @@ msgid ""
 "«Уникальный идентификатор» ``\"unique\": true`` для целосчисленных и "
 "строковых атрибутов, а также для атрибутов типа «Дата-время»."
 msgstr ""
+"**Autocompletion** type - ``\" autoassigned \": true`` - indicates that the "
+"value of this attribute should be filled automatically when creating a "
+"class. It is used mainly for attributes of the “Unique values” type (``"
+"\"unique\": true``) for integers and string attributes, as well as for "
+"attributes of the \"Date-time\" type."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:7
 msgid "Принцип формирования:"
-msgstr ""
+msgstr "Principle of formation:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:10
 msgid ""
 "Для атрибутов «Дата-время» атрибуту должно быть присвоено значение "
 "текущего момента времени. Используется для меток создания и изменения."
 msgstr ""
+"For the attributes of the \"Date-time\" type, an attribute should have the "
+"value of the current time. It is used in the time tag of created objects and "
+"committed changes."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:11
 msgid ""
@@ -2981,6 +3410,9 @@ msgid ""
 "идентификатор\" (``\"unique\": true``) при создании формы, заполняется "
 "случайным набором символов."
 msgstr ""
+"For integer attributes, if the value \"Unique identifier\" (``\"unique\": "
+"true``) is specified when creating the form, it is filled in with a random "
+"set of characters."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:12
 msgid ""
@@ -2988,10 +3420,15 @@ msgid ""
 "(``\"unique\": true``), то должно быть сгенерировано случайное значение "
 "hex - размером с длину строки - в примере ниже 20 символов."
 msgstr ""
+"For strings, if the value \"Unique identifier\" (``\"unique\": true``) is "
+"specified, a random hex value should be generated - the size of the string "
+"length - 20 characters in the example below."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:19
 msgid "Для типа \"Глобальный идентификатор\" - реализуется аналогично строке."
 msgstr ""
+"For the \"global identifier\" type, the configuration is the same as for the "
+"string."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_autoassigned.rst:21
 msgid ""
@@ -2999,15 +3436,18 @@ msgid ""
 "генерироваться автоматически для пустых значений или даты. Для всех "
 "остальных (целое, строка) должны генерироваться ранее созданные значения."
 msgstr ""
+"**NB:** You need to make a check when saving. The field should be generated "
+"automatically for empty values or dates. For all others (integer, string), "
+"previously created values must be generated."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_cached_true.rst:2
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_cached_true.rst:23
 msgid "Кеширование значения вычисляемого атрибута"
-msgstr ""
+msgstr "Caching the value of computable attribute"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_cached_true.rst:5
 msgid "Описание функционала"
-msgstr ""
+msgstr "Description"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_cached_true.rst:7
 msgid ""
@@ -3015,6 +3455,9 @@ msgid ""
 " при создании и изменении объекта. При выборках берутся ранее "
 "рассчитанные значения."
 msgstr ""
+"When applying the cached values, the attribute values are calculated during "
+"creating and editing an object. Previously calculated values are used for "
+"the samples."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_cached_true.rst:9
 msgid ""
@@ -3026,16 +3469,25 @@ msgid ""
 "из БД в данном случае кеш атрибута A просто не имеет смысла, так как "
 "коллекция в любом случае будет выбираться для атрибута B."
 msgstr ""
+"If there are two computable attributes A and B referring to the collection C "
+"and the A has the cached value and B hasn't, then when editing the object, "
+"the collection C will be pulled twice. First time for the attribute B at the "
+"``securedDataRepo`` level to verify the access. Second time for the "
+"attribute A when calculated into the ``dataRepo``. In this case, when "
+"reading an object from the database, the cache of the attribute A simply "
+"does not make sense, since in any case the collection will be selected for "
+"the attribute B."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_cached_true.rst:12
 msgid "Кеширование семантик"
-msgstr ""
+msgstr "Caching semantics"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_cached_true.rst:14
 msgid ""
 "Для кеширования семантик объектов в мете класса необходимо указать "
 "параметр:"
 msgstr ""
+"Set the following property to cache semantics of the objects in meta class:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_cached_true.rst:20
 msgid ""
@@ -3045,20 +3497,28 @@ msgid ""
 "часового пояса пользователя, так как кешируются при редактировании "
 "объекта на уровне ``DBAL``."
 msgstr ""
+"We recommend you not to use the eager loading for the attributes used in the "
+"cached semantics. Also, we recommend you not to use the dates, because they "
+"cannot be converted to the user's time zone, since they are cached when "
+"editing an object at the ``DBAL`` level."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_cached_true.rst:25
 msgid "Для кеширования значения вычисляемого атрибута в его мете указываем:"
 msgstr ""
+"Set the following property in the meta class to cache the value of the "
+"computable attribute:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_cached_true.rst:31
 msgid ""
 "Кроме того, реализована возможность обновлять кеши у объектов по ссылкам "
 "при редактировании основного объекта."
 msgstr ""
+"Besides, you can update caches of objects by reference when editing the main "
+"object."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_cached_true.rst:33
 msgid "Для этого в мете класса указываем настройку:"
-msgstr ""
+msgstr "Set the following property in the meta class:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_cached_true.rst:39
 msgid ""
@@ -3068,10 +3528,15 @@ msgid ""
 "``refAttr1`` настроено обновление кешей, оно будет запущено. Настройка "
 "наследуется в классах наследниках."
 msgstr ""
+"When configuring the meta class, specify the reference and collections, the "
+"caches of the objects in which you need to update when editing an object of "
+"this class. Updates are done recursively. If the ``refAttr1`` attribute is "
+"set to update caches in the class object, then the update will start. This "
+"setting is inherited in the heir classes."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_cached_true.rst:42
 msgid "Пример настройки:"
-msgstr ""
+msgstr "Example:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_cached_true.rst:77
 msgid ""
@@ -3080,10 +3545,14 @@ msgid ""
 "необходимо обновлять кеши объектов по ссылке: для этого в мете класса "
 "каждого объекта по ссылке указываем ``cacheDependencies:``."
 msgstr ""
+"The value of this attribute obtained from the formula is cached. "
+"Additionally, to update the value when editing an object, you need to update "
+"the caches of objects by reference: to do this, specify "
+"``cacheDependencies:`` in the meta class of each object by reference."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_default_value.rst:2
 msgid "Значение по умолчанию"
-msgstr ""
+msgstr "Default value"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_default_value.rst:4
 msgid ""
@@ -3093,22 +3562,30 @@ msgid ""
 "``\"defaultValue\"``. Основное применение - для списков выбора допустимых"
 " значений."
 msgstr ""
+"**Default value** is set when you need to output the value in the attribute "
+"field automatically when you open the object creation form. The default "
+"value is set by assigning the ``default`` value to the ``\"defaultValue\"`` "
+"property . The main use is for selection lists of acceptable values."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_default_value.rst:56
 msgid ""
 "Для реализации **автоматического расчета значения по умолчанию**\\  можно"
 " использовать функцию ``max``\\ :"
 msgstr ""
+"To implement ** automatic calculation of the default value**\\ you can use "
+"the ``max``\\ function:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_default_value.rst:62
 msgid ""
 "**Значение по умолчанию для атрибута типа \"Ссылка\"** задается  с "
 "помощью операции ``get`` следующими способами:"
 msgstr ""
+"Use the ``get`` operation to implement **default value for the \"Reference\" "
+"attribute type** in the following ways:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:2
 msgid "Вычисляемые атрибуты (без кеширования)"
-msgstr ""
+msgstr "Computable attribute (without caching)"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:7
 msgid ""
@@ -3116,12 +3593,17 @@ msgid ""
 "формирования строкового выражения (результата) по заданному алгоритму при"
 " обращении к объекту класса через API. Например, при открытии объекта."
 msgstr ""
+"**Computable attributes (formula)** - are used to instantly generate a "
+"string expression as a result according to a preset algorithm when accessing "
+"a class object through the API. For example, when you open the object."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:9
 msgid ""
 "На уровне меты класса вычисляемые атрибуты хранят алгоритм формирования "
 "строкового выражения в свойстве ``formula``."
 msgstr ""
+"At the meta class level, the computable attributes store the algorithm for "
+"generating a string expression in the ``formula`` property."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:11
 msgid ""
@@ -3130,6 +3612,9 @@ msgid ""
 "значения с разделителями \",\" между собой объединяются в одно строковое "
 "значение."
 msgstr ""
+"For example you can access all unique values from the ``name``\\ attribute, "
+"which values are stored in the ``ownOrg`` collection. All the unique values, "
+"divided by \",\" are united in one string expression."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:25
 msgid ""
@@ -3139,18 +3624,28 @@ msgid ""
 "пригодится выше описанная формула для вычисляемого атрибута с "
 "использованием функции ``merge``."
 msgstr ""
+"For example, If you have a collection with non-unique values (for example, "
+"\"ownOrg1\", \"ownOrg2\" and again \"ownOrg1\") and you need to obtain only "
+"the unique values of the collection \"ownOrg1 and ownOrg2\", then the above "
+"described formula for the computable attribute using the ``merge`` operation "
+"will be useful."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:27
 msgid ""
 "В зависимости от функции можно обращаться к необходимому атрибуту для "
 "получения значения через атрибуты типа \"Ссылка\", \"Коллекция\"."
 msgstr ""
+"Depending on the function, you can refer to the necessary attribute to get "
+"the value through the attributes of the \"Reference\" and \"Collection\" "
+"types."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:29
 msgid ""
 "При сохранении изменений и закрытии формы объекта результат не "
 "сохраняется в атрибуте, если не настроено кеширование."
 msgstr ""
+"When saving changes and closing the form of an object, the result is not "
+"saved in the attribute if caching is not configured."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:31
 msgid ""
@@ -3159,10 +3654,16 @@ msgid ""
 "использовать результаты вычислений по заданному порядку ``orderNumber`` в"
 " последующих вычисляемых атрибутах."
 msgstr ""
+"If the meta class has a few computable attributes, then the order of the "
+"calculation is set in the ``orderNumber`` property. You can use the results "
+"of calculations for a given order - ``orderNumber`` in the subsequent "
+"computable attributes."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:33
 msgid "В семантике класса или атрибута можно указывать вычисляемые атрибуты."
 msgstr ""
+"You can specify computable attributes in the semantics of a class or an "
+"attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:35
 msgid ""
@@ -3170,10 +3671,12 @@ msgid ""
 "являться вычисляемым и кеширование к такому атрибуту не должно "
 "применяться."
 msgstr ""
+"If you set ``Null`` \\ in the ``formula`` property, the attribute will not "
+"be computable and caching should not be applied to such an attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:38
 msgid "Модель записи формулы"
-msgstr ""
+msgstr "Formula record model"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:40
 msgid ""
