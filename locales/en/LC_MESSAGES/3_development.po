@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-07 05:22+0000\n"
-"PO-Revision-Date: 2021-04-02 09:10+0000\n"
+"POT-Creation-Date: 2021-02-17 18:15+0000\n"
+"PO-Revision-Date: 2021-04-07 05:23+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language: en\n"
 "Language-Team: English "
@@ -3702,6 +3702,8 @@ msgid ""
 "Каждая формула начинается с описания объекта и функции в формате `JSON "
 "<https://en.wikipedia.org/wiki/JSON>`_."
 msgstr ""
+"Each formula begins with a description of the object and the function in the "
+"`JSON <https://en.wikipedia.org/wiki/JSON>`_ format ."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:56
 msgid ""
@@ -3709,6 +3711,9 @@ msgid ""
 "<поддерживаемые-функции>` необходимым количеством операндов для получения"
 " результата в ``function1``."
 msgstr ""
+"In the object, be sure to specify: ref: `a suitable function <supported-"
+"functions>` with the required number of operands to get the result in "
+"``function1``."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:58
 msgid ""
@@ -3716,124 +3721,135 @@ msgid ""
 "происходить вычисления, за исключением тех функций, которые находятся в "
 "зависимых вычисляемых атрибутах."
 msgstr ""
+"The object contains the full description of the algorithm, that controls the "
+"calculations except the functions stored in the depended computable "
+"attributes."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:60
 msgid "Массив в функции хранит порядок операндов, которые передаются в функцию."
 msgstr ""
+"An array in a function stores the order of the operands that are passed to "
+"the function."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:62
 msgid "Операндами функции могут быть:"
-msgstr ""
+msgstr "The functions operands could be:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:66
 msgid "Строковые значения, хранящие константу"
-msgstr ""
+msgstr "String values, storing the constant"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:77
 msgid ""
 "Строковые значения, хранящие :doc:`переменные "
 "</3_development/metadata_structure/meta_variables>`."
 msgstr ""
+"String values that store: doc: `variables </3_development/metadata_structure/"
+"meta_variables>`."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:88
 msgid "Числовые значения"
-msgstr ""
+msgstr "Numerical values"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:99
 msgid "Пустые значения"
-msgstr ""
+msgstr "Empty values"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:110
 msgid "Объекты"
-msgstr ""
+msgstr "Objects"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:125
 msgid "Пример применения формулы:"
-msgstr ""
+msgstr "Example of applying the formula:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:256
 msgid ""
 "**Результат:** *вывод адреса с пробелами и запятыми между значениями "
 "атрибутов*"
 msgstr ""
+"**Result:** *the output of the address with spaces and commas between the "
+"values of the attributes*."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:261
 msgid "Поддерживаемые функции"
-msgstr ""
+msgstr "Supported functions"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:263
 msgid "``eq`` - равно"
-msgstr ""
+msgstr "``eq`` - equal"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:265
 msgid "``ne`` - не равно"
-msgstr ""
+msgstr "``ne`` - not equal"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:267
 msgid "``lt`` - меньше"
-msgstr ""
+msgstr "``lt`` - less"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:269
 msgid "``gt`` - больше"
-msgstr ""
+msgstr "``gt`` - greater"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:271
 msgid "``lte`` - меньше либо равно"
-msgstr ""
+msgstr "``lte`` - less or equal"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:273
 msgid "``gte`` - больше, либо равно"
-msgstr ""
+msgstr "``gte`` - greater or equal"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:275
 msgid "``and`` - и"
-msgstr ""
+msgstr "``and`` - and"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:277
 msgid "``or`` - или"
-msgstr ""
+msgstr "``or`` - or"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:279
 msgid "``not`` - не"
-msgstr ""
+msgstr "``not`` - not"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:281
 msgid "``add`` - арифметическое сложение"
-msgstr ""
+msgstr "``add`` - arithmetic addition"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:283
 msgid "``sub`` - арифметическое вычитание"
-msgstr ""
+msgstr "``sub`` - arithmetical subtraction"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:285
 msgid "``mul`` - арифметическое умножение"
-msgstr ""
+msgstr "``mul`` - arithmetical multiplication"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:287
 msgid "``div`` - арифметическое деление"
-msgstr ""
+msgstr "``div`` - arithmetical division"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:289
 msgid "``nempty`` - не пусто"
-msgstr ""
+msgstr "``nempty`` - not empty"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:291
 msgid "``empty`` - пусто"
-msgstr ""
+msgstr "``empty`` - empty"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:293
 msgid "``pad`` - дополнение строки символами до нужной длины"
-msgstr ""
+msgstr "``pad`` - additional symbols to the desired string length"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:295
 msgid ""
 "``next`` - :ref:`извлекает новое значение последовательности "
 "<автоприсвоение-атрибута>`"
 msgstr ""
+"``next`` - :ref:`retrieves the new value of the sequence <autoassigned-"
+"attribute> `"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:297
 msgid "``merge`` - конкатенация атрибутов в коллекции"
-msgstr ""
+msgstr "``merge`` - concatenation of attributes in the collection"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:299
 msgid ""
@@ -3841,6 +3857,8 @@ msgid ""
 "коллекция. Для строк возвращает длину, для коллекций - количество "
 "элементов"
 msgstr ""
+"``size`` - available attribute values - string and collection. For strings - "
+"returns the length, for collections - the number of elements"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:301
 msgid ""
@@ -3848,6 +3866,9 @@ msgid ""
 " с 0 ([массив значений], [индекс элемента: 0 - первый элемент, last - "
 "последний элемент])"
 msgstr ""
+"``element`` - derive an arbitrary element from an array, indexation is from "
+"0 ([array of values], [element index: 0 is the first element, last is the "
+"last element])"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:303
 msgid ""
@@ -3855,57 +3876,69 @@ msgid ""
 "[добавляемый интервал (число)], [ед.изм (строка [d, m, y, h, min, s, "
 "ms)])"
 msgstr ""
+"``dateAdd`` - an addition to the data (in the notation momentjs - [Date], ["
+"add interval (number)], [unit (line [d, m, y, h, min, s, ms)]"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:305
 msgid ""
 "``dateDiff`` - разница между датами (в нотации momentjs - [ед.изм], "
 "[Дата1], [Дата2])"
 msgstr ""
+"``dateDiff`` - difference between dates (in the notation momentjs - [unitism]"
+", [Date1], [Date2])"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:307
 msgid "``now`` - текущая дата-время"
-msgstr ""
+msgstr "``now`` - current date and time"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:309
 msgid "``concat`` - конкатенация строк"
-msgstr ""
+msgstr "``concat`` - string concatenation"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:315
 msgid ""
 "``obj`` - формирование объекта, нечетные аргументы - имена свойств, "
 "четные - значения"
 msgstr ""
+"``obj`` - forming an object: odd arguments - property names, even arguments -"
+" values"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:317
 msgid "агрегация:"
-msgstr ""
+msgstr "aggregation:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:319
 msgid "``max``\\ , ``min``\\ , ``avg``\\ , ``sum``\\ , ``count``"
-msgstr ""
+msgstr "``max``\\, ``min``\\, ``avg``\\, ``sum``\\, ``count``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:321
 msgid "Все функции агрегации принимают следующие аргументы:"
-msgstr ""
+msgstr "All aggregation operations take the following arguments:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:323
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:329
 msgid "либо"
-msgstr ""
+msgstr "either"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:335
 msgid ""
 "``1`` - указывает на уникальность объекта, то есть позволяет для функций "
 "агрегации производить подсчет только по уникальным объектам"
 msgstr ""
+"``1`` - indicates the uniqueness of the object, so it allows to count only "
+"unique objects for aggregation operations"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:337
 msgid "``\\n`` - перенос на другую строку"
 msgstr ""
+"``\\n"
+"`` - line break"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:357
 msgid "Автоприсвоение и получение значения атрибута в вычисляемом выражении"
 msgstr ""
+"Auto-assignment and getting the value of an attribute in a calculated "
+"expression"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:360
 msgid ""
@@ -3916,12 +3949,20 @@ msgid ""
 "необходимо извлекать очередное значение последовательности при каждом "
 "открытии формы создания."
 msgstr ""
+"Set the ``autoassigned: true``, so that calculated expression is not "
+"executed when opening the create form. The expressions will be calculated "
+"before saving. This is relevant when using the ``next`` operation in "
+"calculations, since it is not always necessary to derive the next value each "
+"time opening the creation form."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:363
 msgid ""
 "Значения по умолчанию рассчитываются до записи объекта в БД, то есть на "
 "этапе их вычисления в простых автоприсваемых атрибутах еще ничего нет."
 msgstr ""
+"The default values are calculated before the object is written to the DB (so "
+"there is nothing yet in simple auto-assigned attributes at the stage of "
+"their calculation)."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_formula.rst:366
 msgid ""
@@ -3929,10 +3970,13 @@ msgid ""
 "возвращать 1, так как для каждого объекта будет создаваться отдельная "
 "последовательность, из которой выбирается только первое значение."
 msgstr ""
+"The ``next($id)`` operation (if the ``$id`` has a value) will always return "
+"1, since for each object a separate sequence will be created, from which "
+"only the first value will be selected."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:2
 msgid "Индексация атрибутов"
-msgstr ""
+msgstr "Attribute indexation"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:4
 msgid ""
@@ -3940,32 +3984,41 @@ msgid ""
 "задается вручную, присвоением значения ``true`` для свойства "
 "``\"indexed\"``\\ , то есть:"
 msgstr ""
+"**Attribute indexation** is required to accelerate the search. Indexation is "
+"set manually by assigning the ``true`` value for the ``\"indexed\"``\\ "
+"property, that is:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:10
 msgid "За исключением следующих типов атрибутов:"
-msgstr ""
+msgstr "Except for the following attribute types:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:13
 msgid ""
 "Индексация задается автоматически (независимо от того, что указано в "
 "индексации для поля):"
 msgstr ""
+"Indexation is set automatically (regardless of what is specified in the "
+"indexation field):"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:17
 msgid "для ключевого поля;"
-msgstr ""
+msgstr "for the key field;"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:20
 msgid ""
 "для объектов с полем ``\"compositeIndexes\": true`` в основной части меты"
 " класса."
 msgstr ""
+"for the objects with field ``\"compositeIndexes\": true`` in the main part "
+"of the meta class."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:24
 msgid ""
 "При импорте меты принудительно индексируются все объекты атрибутов типа "
 "\"Ссылка\"."
 msgstr ""
+"When importing a meta, all attribute objects of the \"Reference\" type are "
+"indexed."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_indexed.rst:27
 msgid ""
@@ -3973,6 +4026,9 @@ msgid ""
 "с обратной ссылкой не хранятся в объекте, соответственно, в индексации "
 "нет необходимости."
 msgstr ""
+"Objects of attributes of the \"Collection\" type are not indexed, since "
+"collections with a back reference are not stored in the object, there is no "
+"need for indexing."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:4
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types/type_collection14.rst:7
@@ -3981,21 +4037,26 @@ msgid ""
 "объектов. Данные объекты могут быть объектами любого класса включая "
 "исходный."
 msgstr ""
+"**Collection** - is a data type that allows lists of other objects to be "
+"displayed in one object. The data of the object can be objects of any class "
+"including the initial."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:6
 msgid ""
 "Ссылки разделяются через запятую. Все значения из последовательности "
 "ссылок и запятых хранятся строкой в базе данных."
 msgstr ""
+"References are separated by commas. All values from a sequence of references "
+"and commas are stored as a string in the database."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:9
 #: ../docs-ru/3_development/metadata_structure/meta_class/property_types/type_collection14.rst:10
 msgid "Способы задания коллекций:"
-msgstr ""
+msgstr "Ways to define collections:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:11
 msgid "**с точки зрения используемых полей атрибутивной части меты классов**"
-msgstr ""
+msgstr "**in terms of the used fields of the attribute part of the class meta**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:13
 msgid ""
@@ -4005,6 +4066,11 @@ msgid ""
 "указать ссылочный атрибут вложенного объекта, по которому формируется "
 "связь. **См. Обратные ссылки**"
 msgstr ""
+"``one-to-many`` is the classic relationship of a child object to a parent "
+"object. Indicates the presence of a container and a nested object with a "
+"reference to the container. In the container, you must specify the "
+"collection, and for the collection, specify the reference attribute of the "
+"nested object by which the link is formed. **See Back References**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:14
 msgid ""
@@ -4012,6 +4078,9 @@ msgid ""
 "вложенных элементов - связи создаются при помещении в коллекцию и "
 "хранятся как отдельные сущности в БД. **См. Коллекции.**"
 msgstr ""
+"``many-to-many`` is determined through a collection without references and a "
+"class of nested elements — connections are created in the collection and "
+"stored as separate entities in the DB. **See Collections**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:15
 msgid ""
@@ -4019,10 +4088,13 @@ msgid ""
 " стороны объекта на который идут ссылки. Задается через *backColl*. **См."
 " Обратные коллекции.**"
 msgstr ""
+"``back collection`` is similar to the one-to-many connection but in the "
+"opposite direction - connection from the reference object. Set the "
+"connection using the *backColl* property. **See Back collection**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:18
 msgid "Атрибут коллекция в формате JSON"
-msgstr ""
+msgstr "Collection attribute in JSON format"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:55
 msgid ""
@@ -4030,24 +4102,29 @@ msgid ""
 " то при заполнении коллекции будет возможность создавать объекты как "
 "родительского, так и дочерних классов."
 msgstr ""
+"**NB:** If the collection refers to a class that contains many descendants, "
+"then when the collection is populated, it will be possible to create objects "
+"of both parent and child classes."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:57
 msgid ""
 "Коллекции вместе с объектом грузятся по семантике, заданной в мете "
 "класса-коллекции или атрибута-коллекции."
 msgstr ""
+"Collections together with the object are loaded according to the semantics "
+"specified in the meta class of a collection or reference attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:60
 msgid "Обратная ссылка в контексте коллекций"
-msgstr ""
+msgstr "Back reference in the context of collections"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:62
 msgid "Обратная ссылка в контексте коллекций образуется следующим образом:"
-msgstr ""
+msgstr "The back reference in the context of collection is formed as follows:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:65
 msgid "Создается обычная коллекция с указанием ссылочного класса"
-msgstr ""
+msgstr "create a regular collection specifying the reference attribute"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:66
 msgid ""
@@ -4056,20 +4133,27 @@ msgid ""
 "атрибут-ссылке присваивается сразу при создании связи с коллекцией, без "
 "необходимости сохранения формы"
 msgstr ""
+"The reference class must have a reference attribute that references the "
+"source class and has the ``unique`` property set to ``false``. The attribute-"
+"reference value is assigned immediately when creating a link to the "
+"collection, without the need to save the form"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:67
 msgid ""
 "В исходном классе обычной коллекции заполняем свойство ``\"backRef\"`` - "
 "туда записывается код атрибута-ссылки из ссылочного класса"
 msgstr ""
+"specify the ``\"backRef\"`` property in the initial class of the collection. "
+"In this property, write down the code of the reference attribute from the "
+"reference class"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:70
 msgid "Атрибут обратная ссылка в формате JSON"
-msgstr ""
+msgstr "Back reference attribute in JSON format"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:108
 msgid "Режимы отображения атрибута типа \"Коллекция\" на форме:"
-msgstr ""
+msgstr "Display modes of the \"Collection\" type attribute on the form:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:110
 msgid ""
@@ -4077,6 +4161,8 @@ msgid ""
 "помощи свойства ``\"mode\"``, либо задаваться шаблоном в свойстве "
 "``\"options\"``."
 msgstr ""
+"Display modes are set in the view meta. They can be defined using the ``"
+"\"mode\"`` property, or set by a template in the ``\"options\"`` property."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:113
 msgid ""
@@ -4084,6 +4170,9 @@ msgid ""
 "объектов по ссылке в виде тегов, наименование которых определяется "
 "семантикой объекта по ссылке."
 msgstr ""
+"**mode: 4** - \"Tag Cloud\" stores the values of one or several objects by "
+"reference in the form of tags, the name of which is determined by the "
+"semantics of the object by reference."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:114
 msgid ""
@@ -4091,6 +4180,8 @@ msgid ""
 "по ссылки в таблице, колонки которой предопределены для формы "
 "представления."
 msgstr ""
+"**mode: 3** - \"Table\" stores the values of one or several objects by "
+"reference in a table, the columns of which are predefined for the view form."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:136
 msgid ""
@@ -4101,16 +4192,23 @@ msgid ""
 "Предназначено, в основном, для обсуждения информации по объекту на "
 "определенном этапе бизнес-процесса."
 msgstr ""
+"**\"Comment\"** - is set in the same way as the “Table” display mode, but "
+"with the template specified in the ``\"options\"`` property. It is a field "
+"that contains data that was predefined in the ``\"columns\"`` property for "
+"an object by reference. It is intended to discuss information on an object "
+"at a certain stage of a workflow."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:213
 msgid "Обратная коллекция"
-msgstr ""
+msgstr "Back collection"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:215
 msgid ""
 "Пример коллекции выше преобразуется для обратной коллекции следующим "
 "образом:"
 msgstr ""
+"The example of the collection above is converted for the back reference as "
+"follows:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:249
 msgid ""
@@ -4118,6 +4216,9 @@ msgid ""
 "дополнительного значения - имя атрибута из класса в коллекции (из примера"
 " это coll)"
 msgstr ""
+"Pay attention to the indication of the additional value in the property ``"
+"\"backColl\"``\\ - the name of the attribute from the class in the "
+"collection (from the example it is coll)"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:251
 msgid ""
@@ -4126,21 +4227,28 @@ msgid ""
 "содержать несколько ссылок, но и объекты по ссылкам также могут содержать"
 " в своей коллекции \"coll\" несколько ссылок на объекты исходного класса."
 msgstr ""
+"Thus, a ``many-to-many`` relationship is implemented without an intermediate "
+"class. Not only can the ``\"backcoll\"`` attribute with the \"Collection\" "
+"type contain multiple references, but objects on references can also contain "
+"multiple references to objects of the source class in their \"coll\" "
+"collection."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:254
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:119
 msgid "Внимание:"
-msgstr ""
+msgstr "Attention:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:256
 msgid "``\"type\": 14`` - тип атрибута \"Коллекция\""
-msgstr ""
+msgstr "``\"type\": 14`` - the attribute type \"Collection\""
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:257
 msgid ""
 "``\"backColl\"`` - название ссылочного атрибута типа коллеции, "
 "ссылающегося на исходный класс с коллекцией"
 msgstr ""
+"``\"backColl\"`` - the name of the collection type reference attribute "
+"referencing the original collection class"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:258
 msgid ""
@@ -4148,34 +4256,45 @@ msgid ""
 " идентификаторы в коллекции и, таким образом, формировать связь к объекту"
 " по идентификатору"
 msgstr ""
+"``\"itemsClass\"`` - the name of the class, the objects of which can store "
+"their identifiers in the collection and, thus, form a link to the object by "
+"identifier"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:259
 msgid ""
 "``\"backRef\"`` - атрибут-ссылка из ссылочного класса, указанного в "
 "``\"itemsClass\"``"
 msgstr ""
+"``\"backRef\"`` - reference-attribute from the reference class specified in "
+"``\"itemsClass\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:260
 msgid ""
 "При указании класса-родителя есть возможность создавать объекты "
 "родительского и дочерних классов"
 msgstr ""
+"When specifying a parent class, it is possible to create objects of the "
+"parent and child classes"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:261
 msgid ""
 "Коллекции вместе с объектом грузятся по семантике, заданной в мете "
 "класса-коллекции или атрибута-коллекции"
 msgstr ""
+"Collections with objects are loaded according to the semantics specified in "
+"the collection class or the collection attribute"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:264
 msgid "Схема обработки коллекций и формат хранения в БД"
-msgstr ""
+msgstr "Collection processing scheme and DB storage format"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:266
 msgid ""
 "Для сохранения коллекции, необходимо передать в соответствующем ей "
 "атрибуте объекта массив действий вида:"
 msgstr ""
+"To save the collection, transfer the array of actions (the example below) in "
+"the corresponding attribute of the object:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:277
 msgid ""
@@ -4185,18 +4304,27 @@ msgid ""
 "редактирования одинаков. Действия с коллекциями выполняются после "
 "создания или сохранения контейнера."
 msgstr ""
+"The order of the objects must correspond to the order of relevant actions. "
+"Available operations: ``put`` - add to the collection, ``eject`` - extract "
+"from the collection. The algorithm for creating and editing is the same. "
+"Actions on collections are performed after the container is created or saved."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:279
 msgid ""
 "Принцип работы коллекций на форме создания и редактирования принципиально"
 " разный:"
 msgstr ""
+"The working principle of collections on the form of creation and editing is "
+"fundamentally different:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:282
 msgid ""
 "На форме создания взаимодействие с сервером требуется лишь для получения "
 "и отображения в таблице выбранного/созданного объекта коллекции"
 msgstr ""
+"On the creation form, interconnection with the server is required only to "
+"receive and display in the table the selected/created object of the "
+"collection"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_itemclass_backcoll.rst:283
 msgid ""
@@ -4204,6 +4332,9 @@ msgid ""
 "при необходимости, и изменение параметров выборки при запросе, в "
 "зависимости от выполненных действий над коллекцией."
 msgstr ""
+"On the editing form, it is possible to get a server response if necessary, "
+"and to change the select parameters upon request, depending on the actions "
+"performed in the collection."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:7
 msgid ""
@@ -4214,12 +4345,21 @@ msgid ""
 " родительского и дочерних классов. Ссылки вместе с объектом грузятся по "
 "семантике, заданной в мете класса-ссылки или атрибута-ссылки."
 msgstr ""
+"**Reference** is a data type that stores a simple value and is interpreted "
+"by the system as a reference to a key attribute of an object of another "
+"class. This object can be an object of any class, including the source one. "
+"When you specify a parent class, you can create objects of the parent and "
+"child classes. References together with the object are loaded according to "
+"the semantics specified in the meta of the reference class or the reference "
+"attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:9
 msgid ""
 "Отображаемые значения в атрибуте ссылочного типа выводятся в соответствии"
 " с семантикой, указанной в ссылочном классе этого атрибута."
 msgstr ""
+"Values in the attribute of the reference type are displayed in accordance "
+"with the semantics, specified in the reference class of this attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:11
 msgid ""
@@ -4228,16 +4368,21 @@ msgid ""
 "будет потеряна, и объект по ссылке будет удален при попытке изменить "
 "связь из коллекции с обратной ссылкой."
 msgstr ""
+"The ability to replace an object by a back reference is determined by the "
+"``nullable`` parameter that binds the reference attribute. When you replace "
+"an object, the reference will be lost, and the referenced object will be "
+"deleted when you try to change the reference from the back reference "
+"collection."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:14
 msgid "Типы связей, реализуемые типом \"Ссылка\":"
-msgstr ""
+msgstr "Types of links implemented by the \"Reference\" type:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:16
 msgid ""
 "Ссылочный тип с точки зрения используемых полей атрибутивной части меты "
 "классов:"
-msgstr ""
+msgstr "Reference type in context of the attribute part of the meta class:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:19
 msgid ""
@@ -4246,6 +4391,10 @@ msgid ""
 " - связи создаются при помещении в ссылку и хранятся как отдельная "
 "сущность в БД."
 msgstr ""
+"``one-to-many ``- the classic connection of the heir object to the ancestor "
+"object. It is necessary to define the reference and indicate the class of "
+"the nested element - the connections are created when placed in the "
+"reference and stored as a separate entity in the database."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:20
 msgid ""
@@ -4255,14 +4404,20 @@ msgid ""
 "атрибут вложенного объекта по которому формируется связь. Обязательно в "
 "атрибуте-ссылке указать свойство ``\"unique\": true``."
 msgstr ""
+"``one-to-one`` - similar to the one-to-many connection, means the presence "
+"of a reference and a nested object with a bonded reference to the source "
+"object. In the reference, you must specify a bonded reference, and in the "
+"bonded reference you must indicate the reference attribute of the nested "
+"object by which the connection is formed. Be sure to specify the ``\"unique "
+"\": true`` property in the reference attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:23
 msgid "Ссылка в формате JSON"
-msgstr ""
+msgstr "Reference in JSON format"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:61
 msgid "Режимы отображения атрибута типа \"Ссылка\" на форме:"
-msgstr ""
+msgstr "Display modes of the \"Reference\" type attribute on the form:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:63
 msgid ""
@@ -4270,30 +4425,35 @@ msgid ""
 "помощи свойства ``\"mode\"`` либо задаваться шаблоном в свойстве "
 "``\"options\"``."
 msgstr ""
+"You can set the display mode in the meta view. Set the mode using the ``"
+"\"mode\"`` property or the ``\"options\"`` property to set it as a template."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:66
 msgid "**\"mode\": 0** - отображение только семантики объекта по ссылке"
 msgstr ""
+"**\"mode\": 0** - displaying only the semantics of an object by reference"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:67
 msgid "**\"mode\": 1** - отображение ссылки на форму объекта по ссылке"
 msgstr ""
+"**\"mode\": 1** - displaying the reference to the form of the object by "
+"reference"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:68
 msgid "**\"mode\": 3** - иерархический поиск объекта"
-msgstr ""
+msgstr "**\"mode\": 3** - hierarchical object search"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:69
 msgid "**\"mode\": 4** - уточняющий поиск объекта"
-msgstr ""
+msgstr "**\"mode\": 4** - refining object search"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:72
 msgid "Обратные ссылки"
-msgstr ""
+msgstr "Back reference"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:74
 msgid "Обратная ссылка в контексте ссылок получается следующим образом:"
-msgstr ""
+msgstr "Back reference in the context of reference is obtained as follows:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:77
 msgid ""
@@ -4301,20 +4461,25 @@ msgid ""
 "указанием свойства ``\"backRef\"`` - куда записывается код атрибута из "
 "ссылочного класса."
 msgstr ""
+"Create an attribute with type 13 and specify the reference class ``refClass``"
+" and specify the property ``\"backRef\"`` (where the attribute code from the "
+"reference class is written)."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:78
 msgid ""
 "В ссылочном классе должен быть атрибут-ссылка, ссылающийся на исходный "
 "класс и имеющий свойство ``\"unique\": true``."
 msgstr ""
+"the reference class should contain the reference attribute, which refers to "
+"the initial class and has the ``\"unique\": true`` property."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:81
 msgid "Обратная ссылка в формате JSON"
-msgstr ""
+msgstr "Back reference in JSON format"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:121
 msgid "``\"type\": 13`` - тип атрибута \"Ссылка\""
-msgstr ""
+msgstr "``\"type\": 13`` - attribute type \"Reference\""
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:122
 msgid ""
@@ -4322,6 +4487,9 @@ msgid ""
 "идентификаторы в ссылке и, таким образом, формировать связь к объекту по "
 "идентификатору."
 msgstr ""
+"``\"refClass\"`` - the name of the class whose objects can store their "
+"identifiers in the reference and, thus, form a relationship with an object "
+"by its identifier."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:123
 msgid ""
@@ -4329,22 +4497,29 @@ msgid ""
 "заданному в свойстве ``\"refClass\"``. Атрибут должен иметь тип "
 "\"Ссылка\" и ссылку на исходный класс."
 msgstr ""
+"``\"backRef\"`` - specifies the name of the attribute that belongs to the "
+"class specified in the property ``\"refClass\"``. The attribute must have "
+"the type \"Reference\" and a reference to the source class."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:124
 msgid ""
 "При указании класса-родителя есть возможность создавать объекты "
 "родительского и дочерних классов."
 msgstr ""
+"When specifying a parent class, it is possible to create objects of the "
+"parent and child classes."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:125
 msgid ""
 "Ссылки вместе с объектом грузятся по семантике, заданной в мете "
 "класса-ссылки или атрибута-ссылки."
 msgstr ""
+"References with object are loaded according to the semantics specified in "
+"the meta of the reference class or reference attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:2
 msgid "Условия отбора допустимых значений"
-msgstr ""
+msgstr "Conditions of sorting the valid values"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:7
 msgid ""
@@ -4352,6 +4527,9 @@ msgid ""
 "выбор объектов по ссылке, допустимых для привязки в данном ссылочном "
 "атрибуте."
 msgstr ""
+"**Conditions for selecting allowed values** are conditions that allow you to "
+"limit the selection of objects by reference that are allowed for binding in "
+"this reference attribute."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:9
 msgid ""
@@ -4360,126 +4538,138 @@ msgid ""
 " ограничения выборки объектов. Условия накладываются как список "
 "последовательных операций."
 msgstr ""
+"Filter of sorting the valid values is used in the meta class for the "
+"attributes of the \"Reference\" and \"Collection\" types. The filter sets "
+"the conditions to limit the sample of objects. Conditions are imposed as a "
+"list of consecutive operations."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:12
 msgid "Доступные операции:"
-msgstr ""
+msgstr "Available operations:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:42
 msgid "Описание операций"
-msgstr ""
+msgstr "Description of operations"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:44
 msgid "Операции могут быть разделены на группы по наличию свойств в условии:"
 msgstr ""
+"All operations can be divided into groups according to the properties in the "
+"condition:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:46
 msgid "**Атрибут не указан в условии и условие - объект**"
 msgstr ""
+"**The attribute is not set in the condition and the condition is the object**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:49
 msgid "nestedConditions не содержит условий"
-msgstr ""
+msgstr "nestedConditions does not contain following conditions"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:51
 msgid "Операции агрегации ``AgregOpers``"
-msgstr ""
+msgstr "Aggregation operations ``AgregOpers``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:53
 msgid "MIN"
-msgstr ""
+msgstr "MIN"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:54
 msgid "MAX"
-msgstr ""
+msgstr "MAX"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:55
 msgid "AVG"
-msgstr ""
+msgstr "AVG"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:56
 msgid "SUM"
-msgstr ""
+msgstr "SUM"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:57
 msgid "COUNT"
-msgstr ""
+msgstr "COUNT"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:59
 msgid "nestedConditions содержит условия"
-msgstr ""
+msgstr "nestedConditions contains following conditions"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:61
 msgid "Логические операции сравнения вложенных условий ``BoolOpers``"
-msgstr ""
+msgstr "Logical operations of comparison of nested conditions ``BoolOpers``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:63
 msgid "OR"
-msgstr ""
+msgstr "OR"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:64
 msgid "NOT"
-msgstr ""
+msgstr "NOT"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:66
 msgid ""
 "**Атрибут указан и условие - объект**\\ : операции сравнения значения "
 "артибута в условии со значением в value"
 msgstr ""
+"**The attribute is set in the condition and the condition is the object**\\: "
+"operations of comparison of the attribute value in the condition with the "
+"value in the \"value\" field"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:69
 msgid "EMPTY"
-msgstr ""
+msgstr "EMPTY"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:70
 msgid "NOT_EMPTY"
-msgstr ""
+msgstr "NOT_EMPTY"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:71
 msgid "CONTAINS"
-msgstr ""
+msgstr "CONTAINS"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:72
 msgid "EQUAL"
-msgstr ""
+msgstr "EQUAL"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:73
 msgid "NOT_EQUAL"
-msgstr ""
+msgstr "NOT_EQUAL"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:74
 msgid "LESS"
-msgstr ""
+msgstr "LESS"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:75
 msgid "MORE"
-msgstr ""
+msgstr "MORE"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:76
 msgid "LESS_OR_EQUAL"
-msgstr ""
+msgstr "LESS_OR_EQUAL"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:77
 msgid "MORE_OR_EQUAL"
-msgstr ""
+msgstr "MORE_OR_EQUAL"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:78
 msgid "LIKE"
-msgstr ""
+msgstr "LIKE"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:79
 msgid "IN"
-msgstr ""
+msgstr "IN"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:81
 msgid "**Условие в виде массива**"
-msgstr ""
+msgstr "**Condition in the form of an array**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:84
 msgid ""
 "Применяется логическая операция AND для сравнения результатов условий "
 "(объектов в массиве)."
 msgstr ""
+"Use the logic operation \"AND\" to compare the results of conditions ("
+"objects in array)."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:86
 msgid ""
@@ -4488,10 +4678,14 @@ msgid ""
 "операцией «И» (если не указана другая операция) - добавляются фильтры в "
 "свойство \"selConditions\"."
 msgstr ""
+"In the operation of the key-expression type, the key is the attribute name "
+"in the reference class or in the collection class. Adjacent conditions are "
+"combined by a logical “AND” operation (unless another operation is specified)"
+" and filters are added to the \"selConditions\" property."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:89
 msgid "Применение операций и другие особенности"
-msgstr ""
+msgstr "Application of operations and other features"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:91
 msgid ""
@@ -4500,30 +4694,37 @@ msgid ""
 "операция. Не указывайте вложенные ссылочные атрибуты через точку в поле "
 "\"property\"."
 msgstr ""
+"Use the \"nestedConditions\" to perform the attribute inquiry. A separate "
+"operation for each attribute. Do not specify nested reference attributes by "
+"a point in the \"property\" field."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:93
 msgid ""
 "Для запроса значений атрибута, которые не равны нулю, необходимо "
 "выполнить операцию ``nempty``\\ , в поле \"value\" указываем ``null``."
 msgstr ""
+"To inquire attribute values that are not equal to zero, use the ``nempty``\\ "
+"operation and specify ``null`` in the \"value\" field."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:95
 msgid "Операция **CONTAINS** применима к типам атрибута:"
-msgstr ""
+msgstr "The **CONTAINS** operation is applied to the following attribute types:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:98
 msgid "строка - к строке данных применяется операция LIKE"
-msgstr ""
+msgstr "string - the LIKE operation is applied to the data string"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:99
 msgid "коллекция"
-msgstr ""
+msgstr "collection"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:101
 msgid ""
 "применяется операция IN, если сравниваемое значение ``value`` является "
 "массивом и содержит хотя бы один элемент"
 msgstr ""
+"the IN operation is applied if the compared ``value`` is an array and "
+"contains at least one element"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:102
 msgid ""
@@ -4531,6 +4732,9 @@ msgid ""
 "сравниваемое значение ``value`` не является массивом или не содержит хотя"
 " бы один элемент в массиве"
 msgstr ""
+"transition to nested conditions ``nestedConditions``\\ occurs if the "
+"compared ``value`` is not an array or does not contain at least one element "
+"in the array"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:147
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:30
@@ -4552,7 +4756,7 @@ msgstr ""
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy.rst:23
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:62
 msgid "Поле"
-msgstr ""
+msgstr "Field"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:151
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:231
@@ -4560,7 +4764,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:140
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:79
 msgid "``\"property\"``"
-msgstr ""
+msgstr "``\"property\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:152
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:232
@@ -4568,91 +4772,95 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:141
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:80
 msgid "**Атрибут**"
-msgstr ""
+msgstr "**Attribute**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:154
 msgid "Атрибут класса ссылки, по которому производится фильтрация значений"
-msgstr ""
+msgstr "The attribute of the reference class by which the values are filtered"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:155
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:235
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:144
 msgid "``\"operation\"``"
-msgstr ""
+msgstr "``\"operation\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:156
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:236
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:145
 msgid "**Операция**"
-msgstr ""
+msgstr "**Operation**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:157
 msgid "Код операции (см. выше)"
-msgstr ""
+msgstr "Operation code (see above)"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:158
 msgid "Операция, согласно которой производится фильтрация"
-msgstr ""
+msgstr "The operation according to which the filtration is performed"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:159
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:87
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:283
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:192
 msgid "``\"value\"``"
-msgstr ""
+msgstr "``\"value\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:160
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:88
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:284
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:193
 msgid "**Значение**"
-msgstr ""
+msgstr "**Value**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:161
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:285
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:194
 msgid "Зависит от типа операции"
-msgstr ""
+msgstr "Depends on the type of operation"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:162
 msgid "Второе значение для бинарных операций фильтрации"
-msgstr ""
+msgstr "The second value for binary filtering operations"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:163
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:287
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:196
 msgid "``\"nestedConditions\"``"
-msgstr ""
+msgstr "``\"nestedConditions\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:164
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:288
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:197
 msgid "**Вложенные условия отбора**"
-msgstr ""
+msgstr "**Nested selection conditions**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:165
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selectionprovider.rst:289
 #: ../docs-ru/3_development/metadata_structure/meta_navigation/meta_nav_files/conditions.rst:198
 msgid "Объект, структура аналогична структуре самого объекта условий отбора."
 msgstr ""
+"Object, the structure is similar to the structure of the selection "
+"conditions object itself."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:172
 msgid "**Внимание**"
-msgstr ""
+msgstr "**Attention**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:174
 msgid ""
 "Поле \"selection_provider\". См. подробнее :doc:`Список выбора допустимых"
 " значений <attr_selectionprovider>`."
 msgstr ""
+"Field \"selection_provider\". See for more detailes :doc:`List of acceptable "
+"values selection <attr_selectionprovider>`."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:177
 msgid "\"type\": \"SIMPLE\" - простой тип,"
-msgstr ""
+msgstr "\"type\": \"SIMPLE\" - simple type,"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:179
 msgid "\"list\": [] - массив допустимых значений"
-msgstr ""
+msgstr "\"list\": [] - an array of acceptable values."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:228
 msgid ""
@@ -4661,6 +4869,11 @@ msgid ""
 "этого атрибута указано поле связанного класса,чьё значение в поле "
 "\"value\" соответствует условию \"operation\"."
 msgstr ""
+"In the reference attribute, it is necessary to show only those objects that "
+"have the \"selConditions\" attribute set in the reference class and in the "
+"``property`` field of which this attribute specifies the field of the "
+"related class whose value in the \"value\" field corresponds to the "
+"\"operation\" condition."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:230
 msgid ""
@@ -4668,14 +4881,19 @@ msgid ""
 " \"organization\"), у которых в поле тип ( \"property\": \"type\") равно "
 "( \"operation\": 0) значению azchik (\"value\": \"customer\")."
 msgstr ""
+"The aim is to show in the \"Organization\" attribute only those "
+"organizations (\"refClass\": \"organization\") in which the type field ("
+"\"property\": \"type\") is equal (\"operation\": 0) to the customer value ("
+"\"value\": \"customer\")."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:233
 msgid "Все условия в ``\"selConditions\"`` объединяются по условию \"И\"."
 msgstr ""
+"All conditons in the ``\"selConditions\"`` are united by \"AND\" condition."
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:301
 msgid "Условия отбора допустимых значений для атрибутов с типом \"Дата\""
-msgstr ""
+msgstr "Conditions of sorting the valid values for \"Data\" attribute type"
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:303
 msgid ""
