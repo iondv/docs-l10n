@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-17 18:15+0000\n"
+"POT-Creation-Date: 2021-04-07 05:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -785,7 +785,7 @@ msgstr ""
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_ref_backref.rst:128
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:170
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:226
-#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:308
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:309
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/binding.rst:12
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/eagerloading.rst:11
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/eagerloading.rst:30
@@ -3390,26 +3390,26 @@ msgid "В ссылочном атрибуте необходимо показа�
 msgstr ""
 
 #: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:230
-msgid "В атрибуте организация, задача показать только организации (\"refClass\": \"organization\"), у которых в поле тип ( \"property\": \"type\") равно ( \"operation\": 0) значению zakazchik (\"value\": \"zakazchik\")."
+msgid "В атрибуте организация, задача показать только организации (\"refClass\": \"organization\"), у которых в поле тип ( \"property\": \"type\") равно ( \"operation\": 0) значению azchik (\"value\": \"customer\")."
 msgstr ""
 
-#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:232
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:233
 msgid "Все условия в ``\"selConditions\"`` объединяются по условию \"И\"."
 msgstr ""
 
-#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:300
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:301
 msgid "Условия отбора допустимых значений для атрибутов с типом \"Дата\""
 msgstr ""
 
-#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:302
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:303
 msgid "В ядре реализован атрибут контекста ``$$now``\\ , возвращающий текущую дату. ``$$now`` доступен везде при задании условий."
 msgstr ""
 
-#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:305
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:306
 msgid "Подробнее см. :doc:`переменные </3_development/metadata_structure/meta_variables>`."
 msgstr ""
 
-#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:310
+#: ../docs-ru/3_development/metadata_structure/meta_class/meta_class_attribute/attr_selconditions.rst:311
 msgid "**Условие:** выводить объекты, у которых значение атрибута [dataStart] меньше текущей даты:"
 msgstr ""
 
