@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-03-10 07:10+0000\n"
+"PO-Revision-Date: 2021-04-16 07:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/index/en/>\n"
 "Language: en\n"
@@ -714,7 +714,7 @@ msgstr ""
 
 #: ../docs-ru/index.rst:309
 msgid "Ссылки"
-msgstr "Links"
+msgstr "Reference"
 
 #: ../docs-ru/index.rst:311
 msgid ""
