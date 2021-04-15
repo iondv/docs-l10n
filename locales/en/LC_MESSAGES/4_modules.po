@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-03-16 08:10+0000\n"
+"PO-Revision-Date: 2021-04-16 07:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/4_modules/en/>"
 "\n"
@@ -2985,7 +2985,7 @@ msgstr ""
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMask.rst:6
 msgid "Например:"
-msgstr "Example:"
+msgstr "For example:"
 
 #: ../docs-ru/4_modules/modules/rest/services/services_files/meta/meta_getMask.rst:12
 msgid "будет запрошен объект маски ``snils``."
