@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-03-10 07:10+0000\n"
+"PO-Revision-Date: 2021-04-16 07:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/"
 "2_getting_started/en/>\n"
@@ -797,7 +797,7 @@ msgstr ""
 #: ../docs-ru/2_getting_started/quickstart.rst:26
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:167
 msgid "Ссылки"
-msgstr "Links"
+msgstr "Reference"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:28
 msgid ""
