@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-04-16 07:10+0000\n"
+"PO-Revision-Date: 2021-04-17 08:10+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/3_development/"
 "en/>\n"
@@ -8828,11 +8828,13 @@ msgstr ""
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:79
 msgid "Подключение"
-msgstr "How to configure?"
+msgstr "Connection"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:81
 msgid "В представлении необходимо задать свойство атрибута типа ``\"Файл\"``\\ :"
 msgstr ""
+"In the view it's necessary to set the attribute property of the ``\"File\"``"
+"\\ type:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:90
 msgid "Использование"
@@ -8843,40 +8845,48 @@ msgid ""
 "При клике на значок \"share\" необходимо открывать окно управления шарой "
 "аналогичное как в овнклауд - в окне предусмотреть кнопки:"
 msgstr ""
+"When you click on the \"share\" icon, open the control window similar to one "
+"in OwnCloud with the following buttons:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:95
 msgid ""
 "``применить`` - по апи облачного хранилища для файлика/каталога передаем "
 "все выбранные параметры:"
 msgstr ""
+"``apply`` - using the api of cloud storage for the file / directory transfer "
+"all the selected parameters :"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:96
 msgid ""
 "``поделиться ссылкой`` - формируем шару на файлик/каталог - после "
 "применения возвращаем в поле для возможности копирования ссылки"
 msgstr ""
+"``share a link`` - form a \"share\" on the file / directory - after "
+"applying, return to the field to copy the link"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:97
 msgid "``разрешить на редактирование``"
-msgstr ""
+msgstr "``allow editing``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:98
 msgid "``защитить паролем``\\ - поле для ввода пароля"
-msgstr ""
+msgstr "``protect with a password``\\ - the field for entering password"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:99
 msgid "``установить срок действия`` - поле для даты"
-msgstr ""
+msgstr "``set period of validity`` - the field for entering data"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:100
 msgid ""
 "``перейти в хранилище`` - открываем в новой вкладке по ссылке на шару где"
 " находится файл/каталог - ( к примеру файл к примеру каталог )"
 msgstr ""
+"``go to storage`` - open in a new tab the link on the \"share\" where there "
+"are the files/directory"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:101
 msgid "``закрыть`` - закрыть окно управления файлом"
-msgstr ""
+msgstr "``close`` - close the control window of the file"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:103
 msgid ""
@@ -8885,26 +8895,30 @@ msgid ""
 "управляющего окна отображаются настройки шаринга, при необходимости "
 "свойства можно изменить."
 msgstr ""
+"**NB:** Sharing settings are available for each file, as well as for the "
+"entire directory. If the file/directory already has sharing, then when you "
+"open the control window, the sharing settings are displayed, and you can "
+"change the properties if necessary."
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:106
 msgid "Переход по прямой ссылки до хранения файла"
-msgstr ""
+msgstr "Direct link to file storage"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:109
 msgid "Возможности"
-msgstr ""
+msgstr "Features"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:112
 msgid "сразу скачать"
-msgstr ""
+msgstr "download immediately"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:115
 msgid "перейти на nextCloud и там увидеть/редактировать"
-msgstr ""
+msgstr "go to nextCloud and edit"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:118
 msgid "Условия хранения ссылок"
-msgstr ""
+msgstr "Conditions for link storage"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:120
 msgid ""
@@ -8912,10 +8926,13 @@ msgid ""
 " возможность удалять все ссылки, созданные в процессе работы с файлом "
 "спустя какое-то время или же за ненадобностью."
 msgstr ""
+"Conditions for storing links created in the process of working with files: ``"
+"TO DO`` the ability to delete all links created in the process of working "
+"with a file after some time or as unnecessary."
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:123
 msgid "Настройка доступа"
-msgstr ""
+msgstr "Access configuration"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:125
 msgid ""
@@ -8923,18 +8940,21 @@ msgid ""
 "ряде случаев необходимо задавать пользователей и права для них на "
 "создаваемые объекты хранилища."
 msgstr ""
+"Settings of users and access rights to OwnCloud storage objects. In some "
+"cases, you must specify users and their rights to the storage objects that "
+"you create."
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/fileshare.rst:127
 msgid "Настройка задается в файле ``deploy.json`` проекта."
-msgstr ""
+msgstr "You can specify it in the ``deploy.json`` file of the project."
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/list_view.rst:2
 msgid "list_view"
-msgstr ""
+msgstr "list_view"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:2
 msgid "Мета представлений - атрибутивная часть"
-msgstr ""
+msgstr "Meta view - attribute part"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:24
 msgid ""
@@ -8943,46 +8963,54 @@ msgid ""
 "соответствующих полях основной части меты представлений. Представление "
 "каждого атрибута - это объект следующей структуры:"
 msgstr ""
+"**Meta view** - attribute part describes the attribute view fields of the "
+"class on the form. The attribute views represent an array in the "
+"corresponding fields in the general part of the meta view. The view of each "
+"attribute is an object of the following structure:"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:67
 msgid "``\"sorted\"``"
-msgstr ""
+msgstr "``\"sorted\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:68
 msgid "**Разрешена сортировка**"
-msgstr ""
+msgstr "**Sorting allowed**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:70
 msgid ""
 "Поле для представлений списка. Не используется в представлениях создания "
 "и изменения. Разрешает или запрещает сортировку по данному столбцу."
 msgstr ""
+"A field for list views. It is not used in create and modify views. Enables "
+"or disables sorting by this column."
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:72
 msgid "**Заголовок**"
-msgstr ""
+msgstr "**Title**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:74
 msgid "Заголовок поля ввода/колонки атрибута отображаемый в представлениях."
-msgstr ""
+msgstr "The title of the input field / attribute column displayed in the views."
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:76
 msgid ":doc:`\\ Тип <meta_view_attribute/view_types>`"
-msgstr ""
+msgstr ":doc:`\\ Type <meta_view_attribute/view_types>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:78
 msgid "Тип представления атрибута."
-msgstr ""
+msgstr "Attribute view type."
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:82
 msgid ""
 "Указывается имя атрибута, с которым будет работать система, а значит не "
 "может быть пустым (Кроме типа представления Группа [0])."
 msgstr ""
+"Indicate the attribute name for system to work with. Therefore it can not be "
+"blank. (Except for the Groupe [0] view type)."
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:85
 msgid "Целое - код размера поля ввода, типозависимо"
-msgstr ""
+msgstr "Integer - size code of the input field, depends on type"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:86
 msgid ""
@@ -8990,32 +9018,37 @@ msgid ""
 "атрибута/представления. Константы в платформе :doc:`FieldSizes "
 "<meta_view_attribute/field_sizes>`."
 msgstr ""
+"Allows you to specify the field size code for different attribute/view "
+"types. Constants in the platform: doc: `FieldSizes <meta_view_attribute/"
+"field_sizes>`."
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:87
 msgid "``\"maskName\"``"
-msgstr ""
+msgstr "``\"maskName\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:88
 msgid "**Имя маски**"
-msgstr ""
+msgstr "**Mask name**"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:90
 msgid ""
 "При наличии в платформе предустановленных масок - можно задать маску по "
 "внутреннему имени, указав его в данном поле."
 msgstr ""
+"If there are any preset masks in the platform, you can set a mask by "
+"internal name, specifying it in this field."
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:91
 msgid "``\"mask\"``"
-msgstr ""
+msgstr "``\"mask\"``"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:92
 msgid ":doc:`\\ Маска <meta_view_attribute/mask>`"
-msgstr ""
+msgstr ":doc:`\\ Mask <meta_view_attribute/mask>`"
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:94
 msgid "Позволяет предопределять формат вводимого значения для атрибута."
-msgstr ""
+msgstr "Allows you to limit the valid attribute values."
 
 #: ../docs-ru/3_development/metadata_structure/meta_view/meta_view_attribute.rst:97
 msgid "Целое - код режима отображения"
