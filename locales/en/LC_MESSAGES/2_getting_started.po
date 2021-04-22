@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-04-16 07:10+0000\n"
+"PO-Revision-Date: 2021-04-22 23:18+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/"
 "2_getting_started/en/>\n"
@@ -797,7 +797,7 @@ msgstr ""
 #: ../docs-ru/2_getting_started/quickstart.rst:26
 #: ../docs-ru/2_getting_started/quickstart/1_iondv_studio.rst:167
 msgid "Ссылки"
-msgstr "Reference"
+msgstr "Links"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:28
 msgid ""
@@ -809,7 +809,7 @@ msgstr ""
 
 #: ../docs-ru/2_getting_started/quickstart.rst:30
 msgid "`Документация <https://iondv.readthedocs.io/ru/latest/index.html>`_"
-msgstr "`Documentation https://iondv.readthedocs.io/en/latest/index.html>`_"
+msgstr "`Documentation <https://iondv.readthedocs.io/en/latest/index.html>`_"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:31
 msgid "`Домашняя страница фреймворка <https://iondv.com/>`_"
@@ -824,7 +824,7 @@ msgid ""
 "Обучающие видеоролики на `youtube <https://www.youtube.com/channel"
 "/UC_r2CGcOTfuV-7AXl6MwOqw>`_"
 msgstr ""
-"Video tutorials on `youtube <https://www.youtube.com/channel/UC_r2CGcOTfuV-"
+"Video tutorials on `Youtube <https://www.youtube.com/channel/UC_r2CGcOTfuV-"
 "7AXl6MwOqw>`_"
 
 #: ../docs-ru/2_getting_started/quickstart.rst:38
@@ -1501,7 +1501,7 @@ msgid ""
 "gulp@4.0``. ``4.0`` - поддерживаемая версия ``Gulp``."
 msgstr ""
 "`Gulp <http://gulpjs.com/>`_installation package ``npm install -g gulp@4.0``"
-". ``4.0`` - supported version of ``Gulp``."
+". ``4.0`` is supported version of ``Gulp``."
 
 #: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:27
 msgid ""
@@ -1608,7 +1608,7 @@ msgid ""
 "Сборка приложения обеспечивает установку всех зависимых библиотек, импорт"
 " данных в базу данных и подготовку приложения для запуска."
 msgstr ""
-"Building the application provides installation of all dependent libraries, "
+"Build of the application provides installation of all dependent libraries, "
 "importing data into the database and preparing the application for launch."
 
 #: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:66
@@ -1672,8 +1672,8 @@ msgid ""
 "Добавьте пользователя admin с паролем 123 командой ``node bin\\adduser.js"
 " --name admin --pwd 123``."
 msgstr ""
-"Add the admin user with the 123 password executing the ``node bin/adduser.js "
-"--name admin --pwd 123`` command."
+"Add the ``admin`` user with the 123 password by executing the command ``node "
+"bin/adduser.js --name admin --pwd 123``."
 
 #: ../docs-ru/2_getting_started/quickstart/2_git_clone.rst:91
 msgid ""
@@ -1702,7 +1702,7 @@ msgid ""
 "конфигурации запуска."
 msgstr ""
 "Open the link ``http://localhost:8888`` in a browser and log in. ``8888`` is "
-"a port in the server.ports parameter of the launch configuration."
+"a port in the ``server.ports`` parameter of the launch configuration."
 
 #: ../docs-ru/2_getting_started/quickstart/3_docker_container.rst:2
 msgid "Docker-контейнер"
