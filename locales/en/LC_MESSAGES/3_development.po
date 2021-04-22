@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: IONDV Framework docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-17 18:15+0000\n"
-"PO-Revision-Date: 2021-04-22 00:05+0000\n"
+"PO-Revision-Date: 2021-04-22 23:18+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
 "Language-Team: English <http://weblate.iondv.ru/projects/docs/3_development/"
 "en/>\n"
@@ -12982,14 +12982,15 @@ msgstr ""
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:206
 msgid "Настройка формы указания параметров экспорта (для печатных форм)"
 msgstr ""
+"Configuring the form for specifying export parameters (for printed forms)"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:208
 msgid "Пример с параметрами в ``params``\\ :"
-msgstr ""
+msgstr "Example of ``params``\\ :"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:284
 msgid "Настройка параметров поиска в списке объектов"
-msgstr ""
+msgstr "Configuring search parameters in the list of objects"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:286
 msgid ""
@@ -12998,20 +12999,26 @@ msgid ""
 "отдельным атрибутам или по указанным атрибутам в списке с параметрами "
 "поиска через пробел."
 msgstr ""
+"The functionality allows you to determine at the class level whether we are "
+"looking for class objects from the list view by the first instance of a word "
+"or by full words, by individual attributes or by the specified attributes in "
+"the list with search parameters separated by spaces."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:289
 msgid "Формат и доступные операции:"
-msgstr ""
+msgstr "Format and available operations:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:299
 msgid ""
 "вместо ``...`` подставляем атрибуты и задаем операции для поиска, "
 "например:"
 msgstr ""
+"Substitute ``...`` with attributes and set operations for search, for "
+"example:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:315
 msgid "Настройка иерархического представления для коллекций"
-msgstr ""
+msgstr "Configuring the hierarchical view for collections"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:317
 msgid ""
@@ -13020,64 +13027,79 @@ msgid ""
 " В библиотеке ``viewlib`` реализован кастомный контроллер, возвращающий в"
 " формате ``TreeGrid`` очередной уровень иерархии."
 msgstr ""
+"**Hierarchical view of collections**\\ displays collections, in which "
+"elements are connected in the form of a hierarchical reference book. The "
+"``viewlib`` library has a custom controller that returns the next level of "
+"hierarchy in the ``TreeGrid`` format."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:366
 msgid "Поле ``config`` - в нем все настройки:"
-msgstr ""
+msgstr "The ``config`` field contains all settings:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:369
 msgid ""
 "первый ключ это навигационная нода (в данном примере \"*\" значит "
 "распространяется на все ноды),"
 msgstr ""
+"first key is the navigation node (the \"*\" sign means \"applies to all "
+"nodes\"),"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:370
 msgid ""
 "потом идут классы, у классов ``roots`` - это какие объекты этого класса "
 "вытаскивать в качестве корневых (используются \"conditions\"),"
 msgstr ""
+"classes have ``roots``, that indicate what objects of this class to pull out "
+"as root (\"conditions\" are used),"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:371
 msgid "``childs`` - это атрибуты класса из которых доставать иерархию."
-msgstr ""
+msgstr "``childs``are class attributes to pull the hierarchy."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:374
 msgid "Настройка текстового поиска в глубину по ссылочным атрибутам"
-msgstr ""
+msgstr "Configuring the text search in depth by reference attributes"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:376
 msgid ""
 "``searchByRefs`` - это массив настроек, для обозначения иерархии классов."
 " Можно сопоставлять с несколькими классами."
 msgstr ""
+"``searchByRefs`` is an array of settings to indicate the class hierarchy. "
+"You can compare it with several classes."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:409
 msgid "Модуль \"geomap\""
-msgstr ""
+msgstr "The \"geomap\" module"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:411
 msgid ""
 "**Геомодуль (geomap)** – предназначен для визуализации сведений и данных,"
 " имеющих географическую привязку."
 msgstr ""
+"**Geomap module** is designed to visualize information and data that has geo-"
+"referenced. The data is divided into layers, and for each data type, you can "
+"provide brief and detailed information."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:414
 msgid "Настройка иконки приложения"
-msgstr ""
+msgstr "Setting the application icons"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:416
 msgid ""
 "Логотип для модуля описывается через стандартный механизм статичных "
 "маршрутов:"
 msgstr ""
+"The logo for the module is described through the standard mechanism of "
+"static routes:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:430
 msgid "Настройка скрытия шапки и бокового меню"
-msgstr ""
+msgstr "Setting to hide header and sidebar"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:448
 msgid "Модуль \"gantt-chart\""
-msgstr ""
+msgstr "The gantt-chart module"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:450
 msgid ""
@@ -13085,20 +13107,25 @@ msgid ""
 "вывода специфичных типов иерархических данных имеющих даты. "
 ":doc:`Подробнее о модуле диаграм ганта </4_modules/modules/gantt-chart>`."
 msgstr ""
+"**Gantt-chart module** is a module designed to display specific types of "
+"hierarchical data with dates. :doc:`More details on gantt-chart module </"
+"4_modules/modules/gantt-chart>`."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:453
 msgid "Настройка шкалы времени"
-msgstr ""
+msgstr "Setting the time scale"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:455
 msgid ""
 "Шкала времени настраивается посредством настройки \"Шаг\" в модуле "
 "Гаанта. В преконфигурации \"Шаг\" задается через параметр ``step``\\ :"
 msgstr ""
+"The time scale is configured by setting the \"Step\" in the Gaant module. In "
+"the preconfiguration \"Step\" is set through the ``step``\\ parameter:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:502
 msgid "Модуль \"report\""
-msgstr ""
+msgstr "The \"report\" module"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:504
 msgid ""
@@ -13108,10 +13135,14 @@ msgid ""
 " оператором. :doc:`Подробнее о модуле отчетов "
 "</4_modules/modules/report/report>`."
 msgstr ""
+"**Report module** is a module designed to generate analytical reports and "
+"reference information based on special metadata. Расчеты могут выполняться "
+"по расписанию или быть инициированы оператором. :doc:`Подробнее о модуле "
+"отчетов </4_modules/modules/report/report>`."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:543
 msgid "Модуль \"rest\""
-msgstr ""
+msgstr "The \"rest\" module"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:545
 msgid ""
@@ -13120,10 +13151,13 @@ msgid ""
 "модуля портала. :doc:`Подробнее о модуле REST "
 "</4_modules/modules/rest/rest>`."
 msgstr ""
+"**REST-services module** is a module designed to implement integration in "
+"the REST format. Used to provide data for the portal module. :doc:`More "
+"details on REST </4_modules/modules/rest/rest>`."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:558
 msgid "Модуль \"portal\""
-msgstr ""
+msgstr "The \"portal\" module"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:560
 msgid ""
@@ -13131,10 +13165,12 @@ msgid ""
 "произвольных шаблонов данных. :doc:`Подробнее о модуле портала "
 "</4_modules/modules/portal>`"
 msgstr ""
+"**Portal module** is a module designed to display arbitrary data templates. "
+":doc:`Подробнее о модуле портала </4_modules/modules/portal>`"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:591
 msgid "Модуль \"ionadmin\""
-msgstr ""
+msgstr "The \"ionadmin\" module"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:593
 msgid ""
@@ -13143,10 +13179,13 @@ msgid ""
 "задачами. :doc:`Подробнее о модуле администрирования "
 "</4_modules/modules/admin/admin>`."
 msgstr ""
+"**Administration module (ionadmin)** is used for assigning permissions, "
+"managing scheduled jobs, and other administrative tasks. :doc:`More details "
+"on administration module </4_modules/modules/admin/admin>`."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:596
 msgid "Скрытие ролей в админе от назначения пользователю"
-msgstr ""
+msgstr "Hiding fields in the admin from assigning to a user"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:598
 msgid ""
@@ -13154,10 +13193,13 @@ msgid ""
 "пользователю, в деплое приложения прописываем фильтры на основе "
 "регулярных выражений, по которым такие роли и будут определятся."
 msgstr ""
+"For roles that you want to hide in the admin from being assigned to the "
+"user, in the deploy of the application prescribe the filters based on the "
+"regular expressions, by which such roles will be determined."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:635
 msgid "Модуль \"dashboard\""
-msgstr ""
+msgstr "The \"dashboard\" module"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:637
 msgid ""
@@ -13165,6 +13207,9 @@ msgid ""
 "краткой информации в виде блоков. :doc:`Подробнее о модуле дашбоарда "
 "</4_modules/modules/dashboard>`."
 msgstr ""
+"**Dashboard module ** is a module designed to display brief information in "
+"the form of blocks. :doc:`More details on dashboard module </4_modules/"
+"modules/dashboard>`."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:639
 msgid ""
@@ -13172,18 +13217,21 @@ msgid ""
 "необходимо в файле конфигурации приложения ``deploy.json`` добавить "
 "следующую секцию, в раздел ``\"modules\"``\\ :"
 msgstr ""
+"Set the following function in the ``\"modules\"``\\ section in the ``deploy."
+"json`` file of the application, to load the data from the meta into the "
+"\"dashboard\" module:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_modules.rst:658
 msgid "Модуль \"diagram\""
-msgstr ""
+msgstr "The \"diagram\" module"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_pulling.rst:2
 msgid "Сборка deploy из отдельных файлов"
-msgstr ""
+msgstr "Deploy build from separate files"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_pulling.rst:6
 msgid "Разделение файла конфигурации deploy.json"
-msgstr ""
+msgstr "Splitting the deploy.json configuration file"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_pulling.rst:8
 msgid ""
@@ -13191,6 +13239,9 @@ msgid ""
 " deploy.json есть возможность разделить этот файл на несколько отдельных "
 "файлов конфигурации."
 msgstr ""
+"For the convenience of organizing and increasing the readability of the "
+"application configuration, deploy.json has the ability to split this file "
+"into several separate configuration files."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_pulling.rst:10
 msgid ""
@@ -13198,12 +13249,17 @@ msgid ""
 "конфигурацию модулей приложения или описывать каждый объект deploy в "
 "отдельном файле."
 msgstr ""
+"There can be any separation options: you can take out only the configuration "
+"of application modules from it or describe each deploy object in a separate "
+"file."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_pulling.rst:12
 msgid ""
 "Для конфигурации в папке deploy приложения нужно поместить произвольные "
 "файлы с расширениями .json или .yml."
 msgstr ""
+"For configuration, in the deploy folder of the application, you need to "
+"place arbitrary files with the extensions .json or .yml."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_pulling.rst:14
 msgid ""
@@ -13211,6 +13267,9 @@ msgid ""
 "deploy.json - объекты должны быть вложены друг в друга в том же порядке, "
 "что в исходном файле. Исключение - модули приложения."
 msgstr ""
+"To work correctly in them, it is necessary to preserve the original "
+"structure of deploy.json: objects must be nested in the same order as in the "
+"source file. With the exception of modules in the application."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_pulling.rst:16
 msgid ""
@@ -13219,40 +13278,46 @@ msgid ""
 " в этом файле должна быть воспроизведена структура этих вложенных "
 "объектов:"
 msgstr ""
+"For example, if the globals.jobs.ticketClose.di object was defined in "
+"deploy.json, then to transfer the di object to a separate file, the "
+"structure of these nested objects must be reproduced in this file:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_pulling.rst:33
 msgid "Файлы конфигурации модулей"
-msgstr ""
+msgstr "Module configuration files"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_pulling.rst:35
 msgid "В случае конфигов модулей, их можно также"
-msgstr ""
+msgstr "In the case of module configs, they can also be"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_pulling.rst:37
 msgid "Разместить в директориях deploy/modules/<имя модуля>/"
-msgstr ""
+msgstr "Placed in the directories deploy/modules/<module name>/"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_pulling.rst:38
 msgid ""
 "Вынести конфиг для модуля целиком в файл deploy/modules/<имя модуля>.yml "
 "(.json)"
 msgstr ""
+"Put the entire config for the module in the deploy/modules/<module "
+"name>.yaml (.json) file"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/deploy/deploy_pulling.rst:40
 msgid "Описание при этом начинается с корня модуля (а не приложения):"
 msgstr ""
+"The description begins with the root of the module (not the application):"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:2
 msgid "Способы конфигурации параметров:"
-msgstr ""
+msgstr "Ways to configure parameters:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:5
 msgid "через ini-файлы"
-msgstr ""
+msgstr "using ini-files"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:6
 msgid "через переменную окружения"
-msgstr ""
+msgstr "using environment variable"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:8
 msgid ""
@@ -13262,40 +13327,49 @@ msgid ""
 "и модулей. Deploy.json чаще всего параметризируеются через ini в "
 "дирректории приложения, например файл deploy.ini."
 msgstr ""
+"**NB:** Priority is given to settings that are set via environment "
+"variables, not via ini files. At the same time, the /config/setup.ini "
+"settings do not affect the settings of the deploy application - they are "
+"only used for the core and modules. Deploy.json is most often parameterized "
+"via an ini in the application directory, such as the deploy.ini file."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:13
 msgid "Пример конфигурации параметров ownCloud, вместе с учетной записью"
-msgstr ""
+msgstr "Example of configuring the parameters of OwnCloud with a user account"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:15
 msgid ""
 "Для начала необходимо задать в ``deploy.json`` параметрические настройки "
 "хранилища:"
 msgstr ""
+"First of all, set the parametric settings of the storage in the ``deploy."
+"json`` file:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:30
 msgid "Конфигурация параметров deploy через ini-файлы:"
-msgstr ""
+msgstr "Configure the parameters in deploy by use of the ini-files:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:32
 msgid ""
 "В ini-файле ``deploy.ini`` рядом c deploy.json задать параметры "
 "следующего вида:"
 msgstr ""
+"In the ``deploy.ini`` ini-file near the deploy.json file set the following "
+"parameters:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:41
 msgid "Конфигурация параметров deploy через переменную окружения:"
-msgstr ""
+msgstr "Configure the parameters in deploy by use of the environment variable:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:43
 msgid ""
 "В переменных окружения для ноды при конфигурации приложения задать "
 "параметры следующего вида:"
-msgstr ""
+msgstr "In the environment variables for the NODE set the following parameters:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:52
 msgid "Настройка ограничения"
-msgstr ""
+msgstr "Setting up the limitation"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:54
 msgid ""
@@ -13306,46 +13380,58 @@ msgid ""
 " В ini-файле приложения необходимо выставить "
 "``auth.checkUrlAccess=true``, чтобы задать настройку ограничения."
 msgstr ""
+"Configure the limitation of switching between system menu items for an "
+"anonymous user. The system menu is formed taking into account the access "
+"control to the module pages, i.e. if there are no rights to the module page, "
+"then the menu item for switching to this module is not displayed in the "
+"system menu. In the application's ini file, set ``auth. checkUrlAccess=true``"
+" to set the limitation setting."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:57
 msgid "Изменение всех ссылок на относительные"
-msgstr ""
+msgstr "Changing all references to relative ones"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:59
 msgid "Чтобы изменить все ссылки на относительные, в ini-файле проекта укажите:"
 msgstr ""
+"To change all references to relative ones, set the following parameter in "
+"the ini-file:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:65
 msgid "Если путь не указан то считается по умолчанию '/'."
-msgstr ""
+msgstr "If the path is not specified, then it is considered as '/' by default."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:68
 msgid "Настройка в модуле админа блока управления запуском заданий по расписанию"
-msgstr ""
+msgstr "Setting the control unit to run jobs on a schedule in admin module"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:70
 msgid ""
 "Для отображения пункта меню необходимо добавить в ini-файл проекта "
 "настройку:"
 msgstr ""
+"To display the control unit, add the following setting in the ini-file of "
+"the project:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:76
 msgid ""
 "Она включит шедулер (англ. scheduler) в процессе веб-сервера, что даст "
 "возможность управлять джобами из модуля админа."
 msgstr ""
+"It will enable the scheduler in the web server process, which will allow you "
+"to manage jobs from the admin module."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:78
 msgid "**Шедулер** — управляет таймерами запуска задач."
-msgstr ""
+msgstr "**Scheduler** manages job start timers."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:80
 msgid "**Джоб** — конкретная задача, запускаемая по таймеру."
-msgstr ""
+msgstr "**Job** is a specific task that starts on a timer."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:83
 msgid "Настройка кеширования данных на уровне ядра"
-msgstr ""
+msgstr "Configuring data caching at the core level"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:85
 msgid ""
@@ -13355,71 +13441,80 @@ msgid ""
 "Внедрено кеширование в геомодуле. Настройка раз и навсегда решает "
 "проблему циклических ссылок при сериализации объектов."
 msgstr ""
+"Setting of cached data at the core level allows to correctly recover from "
+"the cache eager loaded reference attributes and collections, as well as "
+"files and calculated attributes. Lists are cached correctly. Caching is "
+"implemented in the geomodule. This setting once and for all solves the "
+"problem of circular references when serializing objects."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:87
 msgid "В ini-файле прописываем:"
-msgstr ""
+msgstr "Write the following in the ini-file of the project:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:94
 msgid "Настройка временных ограничений"
-msgstr ""
+msgstr "Setting the time limit"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:96
 msgid "``connectTimeOut`` - максимальное время установления соединения."
-msgstr ""
+msgstr "``connectTimeOut`` - the maximum connection time."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:98
 msgid "``operTimeOut`` - максимальное время выполнения операции."
-msgstr ""
+msgstr "``operTimeOut`` - the maximum time to complete an operation."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:106
 msgid "Настройка минимальной длины пароля"
-msgstr ""
+msgstr "Setting the minimum password length"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/ini_files.rst:112
 msgid ""
 "Переопределить настройку для отдельного приложения можно в файле "
 ":doc:`deploy.json <deploy/deploy_globals>`"
 msgstr ""
+"The setting for an individual application can be overridden in the file "
+":doc:`deploy.json <deploy/deploy_globals>`"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:2
 #: ../docs-ru/3_development/platform_configuration/platform_configuration.rst:4
 msgid "Операции с учетными записями MongoDB через CLI"
-msgstr ""
+msgstr "Operations with MongoDB accounts via the CLI"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:5
 msgid "Авторизация"
-msgstr ""
+msgstr "Authorization"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:7
 msgid ""
 "Для авторизации при взаимодействии с СУБД через консольный интерфейс, в "
 "``mongo`` передаются параметры"
 msgstr ""
+"For authorization when interacting with the DBMS via the console interface, "
+"the parameters are passed to ``mongo``"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:9
 msgid ""
 "``--authenticationDatabase <база данных, на основе которой производится "
 "авторизация>``"
-msgstr ""
+msgstr "``--authenticationDatabase <the database used for authorization>``"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:10
 msgid "``-u <имя пользователя>``"
-msgstr ""
+msgstr "``-u <user name>``"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:11
 msgid "``-p <пароль>``"
-msgstr ""
+msgstr "``-p <password>``"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:13
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:39
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:71
 msgid "пример:"
-msgstr ""
+msgstr "example:"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:20
 msgid "Создание пользователя"
-msgstr ""
+msgstr "Create a user"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:22
 msgid ""
@@ -13429,18 +13524,23 @@ msgid ""
 "роли, или привилегию на действие ``createUser`` в этой базе и привилегии "
 "на действие ``grantRole`` в базах данных, где добавляются роли."
 msgstr ""
+"To create a user, you must have the ``dbOwner`` role, or the ``UserAdmin`` "
+"role in the database that is used for authorization (for example, ``admin``)"
+", and in all the databases where roles are added, or the ``createUser`` "
+"command privilege in this database and the ``grantRole`` command privileges "
+"in databases where roles are added."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:25
 msgid "Создание пользователя через консольный интерфейс осуществляется командой"
-msgstr ""
+msgstr "A user is created through the console interface by the command"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:53
 msgid "или в одну строку"
-msgstr ""
+msgstr "or in one line"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:60
 msgid "Удаление пользователя"
-msgstr ""
+msgstr "Delete a user"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:62
 msgid ""
@@ -13448,24 +13548,29 @@ msgid ""
 "роль ``userAdmin`` или привилегию на действие ``dropUser`` в базе данных,"
 " на основе которой производится авторизация, например ``admin``."
 msgstr ""
+"To delete a user, you must have the ``dbOwner`` role, or have the "
+"``UserAdmin`` role or the ``dropUser`` command privilege in the database "
+"that is used for authorization, for example, ``admin``."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/mongodb_user_management.rst:65
 msgid "Удалить пользователя через CLI mongodb можно командой"
-msgstr ""
+msgstr "Delete a user through the CLI mongodb with the command"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:2
 msgid "Зависмости в package.json"
-msgstr ""
+msgstr "Dependencies in package.json"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:5
 msgid ""
 "Файл **package.json** - определяет структуру зависимостей и детальный "
 "состав модулей системы."
 msgstr ""
+"The **package.json** file defines the structure of dependencies and the "
+"detailed composition of the system modules."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:14
 msgid "Логика подключения при помощи скрипта"
-msgstr ""
+msgstr "Connection using a script"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:17
 msgid ""
@@ -13473,6 +13578,9 @@ msgid ""
 "подставляем в путь по умолчанию группу ION-APP - т.е. путь - "
 "//git.iondv.ru/ION-APP/project-management."
 msgstr ""
+"if there is no slash in the object name - / => \"project-management\", "
+"substitute the name in the default path the ION-APP group, i.e the path is "
+"//git.iondv.ru/ION-APP/project-management."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:18
 msgid ""
@@ -13480,34 +13588,43 @@ msgid ""
 " путь к гиту с группой и метой, пример \"ION-METADATA/viewlib\" - путь - "
 "//git.iondv.ru/ION-METADATA/viewlib."
 msgstr ""
+"if there is a slash in the object name, it means it’s already set up with "
+"the group and just pick up the path to the git with the group and meta, for "
+"example for \"ION-METADATA/viewlib\" the path is //git.iondv.ru/ION-METADATA/"
+"viewlib."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:19
 msgid ""
 "если значение версии начинается с git+http:// или git+https:// - то это "
 "полный путь к внешнему репозиторию - отбрасываем git+ и тянем гитом."
 msgstr ""
+"if the version value begins with git+http:// или git+https://, then this is "
+"the full path to the external repository. Drop git+ and pull the git."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:20
 msgid ""
 "если значение версии начинается с http:// или https:// - то это полный "
 "путь к архиву - тянем и распаковываем."
 msgstr ""
+"if the version starts with http:// or https://, then this is the full path "
+"to the archive. Pull and unpack."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:22
 msgid "**Не реализовано**\\ , так как dapp не поддерживает работу с архивами."
 msgstr ""
+"**Not implemented **\\, since dapp does not support working with archives."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:25
 msgid "Пример файла ``package.json``"
-msgstr ""
+msgstr "Example of the ``package.json`` file"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:67
 msgid "Имя проекта."
-msgstr ""
+msgstr "Project name."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:68
 msgid "``\"description\"``"
-msgstr ""
+msgstr "``\"description\"``"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:69
 msgid "**Описание**"
@@ -13515,87 +13632,91 @@ msgstr "**Description**"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:70
 msgid "Описание проекта."
-msgstr ""
+msgstr "Project description."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:72
 msgid "**Версия**"
-msgstr ""
+msgstr "**Version**"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:73
 msgid "Номер текущей версии."
-msgstr ""
+msgstr "Number of a current version."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:74
 msgid "``\"homepage\"``"
-msgstr ""
+msgstr "``\"homepage\"``"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:75
 msgid "**Домашняя страница**"
-msgstr ""
+msgstr "**Home page**"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:76
 msgid "Ссылка на собранный проект на докере."
-msgstr ""
+msgstr "Link to the built project on the docker."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:77
 msgid "``\"bugs\"``"
-msgstr ""
+msgstr "``\"bugs\"``"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:78
 msgid "**Ошибки**"
-msgstr ""
+msgstr "**Bugs**"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:79
 msgid ""
 "Указывается ссылка на проект приложения в GitLab, где принимаются заявки "
 "об ошибках."
 msgstr ""
+"The link to the application project in GitLab, where issues about bugs are "
+"collected, is specified."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:80
 msgid "``\"repository\"``"
-msgstr ""
+msgstr "``\"repository\"``"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:81
 msgid "**Репозиторий**"
-msgstr ""
+msgstr "**Repository**"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:82
 msgid ""
 "Состоит из полей \"type\" и \"url\". Указыается тип репозитория и ссылка "
 "на него."
 msgstr ""
+"Сonsists of \"type\" and \"url\" fields. Indicates the type of repository "
+"and a link to it."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:83
 msgid "``\"engines\"``"
-msgstr ""
+msgstr "``\"engines\"``"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:84
 msgid "**Ядро**"
-msgstr ""
+msgstr "**Core**"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:85
 msgid "Номер версии ядра."
-msgstr ""
+msgstr "Number of a core version."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:86
 msgid "``\"scripts\"``"
-msgstr ""
+msgstr "``\"scripts\"``"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:87
 msgid "**Скрипты**"
-msgstr ""
+msgstr "**Scripts**"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:88
 msgid "Скрипт для сборки меты из разных групп и разных url./"
-msgstr ""
+msgstr "Script to build meta from different groups and different url."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:89
 msgid "``\"ionModulesDependencies\"``"
-msgstr ""
+msgstr "``\"ionModulesDependencies\"``"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:90
 msgid "**Зависимости модулей ion**"
-msgstr ""
+msgstr "**Dependencies of ion modules**"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:91
 msgid ""
@@ -13607,34 +13728,41 @@ msgid ""
 "**geomap**\\ \" - геомодуль •  \"\\ **gantt-chart**\\ \" – модуль "
 "диаграмм ганта •  \"\\ **portal**\\ \" – модуль портала"
 msgstr ""
+"Specifies the modules and their versions used in the application. The "
+"project includes the following modules: • \"\\ **ionadmin**\\ \" – "
+"administration module • \"\\ **registry**\\ \" – register module • \"\\ "
+"**report**\\ \" – reports module • \"\\ **rest**\\ \" - rest services module "
+"• \"\\ **dashboard**\\ \" -dashboards module • \"\\ **geomap**\\ \" – "
+"geomodule • \"\\ **gantt - chart**\\ \" -charts module gantt • \"\\ "
+"**portal**\\ \" – portal module"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:92
 msgid "``\"ionMetaDependencies\"``"
-msgstr ""
+msgstr "``\"ionMetaDependencies\"``"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:93
 msgid "**Зависимости метаданных ion**"
-msgstr ""
+msgstr "**Dependencies of ion metadata**"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:94
 msgid "Дополнительные приложения для функционирования системы."
-msgstr ""
+msgstr "Additional applications to operate the system."
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:95
 msgid "``\"dependencies\"``"
-msgstr ""
+msgstr "``\"dependencies\"``"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:96
 msgid "**Зависимости**"
-msgstr ""
+msgstr "**Dependencies**"
 
 #: ../docs-ru/3_development/platform_configuration/platform_config_files/package.rst:97
 msgid "Прочие зависимости проекта из репозитория npm."
-msgstr ""
+msgstr "Other project dependencies from the npm repository."
 
 #: ../docs-ru/3_development/platform_configuration/platform_configuration.rst:4
 msgid "Способы конфигурации параметров"
-msgstr ""
+msgstr "Ways to configure parameters"
 
 #: ../docs-ru/3_development/platform_configuration/platform_configuration.rst:4
 msgid "Конфигурационный файл deploy.json"
