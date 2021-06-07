@@ -7,200 +7,118 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IONDV docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-24 04:41+0000\n"
-"PO-Revision-Date: 2020-05-27 03:43+0000\n"
+"POT-Creation-Date: 2021-02-17 18:15+0000\n"
+"PO-Revision-Date: 2021-04-22 23:18+0000\n"
 "Last-Translator: Alena Kremenetskaya <alena.kremenetskaya@mail.ru>\n"
-"Language-Team: English <http://weblate.iondv.com/projects/docs/index/en/>\n"
+"Language-Team: English <http://weblate.iondv.ru/projects/docs/index/en/>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.2\n"
-"Generated-By: Babel 2.8.0\n"
+"X-Generator: Weblate 4.4.2\n"
+"Generated-By: Babel 2.9.0\n"
 
-#: ../../index.rst:9
+#: ../docs-ru/index.rst:9
 msgid "Содержание:"
 msgstr "Contents:"
 
-#: ../../index.rst:7
+#: ../docs-ru/index.rst:7
 msgid "Документация по платформе IONDV.Framework"
 msgstr "Documentation for the IONDV.Framework platform"
 
-#: ../../index.rst:76
+#: ../docs-ru/index.rst:78
 msgid "This page in `English <https://iondv.readthedocs.io/en/latest>`_"
 msgstr "Эта страница на `Русском <https://iondv.readthedocs.io/ru/latest>`_"
 
-#: ../../index.rst:88
-msgid ""
-"IONDV. Framework - это опенсорный фреймворк на node.js для разработки "
-"учетных приложений или микросервисов на основе метаданных и отдельных "
-"модулей. Он является частью инструментальной цифровой платформы для "
-"создания enterprise (ERP) приложений состоящей из опенсорсных "
-"компонентов: самого `фреймворка <https://github.com/iondv/framework>`_\\ "
-", `модулей <https://github.com/topics/iondv-module>`_ и готовых "
-"приложений расширяющих его функциональность, визуальной среды `Studio "
-"<https://github.com/iondv/studio>`_ для разработки метаданных приложений."
-msgstr ""
-"IONDV. Framework - is a node.js open source framework for developing "
-"accounting applications or microservices based on metadata and individual "
-"modules. Framework is a part of instrumental digital platform to create "
-"enterprise (ERP) apps. This platform consists of the following open-source "
-"components: the `IONDV. Framework<https://github.com/iondv/framework>`_\\, "
-"the `modules <https://github.com/topics/iondv-module>`_ and ready-made "
-"applications expanding it functionality, visual development environment `"
-"Studio <https://github.com/iondv/studio>`_ to create metadata for the app."
+#: ../docs-ru/index.rst:88
+msgid "IONDV. Framework"
+msgstr "IONDV. Framework"
 
-#: ../../index.rst:97
+#: ../docs-ru/index.rst:91
 msgid "Описание"
 msgstr "Description"
 
-#: ../../index.rst:99
+#: ../docs-ru/index.rst:93
 msgid ""
-"**IONDV. Framework** — это инструмент для создания веб-приложений, на "
-"основе метаданных без программирования. Можно изменять и дополнять "
-"систему с помощью наращивания дополнительной функциональности в виде "
-"модулей. Есть готовые модули, но ничто не ограничевает вас создать свои "
-"собственные и персонализировать приложение."
+"IONDV. Framework - это опенсорный фреймворк на node.js для разработки "
+"учетных приложений на основе метаданных в формате JSON/YAML и отдельных "
+"функциональных модулей. Визуальный редактор `Studio "
+"<https://studio.iondv.com>`_ позволяет создавать приложения по технологии"
+" \"no code\" и собирать приложение с веб-сервисами REST-API (модуль `rest"
+" <https://github.com/iondv/rest>`_). Ключевой модуль `registry "
+"<https://github.com/iondv/registry>`_ является универсальным средством "
+"представления и редактирования данных, обработки их по бизнес-процессам."
 msgstr ""
-"**IONDV. Framework** — is a tool for creating high-level web applications "
-"based on metadata. You can change the system by adding the additional "
-"components to change functionality. There are ready-made modules, but "
-"nothing limits you to create new ones to personalize the application. "
-"Moreover, it's low-code framework."
+"IONDV. Framework is an opensource framework based on node.js for developping "
+"business web applications on the basis of metadata in the JSON/YAML format "
+"and standalone functional modules.\n"
+"Visual editor `Studio <https://studio.iondv.com>`_ allows to create "
+"applications using the \"no code\" technology and build applications with "
+"REST-API web services(module `rest <https://github.com/iondv/rest>`_). The "
+"key module `registry <https://github.com/iondv/registry>`_ is the universal "
+"tool for presenting and editing data and processing it by workflows."
 
-#: ../../index.rst:101
-msgid ""
-"Основное предназначение - реализация сложносоставных систем реестра "
-"данных. Основу функциональности составляет реестр данных — модуль "
-"Регистри. Это ключевой модуль, предназначенный непосредственно для работы"
-" с данными на основе структур метаданных – в том числе по ведению "
-"проектов, программ, мероприятий и др."
+#: ../docs-ru/index.rst:99
+msgid "На видео технология разработки и сборки приложения."
 msgstr ""
-"The main purpose is the implementation of complex data registry systems. The "
-"functional base is the data registry - the Registry module. This is a key "
-"module designed specifically to work with data based on metadata structures -"
-" including the management of projects, programs, activities, etc."
+"See the video that shows the technology of developing and building an "
+"application."
 
-#: ../../index.rst:103
-msgid ""
-"**IONDV. Framework** это фреймворк с открытым исходным кодом на "
-"JavaScript и открытой структурой метаданных в формате JSON."
-msgstr ""
-"**IONDV. Framework** is an open source software in JavaScript with open "
-"metadata structure in human-readable JSON files."
-
-#: ../../index.rst:106
-msgid "Как спроектировать приложение?"
-msgstr "How to design an application?"
-
-#: ../../index.rst:108
-msgid "**Что?** Бизнес-приложение любого класса."
-msgstr "**What?** Business application of any class."
-
-#: ../../index.rst:111
-msgid ""
-"**Как?** Описать данные и примененить готовые модули с возможностью "
-"корректировки под конкретные задачи."
-msgstr ""
-"**How?** Describe the data and apply ready-made modules that you can adjust "
-"for specific tasks."
-
-#: ../../index.rst:114
-msgid "``core + metadata + modules = application``"
-msgstr "``core + metadata + modules = application``"
-
-#: ../../index.rst:123
-msgid ""
-"В квадратных рамках - *ioncore*\\ , *meta class*\\ , *meta view*\\ , "
-"*meta navigation* и *registry module* - это база простейшего приложения. "
-"Чуть ниже представлены дополнительные типы меты и модули. Они "
-"представляют собой дополнительную функциональность и применяются в "
-"соответствии с приложением. Зависимости приложения смотрим в файле "
-"``package.json``."
-msgstr ""
-"In the square frames - *ioncore*\\, *meta class*\\, *meta view*\\, *meta "
-"navigation* и *registry module* - are the base of the simplest application. "
-"Below are additional types of meta and modules. They represent additional "
-"functionality and could be applied in accordance with the application. Look "
-"for the application dependencies in the ``package.json`` file."
-
-#: ../../index.rst:126
-msgid "Типичные приложения"
-msgstr "Typical applications"
-
-#: ../../index.rst:128
-msgid ""
-"Каркас для создания приложений, как уровня предприятия, так и "
-"узкофункциональных - от портала до аналитики:"
-msgstr ""
-"We give you a frame for creating applications in JavaScript, both enterprise "
-"level and highly functional - from the portal to analytics:"
-
-#: ../../index.rst:131
-msgid "Управление документами;"
-msgstr "Document Management;"
-
-#: ../../index.rst:132
-msgid "Бухгалтерский учет и отчетность;"
-msgstr "Accounting and Reporting;"
-
-#: ../../index.rst:133
-msgid "Управление ресурсами предприятия;"
-msgstr "Enterprise Resource Management;"
-
-#: ../../index.rst:134
-msgid "Управление рабочим процессом и проектной деятельностью;"
-msgstr "Workflow Management and Project Activities;"
-
-#: ../../index.rst:135
-msgid "Сбор данных;"
-msgstr "Data Capture;"
-
-#: ../../index.rst:136
-msgid "Бизнес-аналитика;"
-msgstr "Business Analytics;"
-
-#: ../../index.rst:137
-msgid "Системная интеграция."
-msgstr "System Integration."
-
-#: ../../index.rst:140
+#: ../docs-ru/index.rst:109
 msgid "Бесплатные демоверсии"
 msgstr "Free Demos"
 
-#: ../../index.rst:142
+#: ../docs-ru/index.rst:111
 msgid "Посмотрите наши демо уже сейчас:"
-msgstr "For now, we have three demos to show you:"
+msgstr "Check out our demo apps right now:"
 
-#: ../../index.rst:145
+#: ../docs-ru/index.rst:113
 msgid ""
-"`Studio <https://studio.iondv.com/index>`_ - специализированная IDE, "
-"помогающая ускорить и упростить разработку приложений на IONDV. "
-"Framework. `GitHub Репозиторий <https://github.com/iondv/studio>`_. "
-"`Инструкция по созданию приложения при помощи ION. Studio "
+"`Studio <https://studio.iondv.com/index>`_ - специализированная IDE "
+"созданная как приложение iondv, для визуальной (no code) разработки "
+"приложений на IONDV. Framework. `GitHub Репозиторий "
+"<https://github.com/iondv/studio>`_. `Видео инструкция "
+"<https://www.youtube.com/watch?v=e201ko9fkQ8>`_ и `текстовая "
 "<https://github.com/iondv/nutrition-"
-"tickets/blob/master/tutorial/ru/index.md>`_"
+"tickets/blob/master/tutorial/ru/index.md>`_ по созданию приложения при "
+"помощи ION. Studio."
 msgstr ""
-"`Studio <https://studio.iondv.com/index>`_ - is an IONDV. Framework "
+"`Studio <https://studio.iondv.com/index>`_ is an IONDV. Framework "
 "specialized IDE that helps you to speed and simplify the development of "
 "applications on the `IONDV. GitHub Repo <https://github.com/iondv/studio>`_. "
 "`Tutorial \"How to create an app in IONDV. Studio\"<https://github.com/iondv/"
-"nutrition-tickets/blob/master/tutorial/ru/index.md>`_"
+"nutrition-tickets/blob/master/tutorial/ru/index.md>`._"
 
-#: ../../index.rst:146
+#: ../docs-ru/index.rst:114
 msgid ""
-"`DNT <https://dnt.iondv.com/auth>`_ - наше приложение для разработки и "
-"тестирования, на основе которого внедряются и тестируются новые "
-"метакомпоненты. Практически все элементы системы находятся в приложении "
-"DNT.\\ `GitHub Репозиторий <github.com/iondv/develop-and-test>`_."
+"`Telecom <https://telecom-ru.iondv.com>`_ - приложение по организации "
+"учета, хранения и отображения данных о наличии услуг связи (интернет, "
+"сотовая связь, телевидение, почта и др.) в населенных пукнтах региона. "
+"`GitHub Repo <https://github.com/iondv/telecom-ru>`_"
 msgstr ""
-"`DNT <https://dnt.iondv.com/auth>`_ - is our application for development and "
-"testing, on the basis of which new meta components are implemented and "
-"tested. So almost all elements of the system are in the DNT app. \\ `GitHub "
-"Repo <github.com/iondv/develop-and-test>`_."
+"`Telecom <https://telecom-ru.iondv.com>`_ (in Russian) is a web application "
+"based on IONDV. Framework for accounting, storage, and display the data on "
+"the availability of communication services (Internet, mobile communications, "
+"television, mail, etc.) in the settlements of the region. `GitHub "
+"Repo<https://github.com/iondv/telecom-en>`_"
 
-#: ../../index.rst:147
+#: ../docs-ru/index.rst:116
+msgid ""
+"`DNT <https://dnt.iondv.com/>`_ - приложение для разработки и "
+"тестирования функциональности фреймворка, в котором каждая учетная "
+"сущность отражает тим метаданных, например класс \"строка\", или класс "
+"\"коллекция\". Это позволяет изучать возможности фреймворка через "
+"приложение. `GitHub Репозиторий <github.com/iondv/develop-and-test>`_."
+msgstr ""
+"`DNT <https://dnt.iondv.com/>`_ is an application for developing and testing "
+"the functionality of the framework, in which each accounting entity "
+"represents a metadata type, for example, the \"string\" class, or the "
+"\"collection\" class. This allows you to explore the capabilities of the "
+"framework through the application. `GitHub Repository <github.com/iondv/"
+"develop-and-test>`_."
+
+#: ../docs-ru/index.rst:117
 msgid ""
 "`War Archive <https://war-archive.iondv.com/portal/index>`_ - это "
 "программное решение на основе IONDV. Framework, реализованное для "
@@ -212,77 +130,107 @@ msgstr ""
 "designed to store, group and demonstrate the data based on archival "
 "documents about Great Patriotic War (World War II). `GitHub Repo`_."
 
-#: ../../index.rst:148
+#: ../docs-ru/index.rst:118
 msgid ""
-"`Project Management <https://pm-gov-ru.iondv.com>`_ - это программное "
-"решение на основе IONDV. Framework, реализованное для организации "
-"проектной деятельности, целью которой является контроль результатов, "
-"соблюдение и сокращение сроков их достижения, эффективное использование "
-"временных, человеческих и финансовых ресурсов, принятие своевременных и "
-"обоснованных управленческих решений. `GitHub Repo "
-"<https://github.com/iondv/pm-gov-ru>`_"
+"`Project Management <https://pm-gov-ru.iondv.com>`_ - приложение по  "
+"организации проектной деятельности региональных ОГВ , целью которой "
+"является контроль результатов, соблюдение и сокращение сроков их "
+"достижения, эффективное использование временных, человеческих и "
+"финансовых ресурсов, принятие своевременных и обоснованных управленческих"
+" решений. `GitHub Repo <https://github.com/iondv/pm-gov-ru>`_"
 msgstr ""
 "`Project Management <https://pm-gov-ru.iondv.com>`_ (in Russian) - is a web "
-"enterprise application based on IONDV. Framework. Project management system "
-"allows you to organize project activities: to monitor the results, to comply "
-"with and reduce the deadlines, to use effectively temporary, human and "
+"application for organizing project activities of regional public "
+"authorities, which is aimed to monitor the results, to comply with deadlines "
+"and reduce the timing of achievements, to use effectively time, human and "
 "financial resources, making timely and informed management decisions. `"
 "GitHub Repo`_"
 
-#: ../../index.rst:149
-msgid ""
-"`Telecom <https://telecom-ru.iondv.com>`_ - это программное решение на "
-"основе IONDV. Framework, реализованное для организации учета, хранения и "
-"отображения данных о наличии услуг связи (интернет, сотовая связь, "
-"телевидение, почта и др.) в населенных пукнтах региона. `GitHub Repo "
-"<https://github.com/iondv/telecom-ru>`_"
-msgstr ""
-"`Telecom <https://telecom-ru.iondv.com>`_ (in Russian) - is a web "
-"application based on IONDV. Framework. It is used as a registry to account, "
-"store, and present the data on the availability of communication services ("
-"Internet, mobile communications, television, mail, etc.) in populated areas "
-"of the region. `GitHub Repo<https://github.com/iondv/telecom-ru>`_"
-
-#: ../../index.rst:151
+#: ../docs-ru/index.rst:119
 msgid "CRM - *скоро на GitHub*."
 msgstr "CRM - coming soon on GitHub."
 
-#: ../../index.rst:153
+#: ../docs-ru/index.rst:121
 msgid "Логин для доступа - demo, пароль - ion-demo. Регистрация не требуется."
 msgstr ""
 "The login for access is - demo and the password is - ion-demo. No "
 "registration required."
 
-#: ../../index.rst:156
-msgid "Функциональные возможности"
-msgstr "Top features"
+#: ../docs-ru/index.rst:124
+msgid "Типичные приложения"
+msgstr "Typical applications"
 
-#: ../../index.rst:158
+#: ../docs-ru/index.rst:126
+msgid ""
+"Фреймворк - конструктор веб-приложений любой специфики, так как преметная"
+" область определяется структурой метаданных, описывающих поведение "
+"приложение. Например можно создать приложения"
+msgstr ""
+"Framework is a constructor for web applications of any specificity, since "
+"the target area is determined by the structure of metadata describing the "
+"behavior of the application. For example, you can create such applications "
+"as:"
+
+#: ../docs-ru/index.rst:129
+msgid "CRM - управления отношения с клиентами;"
+msgstr "CRM for customer relationship management;"
+
+#: ../docs-ru/index.rst:130
+msgid "учет и управление ресурсов предприятия;"
+msgstr "accounting and management of enterprise resources;"
+
+#: ../docs-ru/index.rst:131
+msgid "автоматизация бизнес-процессов организации и документооборота;"
+msgstr "automatization of company workflows and document management;"
+
+#: ../docs-ru/index.rst:132
+msgid "сбор и хранение любых данных, например метрик оборудования (IoT);"
+msgstr ""
+"collecting and storing any data, for example equipment metrics tracking "
+"(IoT);"
+
+#: ../docs-ru/index.rst:133
+msgid "представление данных в виде порталов;"
+msgstr "representation of data in the form of portals;"
+
+#: ../docs-ru/index.rst:134
+msgid "REST-API для SPA приложений;"
+msgstr "REST-API for SPA applications;"
+
+#: ../docs-ru/index.rst:135
+msgid "REST-API и бекграунд для мобильных приложений;"
+msgstr "REST-API and background for mobile applications;"
+
+#: ../docs-ru/index.rst:138
+msgid "Функциональные возможности"
+msgstr "Functional features"
+
+#: ../docs-ru/index.rst:140
 msgid "**IONDV. Framework** обеспечивает реализацию следующей функциональности:"
 msgstr "**IONDV. Framework** provides the following functionality:"
 
-#: ../../index.rst:161
+#: ../docs-ru/index.rst:142
 msgid ""
 "обеспечение трансляции описательных метаданных в структуру хранения "
 "данных в СУБД;"
 msgstr "descriptive metadata into the data storage structure in the DBMS;"
 
-#: ../../index.rst:162
+#: ../docs-ru/index.rst:143
 msgid "обеспечение функциональности работы с различными СУБД (ORM технологию);"
 msgstr "functionality to work with various DBMS (ORM technology);"
 
-#: ../../index.rst:163
+#: ../docs-ru/index.rst:144
 msgid ""
 "обеспечение авторизации в системе с различными политиками, по умолчанию "
 "oath2, с открытым конфигурируемым API для подключения авторизационных "
 "модулей библиотеки passport обеспечивает до 500 различных политик "
 "авторизации;"
 msgstr ""
-"authorization in a system with different policies, by default oath2, with an "
-"open, configurable API for connecting passport library authorization modules "
-"which provides up to 500 different authorization policies;"
+"authorization in a system with different policies, by default oath2, with"
+" an open, configurable API for connecting passport library authorization "
+"modules which provides up to 500 different authorization policies;"
 
-#: ../../index.rst:164
+#: ../docs-ru/index.rst:145
 msgid ""
 "обеспечение безопасности доступа к данным – статической к типам данных, к"
 " навигации, к этапам бизнес-процессов, к действиям на форме; динамической"
@@ -292,30 +240,30 @@ msgid ""
 "исключения в авторизации и безопасности по url или для специального "
 "пользователя;"
 msgstr ""
-"securing access to data - static securing to data types, to navigation, to "
-"stages of business processes, to actions on a form; dynamic securing- "
-"through the conditions in the data that the profile of the current user must "
-"correspond to (belonging to the unit or organization specified in the "
-"object, group or other conditions); through url; providing exceptions in "
-"authorization and security by url or for a special user;"
+"securing access to data - static securing to data types, to navigation, "
+"to stages of business processes, to actions on a form; dynamic securing- "
+"through the conditions in the data that the profile of the current user "
+"must correspond to (belonging to the unit or organization specified in "
+"the object, group or other conditions); through url; providing exceptions"
+" in authorization and security by url or for a special user;"
 
-#: ../../index.rst:165
+#: ../docs-ru/index.rst:146
 msgid ""
 "подключение модулей, обеспечивающих дополнительную функциональность и "
 "реализуемую через доступ к интерфейсам (API) ядра;"
 msgstr ""
-"connection of modules providing additional functionality and implemented "
-"through access to the kernel interfaces (APIs);"
+"connecting modules that provide additional functionality and are implemented "
+"through access to the kernel interfaces (APIs) ;"
 
-#: ../../index.rst:166
+#: ../docs-ru/index.rst:147
 msgid ""
 "обеспечение импорта, экспорта данных в системе, метаданных, безопасности "
 "из файлов;"
 msgstr ""
-"providing import, export of data in the system, metadata, security from "
+"providing import, export of data in the system, metadata and security from "
 "files;"
 
-#: ../../index.rst:167
+#: ../docs-ru/index.rst:148
 msgid ""
 "обеспечение взаимодействия с файловой системой для хранения данных, в том"
 " числе с внешними файловыми хранилищами, такими как nextcloud;"
@@ -323,129 +271,176 @@ msgstr ""
 "providing interaction with the file system for storing data, including "
 "external file storages, such as nextcloud;"
 
-#: ../../index.rst:168
+#: ../docs-ru/index.rst:149
 msgid "расчет значения с формулами и кэширование этих данных;"
 msgstr "calculating values with formulas and caching this data;"
 
-#: ../../index.rst:169
+#: ../docs-ru/index.rst:150
 msgid "обеспечение жадной загрузки данных и их фильтрации в связанных коллекциях;"
 msgstr "providing eager loading and data filtering in connected collections;"
 
-#: ../../index.rst:170
+#: ../docs-ru/index.rst:151
 msgid "кэширование запросов и сессий в memcached, redis;"
 msgstr "caching requests and sessions in memcached, redis;"
 
-#: ../../index.rst:171
+#: ../docs-ru/index.rst:152
 msgid "выполнение задач по расписанию;"
-msgstr "scheduled tasks;"
+msgstr "scheduled jobs;"
 
-#: ../../index.rst:172
+#: ../docs-ru/index.rst:153
 msgid "уведомление пользователей по событиям."
-msgstr "notification of users by events."
+msgstr "notifying users about events."
 
-#: ../../index.rst:174
+#: ../docs-ru/index.rst:156
+msgid "Структура фреймворка: ``core + metadata + modules = application``"
+msgstr "Framework structure: ``core + metadata + modules = application``"
+
+#: ../docs-ru/index.rst:165
+msgid ""
+"На рискнуке: - *ioncore* - ядро приложения в виде IONDV. фреймворка - "
+"*meta class*, *meta view*, *meta navigation*, *meta workflow*, *meta "
+"security* - функциональные метаданные приложения - структуры, "
+"представления, навигации, бизнес-процессов и безопасности соответственно "
+"- *registry module* - подлкючаемые функциональные модули, например модуль"
+" registry для просмотра и редактирования данных Чуть ниже представлены "
+"дополнительные типы меты и модули. Они представляют собой дополнительную "
+"функциональность и применяются в соответствии с приложением. Зависимости "
+"приложения смотрим в файле ``package.json``."
+msgstr ""
+"At the picture: - *ioncore* - the core of the application in the form of "
+"IONDV. framework - * meta class*, *meta view*, *meta navigation*, *meta "
+"workflow*, *meta security* - functional metadata of the application: "
+"structures, views, navigation, workflows, and security respectively - *"
+"registry module* - supported functional modules, such as the registry module "
+"for viewing and editing data.\n"
+"Additional meta types and modules are listed below. They represent "
+"additional functionality and are applied in accordance with the application. "
+"Check for application dependencies in the ``package.json``."
+
+#: ../docs-ru/index.rst:171
+msgid ""
+"Так как приложение - это метаописание его поведения в файлах формата JSON"
+" (YAML) и функциональный код и HTML шаблоны расширяющие типовую "
+"функциональность - то с ним удобно работать через репозиторий версий git."
+" Посмотрите примеры на `Github <https://github.com/search?q=org%3Aiondv"
+"+iondv-app&type=Repositories>`_"
+msgstr ""
+"Since the application is a meta description of its behavior in JSON (YAML) "
+"format files, functional code and HTML templates that extend typical "
+"functionality, it is convenient to work with it through the git version "
+"repository. See examples on `Github <https://github.com/search?q=org%3Aiondv"
+"+iondv-app&type=Repositories>`_"
+
+#: ../docs-ru/index.rst:174
 msgid ""
 "Подробнее о функциональных возможностях фреймворка и его модулей можно "
-"узнать `здесь "
-"<https://iondv.readthedocs.io/ru/latest/key_features.html>`_."
+"узнать :doc:`в документации <key_features>`."
 msgstr ""
-"You can find out `more <https://iondv.readthedocs.io/en/latest/"
-"key_features.html>`_ about the functionality of the framework and its "
-"modules."
+"You can find out `more <https://iondv.readthedocs.io/en/latest/key_features."
+"html>`_ about the functionality of the framework and its modules."
 
-#: ../../index.rst:177
+#: ../docs-ru/index.rst:177
 msgid "Быстрый старт"
 msgstr "Quick start"
 
-#: ../../index.rst:179
+#: ../docs-ru/index.rst:179
 msgid ""
 "Вы можете посмотреть собранные приложения, развернутые в облаке или "
 "получить продукты для изучения другим способом на `сайте фреймворка "
 "<https://iondv.com>`_\\ , в том числе:"
 msgstr ""
-"You can get access to the already built applications deployed on Cloud "
-"servers or explore the different ways on the `IONDV.Framework site "
-"<https://iondv.com>`_\\, for example:"
+"You can get access to the already built applications deployed on cloud "
+"servers or explore the different ways at the `IONDV.Framework site "
+"<https://iondv.com>`_\\, including:"
 
-#: ../../index.rst:182
-msgid "инсталятор для операционной системы Linux"
-msgstr "gitclone with this repository"
+#: ../docs-ru/index.rst:181
+msgid ""
+"инсталятор для операционной системы `Linux <https://github.com/iondv"
+"/iondv-app>`_"
+msgstr ""
+"installer for Linux operating system `installer <https://github.com/iondv/"
+"iondv-app>`_"
 
-#: ../../index.rst:183
-msgid "клонирование репозитория и установка всех компонентов"
-msgstr "installer for linux operating system"
+#: ../docs-ru/index.rst:182
+msgid ""
+"клонирование репозитория приложения и установка всех компонентов "
+"(инструкция ниже)"
+msgstr ""
+"clone the application repository and install all the components (see "
+"instructions below)"
 
-#: ../../index.rst:184
-msgid "docker-контейнер с собранным приложением"
-msgstr "docker-container with the already built application"
+#: ../docs-ru/index.rst:183
+msgid ""
+"`docker-контейнеры <https://hub.docker.com/u/iondv>`_ с собранными "
+"приложениями"
+msgstr ""
+"`docker-containers <https://hub.docker.com/u/iondv>`_ with already built "
+"applications"
 
-#: ../../index.rst:185
-msgid "архив с собранным приложением"
-msgstr "archive with the already built application"
-
-#: ../../index.rst:188
+#: ../docs-ru/index.rst:186
 msgid "Cистемное окружение"
-msgstr "Software requirements"
+msgstr "System environment"
 
-#: ../../index.rst:190
+#: ../docs-ru/index.rst:188
 msgid ""
 "Запуск фреймворка осуществляется в среде `Node.js "
 "<https://nodejs.org/en/>`_ версии 10.x.x."
 msgstr ""
-"Install `Node.js <https://nodejs.org/en/>`_ runtime and npm package manager "
-"to run the IONDV.Framework. Version 10.x.x."
+"The framework is launched in the `Node.js <https://nodejs.org/en/>`_ "
+"runtime. Version 10.x.x."
 
-#: ../../index.rst:192
+#: ../docs-ru/index.rst:190
 msgid ""
 "Для хранения данных необходимо установить и запустить `MongoDb "
-"<https://www.mongodb.org/>`_ версии 3.6."
+"<https://www.mongodb.org/>`_ версии старше 3.6."
 msgstr ""
-"Install and run the `MongoDB <https://www.mongodb.org/>`_ DBMS to store the "
-"data. Version 3.6."
+"To store the data, you need to install and run `MongoDb <https://www.mongodb."
+"org/>`_ of version later than 3.6."
 
-#: ../../index.rst:195
+#: ../docs-ru/index.rst:193
 msgid "Установщик"
 msgstr "Installer"
 
-#: ../../index.rst:197
+#: ../docs-ru/index.rst:195
 msgid ""
-"Вы можете использовать установщик приложений IONDV. Framework `iondv-app "
-"<https://github.com/iondv/iondv-app>`_\\ , требующий установленных node, "
-"mongodb и git. В ходе установки будет проверены и установлены все "
-"остальные зависимости, а также собрано и запущено само приложение."
+"Для ускорения Вы можете использовать установщик приложений IONDV. "
+"Framework `iondv-app <https://github.com/iondv/iondv-app>`_\\ , требующий"
+" установленных node, mongodb и git. В ходе установки будет проверены и "
+"установлены все остальные зависимости, а также собрано и запущено само "
+"приложение."
 msgstr ""
-"You can use IONDV. Framework `apps installer`_\\, requiring installed "
-"node.js, mongodb and git. During the installation, all other dependencies "
-"will be checked and installed, and the application itself will be built and "
-"run."
+"You can use IONDV. Framework apps installer `iondv-app <https://github.com/"
+"iondv/iondv-app>`_\\ , which requires node.js, mongodb and git installed. "
+"During the installation, all other dependencies will be checked and "
+"installed, and the application itself will be built and launched."
 
-#: ../../index.rst:200
+#: ../docs-ru/index.rst:198
 msgid "Установка в одну строку:"
 msgstr "Install in one command:"
 
-#: ../../index.rst:206
+#: ../docs-ru/index.rst:204
 msgid ""
 "Где параметры для iondv-app ``localhost:27017`` адрес MongoDB, а "
 "``develop-and-test`` название приложения. После запуска открыть ссылку "
-"'http://localhost:8888', учетная запись бек офиса **demo**\\ , пароль "
-"**ion-demo**."
+"'http://localhost:8888', типовая учетная запись бек офиса **demo**\\ , "
+"пароль **ion-demo**."
 msgstr ""
 "Where the parameters for iondv-app ``localhost: 27017`` is the MongoDB "
 "address, and ``develop-and-test`` is the name of the application. After "
-"starting, open the link 'http://localhost:8888', back office account - "
-"**demo**\\, password - **ion-demo**."
+"starting, open the link 'http://localhost:8888', back office account: "
+"**demo**\\, password: **ion-demo**."
 
-#: ../../index.rst:208
+#: ../docs-ru/index.rst:206
 msgid ""
-"Также другой способ заключается в клонировании - (\\ ``git clone "
+"Дугой способ заключается в клонировании сборщика - (\\ ``git clone "
 "https://github.com/iondv/iondv-app.git``\\ ) и установите приложение с "
 "помощью команды ``bash iondv-app -m localhost:27017 develop-and-test``."
 msgstr ""
-"Also another way is to clone - (\\ ``git clone https://github.com/iondv/"
-"iondv-app.git``\\ ) and install the application using the command ``bash "
-"iondv-app -m localhost:27017 develop-and-test``."
+"Another way is to clone - (\\ ``git clone https://github.com/iondv/iondv-app."
+"git``\\ ) and install the application using the command ``bash iondv-app -m "
+"localhost:27017 develop-and-test``."
 
-#: ../../index.rst:210
+#: ../docs-ru/index.rst:208
 msgid ""
 "Можно также собрать приложение в докер конейтнерах, тогда из окружения "
 "нужен только docker и СУБД mongodb в докер контейнере. Подробнее на "
@@ -457,23 +452,23 @@ msgstr ""
 "container. More details on the IONDV. Framework application builder page "
 "`iondv-app <https://github.com/iondv/iondv-app>`_"
 
-#: ../../index.rst:213
+#: ../docs-ru/index.rst:211
 msgid "Сборка приложения из репозитория"
-msgstr "Gitclone with repository"
+msgstr "Build application from the repository"
 
-#: ../../index.rst:215
+#: ../docs-ru/index.rst:214
 msgid "Глобальные зависимости"
 msgstr "Global dependencies"
 
-#: ../../index.rst:217
+#: ../docs-ru/index.rst:216
 msgid ""
 "Для сборки компонентов и библиотек фреймворка необходимо установить "
 "глобально:"
 msgstr ""
-"To build all components and libraries, you need to install the following "
-"components globally:"
+"To build all the components and libraries of the framework, you need to "
+"install the following components globally:"
 
-#: ../../index.rst:219
+#: ../docs-ru/index.rst:218
 msgid ""
 "пакет `node-gyp <https://github.com/nodejs/node-gyp>`_ ``npm install -g "
 "node-gyp``. Для работы библиотеки под операционной системой семейства "
@@ -481,94 +476,94 @@ msgid ""
 "``npm install -g --production windows-build-tools``."
 msgstr ""
 "package `node-gyp <https://github.com/nodejs/node-gyp>`_ ``npm install -g "
-"node-gyp``. For the Windows operating system, it is additionally necessary "
-"to install the windows-build-tools package ``npm install -g --production "
-"windows-build-tools``."
+"node-gyp``. For the Windows operating system, it is necessary to "
+"additionally install the windows-build-tools package ``npm install -g --"
+"production windows-build-tools``."
 
-#: ../../index.rst:220
+#: ../docs-ru/index.rst:219
 msgid ""
 "пакет сборщика проектов `Gulp <http://gulpjs.com/>`_ ``npm install -g "
 "gulp@4.0``. ``4.0`` - поддерживаемая версия ``Gulp``."
 msgstr ""
 "`Gulp <http://gulpjs.com/>`_installation package ``npm install -g gulp@4.0``"
-". ``4.0`` - supported version of ``Gulp``."
+". ``4.0`` is supported version of ``Gulp``."
 
-#: ../../index.rst:221
+#: ../docs-ru/index.rst:220
 msgid ""
-"менджер пакетов фронтенд библиотек `Bower <https://bower.io>`_ ``npm "
-"install -g bower``."
+"для версий IONDV. Framework 3.x.x и более ранних нужен менджер пакетов "
+"фронтенд библиотек `Bower <https://bower.io>`_ ``npm install -g bower``. "
+"Для версия 4.х.х и старше не требуется."
 msgstr ""
-"package manager of frontend libraries `Bower<https://bower.io>`_ ``npm "
-"install -g bower``."
+"for versions 3.x.x and earlier of the IONDV. Framework the manager of the "
+"frontend libraries packages `Bower <https://bower.io>`_ is required``npm "
+"install -g bower``. It's not required for versions 4.х.х and later ."
 
-#: ../../index.rst:224
-msgid "Установка ядра, модулей и приложения"
-msgstr "Core, modules and application"
+#: ../docs-ru/index.rst:223
+msgid "Ручная установка ядра, модулей и приложения"
+msgstr "Manual core, modules and application installation"
 
-#: ../../index.rst:226
+#: ../docs-ru/index.rst:225
 msgid ""
-"Рассматриваем на примере приложения ``develop-and-test``. На месте "
-"приложения ``develop-and-test`` в пути может быть указано ``namespace``. "
-"Это значит, что необходимо самостоятельно проставить название приложения "
-"в путь, вместо ``namespace``. Находим приложение ``develop-and-test`` в "
-"репозитории. Смотрим зависимости указаные в файле ``package.json``."
+"Рассматриваем на примере приложения ``develop-and-test``. Находим "
+"приложение ``develop-and-test`` в репозитории. Смотрим зависимости "
+"указаные в файле ``package.json``."
 msgstr ""
-"Let's consider the example of the ``develop-and-test`` application. At the "
-"place of the ``develop-and-test`` application, the path may indicate "
-"``namespace``. This means that you must put the name of the application in "
-"the path yourself, instead of ``namespace``. Find the ``develop-and-test`` "
-"application in the repository. Look at the dependencies specified in the "
-"``package.json``."
+"Let's take the ``develop-and-test`` application as an example. Find the "
+"application``develop-and-test`` in the repository. Check the dependencies "
+"specified in the file ``package.json``."
 
-#: ../../index.rst:250
+#: ../docs-ru/index.rst:249
 msgid ""
 "Начинаем установку с ядра, версия которого указана в парметре "
 "``\"engines\": {\"ion\": \"1.24.1\"}``. Скопируйте адрес репозитория ядра"
 " и в командной строке выполните комманду ``git clone "
 "https://github.com/iondv/framework``. Перейдите в папку ядра, "
-"переключитесь на tag номера версии ``git checkout tags/v1.24.1``."
+"переключитесь на tag номера версии ``git checkout tags/v1.24.1``.  Так "
+"как совместимость обеспечивается на уровне метаданных, а новые версии "
+"выпускались из-за изменения технологии сборки, то вы можете использовать "
+"последнии, например 4.0.0."
 msgstr ""
-"Install the core, its version is specified in the ``\"engines\": {\"ion\": \""
-"3.0.0\"}`` parameter. Copy the URL of the core repository and execute the "
-"command ``git clone https://github.com/iondv/framework.git dnt``, where dnt "
-"is a application name, for example full path is /workspace/dnt'. Go to the "
-"core folder and switch the tag of the version number ``git checkout tags/"
-"3.0.0``."
+"Install the core, its version is specified in the ``\"engines\": {\"ion\": "
+"\"1.24.1\"}`` parameter. Copy the URL of the core repository and execute the "
+"command ``git clone https://github.com/iondv/framework``. Go to the core "
+"folder and switch the tag of the version number ``git checkout tags/v1.24.1``"
+". Since compatibility is ensured at the metadata level, and new versions "
+"were released due to changes in building technology, you can use the latest "
+"version, for example 4.0.0."
 
-#: ../../index.rst:251
+#: ../docs-ru/index.rst:250
 msgid ""
 "После этого устанавливаются необходимые для приложения модули, указанные "
 "в параметре ``\"ionModulesDependencies\"``. Модули устанавливаются в "
-"папку ``modules`` ядра, для этого пейдите в неё командой ``cd modules``. "
-"Клонируем модули из списка ``\"ionModulesDependencies\"``, для модуля "
-"registry это осуществляется коммандой ``git clone "
+"папку ``modules`` ядра, для этого перейдите в неё командой ``cd "
+"modules``. Клонируем модули из списка ``\"ionModulesDependencies\"``, для"
+" модуля registry это осуществляется коммандой ``git clone "
 "https://github.com/iondv/registry``. Перейдите в папку установленного "
 "модуля, переключитесь на tag номера версии ``git checkout tags/v1.27.1``."
-" Повторите для каждого модуля."
+" Повторите для каждого модуля. Для большинства приложений, можно "
+"использовать последние совместимые с ядром модули."
 msgstr ""
 "Further, install the modules listed in the``\"ionModulesDependencies\"`` "
 "parameter. Navigate to the ``module`` folder executing the ``cd modules`` "
 "command. Clone modules from the ``\"ionModulesDependencies\"`` list, for the "
 "registry module the command is ``git clone https://github.com/iondv/"
-"registry.git``. Go to the folder of the installed module and switch the tag "
-"of the version number ``git checkout tags/3.0.0``. Repeat for each module."
+"registry``. Go to the folder of the installed module and switch the tag of "
+"the version number ``git checkout tags/v1.27.1``. Repeat for each module. "
+"For most applications, you can use the latest core compatible modules."
 
-#: ../../index.rst:252
+#: ../docs-ru/index.rst:251
 msgid ""
 "Установка самого приложения осуществляется в папку ``applications``, для "
 "этого перейдите в неё командой  ``cd ..\\applications``, если вы "
 "находитесь в папке модулей. Установку выполните клонированием репозитория"
-" коммандой ``git clone https://github.com/iondv/dnt_ru``. Перейдите в "
-"папку установленного приложения, переключитесь на tag номера версии ``git"
-" checkout tags/v1.17.0``"
+" коммандой ``git clone https://github.com/iondv/dnt_ru``."
 msgstr ""
-"To install the application, go to the ``application`` folder executing the ``"
-"cd ..\\applications`` command, if you're in the module folder. Clone the "
-"path to repository by ``git clone https://github.com/iondv/develop-and-"
-"test.git`` command. Go to the folder of installed application and switch the "
-"tag of the version number ``git checkout tags/2.0.0``"
+"The installation of the application is carried out in the ``applications`` "
+"folder. If you are in the modules folder, move to the folder using the "
+"command ``cd ..\\applications``. Install by cloning the repository using the "
+"command ``git clone https://github.com/iondv/dnt_ru``."
 
-#: ../../index.rst:253
+#: ../docs-ru/index.rst:252
 msgid ""
 "После этого установите дополнительно необходимые приложения из параметра "
 "``\"ionMetaDependencies\"``. Установка осуществляется в папку "
@@ -579,36 +574,37 @@ msgid ""
 "установленного приложения, переключитесь на tag номера версии ``git "
 "checkout tags/v0.9.1``. Повторите для каждого приложения."
 msgstr ""
-"Finally, install all necessary applications listed in the ``\""
-"ionMetaDependencies\"`` parameter in the ``applications`` folder. Make sure "
-"that you're inside this folder. Clone the dependencies in "
-"``ionMetaDependencies``, in particularly ``viewlib`` - a additional "
-"application - library of views templates. Execute the ``git clone "
-"https://github.com/iondv/viewlib.git`` to clone to the applications folder. "
-"Go to the folder of installed application and switch to the tag of the "
-"version number ``git checkout tags/0.9.1``. Repeat for each application."
+"Finally, install all necessary applications listed in the ``"
+"\"ionMetaDependencies\"`` parameter in the ``applications`` folder. Make "
+"sure that you're inside this folder. Clone the dependencies in "
+"``ionMetaDependencies``. For the``viewlib``application execute the command``"
+"git clone https://github.com/iondv/viewlib``. Go to the folder of installed "
+"application and switch to the tag of the version number ``git checkout tags/0"
+".9.1``. Repeat for each application."
 
-#: ../../index.rst:256
+#: ../docs-ru/index.rst:255
 msgid "Сборка, конфигурирование и развертывание приложения"
-msgstr "Building, configuring and deploying the application"
+msgstr "Build, configure and deploy the application"
 
-#: ../../index.rst:258
+#: ../docs-ru/index.rst:257
 msgid ""
 "Сборка приложения обеспечивает установку всех зависимых библиотек, импорт"
 " данных в базу данных и подготовку приложения для запуска."
 msgstr ""
-"Building the application provides installation of all dependent libraries, "
+"Build of the application provides installation of all dependent libraries, "
 "importing data into the database and preparing the application for launch."
 
-#: ../../index.rst:260
+#: ../docs-ru/index.rst:259
 msgid ""
-"Создайте конфигурационный файл ``setup.ini``  в папке ``config`` ядра для"
-" задания основных параметров окружения приложения."
+"Создайте конфигурационный файл ``setup.ini``  в папке ``config`` куда вы "
+"клонировали фреймворк для задания основных параметров окружения "
+"приложения."
 msgstr ""
 "Create the configuration file ``setup.ini`` in the ``/config`` folder of the "
-"core to set the main parameters of the application environment."
+"core with cloned framework to set the main parameters of the application "
+"environment."
 
-#: ../../index.rst:272
+#: ../docs-ru/index.rst:271
 msgid ""
 "Открываем файл в редакторе и вставляем содержимое. Самый главный параметр"
 " ``db.uri=mongodb://127.0.0.1:27017/ion-dnt`` он указывает на название "
@@ -616,169 +612,385 @@ msgid ""
 "создана автоматически."
 msgstr ""
 "Open the file and paste the text above. The main parameter is "
-"``db.uri=mongodb://127.0.0.1:27017/iondv-dnt-db``. It shows the base name "
-"that we use for the application. The DB will be created automatically."
+"``db.uri=mongodb://127.0.0.1:27017/iondv-dnt-db``. It shows the base name"
+" that we use for the application. The DB will be created automatically."
 
-#: ../../index.rst:274
+#: ../docs-ru/index.rst:273
 msgid ""
 "Задайте переменную окружения NODE_PATH равной пути к ядру приложения "
 "следующей командой ``set NODE_PATH=c:\\workspace\\dnt`` для Windows и "
 "``export NODE_PATH=/workspace/dnt`` для Linux, где ``workspace\\dnt`` - "
-"папка файлов ядра приложения."
+"папка куда склонирован фреймворк."
 msgstr ""
-"Set the ``NODE_PATH`` environment variable which is equal to the path of the "
-"application core. For Windows the command is set ``NODE_PATH=c:\\workspace\\"
-"dnt``, for Linux - ``export NODE_PATH=/workspace/dnt``, where ``/workspace/"
-"dnt`` is the directory of the application."
+"Set the NODE_PATH environment variable to the path to the core of the "
+"application using command ``set NODE_PATH=c:\\workspace\\dnt``for Windows "
+"and ``export NODE_PATH=/workspace/dnt`` for Linux, where ``workspace\\dnt`` "
+"is the folder with the cloned framework."
 
-#: ../../index.rst:276
+#: ../docs-ru/index.rst:275
 msgid ""
 "При первом запуске необходимо выполнить ``npm install`` - она поставит "
-"ключевые зависимости, в том числе локально сборщик ``gulp``. Убедитесь, "
-"что версия ``Gulp`` - ``4.0``."
+"ключевые зависимости, в том числе локально сборщик ``gulp``."
 msgstr ""
-"The ``npm install`` installs all key dependencies, including locally the "
-"``gulp`` build-tool. Please make sure that the ``Gulp`` version - is ``4.0``."
+"At the first launch, you need to run ``npm install``. It will install the "
+"key dependencies, including the ``gulp`` task runner locally."
 
-#: ../../index.rst:278
+#: ../docs-ru/index.rst:277
 msgid "Далее выполните команду сборки приложения ``gulp assemble``."
-msgstr ""
-"Further, execute the gulp assemble command to build and deploy the "
-"application."
+msgstr "Next, execute the command to build the application ``gulp assemble``."
 
-#: ../../index.rst:280
+#: ../docs-ru/index.rst:279
 msgid ""
 "Если вы хотите выполнить импорт данных в вашем проекте, проверьте папку "
 "``data`` в приложении и выполните команду: ``node bin/import-data --src "
-"./applications/develop-and-test --ns develop-and-test``"
+"./applications/develop-and-test/data --ns develop-and-test``"
 msgstr ""
-"If you want to import data into your project, check the demo ``data`` in the "
-"data folder of the application and run the command: ``node bin/import-data --"
-"src ./applications/develop-and-test --ns develop-and-test``"
+"If you want to implement the data import in your project, check the folder "
+"``data`` in the application and execute the command: ``node bin/import-data "
+"--src ./applications/develop-and-test/data --ns develop-and-test``"
 
-#: ../../index.rst:283
+#: ../docs-ru/index.rst:282
 msgid ""
 "Добавьте пользователя admin с паролем 123 командой ``node bin\\adduser.js"
 " --name admin --pwd 123``."
 msgstr ""
-"Add the admin user with the 123 password executing the ``node bin/adduser.js "
-"--name admin --pwd 123`` command."
+"Add the ``admin`` user with the 123 password by executing the command ``node "
+"bin/adduser.js --name admin --pwd 123``."
 
-#: ../../index.rst:285
+#: ../docs-ru/index.rst:284
 msgid ""
 "Добавьте пользователю права администратора командой ``node bin/acl.js --u"
 " admin@local --role admin --p full``."
 msgstr ""
-"Add admin rights to the user executing the ``node bin/acl.js --u admin@local "
-"--role admin --p full`` command."
+"Add admin rights to the user executing the ``node bin/acl.js --u "
+"admin@local --role admin --p full`` command."
 
-#: ../../index.rst:288
+#: ../docs-ru/index.rst:287
 msgid "Запуск"
-msgstr "Running"
+msgstr "Start"
 
-#: ../../index.rst:290
-msgid "Запустите приложение командой в папке ядра ``npm start``."
-msgstr "Run the app, executing the ``npm start`` or ``node bin/www`` command."
+#: ../docs-ru/index.rst:289
+msgid ""
+"Запустите приложение командой в папке ядра ``npm start`` или ``node "
+"bin\\www``."
+msgstr ""
+"Launch the application from the core folder using command ``npm start`` or ``"
+"node bin\\www`` ."
 
-#: ../../index.rst:292
+#: ../docs-ru/index.rst:291
 msgid ""
 "Откройте браузер с адресом ``http://localhost:8888`` и авторизуйтесь в "
 "приложении, где ``8888`` - порт указанный в параметре server.ports "
 "конфигурации запуска."
 msgstr ""
-"Open this link ``http://localhost:8888`` in a browser and log in. 8888 — is "
-"a port in the server.ports parameter."
+"Open the link ``http://localhost:8888`` in a browser and log in. ``8888`` is "
+"a port in the ``server.ports`` parameter of the launch configuration."
 
-#: ../../index.rst:295
+#: ../docs-ru/index.rst:294
 msgid "Docker"
 msgstr "Docker"
 
-#: ../../index.rst:297
+#: ../docs-ru/index.rst:296
 msgid "Запуск приложения с использованием докер контейнера:"
 msgstr ""
-"Follow these steps to deploy docker container on the example of the develop-"
-"and-test application:"
+"Follow these steps to deploy docker container on the example of the "
+"develop-and-test application:"
 
-#: ../../index.rst:300
+#: ../docs-ru/index.rst:299
 msgid ""
 "Запустите СУБД mongodb: ``docker run --name mongodb -v "
 "mongodb_data:/data/db -p 27017:27017 -d mongo``"
 msgstr ""
-"Run mongodb DBMS: ``docker run --name mongodb -v mongodb_data:/data/db -p "
-"27017:27017 -d mongo``"
+"Run mongodb DBMS: ``docker run --name mongodb -v mongodb_data:/data/db -p"
+" 27017:27017 -d mongo``"
 
-#: ../../index.rst:301
+#: ../docs-ru/index.rst:300
 msgid ""
 "Запустите IONDV. develop-and-test  ``docker run -d -p 80:8888 --link "
 "mongodb iondv/develop-and-test``."
 msgstr ""
 "Run IONDV. develop-and-test ``docker run -d -p 80:8888 --link mongodb iondv/"
-"dnt``."
+"develop-and-test``."
 
-#: ../../index.rst:302
+#: ../docs-ru/index.rst:301
 msgid ""
 "Откройте ссылку ``http://localhost`` в браузере через минуту (время "
-"требуется для инициализации данных). Для бек офиса логин: **demo**\\ , "
-"пароль: **ion-demo**"
+"требуется для инициализации данных). Для авторизации используйте типовой "
+"логин: **demo**\\ , пароль: **ion-demo**"
 msgstr ""
-"Open the ``http://localhost`` link in the browser in a minute (it takes time "
-"to initialize the data). For back office login: **demo**\\, password: **ion-"
-"demo**"
+"Open the link ``http://localhost``in a browser in a minute (the time "
+"required for data initialization). For log in use the standard login: "
+"**demo**\\ , password: **ion-demo**"
 
-#: ../../index.rst:305
+#: ../docs-ru/index.rst:304
 msgid "Документация"
 msgstr "Documentation"
 
-#: ../../index.rst:307
+#: ../docs-ru/index.rst:306
 msgid ""
 "Документация по платформе IONDV.Framework доступна на двух языках  - "
 "`русский <https://iondv.readthedocs.io/ru/latest/index.html>`_ и `english"
 " <https://iondv.readthedocs.io/en/latest/index.html>`_."
 msgstr ""
-"The IONDV.Framework documentation is available in two languages — `english "
-"<https://iondv.readthedocs.io/en/latest/index.html>`_ and `russian "
-"<https://iondv.readthedocs.io/ru/latest/index.html>`_."
+"The IONDV.Framework documentation is available in two languages — "
+"`english <https://iondv.readthedocs.io/en/latest/index.html>`_ and "
+"`russian <https://iondv.readthedocs.io/ru/latest/index.html>`_."
 
-#: ../../index.rst:310
+#: ../docs-ru/index.rst:309
 msgid "Ссылки"
-msgstr "Reference"
+msgstr "Links"
 
-#: ../../index.rst:312
+#: ../docs-ru/index.rst:311
 msgid ""
 "Ниже представлены ссылки на дополнительную информацию по разработке "
 "приложений с использованием IONDV.Framework."
 msgstr ""
-"Some handy links to learn more information on developing applications using "
-"IONDV.Framework."
+"Links for additional information on developing applications using the IONDV."
+"Framework."
 
-#: ../../index.rst:315
+#: ../docs-ru/index.rst:313
 msgid "`Документация <https://iondv.readthedocs.io/ru/latest/index.html>`_"
-msgstr "`Documentations https://iondv.readthedocs.io/en/latest/index.html>`_"
+msgstr "`Documentation <https://iondv.readthedocs.io/en/latest/index.html>`_"
 
-#: ../../index.rst:316
+#: ../docs-ru/index.rst:314
 msgid "`Домашняя страница фреймворка <https://iondv.com/>`_"
-msgstr "`Homepage <https://iondv.com/>`_"
+msgstr "`Framework Homepage <https://iondv.com/>`_"
 
-#: ../../index.rst:317
+#: ../docs-ru/index.rst:315
 msgid "Обратная связь на `Facebook <https://www.facebook.com/iondv/>`_"
 msgstr "Feedback on `Facebook <https://www.facebook.com/iondv/>`_"
 
-#: ../../index.rst:322
+#: ../docs-ru/index.rst:316
+msgid ""
+"Обучающие видеоролики на `youtube <https://www.youtube.com/channel"
+"/UC_r2CGcOTfuV-7AXl6MwOqw>`_"
+msgstr ""
+"Video tutorials on `Youtube <https://www.youtube.com/channel/UC_r2CGcOTfuV-"
+"7AXl6MwOqw>`_"
+
+#: ../docs-ru/index.rst:322
 msgid ""
 "`License <https://github.com/iondv/framework/blob/master/LICENSE>`_"
 "                              `Contact us "
 "<https://iondv.com/portal/contacts>`_                              "
 "`English <https://iondv.readthedocs.io/en/latest/index.html>`_"
 msgstr ""
-"`License <https://github.com/iondv/framework/blob/master/LICENSE>`"
-"_                              `Contact us <https://iondv.com/portal/"
-"contacts>`_                              `English <https://iondv.readthedocs."
-"io/en/latest/index.html>`_"
+"`License <https://github.com/iondv/framework/blob/master/LICENSE>`_"
+"                              `Contact us "
+"<https://iondv.com/portal/contacts>`_                              "
+"`English <https://iondv.readthedocs.io/en/latest/index.html>`_"
 
-#: ../../index.rst:332
+#: ../docs-ru/index.rst:324
 msgid ""
-"Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
-"reserved."
+"Copyright (c) 2016-2020 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All "
+"rights reserved."
 msgstr ""
 "Copyright (c) 2018 **LLC \"ION DV\"**.\\ :raw-html-m2r:`<br>` All rights "
 "reserved."
+
+#~ msgid ""
+#~ "IONDV. Framework - это опенсорный "
+#~ "фреймворк на node.js для разработки "
+#~ "учетных приложений или микросервисов на "
+#~ "основе метаданных и отдельных модулей. "
+#~ "Он является частью инструментальной цифровой"
+#~ " платформы для создания enterprise (ERP)"
+#~ " приложений состоящей из опенсорсных "
+#~ "компонентов: самого `фреймворка "
+#~ "<https://github.com/iondv/framework>`_\\ , `модулей "
+#~ "<https://github.com/topics/iondv-module>`_ и готовых"
+#~ " приложений расширяющих его функциональность, "
+#~ "визуальной среды `Studio "
+#~ "<https://github.com/iondv/studio>`_ для разработки "
+#~ "метаданных приложений."
+#~ msgstr ""
+#~ "IONDV. Framework - is a node.js "
+#~ "open source framework for developing "
+#~ "accounting applications or microservices based"
+#~ " on metadata and individual modules. "
+#~ "Framework is a part of instrumental "
+#~ "digital platform to create enterprise "
+#~ "(ERP) apps. This platform consists of"
+#~ " the following open-source components: "
+#~ "the `IONDV. "
+#~ "Framework<https://github.com/iondv/framework>`_\\, the "
+#~ "`modules <https://github.com/topics/iondv-module>`_ "
+#~ "and ready-made applications expanding it"
+#~ " functionality, visual development environment"
+#~ " `Studio <https://github.com/iondv/studio>`_ to "
+#~ "create metadata for the app."
+
+#~ msgid ""
+#~ "**IONDV. Framework** — это инструмент "
+#~ "для создания веб-приложений, на основе "
+#~ "метаданных без программирования. Можно "
+#~ "изменять и дополнять систему с помощью"
+#~ " наращивания дополнительной функциональности в"
+#~ " виде модулей. Есть готовые модули, "
+#~ "но ничто не ограничевает вас создать "
+#~ "свои собственные и персонализировать "
+#~ "приложение."
+#~ msgstr ""
+#~ "**IONDV. Framework** — is a tool "
+#~ "for creating high-level web applications"
+#~ " based on metadata. You can change"
+#~ " the system by adding the additional"
+#~ " components to change functionality. There"
+#~ " are ready-made modules, but nothing"
+#~ " limits you to create new ones "
+#~ "to personalize the application. Moreover, "
+#~ "it's low-code framework."
+
+#~ msgid ""
+#~ "Основное предназначение - реализация "
+#~ "сложносоставных систем реестра данных. Основу"
+#~ " функциональности составляет реестр данных "
+#~ "— модуль Регистри. Это ключевой модуль,"
+#~ " предназначенный непосредственно для работы "
+#~ "с данными на основе структур метаданных"
+#~ " – в том числе по ведению "
+#~ "проектов, программ, мероприятий и др."
+#~ msgstr ""
+#~ "The main purpose is the implementation"
+#~ " of complex data registry systems. "
+#~ "The functional base is the data "
+#~ "registry - the Registry module. This "
+#~ "is a key module designed specifically"
+#~ " to work with data based on "
+#~ "metadata structures - including the "
+#~ "management of projects, programs, activities,"
+#~ " etc."
+
+#~ msgid ""
+#~ "**IONDV. Framework** это фреймворк с "
+#~ "открытым исходным кодом на JavaScript и"
+#~ " открытой структурой метаданных в формате"
+#~ " JSON."
+#~ msgstr ""
+#~ "**IONDV. Framework** is an open source"
+#~ " software in JavaScript with open "
+#~ "metadata structure in human-readable "
+#~ "JSON files."
+
+#~ msgid "Как спроектировать приложение?"
+#~ msgstr "How to design an application?"
+
+#~ msgid "**Что?** Бизнес-приложение любого класса."
+#~ msgstr "**What?** Business application of any class."
+
+#~ msgid ""
+#~ "**Как?** Описать данные и примененить "
+#~ "готовые модули с возможностью корректировки"
+#~ " под конкретные задачи."
+#~ msgstr ""
+#~ "**How?** Describe the data and apply "
+#~ "ready-made modules that you can "
+#~ "adjust for specific tasks."
+
+#~ msgid ""
+#~ "В квадратных рамках - *ioncore*\\ , "
+#~ "*meta class*\\ , *meta view*\\ , "
+#~ "*meta navigation* и *registry module* -"
+#~ " это база простейшего приложения. Чуть "
+#~ "ниже представлены дополнительные типы меты "
+#~ "и модули. Они представляют собой "
+#~ "дополнительную функциональность и применяются "
+#~ "в соответствии с приложением. Зависимости "
+#~ "приложения смотрим в файле ``package.json``."
+#~ msgstr ""
+#~ "In the square frames - *ioncore*\\, "
+#~ "*meta class*\\, *meta view*\\, *meta "
+#~ "navigation* и *registry module* - are"
+#~ " the base of the simplest "
+#~ "application. Below are additional types "
+#~ "of meta and modules. They represent "
+#~ "additional functionality and could be "
+#~ "applied in accordance with the "
+#~ "application. Look for the application "
+#~ "dependencies in the ``package.json`` file."
+
+#~ msgid ""
+#~ "Каркас для создания приложений, как "
+#~ "уровня предприятия, так и узкофункциональных"
+#~ " - от портала до аналитики:"
+#~ msgstr ""
+#~ "We give you a frame for creating"
+#~ " applications in JavaScript, both "
+#~ "enterprise level and highly functional -"
+#~ " from the portal to analytics:"
+
+#~ msgid "Управление документами;"
+#~ msgstr "Document Management;"
+
+#~ msgid "Бухгалтерский учет и отчетность;"
+#~ msgstr "Accounting and Reporting;"
+
+#~ msgid "Управление ресурсами предприятия;"
+#~ msgstr "Enterprise Resource Management;"
+
+#~ msgid "Управление рабочим процессом и проектной деятельностью;"
+#~ msgstr "Workflow Management and Project Activities;"
+
+#~ msgid "Сбор данных;"
+#~ msgstr "Data Capture;"
+
+#~ msgid "Бизнес-аналитика;"
+#~ msgstr "Business Analytics;"
+
+#~ msgid "Системная интеграция."
+#~ msgstr "System Integration."
+
+#~ msgid ""
+#~ "`DNT <https://dnt.iondv.com/auth>`_ - наше "
+#~ "приложение для разработки и тестирования, "
+#~ "на основе которого внедряются и "
+#~ "тестируются новые метакомпоненты. Практически "
+#~ "все элементы системы находятся в "
+#~ "приложении DNT.\\ `GitHub Репозиторий "
+#~ "<github.com/iondv/develop-and-test>`_."
+#~ msgstr ""
+#~ "`DNT <https://dnt.iondv.com/auth>`_ - is our"
+#~ " application for development and testing,"
+#~ " on the basis of which new meta"
+#~ " components are implemented and tested. "
+#~ "So almost all elements of the "
+#~ "system are in the DNT app. \\ "
+#~ "`GitHub Repo <github.com/iondv/develop-and-"
+#~ "test>`_."
+
+#~ msgid "архив с собранным приложением"
+#~ msgstr "archive with the already built application"
+
+#~ msgid "На видео технология разработки и сборки приложения. .. raw:: html"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<iframe width=\"560\" height=\"315\" "
+#~ "src=\"https://www.youtube.com/embed/s7q9_YXkeEo\" "
+#~ "frameborder=\"0\" allowfullscreen></iframe>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Фреймворка - конструктор веб-приложений любой"
+#~ " специфики, так как преметная область "
+#~ "определяется структурой метаданных, описывающих "
+#~ "поведение приложение. Например можно создать"
+#~ " приложения * CRM - управления "
+#~ "отношения с клиентами; * учет и "
+#~ "управление ресурсов предприятия; * "
+#~ "автоматизация бизнес-процессов организации и "
+#~ "документооборота; * сбор и хранение "
+#~ "любых данных, например метрик оборудования "
+#~ "(IoT); * представление данных в виде "
+#~ "порталов; * REST-API для SPA "
+#~ "приложений; * REST-API и бекграунд "
+#~ "для мобильных приложений;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Фреймворка - конструктор веб-приложений любой"
+#~ " специфики, так как преметная область "
+#~ "определяется структурой метаданных, описывающих "
+#~ "поведение приложение. Например можно создать"
+#~ " приложения"
+#~ msgstr ""
