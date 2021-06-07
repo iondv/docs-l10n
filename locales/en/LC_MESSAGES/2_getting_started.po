@@ -551,8 +551,8 @@ msgstr "setup.js"
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:39
 #: ../docs-ru/2_getting_started/how_to_deploy/files_in_bin_folder.rst:13
-msgid "NB. Запускаются локально из папки framework, шаблоны команд указаны в разделах с описанием назначения скрипта."
-msgstr "NB. Run locally from the framework folder, command templates are listed in the sections describing the purpose of the script."
+msgid "   NB. Запускаются локально из папки framework, шаблоны команд указаны в разделах с описанием назначения скрипта."
+msgstr "   NB. Run locally from the framework folder, command templates are listed in the sections describing the purpose of the script."
 
 #: ../docs-ru/2_getting_started/how_to_deploy/3_build_and_run.rst:35
 msgid "www.js"
